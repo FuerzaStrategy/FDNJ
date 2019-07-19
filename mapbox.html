@@ -404,25 +404,50 @@
 
     //------------------ Align Maps To Same Centers/Zoom -----------------//
 
-
-    map_prev.on('drag', function () {
-        map_origin = map_prev.getCenter()
-        map_scale = map_prev.getZoom()
-        map_curr.flyTo({
-            center: map_origin,
-            zoom: map_scale
-        });
-
+    var disable = false;
+    map_prev.on('move', function () {
+        if (!disable) {
+            map_origin = map_prev.getCenter()
+            map_scale = map_prev.getZoom()
+            disable = true;
+            map_curr.setCenter(map_origin)
+            map_curr.setZoom(map_scale)
+            disable = false;
+        }
     })
 
     map_prev.on('zoom', function () {
-        map_origin = map_prev.getCenter()
-        map_scale = map_prev.getZoom()
-        map_curr.flyTo({
-            center: map_origin,
-            zoom: map_scale
-        });
+        if (!disable) {
+            map_origin = map_prev.getCenter()
+            map_scale = map_prev.getZoom()
+            disable = true;
+            map_curr.setCenter(map_origin)
+            map_curr.setZoom(map_scale)
+            disable = false;
+        }
+    })
 
+    map_curr.on('move', function () {
+        if (!disable) {
+            map_origin = map_curr.getCenter()
+            map_scale = map_curr.getZoom()
+            disable = true;
+            map_prev.setCenter(map_origin)
+            map_prev.setZoom(map_scale)
+            disable = false;
+        }
+
+    })
+
+    map_curr.on('zoom', function () {
+        if (!disable) {
+            map_origin = map_curr.getCenter()
+            map_scale = map_curr.getZoom()
+            disable = true;
+            map_prev.setCenter(map_origin)
+            map_prev.setZoom(map_scale)
+            disable = false;
+        }
     })
 
 

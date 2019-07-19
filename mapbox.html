@@ -19,6 +19,7 @@
         body { 
             margin: 0; 
             padding: 0; 
+            font-family: Arial, 'sans-serif'
         }
 
         .map {
@@ -30,18 +31,65 @@
         }
 
         #previous_header {
+            margin-top: 0;
+            margin-left: 5%;
             display: inline-block;
             float: left;
-            width: var(--view-width);
+            width: calc(var(--view-width) - 5%);
             text-align: center;
+            font-weight: bold;
+            color: white;
+            line-height: 50px;
+            font-size: 24px;
         }
 
 
         #current_header {
+            margin-top: 0;
+            margin-right: 5%;
             display: inline-block;
             float: right;
-            width: var(--view-width);
+            width: calc(var(--view-width) - 5%);
             text-align: center;
+            font-weight: bold;
+            color: white;
+            line-height: 50px;
+            font-size: 24px;
+        }
+
+        .form {
+            width: 90%;
+            margin-left: 5%;
+            margin-bottom: 25px;
+        }
+
+        .zipInput {
+            border: 0;
+            border-bottom: 1px solid black;
+            outline: 0;
+            width: 200px;
+            font-size: 18px;
+        }
+
+        .zipSubmit {
+            background: #87859f;
+            font-size: 15px;
+            color: white;
+            padding: 5px 10px 5px 10px;
+        }
+
+        .zipSubmit:hover {
+            cursor: pointer;
+            background: #7d7b94;
+        }
+
+        #errorMessage {
+            font-size: 18px;
+            padding-left: 5%;
+            margin-bottom: 15px;
+            line-height: 18px;
+            height:18px;
+            width:100%;
         }
 
         #map_curr {
@@ -52,20 +100,29 @@
             float: left;
         }
 
+        .maps {
+            width: 90%;
+            margin-left: 5%;
+        }
+
     </style>
 </head>
 <body>
 
 <div id='main_field'>
-    <p id='previous_header'> Previous Districting </p>
-    <p id='current_header'> Current Districting </p>
-    <form name="myform" action="javascript:handleIt(zip.value)">
-        <input name="zip" id="zip" type="text" placeholder="Enter Zip"/>
-        <input name="Submit"  type="submit" value="Update"/>
+    <div style='width: 100%; height: 50px; background: #87859f;'>
+        <p id='previous_header'> Previous Districting </p>
+        <p id='current_header'> Current Districting </p>
+    </div>
+    <form class='form' name="myform" action="javascript:handleIt(zip.value)">
+        <input class='zipInput' name="zip" id="zip" type="text" placeholder="Enter Zip"/>
+        <input class='zipSubmit' name="Submit"  type="submit" value="Search"/>
     </form>
     <div id='errorMessage'></div>
-    <div class='map' id='map_prev'></div>
-    <div class='map' id='map_curr'></div>
+    <div class='maps'>
+        <div class='map' id='map_prev'></div>
+        <div class='map' id='map_curr'></div>
+    </div>
 </div>
 
 
@@ -95,13 +152,13 @@
     function handleIt(zip) {
         var isNumbers = /^\d+$/.test(zip);
         if(!isNumbers)
-            $("#errorMessage").text("Please Enter a Valid Zip Code");
+            $("#errorMessage").text("Please Enter a Valid Zip Code in New Jersey");
         else
             $("#errorMessage").text("");
 
         var coordinates = ZtC[zip]
         if(coordinates == null)
-            $("#errorMessage").text("Please Enter a Valid Zip Code");
+            $("#errorMessage").text("Please Enter a Valid Zip Code in New Jersey");
         else {
 
             //zip = NJ_Zip[Math.trunc(Math.random() * NJ_Zip.length)]

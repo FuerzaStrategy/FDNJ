@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>GeoJSON Test</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+
+        :root {
+            --top-push: 50px;
+            --view-width: calc(50% - 10px);
+            --view-height: 500px;
+        }
+
+        body { 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .map {
+            margin: 0;
+            padding: 0;
+            width: var(--view-width);
+            height: var(--view-height);
+            display: inline-block;
+        }
+
+        #previous_header {
+            display: inline-block;
+            float: left;
+            width: var(--view-width);
+            text-align: center;
+        }
+
+
+        #current_header {
+            display: inline-block;
+            float: right;
+            width: var(--view-width);
+            text-align: center;
+        }
+
+        #map_curr {
+            float: right;
+        }
+
+        #map_prev {
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id='main_field'>
+    <p id='previous_header'> Previous Districting </p>
+    <p id='current_header'> Current Districting </p>
+    <form name="myform" action="javascript:handleIt(zip.value)">
+        <input name="zip" id="zip" type="text" placeholder="Enter Zip"/>
+        <input name="Submit"  type="submit" value="Update"/>
+    </form>
+    <div id='errorMessage'></div>
+    <div class='map' id='map_prev'></div>
+    <div class='map' id='map_curr'></div>
+</div>
+
+
+<script>
+
+    var ZtC = {}
+    var NJ_Zip = []
+    var LegislativeDataCurrent = {}
+    var LegislativeDataPast = {}
+    var old_n = 40;
+    var new_n = 40;
+    var LegislativeDataPast_Districts = {}
+    var LegislativeDataCurrent_Districts = {}
+    var currentHighlight_old = 0
+    var currentHighlight_new = 0
+    var polygons_old = Array(old_n).fill(0)
+    var polygons_new = Array(new_n).fill(0)
+
+    $.getJSON("data/zip_to_coordinate.json", function(data) {
+        ZtC = data
+    })
+
+    $.getJSON("data/nj_zip_codes.json", function(data) {
+        NJ_Zip = data["zips"]
+    })
+
+    function handleIt(zip) {
+        var isNumbers = /^\d+$/.test(zip);
+        if(!isNumbers)
+            $("#errorMessage").text("Please Enter a Valid Zip Code");
+        else
+            $("#errorMessage").text("");
+
+        var coordinates = ZtC[zip]
+        if(coordinates == null)
+            $("#errorMessage").text("Please Enter a Valid Zip Code");
+        else {
+
+            //zip = NJ_Zip[Math.trunc(Math.random() * NJ_Zip.length)]
+            var coordinates = ZtC[zip]
+            if(!NJ_Zip.includes(zip))
+                $("#errorMessage").text("Please Enter a Valid Zip Code in New Jersey");
+
+            else {
+                var lat = parseFloat(coordinates["lat"])
+                var lon = parseFloat(coordinates["lon"])
+
+                map_origin = [lon, lat]
+
+                map_prev.flyTo({
+                    center: map_origin,
+                    zoom: map_scale
+                });
+
+                map_curr.flyTo({
+                    center: map_origin,
+                    zoom: map_scale
+                });
+
+                var relatedFeatures = map_prev.querySourceFeatures('route', {
+                    sourceLayer: 'route-layer',
+                    filter: ["==", 'type', 'Feature']
+                });
+
+                var point = turf.point([lon, lat]);
+                var old_index = 0;
+                for(var i = 1; i <= old_n; i++) {
+                    if(polygons_old[i] != 0) {
+                        for(var k = 0; k < polygons_old[i].length; k++) {
+                            var test = turf.inside(point, polygons_old[i][k]);
+                            if(test)
+                                old_index = i
+                        }
+                    }
+                }
+                var new_index = 0;
+                for(var i = 1; i <= new_n; i++) {
+                    if(polygons_new[i] != 0) {
+                        for(var l = 0; l < polygons_new[i].length; l++) {
+                            var test = turf.inside(point, polygons_new[i][l]);
+                            if(test)
+                                new_index = i
+                        }
+                    }
+                }
+
+
+                if(currentHighlight_old > 0)
+                    map_prev.setPaintProperty('route-fills-' + currentHighlight_old.toString(), 'fill-opacity', 0.3);
+                if(currentHighlight_new > 0)
+                    map_curr.setPaintProperty('route-fills-' + currentHighlight_new.toString(), 'fill-opacity', 0.3);
+                currentHighlight_old = old_index
+                currentHighlight_new = new_index
+                map_prev.setPaintProperty('route-fills-' + old_index.toString(), 'fill-opacity', 1);
+                map_curr.setPaintProperty('route-fills-' + new_index.toString(), 'fill-opacity', 1);
+            }
+            
+        }
+    }
+
+
+    $.getJSON("data/NJ_Legislative.geojson", function(json) {
+        LegislativeDataCurrent = json
+    });
+
+    $.getJSON("data/NJ_Legislative_Old.geojson", function(json) {
+        LegislativeDataPast = json
+    });
+
+    for(var i = 1; i <= old_n; i++) {
+        $.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson", function(json_old) {
+            var id = json_old["features"][0]["properties"]["ID"]
+            LegislativeDataPast_Districts[id] = json_old
+            var coordinates = json_old["features"][0]["geometry"]["coordinates"]
+            var polygons_group = []
+            if(coordinates.length == 1 || id == "31") {
+                polygons_group.push( turf.polygon( coordinates, { name: 'poly1'} ))
+                polygons_old[parseInt(id)] = polygons_group
+            }
+            else {
+
+                for(var k = 0; k < coordinates.length; k++) {
+                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
+                }
+                polygons_old[parseInt(id)] = polygons_group
+                
+            }
+        });
+    }
+
+    
+    for(var j = 1; j <= new_n; j++) {
+        $.getJSON("data/NJ_Legislative/District_" + j.toString() + ".geojson", function(json_new) {
+            var object_id = json_new["features"][0]["properties"]["OBJECTID"]
+            LegislativeDataCurrent_Districts[object_id.toString()] = json_new
+            var coordinatesNew = json_new["features"][0]["geometry"]["coordinates"]
+            var polygons_group = []
+            
+            if(coordinatesNew.length == 1 || object_id == "34") {
+                polygons_group.push( turf.polygon( coordinatesNew, { name: 'poly1'} ))
+                polygons_new[object_id] = polygons_group
+            }
+            else {
+
+                for(var l = 0; l < coordinatesNew.length; l++) {
+                    polygons_group.push( turf.polygon( coordinatesNew[l], { name: 'poly1'} ) )
+                }
+                polygons_new[object_id] = polygons_group
+                
+            }
+        });
+    } 
+
+
+    
+    mapboxgl.accessToken = 'pk.eyJ1Ijoib2RhZGZhciIsImEiOiJjand6aG00dzUwZjE3NDJzOGo3d3NvZ3hvIn0.5Lz_ra7BMSKBMcL7JMhG-Q';
+
+    map_origin = [-74.53734351262877, 40.137451890638886]
+    map_scale = 6.3
+
+
+    var map_prev = new mapboxgl.Map({
+        container: 'map_prev',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: map_origin,
+        zoom: map_scale
+    });
+
+    map_prev.on('load', function () {
+
+        map_prev.addSource('route', {
+          type: 'geojson',
+          data: LegislativeDataPast
+        });
+
+
+        for(var i = 1; i <= old_n; i++) {
+            i_str = i.toString()
+            map_prev.addSource('route_old_' + i_str, {
+              type: 'geojson',
+              data: LegislativeDataPast_Districts[i_str]
+            });
+
+        }
+        
+
+        map_prev.addLayer({
+            "id": "route",
+            "type": "line",
+            "source": "route",
+            "sourcelayer": "route-layer",
+            "layout": {
+                "line-join": "round",
+                "line-cap": "round"
+            },
+            "paint": {
+                "line-color": "#888",
+                "line-width": 1
+            }
+        });
+
+        for(var i = 1; i <= old_n; i++) {
+            map_prev.addLayer({
+                "id": "route-fills-" + i.toString(),
+                "type": "fill",
+                "source": "route_old_" + i.toString(),
+                "layout": {},
+                "paint": {
+                    "fill-color": "#627BC1",
+                    "fill-opacity": 0.3
+                }
+            });
+
+        }
+
+
+
+
+    });
+
+
+    var map_curr = new mapboxgl.Map({
+        container: 'map_curr',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: map_origin,
+        zoom: map_scale
+    });
+
+    map_curr.on('load', function () {
+
+        map_curr.addSource('route', {
+          type: 'geojson',
+          data: LegislativeDataCurrent
+        });
+
+        
+        for(var j = 1; j <= new_n; j++) {
+            j_str = j.toString()
+            map_curr.addSource('route_new_' + j_str, {
+              type: 'geojson',
+              data: LegislativeDataCurrent_Districts[j_str]
+            });
+
+        }
+        
+
+        map_curr.addLayer({
+            "id": "route",
+            "type": "line",
+            "source": "route",
+            "layout": {
+                "line-join": "round",
+                "line-cap": "round"
+            },
+            "paint": {
+                "line-color": "#888",
+                "line-width": 1
+            }
+        });
+
+        
+        for(var j = 1; j <= new_n; j++) {
+            map_curr.addLayer({
+                "id": "route-fills-" + j.toString(),
+                "type": "fill",
+                "source": "route_new_" + j.toString(),
+                "layout": {},
+                "paint": {
+                    "fill-color": "#627BC1",
+                    "fill-opacity": 0.3
+                }
+            });
+
+        } 
+
+    });
+
+
+
+    //------------------ Align Maps To Same Centers/Zoom -----------------//
+
+
+    map_prev.on('drag', function () {
+        map_origin = map_prev.getCenter()
+        map_scale = map_prev.getZoom()
+        map_curr.flyTo({
+            center: map_origin,
+            zoom: map_scale
+        });
+
+    })
+
+    map_prev.on('zoom', function () {
+        map_origin = map_prev.getCenter()
+        map_scale = map_prev.getZoom()
+        map_curr.flyTo({
+            center: map_origin,
+            zoom: map_scale
+        });
+
+    })
+
+
+</script>
+
+
+
+</body>
+</html>

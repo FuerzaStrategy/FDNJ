@@ -120,6 +120,29 @@
             margin-top: 0;
         }
 
+        .map_prev_info {
+            margin-left: 5%;
+            width: calc(var(--view-width) - 5%);
+            text-align: center;
+            float: left;
+            display: inline-block;
+            background: #f5f5f5;
+        }
+
+        .map_curr_info {
+            margin-right: 5%;
+            display: inline-block;
+            float: right;
+            width: calc(var(--view-width) - 5%);
+            text-align: center;
+            display: inline-block;
+            background: #f5f5f5;
+        }
+
+        .info_title {
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
@@ -142,12 +165,45 @@
         <div class='map' id='map_prev'></div>
         <div class='map' id='map_curr'></div>
     </div>
+    <div>
+        <div class='map_prev_info'>
+            <p id='city_prev'>City:</p>
+            <p class='info_title'>Voters</p>
+            <p id='voters_prev'>Voter Population:</p>
+            <p id='democratic_prev'>Democratic Voters:</p>
+            <p id='republican_prev'>Republican Voters:</p>
+            <p class='info_title'>Census</p>
+            <p id='population_prev'>Estimated Population:</p>
+            <p id='african_prev'>African Percentage:</p>
+            <p id='asian_prev'>Asian Percentage:</p>
+            <p id='hispanic_prev'>Hispanic Percentage:</p>
+            <p class='info_title'>Fiscal</p>
+            <p id='taxable_prev'>Per Capital Taxable Property Value:</p>
+        </div>
+        <div class='map_curr_info'>
+            <p id='city_curr'>City:</p>
+            <p class='info_title'>Voters</p>
+            <p id='voters_curr'>Voter Population:</p>
+            <p id='democratic_curr'>Democratic Voters:</p>
+            <p id='republican_curr'>Republican Voters:</p>
+            <p class='info_title'>Census</p>
+            <p id='population_curr'>Estimated Population:</p>
+            <p id='african_curr'>African Percentage:</p>
+            <p id='asian_curr'>Asian Percentage:</p>
+            <p id='hispanic_curr'>Hispanic Percentage:</p>
+            <p class='info_title'>Fiscal</p>
+            <p id='taxable_curr'>Per Capital Taxable Property Value:</p>
+        </div>
+    </div>
 </div>
 
 
 <script>
 
     var ZtC = {}
+    var ZtName = {}
+    var data_2000 = {}
+    var data_2010 = {}
     var NJ_Zip = []
     var LegislativeDataCurrent = {}
     var LegislativeDataPast = {}
@@ -162,6 +218,18 @@
 
     $.getJSON("data/zip_to_coordinate.json", function(data) {
         ZtC = data
+    })
+
+    $.getJSON("data/nj_zip_codes_to_towns.json", function(data) {
+        ZtName = data
+    })
+
+    $.getJSON("data/2000_data.json", function(data) {
+        data_2000 = data
+    })
+
+    $.getJSON("data/2010_data.json", function(data) {
+        data_2010 = data
     })
 
     $.getJSON("data/nj_zip_codes.json", function(data) {
@@ -182,6 +250,9 @@
 
             //zip = NJ_Zip[Math.trunc(Math.random() * NJ_Zip.length)]
             var coordinates = ZtC[zip]
+            var townName = ZtName[zip]
+            var data_from_2000 = data_2000[townName]
+            var data_from_2010 = data_2010[townName]
             if(!NJ_Zip.includes(zip))
                 $("#errorMessage").text("Please Enter a Valid Zip Code in New Jersey");
 
@@ -238,6 +309,54 @@
 
                 $('#previous_district_number').text("Showing District " + old_index.toString())
                 $('#current_district_number').text("Showing District " + new_index.toString())
+
+                if(data_from_2000 == undefined) {
+                    $('#city_prev').text("City: " + townName)
+                    $('#voters_prev').text("Voter Population: N/A")
+                    $('#democratic_prev').text("Democratic Voters: N/A")
+                    $('#republican_prev').text("Republican Voters: N/A")
+                    $('#population_prev').text("Estimated Population: N/A")
+                    $('#african_prev').text("African Percentage: N/A")
+                    $('#asian_prev').text("Asian Percentage: N/A")
+                    $('#hispanic_prev').text("Hispanic Percentage: N/A")
+                    $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
+                }
+
+                else {
+                    $('#city_prev').text("City: " + townName)
+                    $('#voters_prev').text("Voter Population: " + data_from_2000['voters'])
+                    $('#democratic_prev').text("Democratic Voters: " + data_from_2000['democratic'] + "%")
+                    $('#republican_prev').text("Republican Voters: " + data_from_2000['republican'] + "%")
+                    $('#population_prev').text("Estimated Population: " + data_from_2000['population'])
+                    $('#african_prev').text("African Percentage: " + data_from_2000['african'] + "%")
+                    $('#asian_prev').text("Asian Percentage: " + data_from_2000['asian'] + "%")
+                    $('#hispanic_prev').text("Hispanic Percentage: " + data_from_2000['hispanic'] + "%")
+                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])
+                }
+
+                if(data_from_2010 == undefined) {
+                    $('#city_curr').text("City: " + townName)
+                    $('#voters_curr').text("Voter Population: N/A")
+                    $('#democratic_curr').text("Democratic Voters: N/A")
+                    $('#republican_curr').text("Republican Voters: N/A")
+                    $('#population_curr').text("Estimated Population: N/A")
+                    $('#african_curr').text("African Percentage: N/A")
+                    $('#asian_curr').text("Asian Percentage: N/A")
+                    $('#hispanic_curr').text("Hispanic Percentage: N/A")
+                    $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
+                }
+
+                else {
+                    $('#city_curr').text("City: " + townName)
+                    $('#voters_curr').text("Voter Population: " + data_from_2010['voters'])
+                    $('#democratic_curr').text("Democratic Voters: " + data_from_2010['democratic'] + "%")
+                    $('#republican_curr').text("Republican Voters: " + data_from_2010['republican'] + "%")
+                    $('#population_curr').text("Estimated Population: " + data_from_2010['population'])
+                    $('#african_curr').text("African Percentage: " + data_from_2010['african'] + "%")
+                    $('#asian_curr').text("Asian Percentage: " + data_from_2010['asian'] + "%")
+                    $('#hispanic_curr').text("Hispanic Percentage: " + data_from_2010['hispanic'] + "%")
+                    $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
+                }
 
                 map_prev.setPaintProperty('route-fills-' + old_index.toString(), 'fill-opacity', 0.5);
                 map_curr.setPaintProperty('route-fills-' + new_index.toString(), 'fill-opacity', 0.5);

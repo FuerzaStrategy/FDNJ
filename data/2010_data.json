@@ -1,0 +1,5482 @@
+{
+    "Aberdeen": {
+        "african": "11.87",
+        "asian": "6.43",
+        "democratic": "27.98",
+        "hispanic": "10.43",
+        "population": "18,210",
+        "republican": "17.73",
+        "taxable": "118,103",
+        "voters": "11,430"
+    },
+    "Absecon": {
+        "african": "9.89",
+        "asian": "7.93",
+        "democratic": "23.78",
+        "hispanic": "7.5",
+        "population": "8,411",
+        "republican": "30.31",
+        "taxable": "113,241",
+        "voters": "5,757"
+    },
+    "Alexandria": {
+        "african": "2",
+        "asian": "1.82",
+        "democratic": "15.65",
+        "hispanic": "3.22",
+        "population": "4,938",
+        "republican": "42.55",
+        "taxable": "172,020",
+        "voters": "3,445"
+    },
+    "Allamuchy": {
+        "african": "1.78",
+        "asian": "2.73",
+        "democratic": "16.9",
+        "hispanic": "4.49",
+        "population": "4,323",
+        "republican": "39.3",
+        "taxable": "151,007",
+        "voters": "3,160"
+    },
+    "Allendale": {
+        "african": "0.51",
+        "asian": "9.64",
+        "democratic": "19.16",
+        "hispanic": "4.67",
+        "population": "6,505",
+        "republican": "37.06",
+        "taxable": "267,684",
+        "voters": "4,410"
+    },
+    "Allenhurst": {
+        "african": "1.01",
+        "asian": "1.01",
+        "democratic": "18.2",
+        "hispanic": "4.44",
+        "population": "496",
+        "republican": "30.83",
+        "taxable": "1,340,382",
+        "voters": "412"
+    },
+    "Allentown": {
+        "african": "4.43",
+        "asian": "1.53",
+        "democratic": "25.6",
+        "hispanic": "3.56",
+        "population": "1,828",
+        "republican": "26.29",
+        "taxable": "115,358",
+        "voters": "1,297"
+    },
+    "Alloway": {
+        "african": "5.08",
+        "asian": "0.89",
+        "democratic": "22.69",
+        "hispanic": "1.96",
+        "population": "3,467",
+        "republican": "26.04",
+        "taxable": "89,227",
+        "voters": "2,243"
+    },
+    "Alpha": {
+        "african": "2.41",
+        "asian": "1.52",
+        "democratic": "38.41",
+        "hispanic": "5.28",
+        "population": "2,369",
+        "republican": "20.88",
+        "taxable": "94,405",
+        "voters": "1,437"
+    },
+    "Alpine": {
+        "african": "2.38",
+        "asian": "26.07",
+        "democratic": "25.02",
+        "hispanic": "4.81",
+        "population": "1,849",
+        "republican": "27.43",
+        "taxable": "1,315,600",
+        "voters": "1,286"
+    },
+    "Andover": {
+        "african": "1.16",
+        "asian": "2.15",
+        "democratic": "26.82",
+        "hispanic": "7.59",
+        "population": "606",
+        "republican": "38.1",
+        "taxable": "125,886",
+        "voters": "399"
+    },
+    "Andover Twp": {
+        "african": "3.37",
+        "asian": "2.6",
+        "democratic": "15.28",
+        "hispanic": "5.14",
+        "population": "6,319",
+        "republican": "45.9",
+        "taxable": "133,276",
+        "voters": "3,959"
+    },
+    "Asbury Park": {
+        "african": "51.35",
+        "asian": "0.48",
+        "democratic": "35.66",
+        "hispanic": "25.53",
+        "population": "16,116",
+        "republican": "6.09",
+        "taxable": "88,982",
+        "voters": "7,843"
+    },
+    "Atlantic City": {
+        "african": "38.29",
+        "asian": "15.55",
+        "democratic": "58.64",
+        "hispanic": "30.45",
+        "population": "39,558",
+        "republican": "7.64",
+        "taxable": "408,624",
+        "voters": "22,159"
+    },
+    "Atlantic Highlands": {
+        "african": "1.44",
+        "asian": "2.17",
+        "democratic": "25.52",
+        "hispanic": "5.13",
+        "population": "4,385",
+        "republican": "24.69",
+        "taxable": "183,644",
+        "voters": "3,362"
+    },
+    "Audubon": {
+        "african": "1.44",
+        "asian": "1.13",
+        "democratic": "38.61",
+        "hispanic": "3.29",
+        "population": "8,819",
+        "republican": "17.79",
+        "taxable": "84,976",
+        "voters": "6,256"
+    },
+    "Audubon Park": {
+        "african": "0.29",
+        "asian": "0.29",
+        "democratic": "66.21",
+        "hispanic": "2.05",
+        "population": "1,023",
+        "republican": "6.88",
+        "taxable": "19,391",
+        "voters": "804"
+    },
+    "Avalon": {
+        "african": "0.3",
+        "asian": "0.22",
+        "democratic": "15.48",
+        "hispanic": "2.17",
+        "population": "1,334",
+        "republican": "51.65",
+        "taxable": "6,104,784",
+        "voters": "1,353"
+    },
+    "Avon By The Sea": {
+        "african": "0.32",
+        "asian": "0.63",
+        "democratic": "25.37",
+        "hispanic": "3.73",
+        "population": "1,901",
+        "republican": "27.99",
+        "taxable": "527,439",
+        "voters": "1,490"
+    },
+    "Barnegat Light": {
+        "african": "1.05",
+        "asian": "0",
+        "democratic": "15.35",
+        "hispanic": "1.92",
+        "population": "574",
+        "republican": "52.43",
+        "taxable": "1,909,442",
+        "voters": "658"
+    },
+    "Barnegat Twp": {
+        "african": "3.25",
+        "asian": "1.73",
+        "democratic": "21.45",
+        "hispanic": "6.78",
+        "population": "20,936",
+        "republican": "25.13",
+        "taxable": "121,159",
+        "voters": "14,901"
+    },
+    "Barrington": {
+        "african": "5.13",
+        "asian": "1.69",
+        "democratic": "37.82",
+        "hispanic": "5.44",
+        "population": "6,983",
+        "republican": "17.94",
+        "taxable": "82,378",
+        "voters": "4,834"
+    },
+    "Bass River": {
+        "african": "0.28",
+        "asian": "0.76",
+        "democratic": "20.86",
+        "hispanic": "3.12",
+        "population": "1,443",
+        "republican": "32.67",
+        "taxable": "132,501",
+        "voters": "926"
+    },
+    "Bay Head": {
+        "african": "0.52",
+        "asian": "0.72",
+        "democratic": "13.66",
+        "hispanic": "1.03",
+        "population": "968",
+        "republican": "53.73",
+        "taxable": "1,683,696",
+        "voters": "871"
+    },
+    "Bayonne": {
+        "african": "8.86",
+        "asian": "7.71",
+        "democratic": "52.47",
+        "hispanic": "25.79",
+        "population": "63,024",
+        "republican": "8.35",
+        "taxable": "91,888",
+        "voters": "32,721"
+    },
+    "Beach Haven": {
+        "african": "0.34",
+        "asian": "0.77",
+        "democratic": "17.42",
+        "hispanic": "9.91",
+        "population": "1,170",
+        "republican": "33.49",
+        "taxable": "1,744,588",
+        "voters": "1,045"
+    },
+    "Beachwood": {
+        "african": "1.79",
+        "asian": "1.5",
+        "democratic": "19.72",
+        "hispanic": "8.13",
+        "population": "11,045",
+        "republican": "24.56",
+        "taxable": "91,327",
+        "voters": "6,959"
+    },
+    "Bedminster": {
+        "african": "2.06",
+        "asian": "8.68",
+        "democratic": "19.9",
+        "hispanic": "6.36",
+        "population": "8,165",
+        "republican": "36.13",
+        "taxable": "329,052",
+        "voters": "6,336"
+    },
+    "Belleville": {
+        "african": "9.12",
+        "asian": "12",
+        "democratic": "37.18",
+        "hispanic": "39.34",
+        "population": "35,926",
+        "republican": "14.03",
+        "taxable": "96,348",
+        "voters": "19,492"
+    },
+    "Bellmawr": {
+        "african": "2.46",
+        "asian": "5.86",
+        "democratic": "46.68",
+        "hispanic": "7.68",
+        "population": "11,583",
+        "republican": "11.31",
+        "taxable": "73,920",
+        "voters": "7,443"
+    },
+    "Belmar": {
+        "african": "3.49",
+        "asian": "0.91",
+        "democratic": "28.48",
+        "hispanic": "16.76",
+        "population": "5,794",
+        "republican": "20.02",
+        "taxable": "299,220",
+        "voters": "3,887"
+    },
+    "Belvidere": {
+        "african": "1.57",
+        "asian": "0.78",
+        "democratic": "22.74",
+        "hispanic": "3.62",
+        "population": "2,681",
+        "republican": "36.61",
+        "taxable": "100,258",
+        "voters": "1,680"
+    },
+    "Bergenfield": {
+        "african": "7.7",
+        "asian": "25.6",
+        "democratic": "35.99",
+        "hispanic": "26.52",
+        "population": "26,764",
+        "republican": "15.42",
+        "taxable": "108,131",
+        "voters": "13,519"
+    },
+    "Berkeley Heights": {
+        "african": "1.49",
+        "asian": "10.43",
+        "democratic": "22.66",
+        "hispanic": "5.12",
+        "population": "13,183",
+        "republican": "36.12",
+        "taxable": "266,966",
+        "voters": "9,270"
+    },
+    "Berkeley Twp": {
+        "african": "1.75",
+        "asian": "1.13",
+        "democratic": "27.67",
+        "hispanic": "4.92",
+        "population": "41,255",
+        "republican": "26.16",
+        "taxable": "143,008",
+        "voters": "31,529"
+    },
+    "Berlin": {
+        "african": "4.19",
+        "asian": "2.78",
+        "democratic": "32.87",
+        "hispanic": "3.12",
+        "population": "7,588",
+        "republican": "19.98",
+        "taxable": "103,223",
+        "voters": "5,234"
+    },
+    "Berlin Twp": {
+        "african": "11.57",
+        "asian": "5.13",
+        "democratic": "44.39",
+        "hispanic": "8.29",
+        "population": "5,357",
+        "republican": "10.75",
+        "taxable": "109,937",
+        "voters": "3,510"
+    },
+    "Bernards Twp": {
+        "african": "1.89",
+        "asian": "13.8",
+        "democratic": "19.32",
+        "hispanic": "3.95",
+        "population": "26,652",
+        "republican": "38.38",
+        "taxable": "263,371",
+        "voters": "18,452"
+    },
+    "Bernardsville": {
+        "african": "0.88",
+        "asian": "3.27",
+        "democratic": "17.92",
+        "hispanic": "11.72",
+        "population": "7,707",
+        "republican": "46.67",
+        "taxable": "331,599",
+        "voters": "5,352"
+    },
+    "Bethlehem": {
+        "african": "0.98",
+        "asian": "1.88",
+        "democratic": "18.24",
+        "hispanic": "4.02",
+        "population": "3,979",
+        "republican": "39.38",
+        "taxable": "158,250",
+        "voters": "2,862"
+    },
+    "Beverly": {
+        "african": "29.88",
+        "asian": "0.78",
+        "democratic": "39.59",
+        "hispanic": "9.16",
+        "population": "2,577",
+        "republican": "16.75",
+        "taxable": "58,239",
+        "voters": "1,644"
+    },
+    "Blairstown": {
+        "african": "1.12",
+        "asian": "1.14",
+        "democratic": "16.42",
+        "hispanic": "3.79",
+        "population": "5,967",
+        "republican": "44.14",
+        "taxable": "145,222",
+        "voters": "4,275"
+    },
+    "Bloomfield": {
+        "african": "18.51",
+        "asian": "8.22",
+        "democratic": "42.28",
+        "hispanic": "24.53",
+        "population": "47,315",
+        "republican": "15.61",
+        "taxable": "103,208",
+        "voters": "28,289"
+    },
+    "Bloomingdale": {
+        "african": "1.14",
+        "asian": "2.46",
+        "democratic": "26.98",
+        "hispanic": "9.33",
+        "population": "7,656",
+        "republican": "23.1",
+        "taxable": "122,723",
+        "voters": "4,982"
+    },
+    "Bloomsbury": {
+        "african": "1.03",
+        "asian": "1.84",
+        "democratic": "22.16",
+        "hispanic": "4.02",
+        "population": "870",
+        "republican": "42.12",
+        "taxable": "133,366",
+        "voters": "546"
+    },
+    "Bogota": {
+        "african": "9.42",
+        "asian": "9.81",
+        "democratic": "35.21",
+        "hispanic": "38.71",
+        "population": "8,187",
+        "republican": "16.86",
+        "taxable": "103,898",
+        "voters": "4,216"
+    },
+    "Boonton": {
+        "african": "4.82",
+        "asian": "10.05",
+        "democratic": "19.87",
+        "hispanic": "11.02",
+        "population": "8,347",
+        "republican": "38.61",
+        "taxable": "146,947",
+        "voters": "5,253"
+    },
+    "Boonton Twp": {
+        "african": "1.55",
+        "asian": "3.99",
+        "democratic": "18.26",
+        "hispanic": "4.18",
+        "population": "4,263",
+        "republican": "45.2",
+        "taxable": "238,682",
+        "voters": "3,155"
+    },
+    "Bordentown": {
+        "african": "10.12",
+        "asian": "2.73",
+        "democratic": "36.06",
+        "hispanic": "5.81",
+        "population": "3,924",
+        "republican": "19.99",
+        "taxable": "98,975",
+        "voters": "2,620"
+    },
+    "Bordentown Twp": {
+        "african": "10.7",
+        "asian": "10.57",
+        "democratic": "28.08",
+        "hispanic": "6.02",
+        "population": "11,367",
+        "republican": "19.69",
+        "taxable": "129,119",
+        "voters": "6,605"
+    },
+    "Bound Brook": {
+        "african": "5.74",
+        "asian": "2.57",
+        "democratic": "27.86",
+        "hispanic": "48.66",
+        "population": "10,402",
+        "republican": "23.38",
+        "taxable": "84,880",
+        "voters": "4,153"
+    },
+    "Bradley Beach": {
+        "african": "4.96",
+        "asian": "1.81",
+        "democratic": "29.18",
+        "hispanic": "19.54",
+        "population": "4,298",
+        "republican": "18.33",
+        "taxable": "270,748",
+        "voters": "2,663"
+    },
+    "Branchburg": {
+        "african": "2.25",
+        "asian": "8.4",
+        "democratic": "18.37",
+        "hispanic": "4.45",
+        "population": "14,459",
+        "republican": "36.68",
+        "taxable": "218,571",
+        "voters": "9,966"
+    },
+    "Branchville": {
+        "african": "0.36",
+        "asian": "1.07",
+        "democratic": "13.55",
+        "hispanic": "3.92",
+        "population": "841",
+        "republican": "55.08",
+        "taxable": "171,193",
+        "voters": "561"
+    },
+    "Brick": {
+        "african": "2",
+        "asian": "1.56",
+        "democratic": "20.45",
+        "hispanic": "7.06",
+        "population": "75,072",
+        "republican": "25.09",
+        "taxable": "160,228",
+        "voters": "50,161"
+    },
+    "Bridgeton": {
+        "african": "35.49",
+        "asian": "0.6",
+        "democratic": "32.55",
+        "hispanic": "43.58",
+        "population": "25,349",
+        "republican": "9.03",
+        "taxable": "20,510",
+        "voters": "8,667"
+    },
+    "Bridgewater": {
+        "african": "2.38",
+        "asian": "17.83",
+        "democratic": "23.07",
+        "hispanic": "6.76",
+        "population": "44,464",
+        "republican": "27.32",
+        "taxable": "216,238",
+        "voters": "28,144"
+    },
+    "Brielle": {
+        "african": "2.53",
+        "asian": "0.94",
+        "democratic": "16.98",
+        "hispanic": "3.18",
+        "population": "4,774",
+        "republican": "40.1",
+        "taxable": "328,579",
+        "voters": "3,698"
+    },
+    "Brigantine": {
+        "african": "2.91",
+        "asian": "4.72",
+        "democratic": "18.57",
+        "hispanic": "6.88",
+        "population": "9,450",
+        "republican": "41.37",
+        "taxable": "447,877",
+        "voters": "6,737"
+    },
+    "Brooklawn": {
+        "african": "5.32",
+        "asian": "2.2",
+        "democratic": "42.07",
+        "hispanic": "6.29",
+        "population": "1,955",
+        "republican": "13.02",
+        "taxable": "76,587",
+        "voters": "1,227"
+    },
+    "Buena": {
+        "african": "9.43",
+        "asian": "1.78",
+        "democratic": "21.3",
+        "hispanic": "29.42",
+        "population": "4,603",
+        "republican": "27.77",
+        "taxable": "64,403",
+        "voters": "2,841"
+    },
+    "Buena Vista": {
+        "african": "13.45",
+        "asian": "1.06",
+        "democratic": "28.97",
+        "hispanic": "11.48",
+        "population": "7,570",
+        "republican": "22.99",
+        "taxable": "84,182",
+        "voters": "4,954"
+    },
+    "Burlington": {
+        "african": "32.98",
+        "asian": "2.03",
+        "democratic": "48.17",
+        "hispanic": "6.5",
+        "population": "9,920",
+        "republican": "13.82",
+        "taxable": "76,841",
+        "voters": "6,150"
+    },
+    "Burlington Twp": {
+        "african": "27.98",
+        "asian": "7.04",
+        "democratic": "40.22",
+        "hispanic": "7.05",
+        "population": "22,594",
+        "republican": "16.37",
+        "taxable": "117,764",
+        "voters": "13,870"
+    },
+    "Butler": {
+        "african": "1.11",
+        "asian": "3.02",
+        "democratic": "19.17",
+        "hispanic": "11.41",
+        "population": "7,539",
+        "republican": "31.58",
+        "taxable": "134,790",
+        "voters": "4,721"
+    },
+    "Byram": {
+        "african": "1.47",
+        "asian": "2.14",
+        "democratic": "19.61",
+        "hispanic": "4.99",
+        "population": "8,350",
+        "republican": "34.07",
+        "taxable": "136,054",
+        "voters": "5,758"
+    },
+    "Caldwell": {
+        "african": "3.32",
+        "asian": "4.72",
+        "democratic": "31.6",
+        "hispanic": "10.05",
+        "population": "7,822",
+        "republican": "22.36",
+        "taxable": "142,201",
+        "voters": "5,032"
+    },
+    "Califon": {
+        "african": "0.28",
+        "asian": "0.84",
+        "democratic": "29.21",
+        "hispanic": "1.3",
+        "population": "1,076",
+        "republican": "35.26",
+        "taxable": "142,741",
+        "voters": "743"
+    },
+    "Camden": {
+        "african": "48.07",
+        "asian": "2.12",
+        "democratic": "39.49",
+        "hispanic": "47.04",
+        "population": "77,344",
+        "republican": "2.03",
+        "taxable": "14,534",
+        "voters": "44,766"
+    },
+    "Cape May": {
+        "african": "4.85",
+        "asian": "0.67",
+        "democratic": "22.97",
+        "hispanic": "8.62",
+        "population": "3,607",
+        "republican": "43.2",
+        "taxable": "787,899",
+        "voters": "2,057"
+    },
+    "Cape May Point": {
+        "african": "2.75",
+        "asian": "0.34",
+        "democratic": "29.72",
+        "hispanic": "0.34",
+        "population": "291",
+        "republican": "45.28",
+        "taxable": "1,732,221",
+        "voters": "219"
+    },
+    "Carlstadt": {
+        "african": "2.38",
+        "asian": "8.23",
+        "democratic": "26.33",
+        "hispanic": "18.02",
+        "population": "6,127",
+        "republican": "21.33",
+        "taxable": "377,761",
+        "voters": "3,289"
+    },
+    "Carneys Point": {
+        "african": "16.91",
+        "asian": "0.81",
+        "democratic": "29.65",
+        "hispanic": "11.18",
+        "population": "8,049",
+        "republican": "17.6",
+        "taxable": "84,783",
+        "voters": "4,914"
+    },
+    "Carteret": {
+        "african": "14.85",
+        "asian": "19.04",
+        "democratic": "41.88",
+        "hispanic": "30.93",
+        "population": "22,844",
+        "republican": "11.21",
+        "taxable": "114,250",
+        "voters": "12,444"
+    },
+    "Cedar Grove": {
+        "african": "2.47",
+        "asian": "6.53",
+        "democratic": "26.45",
+        "hispanic": "5.86",
+        "population": "12,411",
+        "republican": "25.71",
+        "taxable": "194,800",
+        "voters": "8,650"
+    },
+    "Chatham": {
+        "african": "0.99",
+        "asian": "4.85",
+        "democratic": "23.15",
+        "hispanic": "5.1",
+        "population": "8,962",
+        "republican": "33.13",
+        "taxable": "253,680",
+        "voters": "5,982"
+    },
+    "Chatham Twp": {
+        "african": "0.75",
+        "asian": "6.36",
+        "democratic": "20.03",
+        "hispanic": "3.34",
+        "population": "10,452",
+        "republican": "38.3",
+        "taxable": "305,663",
+        "voters": "7,582"
+    },
+    "Cherry Hill": {
+        "african": "6.14",
+        "asian": "11.69",
+        "democratic": "40.19",
+        "hispanic": "5.64",
+        "population": "71,045",
+        "republican": "16.67",
+        "taxable": "136,894",
+        "voters": "50,550"
+    },
+    "Chesilhurst": {
+        "african": "46.39",
+        "asian": "0.86",
+        "democratic": "60.42",
+        "hispanic": "11.57",
+        "population": "1,634",
+        "republican": "6.89",
+        "taxable": "53,816",
+        "voters": "1,159"
+    },
+    "Chester": {
+        "african": "1.03",
+        "asian": "2.3",
+        "democratic": "17.77",
+        "hispanic": "13.46",
+        "population": "1,649",
+        "republican": "48.26",
+        "taxable": "266,313",
+        "voters": "1,092"
+    },
+    "Chester Twp": {
+        "african": "1.05",
+        "asian": "3.5",
+        "democratic": "14.74",
+        "hispanic": "4.35",
+        "population": "7,838",
+        "republican": "47.58",
+        "taxable": "263,714",
+        "voters": "5,630"
+    },
+    "Chesterfield": {
+        "african": "29.12",
+        "asian": "8.35",
+        "democratic": "24.03",
+        "hispanic": "13.08",
+        "population": "7,699",
+        "republican": "30.11",
+        "taxable": "92,677",
+        "voters": "2,904"
+    },
+    "Cinnaminson": {
+        "african": "5.49",
+        "asian": "2.38",
+        "democratic": "29.82",
+        "hispanic": "3.07",
+        "population": "15,569",
+        "republican": "29.43",
+        "taxable": "123,267",
+        "voters": "10,981"
+    },
+    "Clark": {
+        "african": "0.84",
+        "asian": "3.71",
+        "democratic": "28.06",
+        "hispanic": "7.5",
+        "population": "14,756",
+        "republican": "22.56",
+        "taxable": "171,215",
+        "voters": "10,352"
+    },
+    "Clayton": {
+        "african": "18.01",
+        "asian": "1.8",
+        "democratic": "35.81",
+        "hispanic": "5.95",
+        "population": "8,179",
+        "republican": "16.43",
+        "taxable": "63,483",
+        "voters": "5,046"
+    },
+    "Clementon": {
+        "african": "19.12",
+        "asian": "2.1",
+        "democratic": "35.98",
+        "hispanic": "10.3",
+        "population": "5,000",
+        "republican": "13.99",
+        "taxable": "58,009",
+        "voters": "3,000"
+    },
+    "Cliffside Park": {
+        "african": "3.29",
+        "asian": "13.78",
+        "democratic": "42.38",
+        "hispanic": "28.41",
+        "population": "23,594",
+        "republican": "10.43",
+        "taxable": "137,830",
+        "voters": "10,473"
+    },
+    "Clifton": {
+        "african": "4.92",
+        "asian": "8.9",
+        "democratic": "31.95",
+        "hispanic": "31.92",
+        "population": "84,136",
+        "republican": "17.07",
+        "taxable": "121,684",
+        "voters": "44,414"
+    },
+    "Clinton": {
+        "african": "1.32",
+        "asian": "6.66",
+        "democratic": "26.29",
+        "hispanic": "6.22",
+        "population": "2,719",
+        "republican": "30.8",
+        "taxable": "148,532",
+        "voters": "1,727"
+    },
+    "Clinton Twp": {
+        "african": "6.01",
+        "asian": "3.9",
+        "democratic": "15.95",
+        "hispanic": "5.6",
+        "population": "13,478",
+        "republican": "44.08",
+        "taxable": "182,331",
+        "voters": "8,952"
+    },
+    "Closter": {
+        "african": "1.31",
+        "asian": "31.65",
+        "democratic": "27.23",
+        "hispanic": "5.98",
+        "population": "8,373",
+        "republican": "21.29",
+        "taxable": "257,236",
+        "voters": "4,809"
+    },
+    "Collingswood": {
+        "african": "9.11",
+        "asian": "2.2",
+        "democratic": "43.38",
+        "hispanic": "9.67",
+        "population": "13,926",
+        "republican": "13.73",
+        "taxable": "79,310",
+        "voters": "9,897"
+    },
+    "Colts Neck": {
+        "african": "1.67",
+        "asian": "4.58",
+        "democratic": "13.1",
+        "hispanic": "3.54",
+        "population": "10,142",
+        "republican": "38.27",
+        "taxable": "315,890",
+        "voters": "7,458"
+    },
+    "Commercial": {
+        "african": "10.24",
+        "asian": "0.52",
+        "democratic": "32.13",
+        "hispanic": "6.1",
+        "population": "5,178",
+        "republican": "18.14",
+        "taxable": "53,736",
+        "voters": "3,153"
+    },
+    "Corbin City": {
+        "african": "0.41",
+        "asian": "1.22",
+        "democratic": "17.65",
+        "hispanic": "3.46",
+        "population": "492",
+        "republican": "43.79",
+        "taxable": "93,281",
+        "voters": "306"
+    },
+    "Cranbury": {
+        "african": "3.45",
+        "asian": "13.74",
+        "democratic": "30.25",
+        "hispanic": "2.57",
+        "population": "3,857",
+        "republican": "25.19",
+        "taxable": "445,376",
+        "voters": "2,767"
+    },
+    "Cranford": {
+        "african": "2.62",
+        "asian": "2.84",
+        "democratic": "31.27",
+        "hispanic": "6.51",
+        "population": "22,625",
+        "republican": "23.59",
+        "taxable": "182,603",
+        "voters": "15,951"
+    },
+    "Cresskill": {
+        "african": "0.73",
+        "asian": "27.64",
+        "democratic": "25.84",
+        "hispanic": "6.26",
+        "population": "8,573",
+        "republican": "25.02",
+        "taxable": "269,234",
+        "voters": "4,760"
+    },
+    "Deal": {
+        "african": "1.6",
+        "asian": "3.47",
+        "democratic": "18.71",
+        "hispanic": "7.33",
+        "population": "750",
+        "republican": "23.27",
+        "taxable": "3,885,898",
+        "voters": "636"
+    },
+    "Deerfield": {
+        "african": "12.06",
+        "asian": "1.35",
+        "democratic": "26.69",
+        "hispanic": "14.08",
+        "population": "3,119",
+        "republican": "25.01",
+        "taxable": "70,710",
+        "voters": "2,083"
+    },
+    "Delanco": {
+        "african": "10.97",
+        "asian": "1.87",
+        "democratic": "34.35",
+        "hispanic": "3.55",
+        "population": "4,283",
+        "republican": "23.4",
+        "taxable": "113,134",
+        "voters": "3,015"
+    },
+    "Delaware": {
+        "african": "0.66",
+        "asian": "0.92",
+        "democratic": "23.05",
+        "hispanic": "2.45",
+        "population": "4,563",
+        "republican": "42.47",
+        "taxable": "215,106",
+        "voters": "3,579"
+    },
+    "Delran": {
+        "african": "9.56",
+        "asian": "4.04",
+        "democratic": "34.28",
+        "hispanic": "4.61",
+        "population": "16,896",
+        "republican": "20.32",
+        "taxable": "105,363",
+        "voters": "10,650"
+    },
+    "Demarest": {
+        "african": "0.64",
+        "asian": "26.41",
+        "democratic": "31.75",
+        "hispanic": "4.43",
+        "population": "4,881",
+        "republican": "19.42",
+        "taxable": "285,839",
+        "voters": "3,047"
+    },
+    "Dennis": {
+        "african": "0.79",
+        "asian": "0.56",
+        "democratic": "24.22",
+        "hispanic": "1.81",
+        "population": "6,467",
+        "republican": "33.77",
+        "taxable": "149,852",
+        "voters": "4,635"
+    },
+    "Denville": {
+        "african": "1.42",
+        "asian": "6.52",
+        "democratic": "19.27",
+        "hispanic": "5.31",
+        "population": "16,635",
+        "republican": "41.55",
+        "taxable": "204,222",
+        "voters": "12,141"
+    },
+    "Deptford": {
+        "african": "12.16",
+        "asian": "4.45",
+        "democratic": "41.73",
+        "hispanic": "5.99",
+        "population": "30,561",
+        "republican": "14.11",
+        "taxable": "104,492",
+        "voters": "19,940"
+    },
+    "Dover": {
+        "african": "6.1",
+        "asian": "2.54",
+        "democratic": "38.76",
+        "hispanic": "69.38",
+        "population": "18,157",
+        "republican": "16.93",
+        "taxable": "83,439",
+        "voters": "6,986"
+    },
+    "Downe": {
+        "african": "2.59",
+        "asian": "0.25",
+        "democratic": "22.57",
+        "hispanic": "3.85",
+        "population": "1,585",
+        "republican": "43.27",
+        "taxable": "106,265",
+        "voters": "1,130"
+    },
+    "Dumont": {
+        "african": "2.55",
+        "asian": "14.99",
+        "democratic": "28.5",
+        "hispanic": "14.76",
+        "population": "17,479",
+        "republican": "17.69",
+        "taxable": "121,905",
+        "voters": "10,136"
+    },
+    "Dunellen": {
+        "african": "8.62",
+        "asian": "4.51",
+        "democratic": "28.27",
+        "hispanic": "26.75",
+        "population": "7,227",
+        "republican": "19.42",
+        "taxable": "87,801",
+        "voters": "3,789"
+    },
+    "Eagleswood": {
+        "african": "0.87",
+        "asian": "0.62",
+        "democratic": "14.77",
+        "hispanic": "3.37",
+        "population": "1,603",
+        "republican": "41.44",
+        "taxable": "164,659",
+        "voters": "1,151"
+    },
+    "East Amwell": {
+        "african": "1.25",
+        "asian": "1.42",
+        "democratic": "28.58",
+        "hispanic": "2.82",
+        "population": "4,013",
+        "republican": "31.19",
+        "taxable": "201,511",
+        "voters": "3,107"
+    },
+    "East Brunswick": {
+        "african": "3.98",
+        "asian": "22.8",
+        "democratic": "32.05",
+        "hispanic": "6.7",
+        "population": "47,512",
+        "republican": "17.01",
+        "taxable": "168,431",
+        "voters": "31,364"
+    },
+    "East Greenwich": {
+        "african": "5.86",
+        "asian": "3.61",
+        "democratic": "32.81",
+        "hispanic": "3.02",
+        "population": "9,555",
+        "republican": "19.88",
+        "taxable": "115,562",
+        "voters": "6,468"
+    },
+    "East Hanover": {
+        "african": "0.83",
+        "asian": "11.92",
+        "democratic": "25.15",
+        "hispanic": "5.38",
+        "population": "11,157",
+        "republican": "33.48",
+        "taxable": "341,825",
+        "voters": "8,252"
+    },
+    "East Newark": {
+        "african": "1.91",
+        "asian": "7.81",
+        "democratic": "62.57",
+        "hispanic": "61.39",
+        "population": "2,406",
+        "republican": "4.63",
+        "taxable": "59,681",
+        "voters": "752"
+    },
+    "East Orange": {
+        "african": "88.51",
+        "asian": "0.72",
+        "democratic": "60.39",
+        "hispanic": "7.93",
+        "population": "64,270",
+        "republican": "1.1",
+        "taxable": "53,706",
+        "voters": "36,073"
+    },
+    "East Rutherford": {
+        "african": "4.5",
+        "asian": "13.93",
+        "democratic": "27.11",
+        "hispanic": "17.54",
+        "population": "8,913",
+        "republican": "26.23",
+        "taxable": "222,408",
+        "voters": "4,206"
+    },
+    "East Windsor": {
+        "african": "8.62",
+        "asian": "17.66",
+        "democratic": "35.5",
+        "hispanic": "19.64",
+        "population": "27,190",
+        "republican": "14.44",
+        "taxable": "114,268",
+        "voters": "15,189"
+    },
+    "Eastampton": {
+        "african": "16.97",
+        "asian": "4.48",
+        "democratic": "31.94",
+        "hispanic": "8.29",
+        "population": "6,069",
+        "republican": "21.23",
+        "taxable": "83,915",
+        "voters": "3,818"
+    },
+    "Eatontown": {
+        "african": "12.41",
+        "asian": "8.67",
+        "democratic": "26.34",
+        "hispanic": "12.36",
+        "population": "12,709",
+        "republican": "19.28",
+        "taxable": "188,766",
+        "voters": "7,867"
+    },
+    "Edgewater": {
+        "african": "4.95",
+        "asian": "35.47",
+        "democratic": "42.55",
+        "hispanic": "11.1",
+        "population": "11,513",
+        "republican": "9.95",
+        "taxable": "246,277",
+        "voters": "4,475"
+    },
+    "Edgewater Park": {
+        "african": "27.32",
+        "asian": "3.19",
+        "democratic": "43.66",
+        "hispanic": "10.92",
+        "population": "8,881",
+        "republican": "17.12",
+        "taxable": "69,674",
+        "voters": "5,034"
+    },
+    "Edison": {
+        "african": "7.05",
+        "asian": "43.19",
+        "democratic": "47.5",
+        "hispanic": "8.11",
+        "population": "99,967",
+        "republican": "11.81",
+        "taxable": "157,358",
+        "voters": "53,332"
+    },
+    "Egg Harbor": {
+        "african": "17.94",
+        "asian": "2.22",
+        "democratic": "32.98",
+        "hispanic": "26.28",
+        "population": "4,243",
+        "republican": "24.06",
+        "taxable": "70,451",
+        "voters": "2,668"
+    },
+    "Egg Harbor Twp": {
+        "african": "9.58",
+        "asian": "11.76",
+        "democratic": "23.24",
+        "hispanic": "13",
+        "population": "43,323",
+        "republican": "28.14",
+        "taxable": "109,708",
+        "voters": "25,244"
+    },
+    "Elizabeth": {
+        "african": "21.08",
+        "asian": "2.08",
+        "democratic": "55.7",
+        "hispanic": "59.5",
+        "population": "124,969",
+        "republican": "5.47",
+        "taxable": "61,379",
+        "voters": "46,939"
+    },
+    "Elk": {
+        "african": "14.78",
+        "asian": "0.64",
+        "democratic": "34.38",
+        "hispanic": "5.1",
+        "population": "4,216",
+        "republican": "19.69",
+        "taxable": "91,702",
+        "voters": "3,098"
+    },
+    "Elmer": {
+        "african": "2.15",
+        "asian": "0.79",
+        "democratic": "22.81",
+        "hispanic": "3.15",
+        "population": "1,395",
+        "republican": "30.19",
+        "taxable": "80,612",
+        "voters": "835"
+    },
+    "Elmwood Park": {
+        "african": "5.25",
+        "asian": "10.72",
+        "democratic": "31.27",
+        "hispanic": "21.22",
+        "population": "19,403",
+        "republican": "17.13",
+        "taxable": "122,030",
+        "voters": "10,008"
+    },
+    "Elsinboro": {
+        "african": "3.47",
+        "asian": "0.39",
+        "democratic": "27.7",
+        "hispanic": "2.22",
+        "population": "1,036",
+        "republican": "25.43",
+        "taxable": "109,913",
+        "voters": "825"
+    },
+    "Emerson": {
+        "african": "1.08",
+        "asian": "8.55",
+        "democratic": "19.36",
+        "hispanic": "8.36",
+        "population": "7,401",
+        "republican": "43.07",
+        "taxable": "183,734",
+        "voters": "4,584"
+    },
+    "Englewood": {
+        "african": "32.58",
+        "asian": "8.1",
+        "democratic": "56.54",
+        "hispanic": "27.48",
+        "population": "27,147",
+        "republican": "8.08",
+        "taxable": "198,426",
+        "voters": "14,120"
+    },
+    "Englewood Cliffs": {
+        "african": "2.08",
+        "asian": "38.52",
+        "democratic": "30.68",
+        "hispanic": "5.98",
+        "population": "5,281",
+        "republican": "21.73",
+        "taxable": "630,243",
+        "voters": "3,445"
+    },
+    "Englishtown": {
+        "african": "2.6",
+        "asian": "6.82",
+        "democratic": "21.58",
+        "hispanic": "8.01",
+        "population": "1,847",
+        "republican": "22.28",
+        "taxable": "131,319",
+        "voters": "1,140"
+    },
+    "Essex Fells": {
+        "african": "1.09",
+        "asian": "2.18",
+        "democratic": "20.66",
+        "hispanic": "1.99",
+        "population": "2,113",
+        "republican": "50.09",
+        "taxable": "380,902",
+        "voters": "1,689"
+    },
+    "Estell Manor": {
+        "african": "0.92",
+        "asian": "1.61",
+        "democratic": "22.36",
+        "hispanic": "1.04",
+        "population": "1,735",
+        "republican": "31.25",
+        "taxable": "110,002",
+        "voters": "1,248"
+    },
+    "Evesham": {
+        "african": "4.19",
+        "asian": "6.16",
+        "democratic": "28.75",
+        "hispanic": "3.39",
+        "population": "45,538",
+        "republican": "23.34",
+        "taxable": "123,945",
+        "voters": "31,801"
+    },
+    "Ewing": {
+        "african": "27.62",
+        "asian": "4.3",
+        "democratic": "43.26",
+        "hispanic": "7.62",
+        "population": "35,790",
+        "republican": "15.1",
+        "taxable": "90,969",
+        "voters": "22,366"
+    },
+    "Fair Haven": {
+        "african": "2.5",
+        "asian": "1.08",
+        "democratic": "24.77",
+        "hispanic": "2.7",
+        "population": "6,121",
+        "republican": "30.49",
+        "taxable": "251,624",
+        "voters": "4,296"
+    },
+    "Fair Lawn": {
+        "african": "1.75",
+        "asian": "9.72",
+        "democratic": "35.15",
+        "hispanic": "10.15",
+        "population": "32,457",
+        "republican": "17.77",
+        "taxable": "156,077",
+        "voters": "19,642"
+    },
+    "Fairfield": {
+        "african": "47.53",
+        "asian": "0.44",
+        "democratic": "18.73",
+        "hispanic": "12.84",
+        "population": "6,295",
+        "republican": "38.79",
+        "taxable": "401,021",
+        "voters": "5,393"
+    },
+    "Fairview": {
+        "african": "2.94",
+        "asian": "4.63",
+        "democratic": "46.85",
+        "hispanic": "54.63",
+        "population": "13,835",
+        "republican": "10.03",
+        "taxable": "95,235",
+        "voters": "4,571"
+    },
+    "Fanwood": {
+        "african": "5.3",
+        "asian": "6.75",
+        "democratic": "31.81",
+        "hispanic": "6.26",
+        "population": "7,318",
+        "republican": "24.12",
+        "taxable": "157,561",
+        "voters": "5,133"
+    },
+    "Far Hills": {
+        "african": "0.65",
+        "asian": "1.85",
+        "democratic": "13.28",
+        "hispanic": "9.58",
+        "population": "919",
+        "republican": "51.76",
+        "taxable": "506,688",
+        "voters": "738"
+    },
+    "Farmingdale": {
+        "african": "2.86",
+        "asian": "3.16",
+        "democratic": "17.92",
+        "hispanic": "6.92",
+        "population": "1,329",
+        "republican": "35",
+        "taxable": "110,941",
+        "voters": "960"
+    },
+    "Fieldsboro": {
+        "african": "12.59",
+        "asian": "2.04",
+        "democratic": "52.76",
+        "hispanic": "2.78",
+        "population": "540",
+        "republican": "13.54",
+        "taxable": "101,369",
+        "voters": "372"
+    },
+    "Flemington": {
+        "african": "3.93",
+        "asian": "5.81",
+        "democratic": "25.71",
+        "hispanic": "26.15",
+        "population": "4,581",
+        "republican": "30.93",
+        "taxable": "113,926",
+        "voters": "2,069"
+    },
+    "Florence": {
+        "african": "12.23",
+        "asian": "5.04",
+        "democratic": "29.7",
+        "hispanic": "4.76",
+        "population": "12,109",
+        "republican": "24.55",
+        "taxable": "105,466",
+        "voters": "7,791"
+    },
+    "Florham Park": {
+        "african": "4.35",
+        "asian": "6.37",
+        "democratic": "18.32",
+        "hispanic": "5.08",
+        "population": "11,696",
+        "republican": "42.64",
+        "taxable": "287,747",
+        "voters": "7,314"
+    },
+    "Folsom": {
+        "african": "4.19",
+        "asian": "0.85",
+        "democratic": "20.56",
+        "hispanic": "6.74",
+        "population": "1,885",
+        "republican": "28.84",
+        "taxable": "99,967",
+        "voters": "1,245"
+    },
+    "Fort Lee": {
+        "african": "2.75",
+        "asian": "38.44",
+        "democratic": "40.95",
+        "hispanic": "10.97",
+        "population": "35,345",
+        "republican": "13.54",
+        "taxable": "181,575",
+        "voters": "17,203"
+    },
+    "Frankford": {
+        "african": "0.99",
+        "asian": "0.88",
+        "democratic": "12.43",
+        "hispanic": "3.16",
+        "population": "5,565",
+        "republican": "58.44",
+        "taxable": "158,803",
+        "voters": "4,040"
+    },
+    "Franklin": {
+        "african": "2.18",
+        "asian": "1.74",
+        "democratic": "15.78",
+        "hispanic": "7.83",
+        "population": "5,045",
+        "republican": "42.97",
+        "taxable": "101,720",
+        "voters": "3,035"
+    },
+    "Franklin Lakes": {
+        "african": "1.41",
+        "asian": "7.34",
+        "democratic": "15.16",
+        "hispanic": "4.96",
+        "population": "10,590",
+        "republican": "44.46",
+        "taxable": "433,495",
+        "voters": "7,225"
+    },
+    "Franklin Twp": {
+        "african": "26.55",
+        "asian": "19.98",
+        "democratic": "26.82",
+        "hispanic": "12.92",
+        "population": "62,300",
+        "republican": "22.29",
+        "taxable": "86,958",
+        "voters": "11,050"
+    },
+    "Fredon": {
+        "african": "0.52",
+        "asian": "1.69",
+        "democratic": "13.27",
+        "hispanic": "3.7",
+        "population": "3,437",
+        "republican": "47.7",
+        "taxable": "144,280",
+        "voters": "2,388"
+    },
+    "Freehold": {
+        "african": "12.57",
+        "asian": "2.89",
+        "democratic": "28.53",
+        "hispanic": "42.87",
+        "population": "12,052",
+        "republican": "16.24",
+        "taxable": "99,994",
+        "voters": "5,209"
+    },
+    "Freehold Twp": {
+        "african": "5.34",
+        "asian": "7.03",
+        "democratic": "21.57",
+        "hispanic": "7.76",
+        "population": "36,184",
+        "republican": "21.9",
+        "taxable": "177,637",
+        "voters": "23,575"
+    },
+    "Frelinghuysen": {
+        "african": "0.63",
+        "asian": "0.54",
+        "democratic": "15.64",
+        "hispanic": "2.56",
+        "population": "2,230",
+        "republican": "44.21",
+        "taxable": "137,934",
+        "voters": "1,579"
+    },
+    "Frenchtown": {
+        "african": "0.8",
+        "asian": "0.95",
+        "democratic": "31.3",
+        "hispanic": "5.1",
+        "population": "1,373",
+        "republican": "28.72",
+        "taxable": "125,938",
+        "voters": "968"
+    },
+    "Galloway": {
+        "african": "11.44",
+        "asian": "10.02",
+        "democratic": "26.35",
+        "hispanic": "10.05",
+        "population": "37,349",
+        "republican": "23.6",
+        "taxable": "96,787",
+        "voters": "22,558"
+    },
+    "Garfield": {
+        "african": "6.5",
+        "asian": "2.22",
+        "democratic": "32.9",
+        "hispanic": "32.24",
+        "population": "30,487",
+        "republican": "11.72",
+        "taxable": "76,932",
+        "voters": "11,167"
+    },
+    "Garwood": {
+        "african": "1.06",
+        "asian": "2.04",
+        "democratic": "29.84",
+        "hispanic": "8.83",
+        "population": "4,226",
+        "republican": "18.14",
+        "taxable": "159,904",
+        "voters": "2,751"
+    },
+    "Gibbsboro": {
+        "african": "2.15",
+        "asian": "2.33",
+        "democratic": "38.52",
+        "hispanic": "4.09",
+        "population": "2,274",
+        "republican": "20.68",
+        "taxable": "118,595",
+        "voters": "1,701"
+    },
+    "Glassboro": {
+        "african": "18.67",
+        "asian": "2.87",
+        "democratic": "37.46",
+        "hispanic": "7.42",
+        "population": "18,579",
+        "republican": "14.36",
+        "taxable": "65,805",
+        "voters": "10,189"
+    },
+    "Glen Gardner": {
+        "african": "1.76",
+        "asian": "1.82",
+        "democratic": "22.14",
+        "hispanic": "5.28",
+        "population": "1,704",
+        "republican": "31.5",
+        "taxable": "106,882",
+        "voters": "1,111"
+    },
+    "Glen Ridge": {
+        "african": "5.04",
+        "asian": "4.65",
+        "democratic": "41.45",
+        "hispanic": "5.01",
+        "population": "7,527",
+        "republican": "19.32",
+        "taxable": "199,171",
+        "voters": "5,155"
+    },
+    "Glen Rock": {
+        "african": "1.37",
+        "asian": "9.09",
+        "democratic": "30.39",
+        "hispanic": "4.54",
+        "population": "11,601",
+        "republican": "24.41",
+        "taxable": "215,671",
+        "voters": "7,865"
+    },
+    "Gloucester City": {
+        "african": "3.07",
+        "asian": "2.68",
+        "democratic": "48.44",
+        "hispanic": "6.7",
+        "population": "11,456",
+        "republican": "9.89",
+        "taxable": "59,517",
+        "voters": "6,813"
+    },
+    "Gloucester Twp": {
+        "african": "16.19",
+        "asian": "3.67",
+        "democratic": "39.36",
+        "hispanic": "5.65",
+        "population": "64,634",
+        "republican": "14.26",
+        "taxable": "71,471",
+        "voters": "42,254"
+    },
+    "Green": {
+        "african": "1.25",
+        "asian": "1.72",
+        "democratic": "13.94",
+        "hispanic": "4.8",
+        "population": "3,601",
+        "republican": "41.58",
+        "taxable": "150,744",
+        "voters": "2,446"
+    },
+    "Green Brook": {
+        "african": "3.37",
+        "asian": "20.21",
+        "democratic": "20.13",
+        "hispanic": "6.86",
+        "population": "7,203",
+        "republican": "27.23",
+        "taxable": "206,870",
+        "voters": "4,561"
+    },
+    "Greenwich": {
+        "african": "3.73",
+        "asian": "0.5",
+        "democratic": "18.37",
+        "hispanic": "2.61",
+        "population": "804",
+        "republican": "42.46",
+        "taxable": "132,786",
+        "voters": "3,490"
+    },
+    "Guttenberg": {
+        "african": "4.8",
+        "asian": "7.32",
+        "democratic": "60.85",
+        "hispanic": "64.83",
+        "population": "11,176",
+        "republican": "7.69",
+        "taxable": "90,901",
+        "voters": "4,961"
+    },
+    "Hackensack": {
+        "african": "24.44",
+        "asian": "10.3",
+        "democratic": "44.6",
+        "hispanic": "35.31",
+        "population": "43,010",
+        "republican": "10.46",
+        "taxable": "137,885",
+        "voters": "17,629"
+    },
+    "Hackettstown": {
+        "african": "2.46",
+        "asian": "4.97",
+        "democratic": "21.98",
+        "hispanic": "15.16",
+        "population": "9,724",
+        "republican": "32.86",
+        "taxable": "114,042",
+        "voters": "5,369"
+    },
+    "Haddon Heights": {
+        "african": "1.12",
+        "asian": "1.31",
+        "democratic": "37.18",
+        "hispanic": "2.65",
+        "population": "7,473",
+        "republican": "22.85",
+        "taxable": "107,138",
+        "voters": "5,744"
+    },
+    "Haddon Twp": {
+        "african": "1.5",
+        "asian": "2.71",
+        "democratic": "40.33",
+        "hispanic": "3.95",
+        "population": "14,707",
+        "republican": "18.62",
+        "taxable": "95,649",
+        "voters": "10,974"
+    },
+    "Haddonfield": {
+        "african": "1.11",
+        "asian": "1.85",
+        "democratic": "35.84",
+        "hispanic": "2.14",
+        "population": "11,593",
+        "republican": "24.46",
+        "taxable": "196,988",
+        "voters": "9,158"
+    },
+    "Hainesport": {
+        "african": "7.5",
+        "asian": "4.08",
+        "democratic": "27.04",
+        "hispanic": "5.07",
+        "population": "6,110",
+        "republican": "30.64",
+        "taxable": "141,737",
+        "voters": "4,130"
+    },
+    "Haledon": {
+        "african": "11.77",
+        "asian": "6.35",
+        "democratic": "41.17",
+        "hispanic": "41.6",
+        "population": "8,318",
+        "republican": "16.23",
+        "taxable": "78,394",
+        "voters": "4,307"
+    },
+    "Hamburg": {
+        "african": "2.01",
+        "asian": "2.04",
+        "democratic": "16.01",
+        "hispanic": "6.87",
+        "population": "3,277",
+        "republican": "37.15",
+        "taxable": "103,167",
+        "voters": "2,024"
+    },
+    "Hamilton": {
+        "african": "18.55",
+        "asian": "5.41",
+        "democratic": "32.65",
+        "hispanic": "12.79",
+        "population": "26,503",
+        "republican": "18.61",
+        "taxable": "111,032",
+        "voters": "57,616"
+    },
+    "Hammonton": {
+        "african": "3",
+        "asian": "1.37",
+        "democratic": "21.37",
+        "hispanic": "20.93",
+        "population": "14,791",
+        "republican": "30.46",
+        "taxable": "103,190",
+        "voters": "8,743"
+    },
+    "Hampton Boro": {
+        "african": "2.5",
+        "asian": "1.86",
+        "democratic": "21.24",
+        "hispanic": "5.35",
+        "population": "1,401",
+        "republican": "30.67",
+        "taxable": "97,621",
+        "voters": "890"
+    },
+    "Hampton Twp": {
+        "african": "0.83",
+        "asian": "1.19",
+        "democratic": "17.27",
+        "hispanic": "3.85",
+        "population": "5,196",
+        "republican": "43.76",
+        "taxable": "143,412",
+        "voters": "3,595"
+    },
+    "Hanover": {
+        "african": "1.01",
+        "asian": "10.8",
+        "democratic": "17.06",
+        "hispanic": "4.59",
+        "population": "13,712",
+        "republican": "46.87",
+        "taxable": "298,718",
+        "voters": "9,518"
+    },
+    "Harding": {
+        "african": "0.99",
+        "asian": "2.66",
+        "democratic": "15.06",
+        "hispanic": "3.49",
+        "population": "3,838",
+        "republican": "47.13",
+        "taxable": "690,432",
+        "voters": "3,155"
+    },
+    "Hardwick": {
+        "african": "0.94",
+        "asian": "0.65",
+        "democratic": "18.11",
+        "hispanic": "3.95",
+        "population": "1,696",
+        "republican": "44.18",
+        "taxable": "132,548",
+        "voters": "1,082"
+    },
+    "Hardyston": {
+        "african": "2.61",
+        "asian": "3.01",
+        "democratic": "16.09",
+        "hispanic": "5.56",
+        "population": "8,213",
+        "republican": "36.11",
+        "taxable": "150,143",
+        "voters": "5,425"
+    },
+    "Harmony": {
+        "african": "0.67",
+        "asian": "0.19",
+        "democratic": "18.78",
+        "hispanic": "1.31",
+        "population": "2,667",
+        "republican": "44.27",
+        "taxable": "244,244",
+        "voters": "1,789"
+    },
+    "Harrington Park": {
+        "african": "0.69",
+        "asian": "17.43",
+        "democratic": "24.95",
+        "hispanic": "3.49",
+        "population": "4,664",
+        "republican": "24.89",
+        "taxable": "224,034",
+        "voters": "3,192"
+    },
+    "Harrison": {
+        "african": "2.18",
+        "asian": "16.28",
+        "democratic": "59.47",
+        "hispanic": "44.18",
+        "population": "13,620",
+        "republican": "5.86",
+        "taxable": "86,923",
+        "voters": "5,415"
+    },
+    "Harrison Twp": {
+        "african": "3.83",
+        "asian": "3.38",
+        "democratic": "23.97",
+        "hispanic": "3.01",
+        "population": "12,417",
+        "republican": "32.05",
+        "taxable": "115,897",
+        "voters": "8,044"
+    },
+    "Harvey Cedars": {
+        "african": "0.59",
+        "asian": "0.3",
+        "democratic": "22.31",
+        "hispanic": "0.89",
+        "population": "337",
+        "republican": "41.73",
+        "taxable": "3,988,847",
+        "voters": "381"
+    },
+    "Hasbrouck Heights": {
+        "african": "2.86",
+        "asian": "9.99",
+        "democratic": "22.44",
+        "hispanic": "14.86",
+        "population": "11,842",
+        "republican": "35.54",
+        "taxable": "155,357",
+        "voters": "7,001"
+    },
+    "Haworth": {
+        "african": "1.15",
+        "asian": "11.89",
+        "democratic": "33.38",
+        "hispanic": "4.38",
+        "population": "3,382",
+        "republican": "22.41",
+        "taxable": "309,204",
+        "voters": "2,275"
+    },
+    "Hawthorne": {
+        "african": "2.27",
+        "asian": "2.82",
+        "democratic": "24.33",
+        "hispanic": "15.42",
+        "population": "18,791",
+        "republican": "32.88",
+        "taxable": "147,780",
+        "voters": "12,070"
+    },
+    "Hazlet": {
+        "african": "1.48",
+        "asian": "3.4",
+        "democratic": "26.84",
+        "hispanic": "7.87",
+        "population": "20,334",
+        "republican": "18.94",
+        "taxable": "123,711",
+        "voters": "13,947"
+    },
+    "Helmetta": {
+        "african": "3.95",
+        "asian": "4.87",
+        "democratic": "28.87",
+        "hispanic": "7.53",
+        "population": "2,178",
+        "republican": "19.2",
+        "taxable": "112,801",
+        "voters": "1,396"
+    },
+    "Hi-Nella": {
+        "african": "15.06",
+        "asian": "4.02",
+        "democratic": "42.81",
+        "hispanic": "10.57",
+        "population": "870",
+        "republican": "10.45",
+        "taxable": "44,708",
+        "voters": "584"
+    },
+    "High Bridge": {
+        "african": "1.32",
+        "asian": "3.18",
+        "democratic": "20.75",
+        "hispanic": "6",
+        "population": "3,648",
+        "republican": "40.6",
+        "taxable": "111,968",
+        "voters": "2,453"
+    },
+    "Highland Park": {
+        "african": "7.83",
+        "asian": "17.84",
+        "democratic": "60.39",
+        "hispanic": "8.95",
+        "population": "13,982",
+        "republican": "7.31",
+        "taxable": "102,593",
+        "voters": "8,493"
+    },
+    "Highlands": {
+        "african": "1.62",
+        "asian": "1.3",
+        "democratic": "27.83",
+        "hispanic": "6.47",
+        "population": "5,005",
+        "republican": "22.91",
+        "taxable": "146,741",
+        "voters": "3,270"
+    },
+    "Hightstown": {
+        "african": "8.05",
+        "asian": "4.08",
+        "democratic": "38.44",
+        "hispanic": "30.29",
+        "population": "5,494",
+        "republican": "19.06",
+        "taxable": "88,525",
+        "voters": "2,985"
+    },
+    "Hillsborough": {
+        "african": "4.59",
+        "asian": "12.38",
+        "democratic": "22.42",
+        "hispanic": "7.55",
+        "population": "38,303",
+        "republican": "22.23",
+        "taxable": "158,505",
+        "voters": "24,928"
+    },
+    "Hillsdale": {
+        "african": "1.01",
+        "asian": "6.26",
+        "democratic": "23.7",
+        "hispanic": "7.77",
+        "population": "10,219",
+        "republican": "29.42",
+        "taxable": "190,814",
+        "voters": "6,893"
+    },
+    "Hillside": {
+        "african": "53.19",
+        "asian": "2.73",
+        "democratic": "51.18",
+        "hispanic": "17.63",
+        "population": "21,404",
+        "republican": "5.71",
+        "taxable": "92,088",
+        "voters": "12,416"
+    },
+    "Ho-Ho-Kus": {
+        "african": "0.22",
+        "asian": "5.79",
+        "democratic": "18.33",
+        "hispanic": "4.12",
+        "population": "4,078",
+        "republican": "49.24",
+        "taxable": "325,780",
+        "voters": "2,865"
+    },
+    "Hoboken": {
+        "african": "3.53",
+        "asian": "7.12",
+        "democratic": "41.12",
+        "hispanic": "15.2",
+        "population": "50,005",
+        "republican": "10.79",
+        "taxable": "204,863",
+        "voters": "35,270"
+    },
+    "Holland": {
+        "african": "0.72",
+        "asian": "0.77",
+        "democratic": "18.18",
+        "hispanic": "2.68",
+        "population": "5,291",
+        "republican": "41.9",
+        "taxable": "148,488",
+        "voters": "3,718"
+    },
+    "Holmdel": {
+        "african": "0.86",
+        "asian": "19.16",
+        "democratic": "16.33",
+        "hispanic": "3.7",
+        "population": "16,773",
+        "republican": "34.18",
+        "taxable": "255,783",
+        "voters": "12,297"
+    },
+    "Hopatcong": {
+        "african": "2.91",
+        "asian": "2.25",
+        "democratic": "20.28",
+        "hispanic": "11.32",
+        "population": "15,147",
+        "republican": "34.28",
+        "taxable": "122,341",
+        "voters": "9,528"
+    },
+    "Hope": {
+        "african": "1.18",
+        "asian": "1.59",
+        "democratic": "18.97",
+        "hispanic": "4.1",
+        "population": "1,952",
+        "republican": "39.73",
+        "taxable": "139,607",
+        "voters": "1,334"
+    },
+    "Hopewell": {
+        "african": "6.58",
+        "asian": "0.57",
+        "democratic": "45.52",
+        "hispanic": "7.33",
+        "population": "4,571",
+        "republican": "17.98",
+        "taxable": "168,107",
+        "voters": "1,498"
+    },
+    "Hopewell Twp": {
+        "african": "2.1",
+        "asian": "8.89",
+        "democratic": "32.51",
+        "hispanic": "3.31",
+        "population": "17,304",
+        "republican": "25.35",
+        "taxable": "243,554",
+        "voters": "12,568"
+    },
+    "Howell": {
+        "african": "3.65",
+        "asian": "4.52",
+        "democratic": "19.98",
+        "hispanic": "8.13",
+        "population": "51,075",
+        "republican": "23.25",
+        "taxable": "132,400",
+        "voters": "33,842"
+    },
+    "Independence": {
+        "african": "1.22",
+        "asian": "2.23",
+        "democratic": "18.37",
+        "hispanic": "5.42",
+        "population": "5,662",
+        "republican": "36.84",
+        "taxable": "119,872",
+        "voters": "3,757"
+    },
+    "Interlaken": {
+        "african": "0",
+        "asian": "0.49",
+        "democratic": "24.27",
+        "hispanic": "1.71",
+        "population": "820",
+        "republican": "49.74",
+        "taxable": "348,787",
+        "voters": "758"
+    },
+    "Irvington": {
+        "african": "85.41",
+        "asian": "0.87",
+        "democratic": "51.93",
+        "hispanic": "10.6",
+        "population": "53,926",
+        "republican": "1.44",
+        "taxable": "58,435",
+        "voters": "28,356"
+    },
+    "Island Heights": {
+        "african": "0.24",
+        "asian": "1.37",
+        "democratic": "21.15",
+        "hispanic": "2.39",
+        "population": "1,673",
+        "republican": "31.39",
+        "taxable": "250,074",
+        "voters": "1,357"
+    },
+    "Jackson": {
+        "african": "4.86",
+        "asian": "2.95",
+        "democratic": "20.89",
+        "hispanic": "7.83",
+        "population": "54,856",
+        "republican": "22.46",
+        "taxable": "126,265",
+        "voters": "34,961"
+    },
+    "Jamesburg": {
+        "african": "8.84",
+        "asian": "4.53",
+        "democratic": "31.74",
+        "hispanic": "22.38",
+        "population": "5,915",
+        "republican": "15.15",
+        "taxable": "88,210",
+        "voters": "2,971"
+    },
+    "Jefferson": {
+        "african": "1.56",
+        "asian": "4.6",
+        "democratic": "18.03",
+        "hispanic": "6.48",
+        "population": "21,314",
+        "republican": "32.77",
+        "taxable": "139,587",
+        "voters": "13,628"
+    },
+    "Jersey City": {
+        "african": "25.85",
+        "asian": "23.67",
+        "democratic": "48.72",
+        "hispanic": "27.57",
+        "population": "247,597",
+        "republican": "6.38",
+        "taxable": "80,682",
+        "voters": "120,834"
+    },
+    "Keansburg": {
+        "african": "6.57",
+        "asian": "1.7",
+        "democratic": "26",
+        "hispanic": "14.77",
+        "population": "10,105",
+        "republican": "13.45",
+        "taxable": "67,509",
+        "voters": "5,753"
+    },
+    "Kearny": {
+        "african": "5.37",
+        "asian": "4.41",
+        "democratic": "43.45",
+        "hispanic": "39.95",
+        "population": "40,684",
+        "republican": "11.88",
+        "taxable": "89,578",
+        "voters": "16,337"
+    },
+    "Kenilworth": {
+        "african": "2.91",
+        "asian": "3.84",
+        "democratic": "30.68",
+        "hispanic": "15.52",
+        "population": "7,914",
+        "republican": "22.14",
+        "taxable": "207,249",
+        "voters": "5,010"
+    },
+    "Keyport": {
+        "african": "7.2",
+        "asian": "2.38",
+        "democratic": "28.17",
+        "hispanic": "18.26",
+        "population": "7,240",
+        "republican": "21.61",
+        "taxable": "102,330",
+        "voters": "4,619"
+    },
+    "Kingwood": {
+        "african": "0.65",
+        "asian": "1.09",
+        "democratic": "14.13",
+        "hispanic": "2.39",
+        "population": "3,845",
+        "republican": "52.18",
+        "taxable": "171,204",
+        "voters": "2,731"
+    },
+    "Kinnelon": {
+        "african": "0.91",
+        "asian": "4.26",
+        "democratic": "15.58",
+        "hispanic": "4.08",
+        "population": "10,248",
+        "republican": "46.25",
+        "taxable": "225,850",
+        "voters": "7,287"
+    },
+    "Knowlton": {
+        "african": "0.92",
+        "asian": "0.92",
+        "democratic": "20.91",
+        "hispanic": "3.63",
+        "population": "3,055",
+        "republican": "34.89",
+        "taxable": "120,604",
+        "voters": "2,009"
+    },
+    "Lacey": {
+        "african": "0.6",
+        "asian": "0.8",
+        "democratic": "17.34",
+        "hispanic": "4.74",
+        "population": "27,644",
+        "republican": "27.59",
+        "taxable": "153,618",
+        "voters": "18,798"
+    },
+    "Lafayette": {
+        "african": "1.58",
+        "asian": "0.75",
+        "democratic": "13.24",
+        "hispanic": "5.08",
+        "population": "2,538",
+        "republican": "45.71",
+        "taxable": "183,987",
+        "voters": "1,737"
+    },
+    "Lake Como": {
+        "african": "6.14",
+        "asian": "1.19",
+        "democratic": "29.04",
+        "hispanic": "18.31",
+        "population": "1,759",
+        "republican": "15.52",
+        "taxable": "219,129",
+        "voters": "1,057"
+    },
+    "Lakehurst": {
+        "african": "10.81",
+        "asian": "2.11",
+        "democratic": "18.16",
+        "hispanic": "13.07",
+        "population": "2,654",
+        "republican": "21.43",
+        "taxable": "72,240",
+        "voters": "1,470"
+    },
+    "Lakewood": {
+        "african": "6.35",
+        "asian": "0.84",
+        "democratic": "17.22",
+        "hispanic": "17.3",
+        "population": "92,843",
+        "republican": "34.73",
+        "taxable": "85,973",
+        "voters": "39,103"
+    },
+    "Lambertville": {
+        "african": "1.95",
+        "asian": "1.31",
+        "democratic": "45.45",
+        "hispanic": "9.75",
+        "population": "3,906",
+        "republican": "18.41",
+        "taxable": "192,498",
+        "voters": "3,107"
+    },
+    "Laurel Springs": {
+        "african": "3.46",
+        "asian": "1",
+        "democratic": "37.2",
+        "hispanic": "3.88",
+        "population": "1,908",
+        "republican": "21.45",
+        "taxable": "77,315",
+        "voters": "1,347"
+    },
+    "Lavallette": {
+        "african": "0.11",
+        "asian": "0.53",
+        "democratic": "13.93",
+        "hispanic": "2.99",
+        "population": "1,875",
+        "republican": "53.26",
+        "taxable": "1,225,940",
+        "voters": "1,780"
+    },
+    "Lawnside": {
+        "african": "88.83",
+        "asian": "1.43",
+        "democratic": "64.86",
+        "hispanic": "4.38",
+        "population": "2,945",
+        "republican": "4.23",
+        "taxable": "91,073",
+        "voters": "2,310"
+    },
+    "Lawrence": {
+        "african": "9.24",
+        "asian": "0.4",
+        "democratic": "40.38",
+        "hispanic": "11.37",
+        "population": "3,290",
+        "republican": "16.5",
+        "taxable": "153,104",
+        "voters": "19,838"
+    },
+    "Lebanon": {
+        "african": "1.77",
+        "asian": "5.23",
+        "democratic": "20.56",
+        "hispanic": "5.01",
+        "population": "1,358",
+        "republican": "39.51",
+        "taxable": "225,421",
+        "voters": "934"
+    },
+    "Lebanon Twp": {
+        "african": "1.68",
+        "asian": "1.47",
+        "democratic": "16.31",
+        "hispanic": "3.11",
+        "population": "6,588",
+        "republican": "40.43",
+        "taxable": "148,299",
+        "voters": "4,450"
+    },
+    "Leonia": {
+        "african": "2.34",
+        "asian": "35.12",
+        "democratic": "52.7",
+        "hispanic": "16.66",
+        "population": "8,937",
+        "republican": "12.7",
+        "taxable": "160,839",
+        "voters": "4,541"
+    },
+    "Liberty": {
+        "african": "1.02",
+        "asian": "1.5",
+        "democratic": "20.39",
+        "hispanic": "4.15",
+        "population": "2,942",
+        "republican": "41.2",
+        "taxable": "111,848",
+        "voters": "1,898"
+    },
+    "Lincoln Park": {
+        "african": "1.83",
+        "asian": "7.38",
+        "democratic": "21.13",
+        "hispanic": "9.59",
+        "population": "10,521",
+        "republican": "32.3",
+        "taxable": "147,552",
+        "voters": "6,635"
+    },
+    "Linden": {
+        "african": "26.88",
+        "asian": "2.71",
+        "democratic": "54.96",
+        "hispanic": "24.93",
+        "population": "40,499",
+        "republican": "6.14",
+        "taxable": "142,602",
+        "voters": "22,206"
+    },
+    "Lindenwold": {
+        "african": "34.66",
+        "asian": "2.8",
+        "democratic": "44.87",
+        "hispanic": "20.85",
+        "population": "17,613",
+        "republican": "7.07",
+        "taxable": "43,004",
+        "voters": "10,136"
+    },
+    "Linwood": {
+        "african": "0.97",
+        "asian": "3.79",
+        "democratic": "21.55",
+        "hispanic": "2.96",
+        "population": "7,092",
+        "republican": "36.62",
+        "taxable": "169,101",
+        "voters": "5,309"
+    },
+    "Little Egg Harbor": {
+        "african": "1.35",
+        "asian": "1.24",
+        "democratic": "19.35",
+        "hispanic": "5.22",
+        "population": "20,065",
+        "republican": "29.05",
+        "taxable": "143,362",
+        "voters": "14,028"
+    },
+    "Little Falls": {
+        "african": "4.11",
+        "asian": "4.56",
+        "democratic": "27.5",
+        "hispanic": "9.89",
+        "population": "14,432",
+        "republican": "23.84",
+        "taxable": "131,768",
+        "voters": "7,629"
+    },
+    "Little Ferry": {
+        "african": "3.94",
+        "asian": "24.24",
+        "democratic": "29.71",
+        "hispanic": "22.98",
+        "population": "10,626",
+        "republican": "12.57",
+        "taxable": "125,756",
+        "voters": "4,772"
+    },
+    "Little Silver": {
+        "african": "0.29",
+        "asian": "1.75",
+        "democratic": "22.66",
+        "hispanic": "3.01",
+        "population": "5,950",
+        "republican": "31.83",
+        "taxable": "272,449",
+        "voters": "4,757"
+    },
+    "Livingston": {
+        "african": "2.26",
+        "asian": "19.21",
+        "democratic": "37.38",
+        "hispanic": "4.06",
+        "population": "29,366",
+        "republican": "17.39",
+        "taxable": "268,095",
+        "voters": "20,610"
+    },
+    "Loch Arbour": {
+        "african": "1.55",
+        "asian": "1.55",
+        "democratic": "33.14",
+        "hispanic": "3.61",
+        "population": "194",
+        "republican": "26.04",
+        "taxable": "1,010,001",
+        "voters": "169"
+    },
+    "Lodi": {
+        "african": "7.52",
+        "asian": "8.57",
+        "democratic": "35.72",
+        "hispanic": "30.49",
+        "population": "24,136",
+        "republican": "11.78",
+        "taxable": "91,081",
+        "voters": "10,565"
+    },
+    "Logan": {
+        "african": "12.5",
+        "asian": "2.55",
+        "democratic": "40.18",
+        "hispanic": "3.97",
+        "population": "6,042",
+        "republican": "17.22",
+        "taxable": "188,586",
+        "voters": "4,159"
+    },
+    "Long Beach": {
+        "african": "0.26",
+        "asian": "0.49",
+        "democratic": "17.89",
+        "hispanic": "4.13",
+        "population": "3,051",
+        "republican": "40.53",
+        "taxable": "2,825,900",
+        "voters": "3,114"
+    },
+    "Long Branch": {
+        "african": "14.21",
+        "asian": "2.13",
+        "democratic": "31.72",
+        "hispanic": "28.07",
+        "population": "30,719",
+        "republican": "13.26",
+        "taxable": "159,049",
+        "voters": "13,964"
+    },
+    "Long Hill": {
+        "african": "0.62",
+        "asian": "5.98",
+        "democratic": "19.42",
+        "hispanic": "7.06",
+        "population": "8,702",
+        "republican": "37.7",
+        "taxable": "205,316",
+        "voters": "6,098"
+    },
+    "Longport": {
+        "african": "0.34",
+        "asian": "0.45",
+        "democratic": "18.33",
+        "hispanic": "1.12",
+        "population": "895",
+        "republican": "45.88",
+        "taxable": "2,448,378",
+        "voters": "813"
+    },
+    "Lopatcong": {
+        "african": "6.03",
+        "asian": "4.18",
+        "democratic": "27.35",
+        "hispanic": "5.99",
+        "population": "8,014",
+        "republican": "28.67",
+        "taxable": "123,570",
+        "voters": "5,116"
+    },
+    "Lower Alloways Creek": {
+        "african": "1.36",
+        "asian": "0.17",
+        "democratic": "35.27",
+        "hispanic": "1.53",
+        "population": "1,770",
+        "republican": "25.8",
+        "taxable": "166,906",
+        "voters": "1,287"
+    },
+    "Lower Township": {
+        "african": "1.99",
+        "asian": "0.62",
+        "democratic": "20.17",
+        "hispanic": "4.24",
+        "population": "22,866",
+        "republican": "39.91",
+        "taxable": "184,591",
+        "voters": "15,272"
+    },
+    "Lumberton": {
+        "african": "18.93",
+        "asian": "4.71",
+        "democratic": "31.85",
+        "hispanic": "5.86",
+        "population": "12,559",
+        "republican": "24.19",
+        "taxable": "115,397",
+        "voters": "7,795"
+    },
+    "Lyndhurst": {
+        "african": "1.98",
+        "asian": "6.59",
+        "democratic": "27.92",
+        "hispanic": "18.34",
+        "population": "20,554",
+        "republican": "19.87",
+        "taxable": "164,327",
+        "voters": "11,033"
+    },
+    "Madison": {
+        "african": "2.96",
+        "asian": "5.51",
+        "democratic": "26.14",
+        "hispanic": "8.87",
+        "population": "15,845",
+        "republican": "33.76",
+        "taxable": "226,688",
+        "voters": "10,119"
+    },
+    "Magnolia": {
+        "african": "18.27",
+        "asian": "1.89",
+        "democratic": "39.67",
+        "hispanic": "7.83",
+        "population": "4,341",
+        "republican": "12.28",
+        "taxable": "68,214",
+        "voters": "2,984"
+    },
+    "Mahwah": {
+        "african": "2.62",
+        "asian": "7.81",
+        "democratic": "22.31",
+        "hispanic": "6.26",
+        "population": "25,890",
+        "republican": "28.44",
+        "taxable": "261,126",
+        "voters": "14,361"
+    },
+    "Manalapan": {
+        "african": "2.38",
+        "asian": "6.9",
+        "democratic": "26.45",
+        "hispanic": "5.66",
+        "population": "38,872",
+        "republican": "16.92",
+        "taxable": "161,603",
+        "voters": "26,566"
+    },
+    "Manasquan": {
+        "african": "0.31",
+        "asian": "0.61",
+        "democratic": "22.57",
+        "hispanic": "7.02",
+        "population": "5,897",
+        "republican": "29.81",
+        "taxable": "368,040",
+        "voters": "4,320"
+    },
+    "Manchester": {
+        "african": "3.84",
+        "asian": "1.78",
+        "democratic": "26.49",
+        "hispanic": "4.79",
+        "population": "43,070",
+        "republican": "30.94",
+        "taxable": "99,782",
+        "voters": "32,591"
+    },
+    "Mannington": {
+        "african": "21.1",
+        "asian": "0.44",
+        "democratic": "24.13",
+        "hispanic": "8.19",
+        "population": "1,806",
+        "republican": "27.71",
+        "taxable": "122,132",
+        "voters": "973"
+    },
+    "Mansfield": {
+        "african": "4.89",
+        "asian": "3.21",
+        "democratic": "29.58",
+        "hispanic": "10.94",
+        "population": "7,725",
+        "republican": "31.43",
+        "taxable": "150,144",
+        "voters": "6,345"
+    },
+    "Mantoloking": {
+        "african": "1.69",
+        "asian": "0.34",
+        "democratic": "7.74",
+        "hispanic": "2.36",
+        "population": "296",
+        "republican": "75.89",
+        "taxable": "5,704,098",
+        "voters": "336"
+    },
+    "Mantua": {
+        "african": "2.5",
+        "asian": "1.1",
+        "democratic": "33.94",
+        "hispanic": "2.95",
+        "population": "15,217",
+        "republican": "19.61",
+        "taxable": "99,269",
+        "voters": "10,470"
+    },
+    "Manville": {
+        "african": "2.72",
+        "asian": "1.99",
+        "democratic": "26.63",
+        "hispanic": "18.98",
+        "population": "10,344",
+        "republican": "21.13",
+        "taxable": "106,034",
+        "voters": "5,219"
+    },
+    "Maple Shade": {
+        "african": "9.54",
+        "asian": "5.65",
+        "democratic": "38.49",
+        "hispanic": "8.32",
+        "population": "19,131",
+        "republican": "14.86",
+        "taxable": "86,832",
+        "voters": "11,310"
+    },
+    "Maplewood": {
+        "african": "35.3",
+        "asian": "3.04",
+        "democratic": "57.03",
+        "hispanic": "6.68",
+        "population": "23,867",
+        "republican": "8.96",
+        "taxable": "153,957",
+        "voters": "16,369"
+    },
+    "Margate": {
+        "african": "0.71",
+        "asian": "0.98",
+        "democratic": "23.26",
+        "hispanic": "2.75",
+        "population": "6,354",
+        "republican": "40.53",
+        "taxable": "632,058",
+        "voters": "5,167"
+    },
+    "Marlboro": {
+        "african": "2.09",
+        "asian": "17.27",
+        "democratic": "26.8",
+        "hispanic": "4.03",
+        "population": "40,191",
+        "republican": "16.09",
+        "taxable": "186,177",
+        "voters": "27,079"
+    },
+    "Matawan": {
+        "african": "7.04",
+        "asian": "6.41",
+        "democratic": "25.27",
+        "hispanic": "10.77",
+        "population": "8,810",
+        "republican": "21.5",
+        "taxable": "116,737",
+        "voters": "5,456"
+    },
+    "Maurice River": {
+        "african": "36.03",
+        "asian": "0.35",
+        "democratic": "25.11",
+        "hispanic": "11.52",
+        "population": "7,976",
+        "republican": "25.71",
+        "taxable": "40,875",
+        "voters": "2,330"
+    },
+    "Maywood": {
+        "african": "5.34",
+        "asian": "10.98",
+        "democratic": "32.74",
+        "hispanic": "18.68",
+        "population": "9,555",
+        "republican": "18.51",
+        "taxable": "146,557",
+        "voters": "5,497"
+    },
+    "Medford": {
+        "african": "1.53",
+        "asian": "2.03",
+        "democratic": "23.32",
+        "hispanic": "2.6",
+        "population": "23,033",
+        "republican": "32.35",
+        "taxable": "141,947",
+        "voters": "17,072"
+    },
+    "Medford Lakes": {
+        "african": "0.46",
+        "asian": "0.96",
+        "democratic": "24.61",
+        "hispanic": "1.69",
+        "population": "4,146",
+        "republican": "32.89",
+        "taxable": "116,487",
+        "voters": "3,125"
+    },
+    "Mendham": {
+        "african": "1.02",
+        "asian": "2.05",
+        "democratic": "19.51",
+        "hispanic": "2.71",
+        "population": "4,981",
+        "republican": "43.57",
+        "taxable": "283,641",
+        "voters": "3,828"
+    },
+    "Mendham Twp": {
+        "african": "1.29",
+        "asian": "3.41",
+        "democratic": "16.83",
+        "hispanic": "3.6",
+        "population": "5,869",
+        "republican": "46.81",
+        "taxable": "354,792",
+        "voters": "4,610"
+    },
+    "Merchantville": {
+        "african": "13.01",
+        "asian": "2.28",
+        "democratic": "37.92",
+        "hispanic": "11.62",
+        "population": "3,821",
+        "republican": "18.27",
+        "taxable": "71,290",
+        "voters": "2,647"
+    },
+    "Metuchen": {
+        "african": "4.88",
+        "asian": "12.96",
+        "democratic": "43.41",
+        "hispanic": "6.89",
+        "population": "13,574",
+        "republican": "16.05",
+        "taxable": "168,028",
+        "voters": "9,540"
+    },
+    "Middle Township": {
+        "african": "10.41",
+        "asian": "1.79",
+        "democratic": "24.75",
+        "hispanic": "5.09",
+        "population": "18,911",
+        "republican": "31.05",
+        "taxable": "160,739",
+        "voters": "12,625"
+    },
+    "Middlesex Borough": {
+        "african": "5.13",
+        "asian": "6",
+        "democratic": "25.04",
+        "hispanic": "16.47",
+        "population": "13,635",
+        "republican": "19.38",
+        "taxable": "121,094",
+        "voters": "8,380"
+    },
+    "Middletown": {
+        "african": "1.31",
+        "asian": "2.6",
+        "democratic": "21.89",
+        "hispanic": "5.37",
+        "population": "66,522",
+        "republican": "25.08",
+        "taxable": "171,089",
+        "voters": "47,484"
+    },
+    "Midland Park": {
+        "african": "0.84",
+        "asian": "2.69",
+        "democratic": "18.63",
+        "hispanic": "6.65",
+        "population": "7,128",
+        "republican": "39.71",
+        "taxable": "183,919",
+        "voters": "4,572"
+    },
+    "Milford": {
+        "african": "0.24",
+        "asian": "0.97",
+        "democratic": "25.09",
+        "hispanic": "2.19",
+        "population": "1,233",
+        "republican": "36.61",
+        "taxable": "118,479",
+        "voters": "833"
+    },
+    "Millburn": {
+        "african": "1.63",
+        "asian": "15.66",
+        "democratic": "32.23",
+        "hispanic": "3.49",
+        "population": "20,149",
+        "republican": "22.9",
+        "taxable": "438,010",
+        "voters": "14,067"
+    },
+    "Millstone": {
+        "african": "1.2",
+        "asian": "1.67",
+        "democratic": "36.1",
+        "hispanic": "3.59",
+        "population": "418",
+        "republican": "27.16",
+        "taxable": "132,574",
+        "voters": "313"
+    },
+    "Millstone Twp": {
+        "african": "3.59",
+        "asian": "4.51",
+        "democratic": "16.83",
+        "hispanic": "5.48",
+        "population": "10,566",
+        "republican": "37.62",
+        "taxable": "186,350",
+        "voters": "7,065"
+    },
+    "Milltown": {
+        "african": "1.23",
+        "asian": "3.37",
+        "democratic": "31.88",
+        "hispanic": "6.46",
+        "population": "6,893",
+        "republican": "16.31",
+        "taxable": "142,559",
+        "voters": "5,088"
+    },
+    "Millville": {
+        "african": "19.83",
+        "asian": "1.19",
+        "democratic": "26.87",
+        "hispanic": "14.93",
+        "population": "28,400",
+        "republican": "16.12",
+        "taxable": "64,842",
+        "voters": "17,389"
+    },
+    "Mine Hill": {
+        "african": "4.6",
+        "asian": "4.96",
+        "democratic": "23.17",
+        "hispanic": "23.01",
+        "population": "3,651",
+        "republican": "30.75",
+        "taxable": "135,678",
+        "voters": "2,231"
+    },
+    "Monmouth Beach": {
+        "african": "0.34",
+        "asian": "0.73",
+        "democratic": "23.53",
+        "hispanic": "1.89",
+        "population": "3,279",
+        "republican": "28.66",
+        "taxable": "417,393",
+        "voters": "2,631"
+    },
+    "Monroe": {
+        "african": "14.01",
+        "asian": "2.42",
+        "democratic": "39.15",
+        "hispanic": "4.97",
+        "population": "36,129",
+        "republican": "18.28",
+        "taxable": "180,978",
+        "voters": "29,888"
+    },
+    "Montague": {
+        "african": "2.63",
+        "asian": "1.01",
+        "democratic": "13.41",
+        "hispanic": "6.39",
+        "population": "3,847",
+        "republican": "51.82",
+        "taxable": "107,030",
+        "voters": "2,439"
+    },
+    "Montclair": {
+        "african": "27.16",
+        "asian": "3.81",
+        "democratic": "54.55",
+        "hispanic": "7.46",
+        "population": "37,669",
+        "republican": "9.52",
+        "taxable": "187,900",
+        "voters": "27,131"
+    },
+    "Montgomery": {
+        "african": "2.84",
+        "asian": "25.61",
+        "democratic": "27.36",
+        "hispanic": "4.57",
+        "population": "22,254",
+        "republican": "23.22",
+        "taxable": "209,991",
+        "voters": "14,275"
+    },
+    "Montvale": {
+        "african": "1.03",
+        "asian": "11.04",
+        "democratic": "21",
+        "hispanic": "5.34",
+        "population": "7,844",
+        "republican": "30.28",
+        "taxable": "289,983",
+        "voters": "4,955"
+    },
+    "Montville": {
+        "african": "1.28",
+        "asian": "18.07",
+        "democratic": "18.77",
+        "hispanic": "4.18",
+        "population": "21,528",
+        "republican": "37.76",
+        "taxable": "240,020",
+        "voters": "14,627"
+    },
+    "Moonachie": {
+        "african": "1.4",
+        "asian": "10.04",
+        "democratic": "43.56",
+        "hispanic": "24.37",
+        "population": "2,708",
+        "republican": "13.81",
+        "taxable": "266,972",
+        "voters": "1,424"
+    },
+    "Moorestown": {
+        "african": "6.42",
+        "asian": "6",
+        "democratic": "28.09",
+        "hispanic": "3.48",
+        "population": "20,726",
+        "republican": "36.49",
+        "taxable": "221,001",
+        "voters": "14,395"
+    },
+    "Morris Plains": {
+        "african": "2.73",
+        "asian": "4.97",
+        "democratic": "21.44",
+        "hispanic": "5.68",
+        "population": "5,532",
+        "republican": "43.21",
+        "taxable": "284,729",
+        "voters": "4,034"
+    },
+    "Morris Twp": {
+        "african": "5.65",
+        "asian": "5.12",
+        "democratic": "27.74",
+        "hispanic": "7.55",
+        "population": "22,306",
+        "republican": "34.59",
+        "taxable": "251,108",
+        "voters": "16,126"
+    },
+    "Morristown": {
+        "african": "13.97",
+        "asian": "4.34",
+        "democratic": "41.18",
+        "hispanic": "34.09",
+        "population": "18,411",
+        "republican": "17.38",
+        "taxable": "161,078",
+        "voters": "9,900"
+    },
+    "Mount Arlington": {
+        "african": "2.32",
+        "asian": "3.58",
+        "democratic": "19.41",
+        "hispanic": "8.22",
+        "population": "5,050",
+        "republican": "38.99",
+        "taxable": "166,077",
+        "voters": "3,839"
+    },
+    "Mount Ephraim": {
+        "african": "2.14",
+        "asian": "0.68",
+        "democratic": "44.92",
+        "hispanic": "5.33",
+        "population": "4,676",
+        "republican": "12.84",
+        "taxable": "68,958",
+        "voters": "3,147"
+    },
+    "Mount Holly": {
+        "african": "23.1",
+        "asian": "1.47",
+        "democratic": "31.56",
+        "hispanic": "12.69",
+        "population": "9,536",
+        "republican": "19.43",
+        "taxable": "692,753",
+        "voters": "5,678"
+    },
+    "Mount Laurel": {
+        "african": "9.7",
+        "asian": "7.26",
+        "democratic": "31.59",
+        "hispanic": "4.56",
+        "population": "41,864",
+        "republican": "23.94",
+        "taxable": "15,694",
+        "voters": "29,638"
+    },
+    "Mount Olive": {
+        "african": "5.74",
+        "asian": "8.23",
+        "democratic": "19.45",
+        "hispanic": "11.51",
+        "population": "28,117",
+        "republican": "31.63",
+        "taxable": "125,764",
+        "voters": "15,971"
+    },
+    "Mountain Lakes": {
+        "african": "0.36",
+        "asian": "7.64",
+        "democratic": "23.97",
+        "hispanic": "2.55",
+        "population": "4,160",
+        "republican": "32.85",
+        "taxable": "325,478",
+        "voters": "3,087"
+    },
+    "Mountainside": {
+        "african": "1.97",
+        "asian": "4.94",
+        "democratic": "25.07",
+        "hispanic": "6.09",
+        "population": "6,685",
+        "republican": "33.15",
+        "taxable": "255,688",
+        "voters": "4,866"
+    },
+    "Mullica": {
+        "african": "5.68",
+        "asian": "0.68",
+        "democratic": "22.42",
+        "hispanic": "17.02",
+        "population": "6,147",
+        "republican": "32.78",
+        "taxable": "95,923",
+        "voters": "4,122"
+    },
+    "National Park": {
+        "african": "1.35",
+        "asian": "0.59",
+        "democratic": "49.76",
+        "hispanic": "2.04",
+        "population": "3,036",
+        "republican": "10.49",
+        "taxable": "59,490",
+        "voters": "2,106"
+    },
+    "Neptune City": {
+        "african": "10.62",
+        "asian": "4.46",
+        "democratic": "24.47",
+        "hispanic": "10.08",
+        "population": "4,869",
+        "republican": "27.18",
+        "taxable": "110,803",
+        "voters": "3,024"
+    },
+    "Neptune Twp": {
+        "african": "38.56",
+        "asian": "2.26",
+        "democratic": "35.91",
+        "hispanic": "9.33",
+        "population": "27,935",
+        "republican": "15.37",
+        "taxable": "135,832",
+        "voters": "18,512"
+    },
+    "Netcong": {
+        "african": "3.9",
+        "asian": "2.78",
+        "democratic": "21.47",
+        "hispanic": "17.7",
+        "population": "3,232",
+        "republican": "36.75",
+        "taxable": "98,803",
+        "voters": "1,826"
+    },
+    "New Brunswick": {
+        "african": "16.04",
+        "asian": "7.6",
+        "democratic": "38.68",
+        "hispanic": "49.93",
+        "population": "55,181",
+        "republican": "3.91",
+        "taxable": "59,056",
+        "voters": "22,967"
+    },
+    "New Hanover": {
+        "african": "33.57",
+        "asian": "2.04",
+        "democratic": "20.47",
+        "hispanic": "20.96",
+        "population": "7,385",
+        "republican": "41.08",
+        "taxable": "12,925",
+        "voters": "752"
+    },
+    "New Milford": {
+        "african": "3.72",
+        "asian": "19.39",
+        "democratic": "29.83",
+        "hispanic": "13.63",
+        "population": "16,341",
+        "republican": "17.42",
+        "taxable": "120,987",
+        "voters": "9,033"
+    },
+    "New Providence": {
+        "african": "1.27",
+        "asian": "9.78",
+        "democratic": "22.99",
+        "hispanic": "6.43",
+        "population": "12,171",
+        "republican": "34.3",
+        "taxable": "208,520",
+        "voters": "8,061"
+    },
+    "Newark": {
+        "african": "52.35",
+        "asian": "1.62",
+        "democratic": "50.61",
+        "hispanic": "33.83",
+        "population": "277,140",
+        "republican": "2.63",
+        "taxable": "57,735",
+        "voters": "136,359"
+    },
+    "Newfield": {
+        "african": "2.19",
+        "asian": "0.32",
+        "democratic": "44.89",
+        "hispanic": "6.57",
+        "population": "1,553",
+        "republican": "21.12",
+        "taxable": "86,435",
+        "voters": "1,174"
+    },
+    "Newton": {
+        "african": "4.88",
+        "asian": "2.98",
+        "democratic": "20.05",
+        "hispanic": "12.34",
+        "population": "7,997",
+        "republican": "34.91",
+        "taxable": "96,338",
+        "voters": "4,434"
+    },
+    "North Arlington": {
+        "african": "1.43",
+        "asian": "7.87",
+        "democratic": "32.9",
+        "hispanic": "20.86",
+        "population": "15,392",
+        "republican": "18.59",
+        "taxable": "105,505",
+        "voters": "8,193"
+    },
+    "North Bergen": {
+        "african": "4.04",
+        "asian": "6.55",
+        "democratic": "62.49",
+        "hispanic": "68.4",
+        "population": "60,773",
+        "republican": "8.27",
+        "taxable": "89,968",
+        "voters": "30,059"
+    },
+    "North Brunswick": {
+        "african": "17.47",
+        "asian": "24.27",
+        "democratic": "37.88",
+        "hispanic": "17.73",
+        "population": "40,742",
+        "republican": "11.06",
+        "taxable": "118,000",
+        "voters": "22,001"
+    },
+    "North Caldwell": {
+        "african": "0.73",
+        "asian": "5.73",
+        "democratic": "24.04",
+        "hispanic": "4.21",
+        "population": "6,183",
+        "republican": "33.88",
+        "taxable": "285,865",
+        "voters": "4,726"
+    },
+    "North Haledon": {
+        "african": "1.76",
+        "asian": "3.78",
+        "democratic": "19.22",
+        "hispanic": "7.46",
+        "population": "8,417",
+        "republican": "33.44",
+        "taxable": "167,878",
+        "voters": "6,146"
+    },
+    "North Hanover": {
+        "african": "9.33",
+        "asian": "1.89",
+        "democratic": "21.22",
+        "hispanic": "10.43",
+        "population": "7,678",
+        "republican": "27.66",
+        "taxable": "59,686",
+        "voters": "3,457"
+    },
+    "North Plainfield": {
+        "african": "18.85",
+        "asian": "5.81",
+        "democratic": "34.87",
+        "hispanic": "44.21",
+        "population": "21,936",
+        "republican": "16.46",
+        "taxable": "81,061",
+        "voters": "9,796"
+    },
+    "North Wildwood": {
+        "african": "1.14",
+        "asian": "0.35",
+        "democratic": "15.9",
+        "hispanic": "4.03",
+        "population": "4,041",
+        "republican": "49.74",
+        "taxable": "740,783",
+        "voters": "3,447"
+    },
+    "Northfield": {
+        "african": "3.24",
+        "asian": "4.5",
+        "democratic": "23.63",
+        "hispanic": "8",
+        "population": "8,624",
+        "republican": "31.77",
+        "taxable": "122,014",
+        "voters": "5,739"
+    },
+    "Northvale": {
+        "african": "1.06",
+        "asian": "24.01",
+        "democratic": "25.94",
+        "hispanic": "8.15",
+        "population": "4,640",
+        "republican": "20.64",
+        "taxable": "216,963",
+        "voters": "2,620"
+    },
+    "Norwood": {
+        "african": "1.37",
+        "asian": "27.18",
+        "democratic": "27.49",
+        "hispanic": "4.55",
+        "population": "5,711",
+        "republican": "20.67",
+        "taxable": "241,703",
+        "voters": "3,443"
+    },
+    "Nutley": {
+        "african": "2.21",
+        "asian": "9.95",
+        "democratic": "30.77",
+        "hispanic": "11.82",
+        "population": "28,370",
+        "republican": "20.07",
+        "taxable": "145,100",
+        "voters": "18,862"
+    },
+    "Oakland": {
+        "african": "0.89",
+        "asian": "4.17",
+        "democratic": "19.95",
+        "hispanic": "5.34",
+        "population": "12,754",
+        "republican": "31.63",
+        "taxable": "201,263",
+        "voters": "8,351"
+    },
+    "Oaklyn": {
+        "african": "2.48",
+        "asian": "1.81",
+        "democratic": "40.97",
+        "hispanic": "5.37",
+        "population": "4,038",
+        "republican": "14.74",
+        "taxable": "73,618",
+        "voters": "2,847"
+    },
+    "Ocean City": {
+        "african": "3.5",
+        "asian": "0.71",
+        "democratic": "19.64",
+        "hispanic": "5.5",
+        "population": "11,701",
+        "republican": "42.56",
+        "taxable": "1,090,896",
+        "voters": "9,157"
+    },
+    "Ocean Gate": {
+        "african": "1.34",
+        "asian": "0.2",
+        "democratic": "26.77",
+        "hispanic": "6.36",
+        "population": "2,011",
+        "republican": "29.82",
+        "taxable": "140,380",
+        "voters": "1,311"
+    },
+    "Ocean Twp": {
+        "african": "7.96",
+        "asian": "6.56",
+        "democratic": "16.47",
+        "hispanic": "8.99",
+        "population": "27,291",
+        "republican": "33.12",
+        "taxable": "172,899",
+        "voters": "6,340"
+    },
+    "Oceanport": {
+        "african": "3",
+        "asian": "1.59",
+        "democratic": "22.87",
+        "hispanic": "4.05",
+        "population": "5,832",
+        "republican": "27.91",
+        "taxable": "207,925",
+        "voters": "4,429"
+    },
+    "Ogdensburg": {
+        "african": "0.33",
+        "asian": "1.83",
+        "democratic": "19.34",
+        "hispanic": "6.27",
+        "population": "2,410",
+        "republican": "35.26",
+        "taxable": "100,078",
+        "voters": "1,608"
+    },
+    "Old Bridge": {
+        "african": "6.21",
+        "asian": "14.34",
+        "democratic": "28.32",
+        "hispanic": "10.81",
+        "population": "65,375",
+        "republican": "16.42",
+        "taxable": "115,107",
+        "voters": "38,782"
+    },
+    "Old Tappan": {
+        "african": "0.73",
+        "asian": "22.24",
+        "democratic": "19.51",
+        "hispanic": "5.01",
+        "population": "5,750",
+        "republican": "26.25",
+        "taxable": "320,220",
+        "voters": "3,748"
+    },
+    "Oldmans": {
+        "african": "7.73",
+        "asian": "0.9",
+        "democratic": "25.55",
+        "hispanic": "6.99",
+        "population": "1,773",
+        "republican": "30.36",
+        "taxable": "124,268",
+        "voters": "1,185"
+    },
+    "Oradell": {
+        "african": "0.68",
+        "asian": "11.26",
+        "democratic": "23.05",
+        "hispanic": "4.98",
+        "population": "7,978",
+        "republican": "31.83",
+        "taxable": "220,022",
+        "voters": "5,483"
+    },
+    "Orange": {
+        "african": "71.83",
+        "asian": "1.51",
+        "democratic": "57.37",
+        "hispanic": "21.67",
+        "population": "30,134",
+        "republican": "2.07",
+        "taxable": "57,458",
+        "voters": "14,963"
+    },
+    "Oxford": {
+        "african": "1.63",
+        "asian": "1.51",
+        "democratic": "23.37",
+        "hispanic": "3.78",
+        "population": "2,514",
+        "republican": "38.22",
+        "taxable": "87,347",
+        "voters": "1,468"
+    },
+    "Palisades Park": {
+        "african": "1.96",
+        "asian": "57.84",
+        "democratic": "28.15",
+        "hispanic": "18.22",
+        "population": "19,622",
+        "republican": "18.02",
+        "taxable": "127,743",
+        "voters": "6,066"
+    },
+    "Palmyra": {
+        "african": "14.54",
+        "asian": "1.84",
+        "democratic": "39.08",
+        "hispanic": "5.37",
+        "population": "7,398",
+        "republican": "20.44",
+        "taxable": "80,797",
+        "voters": "4,950"
+    },
+    "Paramus": {
+        "african": "1.42",
+        "asian": "22.28",
+        "democratic": "26.59",
+        "hispanic": "7.26",
+        "population": "26,342",
+        "republican": "20.31",
+        "taxable": "327,499",
+        "voters": "16,458"
+    },
+    "Park Ridge": {
+        "african": "1.04",
+        "asian": "6.07",
+        "democratic": "24.97",
+        "hispanic": "7.74",
+        "population": "8,645",
+        "republican": "25.71",
+        "taxable": "219,009",
+        "voters": "5,639"
+    },
+    "Parsippany-Troy Hills": {
+        "african": "3.52",
+        "asian": "29.09",
+        "democratic": "22.84",
+        "hispanic": "8.32",
+        "population": "53,238",
+        "republican": "32.81",
+        "taxable": "175,512",
+        "voters": "31,400"
+    },
+    "Passaic": {
+        "african": "10.64",
+        "asian": "4.36",
+        "democratic": "36.36",
+        "hispanic": "71.02",
+        "population": "69,781",
+        "republican": "8.47",
+        "taxable": "49,851",
+        "voters": "24,219"
+    },
+    "Paterson": {
+        "african": "31.68",
+        "asian": "3.34",
+        "democratic": "41.07",
+        "hispanic": "57.63",
+        "population": "146,199",
+        "republican": "4.54",
+        "taxable": "58,054",
+        "voters": "68,296"
+    },
+    "Paulsboro": {
+        "african": "36.72",
+        "asian": "0.71",
+        "democratic": "50.98",
+        "hispanic": "8.89",
+        "population": "6,097",
+        "republican": "6.71",
+        "taxable": "76,919",
+        "voters": "3,815"
+    },
+    "Peapack Gladstone": {
+        "african": "4.07",
+        "asian": "1.94",
+        "democratic": "16.35",
+        "hispanic": "10.88",
+        "population": "2,582",
+        "republican": "55.23",
+        "taxable": "314,531",
+        "voters": "1,749"
+    },
+    "Pemberton": {
+        "african": "15.26",
+        "asian": "3.26",
+        "democratic": "28.11",
+        "hispanic": "12.7",
+        "population": "1,409",
+        "republican": "29.99",
+        "taxable": "85,593",
+        "voters": "936"
+    },
+    "Pemberton Twp": {
+        "african": "20.49",
+        "asian": "2.89",
+        "democratic": "32.69",
+        "hispanic": "11.92",
+        "population": "27,912",
+        "republican": "17.27",
+        "taxable": "58,603",
+        "voters": "15,002"
+    },
+    "Pennington": {
+        "african": "1.82",
+        "asian": "1.78",
+        "democratic": "41",
+        "hispanic": "1.43",
+        "population": "2,585",
+        "republican": "23.34",
+        "taxable": "194,957",
+        "voters": "2,092"
+    },
+    "Penns Grove": {
+        "african": "39.77",
+        "asian": "0.49",
+        "democratic": "55.13",
+        "hispanic": "28.27",
+        "population": "5,147",
+        "republican": "5.78",
+        "taxable": "35,346",
+        "voters": "2,552"
+    },
+    "Pennsauken": {
+        "african": "26.87",
+        "asian": "7.72",
+        "democratic": "43.56",
+        "hispanic": "26.91",
+        "population": "35,885",
+        "republican": "9.87",
+        "taxable": "74,262",
+        "voters": "23,033"
+    },
+    "Pennsville": {
+        "african": "1.54",
+        "asian": "1.42",
+        "democratic": "28.24",
+        "hispanic": "3.07",
+        "population": "13,409",
+        "republican": "19.8",
+        "taxable": "93,814",
+        "voters": "8,703"
+    },
+    "Pequannock": {
+        "african": "0.48",
+        "asian": "1.94",
+        "democratic": "20.5",
+        "hispanic": "4.52",
+        "population": "15,540",
+        "republican": "36.78",
+        "taxable": "176,859",
+        "voters": "11,243"
+    },
+    "Perth Amboy": {
+        "african": "10.54",
+        "asian": "1.69",
+        "democratic": "41.02",
+        "hispanic": "78.1",
+        "population": "50,814",
+        "republican": "4.55",
+        "taxable": "73,546",
+        "voters": "22,598"
+    },
+    "Phillipsburg": {
+        "african": "7.49",
+        "asian": "1.53",
+        "democratic": "32.9",
+        "hispanic": "11.82",
+        "population": "14,950",
+        "republican": "19.87",
+        "taxable": "69,819",
+        "voters": "7,629"
+    },
+    "Pilesgrove": {
+        "african": "5.93",
+        "asian": "0.92",
+        "democratic": "23.31",
+        "hispanic": "2.59",
+        "population": "4,016",
+        "republican": "29.84",
+        "taxable": "122,466",
+        "voters": "2,833"
+    },
+    "Pine Beach": {
+        "african": "0.38",
+        "asian": "1.41",
+        "democratic": "22.58",
+        "hispanic": "3.71",
+        "population": "2,127",
+        "republican": "31.04",
+        "taxable": "150,884",
+        "voters": "1,656"
+    },
+    "Pine Hill": {
+        "african": "24.07",
+        "asian": "2.12",
+        "democratic": "39.96",
+        "hispanic": "6.74",
+        "population": "10,233",
+        "republican": "9.85",
+        "taxable": "52,974",
+        "voters": "6,500"
+    },
+    "Pine Valley": {
+        "african": "0",
+        "asian": "0",
+        "democratic": "26.67",
+        "hispanic": "16.67",
+        "population": "12",
+        "republican": "66.67",
+        "taxable": "3,218,822",
+        "voters": "15"
+    },
+    "Piscataway": {
+        "african": "20.69",
+        "asian": "33.45",
+        "democratic": "36.51",
+        "hispanic": "11.22",
+        "population": "56,044",
+        "republican": "9.77",
+        "taxable": "117,986",
+        "voters": "31,287"
+    },
+    "Pitman": {
+        "african": "1.14",
+        "asian": "0.62",
+        "democratic": "29.85",
+        "hispanic": "2.46",
+        "population": "9,011",
+        "republican": "23.47",
+        "taxable": "82,283",
+        "voters": "6,285"
+    },
+    "Pittsgrove": {
+        "african": "6.97",
+        "asian": "0.94",
+        "democratic": "27.12",
+        "hispanic": "4.8",
+        "population": "9,393",
+        "republican": "20.48",
+        "taxable": "71,517",
+        "voters": "5,781"
+    },
+    "Plainfield": {
+        "african": "50.2",
+        "asian": "0.95",
+        "democratic": "57.53",
+        "hispanic": "40.37",
+        "population": "49,808",
+        "republican": "4.65",
+        "taxable": "61,121",
+        "voters": "21,630"
+    },
+    "Plainsboro": {
+        "african": "8.03",
+        "asian": "46.22",
+        "democratic": "34.29",
+        "hispanic": "6.21",
+        "population": "22,999",
+        "republican": "13.06",
+        "taxable": "166,771",
+        "voters": "11,404"
+    },
+    "Pleasantville": {
+        "african": "45.94",
+        "asian": "2.42",
+        "democratic": "50.76",
+        "hispanic": "41.06",
+        "population": "20,249",
+        "republican": "5.76",
+        "taxable": "59,366",
+        "voters": "9,778"
+    },
+    "Plumsted": {
+        "african": "1.81",
+        "asian": "0.87",
+        "democratic": "16.15",
+        "hispanic": "5.91",
+        "population": "8,421",
+        "republican": "30.82",
+        "taxable": "114,691",
+        "voters": "5,107"
+    },
+    "Pohatcong": {
+        "african": "1.59",
+        "asian": "0.9",
+        "democratic": "27.29",
+        "hispanic": "3.47",
+        "population": "3,339",
+        "republican": "27.61",
+        "taxable": "123,807",
+        "voters": "2,155"
+    },
+    "Point Pleasant": {
+        "african": "0.41",
+        "asian": "0.72",
+        "democratic": "18.36",
+        "hispanic": "5.08",
+        "population": "18,392",
+        "republican": "31.72",
+        "taxable": "200,067",
+        "voters": "12,997"
+    },
+    "Point Pleasant Beach": {
+        "african": "0.84",
+        "asian": "0.84",
+        "democratic": "18.48",
+        "hispanic": "9.02",
+        "population": "4,665",
+        "republican": "37.71",
+        "taxable": "506,733",
+        "voters": "3,506"
+    },
+    "Pompton Lakes": {
+        "african": "1.41",
+        "asian": "5.39",
+        "democratic": "23.67",
+        "hispanic": "10.89",
+        "population": "11,097",
+        "republican": "27.53",
+        "taxable": "124,793",
+        "voters": "7,348"
+    },
+    "Port Republic": {
+        "african": "0.63",
+        "asian": "0.9",
+        "democratic": "19.28",
+        "hispanic": "2.96",
+        "population": "1,115",
+        "republican": "47.27",
+        "taxable": "128,797",
+        "voters": "861"
+    },
+    "Princeton": {
+        "african": "6.44",
+        "asian": "13.51",
+        "democratic": "",
+        "hispanic": "10.3",
+        "population": "-",
+        "republican": "",
+        "taxable": "-",
+        "voters": ""
+    },
+    "Princeton Twp (prior to 2013)": {
+        "african": "4.98",
+        "asian": "14.17",
+        "democratic": "49.77",
+        "hispanic": "6.91",
+        "population": "16,265",
+        "republican": "13.3",
+        "taxable": "303,683",
+        "voters": "12,038"
+    },
+    "Prospect Park": {
+        "african": "19.86",
+        "asian": "3.21",
+        "democratic": "55.16",
+        "hispanic": "52.09",
+        "population": "5,865",
+        "republican": "11.12",
+        "taxable": "59,372",
+        "voters": "3,120"
+    },
+    "Quinton": {
+        "african": "12.9",
+        "asian": "0.38",
+        "democratic": "31.23",
+        "hispanic": "4.01",
+        "population": "2,666",
+        "republican": "23.02",
+        "taxable": "79,263",
+        "voters": "1,648"
+    },
+    "Rahway": {
+        "african": "30.93",
+        "asian": "4.3",
+        "democratic": "45.38",
+        "hispanic": "23.52",
+        "population": "27,346",
+        "republican": "10.74",
+        "taxable": "124,930",
+        "voters": "16,215"
+    },
+    "Ramsey": {
+        "african": "0.65",
+        "asian": "6.66",
+        "democratic": "21.86",
+        "hispanic": "5.98",
+        "population": "14,473",
+        "republican": "28",
+        "taxable": "253,631",
+        "voters": "9,297"
+    },
+    "Randolph": {
+        "african": "2.68",
+        "asian": "10.46",
+        "democratic": "23.07",
+        "hispanic": "10.17",
+        "population": "25,734",
+        "republican": "29.52",
+        "taxable": "178,066",
+        "voters": "16,868"
+    },
+    "Raritan": {
+        "african": "2.09",
+        "asian": "14.29",
+        "democratic": "29.01",
+        "hispanic": "16.39",
+        "population": "6,881",
+        "republican": "22.66",
+        "taxable": "186,274",
+        "voters": "3,967"
+    },
+    "Raritan Twp": {
+        "african": "2.07",
+        "asian": "5.95",
+        "democratic": "19.75",
+        "hispanic": "5.13",
+        "population": "22,185",
+        "republican": "32.79",
+        "taxable": "189,101",
+        "voters": "15,320"
+    },
+    "Readington": {
+        "african": "1.33",
+        "asian": "3.6",
+        "democratic": "15.5",
+        "hispanic": "3.93",
+        "population": "16,126",
+        "republican": "45.58",
+        "taxable": "223,686",
+        "voters": "11,384"
+    },
+    "Red Bank": {
+        "african": "12.42",
+        "asian": "1.85",
+        "democratic": "33.59",
+        "hispanic": "34.39",
+        "population": "12,206",
+        "republican": "19.07",
+        "taxable": "182,150",
+        "voters": "6,419"
+    },
+    "Ridgefield": {
+        "african": "1.2",
+        "asian": "29.06",
+        "democratic": "33.19",
+        "hispanic": "21.41",
+        "population": "11,032",
+        "republican": "20.06",
+        "taxable": "166,214",
+        "voters": "5,276"
+    },
+    "Ridgefield Park": {
+        "african": "6.4",
+        "asian": "11.48",
+        "democratic": "33.98",
+        "hispanic": "36.18",
+        "population": "12,729",
+        "republican": "14.61",
+        "taxable": "113,494",
+        "voters": "6,343"
+    },
+    "Ridgewood": {
+        "african": "1.59",
+        "asian": "12.99",
+        "democratic": "29.16",
+        "hispanic": "5.27",
+        "population": "24,958",
+        "republican": "25.74",
+        "taxable": "259,949",
+        "voters": "15,313"
+    },
+    "Ringwood": {
+        "african": "1.36",
+        "asian": "1.74",
+        "democratic": "19.97",
+        "hispanic": "5.78",
+        "population": "12,228",
+        "republican": "31.33",
+        "taxable": "146,625",
+        "voters": "8,688"
+    },
+    "River Edge": {
+        "african": "1.52",
+        "asian": "22.19",
+        "democratic": "28.78",
+        "hispanic": "7.66",
+        "population": "11,340",
+        "republican": "19.7",
+        "taxable": "162,427",
+        "voters": "6,579"
+    },
+    "River Vale": {
+        "african": "0.7",
+        "asian": "8.42",
+        "democratic": "23.22",
+        "hispanic": "4.98",
+        "population": "9,659",
+        "republican": "27.81",
+        "taxable": "217,644",
+        "voters": "6,753"
+    },
+    "Riverdale": {
+        "african": "1.21",
+        "asian": "5.31",
+        "democratic": "17.46",
+        "hispanic": "7.19",
+        "population": "3,559",
+        "republican": "34.21",
+        "taxable": "247,167",
+        "voters": "2,406"
+    },
+    "Riverside": {
+        "african": "6.39",
+        "asian": "0.95",
+        "democratic": "36.07",
+        "hispanic": "11.34",
+        "population": "8,079",
+        "republican": "16.28",
+        "taxable": "63,713",
+        "voters": "4,436"
+    },
+    "Riverton": {
+        "african": "3.31",
+        "asian": "0.76",
+        "democratic": "30.31",
+        "hispanic": "2.02",
+        "population": "2,779",
+        "republican": "37.97",
+        "taxable": "103,475",
+        "voters": "1,932"
+    },
+    "Robbinsville": {
+        "african": "3.12",
+        "asian": "12.67",
+        "democratic": "26.22",
+        "hispanic": "4.13",
+        "population": "13,642",
+        "republican": "24.85",
+        "taxable": "188,418",
+        "voters": "8,551"
+    },
+    "Rochelle Park": {
+        "african": "2.89",
+        "asian": "8.72",
+        "democratic": "26.54",
+        "hispanic": "16.35",
+        "population": "5,530",
+        "republican": "20.49",
+        "taxable": "194,185",
+        "voters": "3,289"
+    },
+    "Rockaway": {
+        "african": "3.22",
+        "asian": "7.66",
+        "democratic": "21.1",
+        "hispanic": "15.07",
+        "population": "6,438",
+        "republican": "34.61",
+        "taxable": "142,480",
+        "voters": "4,028"
+    },
+    "Rockaway Twp": {
+        "african": "2.55",
+        "asian": "6.67",
+        "democratic": "24.11",
+        "hispanic": "11.2",
+        "population": "24,156",
+        "republican": "34.12",
+        "taxable": "177,954",
+        "voters": "16,409"
+    },
+    "Rockleigh": {
+        "african": "2.07",
+        "asian": "1.51",
+        "democratic": "27.35",
+        "hispanic": "3.77",
+        "population": "531",
+        "republican": "29.8",
+        "taxable": "548,890",
+        "voters": "234"
+    },
+    "Rocky Hill": {
+        "african": "1.47",
+        "asian": "2.35",
+        "democratic": "34.78",
+        "hispanic": "4.84",
+        "population": "682",
+        "republican": "36.11",
+        "taxable": "188,016",
+        "voters": "529"
+    },
+    "Roosevelt": {
+        "african": "0.91",
+        "asian": "3.17",
+        "democratic": "57.35",
+        "hispanic": "5.9",
+        "population": "882",
+        "republican": "9.9",
+        "taxable": "106,790",
+        "voters": "626"
+    },
+    "Roseland": {
+        "african": "1.82",
+        "asian": "5.79",
+        "democratic": "30.46",
+        "hispanic": "4.5",
+        "population": "5,819",
+        "republican": "32.51",
+        "taxable": "310,719",
+        "voters": "4,688"
+    },
+    "Roselle": {
+        "african": "55.06",
+        "asian": "2.23",
+        "democratic": "60.56",
+        "hispanic": "26.77",
+        "population": "21,085",
+        "republican": "4.53",
+        "taxable": "78,631",
+        "voters": "12,176"
+    },
+    "Roselle Park": {
+        "african": "5.89",
+        "asian": "10.18",
+        "democratic": "30.52",
+        "hispanic": "28.65",
+        "population": "13,297",
+        "republican": "16.86",
+        "taxable": "92,336",
+        "voters": "7,792"
+    },
+    "Roxbury": {
+        "african": "2.34",
+        "asian": "5.77",
+        "democratic": "19.2",
+        "hispanic": "8.93",
+        "population": "23,324",
+        "republican": "33.93",
+        "taxable": "155,381",
+        "voters": "16,038"
+    },
+    "Rumson": {
+        "african": "0.25",
+        "asian": "1.26",
+        "democratic": "18.42",
+        "hispanic": "2.43",
+        "population": "7,122",
+        "republican": "35.56",
+        "taxable": "490,464",
+        "voters": "5,211"
+    },
+    "Runnemede": {
+        "african": "4.72",
+        "asian": "2.63",
+        "democratic": "52.98",
+        "hispanic": "6.09",
+        "population": "8,468",
+        "republican": "10.17",
+        "taxable": "68,548",
+        "voters": "5,641"
+    },
+    "Rutherford": {
+        "african": "2.92",
+        "asian": "13.08",
+        "democratic": "32.06",
+        "hispanic": "14.08",
+        "population": "18,061",
+        "republican": "21.52",
+        "taxable": "158,740",
+        "voters": "10,214"
+    },
+    "Saddle Brook": {
+        "african": "2.31",
+        "asian": "8.21",
+        "democratic": "34.61",
+        "hispanic": "12.2",
+        "population": "13,659",
+        "republican": "19.15",
+        "taxable": "182,309",
+        "voters": "8,131"
+    },
+    "Saddle River": {
+        "african": "2.09",
+        "asian": "9.42",
+        "democratic": "12.22",
+        "hispanic": "5.14",
+        "population": "3,152",
+        "republican": "50.64",
+        "taxable": "829,017",
+        "voters": "2,319"
+    },
+    "Salem": {
+        "african": "62.13",
+        "asian": "0.39",
+        "democratic": "49.44",
+        "hispanic": "6.68",
+        "population": "5,146",
+        "republican": "7.75",
+        "taxable": "45,681",
+        "voters": "2,677"
+    },
+    "Sandyston": {
+        "african": "0.4",
+        "asian": "0.55",
+        "democratic": "14.29",
+        "hispanic": "3.4",
+        "population": "1,998",
+        "republican": "49.48",
+        "taxable": "136,616",
+        "voters": "1,344"
+    },
+    "Sayreville": {
+        "african": "10.71",
+        "asian": "16.12",
+        "democratic": "39.1",
+        "hispanic": "12.31",
+        "population": "42,704",
+        "republican": "11.47",
+        "taxable": "121,558",
+        "voters": "24,217"
+    },
+    "Scotch Plains": {
+        "african": "11.08",
+        "asian": "7.65",
+        "democratic": "31.62",
+        "hispanic": "6.73",
+        "population": "23,510",
+        "republican": "22.25",
+        "taxable": "169,357",
+        "voters": "16,289"
+    },
+    "Sea Bright": {
+        "african": "0.78",
+        "asian": "2.27",
+        "democratic": "22.78",
+        "hispanic": "5.52",
+        "population": "1,412",
+        "republican": "26.78",
+        "taxable": "541,159",
+        "voters": "1,150"
+    },
+    "Sea Girt": {
+        "african": "0",
+        "asian": "0.22",
+        "democratic": "12.91",
+        "hispanic": "1.64",
+        "population": "1,828",
+        "republican": "50.3",
+        "taxable": "1,060,884",
+        "voters": "1,642"
+    },
+    "Sea Isle City": {
+        "african": "0.09",
+        "asian": "0.19",
+        "democratic": "16.67",
+        "hispanic": "2.41",
+        "population": "2,114",
+        "republican": "53.25",
+        "taxable": "2,198,111",
+        "voters": "2,104"
+    },
+    "Seaside Heights": {
+        "african": "6.69",
+        "asian": "1.52",
+        "democratic": "12.35",
+        "hispanic": "17.87",
+        "population": "2,887",
+        "republican": "29.58",
+        "taxable": "288,762",
+        "voters": "1,579"
+    },
+    "Seaside Park": {
+        "african": "0.95",
+        "asian": "0.38",
+        "democratic": "18.48",
+        "hispanic": "3.42",
+        "population": "1,579",
+        "republican": "39.23",
+        "taxable": "815,147",
+        "voters": "1,407"
+    },
+    "Secaucus": {
+        "african": "4.11",
+        "asian": "20.4",
+        "democratic": "57.7",
+        "hispanic": "18.6",
+        "population": "16,264",
+        "republican": "8.54",
+        "taxable": "327,326",
+        "voters": "10,259"
+    },
+    "Shamong": {
+        "african": "0.92",
+        "asian": "0.59",
+        "democratic": "18.21",
+        "hispanic": "2.3",
+        "population": "6,490",
+        "republican": "34.99",
+        "taxable": "116,801",
+        "voters": "4,642"
+    },
+    "Shiloh": {
+        "african": "1.74",
+        "asian": "0.19",
+        "democratic": "21.43",
+        "hispanic": "4.07",
+        "population": "516",
+        "republican": "31.48",
+        "taxable": "61,916",
+        "voters": "378"
+    },
+    "Ship Bottom": {
+        "african": "1.3",
+        "asian": "0.43",
+        "democratic": "13.82",
+        "hispanic": "9.17",
+        "population": "1,156",
+        "republican": "50.78",
+        "taxable": "1,141,604",
+        "voters": "1,020"
+    },
+    "Shrewsbury": {
+        "african": "0.66",
+        "asian": "2.13",
+        "democratic": "23.09",
+        "hispanic": "2.49",
+        "population": "3,809",
+        "republican": "30.24",
+        "taxable": "299,215",
+        "voters": "2,897"
+    },
+    "Shrewsbury Twp": {
+        "african": "14.29",
+        "asian": "6.57",
+        "democratic": "35.73",
+        "hispanic": "14.11",
+        "population": "1,141",
+        "republican": "17.71",
+        "taxable": "61,050",
+        "voters": "655"
+    },
+    "Somerdale": {
+        "african": "18.99",
+        "asian": "6",
+        "democratic": "54.88",
+        "hispanic": "8.19",
+        "population": "5,151",
+        "republican": "9.07",
+        "taxable": "67,481",
+        "voters": "3,494"
+    },
+    "Somers Point": {
+        "african": "10.68",
+        "asian": "3.08",
+        "democratic": "24.19",
+        "hispanic": "9.49",
+        "population": "10,795",
+        "republican": "29.72",
+        "taxable": "130,842",
+        "voters": "6,863"
+    },
+    "Somerville": {
+        "african": "12.15",
+        "asian": "11.37",
+        "democratic": "28.22",
+        "hispanic": "23.75",
+        "population": "12,098",
+        "republican": "20.73",
+        "taxable": "114,475",
+        "voters": "6,595"
+    },
+    "South Amboy": {
+        "african": "4.43",
+        "asian": "4.03",
+        "democratic": "41.67",
+        "hispanic": "13.42",
+        "population": "8,631",
+        "republican": "11.28",
+        "taxable": "112,540",
+        "voters": "5,435"
+    },
+    "South Bound Brook": {
+        "african": "10.1",
+        "asian": "6.14",
+        "democratic": "27.93",
+        "hispanic": "27.28",
+        "population": "4,563",
+        "republican": "19.38",
+        "taxable": "75,042",
+        "voters": "2,338"
+    },
+    "South Brunswick": {
+        "african": "7.71",
+        "asian": "35.91",
+        "democratic": "33.79",
+        "hispanic": "6.04",
+        "population": "43,417",
+        "republican": "14.36",
+        "taxable": "197,020",
+        "voters": "24,573"
+    },
+    "South Hackensack": {
+        "african": "5.34",
+        "asian": "5.3",
+        "democratic": "22.86",
+        "hispanic": "33.31",
+        "population": "2,378",
+        "republican": "24.29",
+        "taxable": "295,285",
+        "voters": "1,255"
+    },
+    "South Harrison": {
+        "african": "5.06",
+        "asian": "1.2",
+        "democratic": "33.73",
+        "hispanic": "3.1",
+        "population": "3,162",
+        "republican": "29.24",
+        "taxable": "120,426",
+        "voters": "2,182"
+    },
+    "South Orange": {
+        "african": "28.66",
+        "asian": "5.16",
+        "democratic": "53.52",
+        "hispanic": "6.13",
+        "population": "16,198",
+        "republican": "7.96",
+        "taxable": "171,417",
+        "voters": "12,290"
+    },
+    "South Plainfield": {
+        "african": "10.1",
+        "asian": "14.68",
+        "democratic": "31.04",
+        "hispanic": "13.24",
+        "population": "23,385",
+        "republican": "15.97",
+        "taxable": "173,874",
+        "voters": "14,087"
+    },
+    "South River": {
+        "african": "7.13",
+        "asian": "4.84",
+        "democratic": "32.22",
+        "hispanic": "18.2",
+        "population": "16,008",
+        "republican": "15.06",
+        "taxable": "97,619",
+        "voters": "7,893"
+    },
+    "South Toms River": {
+        "african": "19.33",
+        "asian": "0.62",
+        "democratic": "26.82",
+        "hispanic": "19.49",
+        "population": "3,684",
+        "republican": "16.7",
+        "taxable": "75,857",
+        "voters": "2,144"
+    },
+    "Southampton": {
+        "african": "2.21",
+        "asian": "1.33",
+        "democratic": "24.7",
+        "hispanic": "2.15",
+        "population": "10,464",
+        "republican": "39.34",
+        "taxable": "121,829",
+        "voters": "7,801"
+    },
+    "Sparta": {
+        "african": "1",
+        "asian": "2.49",
+        "democratic": "17.64",
+        "hispanic": "5.34",
+        "population": "19,722",
+        "republican": "35.87",
+        "taxable": "182,970",
+        "voters": "13,552"
+    },
+    "Spotswood": {
+        "african": "2.98",
+        "asian": "5.14",
+        "democratic": "29.53",
+        "hispanic": "8.32",
+        "population": "8,257",
+        "republican": "19.05",
+        "taxable": "107,142",
+        "voters": "5,097"
+    },
+    "Spring Lake": {
+        "african": "0.27",
+        "asian": "1",
+        "democratic": "17.99",
+        "hispanic": "1.9",
+        "population": "2,993",
+        "republican": "43.89",
+        "taxable": "1,117,173",
+        "voters": "2,568"
+    },
+    "Spring Lake Heights": {
+        "african": "0.64",
+        "asian": "1.08",
+        "democratic": "27.21",
+        "hispanic": "3.29",
+        "population": "4,713",
+        "republican": "30.11",
+        "taxable": "245,716",
+        "voters": "3,726"
+    },
+    "Springfield": {
+        "african": "3.81",
+        "asian": "2.55",
+        "democratic": "32.48",
+        "hispanic": "3.72",
+        "population": "3,414",
+        "republican": "17.9",
+        "taxable": "184,110",
+        "voters": "10,343"
+    },
+    "Stafford": {
+        "african": "1.05",
+        "asian": "1.48",
+        "democratic": "19.12",
+        "hispanic": "5.31",
+        "population": "26,535",
+        "republican": "27.4",
+        "taxable": "182,553",
+        "voters": "18,569"
+    },
+    "Stanhope": {
+        "african": "1.58",
+        "asian": "2.33",
+        "democratic": "20.07",
+        "hispanic": "8.5",
+        "population": "3,610",
+        "republican": "31.58",
+        "taxable": "106,882",
+        "voters": "2,372"
+    },
+    "Stillwater": {
+        "african": "0.66",
+        "asian": "0.71",
+        "democratic": "15.89",
+        "hispanic": "2.2",
+        "population": "4,099",
+        "republican": "46.3",
+        "taxable": "134,963",
+        "voters": "2,996"
+    },
+    "Stockton": {
+        "african": "0",
+        "asian": "0.93",
+        "democratic": "41.52",
+        "hispanic": "0.56",
+        "population": "538",
+        "republican": "32.19",
+        "taxable": "176,000",
+        "voters": "407"
+    },
+    "Stone Harbor": {
+        "african": "1.62",
+        "asian": "0.12",
+        "democratic": "7.57",
+        "hispanic": "3.35",
+        "population": "866",
+        "republican": "75.61",
+        "taxable": "5,182,711",
+        "voters": "808"
+    },
+    "Stow Creek": {
+        "african": "4.47",
+        "asian": "0.28",
+        "democratic": "20.49",
+        "hispanic": "4.4",
+        "population": "1,431",
+        "republican": "37.6",
+        "taxable": "81,758",
+        "voters": "976"
+    },
+    "Stratford": {
+        "african": "8.24",
+        "asian": "4.22",
+        "democratic": "37.31",
+        "hispanic": "6.49",
+        "population": "7,040",
+        "republican": "19.93",
+        "taxable": "72,359",
+        "voters": "4,617"
+    },
+    "Summit": {
+        "african": "4.52",
+        "asian": "6.38",
+        "democratic": "28.78",
+        "hispanic": "13.29",
+        "population": "21,457",
+        "republican": "27.75",
+        "taxable": "316,935",
+        "voters": "13,695"
+    },
+    "Surf City": {
+        "african": "1.33",
+        "asian": "0.58",
+        "democratic": "16.53",
+        "hispanic": "5.06",
+        "population": "1,205",
+        "republican": "41.97",
+        "taxable": "1,441,119",
+        "voters": "1,065"
+    },
+    "Sussex": {
+        "african": "1.92",
+        "asian": "2.3",
+        "democratic": "16.96",
+        "hispanic": "7.93",
+        "population": "2,130",
+        "republican": "37.57",
+        "taxable": "66,060",
+        "voters": "1,126"
+    },
+    "Swedesboro": {
+        "african": "15.02",
+        "asian": "1.35",
+        "democratic": "30.12",
+        "hispanic": "17.07",
+        "population": "2,584",
+        "republican": "20.35",
+        "taxable": "72,291",
+        "voters": "1,607"
+    },
+    "Tabernacle": {
+        "african": "1.38",
+        "asian": "0.69",
+        "democratic": "19.7",
+        "hispanic": "2.76",
+        "population": "6,949",
+        "republican": "38.3",
+        "taxable": "113,991",
+        "voters": "5,123"
+    },
+    "Tavistock": {
+        "african": "0",
+        "asian": "0",
+        "democratic": "0",
+        "hispanic": "0",
+        "population": "5",
+        "republican": "100",
+        "taxable": "3,232,033",
+        "voters": "7"
+    },
+    "Teaneck": {
+        "african": "27.69",
+        "asian": "9.11",
+        "democratic": "50.67",
+        "hispanic": "16.53",
+        "population": "39,776",
+        "republican": "9.32",
+        "taxable": "146,802",
+        "voters": "23,772"
+    },
+    "Tenafly": {
+        "african": "0.88",
+        "asian": "26.22",
+        "democratic": "35.26",
+        "hispanic": "5.36",
+        "population": "14,488",
+        "republican": "16.74",
+        "taxable": "286,593",
+        "voters": "8,345"
+    },
+    "Teterboro": {
+        "african": "4.48",
+        "asian": "2.99",
+        "democratic": "30",
+        "hispanic": "35.82",
+        "population": "67",
+        "republican": "25",
+        "taxable": "6,348,045",
+        "voters": "35"
+    },
+    "Tewksbury": {
+        "african": "0.83",
+        "asian": "2.92",
+        "democratic": "15.8",
+        "hispanic": "3.49",
+        "population": "5,993",
+        "republican": "52.34",
+        "taxable": "296,024",
+        "voters": "4,505"
+    },
+    "Tinton Falls": {
+        "african": "9.34",
+        "asian": "4.67",
+        "democratic": "28.09",
+        "hispanic": "6.25",
+        "population": "17,892",
+        "republican": "22.55",
+        "taxable": "179,896",
+        "voters": "12,416"
+    },
+    "Toms River": {
+        "african": "2.7",
+        "asian": "3.58",
+        "democratic": "19.29",
+        "hispanic": "7.93",
+        "population": "91,239",
+        "republican": "26.08",
+        "taxable": "186,022",
+        "voters": "61,993"
+    },
+    "Totowa": {
+        "african": "2.3",
+        "asian": "5.92",
+        "democratic": "19.49",
+        "hispanic": "14.35",
+        "population": "10,804",
+        "republican": "37.05",
+        "taxable": "231,862",
+        "voters": "6,953"
+    },
+    "Trenton": {
+        "african": "52.01",
+        "asian": "1.19",
+        "democratic": "45.38",
+        "hispanic": "33.71",
+        "population": "84,913",
+        "republican": "3.56",
+        "taxable": "35,484",
+        "voters": "39,506"
+    },
+    "Tuckerton": {
+        "african": "0.75",
+        "asian": "1.05",
+        "democratic": "15.66",
+        "hispanic": "6.07",
+        "population": "3,347",
+        "republican": "35.7",
+        "taxable": "154,083",
+        "voters": "2,426"
+    },
+    "Union Beach": {
+        "african": "1.54",
+        "asian": "1.81",
+        "democratic": "23.52",
+        "hispanic": "10.98",
+        "population": "6,245",
+        "republican": "17.51",
+        "taxable": "102,686",
+        "voters": "3,890"
+    },
+    "Union City": {
+        "african": "5.25",
+        "asian": "2.39",
+        "democratic": "65.79",
+        "hispanic": "84.71",
+        "population": "66,455",
+        "republican": "6.49",
+        "taxable": "52,123",
+        "voters": "28,515"
+    },
+    "Union Twp": {
+        "african": "9.06",
+        "asian": "4.13",
+        "democratic": "38.46",
+        "hispanic": "6.08",
+        "population": "56,642",
+        "republican": "12.72",
+        "taxable": "1,199,686",
+        "voters": "32,097"
+    },
+    "Upper Deerfield": {
+        "african": "12.96",
+        "asian": "2.65",
+        "democratic": "25.32",
+        "hispanic": "9.43",
+        "population": "7,660",
+        "republican": "23.02",
+        "taxable": "87,649",
+        "voters": "5,143"
+    },
+    "Upper Freehold": {
+        "african": "2.01",
+        "asian": "4.35",
+        "democratic": "15.33",
+        "hispanic": "3.68",
+        "population": "6,902",
+        "republican": "47.51",
+        "taxable": "187,696",
+        "voters": "4,776"
+    },
+    "Upper Pittsgrove": {
+        "african": "2.17",
+        "asian": "0.23",
+        "democratic": "18.99",
+        "hispanic": "3.02",
+        "population": "3,505",
+        "republican": "28.55",
+        "taxable": "93,450",
+        "voters": "2,329"
+    },
+    "Upper Saddle River": {
+        "african": "1.44",
+        "asian": "10.09",
+        "democratic": "17.75",
+        "hispanic": "4.33",
+        "population": "8,208",
+        "republican": "33.25",
+        "taxable": "359,095",
+        "voters": "5,399"
+    },
+    "Upper Township": {
+        "african": "0.58",
+        "asian": "0.74",
+        "democratic": "15.23",
+        "hispanic": "2.36",
+        "population": "12,373",
+        "republican": "48.53",
+        "taxable": "176,533",
+        "voters": "9,419"
+    },
+    "Ventnor": {
+        "african": "4.25",
+        "asian": "8.68",
+        "democratic": "25.53",
+        "hispanic": "18.05",
+        "population": "10,650",
+        "republican": "31.74",
+        "taxable": "257,504",
+        "voters": "6,503"
+    },
+    "Vernon": {
+        "african": "1.39",
+        "asian": "0.78",
+        "democratic": "15.92",
+        "hispanic": "6.41",
+        "population": "23,943",
+        "republican": "35.82",
+        "taxable": "128,013",
+        "voters": "15,415"
+    },
+    "Verona": {
+        "african": "1.97",
+        "asian": "4.03",
+        "democratic": "32.48",
+        "hispanic": "5.96",
+        "population": "13,332",
+        "republican": "23.77",
+        "taxable": "179,709",
+        "voters": "9,897"
+    },
+    "Victory Gardens": {
+        "african": "16.25",
+        "asian": "2.43",
+        "democratic": "44.36",
+        "hispanic": "62.96",
+        "population": "1,520",
+        "republican": "10.38",
+        "taxable": "54,950",
+        "voters": "559"
+    },
+    "Vineland": {
+        "african": "14.16",
+        "asian": "1.71",
+        "democratic": "27.93",
+        "hispanic": "38.03",
+        "population": "60,724",
+        "republican": "16.34",
+        "taxable": "63,861",
+        "voters": "37,442"
+    },
+    "Voorhees": {
+        "african": "8.7",
+        "asian": "16.13",
+        "democratic": "37.47",
+        "hispanic": "3.43",
+        "population": "29,131",
+        "republican": "15.86",
+        "taxable": "131,079",
+        "voters": "19,817"
+    },
+    "Waldwick": {
+        "african": "1.08",
+        "asian": "4.99",
+        "democratic": "23.1",
+        "hispanic": "8.62",
+        "population": "9,625",
+        "republican": "25.6",
+        "taxable": "168,461",
+        "voters": "6,087"
+    },
+    "Wall": {
+        "african": "2.44",
+        "asian": "1.61",
+        "democratic": "17.34",
+        "hispanic": "3.47",
+        "population": "26,164",
+        "republican": "33.84",
+        "taxable": "239,010",
+        "voters": "19,164"
+    },
+    "Wallington": {
+        "african": "3.23",
+        "asian": "5.57",
+        "democratic": "28.47",
+        "hispanic": "10.81",
+        "population": "11,335",
+        "republican": "13.81",
+        "taxable": "97,502",
+        "voters": "4,747"
+    },
+    "Walpack": {
+        "african": "0",
+        "asian": "0",
+        "democratic": "4.55",
+        "hispanic": "0",
+        "population": "16",
+        "republican": "77.27",
+        "taxable": "157,419",
+        "voters": "22"
+    },
+    "Wanaque": {
+        "african": "3.07",
+        "asian": "4.65",
+        "democratic": "23.36",
+        "hispanic": "9.67",
+        "population": "11,116",
+        "republican": "31.09",
+        "taxable": "121,383",
+        "voters": "7,073"
+    },
+    "Wantage": {
+        "african": "1.21",
+        "asian": "0.99",
+        "democratic": "13.33",
+        "hispanic": "5.23",
+        "population": "11,358",
+        "republican": "44.9",
+        "taxable": "120,989",
+        "voters": "7,365"
+    },
+    "Warren": {
+        "african": "1.52",
+        "asian": "15.07",
+        "democratic": "18.01",
+        "hispanic": "5.36",
+        "population": "15,311",
+        "republican": "33.55",
+        "taxable": "284,071",
+        "voters": "10,502"
+    },
+    "Washington": {
+        "african": "6.01",
+        "asian": "3.42",
+        "democratic": "19.92",
+        "hispanic": "8.5",
+        "population": "6,461",
+        "republican": "30.39",
+        "taxable": "89,156",
+        "voters": "3,735"
+    },
+    "Washington Twp": {
+        "african": "1.89",
+        "asian": "0.15",
+        "democratic": "15.43",
+        "hispanic": "9.02",
+        "population": "687",
+        "republican": "41.24",
+        "taxable": "169,541",
+        "voters": "13,223"
+    },
+    "Watchung": {
+        "african": "3.45",
+        "asian": "12.69",
+        "democratic": "20.53",
+        "hispanic": "5.29",
+        "population": "5,801",
+        "republican": "35.75",
+        "taxable": "302,092",
+        "voters": "4,224"
+    },
+    "Waterford": {
+        "african": "4.83",
+        "asian": "1.16",
+        "democratic": "35.7",
+        "hispanic": "4.39",
+        "population": "10,649",
+        "republican": "18.68",
+        "taxable": "84,948",
+        "voters": "7,463"
+    },
+    "Wayne": {
+        "african": "2.28",
+        "asian": "8.18",
+        "democratic": "24.06",
+        "hispanic": "7.92",
+        "population": "54,717",
+        "republican": "31.58",
+        "taxable": "195,766",
+        "voters": "35,588"
+    },
+    "Weehawken": {
+        "african": "4.83",
+        "asian": "8.16",
+        "democratic": "51.14",
+        "hispanic": "40.27",
+        "population": "12,554",
+        "republican": "11.67",
+        "taxable": "182,054",
+        "voters": "7,277"
+    },
+    "Wenonah": {
+        "african": "0.92",
+        "asian": "1.05",
+        "democratic": "32.45",
+        "hispanic": "1.36",
+        "population": "2,278",
+        "republican": "26.32",
+        "taxable": "121,293",
+        "voters": "1,778"
+    },
+    "West Amwell": {
+        "african": "13.39",
+        "asian": "1.46",
+        "democratic": "23.82",
+        "hispanic": "4.84",
+        "population": "3,840",
+        "republican": "39.95",
+        "taxable": "144,996",
+        "voters": "2,095"
+    },
+    "West Caldwell": {
+        "african": "1.26",
+        "asian": "3.91",
+        "democratic": "28.1",
+        "hispanic": "4.86",
+        "population": "10,759",
+        "republican": "29.36",
+        "taxable": "222,354",
+        "voters": "7,833"
+    },
+    "West Cape May": {
+        "african": "8.69",
+        "asian": "0.2",
+        "democratic": "31.66",
+        "hispanic": "4.98",
+        "population": "1,024",
+        "republican": "36.42",
+        "taxable": "477,135",
+        "voters": "805"
+    },
+    "West Deptford": {
+        "african": "6.52",
+        "asian": "1.91",
+        "democratic": "38.28",
+        "hispanic": "3.37",
+        "population": "21,677",
+        "republican": "15.74",
+        "taxable": "121,583",
+        "voters": "15,035"
+    },
+    "West Long Branch": {
+        "african": "2.21",
+        "asian": "1.19",
+        "democratic": "24.46",
+        "hispanic": "5.03",
+        "population": "8,097",
+        "republican": "21.57",
+        "taxable": "164,142",
+        "voters": "4,905"
+    },
+    "West Milford": {
+        "african": "1.4",
+        "asian": "1.29",
+        "democratic": "19.47",
+        "hispanic": "5.85",
+        "population": "25,850",
+        "republican": "28.96",
+        "taxable": "133,199",
+        "voters": "17,552"
+    },
+    "West New York": {
+        "african": "4.6",
+        "asian": "6.01",
+        "democratic": "54.83",
+        "hispanic": "78.08",
+        "population": "49,708",
+        "republican": "12.84",
+        "taxable": "55,855",
+        "voters": "19,081"
+    },
+    "West Orange": {
+        "african": "26.58",
+        "asian": "7.96",
+        "democratic": "46.56",
+        "hispanic": "16.2",
+        "population": "46,207",
+        "republican": "10.84",
+        "taxable": "136,590",
+        "voters": "30,444"
+    },
+    "West Wildwood": {
+        "african": "1.49",
+        "asian": "0",
+        "democratic": "26.45",
+        "hispanic": "2.65",
+        "population": "603",
+        "republican": "39.14",
+        "taxable": "454,647",
+        "voters": "452"
+    },
+    "West Windsor": {
+        "african": "3.67",
+        "asian": "37.71",
+        "democratic": "33.85",
+        "hispanic": "4.47",
+        "population": "27,165",
+        "republican": "18.69",
+        "taxable": "230,317",
+        "voters": "16,497"
+    },
+    "Westampton": {
+        "african": "25.45",
+        "asian": "6.9",
+        "democratic": "38.75",
+        "hispanic": "8.84",
+        "population": "8,813",
+        "republican": "20.27",
+        "taxable": "131,789",
+        "voters": "5,705"
+    },
+    "Westfield": {
+        "african": "3.25",
+        "asian": "5.67",
+        "democratic": "31.19",
+        "hispanic": "4.92",
+        "population": "30,316",
+        "republican": "25.34",
+        "taxable": "242,395",
+        "voters": "21,162"
+    },
+    "Westville": {
+        "african": "4.9",
+        "asian": "1.49",
+        "democratic": "33.46",
+        "hispanic": "6.02",
+        "population": "4,288",
+        "republican": "18.47",
+        "taxable": "67,031",
+        "voters": "2,702"
+    },
+    "Westwood": {
+        "african": "4.62",
+        "asian": "7.38",
+        "democratic": "26.13",
+        "hispanic": "11.58",
+        "population": "10,908",
+        "republican": "28.96",
+        "taxable": "187,614",
+        "voters": "6,559"
+    },
+    "Weymouth": {
+        "african": "4.75",
+        "asian": "0.88",
+        "democratic": "25.48",
+        "hispanic": "4.57",
+        "population": "2,715",
+        "republican": "34.32",
+        "taxable": "66,326",
+        "voters": "1,821"
+    },
+    "Wharton": {
+        "african": "4.57",
+        "asian": "5.67",
+        "democratic": "27.8",
+        "hispanic": "40.33",
+        "population": "6,522",
+        "republican": "28.24",
+        "taxable": "121,213",
+        "voters": "3,385"
+    },
+    "White": {
+        "african": "2.03",
+        "asian": "0.76",
+        "democratic": "16.57",
+        "hispanic": "2.74",
+        "population": "4,882",
+        "republican": "51.76",
+        "taxable": "134,368",
+        "voters": "3,356"
+    },
+    "Wildwood": {
+        "african": "11.15",
+        "asian": "0.79",
+        "democratic": "21.34",
+        "hispanic": "31.21",
+        "population": "5,325",
+        "republican": "25.56",
+        "taxable": "318,232",
+        "voters": "3,027"
+    },
+    "Wildwood Crest": {
+        "african": "1.68",
+        "asian": "1.01",
+        "democratic": "18.48",
+        "hispanic": "5.63",
+        "population": "3,270",
+        "republican": "44.52",
+        "taxable": "699,574",
+        "voters": "2,411"
+    },
+    "Willingboro": {
+        "african": "72.74",
+        "asian": "2.01",
+        "democratic": "57.8",
+        "hispanic": "8.65",
+        "population": "31,629",
+        "republican": "6.17",
+        "taxable": "64,315",
+        "voters": "21,590"
+    },
+    "Winfield": {
+        "african": "0.95",
+        "asian": "0.14",
+        "democratic": "37.11",
+        "hispanic": "6.39",
+        "population": "1,471",
+        "republican": "18.22",
+        "taxable": "11,242",
+        "voters": "1,059"
+    },
+    "Winslow": {
+        "african": "36.17",
+        "asian": "3.1",
+        "democratic": "43.88",
+        "hispanic": "8.1",
+        "population": "39,499",
+        "republican": "11.66",
+        "taxable": "76,558",
+        "voters": "25,234"
+    },
+    "Wood-Ridge": {
+        "african": "1.43",
+        "asian": "7.13",
+        "democratic": "29.63",
+        "hispanic": "13.11",
+        "population": "7,626",
+        "republican": "17.65",
+        "taxable": "160,971",
+        "voters": "4,625"
+    },
+    "Woodbine": {
+        "african": "24.72",
+        "asian": "0.73",
+        "democratic": "19.25",
+        "hispanic": "23.22",
+        "population": "2,472",
+        "republican": "36.15",
+        "taxable": "72,974",
+        "voters": "1,563"
+    },
+    "Woodbridge": {
+        "african": "9.85",
+        "asian": "22.42",
+        "democratic": "38.7",
+        "hispanic": "15.63",
+        "population": "99,585",
+        "republican": "11.41",
+        "taxable": "124,424",
+        "voters": "54,370"
+    },
+    "Woodbury": {
+        "african": "24.91",
+        "asian": "1.28",
+        "democratic": "34.98",
+        "hispanic": "10.66",
+        "population": "10,174",
+        "republican": "18.14",
+        "taxable": "67,106",
+        "voters": "6,643"
+    },
+    "Woodbury Heights": {
+        "african": "3.4",
+        "asian": "1.64",
+        "democratic": "37.53",
+        "hispanic": "2.42",
+        "population": "3,055",
+        "republican": "17.64",
+        "taxable": "99,377",
+        "voters": "2,262"
+    },
+    "Woodcliff Lake": {
+        "african": "0.82",
+        "asian": "6.47",
+        "democratic": "26.59",
+        "hispanic": "5.41",
+        "population": "5,730",
+        "republican": "24.34",
+        "taxable": "382,622",
+        "voters": "4,074"
+    },
+    "Woodland": {
+        "african": "8.11",
+        "asian": "0.84",
+        "democratic": "16",
+        "hispanic": "4.81",
+        "population": "1,788",
+        "republican": "42.11",
+        "taxable": "89,161",
+        "voters": "980"
+    },
+    "Woodland Park": {
+        "african": "4.23",
+        "asian": "4.2",
+        "democratic": "29.47",
+        "hispanic": "20.66",
+        "population": "11,819",
+        "republican": "18.33",
+        "taxable": "157,280",
+        "voters": "7,879"
+    },
+    "Woodlynne": {
+        "african": "33.55",
+        "asian": "9.7",
+        "democratic": "47.23",
+        "hispanic": "38.28",
+        "population": "2,978",
+        "republican": "5.73",
+        "taxable": "33,788",
+        "voters": "1,573"
+    },
+    "Woodstown": {
+        "african": "11.44",
+        "asian": "1.17",
+        "democratic": "27.68",
+        "hispanic": "5.56",
+        "population": "3,505",
+        "republican": "24.74",
+        "taxable": "85,225",
+        "voters": "2,221"
+    },
+    "Woolwich": {
+        "african": "9.97",
+        "asian": "6.02",
+        "democratic": "27.35",
+        "hispanic": "3.58",
+        "population": "10,200",
+        "republican": "21.11",
+        "taxable": "114,790",
+        "voters": "6,096"
+    },
+    "Wrightstown": {
+        "african": "21.07",
+        "asian": "5.99",
+        "democratic": "26.09",
+        "hispanic": "28.05",
+        "population": "802",
+        "republican": "33.23",
+        "taxable": "63,672",
+        "voters": "337"
+    },
+    "Wyckoff": {
+        "african": "0.56",
+        "asian": "4.23",
+        "democratic": "18.56",
+        "hispanic": "4.41",
+        "population": "16,696",
+        "republican": "38.07",
+        "taxable": "276,474",
+        "voters": "11,481"
+    }
+}

@@ -238,28 +238,38 @@
     })
 
     function handleIt(zip) {
-        var isNumbers = /^\d+$/.test(zip);
-        if(!isNumbers)
-            $("#errorMessage").text("Please Enter a Valid Zip Code in New Jersey");
-        else
-            $("#errorMessage").text("");
 
-        var coordinates = ZtC[zip]
-        if(coordinates == null)
-            $("#errorMessage").text("Please Enter a Valid Zip Code in New Jersey");
-        else {
+        const Http = new XMLHttpRequest();
+        var replaced_zip = zip.split(' ').join('+');
+        var url='https://maps.googleapis.com/maps/api/geocode/json?address=' + replaced_zip + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
+        Http.open("GET", url);
+        Http.send();
 
-            //zip = NJ_Zip[Math.trunc(Math.random() * NJ_Zip.length)]
-            var coordinates = ZtC[zip]
-            var townName = ZtName[zip]
-            var data_from_2000 = data_2000[townName]
-            var data_from_2010 = data_2010[townName]
-            if(!NJ_Zip.includes(zip))
-                $("#errorMessage").text("Please Enter a Valid Zip Code in New Jersey");
+        Http.onreadystatechange = (e) => {
+            var data = JSON.parse(Http.responseText)
+
+            if(data.results[0] === undefined) {
+
+                $("#errorMessage").text("Please Enter a Valid Address in New Jersey");
+            }
 
             else {
-                var lat = parseFloat(coordinates["lat"])
-                var lon = parseFloat(coordinates["lon"])
+                var lat = parseFloat(data.results[0].geometry.location.lat)
+                var lon = parseFloat(data.results[0].geometry.location.lng)
+
+                var townName;
+                var data_from_2000;
+                var data_from_2010;
+                var address_components = data.results[0].address_components
+                for(var i = 0; i < address_components.length; i ++) {
+                    var townName_temp = address_components[i].long_name
+                    if(data_2000[townName_temp] !== undefined) {
+                        townName = townName_temp
+                        data_from_2000 = data_2000[townName]
+                        data_from_2010 = data_2010[townName]
+                    }
+                }
+                
 
                 map_origin = [lon, lat]
 
@@ -307,9 +317,6 @@
                     map_curr.setPaintProperty('route-fills-' + currentHighlight_new.toString(), 'fill-opacity', 0.15);
                 currentHighlight_old = old_index
                 currentHighlight_new = new_index
-
-                $('#previous_district_number').text("Showing District " + old_index.toString())
-                $('#current_district_number').text("Showing District " + new_index.toString())
 
                 if(data_from_2000 == undefined) {
                     $('#city_prev').text("City: " + townName)
@@ -359,10 +366,12 @@
                     $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
                 }
 
+                $('#previous_district_number').text("Showing District " + old_index.toString())
+                $('#current_district_number').text("Showing District " + new_index.toString())
+
                 map_prev.setPaintProperty('route-fills-' + old_index.toString(), 'fill-opacity', 0.5);
                 map_curr.setPaintProperty('route-fills-' + new_index.toString(), 'fill-opacity', 0.5);
             }
-            
         }
     }
 

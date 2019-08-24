@@ -293,7 +293,7 @@
                     $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
                 }
                 else {
-                    $('#city_prev').text("City: " + townName)
+                    $('#table').append("City: " + townName)
                     $('#voters_prev').text("Voter Population: " + data_from_2000['voters'])
                     $('#democratic_prev').text("Democratic Voters: " + data_from_2000['democratic'] + "%")
                     $('#republican_prev').text("Republican Voters: " + data_from_2000['republican'] + "%")
@@ -315,7 +315,7 @@
                     $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
                 }
                 else {
-                    $('#table').append("City: " + townName)
+                    $('#city_curr').text("City: " + townName)
                     $('#voters_curr').text("Voter Population: " + data_from_2010['voters'])
                     $('#democratic_curr').text("Democratic Voters: " + data_from_2010['democratic'] + "%")
                     $('#republican_curr').text("Republican Voters: " + data_from_2010['republican'] + "%")

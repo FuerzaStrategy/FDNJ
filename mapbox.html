@@ -282,7 +282,7 @@
                 currentHighlight_old = old_index
                 currentHighlight_new = new_index
                 if(data_from_2000 == undefined) {
-                    $('#table > one > tr').append('<td>City: ' + townName + '</td>')
+                    $('#city_prev').text("City: " + townName)
                     $('#voters_prev').text("Voter Population: N/A")
                     $('#democratic_prev').text("Democratic Voters: N/A")
                     $('#republican_prev').text("Republican Voters: N/A")
@@ -293,7 +293,7 @@
                     $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
                 }
                 else {
-                    $('#table').append("City: " + townName)
+                    $('#city_prev').text("City: " + townName)
                     $('#voters_prev').text("Voter Population: " + data_from_2000['voters'])
                     $('#democratic_prev').text("Democratic Voters: " + data_from_2000['democratic'] + "%")
                     $('#republican_prev').text("Republican Voters: " + data_from_2000['republican'] + "%")

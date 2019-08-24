@@ -293,7 +293,16 @@
                     $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
                 }
                 else {
-                    $('#city_prev').text("City: " + townName)
+                    $("#table>one>tr").append("<th>Second</th>");
+                    $("#table>three>tr").append("<th>Second</th>");
+                    $("#table>four>tr").append("<th>Second</th>");
+                    $("#table>five>tr").append("<th>Second</th>");
+                    $("#table>seven>tr").append("<th>Second</th>");
+                    $("#table>eight>tr").append("<th>Second</th>");
+                    $("#table>ninet>tr").append("<th>Second</th>");
+                    $("#table>ten>tr").append("<th>Second</th>");
+                    $("#table>twelve>tr").append("<th>Second</th>");
+                    <!--$('#city_prev').text("City: " + townName)
                     $('#voters_prev').text("Voter Population: " + data_from_2000['voters'])
                     $('#democratic_prev').text("Democratic Voters: " + data_from_2000['democratic'] + "%")
                     $('#republican_prev').text("Republican Voters: " + data_from_2000['republican'] + "%")
@@ -301,7 +310,7 @@
                     $('#african_prev').text("African Percentage: " + data_from_2000['african'] + "%")
                     $('#asian_prev').text("Asian Percentage: " + data_from_2000['asian'] + "%")
                     $('#hispanic_prev').text("Hispanic Percentage: " + data_from_2000['hispanic'] + "%")
-                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])
+                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])-->
                 }
                 if(data_from_2010 == undefined) {
                     $('#city_curr').text("City: " + townName)

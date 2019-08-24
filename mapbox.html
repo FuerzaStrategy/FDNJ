@@ -297,15 +297,18 @@
                     $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
                 }
                 else {
-                    $('#city_prev').text("City: " + townName)
-                    $('#voters_prev').text("Voter Population: " + data_from_2000['voters'])
-                    $('#democratic_prev').text("Democratic Voters: " + data_from_2000['democratic'] + "%")
-                    $('#republican_prev').text("Republican Voters: " + data_from_2000['republican'] + "%")
-                    $('#population_prev').text("Estimated Population: " + data_from_2000['population'])
-                    $('#african_prev').text("African Percentage: " + data_from_2000['african'] + "%")
-                    $('#asian_prev').text("Asian Percentage: " + data_from_2000['asian'] + "%")
-                    $('#hispanic_prev').text("Hispanic Percentage: " + data_from_2000['hispanic'] + "%")
-                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])
+                    $("#table tr:first-child").append("<td bgcolor='#87859f'>" + townName + "</td>")
+                    $("#table tr:nth-child(2)").append("<td bgcolor='#c3c3c1'></td>")
+                    $("#table tr:nth-child(3)").append("<td bgcolor='#fce2aa'>" +  data_from_2000['voters'] + "</td>")
+                    $("#table tr:nth-child(4)").append("<td bgcolor='#fce2aa'>" + data_from_2000['democratic'] + "% </td>") 
+                    $("#table tr:nth-child(5)").append("<td bgcolor='#fce2aa'>" + data_from_2000['republican'] + "% </td>")
+                    $("#table tr:nth-child(6)").append("<td bgcolor='#c3c3c1'></td>")
+                    $("#table tr:nth-child(7)").append("<td bgcolor='#fce2aa'>" + data_from_2000['population'] + "</td>")
+                    $("#table tr:nth-child(8)").append("<td bgcolor='#fce2aa'>" + data_from_2000['african'] + "% </td>")
+                    $("#table tr:nth-child(9)").append("<td bgcolor='#fce2aa'>" + data_from_2000['asian'] + "% </td>")
+                    $("#table tr:nth-child(10)").append("<td bgcolor='#fce2aa'>" + data_from_2000['hispanic'] + "% </td>")
+                    $("#table tr:nth-child(11)").append("<td bgcolor='#c3c3c1'></td>")
+                    $("#table tr:nth-child(12)").append("<td bgcolor='#fce2aa'>" + data_from_2000['taxable'] + "</td>") 
                 }
                 if(data_from_2010 == undefined) {
                     $('#city_curr').text("City: " + townName)

@@ -313,26 +313,26 @@
                     $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])-->
                 }
                 if(data_from_2010 == undefined) {
-                    $("#table>one>tr").append("<th>Second</th>");
-                    $("#table>three>tr").append("<th>Second</th>");
-                    $("#table>four>tr").append("<th>Second</th>");
-                    $("#table>five>tr").append("<th>Second</th>");
-                    $("#table>seven>tr").append("<th>Second</th>");
-                    $("#table>eight>tr").append("<th>Second</th>");
-                    $("#table>nine>tr").append("<th>Second</th>");
-                    $("#table>ten>tr").append("<th>Second</th>");
-                    $("#table>twelve>tr").append("<th>Second</th>");
+                    $('#city_curr').text("City: " + townName)
+                    $('#voters_curr').text("Voter Population: N/A")
+                    $('#democratic_curr').text("Democratic Voters: N/A")
+                    $('#republican_curr').text("Republican Voters: N/A")
+                    $('#population_curr').text("Estimated Population: N/A")
+                    $('#african_curr').text("African Percentage: N/A")
+                    $('#asian_curr').text("Asian Percentage: N/A")
+                    $('#hispanic_curr').text("Hispanic Percentage: N/A")
+                    $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
                 }
                 else {
-                    $("#table>one>tr").append("<th>Second</th>");
-                    $("#table>three>tr").append("<th>Second</th>");
-                    $("#table>four>tr").append("<th>Second</th>");
-                    $("#table>five>tr").append("<th>Second</th>");
-                    $("#table>seven>tr").append("<th>Second</th>");
-                    $("#table>eight>tr").append("<th>Second</th>");
-                    $("#table>nine>tr").append("<th>Second</th>");
-                    $("#table>ten>tr").append("<th>Second</th>");
-                    $("#table>twelve>tr").append("<th>Second</th>");
+                    $('#city_curr').text("City: " + townName)
+                    $('#voters_curr').text("Voter Population: " + data_from_2010['voters'])
+                    $('#democratic_curr').text("Democratic Voters: " + data_from_2010['democratic'] + "%")
+                    $('#republican_curr').text("Republican Voters: " + data_from_2010['republican'] + "%")
+                    $('#population_curr').text("Estimated Population: " + data_from_2010['population'])
+                    $('#african_curr').text("African Percentage: " + data_from_2010['african'] + "%")
+                    $('#asian_curr').text("Asian Percentage: " + data_from_2010['asian'] + "%")
+                    $('#hispanic_curr').text("Hispanic Percentage: " + data_from_2010['hispanic'] + "%")
+                    $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
                 }
                 $('#previous_district_number').text("Showing District " + old_index.toString())
                 $('#current_district_number').text("Showing District " + new_index.toString())

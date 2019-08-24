@@ -282,7 +282,7 @@
                 currentHighlight_old = old_index
                 currentHighlight_new = new_index
                 if(data_from_2000 == undefined) {
-                    $('#city_prev').text("City: " + townName)
+                    $('#table > one > tr').append('<td>City: ' + townName + '</td>')
                     $('#voters_prev').text("Voter Population: N/A")
                     $('#democratic_prev').text("Democratic Voters: N/A")
                     $('#republican_prev').text("Republican Voters: N/A")

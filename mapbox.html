@@ -3,26 +3,24 @@
 <head>
     <meta charset='utf-8' />
     <title>GeoJSON Test</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta name='viewport' content='width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
     <style>
-
         :root {
             --top-push: 50px;
             --view-width: calc(50% - 10px);
             --view-height: 500px;
         }
-
         body { 
             margin: 0; 
             padding: 0; 
             font-family: Arial, 'sans-serif';
             overflow-x: hidden;
+            background: linear-gradient(to right, #384369 50%, #ffffff 50%);
         }
-
         .map {
             margin: 0;
             padding: 0;
@@ -30,7 +28,6 @@
             height: var(--view-height);
             display: inline-block;
         }
-
         #previous_header {
             margin-top: 0;
             margin-left: 5%;
@@ -43,8 +40,6 @@
             line-height: 50px;
             font-size: 24px;
         }
-
-
         #current_header {
             margin-top: 0;
             margin-right: 5%;
@@ -57,14 +52,12 @@
             line-height: 50px;
             font-size: 24px;
         }
-
         .form {
             width: 90%;
             margin-left: 5%;
             margin-top: 15px;
             margin-bottom: 15px;
         }
-
         .zipInput {
             border: 0;
             border-bottom: 1px solid black;
@@ -72,19 +65,16 @@
             width: 400px;
             font-size: 18px;
         }
-
         .zipSubmit {
             background: #87859f;
             font-size: 15px;
             color: white;
             padding: 5px 10px 5px 10px;
         }
-
         .zipSubmit:hover {
             cursor: pointer;
             background: #7d7b94;
         }
-
         #errorMessage {
             font-size: 18px;
             padding-left: 5%;
@@ -93,34 +83,28 @@
             height:18px;
             width:100%;
         }
-
         #map_curr {
             float: right;
         }
-
         #map_prev {
             float: left;
         }
-
         .maps {
             width: 90%;
             margin-left: 5%;
         }
-
         #previous_district_number {
             display: inline-block;
             width: 49%;
             text-align: center;
             margin-top: 0;
         }
-
         #current_district_number {
             display: inline-block;
             width: 49%;
             text-align: center;
             margin-top: 0;
         }
-
         .map_prev_info {
             margin-left: 5%;
             width: calc(var(--view-width) - 5%);
@@ -129,7 +113,6 @@
             display: inline-block;
             background: #f5f5f5;
         }
-
         .map_curr_info {
             margin-right: 5%;
             display: inline-block;
@@ -139,16 +122,15 @@
             display: inline-block;
             background: #f5f5f5;
         }
-
         .info_title {
             font-weight: bold;
         }
-
     </style>
 </head>
 <body>
 
 <div id='main_field'>
+
     <form class='form' name="myform" action="javascript:handleIt(zip.value)">
         <input class='zipInput' name="zip" id="zip" type="text" placeholder="Enter Address"/>
         <input class='zipSubmit' name="Submit"  type="submit" value="Search"/>
@@ -168,39 +150,40 @@
     </div>
     <div>
         <div class='map_prev_info'>
-            <p id='city_prev'>City:</p>
-            <p class='info_title'>Voters</p>
-            <p id='voters_prev'>Voter Population:</p>
-            <p id='democratic_prev'>Democratic Voters:</p>
-            <p id='republican_prev'>Republican Voters:</p>
-            <p class='info_title'>Census</p>
-            <p id='population_prev'>Estimated Population:</p>
-            <p id='african_prev'>African Percentage:</p>
-            <p id='asian_prev'>Asian Percentage:</p>
-            <p id='hispanic_prev'>Hispanic Percentage:</p>
-            <p class='info_title'>Fiscal</p>
-            <p id='taxable_prev'>Per Capital Taxable Property Value:</p>
+          <table width = 100% id="table" >
+            <one><tr><td bgcolor="#87859f"><p id='city_prev'>Municipality:</p></td><!--<td> hi</td>--></tr></one>
+            <two><tr><td bgcolor="#c3c3c1"><p class='info_title'>Voters</p></td></tr></two>
+            <three><tr><td bgcolor="#fce2aa"><p id='voters_prev'>Voter Population:</p></td></tr></three>
+            <four><tr><td bgcolor="#fce2aa"><p id='democratic_prev'>Democratic Voters:</p></td></tr></four>
+            <five><tr><td bgcolor="#fce2aa"><p id='republican_prev'>Republican Voters:</p></td></tr></five>
+            <six><tr><td bgcolor="#c3c3c1"><p class='info_title'>Census</p></td></tr></six>
+            <seven><tr><td bgcolor="#fce2aa"><p id='population_prev'>Estimated Population:</p></td></tr></seven>
+            <eight><tr><td bgcolor="#fce2aa"><p id='african_prev'>African Percentage:</p></td></tr></eight>
+            <nine><tr><td bgcolor="#fce2aa"><p id='asian_prev'>Asian Percentage:</p></td></tr></nine>
+            <ten><tr><td bgcolor="#fce2aa"><p id='hispanic_prev'>Hispanic Percentage:</p></td></tr></ten>
+            <eleven><tr><td bgcolor="#c3c3c1"><p class='info_title'>Fiscal</p></td></tr></twelve>
+            <twelve><tr><td bgcolor="#fce2aa"><p id='taxable_prev'>Per Capital Taxable Property Value:</p></td></tr>
+          </table>
         </div>
         <div class='map_curr_info'>
-            <p id='city_curr'>City:</p>
-            <p class='info_title'>Voters</p>
-            <p id='voters_curr'>Voter Population:</p>
-            <p id='democratic_curr'>Democratic Voters:</p>
-            <p id='republican_curr'>Republican Voters:</p>
-            <p class='info_title'>Census</p>
-            <p id='population_curr'>Estimated Population:</p>
-            <p id='african_curr'>African Percentage:</p>
-            <p id='asian_curr'>Asian Percentage:</p>
-            <p id='hispanic_curr'>Hispanic Percentage:</p>
-            <p class='info_title'>Fiscal</p>
-            <p id='taxable_curr'>Per Capital Taxable Property Value:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#87859f; border-color:#87859f; padding: .50em;" id='city_curr'>Municipality:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#c3c3c1; border-color:#c3c3c1; padding: .50em;" class='info_title'>Voters</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='voters_curr'>Voter Population:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='democratic_curr'>Democratic Voters:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='republican_curr'>Republican Voters:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#c3c3c1; border-color:#c3c3c1; padding: .50em;" class='info_title'>Census</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='population_curr'>Estimated Population:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='african_curr'>African Percentage:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='asian_curr'>Asian Percentage:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='hispanic_curr'>Hispanic Percentage:</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#c3c3c1; border-color:#c3c3c1; padding: .50em;" class='info_title'>Fiscal</p>
+            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='taxable_curr'>Per Capital Taxable Property Value:</p>
         </div>
     </div>
 </div>
 
 
 <script>
-
     var ZtC = {}
     var ZtName = {}
     var data_2000 = {}
@@ -216,47 +199,35 @@
     var currentHighlight_new = 0
     var polygons_old = Array(old_n).fill(0)
     var polygons_new = Array(new_n).fill(0)
-
     $.getJSON("data/zip_to_coordinate.json", function(data) {
         ZtC = data
     })
-
     $.getJSON("data/nj_zip_codes_to_towns.json", function(data) {
         ZtName = data
     })
-
     $.getJSON("data/2000_data.json", function(data) {
         data_2000 = data
     })
-
     $.getJSON("data/2010_data.json", function(data) {
         data_2010 = data
     })
-
     $.getJSON("data/nj_zip_codes.json", function(data) {
         NJ_Zip = data["zips"]
     })
-
     function handleIt(zip) {
-
         const Http = new XMLHttpRequest();
         var replaced_zip = zip.split(' ').join('+');
         var url='https://maps.googleapis.com/maps/api/geocode/json?address=' + replaced_zip + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
         Http.open("GET", url);
         Http.send();
-
         Http.onreadystatechange = (e) => {
             var data = JSON.parse(Http.responseText)
-
             if(data.results[0] === undefined) {
-
                 $("#errorMessage").text("Please Enter a Valid Address in New Jersey");
             }
-
             else {
                 var lat = parseFloat(data.results[0].geometry.location.lat)
                 var lon = parseFloat(data.results[0].geometry.location.lng)
-
                 var townName;
                 var data_from_2000;
                 var data_from_2010;
@@ -270,24 +241,19 @@
                     }
                 }
                 
-
                 map_origin = [lon, lat]
-
                 map_prev.flyTo({
                     center: map_origin,
                     zoom: map_scale
                 });
-
                 map_curr.flyTo({
                     center: map_origin,
                     zoom: map_scale
                 });
-
                 var relatedFeatures = map_prev.querySourceFeatures('route', {
                     sourceLayer: 'route-layer',
                     filter: ["==", 'type', 'Feature']
                 });
-
                 var point = turf.point([lon, lat]);
                 var old_index = 0;
                 for(var i = 1; i <= old_n; i++) {
@@ -309,15 +275,12 @@
                         }
                     }
                 }
-
-
                 if(currentHighlight_old > 0)
                     map_prev.setPaintProperty('route-fills-' + currentHighlight_old.toString(), 'fill-opacity', 0.15);
                 if(currentHighlight_new > 0)
                     map_curr.setPaintProperty('route-fills-' + currentHighlight_new.toString(), 'fill-opacity', 0.15);
                 currentHighlight_old = old_index
                 currentHighlight_new = new_index
-
                 if(data_from_2000 == undefined) {
                     $('#city_prev').text("City: " + townName)
                     $('#voters_prev').text("Voter Population: N/A")
@@ -329,9 +292,20 @@
                     $('#hispanic_prev').text("Hispanic Percentage: N/A")
                     $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
                 }
-
                 else {
-                    $('#city_prev').text("City: " + townName)
+                    $("#table>one>tr").append("<th>Second</th>");
+                    $("#table>two>tr").append("<th>Second</th>");
+                    $("#table>three>tr").append("<th>Second</th>");
+                    $("#table>four>tr").append("<th>Second</th>");
+                    $("#table>five>tr").append("<th>Second</th>");
+                    $("#table>six>tr").append("<th>Second</th>");
+                    $("#table>seven>tr").append("<th>Second</th>");
+                    $("#table>eight>tr").append("<th>Second</th>");
+                    $("#table>nine>tr").append("<th>Second</th>");
+                    $("#table>ten>tr").append("<th>Second</th>");
+                    $("#table>eleven>tr").append("<th>Second</th>");
+                    $("#table>twelve>tr").append("<th>Second</th>");
+                    <!--$('#city_prev').text("City: " + townName)
                     $('#voters_prev').text("Voter Population: " + data_from_2000['voters'])
                     $('#democratic_prev').text("Democratic Voters: " + data_from_2000['democratic'] + "%")
                     $('#republican_prev').text("Republican Voters: " + data_from_2000['republican'] + "%")
@@ -339,9 +313,8 @@
                     $('#african_prev').text("African Percentage: " + data_from_2000['african'] + "%")
                     $('#asian_prev').text("Asian Percentage: " + data_from_2000['asian'] + "%")
                     $('#hispanic_prev').text("Hispanic Percentage: " + data_from_2000['hispanic'] + "%")
-                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])
+                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])-->
                 }
-
                 if(data_from_2010 == undefined) {
                     $('#city_curr').text("City: " + townName)
                     $('#voters_curr').text("Voter Population: N/A")
@@ -353,7 +326,6 @@
                     $('#hispanic_curr').text("Hispanic Percentage: N/A")
                     $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
                 }
-
                 else {
                     $('#city_curr').text("City: " + townName)
                     $('#voters_curr').text("Voter Population: " + data_from_2010['voters'])
@@ -365,25 +337,19 @@
                     $('#hispanic_curr').text("Hispanic Percentage: " + data_from_2010['hispanic'] + "%")
                     $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
                 }
-
                 $('#previous_district_number').text("Showing District " + old_index.toString())
                 $('#current_district_number').text("Showing District " + new_index.toString())
-
                 map_prev.setPaintProperty('route-fills-' + old_index.toString(), 'fill-opacity', 0.5);
                 map_curr.setPaintProperty('route-fills-' + new_index.toString(), 'fill-opacity', 0.5);
             }
         }
     }
-
-
     $.getJSON("data/NJ_Legislative.geojson", function(json) {
         LegislativeDataCurrent = json
     });
-
     $.getJSON("data/NJ_Legislative_Old.geojson", function(json) {
         LegislativeDataPast = json
     });
-
     for(var i = 1; i <= old_n; i++) {
         $.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson", function(json_old) {
             var id = json_old["features"][0]["properties"]["ID"]
@@ -395,7 +361,6 @@
                 polygons_old[parseInt(id)] = polygons_group
             }
             else {
-
                 for(var k = 0; k < coordinates.length; k++) {
                     polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
                 }
@@ -404,7 +369,6 @@
             }
         });
     }
-
     
     for(var j = 1; j <= new_n; j++) {
         $.getJSON("data/NJ_Legislative/District_" + j.toString() + ".geojson", function(json_new) {
@@ -418,7 +382,6 @@
                 polygons_new[object_id] = polygons_group
             }
             else {
-
                 for(var l = 0; l < coordinatesNew.length; l++) {
                     polygons_group.push( turf.polygon( coordinatesNew[l], { name: 'poly1'} ) )
                 }
@@ -427,40 +390,29 @@
             }
         });
     } 
-
-
     
     mapboxgl.accessToken = 'pk.eyJ1IjoiZnVlcnphc3RyYXRlZ3lncm91cCIsImEiOiJjanoycWJqcHkwNnA4M2pudHFmdnJ5bXZlIn0.eaNrVgK5M7eLrCmi_hGX1A';
-
     map_origin = [-74.53734351262877, 40.137451890638886]
     map_scale = 6.3
-
-
     var map_prev = new mapboxgl.Map({
         container: 'map_prev',
         style: 'mapbox://styles/mapbox/streets-v11',
         center: map_origin,
         zoom: map_scale
     });
-
     map_prev.on('load', function () {
-
         map_prev.addSource('route', {
           type: 'geojson',
           data: LegislativeDataPast
         });
-
-
         for(var i = 1; i <= old_n; i++) {
             i_str = i.toString()
             map_prev.addSource('route_old_' + i_str, {
               type: 'geojson',
               data: LegislativeDataPast_Districts[i_str]
             });
-
         }
         
-
         map_prev.addLayer({
             "id": "route",
             "type": "line",
@@ -475,7 +427,6 @@
                 "line-width": 1
             }
         });
-
         for(var i = 1; i <= old_n; i++) {
             map_prev.addLayer({
                 "id": "route-fills-" + i.toString(),
@@ -487,29 +438,19 @@
                     "fill-opacity": 0.15
                 }
             });
-
         }
-
-
-
-
     });
-
-
     var map_curr = new mapboxgl.Map({
         container: 'map_curr',
         style: 'mapbox://styles/mapbox/streets-v11',
         center: map_origin,
         zoom: map_scale
     });
-
     map_curr.on('load', function () {
-
         map_curr.addSource('route', {
           type: 'geojson',
           data: LegislativeDataCurrent
         });
-
         
         for(var j = 1; j <= new_n; j++) {
             j_str = j.toString()
@@ -517,10 +458,8 @@
               type: 'geojson',
               data: LegislativeDataCurrent_Districts[j_str]
             });
-
         }
         
-
         map_curr.addLayer({
             "id": "route",
             "type": "line",
@@ -534,7 +473,6 @@
                 "line-width": 1
             }
         });
-
         
         for(var j = 1; j <= new_n; j++) {
             map_curr.addLayer({
@@ -547,15 +485,9 @@
                     "fill-opacity": 0.15
                 }
             });
-
         } 
-
     });
-
-
-
     //------------------ Align Maps To Same Centers/Zoom -----------------//
-
     var disable = false;
     map_prev.on('move', function () {
         if (!disable) {
@@ -567,7 +499,6 @@
             disable = false;
         }
     })
-
     map_prev.on('zoom', function () {
         if (!disable) {
             map_origin = map_prev.getCenter()
@@ -578,7 +509,6 @@
             disable = false;
         }
     })
-
     map_curr.on('move', function () {
         if (!disable) {
             map_origin = map_curr.getCenter()
@@ -588,9 +518,7 @@
             map_prev.setZoom(map_scale)
             disable = false;
         }
-
     })
-
     map_curr.on('zoom', function () {
         if (!disable) {
             map_origin = map_curr.getCenter()
@@ -601,8 +529,6 @@
             disable = false;
         }
     })
-
-
 </script>
 
 

@@ -151,20 +151,21 @@
     <div>
         <div class='map_prev_info'>
           <table width = 100% id="table" >
-            <one><tr><td bgcolor="#87859f"><p id='city_prev'>Municipality:</p></td><!--<td> hi</td>--></tr></one>
-            <two><tr><td bgcolor="#c3c3c1"><p class='info_title'>Voters</p></td></tr></two>
-            <three><tr><td bgcolor="#fce2aa"><p id='voters_prev'>Voter Population:</p></td></tr></three>
-            <four><tr><td bgcolor="#fce2aa"><p id='democratic_prev'>Democratic Voters:</p></td></tr></four>
-            <five><tr><td bgcolor="#fce2aa"><p id='republican_prev'>Republican Voters:</p></td></tr></five>
-            <six><tr><td bgcolor="#c3c3c1"><p class='info_title'>Census</p></td></tr></six>
-            <seven><tr><td bgcolor="#fce2aa"><p id='population_prev'>Estimated Population:</p></td></tr></seven>
-            <eight><tr><td bgcolor="#fce2aa"><p id='african_prev'>African Percentage:</p></td></tr></eight>
-            <nine><tr><td bgcolor="#fce2aa"><p id='asian_prev'>Asian Percentage:</p></td></tr></nine>
-            <ten><tr><td bgcolor="#fce2aa"><p id='hispanic_prev'>Hispanic Percentage:</p></td></tr></ten>
-            <eleven><tr><td bgcolor="#c3c3c1"><p class='info_title'>Fiscal</p></td></tr></twelve>
-            <twelve><tr><td bgcolor="#fce2aa"><p id='taxable_prev'>Per Capital Taxable Property Value:</p></td></tr>
+            <i-one><tr><td bgcolor="#87859f"><p id='city_prev'>Municipality:</p></td><!--<td> hi</td>--></tr></i-one>
+            <i-two><tr><td bgcolor="#c3c3c1"><p class='info_title'>Voters</p></td></tr></i-two>
+            <i-three><tr><td bgcolor="#fce2aa"><p id='voters_prev'>Voter Population:</p></td></tr></i-three>
+            <i-four><tr><td bgcolor="#fce2aa"><p id='democratic_prev'>Democratic Voters:</p></td></tr></i-four>
+            <i-five><tr><td bgcolor="#fce2aa"><p id='republican_prev'>Republican Voters:</p></td></tr></i-five>
+            <i-six><tr><td bgcolor="#c3c3c1"><p class='info_title'>Census</p></td></tr></i-six>
+            <i-seven><tr><td bgcolor="#fce2aa"><p id='population_prev'>Estimated Population:</p></td></tr></i-seven>
+            <i-eight><tr><td bgcolor="#fce2aa"><p id='african_prev'>African Percentage:</p></td></tr></i-eight>
+            <i-nine><tr><td bgcolor="#fce2aa"><p id='asian_prev'>Asian Percentage:</p></td></tr></i-nine>
+            <i-ten><tr><td bgcolor="#fce2aa"><p id='hispanic_prev'>Hispanic Percentage:</p></td></tr></i-ten>
+            <i-eleven><tr><td bgcolor="#c3c3c1"><p class='info_title'>Fiscal</p></td></tr></i-eleven>
+            <i-twelve><tr><td bgcolor="#fce2aa"><p id='taxable_prev'>Per Capital Taxable Property Value:</p></td></tr></i-twelve>
           </table>
         </div>
+        
         <div class='map_curr_info'>
             <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#87859f; border-color:#87859f; padding: .50em;" id='city_curr'>Municipality:</p>
             <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#c3c3c1; border-color:#c3c3c1; padding: .50em;" class='info_title'>Voters</p>
@@ -184,6 +185,9 @@
 
 
 <script>
+
+
+
     var ZtC = {}
     var ZtName = {}
     var data_2000 = {}
@@ -293,7 +297,7 @@
                     $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
                 }
                 else {
-                    $("#table tr:first-child").append("<td>City: " + townName + "</td>")
+                    $('#city_prev').text("City: " + townName)
                     $('#voters_prev').text("Voter Population: " + data_from_2000['voters'])
                     $('#democratic_prev').text("Democratic Voters: " + data_from_2000['democratic'] + "%")
                     $('#republican_prev').text("Republican Voters: " + data_from_2000['republican'] + "%")

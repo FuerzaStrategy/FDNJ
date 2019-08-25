@@ -521,7 +521,7 @@
                     $("#xten").html(data_from_2010['hispanic'] + "%")
                     $("#xtwelve").html("$" + data_from_2010['taxable'])
                 }
-                $('#previous_district_number').html("<p><font color='white'>" + "Showing District " + old_index.toString() + "</font></p>")
+                $('#previous_district_number').html("<font color='white'>" + "Showing District " + old_index.toString() + "</font>")
                 $('#current_district_number').text("Showing District " + new_index.toString())
                 map_prev.setPaintProperty('route-fills-' + old_index.toString(), 'fill-opacity', 0.5);
                 map_curr.setPaintProperty('route-fills-' + new_index.toString(), 'fill-opacity', 0.5);

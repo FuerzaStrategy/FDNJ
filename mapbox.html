@@ -154,7 +154,7 @@
             <i-one>
               <tr>
                 <td bgcolor="#87859f">
-                  <p id='city_prev'>Municipality:</p>
+                  <p id='city_prev'>Municipality</p>
                 </td><!--<td> hi</td>-->
                 <td bgcolor="#87859f" width="50%" id="one">
                 </td>
@@ -381,18 +381,15 @@
                 currentHighlight_old = old_index
                 currentHighlight_new = new_index
                 if(data_from_2000 == undefined) {
-                    $("#table tr:first-child").append("<td bgcolor='#87859f'>" + townName + "</td>")
-                    $("#table tr:nth-child(2)").append("<td bgcolor='#c3c3c1'></td>")
-                    $("#table tr:nth-child(3)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>")
-                    $("#table tr:nth-child(4)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>") 
-                    $("#table tr:nth-child(5)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>")
-                    $("#table tr:nth-child(6)").append("<td bgcolor='#c3c3c1'></td>")
-                    $("#table tr:nth-child(7)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>")
-                    $("#table tr:nth-child(8)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>")
-                    $("#table tr:nth-child(9)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>")
-                    $("#table tr:nth-child(10)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>")
-                    $("#table tr:nth-child(11)").append("<td bgcolor='#c3c3c1'></td>")
-                    $("#table tr:nth-child(12)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>")
+                    $("#one").html(townName)
+                    $("#three").html("N/A")
+                    $("#four").html("N/A")
+                    $("#five").html("N/A")
+                    $("#seven").html("N/A")
+                    $("#eight").html("N/A")
+                    $("#nine").html("N/A")
+                    $("#ten").html("N/A")
+                    $("#twelve").html("N/A")
                 }
                 else {
                     $("#one").html(townName)

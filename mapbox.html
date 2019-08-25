@@ -154,7 +154,7 @@
             <i-one>
               <tr>
                 <td bgcolor="#87859f">
-                  <p id='city_prev' style="font-weight:bold">Municipality</p>
+                  <p id='city_prev'>Municipality</p>
                 </td><!--<td> hi</td>-->
                 <td bgcolor="#87859f" width="50%" id="one">
                 </td>
@@ -262,18 +262,115 @@
         </div>
         
         <div class='map_curr_info'>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#87859f; border-color:#87859f; padding: .50em;" id='city_curr'>Municipality:</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#c3c3c1; border-color:#c3c3c1; padding: .50em;" class='info_title'>Voters</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='voters_curr'>Voter Population:</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='democratic_curr'>Democratic Voters:</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='republican_curr'>Republican Voters:</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#c3c3c1; border-color:#c3c3c1; padding: .50em;" class='info_title'>Census</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='population_curr'>Estimated Population:</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='african_curr'>African Percentage:</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='asian_curr'>Asian Percentage:</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='hispanic_curr'>Hispanic Percentage:</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#c3c3c1; border-color:#c3c3c1; padding: .50em;" class='info_title'>Fiscal</p>
-            <p style="border:3px; margin-top:0px;margin-bottom:0px; border-style:solid;background:#fce2aa; border-color:#fce2aa; padding: .50em;" id='taxable_curr'>Per Capital Taxable Property Value:</p>
+            <table width = 100% id="xtable" >
+            <i-one>
+              <tr>
+                <td bgcolor="#87859f">
+                  <p id='city_prev'>Municipality</p>
+                </td><!--<td> hi</td>-->
+                <td bgcolor="#87859f" width="50%" id="xone">
+                </td>
+              </tr>
+            </i-one>
+            <i-two>
+              <tr>
+                <td bgcolor="#c3c3c1">
+                  <p class='info_title'>Voters</p>
+                </td>
+                <td bgcolor="#c3c3c1" width="50%" id="xtwo">
+                </td>
+              </tr>
+            </i-two>
+            <i-three>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='voters_prev'>Voter Population</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="xthree">
+                </td>
+              </tr>
+            </i-three>
+            <i-four>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='democratic_prev'>Democratic Voters</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="xfour">
+                </td>
+              </tr>
+            </i-four>
+            <i-five>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='republican_prev'>Republican Voters</p>
+                </td>
+                 <td bgcolor="#fce2aa" width="50%" id="xfive">
+                </td>
+              </tr>
+            </i-five>
+            <i-six>
+              <tr>
+                <td bgcolor="#c3c3c1">
+                  <p class='info_title'>Census</p>
+                </td>
+                <td bgcolor="#c3c3c1" width="50%" id="xsix">
+                </td>
+              </tr>
+            </i-six>
+            <i-seven>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='population_prev'>Estimated Population</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="xseven">
+                </td>
+              </tr>
+            </i-seven>
+            <i-eight>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='african_prev'>African Percentage</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="xeight">
+                </td>
+              </tr>
+            </i-eight>
+            <i-nine>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='asian_prev'>Asian Percentage</p>
+                </td>
+                 <td bgcolor="#fce2aa" width="50%" id="xnine">
+                </td>
+              </tr>
+            </i-nine>
+            <i-ten>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='hispanic_prev'>Hispanic Percentage</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="xten">
+                </td>
+              </tr>
+            </i-ten>
+            <i-eleven>
+              <tr>
+                <td bgcolor="#c3c3c1">
+                  <p class='info_title'>Fiscal</p>
+                </td>
+                <td bgcolor="#c3c3c1" width="50%" id="xeleven">
+                </td>
+              </tr>
+            </i-eleven>
+            <i-twelve>
+              <tr><td bgcolor="#fce2aa">
+                <p id='taxable_prev'>Per Capital Taxable Property Value</p>
+              </td>
+              <td bgcolor="#fce2aa" width="50%" id="xtwelve">
+              </td>
+            </tr>
+          </i-twelve>
+          </table>
         </div>
     </div>
 </div>
@@ -400,29 +497,29 @@
                     $("#eight").html(data_from_2000['african'] + "%")
                     $("#nine").html(data_from_2000['asian'] + "%")
                     $("#ten").html(data_from_2000['hispanic'] + "%")
-                    $("#twelve").html(data_from_2000['taxable']) 
+                    $("#twelve").html("$" + data_from_2000['taxable']) 
                 }
                 if(data_from_2010 == undefined) {
-                    $('#city_curr').text("City: " + townName)
-                    $('#voters_curr').text("Voter Population: N/A")
-                    $('#democratic_curr').text("Democratic Voters: N/A")
-                    $('#republican_curr').text("Republican Voters: N/A")
-                    $('#population_curr').text("Estimated Population: N/A")
-                    $('#african_curr').text("African Percentage: N/A")
-                    $('#asian_curr').text("Asian Percentage: N/A")
-                    $('#hispanic_curr').text("Hispanic Percentage: N/A")
-                    $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
+                    $("#xone").html("undefined")
+                    $("#xthree").html("N/A")
+                    $("#four").html("N/A")
+                    $("#xfive").html("N/A")
+                    $("#xseven").html("N/A")
+                    $("#xeight").html("N/A")
+                    $("#xnine").html("N/A")
+                    $("#xten").html("N/A")
+                    $("#xtwelve").html("N/A")
                 }
                 else {
-                    $('#city_curr').html("City: " + "<div align='right'>" + townName + "</div>")
-                    $('#voters_curr').text("Voter Population: " + data_from_2010['voters'])
-                    $('#democratic_curr').text("Democratic Voters: " + data_from_2010['democratic'] + "%")
-                    $('#republican_curr').text("Republican Voters: " + data_from_2010['republican'] + "%")
-                    $('#population_curr').text("Estimated Population: " + data_from_2010['population'])
-                    $('#african_curr').text("African Percentage: " + data_from_2010['african'] + "%")
-                    $('#asian_curr').text("Asian Percentage: " + data_from_2010['asian'] + "%")
-                    $('#hispanic_curr').text("Hispanic Percentage: " + data_from_2010['hispanic'] + "%")
-                    $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
+                    $("#xone").html(townName)
+                    $("#xthree").html(data_from_2010['voters'])
+                    $("#xfour").html(data_from_2010['democratic'] + "%")
+                    $("#xfive").html(data_from_2010['republican'] + "%")
+                    $("#xseven").html(data_from_2010['population'])
+                    $("#xeight").html(data_from_2010['african'] + "%")
+                    $("#xnine").html(data_from_2010['asian'] + "%")
+                    $("#xten").html(data_from_2010['hispanic'] + "%")
+                    $("#xtwelve").html("$" + data_from_2010['taxable'])
                 }
                 $('#previous_district_number').text("Showing District " + old_index.toString())
                 $('#current_district_number').text("Showing District " + new_index.toString())

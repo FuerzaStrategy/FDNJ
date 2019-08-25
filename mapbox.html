@@ -151,18 +151,113 @@
     <div>
         <div class='map_prev_info'>
           <table width = 100% id="table" >
-            <i-one><tr><td bgcolor="#87859f"><p id='city_prev'>Municipality:</p></td><!--<td> hi</td>--></tr></i-one>
-            <i-two><tr><td bgcolor="#c3c3c1"><p class='info_title'>Voters</p></td></tr></i-two>
-            <i-three><tr><td bgcolor="#fce2aa"><p id='voters_prev'>Voter Population:</p></td></tr></i-three>
-            <i-four><tr><td bgcolor="#fce2aa"><p id='democratic_prev'>Democratic Voters:</p></td></tr></i-four>
-            <i-five><tr><td bgcolor="#fce2aa"><p id='republican_prev'>Republican Voters:</p></td></tr></i-five>
-            <i-six><tr><td bgcolor="#c3c3c1"><p class='info_title'>Census</p></td></tr></i-six>
-            <i-seven><tr><td bgcolor="#fce2aa"><p id='population_prev'>Estimated Population:</p></td></tr></i-seven>
-            <i-eight><tr><td bgcolor="#fce2aa"><p id='african_prev'>African Percentage:</p></td></tr></i-eight>
-            <i-nine><tr><td bgcolor="#fce2aa"><p id='asian_prev'>Asian Percentage:</p></td></tr></i-nine>
-            <i-ten><tr><td bgcolor="#fce2aa"><p id='hispanic_prev'>Hispanic Percentage:</p></td></tr></i-ten>
-            <i-eleven><tr><td bgcolor="#c3c3c1"><p class='info_title'>Fiscal</p></td></tr></i-eleven>
-            <i-twelve><tr><td bgcolor="#fce2aa"><p id='taxable_prev'>Per Capital Taxable Property Value:</p></td></tr></i-twelve>
+            <i-one>
+              <tr>
+                <td bgcolor="#87859f">
+                  <p id='city_prev'>Municipality:</p>
+                </td><!--<td> hi</td>-->
+                <td bgcolor="#87859f" width="50%" id="one">
+                </td>
+              </tr>
+            </i-one>
+            <i-two>
+              <tr>
+                <td bgcolor="#c3c3c1">
+                  <p class='info_title'>Voters</p>
+                </td>
+                <td bgcolor="#c3c3c1" width="50%" id="two">
+                </td>
+              </tr>
+            </i-two>
+            <i-three>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='voters_prev'>Voter Population</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="three">
+                </td>
+              </tr>
+            </i-three>
+            <i-four>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='democratic_prev'>Democratic Voters</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="four">
+                </td>
+              </tr>
+            </i-four>
+            <i-five>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='republican_prev'>Republican Voters</p>
+                </td>
+                 <td bgcolor="#fce2aa" width="50%" id="five">
+                </td>
+              </tr>
+            </i-five>
+            <i-six>
+              <tr>
+                <td bgcolor="#c3c3c1">
+                  <p class='info_title'>Census</p>
+                </td>
+                <td bgcolor="#c3c3c1" width="50%" id="six">
+                </td>
+              </tr>
+            </i-six>
+            <i-seven>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='population_prev'>Estimated Population</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="seven">
+                </td>
+              </tr>
+            </i-seven>
+            <i-eight>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='african_prev'>African Percentage</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="eight">
+                </td>
+              </tr>
+            </i-eight>
+            <i-nine>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='asian_prev'>Asian Percentage</p>
+                </td>
+                 <td bgcolor="#fce2aa" width="50%" id="nine">
+                </td>
+              </tr>
+            </i-nine>
+            <i-ten>
+              <tr>
+                <td bgcolor="#fce2aa">
+                  <p id='hispanic_prev'>Hispanic Percentage</p>
+                </td>
+                <td bgcolor="#fce2aa" width="50%" id="ten">
+                </td>
+              </tr>
+            </i-ten>
+            <i-eleven>
+              <tr>
+                <td bgcolor="#c3c3c1">
+                  <p class='info_title'>Fiscal</p>
+                </td>
+                <td bgcolor="#c3c3c1" width="50%" id="eleven">
+                </td>
+              </tr>
+            </i-eleven>
+            <i-twelve>
+              <tr><td bgcolor="#fce2aa">
+                <p id='taxable_prev'>Per Capital Taxable Property Value</p>
+              </td>
+              <td bgcolor="#fce2aa" width="50%" id="twelve">
+              </td>
+            </tr>
+          </i-twelve>
           </table>
         </div>
         
@@ -300,18 +395,15 @@
                     $("#table tr:nth-child(12)").append("<td bgcolor='#fce2aa'>" + "N/A" + "</td>")
                 }
                 else {
-                    $("#table tr:first-child").html("<td bgcolor='#87859f'><span align='left'>Municipality:" + "</span>" + townName + "</td>")
-                    $("#table tr:nth-child(2)").html("<td bgcolor='#c3c3c1'></td>")
-                    $("#table tr:nth-child(3)").html("<td bgcolor='#fce2aa'>" +  data_from_2000['voters'] + "</td>")
-                    $("#table tr:nth-child(4)").html("<td bgcolor='#fce2aa'>" + data_from_2000['democratic'] + "% </td>") 
-                    $("#table tr:nth-child(5)").html("<td bgcolor='#fce2aa'>" + data_from_2000['republican'] + "% </td>")
-                    $("#table tr:nth-child(6)").html("<td bgcolor='#c3c3c1'></td>")
-                    $("#table tr:nth-child(7)").html("<td bgcolor='#fce2aa'>" + data_from_2000['population'] + "</td>")
-                    $("#table tr:nth-child(8)").html("<td bgcolor='#fce2aa'>" + data_from_2000['african'] + "% </td>")
-                    $("#table tr:nth-child(9)").html("<td bgcolor='#fce2aa'>" + data_from_2000['asian'] + "% </td>")
-                    $("#table tr:nth-child(10)").html("<td bgcolor='#fce2aa'>" + data_from_2000['hispanic'] + "% </td>")
-                    $("#table tr:nth-child(11)").html("<td bgcolor='#c3c3c1'></td>")
-                    $("#table tr:nth-child(12)").html("<td bgcolor='#fce2aa'>" + data_from_2000['taxable'] + "</td>") 
+                    $("#one").html(townName)
+                    $("#three").html(data_from_2000['voters'])
+                    $("#four").html(data_from_2000['democratic'] + "%") 
+                    $("#five").html(data_from_2000['republican'] + "%")
+                    $("#seven").html(data_from_2000['population'])
+                    $("#eight").html(data_from_2000['african'] + "%")
+                    $("#nine").html(data_from_2000['asian'] + "%")
+                    $("#ten").html(data_from_2000['hispanic'] + "%")
+                    $("#twelve").html(data_from_2000['taxable']) 
                 }
                 if(data_from_2010 == undefined) {
                     $('#city_curr').text("City: " + townName)

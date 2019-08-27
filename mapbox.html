@@ -451,7 +451,7 @@
                     filter: ["==", 'type', 'Feature']
                 });
                 var point = turf.point([lon, lat]);
-                var old_index = 0;
+                var old_index = 1;
                 for(var i = 1; i <= old_n; i++) {
                     if(polygons_old[i] != 0) {
                         for(var k = 0; k < polygons_old[i].length; k++) {
@@ -461,7 +461,7 @@
                         }
                     }
                 }
-                var new_index = 0;
+                var new_index = 1;
                 for(var i = 1; i <= new_n; i++) {
                     if(polygons_new[i] != 0) {
                         for(var l = 0; l < polygons_new[i].length; l++) {

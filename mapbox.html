@@ -419,7 +419,7 @@
         Http.onreadystatechange = (e) => {
             var data = JSON.parse(Http.responseText)
             if(data.results[0] === undefined) {
-                $("#errorMessage").text("Please Enter a Valid Address in New Jersey");
+                $("#errorMessage").html("<align='center'>Please Enter a Valid Address in New Jersey</center>");
             }
             else {
                 var lat = parseFloat(data.results[0].geometry.location.lat)

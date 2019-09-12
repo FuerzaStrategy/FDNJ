@@ -219,10 +219,7 @@
 	        <p id='previous_header'> Previous District (2001-2010) </p>
 	        <p id='current_header'> Current District (2011-2020) </p>
 	    </div>-->
-	    <!--<div style='width: 100%; height: 50px;'>
-	        <p id='previous_district_number'>  </p>
-	        <p id='current_district_number'>  </p>
-	    </div>-->
+	    <div style='width: 100%; height: 50px;'></div>
 	    <div class='maps'>
 	        <div class='map' id='map_prev'><div id='blue_top'><h1>2001 Apportionment</h1><p id='previous_district_number'>  </p></div></div>
 	        <div class='map' id='map_curr'><div id='yellow_top'><h1>2001 Apportionment</h1><p id='current_district_number'>  </p></div></div>
@@ -558,12 +555,12 @@
 	                else {
 	                    $('#city_curr').text("Your Town: " + townName)
 	                    $('#voters_curr').text(data_from_2010['voters'] + " Registered Voters (Town)")
-	                    $('#democratic_curr').text("Democratic Voters: " + data_from_2010['democratic'] + "%")
-	                    $('#republican_curr').text("Republican Voters: " + data_from_2010['republican'] + "%")
+	                    $('#democratic_curr').text(data_from_2010['democratic'] + "%")
+	                    $('#republican_curr').text(data_from_2010['republican'] + "%")
 	                    $('#population_curr').text(data_from_2010['population'] + " People (Town)")
-	                    $('#african_curr').text("African Percentage: " + data_from_2010['african'] + "%")
-	                    $('#asian_curr').text("Asian Percentage: " + data_from_2010['asian'] + "%")
-	                    $('#hispanic_curr').text("Hispanic Percentage: " + data_from_2010['hispanic'] + "%")
+	                    $('#african_curr').text(data_from_2010['african'] + "%")
+	                    $('#asian_curr').text(data_from_2010['asian'] + "%")
+	                    $('#hispanic_curr').text(data_from_2010['hispanic'] + "%")
 	                    $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
 	                }
 	

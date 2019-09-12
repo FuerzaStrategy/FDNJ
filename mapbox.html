@@ -1,721 +1,816 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8' />
-    <title>GeoJSON Test</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        :root {
-            --top-push: 50px;
-            --view-width: calc(50% - 10px);
-            --view-height: 500px;
-        }
-        body { 
-            margin: 0; 
-            padding: 0; 
-            font-family: Arial, 'sans-serif';
-            overflow-x: hidden;
-            background: linear-gradient(to right, #384369 50%, #ffffff 50%);
-        }
-        .map {
-            margin: 0;
-            padding: 0;
-            width: var(--view-width);
-            height: var(--view-height);
-            display: inline-block;
-        }
-        #previous_header {
-            margin-top: 0;
-            margin-left: 5%;
-            display: inline-block;
-            float: left;
-            width: calc(var(--view-width) - 5%);
-            text-align: center;
-            font-weight: bold;
+	<html>
+	<head>
+	    <meta charset='utf-8' />
+	    <title>GeoJSON Test</title>
+	    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+	    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+	    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+	    <style>
+	
+	        :root {
+	            --top-push: 50px;
+	            --view-width: calc(50% - 10px);
+	            --view-height: 500px;
+	        }
+	
+	        body { 
+	            margin: 0; 
+	            padding: 0; 
+	            font-family: Arial, 'sans-serif';
+	            overflow-x: hidden;
+	        }
+	
+	        .map {
+	            margin-top: 200px;
+	            padding: 0;
+	            width: var(--view-width);
+	            height: var(--view-height);
+	            display: inline-block;
+	        }
+	
+	        #previous_header {
+	            margin-top: 0;
+	            margin-left: 5%;
+	            display: inline-block;
+	            float: left;
+	            width: calc(var(--view-width) - 5%);
+	            text-align: center;
+	            font-weight: bold;
+	            color: white;
+	            line-height: 50px;
+	            font-size: 24px;
+	        }
+	
+	
+	        #current_header {
+	            margin-top: 0;
+	            margin-right: 5%;
+	            display: inline-block;
+	            float: right;
+	            width: calc(var(--view-width) - 5%);
+	            text-align: center;
+	            font-weight: bold;
+	            color: white;
+	            line-height: 50px;
+	            font-size: 24px;
+	        }
+	
+	        .form {
+	            width: 90%;
+	            margin-left: 5%;
+	            margin-top: 15px;
+	            margin-bottom: 15px;
+	        }
+	
+	        .zipInput {
+	            border: 0;
+	            border-bottom: 1px solid black;
+	            outline: 0;
+	            width: 400px;
+	            font-size: 18px;
+	        }
+	
+	        .zipSubmit {
+	            background: #87859f;
+	            font-size: 15px;
+	            color: white;
+	            padding: 5px 10px 5px 10px;
+	        }
+	
+	        .zipSubmit:hover {
+	            cursor: pointer;
+	            background: #7d7b94;
+	        }
+	
+	        #errorMessage {
+	            font-size: 18px;
+	            padding-left: 5%;
+	            margin-bottom: 15px;
+	            line-height: 18px;
+	            height:18px;
+	            width:100%;
+	        }
+	
+	        #map_curr {
+	            float: right;
+	        }
+	
+	        #map_prev {
+	            float: left;
+	        }
+	
+	        .maps {
+	            width: 90%;
+	            margin-left: 5%;
+	        }
+	
+	        #previous_district_number {
+	            display: inline-block;
+	            width: 49%;
+	            text-align: center;
+	            margin-top: 0;
+	        }
+	
+	        #current_district_number {
+	            display: inline-block;
+	            width: 49%;
+	            text-align: center;
+	            margin-top: 0;
+	        }
+	
+	        .map_prev_info {
+	            margin-left: 5%;
+	            width: calc(var(--view-width) - 5%);
+	            text-align: center;
+	            float: left;
+	            display: inline-block;
+	            background: #384369;
+	        }
+	
+	        .map_curr_info {
+	            margin-right: 5%;
+	            display: inline-block;
+	            float: right;
+	            width: calc(var(--view-width) - 5%);
+	            text-align: center;
+	            display: inline-block;
+	            background: #fce2aa;
+	        }
+	
+	        .info_title {
+	            font-weight: bold;
+	        }
+                 
+         #table_black {
+             border-style: solid black; 
+             background: black; 
+             margin-left: 5%; 
+             margin-right: 5%; 
+             border-radius: 15px; 
+             height: 200px; 
+             padding: 10px;
+             color: white;
+         }
+	        
+         #table_white {
+             border-style: solid white; 
+             background: white; 
+             margin-left: 5%; 
+             margin-right: 5%; 
+             border-radius: 15px; 
+             height: 200px; 
+             padding: 10px;
+             color: black;
+         }
+         #table_gray {
+            border-style:solid #c3c3c1; 
+            background:#c3c3c1; 
+            margin-left:5%; 
+            margin-right:5%; 
+            border-radius:15px; 
+            height:200px; 
+            padding:10px;'
+         }    
+         #newsearch {
+            box-sizing: content-box; 
+            position: absolute;
+            left: 32%; 
+            width: 500px;
+            height: 200px;
+            padding: 20px;  
+            border: 1px solid black;
+            background: black;
             color: white;
-            line-height: 60px;
-            font-size: 24px;
         }
-        #current_header {
-            margin-top: 0;
-            margin-right: 5%;
-            display: inline-block;
-            float: right;
-            width: calc(var(--view-width) - 5%);
+        #blue_top {
+            border-style:solid #384369; 
+            background:#384369;   
+            height:50px; 
+            padding:10px;
             text-align: center;
-            font-weight: bold;
             color: white;
-            line-height: 60px;
-            font-size: 24px;
-        }
-        .form {
-            width: 90%;
-            margin-left: 5%;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-        .zipInput {
-            border: 0;
-            border-bottom: 1px solid black;
-            outline: 0;
-            width: 400px;
-            font-size: 18px;
-        }
-        .zipSubmit {
-            background: #87859f;
-            font-size: 15px;
-            color: white;
-            padding: 5px 10px 5px 10px;
-        }
-        .zipSubmit:hover {
-            cursor: pointer;
-            background: #7d7b94;
-        }
-        #errorMessage {
-            font-size: 18px;
-            padding-left: 37%;
-            margin-bottom: 15px;
-            line-height: 18px;
-            height:18px;
-            width:100%;
-        }
-        #map_curr {
-            float: right;
-        }
-        #map_prev {
-            float: left;
-        }
-        .maps {
-            width: 90%;
-            margin-left: 5%;
-        }
-        #previous_district_number {
-            display: inline-block;
-            width: 49%;
+            font: arial;
+         }          
+         #yellow_top {
+            border-style:solid #fce2aa; 
+            background:#fce2aa;   
+            height:50px; 
+            padding:10px;
             text-align: center;
-            margin-top: 0;
-        }
-        #current_district_number {
-            display: inline-block;
-            width: 49%;
-            text-align: center;
-            margin-top: 0;
-        }
-        .map_prev_info {
-            margin-left: 5%;
-            width: calc(var(--view-width) - 5%);
-            text-align: center;
-            float: left;
-            display: inline-block;
-            background: #f5f5f5;
-        }
-        .map_curr_info {
-            margin-right: 5%;
-            display: inline-block;
-            float: right;
-            width: calc(var(--view-width) - 5%);
-            text-align: center;
-            display: inline-block;
-            background: #f5f5f5;
-        }
-        .info_title {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
+            font: arial;
+         }    
+	    </style>
+	</head>
+	<body>
+	
 
-<div id='main_field'>
+	<div id='main_field'>
+	    <form class='form' name="myform" action="javascript:handleIt(zip.value)">
+         <div id="newsearch" align="center" style="color:#fce2aa;">Districts take on weird shapes and sizes, with confusing rationale for towns being added or removed from one map to the next. How did your district look in 2001 compared to today? Do the changes align with the actual changes in your community? <br><br><br><br> Compare your districts!         
+	        <input class='zipInput' name="zip" id="zip" type="text" placeholder="Enter your address here" style="background-color:#c3c3c1;"/>
+	        <input class='zipSubmit' name="Submit"  type="submit" value="Search"/>
+	    </form>
+	    <div id='errorMessage'></div>
+      </div>
+	   <!-- <div style='width: 100%; height: 50px; background: #87859f;'>
+	        <p id='previous_header'> Previous District (2001-2010) </p>
+	        <p id='current_header'> Current District (2011-2020) </p>
+	    </div>-->
+	    <div style='width: 100%; height: 50px;'>
+	        <p id='previous_district_number'>  </p>
+	        <p id='current_district_number'>  </p>
+	    </div>
+	    <div class='maps'>
+	        <div class='map' id='map_prev'><div id='blue_top'><h1>2001 Apportionment</h1></div></div>
+	        <div class='map' id='map_curr'><div id='yellow_top'><h1>2001 Apportionment</h1></div></div>
+	    </div>
+	    <div>
+	        <div class='map_prev_info'>
+	            <p id='city_prev' style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'>Your Town:</p>
+      <p id='other_city_prev' style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:200px; padding:10px;'>Other Towns:</p><!--NEW-->
+	            <!--<p class='info_title'>Voters</p>-->
+           <div id='table_black'>
+              <p id='voters_prev'>###,### Registered Voters (Town)</p>
+              <center>
+              <table style='border: 1px solid white;border-collapse: collapse;width:100%; text-align:center;'>
+	            <tr style='border: 1px solid white;'>
+              <td style='border: 1px solid white;'><p>Democratics</p></td>
+	            <td style='border: 1px solid white;'><p>Republicans</p></td>
+              </tr>
+              <tr style='border: 1px solid white;'>
+              <td style='border: 1px solid white;'><p id='democratic_prev'>###,###D</p></td>
+	            <td style='border: 1px solid white;'><p id='republican_prev'>###,###R</p></td>
+              </tr>
+              </table>
+              </center>
+           </div>
+           <br>
+           <div id='table_white'><!--NEW-->
+              <p id='voters_prev_num'>###,### Registered Voters (District)</p>
+              <center>
+              <table style='border: 1px solid black;border-collapse: collapse;width:100%; text-align:center;'>
+	            <tr style='border: 1px solid black;'>
+              <td style='border: 1px solid black;'><p>Democratics</p></td>
+	            <td style='border: 1px solid black;'><p>Republicans</p></td>
+              </tr>
+              <tr style='border: 1px solid black;'>
+              <td style='border: 1px solid black;'><p id='democratic_num'>###,###D</p></td>
+	            <td style='border: 1px solid black;'><p id='republican_num'>###,###R</p></td>
+              </tr>
+              </table>
+              </center>
+           </div>
+           <br>
 
-    <form class='form' align="center" name="myform" action="javascript:handleIt(zip.value)">
-        <input class='zipInput' name="zip" id="zip" type="text" style="background-color:#fce2aa" placeholder="Enter an Address"/>
-        <input class='zipSubmit' name="Submit"  type="submit" value="Search"/>
-    </form>
-    <div id='errorMessage'></div>
-    <div style='width: 100%; height: 60px; background: #000000;'>
-        <p id='previous_header'> Previous District (2001-2010) </p>
-        <p id='current_header'> Current District (2011-2020) </p>
-    </div>
-    <div style='width: 100%; height: 50px;'>
-        <p id='previous_district_number'>  </p>
-        <p id='current_district_number'>  </p>
-    </div>
-    <div class='maps'>
-        <div class='map' id='map_prev'></div>
-        <div class='map' id='map_curr'></div>
-    </div>
-    <div>
-        <div class='map_prev_info'>
-          <table width = 100% id="table" >
-            <i-one>
-              <tr>
-                <td bgcolor="#87859f">
-                  <p id='city_prev'>Municipality</p>
-                </td><!--<td> hi</td>-->
-                <td bgcolor="#87859f" width="50%" id="one">
-                </td>
+           <div id='table_black'>
+              <p id='population_prev'>###,### People (Town)</p>
+              <center>
+              <table style='border: 1px solid white;border-collapse: collapse;width:100%; text-align:center;'>
+              <tr style='border: 1px solid white;'>
+	            <td style='border: 1px solid white;'><p>African</p></td>
+	            <td style='border: 1px solid white;'><p>Asian</p></td>
+	            <td style='border: 1px solid white;'><p>Hispanic</p></td>
               </tr>
-            </i-one>
-            <i-two>
-              <tr>
-                <td bgcolor="#c3c3c1">
-                  <p class='info_title'>Voters</p>
-                </td>
-                <td bgcolor="#c3c3c1" width="50%" id="two">
-                </td>
+              <tr style='border: 1px solid white;'>
+              <td style='border: 1px solid white;'><p id='african_prev'>##% African</p></td>
+	            <td style='border: 1px solid white;'><p id='asian_prev'>##% Asian</p></td>
+	            <td style='border: 1px solid white;'><p id='hispanic_prev'>##% Hispanic</p></td>
               </tr>
-            </i-two>
-            <i-three>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='voters_prev'>Voter Population</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="three">
-                </td>
+              </table>
+              </center>
+           </div>
+           <br>
+          <div id='table_white'><!--NEW-->
+              <p id='population_prev_num'>###,### People (District)</p>
+              <center>
+              <table style='border: 1px solid black;border-collapse: collapse;width:100%; text-align:center;'>
+              <tr style='border: 1px solid black;'>
+	            <td style='border: 1px solid black;'><p>African</p></td>
+	            <td style='border: 1px solid black;'><p>Asian</p></td>
+	            <td style='border: 1px solid black;'><p>Hispanic</p></td>
               </tr>
-            </i-three>
-            <i-four>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='democratic_prev'>Democratic Voters</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="four">
-                </td>
+              <tr style='border: 1px solid black;'>
+              <td style='border: 1px solid black;'><p id='african_num'>##% African</p></td>
+	            <td style='border: 1px solid black;'><p id='asian_num'>##% Asian</p></td>
+	            <td style='border: 1px solid black;'><p id='hispanic_num'>##% Hispanic</p></td>
               </tr>
-            </i-four>
-            <i-five>
+              </table>
+              </center>
+           </div>
+           <br>
+	            <!--<p class='info_title'>Fiscal</p>
+	            <p id='taxable_prev'>Per Capital Taxable Property Value:</p>-->
+	        </div>
+	        <div class='map_curr_info'>
+	            <p id='city_curr'style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'>Your Town:</p>
+             <div id='table_gray'><!--NEW-->
+              <center>          
+              <table style='border: 1px solid #c3c3c1;border-collapse: collapse;width:100%; text-align:center;'>
               <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='republican_prev'>Republican Voters</p>
-                </td>
-                 <td bgcolor="#fce2aa" width="50%" id="five">
-                </td>
+              <td>Towns Added</td>
+              <td>Towns Removed</td>
               </tr>
-            </i-five>
-            <i-six>
               <tr>
-                <td bgcolor="#c3c3c1">
-                  <p class='info_title'>Census</p>
-                </td>
-                <td bgcolor="#c3c3c1" width="50%" id="six">
-                </td>
+              <td>a<br>A</td>
+              <td>r</td>
               </tr>
-            </i-six>
-            <i-seven>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='population_prev'>Estimated Population</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="seven">
-                </td>
+              </table>
+              </center>
+             </div>
+              <br>
+	            <!--<p class='info_title'>Voters</p>-->
+             <div id='table_black'>
+	            <p id='voters_curr'>###,### Registered Voters (Town)</p>
+              <center>
+              <table style='border: 1px solid white;border-collapse: collapse;width:100%; text-align:center;'>
+	            <tr style='border: 1px solid white;'>
+	            <td style='border: 1px solid white;'><p>Democratics</p></td>
+	            <td style='border: 1px solid white;'><p>Republicans</p></td>
               </tr>
-            </i-seven>
-            <i-eight>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='african_prev'>African Percentage</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="eight">
-                </td>
+              <tr style='border: 1px solid white;'>
+              <td style='border: 1px solid white;'><p id='democratic_curr'>###,###D</p></td>
+	            <td style='border: 1px solid white;'><p id='republican_curr'>###,###R</p></td>
               </tr>
-            </i-eight>
-            <i-nine>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='asian_prev'>Asian Percentage</p>
-                </td>
-                 <td bgcolor="#fce2aa" width="50%" id="nine">
-                </td>
+              </table>
+              </center>
+             </div>
+             <br>
+             <div id='table_white'><!--NEW-->
+	            <p id='voters_curr_num'>###,### Registered Voters (District)</p>
+              <center>
+              <table style='border: 1px solid black;border-collapse: collapse;width:100%; text-align:center;'>
+	            <tr style='border: 1px solid black;'>
+	            <td style='border: 1px solid black;'><p>Democratics</p></td>
+	            <td style='border: 1px solid black;'><p>Republicans</p></td>
               </tr>
-            </i-nine>
-            <i-ten>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='hispanic_prev'>Hispanic Percentage</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="ten">
-                </td>
+              <tr style='border: 1px solid black;'>
+              <td style='border: 1px solid black;'><p id='democratic_curr_num'>###,###D</p></td>
+	            <td style='border: 1px solid black;'><p id='republican_curr_num'>###,###R</p></td>
               </tr>
-            </i-ten>
-            <i-eleven>
-              <tr>
-                <td bgcolor="#c3c3c1">
-                  <p class='info_title'>Fiscal</p>
-                </td>
-                <td bgcolor="#c3c3c1" width="50%" id="eleven">
-                </td>
+              </table>
+              </center>
+             </div>
+             <br>
+	            <!--<p class='info_title'>Census</p>-->
+             <div id='table_black'>
+	            <p id='population_curr'>###,### People (Town)</p>
+              <center>
+              <table style='border: 1px solid white;border-collapse: collapse;width:100%; text-align:center;'>
+              <tr style='border: 1px solid white;'>
+	            <td style='border: 1px solid white;'><p>African</p></td>
+	            <td style='border: 1px solid white;'><p>Asian</p></td>
+	            <td style='border: 1px solid white;'><p>Hispanic</p></td>
               </tr>
-            </i-eleven>
-            <i-twelve>
-              <tr><td bgcolor="#fce2aa">
-                <p id='taxable_prev'>Per Capital Taxable Property Value</p>
-              </td>
-              <td bgcolor="#fce2aa" width="50%" id="twelve">
-              </td>
-            </tr>
-          </i-twelve>
-          </table>
-        </div>
-        
-        <div class='map_curr_info'>
-            <table width = 100% id="xtable" >
-            <i-one>
-              <tr>
-                <td bgcolor="#87859f">
-                  <p id='city_prev'>Municipality</p>
-                </td><!--<td> hi</td>-->
-                <td bgcolor="#87859f" width="50%" id="xone">
-                </td>
+              <tr style='border: 1px solid white;'>
+	            <td style='border: 1px solid white;'><p id='african_curr'>##% African</p></td>
+	            <td style='border: 1px solid white;'><p id='asian_curr'>##% Asian</p></td>
+	            <td style='border: 1px solid white;'><p id='hispanic_curr'>##% Hispanic</p></td>
+	            </tr>
+              </table>
+              </center>
+              </div>
+              <br>
+              <div id='table_white'><!--NEW-->
+	            <p id='population_curr_num'>###,### People (District)</p>
+              <center>
+              <table style='border: 1px solid black;border-collapse: collapse;width:100%; text-align:center;'>
+              <tr style='border: 1px solid black;'>
+	            <td style='border: 1px solid black;'><p>African</p></td>
+	            <td style='border: 1px solid black;'><p>Asian</p></td>
+	            <td style='border: 1px solid black;'><p>Hispanic</p></td>
               </tr>
-            </i-one>
-            <i-two>
-              <tr>
-                <td bgcolor="#c3c3c1">
-                  <p class='info_title'>Voters</p>
-                </td>
-                <td bgcolor="#c3c3c1" width="50%" id="xtwo">
-                </td>
-              </tr>
-            </i-two>
-            <i-three>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='voters_prev'>Voter Population</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="xthree">
-                </td>
-              </tr>
-            </i-three>
-            <i-four>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='democratic_prev'>Democratic Voters</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="xfour">
-                </td>
-              </tr>
-            </i-four>
-            <i-five>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='republican_prev'>Republican Voters</p>
-                </td>
-                 <td bgcolor="#fce2aa" width="50%" id="xfive">
-                </td>
-              </tr>
-            </i-five>
-            <i-six>
-              <tr>
-                <td bgcolor="#c3c3c1">
-                  <p class='info_title'>Census</p>
-                </td>
-                <td bgcolor="#c3c3c1" width="50%" id="xsix">
-                </td>
-              </tr>
-            </i-six>
-            <i-seven>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='population_prev'>Estimated Population</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="xseven">
-                </td>
-              </tr>
-            </i-seven>
-            <i-eight>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='african_prev'>African Percentage</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="xeight">
-                </td>
-              </tr>
-            </i-eight>
-            <i-nine>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='asian_prev'>Asian Percentage</p>
-                </td>
-                 <td bgcolor="#fce2aa" width="50%" id="xnine">
-                </td>
-              </tr>
-            </i-nine>
-            <i-ten>
-              <tr>
-                <td bgcolor="#fce2aa">
-                  <p id='hispanic_prev'>Hispanic Percentage</p>
-                </td>
-                <td bgcolor="#fce2aa" width="50%" id="xten">
-                </td>
-              </tr>
-            </i-ten>
-            <i-eleven>
-              <tr>
-                <td bgcolor="#c3c3c1">
-                  <p class='info_title'>Fiscal</p>
-                </td>
-                <td bgcolor="#c3c3c1" width="50%" id="xeleven">
-                </td>
-              </tr>
-            </i-eleven>
-            <i-twelve>
-              <tr><td bgcolor="#fce2aa">
-                <p id='taxable_prev'>Per Capital Taxable Property Value</p>
-              </td>
-              <td bgcolor="#fce2aa" width="50%" id="xtwelve">
-              </td>
-            </tr>
-          </i-twelve>
-          </table>
-        </div>
-    </div>
-</div>
+              <tr style='border: 1px solid black;'>
+	            <td style='border: 1px solid black;'><p id='african_curr_num'>##% African</p></td>
+	            <td style='border: 1px solid black;'><p id='asian_curr_num'>##% Asian</p></td>
+	            <td style='border: 1px solid black;'><p id='hispanic_cur_num'>##% Hispanic</p></td>
+	            </tr>
+              </table>
+              </center>
+              </div>
+              <br>
+              <!--<p class='info_title'>Fiscal</p>
+	            <p id='taxable_curr'>Per Capital Taxable Property Value:</p>-->
+	        </div>
+	    </div>
+	</div>
+	
 
+	
 
-<script>
+	<script>
+	
+	    var ZtC = {}
+	    var ZtName = {}
+	    var data_2000 = {}
+	    var data_2010 = {}
+	    var NJ_Zip = []
+	    var LegislativeDataCurrent = {}
+	    var LegislativeDataPast = {}
+	    var old_n = 40;
+	    var new_n = 40;
+	    var LegislativeDataPast_Districts = {}
+	    var LegislativeDataCurrent_Districts = {}
+	    var currentHighlight_old = 0
+	    var currentHighlight_new = 0
+	    var polygons_old = Array(old_n).fill(0)
+	    var polygons_new = Array(new_n).fill(0)
+	
+	    $.getJSON("data/zip_to_coordinate.json", function(data) {
+	        ZtC = data
+	    })
+	
+	    $.getJSON("data/nj_zip_codes_to_towns.json", function(data) {
+	        ZtName = data
+	    })
+	
+	    $.getJSON("data/2000_data.json", function(data) {
+	        data_2000 = data
+	    })
+	
+	    $.getJSON("data/2010_data.json", function(data) {
+	        data_2010 = data
+	    })
+	
+	    $.getJSON("data/nj_zip_codes.json", function(data) {
+	        NJ_Zip = data["zips"]
+	    })
+	
+	    function handleIt(zip) {
+	
+	        const Http = new XMLHttpRequest();
+	        var replaced_zip = zip.split(' ').join('+');
+	        var url='https://maps.googleapis.com/maps/api/geocode/json?address=' + replaced_zip + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
+	        Http.open("GET", url);
+	        Http.send();
+	
+	        Http.onreadystatechange = (e) => {
+	            var data = JSON.parse(Http.responseText)
+	
+	            if(data.results[0] === undefined) {
+	
+	                $("#errorMessage").text("Please Enter a Valid Address in New Jersey");
+	            }
+	
+	            else {
+	                var lat = parseFloat(data.results[0].geometry.location.lat)
+	                var lon = parseFloat(data.results[0].geometry.location.lng)
+	
+	                var townName;
+	                var data_from_2000;
+	                var data_from_2010;
+	                var address_components = data.results[0].address_components
+	                for(var i = 0; i < address_components.length; i ++) {
+	                    var townName_temp = address_components[i].long_name
+	                    if(data_2000[townName_temp] !== undefined) {
+	                        townName = townName_temp
+	                        data_from_2000 = data_2000[townName]
+	                        data_from_2010 = data_2010[townName]
+	                    }
+	                }
+	                
+	
+	                map_origin = [lon, lat]
+	
+	                map_prev.flyTo({
+	                    center: map_origin,
+	                    zoom: map_scale
+	                });
+	
+	                map_curr.flyTo({
+	                    center: map_origin,
+	                    zoom: map_scale
+	                });
+	
+	                var relatedFeatures = map_prev.querySourceFeatures('route', {
+	                    sourceLayer: 'route-layer',
+	                    filter: ["==", 'type', 'Feature']
+	                });
+	
+	                var point = turf.point([lon, lat]);
+	                var old_index = 0;
+	                for(var i = 1; i <= old_n; i++) {
+	                    if(polygons_old[i] != 0) {
+	                        for(var k = 0; k < polygons_old[i].length; k++) {
+	                            var test = turf.inside(point, polygons_old[i][k]);
+	                            if(test)
+	                                old_index = i
+	                        }
+	                    }
+	                }
+	                var new_index = 0;
+	                for(var i = 1; i <= new_n; i++) {
+	                    if(polygons_new[i] != 0) {
+	                        for(var l = 0; l < polygons_new[i].length; l++) {
+	                            var test = turf.inside(point, polygons_new[i][l]);
+	                            if(test)
+	                                new_index = i
+	                        }
+	                    }
+	                }
+	
+	
+	                if(currentHighlight_old > 0)
+	                    map_prev.setPaintProperty('route-fills-' + currentHighlight_old.toString(), 'fill-opacity', 0.15);
+	                if(currentHighlight_new > 0)
+	                    map_curr.setPaintProperty('route-fills-' + currentHighlight_new.toString(), 'fill-opacity', 0.15);
+	                currentHighlight_old = old_index
+	                currentHighlight_new = new_index
+	
+	                if(data_from_2000 == undefined) {
+	                    $('#city_prev').text("City: " + townName)
+	                    $('#voters_prev').text("Voter Population: N/A")
+	                    $('#democratic_prev').text("Democratic Voters: N/A")
+	                    $('#republican_prev').text("Republican Voters: N/A")
+	                    $('#population_prev').text("Estimated Population: N/A")
+	                    $('#african_prev').text("African Percentage: N/A")
+	                    $('#asian_prev').text("Asian Percentage: N/A")
+	                    $('#hispanic_prev').text("Hispanic Percentage: N/A")
+	                    $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
+	                }
+	
+	                else {
+	                    $('#city_prev').text("City: " + townName)
+	                    $('#voters_prev').text("Voter Population: " + data_from_2000['voters'])
+	                    $('#democratic_prev').text("Democratic Voters: " + data_from_2000['democratic'] + "%")
+	                    $('#republican_prev').text("Republican Voters: " + data_from_2000['republican'] + "%")
+	                    $('#population_prev').text("Estimated Population: " + data_from_2000['population'])
+	                    $('#african_prev').text("African Percentage: " + data_from_2000['african'] + "%")
+	                    $('#asian_prev').text("Asian Percentage: " + data_from_2000['asian'] + "%")
+	                    $('#hispanic_prev').text("Hispanic Percentage: " + data_from_2000['hispanic'] + "%")
+	                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])
+	                }
+	
+	                if(data_from_2010 == undefined) {
+	                    $('#city_curr').text("City: " + townName)
+	                    $('#voters_curr').text("Voter Population: N/A")
+	                    $('#democratic_curr').text("Democratic Voters: N/A")
+	                    $('#republican_curr').text("Republican Voters: N/A")
+	                    $('#population_curr').text("Estimated Population: N/A")
+	                    $('#african_curr').text("African Percentage: N/A")
+	                    $('#asian_curr').text("Asian Percentage: N/A")
+	                    $('#hispanic_curr').text("Hispanic Percentage: N/A")
+	                    $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
+	                }
+	
+	                else {
+	                    $('#city_curr').text("City: " + townName)
+	                    $('#voters_curr').text("Voter Population: " + data_from_2010['voters'])
+	                    $('#democratic_curr').text("Democratic Voters: " + data_from_2010['democratic'] + "%")
+	                    $('#republican_curr').text("Republican Voters: " + data_from_2010['republican'] + "%")
+	                    $('#population_curr').text("Estimated Population: " + data_from_2010['population'])
+	                    $('#african_curr').text("African Percentage: " + data_from_2010['african'] + "%")
+	                    $('#asian_curr').text("Asian Percentage: " + data_from_2010['asian'] + "%")
+	                    $('#hispanic_curr').text("Hispanic Percentage: " + data_from_2010['hispanic'] + "%")
+	                    $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
+	                }
+	
+	                $('#previous_district_number').text("Showing District " + old_index.toString())
+	                $('#current_district_number').text("Showing District " + new_index.toString())
+	
+	                map_prev.setPaintProperty('route-fills-' + old_index.toString(), 'fill-opacity', 0.5);
+	                map_curr.setPaintProperty('route-fills-' + new_index.toString(), 'fill-opacity', 0.5);
+	            }
+	        }
+	    }
+	
+	
+	    $.getJSON("data/NJ_Legislative.geojson", function(json) {
+	        LegislativeDataCurrent = json
+	    });
+	
+	    $.getJSON("data/NJ_Legislative_Old.geojson", function(json) {
+	        LegislativeDataPast = json
+	    });
+	
+	    for(var i = 1; i <= old_n; i++) {
+	        $.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson", function(json_old) {
+	            var id = json_old["features"][0]["properties"]["ID"]
+	            LegislativeDataPast_Districts[id] = json_old
+	            var coordinates = json_old["features"][0]["geometry"]["coordinates"]
+	            var polygons_group = []
+	            if(coordinates.length == 1 || id == "31") {
+	                polygons_group.push( turf.polygon( coordinates, { name: 'poly1'} ))
+	                polygons_old[parseInt(id)] = polygons_group
+	            }
+	            else {
+	
+	                for(var k = 0; k < coordinates.length; k++) {
+	                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
+	                }
+	                polygons_old[parseInt(id)] = polygons_group
+	                
+	            }
+	        });
+	    }
+	
+	    
+	    for(var j = 1; j <= new_n; j++) {
+	        $.getJSON("data/NJ_Legislative/District_" + j.toString() + ".geojson", function(json_new) {
+	            var object_id = json_new["features"][0]["properties"]["OBJECTID"]
+	            LegislativeDataCurrent_Districts[object_id.toString()] = json_new
+	            var coordinatesNew = json_new["features"][0]["geometry"]["coordinates"]
+	            var polygons_group = []
+	            
+	            if(coordinatesNew.length == 1 || object_id == "34") {
+	                polygons_group.push( turf.polygon( coordinatesNew, { name: 'poly1'} ))
+	                polygons_new[object_id] = polygons_group
+	            }
+	            else {
+	
+	                for(var l = 0; l < coordinatesNew.length; l++) {
+	                    polygons_group.push( turf.polygon( coordinatesNew[l], { name: 'poly1'} ) )
+	                }
+	                polygons_new[object_id] = polygons_group
+	                
+	            }
+	        });
+	    } 
+	
+	
+	    
+	    mapboxgl.accessToken = 'pk.eyJ1IjoiZnVlcnphc3RyYXRlZ3lncm91cCIsImEiOiJjanoycWJqcHkwNnA4M2pudHFmdnJ5bXZlIn0.eaNrVgK5M7eLrCmi_hGX1A';
+	
+	    map_origin = [-74.53734351262877, 40.137451890638886]
+	    map_scale = 6.3
+	
+	
+	    var map_prev = new mapboxgl.Map({
+	        container: 'map_prev',
+	        style: 'mapbox://styles/mapbox/streets-v11',
+	        center: map_origin,
+	        zoom: map_scale
+	    });
+	
+	    map_prev.on('load', function () {
+	
+	        map_prev.addSource('route', {
+	          type: 'geojson',
+	          data: LegislativeDataPast
+	        });
+	
+	
+	        for(var i = 1; i <= old_n; i++) {
+	            i_str = i.toString()
+	            map_prev.addSource('route_old_' + i_str, {
+	              type: 'geojson',
+	              data: LegislativeDataPast_Districts[i_str]
+	            });
+	
+	        }
+	        
+	
+	        map_prev.addLayer({
+	            "id": "route",
+	            "type": "line",
+	            "source": "route",
+	            "sourcelayer": "route-layer",
+	            "layout": {
+	                "line-join": "round",
+	                "line-cap": "round"
+	            },
+	            "paint": {
+	                "line-color": "#888",
+	                "line-width": 1
+	            }
+	        });
+	
+	        for(var i = 1; i <= old_n; i++) {
+	            map_prev.addLayer({
+	                "id": "route-fills-" + i.toString(),
+	                "type": "fill",
+	                "source": "route_old_" + i.toString(),
+	                "layout": {},
+	                "paint": {
+	                    "fill-color": "#627BC1",
+	                    "fill-opacity": 0.15
+	                }
+	            });
+	
+	        }
+	
+	
+	
+	
+	    });
+	
+	
+	    var map_curr = new mapboxgl.Map({
+	        container: 'map_curr',
+	        style: 'mapbox://styles/mapbox/streets-v11',
+	        center: map_origin,
+	        zoom: map_scale
+	    });
+	
+	    map_curr.on('load', function () {
+	
+	        map_curr.addSource('route', {
+	          type: 'geojson',
+	          data: LegislativeDataCurrent
+	        });
+	
+	        
+	        for(var j = 1; j <= new_n; j++) {
+	            j_str = j.toString()
+	            map_curr.addSource('route_new_' + j_str, {
+	              type: 'geojson',
+	              data: LegislativeDataCurrent_Districts[j_str]
+	            });
+	
+	        }
+	        
+	
+	        map_curr.addLayer({
+	            "id": "route",
+	            "type": "line",
+	            "source": "route",
+	            "layout": {
+	                "line-join": "round",
+	                "line-cap": "round"
+	            },
+	            "paint": {
+	                "line-color": "#888",
+	                "line-width": 1
+	            }
+	        });
+	
+	        
+	        for(var j = 1; j <= new_n; j++) {
+	            map_curr.addLayer({
+	                "id": "route-fills-" + j.toString(),
+	                "type": "fill",
+	                "source": "route_new_" + j.toString(),
+	                "layout": {},
+	                "paint": {
+	                    "fill-color": "#627BC1",
+	                    "fill-opacity": 0.15
+	                }
+	            });
+	
+	        } 
+	
+	    });
+	
+	
+	
+	    //------------------ Align Maps To Same Centers/Zoom -----------------//
+	
+	    var disable = false;
+	    map_prev.on('move', function () {
+	        if (!disable) {
+	            map_origin = map_prev.getCenter()
+	            map_scale = map_prev.getZoom()
+	            disable = true;
+	            map_curr.setCenter(map_origin)
+	            map_curr.setZoom(map_scale)
+	            disable = false;
+	        }
+	    })
+	
+	    map_prev.on('zoom', function () {
+	        if (!disable) {
+	            map_origin = map_prev.getCenter()
+	            map_scale = map_prev.getZoom()
+	            disable = true;
+	            map_curr.setCenter(map_origin)
+	            map_curr.setZoom(map_scale)
+	            disable = false;
+	        }
+	    })
+	
+	    map_curr.on('move', function () {
+	        if (!disable) {
+	            map_origin = map_curr.getCenter()
+	            map_scale = map_curr.getZoom()
+	            disable = true;
+	            map_prev.setCenter(map_origin)
+	            map_prev.setZoom(map_scale)
+	            disable = false;
+	        }
+	
+	    })
+	
+	    map_curr.on('zoom', function () {
+	        if (!disable) {
+	            map_origin = map_curr.getCenter()
+	            map_scale = map_curr.getZoom()
+	            disable = true;
+	            map_prev.setCenter(map_origin)
+	            map_prev.setZoom(map_scale)
+	            disable = false;
+	        }
+	    })
+	
+	
+	</script>
+	
 
+	
 
+	
 
-    var ZtC = {}
-    var ZtName = {}
-    var data_2000 = {}
-    var data_2010 = {}
-    var NJ_Zip = []
-    var LegislativeDataCurrent = {}
-    var LegislativeDataPast = {}
-    var old_n = 40;
-    var new_n = 40;
-    var LegislativeDataPast_Districts = {}
-    var LegislativeDataCurrent_Districts = {}
-    var currentHighlight_old = 0
-    var currentHighlight_new = 0
-    var polygons_old = Array(old_n).fill(0)
-    var polygons_new = Array(new_n).fill(0)
-    $.getJSON("data/zip_to_coordinate.json", function(data) {
-        ZtC = data
-    })
-    $.getJSON("data/nj_zip_codes_to_towns.json", function(data) {
-        ZtName = data
-    })
-    $.getJSON("data/2000_data.json", function(data) {
-        data_2000 = data
-    })
-    $.getJSON("data/2010_data.json", function(data) {
-        data_2010 = data
-    })
-    $.getJSON("data/nj_zip_codes.json", function(data) {
-        NJ_Zip = data["zips"]
-    })
-    function handleIt(zip) {
-        const Http = new XMLHttpRequest();
-        var replaced_zip = zip.split(' ').join('+');
-        var url='https://maps.googleapis.com/maps/api/geocode/json?address=' + replaced_zip + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
-        Http.open("GET", url);
-        Http.send();
-        Http.onreadystatechange = (e) => {
-            var data = JSON.parse(Http.responseText)
-            if(data.results[0] === undefined) {
-                $("#errorMessage").html("Please Enter a Valid Address in New Jersey");
-            }
-            else {
-                var lat = parseFloat(data.results[0].geometry.location.lat)
-                var lon = parseFloat(data.results[0].geometry.location.lng)
-                var townName;
-                var data_from_2000;
-                var data_from_2010;
-                var address_components = data.results[0].address_components
-                for(var i = 0; i < address_components.length; i ++) {
-                    var townName_temp = address_components[i].long_name
-                    if(data_2000[townName_temp] !== undefined) {
-                        townName = townName_temp
-                        data_from_2000 = data_2000[townName]
-                        data_from_2010 = data_2010[townName]
-                    }
-                }
-                
-                map_origin = [lon, lat]
-                map_prev.flyTo({
-                    center: map_origin,
-                    zoom: map_scale
-                });
-                map_curr.flyTo({
-                    center: map_origin,
-                    zoom: map_scale
-                });
-                var relatedFeatures = map_prev.querySourceFeatures('route', {
-                    sourceLayer: 'route-layer',
-                    filter: ["==", 'type', 'Feature']
-                });
-                var point = turf.point([lon, lat]);
-                var old_index = 0;
-                for(var i = 1; i <= old_n; i++) {
-                    if(polygons_old[i] != 0) {
-                        for(var k = 0; k < polygons_old[i].length; k++) {
-                            var test = turf.inside(point, polygons_old[i][k]);
-                            if(test)
-                                old_index = i
-                        }
-                    }
-                }
-                var new_index = 0;
-                for(var i = 1; i <= new_n; i++) {
-                    if(polygons_new[i] != 0) {
-                        for(var l = 0; l < polygons_new[i].length; l++) {
-                            var test = turf.inside(point, polygons_new[i][l]);
-                            if(test)
-                                new_index = i
-                        }
-                    }
-                }
-                if(currentHighlight_old > 0)
-                    map_prev.setPaintProperty('route-fills-' + currentHighlight_old.toString(), 'fill-opacity', 0.15);
-                if(currentHighlight_new > 0)
-                    map_curr.setPaintProperty('route-fills-' + currentHighlight_new.toString(), 'fill-opacity', 0.15);
-                currentHighlight_old = old_index
-                currentHighlight_new = new_index
-                if(data_from_2000 == undefined) {
-                    $("#one").html("undefined")
-                    $("#three").html("N/A")
-                    $("#four").html("N/A")
-                    $("#five").html("N/A")
-                    $("#seven").html("N/A")
-                    $("#eight").html("N/A")
-                    $("#nine").html("N/A")
-                    $("#ten").html("N/A")
-                    $("#twelve").html("N/A")
-                }
-                else {
-                    $("#one").html(townName)
-                    $("#three").html(data_from_2000['voters'])
-                    $("#four").html(data_from_2000['democratic'] + "%") 
-                    $("#five").html(data_from_2000['republican'] + "%")
-                    $("#seven").html(data_from_2000['population'])
-                    $("#eight").html(data_from_2000['african'] + "%")
-                    $("#nine").html(data_from_2000['asian'] + "%")
-                    $("#ten").html(data_from_2000['hispanic'] + "%")
-                    $("#twelve").html("$" + data_from_2000['taxable']) 
-                }
-                if(data_from_2010 == undefined) {
-                    $("#xone").html("undefined")
-                    $("#xthree").html("N/A")
-                    $("#four").html("N/A")
-                    $("#xfive").html("N/A")
-                    $("#xseven").html("N/A")
-                    $("#xeight").html("N/A")
-                    $("#xnine").html("N/A")
-                    $("#xten").html("N/A")
-                    $("#xtwelve").html("N/A")
-                }
-                else {
-                    $("#xone").html(townName)
-                    $("#xthree").html(data_from_2010['voters'])
-                    $("#xfour").html(data_from_2010['democratic'] + "%")
-                    $("#xfive").html(data_from_2010['republican'] + "%")
-                    $("#xseven").html(data_from_2010['population'])
-                    $("#xeight").html(data_from_2010['african'] + "%")
-                    $("#xnine").html(data_from_2010['asian'] + "%")
-                    $("#xten").html(data_from_2010['hispanic'] + "%")
-                    $("#xtwelve").html("$" + data_from_2010['taxable'])
-                }
-                $('#previous_district_number').html("<font color='white'>" + "Showing District " + old_index.toString() + "</font>")
-                $('#current_district_number').text("Showing District " + new_index.toString())
-                map_prev.setPaintProperty('route-fills-' + old_index.toString(), 'fill-opacity', 0.5);
-                map_curr.setPaintProperty('route-fills-' + new_index.toString(), 'fill-opacity', 0.5);
-            }
-        }
-    }
-    $.getJSON("data/NJ_Legislative.geojson", function(json) {
-        LegislativeDataCurrent = json
-    });
-    $.getJSON("data/NJ_Legislative_Old.geojson", function(json) {
-        LegislativeDataPast = json
-    });
-    for(var i = 1; i <= old_n; i++) {
-        $.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson", function(json_old) {
-            var id = json_old["features"][0]["properties"]["ID"]
-            LegislativeDataPast_Districts[id] = json_old
-            var coordinates = json_old["features"][0]["geometry"]["coordinates"]
-            var polygons_group = []
-            if(coordinates.length == 1 || id == "31") {
-                polygons_group.push( turf.polygon( coordinates, { name: 'poly1'} ))
-                polygons_old[parseInt(id)] = polygons_group
-            }
-            else {
-                for(var k = 0; k < coordinates.length; k++) {
-                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
-                }
-                polygons_old[parseInt(id)] = polygons_group
-                
-            }
-        });
-    }
-    
-    for(var j = 1; j <= new_n; j++) {
-        $.getJSON("data/NJ_Legislative/District_" + j.toString() + ".geojson", function(json_new) {
-            var object_id = json_new["features"][0]["properties"]["OBJECTID"]
-            LegislativeDataCurrent_Districts[object_id.toString()] = json_new
-            var coordinatesNew = json_new["features"][0]["geometry"]["coordinates"]
-            var polygons_group = []
-            
-            if(coordinatesNew.length == 1 || object_id == "34") {
-                polygons_group.push( turf.polygon( coordinatesNew, { name: 'poly1'} ))
-                polygons_new[object_id] = polygons_group
-            }
-            else {
-                for(var l = 0; l < coordinatesNew.length; l++) {
-                    polygons_group.push( turf.polygon( coordinatesNew[l], { name: 'poly1'} ) )
-                }
-                polygons_new[object_id] = polygons_group
-                
-            }
-        });
-    } 
-    
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZnVlcnphc3RyYXRlZ3lncm91cCIsImEiOiJjanoycWJqcHkwNnA4M2pudHFmdnJ5bXZlIn0.eaNrVgK5M7eLrCmi_hGX1A';
-    map_origin = [-74.53734351262877, 40.137451890638886]
-    map_scale = 6.3
-    var map_prev = new mapboxgl.Map({
-        container: 'map_prev',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: map_origin,
-        zoom: map_scale
-    });
-    map_prev.on('load', function () {
-        map_prev.addSource('route', {
-          type: 'geojson',
-          data: LegislativeDataPast
-        });
-        for(var i = 1; i <= old_n; i++) {
-            i_str = i.toString()
-            map_prev.addSource('route_old_' + i_str, {
-              type: 'geojson',
-              data: LegislativeDataPast_Districts[i_str]
-            });
-        }
-        
-        map_prev.addLayer({
-            "id": "route",
-            "type": "line",
-            "source": "route",
-            "sourcelayer": "route-layer",
-            "layout": {
-                "line-join": "round",
-                "line-cap": "round"
-            },
-            "paint": {
-                "line-color": "#888",
-                "line-width": 1
-            }
-        });
-        for(var i = 1; i <= old_n; i++) {
-            map_prev.addLayer({
-                "id": "route-fills-" + i.toString(),
-                "type": "fill",
-                "source": "route_old_" + i.toString(),
-                "layout": {},
-                "paint": {
-                    "fill-color": "#627BC1",
-                    "fill-opacity": 0.15
-                }
-            });
-        }
-    });
-    var map_curr = new mapboxgl.Map({
-        container: 'map_curr',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: map_origin,
-        zoom: map_scale
-    });
-    map_curr.on('load', function () {
-        map_curr.addSource('route', {
-          type: 'geojson',
-          data: LegislativeDataCurrent
-        });
-        
-        for(var j = 1; j <= new_n; j++) {
-            j_str = j.toString()
-            map_curr.addSource('route_new_' + j_str, {
-              type: 'geojson',
-              data: LegislativeDataCurrent_Districts[j_str]
-            });
-        }
-        
-        map_curr.addLayer({
-            "id": "route",
-            "type": "line",
-            "source": "route",
-            "layout": {
-                "line-join": "round",
-                "line-cap": "round"
-            },
-            "paint": {
-                "line-color": "#888",
-                "line-width": 1
-            }
-        });
-        
-        for(var j = 1; j <= new_n; j++) {
-            map_curr.addLayer({
-                "id": "route-fills-" + j.toString(),
-                "type": "fill",
-                "source": "route_new_" + j.toString(),
-                "layout": {},
-                "paint": {
-                    "fill-color": "#627BC1",
-                    "fill-opacity": 0.15
-                }
-            });
-        } 
-    });
-    //------------------ Align Maps To Same Centers/Zoom -----------------//
-    var disable = false;
-    map_prev.on('move', function () {
-        if (!disable) {
-            map_origin = map_prev.getCenter()
-            map_scale = map_prev.getZoom()
-            disable = true;
-            map_curr.setCenter(map_origin)
-            map_curr.setZoom(map_scale)
-            disable = false;
-        }
-    })
-    map_prev.on('zoom', function () {
-        if (!disable) {
-            map_origin = map_prev.getCenter()
-            map_scale = map_prev.getZoom()
-            disable = true;
-            map_curr.setCenter(map_origin)
-            map_curr.setZoom(map_scale)
-            disable = false;
-        }
-    })
-    map_curr.on('move', function () {
-        if (!disable) {
-            map_origin = map_curr.getCenter()
-            map_scale = map_curr.getZoom()
-            disable = true;
-            map_prev.setCenter(map_origin)
-            map_prev.setZoom(map_scale)
-            disable = false;
-        }
-    })
-    map_curr.on('zoom', function () {
-        if (!disable) {
-            map_origin = map_curr.getCenter()
-            map_scale = map_curr.getZoom()
-            disable = true;
-            map_prev.setCenter(map_origin)
-            map_prev.setZoom(map_scale)
-            disable = false;
-        }
-    })
-</script>
+	</body>
+	</html>
 
-
-
-</body>
-</html>

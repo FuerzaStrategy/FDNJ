@@ -21,7 +21,6 @@
 	            padding: 0; 
 	            font-family: Arial, 'sans-serif';
 	            overflow-x: hidden;
-		    overflow: visible;
 	        }
 	
 	        .map {
@@ -399,7 +398,8 @@
 	
 
 	<script>
-	
+	    $('html').css('overflow', 'hidden');
+		
 	    var ZtC = {}
 	    var ZtName = {}
 	    var data_2000 = {}

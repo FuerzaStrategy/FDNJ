@@ -593,12 +593,12 @@
 	            var polygons_group = []
 	            if(coordinates.length == 1 || id == "31") {
 	                polygons_group.push( turf.polygon( coordinates, { name: 'poly1'} ))
-			console.log(polygons_group)
 	                polygons_old[parseInt(id)] = polygons_group
 	            }
 	            else {
 	
 	                for(var k = 0; k < coordinates.length; k++) {
+			    console.log(coordinates[k])
 	                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
 	                }
 	                polygons_old[parseInt(id)] = polygons_group

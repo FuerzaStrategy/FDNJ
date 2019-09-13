@@ -599,10 +599,12 @@
 	
 	                for(var k = 0; k < coordinates.length; k++) {
 			        console.log(coordinates[k])
-				var lats = parseFloat(coordinates[k][k])
+				var lats = parseFloat(data.results[0].geometry.location.lat)
+	                        var lons = parseFloat(data.results[0].geometry.location.lng)
+				//var lats = parseFloat(coordinates[k][0])
 	                	//var lons = parseFloat(coordinates[k][0][1])
 				console.log(lats)
-				//console.log(lons)
+				console.log(lons)
 	                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
 	                }
 	                polygons_old[parseInt(id)] = polygons_group

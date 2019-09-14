@@ -520,6 +520,7 @@
 	                currentHighlight_new = new_index
 			
 			var list_towns = []
+			var uniqueNames = [];
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
 			var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
@@ -554,7 +555,7 @@
 				
 			   		 }
 				//var names = ["Mike","Matt","Nancy","Adam","Jenny","Nancy","Carl"];
-				var uniqueNames = [];
+				//var uniqueNames = [];
 				$.each(list_towns, function(i, el){
 				    if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
 				});

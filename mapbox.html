@@ -607,9 +607,11 @@
 				console.log(lons)
 				var other_townName;
 				//var address_component = coordinates[k].address_components
-				var townName_temp = coordinates[k].long_name
-	           			 other_townName = townName_temp
-					console.log(other_townName)
+				var other_townName_temp = coordinates[k].long_name
+	                    if(data_2000[townName_temp] !== undefined) {
+	                        other_townName = other_townName_temp
+				    console.log(other_townName)
+				}
 				
 	                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
 	                }

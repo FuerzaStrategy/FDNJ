@@ -605,6 +605,9 @@
 	                	var lons = parseFloat(coordinates[k][0][k][1])
 				console.log(lats)
 				console.log(lons)
+				var other_townName;
+				other_townName = townName_temp
+				console.log(other_townName)
 	                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
 	                }
 	                polygons_old[parseInt(id)] = polygons_group

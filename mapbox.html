@@ -530,14 +530,7 @@
 	        	Http.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
 			    var data_need = JSON.parse(this.responseText);
-				alert("ready");
-			  }
-			};
-			Http.open("GET", urls);
-	      		Http.send();
-	            	//var data_need = JSON.parse(Http.responseText)
-			//console.log(data_need)
-			var address_name = data_need.results[0].address_components
+						var address_name = data_need.results[0].address_components
 	                for(var i = 0; i < address_name.length; i ++) {
 	                    var other_townName_temp = address_name[i].long_name
 			     if(data_2000[other_townName_temp] !== undefined) {
@@ -545,6 +538,14 @@
 	                    }
 				//console.log(all_townName)
 						}
+			  }
+			};
+			Http.open("GET", urls);
+	      		Http.send();
+	            	//var data_need = JSON.parse(Http.responseText)
+			//console.log(data_need)
+
+				
 			   		 }
 				});
 				 

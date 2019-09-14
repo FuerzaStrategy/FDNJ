@@ -606,8 +606,11 @@
 				console.log(lats)
 				console.log(lons)
 				var other_townName;
-				other_townName = townName_temp
-				console.log(other_townName)
+				var address_component = coordinates[k].address_components
+				for(var i = 0; i < address_component.length; i ++) {
+	           			 other_townName = townName_temp
+					console.log(other_townName)
+				}
 	                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
 	                }
 	                polygons_old[parseInt(id)] = polygons_group

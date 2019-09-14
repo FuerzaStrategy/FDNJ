@@ -519,6 +519,7 @@
 	                currentHighlight_old = old_index
 	                currentHighlight_new = new_index
 			
+			var list_towns = []
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
 			var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
@@ -532,10 +533,12 @@
 	        	Http.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
 			     var data_need = JSON.parse(this.responseText);
-		             console.log(data_need)
-			     var address_name = data_need.results[0].address_components[1]
-	                     var other_townName_temp = address_name.long_name
-			     var list_towns = []
+		             //console.log(data_need)
+			     //var address_name = data_need.results[0].address_components[1]
+			     var address_name =data_need.results[0].formatted_address.split(",")[1]
+	                     //var other_townName_temp = address_name.long_name
+			     var other_townName_temp = address_name
+			     
 			    list_towns.push(other_townName_temp);
 			    // if(data_2000[other_townName_temp] !== undefined) {
 	                     //   var all_townName = other_townName_temp;
@@ -547,10 +550,10 @@
 			Http.open("GET", urls) //TRY REMOVING AND PLACING ON TOP
 	      		Http.send()
 
-			
 
 				
 			   		 }
+				//console.log(list_towns)
 				});
 				 
 			

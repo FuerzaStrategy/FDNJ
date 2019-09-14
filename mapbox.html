@@ -631,7 +631,7 @@
 	
 		$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			var pointss = json_coor["coordinates"]
-			console.log(pointss)
+			console.log(currentHighlight_old) 
 		});
 	    
 	    mapboxgl.accessToken = 'pk.eyJ1IjoiZnVlcnphc3RyYXRlZ3lncm91cCIsImEiOiJjanoycWJqcHkwNnA4M2pudHFmdnJ5bXZlIn0.eaNrVgK5M7eLrCmi_hGX1A';

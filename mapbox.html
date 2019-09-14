@@ -520,7 +520,7 @@
 	                currentHighlight_new = new_index
 			
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
-			var pointss = json_coor[0][0][0]["coordinates"]
+			var pointss = json_coor["geometry"]["coordinates"]
 			console.log(pointss) 
 			});
 			    

@@ -522,8 +522,8 @@
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
 			var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
-			var lat = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
-			var urls='https://maps.googleapis.com/maps/api/geocode/json?address='lat'',''lons'&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
+			var lats = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
+			var urls='https://maps.googleapis.com/maps/api/geocode/json?address='+lats+'',''+lons+'&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 			Http.open("GET", urls);
 	      		Http.send();
 	

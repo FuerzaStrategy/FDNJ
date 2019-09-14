@@ -526,8 +526,6 @@
 			var urls='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats + ',' + lons + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 			//console.log(urls)
 				
-			Http.open("GET", urls)
-	      		Http.send()
 				
 	        	Http.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
@@ -544,7 +542,8 @@
 						
 			  }
 			}
-			
+			Http.open("GET", urls)
+	      		Http.send()
 
 			
 

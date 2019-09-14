@@ -532,6 +532,11 @@
 			var address_name = data_need.results[0].address_components
 	                for(var i = 0; i < address_name.length; i ++) {
 	                    var other_townName_temp = address_name[i].long_name
+			     if(data_2000[other_townName_temp] !== undefined) {
+	                        var all_townName = other_townName_temp;
+	                        var from_2000 = data_2000[all_townName];
+	                        var from_2010 = data_2010[all_townName];
+	                    }
 				console.log(other_townName_temp)
 						}
 			   		 }

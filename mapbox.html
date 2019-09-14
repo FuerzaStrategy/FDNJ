@@ -598,21 +598,7 @@
 	            else {
 	
 	                for(var k = 0; k < coordinates.length; k++) {
-			        console.log(coordinates[k])
-				//var lats = parseFloat(coordinates[k].geometry.location.lat)
-	                        //var lons = parseFloat(coordinates[k].geometry.location.lng)
-				var lats = parseFloat(coordinates[k][0][k][0])
-	                	var lons = parseFloat(coordinates[k][0][k][1])
-				console.log(lats)
-				console.log(lons)
-				var other_townName;
-				//var address_component = coordinates[k].address_components
-				var other_townName_temp = coordinates[k].long_name
-	                    if(data_2000[other_townName_temp] !== undefined) {
-	                        other_townName = other_townName_temp
-				    console.log(other_townName)
-				}
-				
+			    console.log(coordinates[k])
 	                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
 	                }
 	                polygons_old[parseInt(id)] = polygons_group

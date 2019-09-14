@@ -518,7 +518,13 @@
 	                    map_curr.setPaintProperty('route-fills-' + currentHighlight_new.toString(), 'fill-opacity', 0.15);
 	                currentHighlight_old = old_index
 	                currentHighlight_new = new_index
-	
+			
+			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
+			var pointss = json_coor["coordinates"]
+			console.log(currentHighlight_old) 
+			});
+			    
+			    
 	                if(data_from_2000 == undefined) {
 	                    $('#city_prev').text("Your Town: " + townName)
 	                    $('#voters_prev').text("N/A Registered Voters (Town)")
@@ -629,10 +635,7 @@
 	        });
 	    } 
 	
-		$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
-			var pointss = json_coor["coordinates"]
-			console.log(currentHighlight_old) 
-		});
+		
 	    
 	    mapboxgl.accessToken = 'pk.eyJ1IjoiZnVlcnphc3RyYXRlZ3lncm91cCIsImEiOiJjanoycWJqcHkwNnA4M2pudHFmdnJ5bXZlIn0.eaNrVgK5M7eLrCmi_hGX1A';
 	

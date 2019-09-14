@@ -538,12 +538,20 @@
 			     var address_name =data_need.results[0].formatted_address.split(",")[1]
 	                     //var other_townName_temp = address_name.long_name
 			     var other_townName_temp = address_name
-			     
-			    list_towns.push(other_townName_temp);
+			     function pushToArray(list_towns, other_townName_temp) {
+				    const index = list_towns.findIndex(other_townName_temp);
+
+				    if (index === -1) {
+					list_towns.push(other_townName_temp);
+				    } else {
+					list_towns[index] = other_townName_temp;
+				    }
+				}
+			   // list_towns.push(other_townName_temp);
 			    // if(data_2000[other_townName_temp] !== undefined) {
 	                     //   var all_townName = other_townName_temp;
 	                    //}
-				console.log(list_towns)
+				//console.log(list_towns)
 						
 			  }
 			}
@@ -553,7 +561,7 @@
 
 				
 			   		 }
-				//console.log(list_towns)
+				console.log(list_towns)
 				});
 				 
 			

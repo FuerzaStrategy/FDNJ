@@ -527,7 +527,7 @@
 			//console.log(urls)
 
 				
-	        	Http.onreadystatechange function() {
+	        	Http.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
 			    var data_need = JSON.parse(this.responseText);
 			    myFunction(data_need);

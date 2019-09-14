@@ -616,12 +616,14 @@
 	            
 	            if(coordinatesNew.length == 1 || object_id == "34") {
 	                polygons_group.push( turf.polygon( coordinatesNew, { name: 'poly1'} ))
+			console.log(polygons_group)
 	                polygons_new[object_id] = polygons_group
 	            }
 	            else {
 	
 	                for(var l = 0; l < coordinatesNew.length; l++) {
 	                    polygons_group.push( turf.polygon( coordinatesNew[l], { name: 'poly1'} ) )
+			     console.log(polygons_group)
 	                }
 	                polygons_new[object_id] = polygons_group
 	                

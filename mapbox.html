@@ -525,7 +525,7 @@
 			var lats = json_coor["features"][0]["geometry"]["coordinates"][0][i][1]
 			var urls='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats + ',' + lons + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 			//console.log(urls)
-			Http.open("GET", urls)
+			//Http.open("GET", urls)
 				
 				
 	        	Http.onreadystatechange = function() {
@@ -543,7 +543,7 @@
 						
 			  }
 			}
-			
+			Http.open("GET", urls) //TRY REMOVING AND PLACING ON TOP
 	      		Http.send()
 
 			

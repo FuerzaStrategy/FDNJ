@@ -521,8 +521,20 @@
 			
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
-			var pointss = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
-			console.log(pointss)
+			var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
+			var lat = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
+			var url='https://maps.googleapis.com/maps/api/geocode/json?address='lat,lons'&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
+			Http.open("GET", url);
+	      		Http.send();
+	
+	        	Http.onreadystatechange = (e) => {
+	            	var data_need = JSON.parse(Http.responseText)
+			var address_name = data_need.results[0].address_components
+	                for(var i = 0; i < address_name.length; i ++) {
+	                    var other_townName_temp = address_name[i].long_name
+				console.log(other_townName_temp)
+			    }
+				
 			     } 
 			});
 			    

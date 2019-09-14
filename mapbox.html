@@ -525,17 +525,14 @@
 			var lats = json_coor["features"][0]["geometry"]["coordinates"][0][i][1]
 			var urls='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats + ',' + lons + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 			//console.log(urls)
-
 				
 	        	Http.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
-			    var data_need = JSON.parse(this.responseText);
-				  console.log(data_need)
-			var address_name = data_need.results[0].address_components[1]
-			//console.log(address_name)
-	                //for(var i = 0; i < address_name.length; i ++) {
-	                 var other_townName_temp = address_name.long_name
-			    var list_towns = []
+			     var data_need = JSON.parse(this.responseText);
+		             console.log(data_need)
+			     var address_name = data_need.results[0].address_components[1]
+	                     var other_townName_temp = address_name.long_name
+			     var list_towns = []
 			    list_towns.push(other_townName_temp)
 			     if(data_2000[other_townName_temp] !== undefined) {
 	                        var all_townName = other_townName_temp;
@@ -546,14 +543,14 @@
 			};
 			Http.open("GET", urls);
 	      		Http.send();
-	            	//var data_need = JSON.parse(Http.responseText)
+
 			
 
 				
 			   		 }
 				});
 				 
-			//});
+			
 			    
 			    
 	                if(data_from_2000 == undefined) {

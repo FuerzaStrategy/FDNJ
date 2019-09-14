@@ -526,16 +526,17 @@
 			var urls='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats + ',' + lons + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 			Http.open("GET", urls);
 	      		Http.send();
-	
+				
 	        	Http.onreadystatechange = (e) => {
 	            	var data_need = JSON.parse(Http.responseText)
 			var address_name = data_need.results[0].address_name
 	                for(var i = 0; i < address_name.length; i ++) {
 	                    var other_townName_temp = address_name[i].long_name
 				console.log(other_townName_temp)
-			    }
-				
-			    
+						}
+			   		 }
+				}
+				 
 			});
 			    
 			    

@@ -532,16 +532,16 @@
 			    var data_need = JSON.parse(this.responseText);
 				  console.log(data_need)
 			var address_name = data_need.results[0].address_components[1]
-			console.log(address_name)
-	                for(var i = 0; i < address_name.length; i ++) {
-	                    var other_townName_temp = address_name[i].long_name
-			    //var list_towns = []
-			    //list_towns.push(other_townName_temp)
+			//console.log(address_name)
+	                //for(var i = 0; i < address_name.length; i ++) {
+	                 var other_townName_temp = address_name.long_name
+			    var list_towns = []
+			    list_towns.push(other_townName_temp)
 			     if(data_2000[other_townName_temp] !== undefined) {
 	                        var all_townName = other_townName_temp;
 	                    }
 				console.log(other_townName_temp)
-						}
+						
 			  }
 			};
 			Http.open("GET", urls);

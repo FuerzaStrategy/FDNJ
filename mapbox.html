@@ -529,13 +529,14 @@
 				
 	        	Http.onreadystatechange = (e) => {
 	            	var data_need = JSON.parse(Http.responseText)
+			console.log(data_need)
 			var address_name = data_need.results[0].address_components
 	                for(var i = 0; i < address_name.length; i ++) {
 	                    var other_townName_temp = address_name[i].long_name
 			     if(data_2000[other_townName_temp] !== undefined) {
 	                        var all_townName = other_townName_temp;
 	                    }
-				console.log(all_townName)
+				//console.log(all_townName)
 						}
 			   		 }
 				}

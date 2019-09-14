@@ -590,6 +590,7 @@
 	            var id = json_old["features"][0]["properties"]["ID"]
 	            LegislativeDataPast_Districts[id] = json_old
 	            var coordinates = json_old["features"][0]["geometry"]["coordinates"]
+		    console.log(coordinates)
 	            var polygons_group = []
 	            if(coordinates.length == 1 || id == "31") {
 	                polygons_group.push( turf.polygon( coordinates, { name: 'poly1'} ))
@@ -598,7 +599,6 @@
 	            else {
 	
 	                for(var k = 0; k < coordinates.length; k++) {
-			    console.log(coordinates[k])
 	                    polygons_group.push( turf.polygon( coordinates[k], { name: 'poly1'} ) )
 	                }
 	                polygons_old[parseInt(id)] = polygons_group

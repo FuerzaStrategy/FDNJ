@@ -525,6 +525,7 @@
 			var list_towns = []
 			var uniqueNames = [];
 			var final_old_array = [];
+			var looking_names = JSON.stringify(data_2000);
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
 			var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
@@ -543,6 +544,14 @@
 			     $.each(list_towns, function(i, el){
 			    if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
 				});
+				  
+				  
+			     for(var i=0; i<uniqueNames.length; i++){
+			       if(looking_names.includes(uniqueNames[i])){
+				final_old_array.push(uniqueNames[i])
+			       }
+			    }
+				  
 						
 			  }
 			}
@@ -558,13 +567,10 @@
 			
 				//console.log(list_towns)
 			   //console.log(uniqueNames)
-			   var looking_names = JSON.stringify(data_2000);
+			    
+			  // var looking_names = JSON.stringify(data_2000);
 			    //console.log(looking_names)
-			    for(var i=0; i<uniqueNames.length; i++){
-			       if(looking_names.includes(uniqueNames[i])){
-				final_old_array.push(uniqueNames[i])
-			       }
-			    }
+			   
 			    console.log(final_old_array)
 			    
 	                if(data_from_2000 == undefined) {

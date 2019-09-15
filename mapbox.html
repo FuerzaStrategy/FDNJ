@@ -573,8 +573,8 @@
 			      });
 				final_old_array.forEach(function(a,ind){
 				district_african_old.push(Number(data_2000[a]['african']))
-				district_asian_old.push(data_2000[a]['asian'])
-				district_hispanic_old.push(data_2000[a]['hispanic'])
+				district_asian_old.push(Number(data_2000[a]['asian']))
+				district_hispanic_old.push(Number(data_2000[a]['hispanic']))
 				});
 			      console.log(district_african_old.reduce((a, b) => a + b, 0)/ district_african_old.length)
 			      console.log(district_asian_old)

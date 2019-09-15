@@ -607,7 +607,7 @@
 			        district_dem_num.push(Number(data_2000[a]['democratic']))
 				district_rep_num.push(Number(data_2000[a]['republican']))
 				district_old_people.push(Number(parseFloat((data_2000[a]['population']).replace(/,/g, ''))))
-				district_old_voters.push(Number(parseFloat((data_2000[a]['votes']).replace(/,/g, ''))))
+				district_old_voters.push(Number(parseFloat((data_2000[a]['voters']).replace(/,/g, ''))))
 				});
 			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array)
 			      $('#african_num').text((district_african_old.reduce((a, b) => a + b, 0)/ district_african_old.length).toFixed(2) + "%")

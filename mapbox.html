@@ -525,7 +525,9 @@
 			var list_towns = []
 			var uniqueNames = [];
 			var final_old_array = [];
-			var district_vote_old = [];
+			var district_african_old = [];
+			var district_asian_old = [];
+			var district_hispanic_old = [];
 			var looking_names = JSON.stringify(data_2000);
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
@@ -570,9 +572,13 @@
 			       }
 			      });
 				final_old_array.forEach(function(a,ind){
-				district_vote_old.push(data_2000[a]['voters'])
+				district_african_old.push(data_2000[a]['african'])
+				district_asian_old.push(data_2000[a]['asian'])
+				district_hispanic_old.push(data_2000[a]['hispanic'])
 				});
-			      console.log(district_vote_old)
+			      console.log(district_african_old)
+			      console.log(district_asian_old)
+			      console.log(district_hispanic_old)
 			      }, 5000);
  				
 			      

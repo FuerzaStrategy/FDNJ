@@ -590,7 +590,7 @@
 	                else {
 	                    $('#city_prev').text("Your Town: " + townName)
 			    setTimeout(function(){
-			    $('#other_city_prev').text("Other Towns : <br>" + final_old_array)
+			    $('#other_city_prev').html("Other Towns : <br>" <br> + final_old_array)
 		            }, 6000);
 	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters (Town)")
 	                    $('#democratic_prev').text(data_from_2000['democratic'] + "%")

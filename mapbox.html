@@ -554,13 +554,8 @@
 
 				
 			   		 }
-				function onlyUnique(value, index, self) { 
-				    return self.indexOf(value) === index;
-				}
-
-				// usage example:
-				//var a = ['a', 1, 'a', 2, '1'];
-				var unique = list_towns.filter( onlyUnique ); // returns ['a', 1, 2, '1']
+				const array_old = list_towns;
+				let unique = [...new Set(array_old)];
 				console.log(unique)
 				});
 				 

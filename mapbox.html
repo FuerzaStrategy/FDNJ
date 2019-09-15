@@ -562,23 +562,17 @@
 			       	 		       
 			       
 			         setTimeout(function(){
-			         console.log(uniqueNames)
+			         //console.log(uniqueNames)
 			         uniqueNames.forEach(function(a, ind){
 				if(looking_names.includes(uniqueNames[ind])){
 				final_old_array.push(uniqueNames[ind])
 			       }
 			      });
-			      console.log(final_old_array)
+			      //console.log(final_old_array)
 			      }, 5000);
  				 
 	
-				//setTimeout(function(){console.log(final_old_array)}, 10000);
-
-			    
-			  // var looking_names = JSON.stringify(data_2000);
-			    //console.log(final_old_array)
-			   
-			    //console.log(uniqueNames)
+				
 			    
 	                if(data_from_2000 == undefined) {
 	                    $('#city_prev').text("Your Town: " + townName)
@@ -594,6 +588,7 @@
 	
 	                else {
 	                    $('#city_prev').text("Your Town: " + townName)
+			    $('#other_city_prev').text("Other Towns: " + final_old_array)
 	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters (Town)")
 	                    $('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    $('#republican_prev').text(data_from_2000['republican'] + "%")

@@ -537,8 +537,9 @@
 	        	Http.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
 			     var data_need = JSON.parse(this.responseText);
-			     var address_name =data_need.results[0].formatted_address.split(",")[1]
-			     var other_townName_temp = address_name
+			     var address_name =data_need.results[0].formatted_address.split(",")[1] 
+				var correct_address_name = address_name.slice(1,address_name.length)
+			     var other_townName_temp = correct_address_name
 			
 			     list_towns.push(other_townName_temp);
 			     $.each(list_towns, function(i, el){

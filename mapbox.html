@@ -546,12 +546,7 @@
 				});
 						
 			  }
-				uniqueNames.forEach(function(a, ind){
-				//console.log(a)
-				if(looking_names.includes(uniqueNames[ind])){
-				final_old_array.push(uniqueNames[ind])
-			       }
-			      });
+				
 			}
 			Http.open("GET", urls) 
 	      		Http.send()
@@ -563,7 +558,12 @@
 				
 				});
 				 
-			        
+			        uniqueNames.forEach(function(a, ind){
+				//console.log(a)
+				if(looking_names.includes(uniqueNames[ind])){
+				final_old_array.push(uniqueNames[ind])
+			       }
+			      });
 				console.log(final_old_array)
 
 			    

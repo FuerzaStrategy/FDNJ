@@ -603,8 +603,8 @@
 				});
 			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array)
 			      $('#african_num').text((district_african_old.reduce((a, b) => a + b, 0)/ district_african_old.length).toFixed(2) + "%")
-			      $('#asian_num').text(district_asian_old.reduce((a, b) => a + b, 0)/ district_asian_old.length + "%")
-			      $('#hispanic_num').text(district_hispanic_old.reduce((a, b) => a + b, 0)/ district_hispanic_old.length + "%")
+			      $('#asian_num').text((district_asian_old.reduce((a, b) => a + b, 0)/ district_asian_old.length).toFixed(2) + "%")
+			      $('#hispanic_num').text((district_hispanic_old.reduce((a, b) => a + b, 0)/ district_hispanic_old.length).toFixed(2) + "%")
 			      }, 10000);
 			    //setTimeout(function(){
 			    //$('#other_city_prev').html("Other Towns : <br>" + final_old_array)

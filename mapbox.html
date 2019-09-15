@@ -546,11 +546,6 @@
 				});
 						
 			  }
-				 for(var i=0; i<uniqueNames.length; i++){
-			       if(looking_names.includes(uniqueNames[i])){
-				final_old_array.push(uniqueNames[i])
-			       }
-			    }
 				
 			}
 			Http.open("GET", urls) 
@@ -559,6 +554,11 @@
 
 				
 			   		 }
+				for(var i=0; i<uniqueNames.length; i++){
+			       if(looking_names.includes(uniqueNames[i])){
+				final_old_array.push(uniqueNames[i])
+			       }
+			    }
 				
 				});
 				 

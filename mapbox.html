@@ -554,24 +554,25 @@
 
 				
 			   		 }
-				
-				});
-				 
-			
-				//console.log(list_towns)
-			   var looks = uniqueNames.length
-			    console.log(looks)
+			    var looks = uniqueNames.length
+			    //console.log(looks)
 			    	for(var i=0; i<uniqueNames.length; i++){
 			       if(looking_names.includes(uniqueNames[i])){
 				final_old_array.push(uniqueNames[i])
 			       }
 				else{(final_old_array.push("no"))}
 			    }
+				
+				});
+				 
+			
+				//console.log(list_towns)
+
 			    
 			  // var looking_names = JSON.stringify(data_2000);
 			    //console.log(looking_names)
 			   
-			    //console.log(final_old_array)
+			    console.log(final_old_array)
 			    
 	                if(data_from_2000 == undefined) {
 	                    $('#city_prev').text("Your Town: " + townName)

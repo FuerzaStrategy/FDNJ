@@ -554,19 +554,15 @@
 
 				
 			   		 }
-				const array_old = list_towns;
+				//const array_old = list_towns;
 				//console.log(array_old)
-				var arrayUnique = function (arr) {
-				return arr.filter(function(item, index){
-					return arr.indexOf(item) >= index;
-						});
-					};
-
-				var jobsUnique = arrayUnique(array_old);
-				console.log(jobsUnique)
 				});
 				 
-			
+			var uniqueNames = [];
+			$.each(list_towns, function(i, el){
+			    if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
+			});
+			    console.log(uniqueNames)
 			    
 			    
 	                if(data_from_2000 == undefined) {

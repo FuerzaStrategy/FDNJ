@@ -544,16 +544,14 @@
 			     $.each(list_towns, function(i, el){
 			    if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
 				});
-				  
-				  
-			     for(var i=0; i<uniqueNames.length; i++){
+						
+			  }
+				 for(var i=0; i<uniqueNames.length; i++){
 			       if(looking_names.includes(uniqueNames[i])){
 				final_old_array.push(uniqueNames[i])
 			       }
 			    }
-				  
-						
-			  }
+				
 			}
 			Http.open("GET", urls) 
 	      		Http.send()

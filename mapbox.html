@@ -443,7 +443,8 @@
 	    $.getJSON("data/2010_data_districts.json", function(data) { 
 		new_district_data = data
 	    })
-	    console.log(data_2000["Newark"])
+	    
+	   
 		
 	
 	    function handleIt(zip) {
@@ -482,7 +483,8 @@
 	                    }
 	                }
 	                
-	
+			 console.log(data_from_2000)
+			    
 	                map_origin = [lon, lat]
 	
 	                map_prev.flyTo({

@@ -572,17 +572,10 @@
 			       }
 			      });
 				final_old_array.forEach(function(a,ind){
-				district_african_old.push(data_2000[a]['african'])
+				district_african_old.push(Number(data_2000[a]['african']))
 				district_asian_old.push(data_2000[a]['asian'])
 				district_hispanic_old.push(data_2000[a]['hispanic'])
 				});
-			       console.log(
-				  district_african_old.map( function(elt){ // assure the value can be converted into an integer
-				      return /^\d+$/.test(elt) ? parseInt(elt) : 0; 
-				    }).reduce( function(a,b){ // sum all resulting numbers
-				      return a+b
-				    })
-				);
 			      console.log(district_african_old)
 			      console.log(district_asian_old)
 			      console.log(district_hispanic_old)

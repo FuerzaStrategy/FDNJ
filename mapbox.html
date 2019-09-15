@@ -531,6 +531,8 @@
 			var old_african_num;
 			var old_asian_num;
 			var old_hispanic_num;
+			var district_dem_num;
+			var district_rep_num;
 			var looking_names = JSON.stringify(data_2000);
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
@@ -600,11 +602,15 @@
 				district_african_old.push(Number(data_2000[a]['african']))
 				district_asian_old.push(Number(data_2000[a]['asian']))
 				district_hispanic_old.push(Number(data_2000[a]['hispanic']))
+			        district_dem_num.push(Number(data_2000[a]['democratic']))
+				district_rep_num.push(Number(data_2000[a]['republican']))
 				});
 			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array)
 			      $('#african_num').text((district_african_old.reduce((a, b) => a + b, 0)/ district_african_old.length).toFixed(2) + "%")
 			      $('#asian_num').text((district_asian_old.reduce((a, b) => a + b, 0)/ district_asian_old.length).toFixed(2) + "%")
 			      $('#hispanic_num').text((district_hispanic_old.reduce((a, b) => a + b, 0)/ district_hispanic_old.length).toFixed(2) + "%")
+			      $('#democratic_num').text((district_dem_num.reduce((a, b) => a + b, 0)/ district_dem_num.length).toFixed(2) + "%")
+			      $('#republican_num').text((district_rep_num.reduce((a, b) => a + b, 0)/ district_rep_num.length).toFixed(2) + "%")
 			      }, 10000);
 			    //setTimeout(function(){
 			    //$('#other_city_prev').html("Other Towns : <br>" + final_old_array)

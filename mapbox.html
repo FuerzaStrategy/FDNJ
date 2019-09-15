@@ -447,7 +447,7 @@
 	        Http.send();
 	
 	        Http.onreadystatechange = (e) => {
-	            var data = JSON.parse(Http.responseText)
+	            var data = JSON.parse(this.responseText)
 	
 	            if(data.results[0] === undefined) {
 	

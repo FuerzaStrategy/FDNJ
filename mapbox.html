@@ -583,7 +583,7 @@
 			};
  				
 			      
-			      var final_old_array_show = final_old_array.remove(townName);
+			      //var final_old_array_show = final_old_array.remove(townName);
 				
 			    
 	                if(data_from_2000 == undefined) {
@@ -616,7 +616,7 @@
 				district_old_people.push(Number(parseFloat((data_2000[a]['population']).replace(/,/g, ''))))
 				district_old_voters.push(Number(parseFloat((data_2000[a]['voters']).replace(/,/g, ''))))
 				});
-			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array_show)
+			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array)
 			      $('#african_num').text((district_african_old.reduce((a, b) => a + b, 0)/ district_african_old.length).toFixed(2) + "%")
 			      $('#asian_num').text((district_asian_old.reduce((a, b) => a + b, 0)/ district_asian_old.length).toFixed(2) + "%")
 			      $('#hispanic_num').text((district_hispanic_old.reduce((a, b) => a + b, 0)/ district_hispanic_old.length).toFixed(2) + "%")

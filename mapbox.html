@@ -556,9 +556,14 @@
 			   		 }
 				const array_old = list_towns;
 				//console.log(array_old)
-				let x = (array_old) => array_old.filter((v,i) => array_old.indexOf(v) === i)
-				var maybe = x(array_old);
-				console.log(maybe)
+				var arrayUnique = function (arr) {
+				return arr.filter(function(item, index){
+					return arr.indexOf(item) >= index;
+						});
+					};
+
+				var jobsUnique = arrayUnique(array_old);
+				console.log(jobsUnique)
 				});
 				 
 			

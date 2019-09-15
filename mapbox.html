@@ -535,6 +535,7 @@
 			var district_rep_num = [];
 			var district_old_people = [];
 			var district_old_voters = [];
+			var final_old_array_show = [];
 			var looking_names = JSON.stringify(data_2000);
 			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){

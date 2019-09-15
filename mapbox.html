@@ -556,9 +556,9 @@
 			   		 }
 				const array_old = list_towns;
 				//console.log(array_old)
-				let uniqueSet = new Set(array_old);
-				const unique = [...uniqueSet];
-				console.log(unique)
+				let x = (array_old) => array_old.filter((v,i) => array_old.indexOf(v) === i)
+				var maybe = x(array_old);
+				console.log(maybe)
 				});
 				 
 			

@@ -446,8 +446,11 @@
 	        Http.open("GET", url);
 	        Http.send();
 	
-	        Http.onreadystatechange = (e) => {
-	            var data = JSON.parse(this.responseText)
+	        //Http.onreadystatechange = (e) => {
+	            Http.onreadystatechange = function() 
+			  if (this.readyState == 4 && this.status == 200) {
+		    var data = JSON.parse(this.responseText)
+		    }
 	
 	            if(data.results[0] === undefined) {
 	

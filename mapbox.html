@@ -602,14 +602,14 @@
 				district_african_old.push(Number(data_2000[a]['african']))
 				district_asian_old.push(Number(data_2000[a]['asian']))
 				district_hispanic_old.push(Number(data_2000[a]['hispanic']))
-			        district_dem_num.push(Number(data_2000[a]['democratic']))
+			        //district_dem_num.push(Number(data_2000[a]['democratic']))
 				district_rep_num.push(Number(data_2000[a]['republican']))
 				});
 			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array)
 			      $('#african_num').text((district_african_old.reduce((a, b) => a + b, 0)/ district_african_old.length).toFixed(2) + "%")
 			      $('#asian_num').text((district_asian_old.reduce((a, b) => a + b, 0)/ district_asian_old.length).toFixed(2) + "%")
 			      $('#hispanic_num').text((district_hispanic_old.reduce((a, b) => a + b, 0)/ district_hispanic_old.length).toFixed(2) + "%")
-			      $('#democratic_num').text((district_dem_num.reduce((a, b) => a + b, 0)/ district_dem_num.length).toFixed(2) + "%")
+			      //$('#democratic_num').text((district_dem_num.reduce((a, b) => a + b, 0)/ district_dem_num.length).toFixed(2) + "%")
 			      $('#republican_num').text((district_rep_num.reduce((a, b) => a + b, 0)/ district_rep_num.length).toFixed(2) + "%")
 			      }, 10000);
 			    //setTimeout(function(){

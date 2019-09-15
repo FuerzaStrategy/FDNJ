@@ -417,6 +417,8 @@
 	    var currentHighlight_new = 0
 	    var polygons_old = Array(old_n).fill(0)
 	    var polygons_new = Array(new_n).fill(0)
+	    
+	    var new_district_data = {}
 	
 	    $.getJSON("data/zip_to_coordinate.json", function(data) {
 	        ZtC = data
@@ -437,6 +439,12 @@
 	    $.getJSON("data/nj_zip_codes.json", function(data) {
 	        NJ_Zip = data["zips"]
 	    })
+	
+	    $.getJSON("data/2010_data_districts.json", function(data) { 
+		new_district_data = data
+	    })
+	    consloe.log(new_district_data)
+		
 	
 	    function handleIt(zip) {
 	
@@ -653,6 +661,8 @@
 	                    $('#hispanic_curr').text("N/A %")
 	                    $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
 	                }
+			    
+			    
 	
 	                else {
 	                    $('#city_curr').text("Your Town: " + townName)

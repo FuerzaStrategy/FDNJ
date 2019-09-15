@@ -544,6 +544,11 @@
 			     $.each(list_towns, function(i, el){
 			    if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
 				});
+		              uniqueNames.forEach(a,ind){
+				if(looking_names.includes(a)){
+				final_old_array.push(a)
+			       }
+			      });
 						
 			  }
 				
@@ -554,19 +559,12 @@
 
 				
 			   		 }
-			    var looks = uniqueNames.length
-			    //console.log(looks)
-			    	for(var i=0; i<uniqueNames.length; i++){
-			       if(looking_names.includes(uniqueNames[i])){
-				final_old_array.push(uniqueNames[i])
-			       }
-				else{(final_old_array.push("no"))}
-			    }
+
 				
 				});
 				 
 			
-				//console.log(list_towns)
+				console.log(final_old_array)
 
 			    
 			  // var looking_names = JSON.stringify(data_2000);

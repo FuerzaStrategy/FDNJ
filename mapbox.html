@@ -654,16 +654,7 @@
 			    var array_removed = []
 			    var array_added = []
 			    
-			    for(var i=0; i>final_old_array.length; i++){
-				if(make_array.includes(final_old_array[i])){
-					array_removed.push(final_old_array[i])
-				}
-				  else {
-					  array_added.push(final_old_array[i])
-				  }
-			    }
-				console.log(array_removed)
-			    	console.log(array_added)
+			    
 					
 			    
 	                if(data_from_2000 == undefined) {
@@ -747,6 +738,23 @@
 					district_people_current.push(Number(parseFloat((data_2010[a]['population']).replace(/,/g, ''))))
 					district_voters_current.push(Number(parseFloat((data_2010[a]['voters']).replace(/,/g, ''))))
 					});
+				    
+				    
+				    
+				    for(var i=0; i>final_old_array.length; i++){
+				if(make_array.includes(final_old_array[i])){
+					array_removed.push(final_old_array[i])
+				}
+				  else {
+					  array_added.push(final_old_array[i])
+				  }
+			    }
+				console.log(array_removed)
+			    	console.log(array_added)
+				    
+				    
+				    
+				    
 			      $('#african_curr_num').text((district_african_current.reduce((a, b) => a + b, 0)/ district_african_current.length).toFixed(2) + "%")
 			      $('#asian_curr_num').text((district_asian_current.reduce((a, b) => a + b, 0)/ district_asian_current.length).toFixed(2) + "%")
 			      $('#hispanic_curr_num').text((district_hispanic_current.reduce((a, b) => a + b, 0)/ district_hispanic_current.length).toFixed(2) + "%")

@@ -612,9 +612,9 @@
 			var looking_names = JSON.stringify(data_2010);
 			$.getJSON("data/NJ_Legislative/District_" + currentHighlight_new.toString() + ".geojson", function(json_coor_current){
 				for(var i=0; i<json_coor_current["features"][0]["geometry"]["coordinates"][0].length; i++){
-			var lons = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][0]
-			var lats = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][1]
-			var urls='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats + ',' + lons + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
+			var lons_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][0]
+			var lats_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][1]
+			var urls_current='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats_current + ',' + lons_current + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 			const Http = new XMLHttpRequest();
 				
 				
@@ -626,14 +626,14 @@
 			     var other_townName_current = correct_address_name_current
 			
 			     list_towns_current.push(other_townName_current);
-			     $.each(list_towns, function(i, el){
+			     $.each(list_towns_current, function(i, el){
 			    if($.inArray(el, uniqueNames_current) === -1) uniqueNames_current.push(el);
 				});
 						
 			  }
 				
 			}
-			Http.open("GET", urls) 
+			Http.open("GET", urls_current) 
 	      		Http.send()
 				
 			   		 }

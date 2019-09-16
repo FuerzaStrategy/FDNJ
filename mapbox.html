@@ -538,7 +538,7 @@
 			  
 			 console.log(new_district_data[file_name]['Name'])
 			 var make_array = (new_district_data[file_name]['Name']).split(",")
-			 console.log(make_array)
+			 //console.log(make_array)
 			 //console.log(new_district_data.'District 1')
 			    
 			var list_towns = []
@@ -696,7 +696,7 @@
 			      $('#democratic_num').text((district_dem_num.reduce((a, b) => a + b, 0)/ district_dem_num.length).toFixed(2) + "%")
 			      $('#republican_num').text((district_rep_num.reduce((a, b) => a + b, 0)/ district_rep_num.length).toFixed(2) + "%")
 			      $('#population_prev_num').text(district_old_people.reduce((a, b) => a + b, 0)  + " People (District)")
-			      $('#voters_prev_num').text(district_old_voters.reduce((a, b) => a + b, 0)  + " Registered Voters (Town)")
+			      $('#voters_prev_num').text(district_old_voters.reduce((a, b) => a + b, 0)  + " Registered Voters (District)")
 			      }, 10000);
 
 	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters (Town)")
@@ -725,6 +725,25 @@
 	
 	                else {
 	                    $('#city_curr').text("Your Town: " + townName)
+			    setTimeout(function(){
+				    make_array.forEach(function(a,ind){
+			                district_african_current.push(Number(data_2010[a]['african']))
+					district_asian_current.push(Number(data_2010[a]['asian']))
+					district_hispanic_current.push(Number(data_2010[a]['hispanic']))
+					district_dem_num_current.push(Number(data_2010[a]['democratic']))
+					district_rep_num_current.push(Number(data_2010[a]['republican']))
+					district_people_current.push(Number(parseFloat((data_2010[a]['population']).replace(/,/g, ''))))
+					district_voters_current.push(Number(parseFloat((data_2010[a]['voters']).replace(/,/g, ''))))
+					});
+			      $('#african_curr_num').text((district_african_current.reduce((a, b) => a + b, 0)/ district_african_old.length).toFixed(2) + "%")
+			      $('#asian_curr_num').text((district_asian_current.reduce((a, b) => a + b, 0)/ district_asian_old.length).toFixed(2) + "%")
+			      $('#hispanic_curr_num').text((district_hispanic_current.reduce((a, b) => a + b, 0)/ district_hispanic_old.length).toFixed(2) + "%")
+			      $('#democratic_curr_num').text((district_dem_num_current.reduce((a, b) => a + b, 0)/ district_dem_num.length).toFixed(2) + "%")
+			      $('#republican_curr_num').text((district_rep_num_current.reduce((a, b) => a + b, 0)/ district_rep_num.length).toFixed(2) + "%")
+			      $('#population_curr_prev_num').text(district_people_current.reduce((a, b) => a + b, 0)  + " People (District)")
+			      $('#voters_curr_num').text(district_voters_current.reduce((a, b) => a + b, 0)  + " Registered Voters (District)")
+			      }, 10000);
+				  
 	                    $('#voters_curr').text(data_from_2010['voters'] + " Registered Voters (Town)")
 	                    $('#democratic_curr').text(data_from_2010['democratic'] + "%")
 	                    $('#republican_curr').text(data_from_2010['republican'] + "%")

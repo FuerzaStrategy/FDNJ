@@ -559,38 +559,38 @@
 			var district_old_voters = [];
 			var final_old_array_show = [];
 			var looking_names = JSON.stringify(data_2000);
-			$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
-			for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
-			var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
-			var lats = json_coor["features"][0]["geometry"]["coordinates"][0][i][1]
-			var urls='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats + ',' + lons + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
-			const Http = new XMLHttpRequest();
+			//$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
+			//for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
+			//var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
+			//var lats = json_coor["features"][0]["geometry"]["coordinates"][0][i][1]
+			//var urls='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats + ',' + lons + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
+			//const Http = new XMLHttpRequest();
 				
 				
-	        	Http.onreadystatechange = function() {
-			  if (this.readyState == 4 && this.status == 200) {
-			     var data_need = JSON.parse(this.responseText);
-			     var address_name =data_need.results[0].formatted_address.split(",")[1] 
-				var correct_address_name = address_name.slice(1,address_name.length)
-			     var other_townName_temp = correct_address_name
+	        	//Http.onreadystatechange = function() {
+			 // if (this.readyState == 4 && this.status == 200) {
+			  //   var data_need = JSON.parse(this.responseText);
+			  //   var address_name =data_need.results[0].formatted_address.split(",")[1] 
+			//	var correct_address_name = address_name.slice(1,address_name.length)
+			//     var other_townName_temp = correct_address_name
 			
-			     list_towns.push(other_townName_temp);
-			     $.each(list_towns, function(i, el){
-			    if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
-				});
+			 //    list_towns.push(other_townName_temp);
+			 //    $.each(list_towns, function(i, el){
+			 //   if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
+			//	});
 						
-			  }
+			//  }
 				
-			}
-			Http.open("GET", urls) 
-	      		Http.send()
+			//}
+			//Http.open("GET", urls) 
+	      		//Http.send()
 
 
 				
-			   		 }
+			//   		 }
 
 				
-				});
+			//	});
 				 
 			       	 		       
 			       
@@ -622,37 +622,37 @@
 			var district_voters_current = [];
 			var final_array_show_current = [];
 			var looking_names = JSON.stringify(data_2010);
-			$.getJSON("data/NJ_Legislative/District_" + currentHighlight_new.toString() + ".geojson", function(json_coor_current){
-				for(var i=0; i<json_coor_current["features"][0]["geometry"]["coordinates"][0].length; i++){
-			var lons_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][0]
-			var lats_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][1]
-			console.log(lats_current)
-			var urls_current='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats_current + ',' + lons_current + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
+			//$.getJSON("data/NJ_Legislative/District_" + currentHighlight_new.toString() + ".geojson", function(json_coor_current){
+			//	for(var i=0; i<json_coor_current["features"][0]["geometry"]["coordinates"][0].length; i++){
+			//var lons_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][0]
+			//var lats_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][1]
+			//console.log(lats_current)
+			//var urls_current='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats_current + ',' + lons_current + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 			//console.log(urls_current)
-			const Http_current = new XMLHttpRequest();
+			//const Http_current = new XMLHttpRequest();
 		
 				
-	        	Http_current.onreadystatechange = function() {
-			  if (this.readyState == 4 && this.status == 200) {
-			     var data_need_current = JSON.parse(this.responseText);
-			     var address_name_current =data_need_current.results[0].formatted_address.split(",")[1] 
-				var correct_address_name_current = address_name_current.slice(1,address_name_current.length)
-			     var other_townName_current = correct_address_name_current
+	        	//Http_current.onreadystatechange = function() {
+			//  if (this.readyState == 4 && this.status == 200) {
+			//     var data_need_current = JSON.parse(this.responseText);
+			 //    var address_name_current =data_need_current.results[0].formatted_address.split(",")[1] 
+			//	var correct_address_name_current = address_name_current.slice(1,address_name_current.length)
+			//     var other_townName_current = correct_address_name_current
 			
-			     list_towns_current.push(other_townName_current);
-			     $.each(list_towns_current, function(i, el){
-			    if($.inArray(el, uniqueNames_current) === -1) uniqueNames_current.push(el);
-				});
+			//     list_towns_current.push(other_townName_current);
+			  //  $.each(list_towns_current, function(i, el){
+			  // if($.inArray(el, uniqueNames_current) === -1) uniqueNames_current.push(el);
+			//	});
 						
-			  }
+			//  }
 				
-			}
-			Http_current.open("GET", urls_current) 
-	      		Http_current.send()
+			//}
+			//Http_current.open("GET", urls_current) 
+	      		//Http_current.send()
 				
 			   		 }
 				    //console.log(list_towns_current)
-				});
+			//	});
 			    
 			    var array_removed = []
 			    var array_added = []
@@ -675,11 +675,11 @@
 	
 	                else {
 	                    $('#city_prev').text("Your Town: " + townName)
-			     setTimeout(function(){
+			    // setTimeout(function(){
 			         //console.log(uniqueNames)
 			         uniqueNames.forEach(function(a, ind){
-				if(looking_names.includes(uniqueNames[ind])){
-				final_old_array.push(uniqueNames[ind])
+				if(looking_names.includes(make_old_array[ind])){
+				final_old_array.push(make_old_array[ind])
 			       }
 			      });
 				final_old_array.forEach(function(a,ind){
@@ -704,7 +704,7 @@
 			      $('#republican_num').text((district_rep_num.reduce((a, b) => a + b, 0)/ district_rep_num.length).toFixed(2) + "%")
 			      $('#population_prev_num').text(district_old_people.reduce((a, b) => a + b, 0)  + " People (District)")
 			      $('#voters_prev_num').text(district_old_voters.reduce((a, b) => a + b, 0)  + " Registered Voters (District)")
-			      }, 10000);
+			      //}, 10000);
 
 	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters (Town)")
 	                    $('#democratic_prev').text(data_from_2000['democratic'] + "%")
@@ -732,7 +732,7 @@
 	
 	                else {
 	                    $('#city_curr').text("Your Town: " + townName)
-			    setTimeout(function(){
+			    //setTimeout(function(){
 				    make_array.forEach(function(a,ind){
 			                district_african_current.push(Number(data_2010[a]['african']))
 					district_asian_current.push(Number(data_2010[a]['asian']))
@@ -774,7 +774,7 @@
 			      $('#republican_curr_num').text((district_rep_num_current.reduce((a, b) => a + b, 0)/ district_rep_num_current.length).toFixed(2) + "%")
 			      $('#population_curr_num').text(district_people_current.reduce((a, b) => a + b, 0)  + " People (District)")
 			      $('#voters_curr_num').text(district_voters_current.reduce((a, b) => a + b, 0)  + " Registered Voters (District)")
-			      }, 20000);
+			      //}, 20000);
 				  
 	                    $('#voters_curr').text(data_from_2010['voters'] + " Registered Voters (Town)")
 	                    $('#democratic_curr').text(data_from_2010['democratic'] + "%")

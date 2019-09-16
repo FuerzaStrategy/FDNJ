@@ -735,11 +735,11 @@
 					district_people_current.push(Number(parseFloat((data_2010[a]['population']).replace(/,/g, ''))))
 					district_voters_current.push(Number(parseFloat((data_2010[a]['voters']).replace(/,/g, ''))))
 					});
-			      $('#african_curr_num').text((district_african_current.reduce((a, b) => a + b, 0)/ district_african_old.length).toFixed(2) + "%")
-			      $('#asian_curr_num').text((district_asian_current.reduce((a, b) => a + b, 0)/ district_asian_old.length).toFixed(2) + "%")
-			      $('#hispanic_curr_num').text((district_hispanic_current.reduce((a, b) => a + b, 0)/ district_hispanic_old.length).toFixed(2) + "%")
-			      $('#democratic_curr_num').text((district_dem_num_current.reduce((a, b) => a + b, 0)/ district_dem_num.length).toFixed(2) + "%")
-			      $('#republican_curr_num').text((district_rep_num_current.reduce((a, b) => a + b, 0)/ district_rep_num.length).toFixed(2) + "%")
+			      $('#african_curr_num').text((district_african_current.reduce((a, b) => a + b, 0)/ district_african_current.length).toFixed(2) + "%")
+			      $('#asian_curr_num').text((district_asian_current.reduce((a, b) => a + b, 0)/ district_asian_current.length).toFixed(2) + "%")
+			      $('#hispanic_curr_num').text((district_hispanic_current.reduce((a, b) => a + b, 0)/ district_hispanic_current.length).toFixed(2) + "%")
+			      $('#democratic_curr_num').text((district_dem_num_current.reduce((a, b) => a + b, 0)/ district_dem_num_current.length).toFixed(2) + "%")
+			      $('#republican_curr_num').text((district_rep_num_current.reduce((a, b) => a + b, 0)/ district_rep_num_current.length).toFixed(2) + "%")
 			      $('#population_curr_num').text(district_people_current.reduce((a, b) => a + b, 0)  + " People (District)")
 			      $('#voters_curr_num').text(district_voters_current.reduce((a, b) => a + b, 0)  + " Registered Voters (District)")
 			      }, 10000);

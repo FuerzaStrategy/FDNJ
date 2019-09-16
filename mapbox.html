@@ -309,12 +309,12 @@
               <center>          
               <table style='border: 1px solid #c3c3c1;border-collapse: collapse;width:100%; text-align:center;'>
               <tr>
-              <td style='width:50%'>Towns Added</td>
-              <td>Towns Removed</td>
+              <td style='width:50%'>Towns Added:</td>
+              <td>Towns Removed:</td>
               </tr>
               <tr>
-              <td id="added" style='width:50%'>a<br>A</td>
-              <td id="removed">r</td>
+              <td id="added" style='width:50%'></td>
+              <td id="removed"></td>
               </tr>
               </table>
               </center>
@@ -806,6 +806,7 @@
 					}
 					 else{
 						 array_removed.push(final_old_array[i])
+						 array_removed.push("<br>")
 					 }
 				 }
 				console.log(array_final_added)

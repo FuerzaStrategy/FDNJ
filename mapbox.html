@@ -658,26 +658,7 @@
 			    var array_added = []
 			    var array_final_added = []
 			    
-			    
-					
-			    
-	                if(data_from_2000 == undefined) {
-	                    $('#city_prev').text("Your Town: " + townName)
-	                    $('#voters_prev').text("N/A Registered Voters (Town)")
-	                    $('#democratic_prev').text("N/A %")
-	                    $('#republican_prev').text("N/A %")
-	                    $('#population_prev').text("N/A People (Town)")
-	                    $('#african_prev').text("N/A %")
-	                    $('#asian_prev').text("N/A %")
-	                    $('#hispanic_prev').text("N/A %")
-	                    $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
-	                }
-	
-	                else {
-	                    $('#city_prev').text("Your Town: " + townName)
-			    // setTimeout(function(){
-			         //console.log(uniqueNames)
-			         uniqueNames.forEach(function(a, ind){
+			    make_old_array.forEach(function(a, ind){
 				if(looking_names.includes(make_old_array[ind])){
 				final_old_array.push(make_old_array[ind])
 			       }
@@ -696,6 +677,27 @@
 				  //  }
 				//console.log(final_old_array_show)
 				console.log(final_old_array)
+					
+			    
+	                if(data_from_2000 == undefined) {
+	                    $('#city_prev').text("Your Town: " + townName)
+	                    $('#voters_prev').text("N/A Registered Voters (Town)")
+	                    $('#democratic_prev').text("N/A %")
+	                    $('#republican_prev').text("N/A %")
+	                    $('#population_prev').text("N/A People (Town)")
+	                    $('#african_prev').text("N/A %")
+	                    $('#asian_prev').text("N/A %")
+	                    $('#hispanic_prev').text("N/A %")
+	                    $('#taxable_prev').text("Per Capital Taxable Property Value: N/A")
+	                }
+	
+	                else {
+	                    $('#city_prev').text("Your Town: " + townName)
+			    // setTimeout(function(){
+			         //console.log(uniqueNames)
+			         
+				
+				
 			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array)
 			      $('#african_num').text((district_african_old.reduce((a, b) => a + b, 0)/ district_african_old.length).toFixed(2) + "%")
 			      $('#asian_num').text((district_asian_old.reduce((a, b) => a + b, 0)/ district_asian_old.length).toFixed(2) + "%")

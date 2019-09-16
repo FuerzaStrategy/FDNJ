@@ -622,6 +622,7 @@
 			var district_voters_current = [];
 			var final_array_show_current = [];
 			var looking_names = JSON.stringify(data_2010);
+			var looking_names_old = JSON.stringify(data_2000);
 			//$.getJSON("data/NJ_Legislative/District_" + currentHighlight_new.toString() + ".geojson", function(json_coor_current){
 			//	for(var i=0; i<json_coor_current["features"][0]["geometry"]["coordinates"][0].length; i++){
 			//var lons_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][0]
@@ -657,9 +658,10 @@
 			    var array_removed = []
 			    var array_added = []
 			    var array_final_added = []
+			    var final_new_array = []
 			    
 			    make_old_array.forEach(function(a, ind){
-				if(looking_names.includes(make_old_array[ind])){
+				if(looking_names_old.includes(make_old_array[ind])){
 				final_old_array.push(make_old_array[ind])
 			       }
 			      });
@@ -677,6 +679,23 @@
 				  //  }
 				//console.log(final_old_array_show)
 				console.log(final_old_array)
+			    
+			    
+			    make_array.forEach(function(a, ind){
+				if(looking_names.includes(make_array[ind])){
+				final_new_array.push(make_array[ind])
+			       }
+			      });
+			    
+			      final_new_array.forEach(function(a,ind){
+			                district_african_current.push(Number(data_2010[a]['african']))
+					district_asian_current.push(Number(data_2010[a]['asian']))
+					district_hispanic_current.push(Number(data_2010[a]['hispanic']))
+					district_dem_num_current.push(Number(data_2010[a]['democratic']))
+					district_rep_num_current.push(Number(data_2010[a]['republican']))
+					district_people_current.push(Number(parseFloat((data_2010[a]['population']).replace(/,/g, ''))))
+					district_voters_current.push(Number(parseFloat((data_2010[a]['voters']).replace(/,/g, ''))))
+					});
 					
 			    
 	                if(data_from_2000 == undefined) {
@@ -735,15 +754,7 @@
 	                else {
 	                    $('#city_curr').text("Your Town: " + townName)
 			    //setTimeout(function(){
-				    make_array.forEach(function(a,ind){
-			                district_african_current.push(Number(data_2010[a]['african']))
-					district_asian_current.push(Number(data_2010[a]['asian']))
-					district_hispanic_current.push(Number(data_2010[a]['hispanic']))
-					district_dem_num_current.push(Number(data_2010[a]['democratic']))
-					district_rep_num_current.push(Number(data_2010[a]['republican']))
-					district_people_current.push(Number(parseFloat((data_2010[a]['population']).replace(/,/g, ''))))
-					district_voters_current.push(Number(parseFloat((data_2010[a]['voters']).replace(/,/g, ''))))
-					});
+				  
 				    
 				    
 				    

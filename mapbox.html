@@ -749,6 +749,14 @@
 					  array_added.push(final_old_array[i])
 				  }
 			    }
+				    
+				 var array_final_added = []
+				 for(var i=0; i<array_removed.length; i++){
+					if(make_array.includes(array_removed[i])){
+						array_final_added.push(array_removed[i])
+					}
+				 }
+				 console.log(array_final_added)
 				console.log(array_removed)
 			    	console.log(array_added)
 				    

@@ -659,6 +659,7 @@
 			    var array_added = []
 			    var array_final_added = []
 			    var final_new_array = []
+			    var rep_ratio_current = []
 			    
 			    make_old_array.forEach(function(a, ind){
 				if(looking_names_old.includes(make_old_array[ind])){
@@ -696,7 +697,10 @@
 					district_people_current.push(Number(parseFloat((data_2010[a]['population']).replace(/,/g, ''))))
 					district_voters_current.push(Number(parseFloat((data_2010[a]['voters']).replace(/,/g, ''))))
 					});
-					
+				
+			    for(var i=0; i<district_people_current.length; i++){
+				    rep_ratio_current.push(district_people_current[i]*(district_rep_num_current[i]/100))
+			    }
 			    
 	                if(data_from_2000 == undefined) {
 	                    $('#city_prev').text("Your Town: " + townName)
@@ -784,7 +788,7 @@
 			      $('#asian_curr_num').text((district_asian_current.reduce((a, b) => a + b, 0)/ district_asian_current.length).toFixed(2) + "%")
 			      $('#hispanic_curr_num').text((district_hispanic_current.reduce((a, b) => a + b, 0)/ district_hispanic_current.length).toFixed(2) + "%")
 			      $('#democratic_curr_num').text((district_dem_num_current.reduce((a, b) => a + b, 0)/ district_dem_num_current.length).toFixed(2) + "%")
-			      $('#republican_curr_num').text((district_rep_num_current.reduce((a, b) => a + b, 0)/ district_rep_num_current.length).toFixed(2) + "%")
+			      $('#republican_curr_num').text((rep_ratio_current.reduce((a, b) => a + b, 0)/ rep_ratio_current.length).toFixed(2) + "%")
 			      $('#population_curr_num').text(district_people_current.reduce((a, b) => a + b, 0)  + " People (District)")
 			      $('#voters_curr_num').text(district_voters_current.reduce((a, b) => a + b, 0)  + " Registered Voters (District)")
 			      //}, 20000);

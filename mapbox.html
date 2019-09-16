@@ -651,8 +651,20 @@
 				    //console.log(list_towns_current)
 				});
 			    
+			    var array_removed = []
+			    var array_added = []
 			    
-				
+			    for(var i=0; i>final_old_array.length; i++){
+				if(make_array.includes(final_old_array[i])){
+					array_removed.push(final_old_array[i])
+				}
+				  else {
+					  array_added.push(final_old_array[i])
+				  }
+			    }
+				console.log(array_removed)
+			    	console.log(array_added)
+					
 			    
 	                if(data_from_2000 == undefined) {
 	                    $('#city_prev').text("Your Town: " + townName)

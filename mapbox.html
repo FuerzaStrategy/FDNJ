@@ -751,9 +751,9 @@
 			    }
 				    
 				 var array_final_added = []
-				 for(var i=0; i<array_removed.length; i++){
-					if(make_array.includes(array_removed[i])){
-						array_final_added.push(array_removed[i])
+				 for(var i=0; i<make_array.length; i++){
+					if(array_removed.includes(make_array[i])){
+						array_final_added.push(make_array[i])
 					}
 				 }
 				 console.log(array_final_added)

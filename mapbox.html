@@ -444,7 +444,9 @@
 		new_district_data = data
 	    })
 	    
-	   
+	   $.getJSON("data/2000_data_districts.json", function(data) { 
+		old_district_data = data
+	    })
 		
 	
 	    function handleIt(zip) {
@@ -536,7 +538,7 @@
 			 //console.log(currentHighlight_new)
 			 //console.log(file_name)
 			  
-			 console.log(new_district_data[file_name]['Name'])
+			 console.log(old_district_data[file_name]['Name'])
 			 var make_array = (new_district_data[file_name]['Name']).split(",")
 			 //console.log(make_array)
 			 //console.log(new_district_data.'District 1')

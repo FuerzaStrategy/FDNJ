@@ -1,0 +1,113 @@
+{
+"District 1": { "Name": "Avalon,Buena,Buena Vista,Cape May,Cape May Point,Dennis,Lower Township,Maurice River Township,Middle Township,Millville,North Wildwood,Ocean City,Sea Isle City,Somers Point,Stone Harbor,Upper Township,Vineland,West Cape May,West Wildwood,Wildwood,Wildwood Crest,Woodbine"},
+"District 2": { "Name": "Absecon,Atlantic City,Brigantine,Corbin City,Egg Harbor,Egg Harbor Twp,Estell Manor,Galloway,Hamilton,Linwood,Longport,Margate,Mullica,Northfield,Pleasantville,Port Republic,Ventnor,Weymouth"},
+"District 3": { "Name": "Alloway,Bridgeton,Carneys Point,Clayton,Commercial,Deerfield,Downe,East Greenwich,Elk,Elmer,Elsinboro,Fairfield,Greenwich,Harrison Twp,Hopewell Twp,Lawrence,Logan,Lower Alloways Creek,Mannington,Mantua,National Park,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,Shiloh,South Harrison,Stow Creek,Swedesboro,Upper Deerfield,Upper Pittsgrove,Wenonah,West Deptford,Woodstown,Woolwich"},
+      
+
+"District 4": { "Name": "Clementon,Franklin Twp,Glassboro,Gloucester Twp,Laurel Springs,Lindenwold,Monroe,Newfield,Pitman,Washington Twp"},
+      
+
+"District 5": { "Name": "Audubon,Barrington,Bellmawr,Brooklawn,Camden,Deptford,Gloucester City,Haddon Heights,Hi-Nella,Lawnside,Magnolia,Mount Ephraim,Runnemede,Somerdale,Stratford,Westville,Woodbury,Woodbury Heights,Woodlynne"},
+      
+
+"District 6": { "Name": "Audubon Park,Berlin,Berlin Twp,Cherry Hill,Chesilhurst,Collingswood,Gibbsboro,Haddon,Haddonfield,Oaklyn,Pine Hill,Pine Valley,Tavistock,Voorhees,Waterford,Winslow"},
+      
+
+"District 7": { "Name": "Beverly,Burlington,Burlington Twp,Cinnaminson,Delanco,Delran,Edgewater Park,Florence,Maple Shade,Merchantville,Mount Holly,Palmyra,Pennsauken,Riverside,Riverton,Westampton,Willingboro"},
+      
+
+"District 8": { "Name": "Eastampton,Evesham,Hainesport,Lumberton,Mansfield,Medford Lakes,Medford,Moorestown,Mount Laurel,Pemberton,Pemberton Twp,Shamong,Southampton,Springfield,Tabernacle,Woodland,Wrightstown"},
+
+      
+
+"District 9": { "Name": "Barnegat Light,Barnegat Twp,Bass River,Beach Haven,Beachwood,Berkeley Twp,Eagleswood,Folsom,Hammonton,Harvey Cedars,Lacey,Lakehurst,Little Egg Harbor,Long Beach,Manchester,Ocean Gate,Ocean Twp,Pine Beach,Ship Bottom,Stafford,Surf City,Tuckerton,Washington Twp"},
+      
+
+"District 10": {"Name": "Bay Head,Brick,Island Heights,Lavallette,Manasquan,Mantoloking,Point Pleasant Beach,Point Pleasant,Seaside Heights,Seaside Park,South Toms River,Toms River"},
+      
+
+"District 11": { "Name": "Allenhurst,Asbury Park,Atlantic Highlands,Avon-by-the-Sea,Belmar,Bradley Beach,Brielle,Deal,Eatontown,Highlands,Interlaken,Lake Como,Loch Arbour,Long Branch,Monmouth Beach,Neptune City,Neptune Twp,Ocean Twp,Rumson,Sea Bright,Sea Girt,Spring Lake,Spring Lake Heights,Wall,West Long Branch"},
+      
+
+"District 12": { "Name": "Colts Neck,East Windsor,Englishtown,Fair Haven,Freehold,Freehold Twp,Hightstown,Little Silver,Manalapan,Millstone Twp,Oceanport,Red Bank,Shrewsbury,Shrewsbury Twp,Tinton Falls"},
+      
+
+"District 13": { "Name": "Aberdeen,Hazlet,Holmdel,Keansburg,Keyport,Marlboro,Matawan,Middletown Township,Old Bridge,Union Beach"},
+      
+
+"District 14": { "Name": "Cranbury,Cranbury,Hamilton,Jamesburg,Monroe,Plainsboro,South Brunswick,West Windsor"},
+      
+
+"District 15": { "Name": "Ewing,Hopewell,Hopewell Twp,Lawrence,Pennington,Princeton,Princeton Twp,Trenton"},
+      
+
+"District 16": { "Name": "Bedminster,Bernards Twp,Bernardsville,Bound Brook,Branchburg,Bridgewater,Far Hills,Hillsborough,Manville,Mendham,Millstone,Montgomery,Peapack Gladstone,Raritan,Rocky Hill,Somerville,South Bound Brook"},
+      
+
+"District 17": { "Name": "Franklin Twp,Highland Park,Milltown,New Brunswick,Piscataway"},
+      
+
+"District 18": { "Name": "East Brunswick,Edison,Helmetta,Metuchen,South Plainfield,South River,Spotswood"},
+      
+
+"District 19": { "Name": "Carteret,Perth Amboy,Sayreville,South Amboy,Woodbridge"},
+      
+
+"District 20": { "Name": "Elizabeth,Kenilworth,Roselle,Union Twp"},
+      
+
+"District 21": { "Name": "Berkeley Heights,Chatham,Cranford,Garwood,Harding,Long Hill,Madison,Millburn,Mountainside,New Providence,Roselle Park,Springfield,Summit,Warren,Watchung,Westfield"},
+      
+
+"District 22": { "Name": "Clark,Dunellen,Fanwood,Green Brook,Linden,Middlesex,North Plainfield,Plainfield,Rahway,Scotch Plains,Winfield"},
+      
+
+"District 23": { "Name": "Alexandria,Allamuchy,Alpha,Belvidere,Bethlehem,Blairstown,Bloomsbury,Clinton,Clinton Twp,Delaware,East Amwell,Flemington,Franklin Twp,Franklin,Frelinghuysen,Frenchtown,Glen Gardner,Greenwich,Hackettstown,Hampton,Hardwick,Harmony,High Bridge,Holland,Hope,Independence,Kingwood,Knowlton,Lambertville,Lebanon,Lebanon Twp,Liberty,Lopatcong,Mansfield,Milford,Oxford,Phillipsburg,Pohatcong,Raritan Twp,Readington,Stockton,Union Twp,Washington,Washington Twp,West Amwell,White"},
+      
+
+"District 24": { "Name": "Andover,Andover Twp,Branchville,Byram,Califon,Chester,Chester Twp,Frankford,Franklin,Fredon,Green,Hamburg,Hampton Twp,Hardyston,Hopatcong,Lafayette,Montague,Mount Olive,Netcong,Newton,Ogdensburg,Sandyston,Sparta,Stanhope Borough,Stillwater Township,Sussex Borough,Tewksbury Township,Vernon Township,Walpack,Wantage,Washington Twp"},
+
+"District 25": { "Name": "Boonton,Boonton Twp,Denville,Dover,Jefferson,Mendham Twp,Mine Hill,Morris Twp,Morristown,Mount Arlington,Mountain Lakes,Randolph,Rockaway,Rockaway Twp,Roxbury,Victory Gardens,Wharton"},
+      
+
+"District 26": { "Name": "Bloomingdale,Butler,Chatham,East Hanover,Florham Park,Hanover,Kinnelon,Lincoln Park,Montville,Morris Plains,Parsippany-Troy Hills,Pequannock,Pompton Lakes,Riverdale,West Milford"},
+      
+
+"District 27": { "Name": "Caldwell,Essex Fells,Fairfield,Livingston,Maplewood,Newark City,North Caldwell,Orange,Roseland,South Orange,West Caldwell,West Orange"},
+      
+
+"District 28": { "Name": "Belleville,Bloomfield,Irvington,Newark"},
+      
+
+"District 29": { "Name": "Hillside,Newark"},
+      
+
+"District 30": { "Name": "Allentown,Bordentown,Bordentown Twp,Chesterfield,Farmingdale,Fieldsboro,Howell,Jackson,Lakewood,New Hanover,North Hanover,Plumsted,Roosevelt,Upper Freehold,Robbinsville"},
+
+"District 31": { "Name": "Bayonne,Jersey City"},
+      
+
+"District 32": { "Name": "East Newark,Fairview,Harrison,Jersey City,Kearny,North Bergen,Secaucus"},
+      
+
+"District 33": { "Name": "Guttenberg,Hoboken,Jersey City,Union City,Weehawken,West New York"},
+
+"District 34": { "Name": "Clifton,East Orange,Glen Ridge,Montclair,Woodland Park"},
+      
+
+"District 35": { "Name": "Glen Rock,Haledon,Hawthorne,North Haledon,Paterson,Prospect Park,Totowa"},
+      
+
+"District 36": { "Name": "Carlstadt,East Rutherford,Garfield,Lyndhurst,Moonachie,North Arlington,Nutley,Passaic,Rutherford,Wallington,Wood-Ridge"},
+      
+
+"District 37": { "Name": "Bergenfield,Bogota,Englewood,Englewood Cliffs,Hackensack,Leonia,Maywood,Palisades Park,Ridgefield Park,Rochelle Park,Teaneck,Tenafly"},
+      
+
+"District 38": { "Name": "Cliffside Park,Edgewater,Elmwood Park,Fair Lawn,Fort Lee,Hasbrouck Heights,Little Ferry,Lodi,Paramus,Ridgefield,Saddle Brook,South Hackensack,Teterboro"},
+      
+
+"District 39": { "Name": "Allendale,Alpine,Closter,Cresskill,Demarest,Dumont,Emerson,Harrington Park,Haworth,Hillsdale,Ho-Ho-Kus,Montvale,New Milford,Northvale,Norwood,Old Tappan,Oradell,Park Ridge,Ramsey,River Edge,River Vale,Rockleigh,Saddle River,Upper Saddle River,Waldwick,Washington,Westwood,Woodcliff Lake"},
+      
+"District 40": { "Name": "Cedar Grove,Franklin Lakes,Little Falls,Mahwah,Midland Park,Oakland,Pequannock,Ridgewood,Ringwood,Totowa,Verona,Wanaque,Wayne,Woodland Park,Wyckoff"}
+}

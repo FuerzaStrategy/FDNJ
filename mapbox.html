@@ -384,7 +384,7 @@
               <tr style='border: 1px solid black;'>
 	            <td style='border: 1px solid black;'><p id='african_curr_num'>##% African</p></td>
 	            <td style='border: 1px solid black;'><p id='asian_curr_num'>##% Asian</p></td>
-	            <td style='border: 1px solid black;'><p id='hispanic_cur_num'>##% Hispanic</p></td>
+	            <td style='border: 1px solid black;'><p id='hispanic_curr_num'>##% Hispanic</p></td>
 	            </tr>
               </table>
               </center>
@@ -740,7 +740,7 @@
 			      $('#hispanic_curr_num').text((district_hispanic_current.reduce((a, b) => a + b, 0)/ district_hispanic_old.length).toFixed(2) + "%")
 			      $('#democratic_curr_num').text((district_dem_num_current.reduce((a, b) => a + b, 0)/ district_dem_num.length).toFixed(2) + "%")
 			      $('#republican_curr_num').text((district_rep_num_current.reduce((a, b) => a + b, 0)/ district_rep_num.length).toFixed(2) + "%")
-			      $('#population_curr_prev_num').text(district_people_current.reduce((a, b) => a + b, 0)  + " People (District)")
+			      $('#population_curr_num').text(district_people_current.reduce((a, b) => a + b, 0)  + " People (District)")
 			      $('#voters_curr_num').text(district_voters_current.reduce((a, b) => a + b, 0)  + " Registered Voters (District)")
 			      }, 10000);
 				  

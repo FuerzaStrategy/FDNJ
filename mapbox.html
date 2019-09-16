@@ -616,10 +616,10 @@
 			var lats_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][1]
 			var urls_current='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats_current + ',' + lons_current + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 			console.log(urls_current)
-			const Http = new XMLHttpRequest();
+			const Http_current = new XMLHttpRequest();
 		
 				
-	        	Http.onreadystatechange = function() {
+	        	Http_current.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
 			     var data_need_current = JSON.parse(this.responseText);
 			     var address_name_current =data_need_current.results[0].formatted_address.split(",")[1] 
@@ -634,8 +634,8 @@
 			  }
 				
 			}
-			Http.open("GET", urls_current) 
-	      		Http.send()
+			Http_current.open("GET", urls_current) 
+	      		Http_current.send()
 				
 			   		 }
 				    //console.log(list_towns_current)

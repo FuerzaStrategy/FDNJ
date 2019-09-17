@@ -675,6 +675,14 @@
 				final_old_array.push(make_old_array[ind])
 			       }
 			      });
+			    
+	                    make_old_array.forEach(function(a, ind){
+				if(looking_names_old.includes(make_old_array[ind])){
+				final_old_array_show.push(make_old_array[ind])
+				final_old_array_show.push(" ")
+			       }
+							     
+							     
 				final_old_array.forEach(function(a,ind){
 				district_african_old.push(Number(data_2000[a]['african']))
 				district_asian_old.push(Number(data_2000[a]['asian']))
@@ -726,6 +734,7 @@
 			    }
 			    
 			    
+			    
 			 
 			    
 	                if(data_from_2000 == undefined) {
@@ -747,7 +756,7 @@
 			         
 				
 				
-			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array)
+			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array_show)
 			      $('#african_num').text((((african_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#asian_num').text((((asian_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#hispanic_num').text((((hispanic_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")

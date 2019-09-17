@@ -837,7 +837,7 @@
 			      $('#hispanic_curr_num').text((((hispanic_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#population_curr_num').text(district_people_current.reduce((a, b) => a + b, 0)  + " People (District)")
+			      $('#population_curr_num').text((district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " People (District)")
 			      $('#voters_curr_num').text(district_voters_current.reduce((a, b) => a + b, 0)  + " Registered Voters (District)")
 			      $('#added').html("<br>" + (array_removed.slice(0, array_removed.length-1)).join(', '))
 			      $('#removed').html(array_added.slice(0, array_added.length-1))

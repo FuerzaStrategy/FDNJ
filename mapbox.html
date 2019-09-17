@@ -240,8 +240,8 @@
 	            <td style='border: 1px solid white;'><p>Republicans</p></td>
               </tr>
               <tr style='border: 1px solid white;'>
-              <td style='border: 1px solid white;'><p id='democratic_prev'>###,###D</p></td>
-	            <td style='border: 1px solid white;'><p id='republican_prev'>###,###R</p></td>
+              <td style='border: 1px solid white;'><p id='democratic_prev'>###,###</p></td>
+	            <td style='border: 1px solid white;'><p id='republican_prev'>###,###</p></td>
               </tr>
               </table>
               </center>
@@ -675,6 +675,8 @@
 				final_old_array.push(make_old_array[ind])
 			       }
 			      });
+			    
+			    console.log(make_old_array)
 			    
 	                    make_old_array.forEach(function(a, ind){
 				if(looking_names_old.includes(make_old_array[ind])){

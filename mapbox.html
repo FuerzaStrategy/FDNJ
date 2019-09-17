@@ -669,7 +669,7 @@
 			    var african_ratio_old =[]
 			    var asian_ratio_old = []
 			    var hispanic_ratio_old = []
-			    var show_array = []
+			    //var show_array = []
 			    
 			    make_old_array.forEach(function(a, ind){
 				if(looking_names_old.includes(make_old_array[ind])){
@@ -682,15 +682,15 @@
 	                    make_old_array.forEach(function(a, ind){
 				if(looking_names_old.includes(make_old_array[ind])){
 				final_old_array_show.push(make_old_array[ind])
-				///final_old_array_show.push(", ")
 			       }
 			    });
 			    
-			    for(var i=0; i<final_old_array_show.length; i++){
+			    //for(var i=0; i<final_old_array_show.length; i++){
 				//if(final_old_array_show.includes(',')  
-				show_array.push(final_old_array_show[i].slice(0,final_old_array_show.length-1))
-				show_array.push(" ")
-			    }
+				//show_array.push(final_old_array_show[i].slice(0,final_old_array_show.length-1))
+				//show_array.push(" ")
+			    //}
+			    var show_array= final_old_array_show.join(', ')
 						  console.log(show_array)	     
 							     
 				final_old_array.forEach(function(a,ind){

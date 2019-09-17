@@ -669,6 +669,7 @@
 			    var african_ratio_old =[]
 			    var asian_ratio_old = []
 			    var hispanic_ratio_old = []
+			    var show_array = []
 			    
 			    make_old_array.forEach(function(a, ind){
 				if(looking_names_old.includes(make_old_array[ind])){
@@ -681,9 +682,14 @@
 	                    make_old_array.forEach(function(a, ind){
 				if(looking_names_old.includes(make_old_array[ind])){
 				final_old_array_show.push(make_old_array[ind])
-				final_old_array_show.push(", ")
+				///final_old_array_show.push(", ")
 			       }
 			    });
+			    
+			    for(var i=0; i<final_old_array_show; i++){
+				//if(final_old_array_show.includes(',')  
+				show_array.push(final_old_array_show[i].slice(0,final_old_array_show.length-1))
+			    }
 						  console.log(final_old_array_show)	     
 							     
 				final_old_array.forEach(function(a,ind){
@@ -759,7 +765,7 @@
 			         
 				
 				
-			      $('#other_city_prev').html("Other Towns : <br>" + final_old_array_show)
+			      $('#other_city_prev').html("Other Towns : <br>" + show_array)
 			      $('#african_num').text((((african_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#asian_num').text((((asian_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#hispanic_num').text((((hispanic_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")

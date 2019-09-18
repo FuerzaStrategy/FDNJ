@@ -1,5 +1,5 @@
 {
-"District 1": { "Name": "Avalon,Buena,Buena Vista,Cape May,Cape May Point,Dennis,Lower Township,Maurice River Township,Middle Township,Millville,North Wildwood,Ocean City,Sea Isle City,Somers Point,Stone Harbor,Upper Township,Vineland,West Cape May,West Wildwood,Wildwood,Wildwood Crest,Woodbine"},
+"District 1": { "Name": "Avalon,Buena,Buena Vista,Cape May,Cape May Point,Dennis,Lower Township,Maurice River,Middle Township,Millville,North Wildwood,Ocean City,Sea Isle City,Somers Point,Stone Harbor,Upper Township,Vineland,West Cape May,West Wildwood,Wildwood,Wildwood Crest,Woodbine"},
 "District 2": { "Name": "Absecon,Atlantic City,Brigantine,Corbin City,Egg Harbor,Egg Harbor Twp,Estell Manor,Galloway,Hamilton,Linwood,Longport,Margate,Mullica,Northfield,Pleasantville,Port Republic,Ventnor,Weymouth"},
 "District 3": { "Name": "Alloway,Bridgeton,Carneys Point,Clayton,Commercial,Deerfield,Downe,East Greenwich,Elk,Elmer,Elsinboro,Fairfield,Greenwich,Harrison Twp,Hopewell Twp,Lawrence,Logan,Lower Alloways Creek,Mannington,Mantua,National Park,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,Shiloh,South Harrison,Stow Creek,Swedesboro,Upper Deerfield,Upper Pittsgrove,Wenonah,West Deptford,Woodstown,Woolwich"},
       
@@ -32,7 +32,7 @@
 "District 12": { "Name": "Colts Neck,East Windsor,Englishtown,Fair Haven,Freehold,Freehold Twp,Hightstown,Little Silver,Manalapan,Millstone Twp,Oceanport,Red Bank,Shrewsbury,Shrewsbury Twp,Tinton Falls"},
       
 
-"District 13": { "Name": "Aberdeen,Hazlet,Holmdel,Keansburg,Keyport,Marlboro,Matawan,Middletown Township,Old Bridge,Union Beach"},
+"District 13": { "Name": "Aberdeen,Hazlet,Holmdel,Keansburg,Keyport,Marlboro,Matawan,Middletown,Old Bridge,Union Beach"},
       
 
 "District 14": { "Name": "Cranbury,Cranbury,Hamilton,Jamesburg,Monroe,Plainsboro,South Brunswick,West Windsor"},
@@ -65,7 +65,7 @@
 "District 23": { "Name": "Alexandria,Allamuchy,Alpha,Belvidere,Bethlehem,Blairstown,Bloomsbury,Clinton,Clinton Twp,Delaware,East Amwell,Flemington,Franklin Twp,Franklin,Frelinghuysen,Frenchtown,Glen Gardner,Greenwich,Hackettstown,Hampton,Hardwick,Harmony,High Bridge,Holland,Hope,Independence,Kingwood,Knowlton,Lambertville,Lebanon,Lebanon Twp,Liberty,Lopatcong,Mansfield,Milford,Oxford,Phillipsburg,Pohatcong,Raritan Twp,Readington,Stockton,Union Twp,Washington,Washington Twp,West Amwell,White"},
       
 
-"District 24": { "Name": "Andover,Andover Twp,Branchville,Byram,Califon,Chester,Chester Twp,Frankford,Franklin,Fredon,Green,Hamburg,Hampton Twp,Hardyston,Hopatcong,Lafayette,Montague,Mount Olive,Netcong,Newton,Ogdensburg,Sandyston,Sparta,Stanhope Borough,Stillwater Township,Sussex Borough,Tewksbury Township,Vernon Township,Walpack,Wantage,Washington Twp"},
+"District 24": { "Name": "Andover,Andover Twp,Branchville,Byram,Califon,Chester,Chester Twp,Frankford,Franklin,Fredon,Green,Hamburg,Hampton Twp,Hardyston,Hopatcong,Lafayette,Montague,Mount Olive,Netcong,Newton,Ogdensburg,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Tewksbury,Vernon,Walpack,Wantage,Washington Twp"},
 
 "District 25": { "Name": "Boonton,Boonton Twp,Denville,Dover,Jefferson,Mendham Twp,Mine Hill,Morris Twp,Morristown,Mount Arlington,Mountain Lakes,Randolph,Rockaway,Rockaway Twp,Roxbury,Victory Gardens,Wharton"},
       

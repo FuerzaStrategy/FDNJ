@@ -705,7 +705,7 @@
 				district_old_voters.push(Number(parseFloat((data_2000[a]['voters']).replace(/,/g, ''))))
 				});
 			    
-			         console.log(district_old_people)
+			         
 			    	    for(var i=0; i<district_old_people.length; i++){
 				    rep_ratio_old.push(district_old_people[i]*(district_rep_num[i]/100))
 				    dem_ratio_old.push(district_old_people[i]*(district_dem_num[i]/100))
@@ -737,6 +737,7 @@
 					district_voters_current.push(Number(parseFloat((data_2010[a]['voters']).replace(/,/g, ''))))
 					});
 				
+			    console.log(district_people_current)
 			    for(var i=0; i<district_people_current.length; i++){
 				    rep_ratio_current.push(district_people_current[i]*(district_rep_num_current[i]/100))
 				    dem_ratio_current.push(district_people_current[i]*(district_dem_num_current[i]/100))

@@ -1079,20 +1079,20 @@
 	        if (!disable) {
 	            map_origin = map_prev.getCenter()
 	            map_scale = map_prev.getZoom()
-	            disable = true;
+	           // disable = true;
 	            map_curr.setCenter(map_origin)
-	            //map_curr.setZoom(map_scale)
+	            map_curr.setZoom(map_scale)
 	            disable = false;
 	        }
 	    })
-	
+	    
 	    map_prev.on('zoom', function () {
 	        if (!disable) {
 	            map_origin = map_prev.getCenter()
 	            map_scale = map_prev.getZoom()
-	            disable = true;
+	            //disable = true;
 	            map_curr.setCenter(map_origin)
-	           // map_curr.setZoom(map_scale)
+	            map_curr.setZoom(map_scale)
 	            disable = false;
 	        }
 	    })
@@ -1101,9 +1101,9 @@
 	        if (!disable) {
 	            map_origin = map_curr.getCenter()
 	            map_scale = map_curr.getZoom()
-	            disable = true;
+	           // disable = true;
 	            map_prev.setCenter(map_origin)
-	           // map_prev.setZoom(map_scale)
+	            map_prev.setZoom(map_scale)
 	            disable = false;
 	        }
 	    })
@@ -1112,13 +1112,12 @@
 	        if (!disable) {
 	            map_origin = map_curr.getCenter()
 	            map_scale = map_curr.getZoom()
-	            disable = true;
+	           // disable = true;
 	            map_prev.setCenter(map_origin)
-	           // map_prev.setZoom(map_scale)
+	            map_prev.setZoom(map_scale)
 	            disable = false;
 	        }
-	    })
-	    
+	    }) 
 		
 		map_prev.addControl(new mapboxgl.NavigationControl());
 		map_curr.addControl(new mapboxgl.NavigationControl());	

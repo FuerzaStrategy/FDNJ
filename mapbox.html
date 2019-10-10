@@ -958,6 +958,8 @@
 	        center: map_origin,
 	        zoom: map_scale
 	    });
+		
+	    map.addControl(new mapboxgl.NavigationControl());
 	
 	    map_prev.on('load', function () {
 	

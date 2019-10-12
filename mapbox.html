@@ -568,7 +568,7 @@
 			 var make_old_array = (old_district_data[file_name]['Name']).split(",")
 			 var make_array = (new_district_data[file_name]['Name']).split(",")
 			 //console.log(make_old_array)
-			 console.log(new_district_data[file_name]['Deviation'])
+			 //console.log(new_district_data[file_name]['Deviation'])
 			    
 			var list_towns = []
 			var uniqueNames = [];
@@ -861,9 +861,12 @@
 				console.log(array_removed)
 				    
 				    
-			      $('#african_curr_num').text((((african_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#asian_curr_num').text((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#hispanic_curr_num').text((((hispanic_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			      //$('#african_curr_num').text((((african_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			      //$('#asian_curr_num').text((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			      //$('#hispanic_curr_num').text((((hispanic_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			      $('#african_curr_num').text(new_district_data[file_name]['african'])
+			      $('#asian_curr_num').text(new_district_data[file_name]['asian'])
+			      $('#hispanic_curr_num').text(new_district_data[file_name]['hispanic'])
 			      $('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#population_curr_num').text((district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " People (District)")

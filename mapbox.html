@@ -294,7 +294,7 @@
            </div>
            <br>
           <div id='table_white'><!--NEW-->
-              <p id='population_prev_num'>###,### People (District)</p>
+              <p id='population_prev_num'>District Demographics:</p>
               <center>
               <table style='border: 1px solid black;border-collapse: collapse;width:100%; text-align:center;'>
 		       <colgroup>
@@ -394,7 +394,7 @@
               </div>
               <br>
               <div id='table_white'><!--NEW-->
-	            <p id='population_curr_num'>###,### People (District)</p>
+	            <p id='population_curr_num'>District Demographics:</p>
               <center>
               <table style='border: 1px solid black;border-collapse: collapse;width:100%; text-align:center;'>
 		       <colgroup>
@@ -795,7 +795,7 @@
 			      $('#hispanic_num').text((((hispanic_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#democratic_num').text((((dem_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#republican_num').text((((rep_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#population_prev_num').text((district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " People (District)")
+			      $('#population_prev_num').html("District Demographics:<br> " +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters (District)")
 			      //}, 10000);
 

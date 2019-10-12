@@ -1,153 +1,313 @@
 {
 "District 1": { "Name": "Avalon,Cape May,Cape May Point,Commercial,Corbin City,Dennis,Downe,Estell Manor,Fairfield,Greenwich,Hopewell,Lawrence,Lower Township,Maurice River,Middle Township,Millville,North Wildwood,Ocean City,Sea Isle City,Shiloh,Stone Harbor,Stow Creek,Upper Township,Vineland,West Cape May,West Wildwood,Weymouth,Wildwood,Wildwood Crest,Woodbine",
-                "Deviation": "3,180"},
+                "Deviation": "3,180",
+                "white": "78.1",
+                "african": "11.7",
+                "asian": "1.1",
+                "hispanic": "16.4"},
 "District 2": { "Name": "Absecon,Atlantic City,Brigantine,Buena,Buena Vista,Egg Harbor City,Egg Harbor Twp,Folsom,Hamilton,Linwood,Longport,Margate,Mullica,Northfield,Pleasantville,Somers Point,Ventnor",
-                 "Deviation": "-3,445"},
+                 "Deviation": "-3,445",
+                 "white": "62.4",
+                "african": "18.2",
+                "asian": "7.7",
+                "hispanic": "18.1"},
 "District 3": { "Name": "Alloway,Bridgeton,Carneys Point,Clayton,Deerfield,East Greenwich,Elk,Elmer,Elsinboro,Franklin,Glassboro,Greenwich,Logan,Lower Alloways Creek,Mannington,National Park,Newfield,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,South Harrison,Swedesboro,Upper Deerfield,Upper Pittsgrove,West Deptford,Woodbury Heights,Woodstown,Woolwich",
-                 "Deviation": "2,068"},
+                 "Deviation": "2,068",
+                 "white": "75.5",
+                "african": "15.0",
+                "asian": "1.6",
+                "hispanic": "10.2"},
       
 
 "District 4": { "Name": "Chesilhurst,Clementon,Gloucester Twp,Laurel Springs,Lindenwold,Monroe,Pitman,Washington Twp,Winslow",
-                 "Deviation": "4,190"},
+                 "Deviation": "4,190",
+                  "white": "73.6",
+                "african": "18.1",
+                "asian": "3.1",
+                "hispanic": "6.7"},
       
 
 "District 5": { "Name": "Audubon,Audubon Park,Barrington,Bellmawr,Brooklawn,Camden,Deptford,Gloucester City,Haddon Heights,Harrison Twp,Lawnside,Magnolia,Mantua,Mount Ephraim,Runnemede,Wenonah,Westville,Woodbury,Woodlynne",
-                 "Deviation": "5,182"},
+                 "Deviation": "5,182",
+                 "white": "60.9",
+                "african": "22.6",
+                "asian": "2.6",
+                "hispanic": "20.2"},
       
 
 "District 6": { "Name": "Berlin Twp,Cherry Hill,Collingswood,Gibbsboro,Haddon,Haddonfield,Hi-Nella,Maple Shade,Merchantville,Oaklyn,Pennsauken,Somerdale,Stratford,Tavistock,Voorhees",
-                "Deviation": "4,177"},
+                "Deviation": "4,177",
+                "white": "74.8",
+                "african": "10.2",
+                "asian": "8.4",
+                "hispanic": "9.2"},
       
 
 "District 7": { "Name": "Beverly,Bordentown,Bordentown Twp,Burlington,Burlington Twp,Cinnaminson,Delanco,Delran,Edgewater Park,Fieldsboro,Florence,Moorestown,Mount Laurel,Palmyra,Riverside,Riverton,Willingboro",
-                 "Deviation": "1,338"},
+                 "Deviation": "1,338",
+                 "white": "67.8",
+                "african": "22.1",
+                "asian": "4.7",
+                "hispanic": "5.9"},
       
 
 "District 8": { "Name": "Berlin,Eastampton,Evesham,Hainesport,Hammonton,Lumberton,Mansfield,Medford,Medford Lakes,Mount Holly,Pemberton,Pemberton Twp,Pine Hill,Pine Valley,Shamong,Southampton,Springfield,Waterford,Westampton,Woodland",
-                 "Deviation": "-699"},
+                 "Deviation": "-699",
+                "white": "81.5",
+                "african": "9.9",
+                "asian": "3.5",
+                "hispanic": "6.7"},
 
       
 
 "District 9": { "Name": "Barnegat,Barnegat Light,Bass River,Beach Haven,Beachwood,Berkeley,Eagleswood,Galloway,Harvey Cedars,Lacey,Little Egg Harbor,Long Beach,Ocean Gate,Ocean Twp,Pine Beach,Port Republic,Seaside Park,Ship Bottom,South Toms River,Stafford,Surf City,Tabernacle,Tuckerton,Washington",
-                 "Deviation": "5,402"},
+                 "Deviation": "5,402",
+                 "white": "90.4",
+                "african": "3.4",
+                "asian": "2.6",
+                "hispanic": "6.3"},
       
 
 "District 10": {"Name": "Bay Head,Brick,Island Heights,Lakehurst,Lavallette,Manchester,Mantoloking,Point Pleasant Beach,Seaside Heights,Toms River",
-                 "Deviation": "4,602"},
+                 "Deviation": "4,602",
+                "white": "91.3",
+                "african": "2.7",
+                "asian": "2.4",
+                "hispanic": "7.1"},
       
 
 "District 11": { "Name": "Allenhurst,Asbury Park,Colts Neck,Deal,Eatontown,Freehold,Freehold Twp,Interlaken,Loch Arbour,Long Branch,Neptune,Neptune Twp,Ocean Twp,Red Bank,Shrewsbury,Shrewsbury Twp,Tinton Falls,West Long Branch",
-                 "Deviation": "3,625"},
+                 "Deviation": "3,625",
+                "white": "71.7",
+                "african": "15.6",
+                "asian": "4.1",
+                "hispanic": "15.3"},
       
 
 "District 12": { "Name": "Allentown,Chesterfield,Englishtown,Jackson,Manalapan,Matawan,Millstone ,New Hanover,North Hanover,Old Bridge,Plumsted,Roosevelt,Upper Freehold,Wrightstown",
-                  "Deviation": "2,126"},
+                  "Deviation": "2,126",
+                "white": "81.7",
+                "african": "6.6",
+                "asian": "7.3",
+                "hispanic": "8.9"},
       
 
 "District 13": { "Name": "Aberdeen,Atlantic Highlands,Fair Haven,Hazlet,Highlands,Holmdel,Keansburg,Keyport,Little Silver,Marlboro,Middletown,Monmouth Beach,Oceanport,Rumson,Sea Bright,Union Beach",
-                  "Deviation": "4,929"},
+                  "Deviation": "4,929",
+                 "white": "87.6",
+                "african": "2.7",
+                "asian": "6.6",
+                "hispanic": "6.3"},
       
 
 "District 14": { "Name": "Cranbury,East Windsor,Hamilton,Hightstown,Jamesburg,Monroe,Plainsboro,Robbinsville,Spotswood",
-                  "Deviation": "-4,847"},
+                  "Deviation": "-4,847",
+                 "white": "73.2",
+                "african": "8.3",
+                "asian": "12.3",
+                "hispanic": "10.4"},
       
 
 "District 15": { "Name": "East Amwell,Ewing,Hopewell,Hopewell Twp,Lambertville,Lawrence,Pennington,Trenton,West Amwell,West Windsor",
-                  "Deviation": "-4,887"},
+                  "Deviation": "-4,887",
+                  "white": "52.7",
+                "african": "27.8",
+                "asian": "9.0",
+                "hispanic": "16.9"},
       
 
 "District 16": { "Name": "Branchburg,Delaware,Flemington,Hillsborough,Manville,Millstone,Montgomery,Princeton,Raritan,Readington,Rocky Hill,Somerville,South Brunswick,Stockton",
-                  "Deviation": "-1,257"},
+                  "Deviation": "-1,257",
+                 "white": "74.5",
+                "african": "4.7",
+                "asian": "16.0",
+                "hispanic": "8.0"},
       
 
 "District 17": { "Name": "Franklin,Milltown,New Brunswick,North Brunswick,Piscataway",
-               "Deviation": "1,363"},
+               "Deviation": "1,363",
+                "white": "45.2",
+                "african": "20.0",
+                "asian": "20.6",
+                "hispanic": "22.4"},
       
 
 "District 18": { "Name": "East Brunswick,Edison,Helmetta,Highland Park,Metuchen,South Plainfield,South River",
-                  "Deviation": "-3,191"},
+                  "Deviation": "-3,191",
+                 "white": "58.6",
+                "african": "6.6",
+                "asian": "28.9",
+                "hispanic": "9.1"},
       
 
 "District 19": { "Name": "Carteret,Perth Amboy,Sayreville,South Amboy,Woodbridge",
-                  "Deviation": "4,781"},
+                  "Deviation": "4,781",
+                 "white": "58.8",
+                "african": "10.5",
+                "asian": "15.5",
+                "hispanic": "30.6"},
       
 
 "District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Twp",
-                  "Deviation": "4,303"},
+                  "Deviation": "4,303",
+                 "white": "50.2",
+                "african": "29.3",
+                "asian": "4.3",
+                "hispanic": "41.2"},
       
 
 "District 21": { "Name": "Berkeley Heights,Bernards,Chatham,Cranford,Far Hills,Garwood,Kenilworth,Long Hill,Mountainside,New Providence,Roselle Park,Springfield,Summit,Warren,Watchung,Westfield",
-                 "Deviation": "-5,759"},
+                 "Deviation": "-5,759"
+                 "white": "85.4",
+                "african": "2.9",
+                "asian": "8.1",
+                "hispanic": "8.4"},
       
 
 "District 22": { "Name": "Clark,Dunellen,Fanwood,Green Brook,Linden,Middlesex,North Plainfield,Plainfield,Rahway,Scotch Plains,Winfield",
-                  "Deviation": "-5,088"},
+                  "Deviation": "-5,088",
+                 "white": "57.4",
+                "african": "24.8",
+                "asian": "4.4",
+                "hispanic": "25.3"},
       
 
 "District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Twp,Franklin,Franklin Twp,Frenchtown,Glen Gardner,Greenwich,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Twp,Lopatcong,Mansfield,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan Twp,South Bound Brook,Tewksbury,Union Twp,Washington Twp,Washington",
-                  "Deviation": "-3,355"},
+                  "Deviation": "-3,355",
+                 "white": "85.1",
+                "african": "3.6",
+                "asian": "6.5",
+                "hispanic": "9.4"},
       
 
 "District 24": { "Name": "Allamuchy,Andover,Andover Twp,Belvidere,Blairstown,Branchville,Byram,Frankford,Franklin,Fredon,Frelinghuysen,Green,Hamburg,Hampton,Hardwick,Hardyston,Hopatcong,Hope,Independence,Knowlton,Lafayette,Liberty,Montague,Mount Olive,Newton,Ogdensburg,Oxford,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Vernon,Walpack,Wantage,White",
-                  "Deviation": "-4,511"},
+                  "Deviation": "-4,511",
+                 "white": "92.1",
+                "african": "2.2",
+                "asian": "2.6",
+                "hispanic": "6.7"},
 
 "District 25": { "Name": "Bernardsville,Boonton,Boonton Twp,Chester ,Chester Twp,Denville,Dover,Mendham,Mendham Twp,Mine Hill,Morris Twp,Morristown,Mount Arlington,Mountain Lakes,Netcong,Randolph,Rockaway,Roxbury,Victory Gardens,Washington,Wharton",
-                  "Deviation": "-5,470"},
+                  "Deviation": "-5,470",
+                 "white": "83.2",
+                "african": "4.0",
+                "asian": "5.4",
+                "hispanic": "17.0"},
       
 
 "District 26": { "Name": "Butler,Fairfield,Jefferson,Kinnelon,Lincoln Park,Montville,Morris Plains,North Caldwell,Parsippany-Troy Hills,Rockaway Twp,Verona,West Caldwell,West Milford",
-                  "Deviation": "-2,131"},
+                  "Deviation": "-2,131",
+                 "white": "82.6",
+                "african": "2.1",
+                "asian": "11.7",
+                "hispanic": "7.1"},
       
 
 "District 27": { "Name": "Caldwell,Chatham Twp,East Hanover,Essex Fells,Florham Park,Hanover,Harding,Livingston,Madison,Maplewood,Millburn,Roseland,South Orange,West Orange",
-                  "Deviation": "-1,556"},
+                  "Deviation": "-1,556",
+                 "white": "73.5",
+                "african": "12.9",
+                "asian": "9.2",
+                "hispanic": "7.7"},
       
 
 "District 28": { "Name": "Bloomfield,Glen Ridge,Irvington,Newark,Nutley",
-                  "Deviation": "5,590"},
+                  "Deviation": "5,590",
+                 "white": "30.8",
+                "african": "55.3",
+                "asian": "4.0",
+                "hispanic": "16.1"},
       
 
 "District 29": { "Name": "Belleville,Newark",
-                  "Deviation": "5,020"},
+                  "Deviation": "5,020",
+                 "white": "38.5",
+                "african": "35.4",
+                "asian": "3.2",
+                "hispanic": "41.2"},
       
 
 "District 30": { "Name": "Avon-by-the-Sea,Belmar,Bradley Beach,Brielle,Farmingdale,Howell,Lake Como,Lakewood,Manasquan,Point Pleasant,Sea Girt,Spring Lake,Spring Lake Heights,Wall",
-                  "Deviation": "3,963"},
+                  "Deviation": "3,963",
+                  "white": "88.6",
+                "african": "4.1",
+                "asian": "1.8",
+                "hispanic": "11.2"},
 
 "District 31": { "Name": "Bayonne,Jersey City",
-                  "Deviation": "837"},
+                  "Deviation": "837",
+                 "white": "38.5",
+                "african": "27.3",
+                "asian": "19.0",
+                "hispanic": "23.5"},
       
 
 "District 32": { "Name": "East Newark,Edgewater,Fairview,Guttenberg,Harrison,Kearny,North Bergen,Secaucus,West New York",
-                  "Deviation": "182"},
+                  "Deviation": "182",
+                 "white": "65.9",
+                "african": "4.3",
+                "asian": "9.1",
+                "hispanic": "56.0"},
       
 
 "District 33": { "Name": "Hoboken,Jersey City,Union City,Weehawken",
-                  "Deviation": "-796"},
+                  "Deviation": "-796",
+                  "white": "58.5",
+                "african": "6.9",
+                "asian": "12.6",
+                "hispanic": "46.4"},
 
 "District 34": { "Name": "Clifton,East Orange,Montclair,Orange",
-                 "Deviation": "-3,588"},
+                 "Deviation": "-3,588",
+                 "white": "40.9",
+                "african": "43.0",
+                "asian": "4.6",
+                "hispanic": "19.1"},
       
 
 "District 35": { "Name": "Elmwood Park,Garfield,Haledon,North Haledon,Paterson,Prospect Park",
-                  "Deviation": "-1,108"},
+                  "Deviation": "-1,108",
+                 "white": "47.8",
+                "african": "23.6",
+                "asian": "4.0",
+                "hispanic": "48.2"},
       
 
 "District 36": { "Name": "Carlstadt,Cliffside Park,East Rutherford,Little Ferry,Lyndhurst,Moonachie,North Arlington,Passaic,Ridgefield,Ridgefield Park,Rutherford,South Hackensack,Teterboro,Wallington,Wood-Ridge",
-                  "Deviation": "1,126"},
+                  "Deviation": "1,126",
+                 "white": "65.7",
+                "african": "5.4",
+                "asian": "9.9",
+                "hispanic": "36.9"},
       
 
 "District 37": { "Name": "Alpine,Bogota,Cresskill,Englewood,Englewood Cliffs,Fort Lee,Hackensack,Leonia,Northvale,Palisades Park,Rockleigh,Teaneck,Tenafly",
-                  "Deviation": "-2,411"},
+                  "Deviation": "-2,411",
+                  "white": "51.6",
+                "african": "15.2",
+                "asian": "22.5",
+                "hispanic": "20.0"},
       
 
 "District 38": { "Name": "Bergenfield,Fair Lawn,Glen Rock,Hasbrouck Heights,Hawthorne,Lodi,Maywood,New Milford,Oradell,Paramus,River Edge,Rochelle Park,Saddle Brook",
-                  "Deviation": "-3,461"},
+                  "Deviation": "-3,461",
+                 "white": "75.4",
+                "african": "3.5",
+                "asian": "13.8",
+                "hispanic": "15.1"},
       
 
 "District 39": { "Name": "Bloomingdale,Closter,Demarest,Dumont,Emerson,Harrington Park,Haworth,Hillsdale,Mahwah,Montvale,Norwood,Oakland,Old Tappan,Park Ridge,Ramsey,Ringwood,River Vale,Saddle River,Upper Saddle River,Wanaque,Washington,Westwood,Woodcliff Lake",
-                  "Deviation": "-4,572"},
+                  "Deviation": "-4,572",
+                  "white": "84.9",
+                "african": "1.6",
+                "asian": "9.9",
+                "hispanic": "7.1"},
       
 "District 40": { "Name": "Allendale,Cedar Grove,Franklin Lakes,Ho-Ho-Kus,Little Falls,Midland Park,Pequannock,Pompton Lakes,Ridgewood,Riverdale,Totowa,Waldwick,Wayne,Woodland Park,Wyckoff",
-                  "Deviation": "-5,838"}
+                  "Deviation": "-5,838",
+                 "white": "87.8",
+                "african": "1.9",
+                "asian": "6.7",
+                "hispanic": "7.9"}
 }

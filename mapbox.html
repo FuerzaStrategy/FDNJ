@@ -256,7 +256,7 @@
            </div>
            <br>
           <div id='table_white'><!--NEW-->
-              <p align="center";id='population_prev_num'>District Demographics:</p>
+              <p id='population_prev_num'>District Demographics:</p>
               <center>
               <table style='border: 1px solid black;border-collapse: collapse;table-layout: auto;width:100%; text-align:center;'>
 		       <!--<colgroup>
@@ -795,7 +795,7 @@
 			      $('#hispanic_num').text((((hispanic_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#democratic_num').text((((dem_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#republican_num').text((((rep_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#population_prev_num').html("District Demographics:<br>" +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Total Population")
+			      $('#population_prev_num').html("District Demographics: " +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Total Population")
 			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters (District)")
 			      //}, 10000);
 
@@ -819,6 +819,8 @@
 	                    $('#asian_curr').text("N/A %")
 	                    $('#hispanic_curr').text("N/A %")
 	                    $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
+			    $('#deviation_curr_num').text("N/A")	
+			    $('#white_curr_num').text("N/A %")
 	                }
 			    
 			    
@@ -871,7 +873,7 @@
 			      $('#hispanic_curr_num').text(new_district_data[file_name]['hispanic'] + "%")
 			      $('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#population_curr_num').html("District Demographics:<br>" + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Total Population")
+			      $('#population_curr_num').html("District Demographics: " + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Total Population")
 			      $('#voters_curr_num').text((district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters (District)")
 			      $('#added').html("<br>" + (array_added).join(', '))
 			      $('#removed').html("<br>" + (array_removed).join(', '))

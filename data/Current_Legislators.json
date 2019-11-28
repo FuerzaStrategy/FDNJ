@@ -50,16 +50,56 @@ District	Senator	Member of Assembly	Member of Assembly
     "Member1": "Gregory P Mcguckin",
     "Member2": "David W. Wolfe"
     },
-  11	Vin Gopal	Joann Downey	Eric Houghtaling
-  12	Samuel D. Thompson	Robert D. Clifton	Ronald S. Dancer
-  13	Declan J. O'Scanlon, Jr.	Serena Dimaso	Amy H. Handlin
-  14	Linda R. Greenstein	Daniel R. Benson	Wayne P. Deangelo
-  15	Shirley K. Turner	Verlina Reynolds-Jackson	Anthony S. Verrelli
-  16	Christopher Bateman	Roy Freiman	Andrew Zwicker
-  17	Bob Smith	Joe Danielsen	Joseph V. Egan
-  18	Patrick J. Diegnan, Jr.	Robert J. Karabinchak	Nancy J. Pinkin
-  19	Joseph F. Vitale	Craig J. Coughlin	Yvonne Lopez
-  20	Joseph P. Cryan	Jamel C. Holley	Annette Quijano
+  "11": {	
+    "Senator": "Vin Gopal",
+    "Member1": "Joann Downey",
+    "Member2": "Eric Houghtaling"
+  },
+  "12": {
+    "Senator": "Samuel D. Thompson",
+    "Member1": "Robert D. Clifton",	
+    "Member2": "Ronald S. Dancer"
+  },
+  "13": {
+    "Senator": "Declan J. O'Scanlon, Jr.",
+    "Member1": "Serena Dimaso",
+    "Member2": "Amy H. Handlin"
+  },
+  "14": {
+  "Senator": "Linda R. Greenstein",
+  "Member1": "Daniel R. Benson",
+  "Member2": "Wayne P. Deangelo"
+  },
+  "15": {
+    "Senator": "Shirley K. Turner",
+    "Member1": "Verlina Reynolds-Jackson",
+    "Member2": "Anthony S. Verrelli"
+  },
+  "16": {
+    "Senator": "Christopher Bateman",
+    "Member1": "Roy Freiman",
+    "Member2": "Andrew Zwicker"
+  },
+  "17": {
+  "Senator": "Bob Smith",
+  "Member1": "Joe Danielsen",
+  "Member2": "Joseph V. Egan"
+  },
+  "18": {
+    "Senator": "Patrick J. Diegnan, Jr."
+    "Member1": "Robert J. Karabinchak"
+    "Member2": "Nancy J. Pinkin"
+  },
+  "19": {
+    "Senator": "Joseph F. Vitale",
+    "Member1": "Craig J. Coughlin",
+    "Member2": "Yvonne Lopez"
+  },
+  "20": {
+    "Senator": "Joseph P. Cryan",
+    "Member1": "Jamel C. Holley",
+    "Member2": "Annette Quijano"
+  }
   21	Thomas H. Kean, Jr.	Jon M. Bramnick	Nancy F. Munoz
   22	Nicholas P. Scutari	Linda S. Carter	James J. Kennedy
   23	Michael J. Doherty	John Dimaio	Erik Peterson

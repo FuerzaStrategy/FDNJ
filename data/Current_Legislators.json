@@ -99,24 +99,104 @@ District	Senator	Member of Assembly	Member of Assembly
     "Senator": "Joseph P. Cryan",
     "Member1": "Jamel C. Holley",
     "Member2": "Annette Quijano"
+  },
+  "21": {
+    "Senator": "Thomas H. Kean, Jr.",
+    "Member1": "Jon M. Bramnick",
+    "Member2": "Nancy F. Munoz"
+  },
+  "22": {
+    "Senator": "Nicholas P. Scutari",
+    "Member1": "Linda S. Carter",
+    "Member2": "James J. Kennedy"
+  },
+  "23": {
+    "Senator": "Michael J. Doherty",
+    "Member1": "John Dimaio",
+    "Member2": "Erik Peterson"
+  },
+  "24": {
+    "Senator": "Steven V. Oroho",
+    "Member1": "Parker Space",
+    "Member2": "Harold J. Wirths"
+  },
+  "25":  {
+    "Senator": "Anthony M. Bucco",
+    "Member1": "Michael Patrick Carroll",
+    "Member2": "Aura Kenny Dunn"
+  },
+  "26": {
+    "Senator": "Joseph Pennacchio",
+    "Member1": "Bettylou DeCroce",
+    "Member2": "Jay Webber"
+  },
+  "27": {
+    "Senator": "Richard J. Codey",
+    "Member1": "Mila M. Jasey",
+    "Member2": "John F. McKeon"
+  },
+  "28": {
+    "Senator": "Ronald L. Rice",
+    "Member1": "Ralph R. Caputo",
+    "Member2": "Cleopatra G. Tucker"
+  },
+  "29": {
+    "Senator": "M. Teresa Ruiz",
+    "Member1": "Eliana Pintor Marin",
+    "Member2": "Shanique Speight"
+  },
+  "30": {
+    "Senator": "Robert W. Singer",
+    "Member1": "Sean T. Kean",
+    "Member2": "Edward H. Thomson"
+  },
+  "31": {
+    "Senator": "Sandra B. Cunningham",
+    "Member1": "Nicholas Chiaravalloti",
+    "Member1": "Angela V. McKnight"
+  },
+  "32": {
+    "Senator": "Nicholas J. Sacco",
+    "Member1": "Angelica M. Jimenez",
+    "Member2": "Pedro Mejia"
+  },
+  "33": {
+    "Senator": "Brian P. Stack",
+    "Member1": "Annette Chaparro",	
+    "Member2": "Raj Mukherji"
+  },
+  "34": {
+    "Senator": "Nia H. Gill",
+    "Member1": "Thomas P. Giblin",
+    "Member2": "Britnee N. Timberlake"
+  "35": {
+    "Senator": "Nellie Pou",
+    "Member1": "Shavonda E. Sumter",
+    "Member2": "Benjie E. Wimberly"
+  },
+  "36": {
+    "Sentor": "Paul A. Sarlo",
+    "Member1": "Clinton Calabrese",
+    "Member2": "Gary S. Schaer"
+  },
+  "37": {
+    "Senator": "Loretta Weingberg",
+    "Member1": "Gordon M. Johnson",
+    "Member2": "Walerie Vainieri Huttle"
+  },
+  "38": {
+    "Senator": "Joseph A. Lagana",
+    "Member1": "Lisa Swain",
+    "Member2": "P. Christopher Tully"
+  },
+  "39": {
+    "Senator": "Gerald Cardinale",
+    "Member1": "Robert Auth",
+    "Member2": "Holly T. Schepisi"
+  },
+  "40": {
+    "Senator": "Kristin M. Corrado",
+    "Member1": "Christopher P. DePhillips",
+    "Member2": "Kevin J. Rooney"
   }
-  21	Thomas H. Kean, Jr.	Jon M. Bramnick	Nancy F. Munoz
-  22	Nicholas P. Scutari	Linda S. Carter	James J. Kennedy
-  23	Michael J. Doherty	John Dimaio	Erik Peterson
-  24	Steven V. Oroho	Parker Space	Harold J. Wirths
-  25	Anthony M. Bucco	Michael Patrick Carroll	Aura Kenny Dunn
-  26	Joseph Pennacchio	Bettylou DeCroce	Jay Webber
-  27	Richard J. Codey	Mila M. Jasey	John F. McKeon
-  28	Ronald L. Rice	Ralph R. Caputo	Cleopatra G. Tucker
-  29	M. Teresa Ruiz	Eliana Pintor Marin	Shanique Speight
-  30	Robert W. Singer	Sean T. Kean	Edward H. Thomson
-  31	Sandra B. Cunningham	Nicholas Chiaravalloti	Angela V. McKnight
-  32	Nicholas J. Sacco	Angelica M. Jimenez	Pedro Mejia
-  33	Brian P. Stack	Annette Chaparro	Raj Mukherji
-  34	Nia H. Gill	Thomas P. Giblin	Britnee N. Timberlake
-  35	Nellie Pou	Shavonda E. Sumter	Benjie E. Wimberly
-  36	Paul A. Sarlo	Clinton Calabrese	Gary S. Schaer
-  37	Loretta Weingberg	Gordon M. Johnson	Walerie Vainieri Huttle
-  38	Joseph A. Lagana	Lisa Swain	P. Christopher Tully
-  39	Gerald Cardinale	Robert Auth	Holly T. Schepisi
-  40	Kristin M. Corrado	Christopher P. DePhillips	Kevin J. Rooney
+}

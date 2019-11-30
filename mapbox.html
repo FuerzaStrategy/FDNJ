@@ -363,6 +363,7 @@
               <br>
               <div id='table_white'><!--NEW-->
 	            <p id='population_curr_num'>District Demographics:</p>
+		    <P id='deviation_curr_num'>Deviation:</P>
               <center>
               <table style='border: 1px solid black;border-collapse: collapse; text-align:center;table-layout: auto;width: 100%;'>
 		       <!--<colgroup>
@@ -371,14 +372,14 @@
 			    <col style="width: 33%" />
 		       </colgroup>-->
               <tr>
-		    <td style='border: 1px solid black;'><p>Deviation</p></td>
+		    <!--<td style='border: 1px solid black;'><p>Deviation</p></td>-->
 		    <td style='border: 1px solid black;'><p>White</p></td>
 	            <td style='border: 1px solid black;'><p>Black or African American</p></td>
 	            <td style='border: 1px solid black;'><p>Asian</p></td>
 	            <td style='border: 1px solid black;'><p>Hispanic or Latino</p></td>
               </tr>
               <tr>
-		    <td style='border: 1px solid black;'><p id='deviation_curr_num'>##</p></td>
+		    <!--<td style='border: 1px solid black;'><p id='deviation_curr_num'>##</p></td>-->
 		    <td style='border: 1px solid black;'><p id='white_curr_num'>##%</p></td>
 	            <td style='border: 1px solid black;'><p id='african_curr_num'>##%</p></td>
 	            <td style='border: 1px solid black;'><p id='asian_curr_num'>##%</p></td>
@@ -829,7 +830,7 @@
 	                    $('#asian_curr').text("N/A %")
 	                    $('#hispanic_curr').text("N/A %")
 	                    $('#taxable_curr').text("Per Capital Taxable Property Value: N/A")
-			    $('#deviation_curr_num').text("N/A")	
+			    $('#deviation_curr_num').text("Deviation: N/A")	
 			    $('#white_curr_num').text("N/A %")
 	                }
 			    
@@ -876,7 +877,7 @@
 			      //$('#african_curr_num').text((((african_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#asian_curr_num').text((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#hispanic_curr_num').text((((hispanic_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#deviation_curr_num').text(new_district_data[file_name]['Deviation'])	
+			      $('#deviation_curr_num').text("Deviation: " + new_district_data[file_name]['Deviation'])	
 			      $('#white_curr_num').text(new_district_data[file_name]['white'] + "%")
 			      $('#african_curr_num').text(new_district_data[file_name]['african'] + "%")
 			      $('#asian_curr_num').text(new_district_data[file_name]['asian'] + "%")

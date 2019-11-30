@@ -86,8 +86,8 @@ District	Senator	Member of Assembly	Member of Assembly
   "Member2": "Joseph V. Egan"
   },
   "18": {
-    "Senator": "Patrick J. Diegnan, Jr."
-    "Member1": "Robert J. Karabinchak"
+    "Senator": "Patrick J. Diegnan, Jr.",
+    "Member1": "Robert J. Karabinchak",
     "Member2": "Nancy J. Pinkin"
   },
   "19": {
@@ -169,6 +169,7 @@ District	Senator	Member of Assembly	Member of Assembly
     "Senator": "Nia H. Gill",
     "Member1": "Thomas P. Giblin",
     "Member2": "Britnee N. Timberlake"
+  },
   "35": {
     "Senator": "Nellie Pou",
     "Member1": "Shavonda E. Sumter",

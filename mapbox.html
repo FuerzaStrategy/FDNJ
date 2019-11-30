@@ -437,6 +437,7 @@
 	    var NJ_Zip = []
 	    var LegislativeDataCurrent = {}
 	    var LegislativeDataPast = {}
+	    var Current_Legislators = {}
 	    var old_n = 40;
 	    var new_n = 40;
 	    var LegislativeDataPast_Districts = {}
@@ -475,8 +476,11 @@
 	   $.getJSON("data/2000_data_districts.json", function(data) { 
 		old_district_data = data
 	    })
+  	   $.getJSON("data/Current_Legislators.json", function(data) {
+	        Current_Legislators = data
+	    })
 		
-	
+	    
 	    function handleIt(zip) {
 	
 	        const Http = new XMLHttpRequest();

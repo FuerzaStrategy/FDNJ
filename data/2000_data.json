@@ -2734,7 +2734,7 @@
         "asian": "0.44",
         "democratic": "15.13",
         "hispanic": "4.48",
-        "population": "6,310",
+        "population": "5,846",
         "republican": "24.86",
         "taxable": "117,617",
         "voters": "4,284"
@@ -2744,7 +2744,7 @@
         "asian": "0.87",
         "democratic": "17.73",
         "hispanic": "2.63",
-        "population": "38,928",
+        "population": "43,416",
         "republican": "27.84",
         "taxable": "44,743",
         "voters": "29,027"
@@ -2754,7 +2754,7 @@
         "asian": "0.38",
         "democratic": "21.36",
         "hispanic": "3.34",
-        "population": "1,559",
+        "population": "1,730",
         "republican": "29.2",
         "taxable": "72,668",
         "voters": "899"
@@ -2764,7 +2764,7 @@
         "asian": "1.22",
         "democratic": "22.98",
         "hispanic": "4.37",
-        "population": "6,653",
+        "population": "7,384",
         "republican": "37.47",
         "taxable": "77,047",
         "voters": "3,803"
@@ -2774,7 +2774,7 @@
         "asian": "0.47",
         "democratic": "7",
         "hispanic": "0.71",
-        "population": "423",
+        "population": "257",
         "republican": "48.18",
         "taxable": "1,214,546",
         "voters": "353"
@@ -2784,7 +2784,7 @@
         "asian": "0.86",
         "democratic": "22.74",
         "hispanic": "1.26",
-        "population": "14,217",
+        "population": "14,899",
         "republican": "16.13",
         "taxable": "47,386",
         "voters": "8,933"
@@ -2794,7 +2794,7 @@
         "asian": "1.31",
         "democratic": "23.67",
         "hispanic": "5.4",
-        "population": "10,343",
+        "population": "10,234",
         "republican": "17.67",
         "taxable": "53,871",
         "voters": "4,720"
@@ -2804,7 +2804,7 @@
         "asian": "6.1",
         "democratic": "30.63",
         "hispanic": "4.46",
-        "population": "19,079",
+        "population": "18,528",
         "republican": "11.69",
         "taxable": "41,091",
         "voters": "10,369"
@@ -2814,7 +2814,7 @@
         "asian": "2.86",
         "democratic": "33.48",
         "hispanic": "5.23",
-        "population": "23,868",
+        "population": "25,232",
         "republican": "12.58",
         "taxable": "72,021",
         "voters": "14,573"
@@ -2824,7 +2824,7 @@
         "asian": "1.56",
         "democratic": "13.66",
         "hispanic": "2.71",
-        "population": "8,193",
+        "population": "5,959",
         "republican": "40.2",
         "taxable": "169,953",
         "voters": "5,841"
@@ -2834,7 +2834,7 @@
         "asian": "12.67",
         "democratic": "23.45",
         "hispanic": "2.89",
-        "population": "36,398",
+        "population": "39,874",
         "republican": "10.25",
         "taxable": "91,504",
         "voters": "21,996"
@@ -2844,7 +2844,7 @@
         "asian": "7.99",
         "democratic": "17.6",
         "hispanic": "6.45",
-        "population": "8,910",
+        "population": "8,736",
         "republican": "18.05",
         "taxable": "52,274",
         "voters": "5,175"
@@ -2854,7 +2854,7 @@
         "asian": "0.27",
         "democratic": "23.82",
         "hispanic": "9.15",
-        "population": "6,928",
+        "population": "6,030",
         "republican": "24.09",
         "taxable": "21,540",
         "voters": "2,228"
@@ -2864,7 +2864,7 @@
         "asian": "7.16",
         "democratic": "20.49",
         "hispanic": "11.71",
-        "population": "9,523",
+        "population": "9,694",
         "republican": "18.07",
         "taxable": "73,299",
         "voters": "5,565"
@@ -2874,7 +2874,7 @@
         "asian": "1.47",
         "democratic": "14.31",
         "hispanic": "1.13",
-        "population": "22,253",
+        "population": "23,355",
         "republican": "26.3",
         "taxable": "76,156",
         "voters": "14,756"
@@ -2884,7 +2884,7 @@
         "asian": "0.48",
         "democratic": "15.22",
         "hispanic": "0.98",
-        "population": "4,173",
+        "population": "3,947",
         "republican": "28.02",
         "taxable": "63,425",
         "voters": "2,969"
@@ -2894,7 +2894,7 @@
         "asian": "1.41",
         "democratic": "12.23",
         "hispanic": "2.45",
-        "population": "5,097",
+        "population": "4,910",
         "republican": "38.65",
         "taxable": "156,855",
         "voters": "3,705"
@@ -2904,7 +2904,7 @@
         "asian": "2.02",
         "democratic": "9.05",
         "hispanic": "1.52",
-        "population": "5,400",
+        "population": "5,744",
         "republican": "40.88",
         "taxable": "214,189",
         "voters": "4,254"
@@ -2914,7 +2914,7 @@
         "asian": "2.1",
         "democratic": "22.4",
         "hispanic": "5.47",
-        "population": "3,801",
+        "population": "3,713",
         "republican": "18.21",
         "taxable": "41,759",
         "voters": "2,268"
@@ -2924,7 +2924,7 @@
         "asian": "7.23",
         "democratic": "30.66",
         "hispanic": "3.96",
-        "population": "12,840",
+        "population": "14,382",
         "republican": "12.11",
         "taxable": "82,390",
         "voters": "9,187"
@@ -2934,7 +2934,7 @@
         "asian": "1.44",
         "democratic": "20.69",
         "hispanic": "2.12",
-        "population": "16,405",
+        "population": "18,302",
         "republican": "28.75",
         "taxable": "57,947",
         "voters": "10,007"
@@ -2944,7 +2944,7 @@
         "asian": "4.16",
         "democratic": "18.2",
         "hispanic": "9",
-        "population": "13,717",
+        "population": "13,712",
         "republican": "17.5",
         "taxable": "58,105",
         "voters": "8,188"
@@ -2954,7 +2954,7 @@
         "asian": "2.59",
         "democratic": "16.02",
         "hispanic": "3.41",
-        "population": "66,327",
+        "population": "65,490",
         "republican": "19.68",
         "taxable": "84,089",
         "voters": "43,368"
@@ -2964,7 +2964,7 @@
         "asian": "2.22",
         "democratic": "10.54",
         "hispanic": "3.69",
-        "population": "6,947",
+        "population": "7,265",
         "republican": "43.15",
         "taxable": "102,781",
         "voters": "4,395"
@@ -2974,7 +2974,7 @@
         "asian": "0.42",
         "democratic": "21.27",
         "hispanic": "2.01",
-        "population": "1,195",
+        "population": "1,180",
         "republican": "30.55",
         "taxable": "73,556",
         "voters": "743"
@@ -2984,7 +2984,7 @@
         "asian": "8.4",
         "democratic": "19.13",
         "hispanic": "2.04",
-        "population": "19,765",
+        "population": "20,171",
         "republican": "27.2",
         "taxable": "239,440",
         "voters": "13,405"
@@ -2994,7 +2994,7 @@
         "asian": "0.98",
         "democratic": "27.68",
         "hispanic": "3.17",
-        "population": "410",
+        "population": "412",
         "republican": "26.64",
         "taxable": "75,282",
         "voters": "289"
@@ -3004,7 +3004,7 @@
         "asian": "3.43",
         "democratic": "14.37",
         "hispanic": "3.51",
-        "population": "8,970",
+        "population": "10,453",
         "republican": "26.25",
         "taxable": "100,844",
         "voters": "5,679"
@@ -3014,7 +3014,7 @@
         "asian": "3.07",
         "democratic": "27.11",
         "hispanic": "3.73",
-        "population": "7,000",
+        "population": "7,034",
         "republican": "13.14",
         "taxable": "70,940",
         "voters": "5,047"
@@ -3024,7 +3024,7 @@
         "asian": "0.8",
         "democratic": "20.18",
         "hispanic": "11.17",
-        "population": "26,847",
+        "population": "27,633",
         "republican": "15.17",
         "taxable": "32,502",
         "voters": "14,630"
@@ -3034,7 +3034,7 @@
         "asian": "2.5",
         "democratic": "18.28",
         "hispanic": "8.67",
-        "population": "3,679",
+        "population": "3,531",
         "republican": "29.66",
         "taxable": "65,466",
         "voters": "2,215"
@@ -3044,7 +3044,7 @@
         "asian": "0.86",
         "democratic": "18.49",
         "hispanic": "1.89",
-        "population": "3,595",
+        "population": "3,228",
         "republican": "21.21",
         "taxable": "132,398",
         "voters": "2,786"
@@ -3054,7 +3054,7 @@
         "asian": "1.23",
         "democratic": "35.81",
         "hispanic": "2.71",
-        "population": "28,967",
+        "population": "36,962",
         "republican": "15.39",
         "taxable": "93,365",
         "voters": "22,046"
@@ -3064,7 +3064,7 @@
         "asian": "0.67",
         "democratic": "10.21",
         "hispanic": "3.28",
-        "population": "3,412",
+        "population": "3,668",
         "republican": "47.79",
         "taxable": "57,365",
         "voters": "1,743"
@@ -3074,7 +3074,7 @@
         "asian": "3.15",
         "democratic": "35.78",
         "hispanic": "5.12",
-        "population": "38,977",
+        "population": "38,676",
         "republican": "10.95",
         "taxable": "80,950",
         "voters": "25,386"
@@ -3084,7 +3084,7 @@
         "asian": "11.5",
         "democratic": "13.14",
         "hispanic": "2.21",
-        "population": "17,481",
+        "population": "23,269",
         "republican": "19.9",
         "taxable": "121,156",
         "voters": "9,392"
@@ -3094,7 +3094,7 @@
         "asian": "5.36",
         "democratic": "14.22",
         "hispanic": "3.09",
-        "population": "7,034",
+        "population": "8,600",
         "republican": "33.11",
         "taxable": "187,737",
         "voters": "4,583"
@@ -3104,7 +3104,7 @@
         "asian": "12.57",
         "democratic": "10.67",
         "hispanic": "2.55",
-        "population": "20,839",
+        "population": "21,330",
         "republican": "33.32",
         "taxable": "136,271",
         "voters": "13,687"
@@ -3114,7 +3114,7 @@
         "asian": "6.64",
         "democratic": "25.88",
         "hispanic": "12.67",
-        "population": "2,754",
+        "population": "2,743",
         "republican": "13.72",
         "taxable": "174,051",
         "voters": "1,597"
@@ -3124,7 +3124,7 @@
         "asian": "3.27",
         "democratic": "17.63",
         "hispanic": "1.75",
-        "population": "19,017",
+        "population": "20,355",
         "republican": "35.1",
         "taxable": "114,407",
         "voters": "12,380"
@@ -3134,7 +3134,7 @@
         "asian": "4.32",
         "democratic": "13.48",
         "hispanic": "2.69",
-        "population": "5,236",
+        "population": "5,912",
         "republican": "44.91",
         "taxable": "160,977",
         "voters": "3,843"
@@ -3144,7 +3144,7 @@
         "asian": "3.9",
         "democratic": "16.99",
         "hispanic": "3.81",
-        "population": "21,796",
+        "population": "22,207",
         "republican": "34.18",
         "taxable": "156,728",
         "voters": "15,953"
@@ -3154,7 +3154,7 @@
         "asian": "3.77",
         "democratic": "31.75",
         "hispanic": "27.15",
-        "population": "18,544",
+        "population": "19,145",
         "republican": "18.68",
         "taxable": "73,695",
         "voters": "9,536"
@@ -3164,7 +3164,7 @@
         "asian": "3.82",
         "democratic": "13.04",
         "hispanic": "4.55",
-        "population": "4,663",
+        "population": "5,877",
         "republican": "31.47",
         "taxable": "73,342",
         "voters": "2,936"
@@ -3174,7 +3174,7 @@
         "asian": "0.62",
         "democratic": "40.19",
         "hispanic": "1.98",
-        "population": "4,495",
+        "population": "4,597",
         "republican": "11.17",
         "taxable": "36,551",
         "voters": "2,802"
@@ -3184,7 +3184,7 @@
         "asian": "1.37",
         "democratic": "21.11",
         "hispanic": "8.78",
-        "population": "10,728",
+        "population": "9,566",
         "republican": "22.43",
         "taxable": "33,177",
         "voters": "5,122"
@@ -3194,7 +3194,7 @@
         "asian": "3.8",
         "democratic": "19.43",
         "hispanic": "2.24",
-        "population": "40,221",
+        "population": "41,196",
         "republican": "19.78",
         "taxable": "75,389",
         "voters": "25,144"
@@ -3204,7 +3204,7 @@
         "asian": "6",
         "democratic": "11.36",
         "hispanic": "5.97",
-        "population": "24,193",
+        "population": "29,051",
         "republican": "30.04",
         "taxable": "74,408",
         "voters": "13,509"
@@ -3214,7 +3214,7 @@
         "asian": "5.17",
         "democratic": "15.25",
         "hispanic": "1.69",
-        "population": "4,256",
+        "population": "4,276",
         "republican": "28.93",
         "taxable": "178,019",
         "voters": "2,938"
@@ -3224,7 +3224,7 @@
         "asian": "2.8",
         "democratic": "17.65",
         "hispanic": "3.01",
-        "population": "6,602",
+        "population": "6,892",
         "republican": "32.43",
         "taxable": "149,641",
         "voters": "4,743"
@@ -3234,7 +3234,7 @@
         "asian": "0.83",
         "democratic": "14.5",
         "hispanic": "16.49",
-        "population": "5,912",
+        "population": "5,924",
         "republican": "31.91",
         "taxable": "47,300",
         "voters": "3,586"
@@ -3244,7 +3244,7 @@
         "asian": "0.25",
         "democratic": "49.14",
         "hispanic": "1.44",
-        "population": "3,205",
+        "population": "2,958",
         "republican": "8.98",
         "taxable": "30,004",
         "voters": "1,982"
@@ -3254,7 +3254,7 @@
         "asian": "2.72",
         "democratic": "25.47",
         "hispanic": "5.31",
-        "population": "5,218",
+        "population": "4,645",
         "republican": "16.42",
         "taxable": "47,783",
         "voters": "17,049"
@@ -3264,7 +3264,7 @@
         "asian": "1.17",
         "democratic": "17.93",
         "hispanic": "5.55",
-        "population": "27,690",
+        "population": "27,595",
         "republican": "20.85",
         "taxable": "53,791",
         "voters": "3,045"
@@ -3274,7 +3274,7 @@
         "asian": "1.67",
         "democratic": "16.92",
         "hispanic": "7.13",
-        "population": "2,580",
+        "population": "3,173",
         "republican": "33.31",
         "taxable": "65,105",
         "voters": "1,690"
@@ -3284,7 +3284,7 @@
         "asian": "5.32",
         "democratic": "22.42",
         "hispanic": "39.01",
-        "population": "48,573",
+        "population": "56,100",
         "republican": "2.85",
         "taxable": "28,447",
         "voters": "25,516"
@@ -3294,7 +3294,7 @@
         "asian": "1.47",
         "democratic": "16.5",
         "hispanic": "19.4",
-        "population": "9,744",
+        "population": "8,033",
         "republican": "30.45",
         "taxable": "4,277",
         "voters": "509"
@@ -3304,7 +3304,7 @@
         "asian": "14.76",
         "democratic": "23.3",
         "hispanic": "8.09",
-        "population": "16,400",
+        "population": "16,558",
         "republican": "15.53",
         "taxable": "64,978",
         "voters": "9,069"
@@ -3314,7 +3314,7 @@
         "asian": "7.6",
         "democratic": "15.79",
         "hispanic": "3.5",
-        "population": "11,907",
+        "population": "13,486",
         "republican": "28.86",
         "taxable": "124,400",
         "voters": "7,446"
@@ -3324,7 +3324,7 @@
         "asian": "1.19",
         "democratic": "43.07",
         "hispanic": "29.47",
-        "population": "273,546",
+        "population": "282,090",
         "republican": "3.8",
         "taxable": "21,664",
         "voters": "130,460"
@@ -3334,7 +3334,7 @@
         "asian": "0.56",
         "democratic": "39.08",
         "hispanic": "3.84",
-        "population": "1,616",
+        "population": "1,549",
         "republican": "19.27",
         "taxable": "41,372",
         "voters": "1,131"
@@ -3344,7 +3344,7 @@
         "asian": "1.97",
         "democratic": "13.5",
         "hispanic": "3.8",
-        "population": "8,244",
+        "population": "7,938",
         "republican": "35.3",
         "taxable": "45,979",
         "voters": "4,060"
@@ -3354,7 +3354,7 @@
         "asian": "5.61",
         "democratic": "23.28",
         "hispanic": "10.57",
-        "population": "15,181",
+        "population": "15,741",
         "republican": "17.88",
         "taxable": "57,793",
         "voters": "8,980"
@@ -3364,7 +3364,7 @@
         "asian": "6.47",
         "democratic": "51.84",
         "hispanic": "57.25",
-        "population": "58,092",
+        "population": "61,627",
         "republican": "10.55",
         "taxable": "41,377",
         "voters": "28,913"
@@ -3374,7 +3374,7 @@
         "asian": "14.2",
         "democratic": "24.06",
         "hispanic": "10.4",
-        "population": "36,287",
+        "population": "41,848",
         "republican": "10.53",
         "taxable": "71,510",
         "voters": "20,454"
@@ -3384,7 +3384,7 @@
         "asian": "4.71",
         "democratic": "17.93",
         "hispanic": "2.16",
-        "population": "7,375",
+        "population": "6,618",
         "republican": "34.91",
         "taxable": "120,102",
         "voters": "4,340"
@@ -3394,7 +3394,7 @@
         "asian": "1",
         "democratic": "14.1",
         "hispanic": "3.89",
-        "population": "7,920",
+        "population": "8,418",
         "republican": "28.65",
         "taxable": "82,166",
         "voters": "5,121"
@@ -3404,7 +3404,7 @@
         "asian": "2.12",
         "democratic": "17.05",
         "hispanic": "5.76",
-        "population": "7,347",
+        "population": "7,502",
         "republican": "21.01",
         "taxable": "27,861",
         "voters": "2,898"
@@ -3414,7 +3414,7 @@
         "asian": "5.04",
         "democratic": "19.23",
         "hispanic": "32.77",
-        "population": "21,103",
+        "population": "21,535",
         "republican": "20.5",
         "taxable": "39,867",
         "voters": "8,029"
@@ -3424,7 +3424,7 @@
         "asian": "0.57",
         "democratic": "11.61",
         "hispanic": "1.95",
-        "population": "4,935",
+        "population": "3,792",
         "republican": "48.86",
         "taxable": "134,567",
         "voters": "4,107"
@@ -3434,7 +3434,7 @@
         "asian": "2.5",
         "democratic": "16.8",
         "hispanic": "4.38",
-        "population": "7,725",
+        "population": "8,212",
         "republican": "33.33",
         "taxable": "64,243",
         "voters": "4,762"
@@ -3444,7 +3444,7 @@
         "asian": "14.06",
         "democratic": "25.63",
         "hispanic": "4.73",
-        "population": "4,460",
+        "population": "4,923",
         "republican": "14.77",
         "taxable": "118,481",
         "voters": "2,788"
@@ -3454,7 +3454,7 @@
         "asian": "18.99",
         "democratic": "19.49",
         "hispanic": "2.99",
-        "population": "5,751",
+        "population": "5,831",
         "republican": "16.4",
         "taxable": "129,133",
         "voters": "3,519"
@@ -3464,7 +3464,7 @@
         "asian": "7.1",
         "democratic": "24.79",
         "hispanic": "6.69",
-        "population": "27,362",
+        "population": "28,500",
         "republican": "19.81",
         "taxable": "72,264",
         "voters": "17,229"
@@ -3474,7 +3474,7 @@
         "asian": "2.7",
         "democratic": "15.21",
         "hispanic": "3.87",
-        "population": "12,466",
+        "population": "13,021",
         "republican": "26.86",
         "taxable": "109,482",
         "voters": "7,793"
@@ -3484,7 +3484,7 @@
         "asian": "0.96",
         "democratic": "35.79",
         "hispanic": "2.32",
-        "population": "4,188",
+        "population": "3,963",
         "republican": "12.66",
         "taxable": "36,895",
         "voters": "2,709"
@@ -3494,7 +3494,7 @@
         "asian": "0.56",
         "democratic": "12.17",
         "hispanic": "1.99",
-        "population": "15,378",
+        "population": "11,041",
         "republican": "35.38",
         "taxable": "291,951",
         "voters": "10,971"
@@ -3504,7 +3504,7 @@
         "asian": "0.96",
         "democratic": "20.33",
         "hispanic": "2.36",
-        "population": "2,076",
+        "population": "2,026",
         "republican": "28",
         "taxable": "49,022",
         "voters": "1,314"
@@ -3514,7 +3514,7 @@
         "asian": "6.27",
         "democratic": "11.71",
         "hispanic": "4.51",
-        "population": "26,959",
+        "population": "26,708",
         "republican": "22.39",
         "taxable": "57,049",
         "voters": "3,867"
@@ -3524,7 +3524,7 @@
         "asian": "0.79",
         "democratic": "21.18",
         "hispanic": "2.07",
-        "population": "5,807",
+        "population": "5,751",
         "republican": "23.3",
         "taxable": "95,610",
         "voters": "4,121"
@@ -3534,7 +3534,7 @@
         "asian": "0.72",
         "democratic": "17.9",
         "hispanic": "4.17",
-        "population": "2,638",
+        "population": "2,266",
         "republican": "28.46",
         "taxable": "44,879",
         "voters": "1,458"
@@ -3544,7 +3544,7 @@
         "asian": "10.82",
         "democratic": "21.61",
         "hispanic": "7.57",
-        "population": "60,456",
+        "population": "65,898",
         "republican": "12.62",
         "taxable": "55,413",
         "voters": "34,777"
@@ -3554,7 +3554,7 @@
         "asian": "15.63",
         "democratic": "13.55",
         "hispanic": "2.75",
-        "population": "5,482",
+        "population": "5,946",
         "republican": "23.89",
         "taxable": "159,615",
         "voters": "3,496"
@@ -3564,7 +3564,7 @@
         "asian": "0.17",
         "democratic": "19.91",
         "hispanic": "4.17",
-        "population": "1,798",
+        "population": "1,795",
         "republican": "22.67",
         "taxable": "72,212",
         "voters": "1,145"
@@ -3574,7 +3574,7 @@
         "asian": "8.09",
         "democratic": "14.94",
         "hispanic": "3.09",
-        "population": "8,047",
+        "population": "8,193",
         "republican": "32.95",
         "taxable": "125,398",
         "voters": "5,384"
@@ -3584,7 +3584,7 @@
         "asian": "1.26",
         "democratic": "43.48",
         "hispanic": "12.47",
-        "population": "32,868",
+        "population": "30,658",
         "republican": "3.46",
         "taxable": "21,427",
         "voters": "14,754"
@@ -3594,7 +3594,7 @@
         "asian": "0.52",
         "democratic": "17.86",
         "hispanic": "3.47",
-        "population": "2,307",
+        "population": "2,433",
         "republican": "24.77",
         "taxable": "45,711",
         "voters": "1,316"
@@ -3604,7 +3604,7 @@
         "asian": "41.09",
         "democratic": "15.8",
         "hispanic": "16.48",
-        "population": "17,073",
+        "population": "20,820",
         "republican": "21.13",
         "taxable": "55,113",
         "voters": "6,311"
@@ -3614,7 +3614,7 @@
         "asian": "1.4",
         "democratic": "26.97",
         "hispanic": "3.23",
-        "population": "7,091",
+        "population": "7,161",
         "republican": "19.48",
         "taxable": "42,360",
         "voters": "4,420"
@@ -3624,7 +3624,7 @@
         "asian": "17.23",
         "democratic": "22.44",
         "hispanic": "4.87",
-        "population": "25,737",
+        "population": "26,558",
         "republican": "20.29",
         "taxable": "163,830",
         "voters": "15,853"
@@ -3634,7 +3634,7 @@
         "asian": "3.86",
         "democratic": "16.83",
         "hispanic": "5.32",
-        "population": "8,708",
+        "population": "8,786",
         "republican": "20.94",
         "taxable": "119,651",
         "voters": "5,575"
@@ -3644,7 +3644,7 @@
         "asian": "18.06",
         "democratic": "14.96",
         "hispanic": "6.98",
-        "population": "50,649",
+        "population": "52,265",
         "republican": "30.72",
         "taxable": "91,154",
         "voters": "28,222"
@@ -3654,7 +3654,7 @@
         "asian": "5.51",
         "democratic": "26.24",
         "hispanic": "62.46",
-        "population": "67,861",
+        "population": "69,948",
         "republican": "7.57",
         "taxable": "20,625",
         "voters": "23,156"
@@ -3664,7 +3664,7 @@
         "asian": "1.9",
         "democratic": "29.96",
         "hispanic": "50.11",
-        "population": "149,222",
+        "population": "145,627",
         "republican": "6.61",
         "taxable": "20,673",
         "voters": "60,971"
@@ -3674,7 +3674,7 @@
         "asian": "0.32",
         "democratic": "44.64",
         "hispanic": "4.35",
-        "population": "6,160",
+        "population": "5,882",
         "republican": "8.06",
         "taxable": "46,196",
         "voters": "3,759"
@@ -3684,7 +3684,7 @@
         "asian": "1.23",
         "democratic": "8.91",
         "hispanic": "3.78",
-        "population": "2,433",
+        "population": "2,591",
         "republican": "55.77",
         "taxable": "206,106",
         "voters": "1,447"
@@ -3694,7 +3694,7 @@
         "asian": "2.4",
         "democratic": "16.49",
         "hispanic": "8.6",
-        "population": "1,210",
+        "population": "1,330",
         "republican": "32.97",
         "taxable": "32,052",
         "voters": "522"
@@ -3704,7 +3704,7 @@
         "asian": "3.18",
         "democratic": "25.51",
         "hispanic": "8.63",
-        "population": "28,691",
+        "population": "27,071",
         "republican": "14.75",
         "taxable": "28,012",
         "voters": "11,586"
@@ -3714,7 +3714,7 @@
         "asian": "1",
         "democratic": "28.89",
         "hispanic": "1.19",
-        "population": "2,696",
+        "population": "2,531",
         "republican": "25.63",
         "taxable": "94,981",
         "voters": "1,904"
@@ -3724,7 +3724,7 @@
         "asian": "0.29",
         "democratic": "35.68",
         "hispanic": "17.29",
-        "population": "4,886",
+        "population": "4,784",
         "republican": "10.32",
         "taxable": "21,766",
         "voters": "2,500"
@@ -3734,7 +3734,7 @@
         "asian": "4.58",
         "democratic": "30.65",
         "hispanic": "14.34",
-        "population": "35,737",
+        "population": "35,703",
         "republican": "11.64",
         "taxable": "44,882",
         "voters": "19,576"

@@ -416,7 +416,7 @@
               </tr>
               <tr style='border: 1px solid white;'>
               <td style='border: 1px solid white;'><p id='senator_curr'></p> </td>
-	      <td style='border: 1px solid white;'><p id='member1_curr' style="float:left"> </p> <p id='member2_curr'> </p></td>
+	      <td style='border: 1px solid white;'><p id='member1_curr' style="float:left"> </p><p id='member2_curr'> </p></td>
 	     
               </tr>
               </table>
@@ -930,8 +930,8 @@
 	                    $('#hispanic_curr').text(data_from_2010['hispanic'] + "%")
 	                    $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
 			    $('#senator_curr').html(Current_Legislators[currentHighlight_new.toString()]['Senator'])
-		            $('#member1_curr').html(" " + Current_Legislators[currentHighlight_new.toString()]['Member1'])
-			    $('#member2_curr').html(Current_Legislators[currentHighlight_new.toString()]['Member2'] + " ")
+		            $('#member1_curr').html(Current_Legislators[currentHighlight_new.toString()]['Member1'])
+			    $('#member2_curr').html(Current_Legislators[currentHighlight_new.toString()]['Member2'])
 	                }
 	
 	                $('#previous_district_number').text("Legislative District " + old_index.toString())

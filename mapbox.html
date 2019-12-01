@@ -928,6 +928,8 @@
 	                    $('#asian_curr').text(data_from_2010['asian'] + "%")
 	                    $('#hispanic_curr').text(data_from_2010['hispanic'] + "%")
 	                    $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
+			    $('#senator_curr').html(Current_Legislators[currentHighlight_new.toString()]['senator'])
+		            $('#member_curr').html(Current_Legislators[currentHighlight_new.toString()]['member1'] + Current_Legislators[currentHighlight_new.toString()]['member2'])
 	                }
 	
 	                $('#previous_district_number').text("Legislative District " + old_index.toString())

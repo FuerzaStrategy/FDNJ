@@ -784,10 +784,10 @@
 			    
 	                if(data_from_2000 == undefined) {
 	                    $('#city_prev').text("Your Town: " + townName)
-	                    $('#voters_prev').text("N/A Registered Voters (Town)")
+	                    $('#voters_prev').text("N/A Registered Voters")
 	                    $('#democratic_prev').text("N/A %")
 	                    $('#republican_prev').text("N/A %")
-	                    $('#population_prev').text("N/A People (Town)")
+	                    $('#population_prev').text("N/A People")
 	                    $('#african_prev').text("N/A %")
 	                    $('#asian_prev').text("N/A %")
 	                    $('#hispanic_prev').text("N/A %")
@@ -808,10 +808,10 @@
 			      $('#democratic_num').text((((dem_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#republican_num').text((((rep_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#population_prev_num').html("District Demographics: " +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
-			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters (District)")
+			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      //}, 10000);
 
-	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters (Town)")
+	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters")
 	                    $('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    $('#republican_prev').text(data_from_2000['republican'] + "%")
 	                    $('#population_prev').text("Town Demographics: " + data_from_2000['population'] + " Total Population")
@@ -823,7 +823,7 @@
 	
 	                if(data_from_2010 == undefined) {
 	                    $('#city_curr').text("Your Town: " + townName)
-	                    $('#voters_curr').text("N/A Registered Voters (Town)")
+	                    $('#voters_curr').text("N/A Registered Voters")
 	                    $('#democratic_curr').text("N/A %")
 	                    $('#republican_curr').text("N/A %")
 	                    $('#population_curr').text("Town Demographics: N/A Total Population")
@@ -886,12 +886,12 @@
 			      $('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#population_curr_num').html("District Demographics: " + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
-			      $('#voters_curr_num').text((district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters (District)")
+			      $('#voters_curr_num').text((district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      $('#added').html("<br>" + (array_added).join(', '))
 			      $('#removed').html("<br>" + (array_removed).join(', '))
 			      //}, 20000);
 				  
-	                    $('#voters_curr').text(data_from_2010['voters'] + " Registered Voters (Town)")
+	                    $('#voters_curr').text(data_from_2010['voters'] + " Registered Voters")
 	                    $('#democratic_curr').text(data_from_2010['democratic'] + "%")
 	                    $('#republican_curr').text(data_from_2010['republican'] + "%")
 	                    $('#population_curr').text("Town Demographics: " + data_from_2010['population'] + " Total Population")

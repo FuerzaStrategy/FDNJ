@@ -1,583 +1,572 @@
-
 {
-"Aberdeen": {	
-  "white": "78.2",	
-  "af": "13",	
-  “ai”: “0.4”,	
-  “a”: “7”,	
-  “haw”: “0.1”,	
-  “other”: “3.3”,	
-  “his”: “10.4”
-},
-“Absecon city”: {	“white”: “78”,	“af”: “10.9”,	“ai”: “0.8”,	“a”: “8.9”,	“haw”: “0.1”,	“other”: “3.9”,	“his”: “7.5”},
-“Alexandria township”: {	“white”: “95.4”,	“af”: “2.2”,	“ai”: “0.2”,	“a”: “2.2”,	“haw”: “0”,	“other”: “0.6”,	“his”: “3.2”},
-“Allamuchy township”: {	“white”: “94.7”,	“af”: “2.1”,	“ai”: “0.4”,	“a”: “3.4”,	“haw”: “0”,	“other”: “0.8”,	“his”: “4.5”}
-“Allendale borough”: {	“white”: “88.9”,	“af”: “0.7”,	“ai”: “0.2”,	“a”: “10.7”,	“haw”: “0”,	“other”: “1”,	“his”: “4.7”}
-“Allenhurst borough”: {	“white”: “96.6”,	“af”: “1”,	“ai”: “0.6”,	“a”: “1”,	“haw”: “0”,	“other”: “2.6”,	“his”: “4.4”}
-“Allentown borough”: {	“white”: “92.7”,	“af”: “5.3”,	“ai”: “1.1”,	“a”: “1.8”,	“haw”: “0”,	“other”: “1.2”,	“his”: “3.6”}
-“Alloway township”: {	“white”: “92.7”,	“af”: “5.8”,	“ai”: “1”,	“a”: “1.4”,	“haw”: “0”,	“other”: “0.8”,	“his”: “2”}
-“Alpha borough”: {	“white”: “94.6”,	“af”: “2.8”,	“ai”: “0.3”,	“a”: “2.4”,	“haw”: “0”,	“other”: “1.7”,	“his”: “5.3”}
-“Alpine borough”: {	“white”: “70.1”,	“af”: “2.4”,	“ai”: “0.2”,	“a”: “27.7”,	“haw”: “0”,	“other”: “1.6”,	“his”: “4.8”}
-“Andover borough”: {	“white”: “93.7”,	“af”: “1.5”,	“ai”: “0.3”,	“a”: “3.3”,	“haw”: “0”,	“other”: “3.1”,	“his”: “7.6”}
-“Andover township”: {	“white”: “93”,	“af”: “3.9”,	“ai”: “0.5”,	“a”: “3.1”,	“haw”: “0.1”,	“other”: “1”,	“his”: “5.1”}
-“Asbury Park city”: {	“white”: “38.7”,	“af”: “53.9”,	“ai”: “1.4”,	“a”: “0.9”,	“haw”: “0.4”,	“other”: “8.6”,	“his”: “25.5”}
-“Atlantic City city”: {	“white”: “29.8”,	“af”: “40.2”,	“ai”: “1.5”,	“a”: “16.6”,	“haw”: “0.2”,	“other”: “16.8”,	“his”: “30.4”}
-“Atlantic Highlands borough”: {	“white”: “94.7”,	“af”: “2”,	“ai”: “0.8”,	“a”: “2.7”,	“haw”: “0.1”,	“other”: “1.5”,	“his”: “5.1”}
-“Audubon borough”: {	“white”: “96.3”,	“af”: “1.9”,	“ai”: “0.5”,	“a”: “1.6”,	“haw”: “0.1”,	“other”: “1”,	“his”: “3.3”}
-“Audubon Park borough”: {	“white”: “99”,	“af”: “0.9”,	“ai”: “0.5”,	“a”: “0.6”,	“haw”: “0.1”,	“other”: “0.4”,	“his”: “2.1”}
-“Avalon borough”: {	“white”: “99”,	“af”: “0.6”,	“ai”: “0.6”,	“a”: “0.4”,	“haw”: “0”,	“other”: “0.4”,	“his”: “2.2”}
-“Avon-by-the-Sea borough”: {	“white”: “97.8”,	“af”: “0.7”,	“ai”: “0.3”,	“a”: “0.8”,	“haw”: “0”,	“other”: “1.3”,	“his”: “3.7”}
-“Barnegat Light borough”: {	“white”: “97.7”,	“af”: “1.2”,	“ai”: “0.2”,	“a”: “0”,	“haw”: “0”,	“other”: “1”,	“his”: “1.9”}
-“Barnegat township”: {	“white”: “93.4”,	“af”: “4.1”,	“ai”: “0.5”,	“a”: “2.2”,	“haw”: “0.1”,	“other”: “1.8”,	“his”: “6.8”}
-“Barrington borough”: {	“white”: “91.4”,	“af”: “6.1”,	“ai”: “0.7”,	“a”: “1.9”,	“haw”: “0.1”,	“other”: “2”,	“his”: “5.4”}
-“Bass River township”: {	“white”: “98.5”,	“af”: “0.6”,	“ai”: “0.7”,	“a”: “0.8”,	“haw”: “0”,	“other”: “0.6”,	“his”: “3.1”}
-“Bay Head borough”: {	“white”: “98.8”,	“af”: “0.6”,	“ai”: “0”,	“a”: “0.8”,	“haw”: “0”,	“other”: “0”,	“his”: “1”}
-“Bayonne city”: {	“white”: “72.2”,	“af”: “10.5”,	“ai”: “0.9”,	“a”: “8.5”,	“haw”: “0.2”,	“other”: “12”,	“his”: “25.8”}
-“Beach Haven borough”: {	“white”: “93”,	“af”: “0.3”,	“ai”: “0.2”,	“a”: “0.9”,	“haw”: “0”,	“other”: “6”,	“his”: “9.9”}
-“Beachwood borough”: {	“white”: “94.1”,	“af”: “2.3”,	“ai”: “0.3”,	“a”: “1.9”,	“haw”: “0”,	“other”: “2.8”,	“his”: “8.1”}
-“Bedminster township”: {	“white”: “88.1”,	“af”: “2.6”,	“ai”: “0.3”,	“a”: “9.6”,	“haw”: “0”,	“other”: “1.3”,	“his”: “6.4”}
-“Belleville township”: {	“white”: “63.4”,	“af”: “10.6”,	“ai”: “0.8”,	“a”: “12.9”,	“haw”: “0.2”,	“other”: “16.4”,	“his”: “39.3”}
-“Bellmawr borough”: {	“white”: “87.8”,	“af”: “2.9”,	“ai”: “0.5”,	“a”: “6.5”,	“haw”: “0.1”,	“other”: “3.9”,	“his”: “7.7”}
-“Belmar borough”: {	“white”: “89.3”,	“af”: “3.8”,	“ai”: “0.6”,	“a”: “1.4”,	“haw”: “0.3”,	“other”: “7.1”,	“his”: “16.8”}
-“Belvidere town”: {	“white”: “97.1”,	“af”: “2.1”,	“ai”: “0.9”,	“a”: “1”,	“haw”: “0”,	“other”: “0.3”,	“his”: “3.6”}
-“Bergenfield borough”: {	“white”: “54.8”,	“af”: “9.1”,	“ai”: “0.8”,	“a”: “27.1”,	“haw”: “0.2”,	“other”: “12”,	“his”: “26.5”}
-“Berkeley Heights township”: {	“white”: “87”,	“af”: “1.8”,	“ai”: “0.2”,	“a”: “11.5”,	“haw”: “0”,	“other”: “1.2”,	“his”: “5.1”}
-“Berkeley township”: {	“white”: “95.7”,	“af”: “2.1”,	“ai”: “0.4”,	“a”: “1.4”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “4.9”}
-“Berlin borough”: {	“white”: “91.9”,	“af”: “4.7”,	“ai”: “0.6”,	“a”: “3.4”,	“haw”: “0.1”,	“other”: “1”,	“his”: “3.1”}
-“Berlin township”: {	“white”: “78.8”,	“af”: “12.7”,	“ai”: “0.8”,	“a”: “5.6”,	“haw”: “0.1”,	“other”: “4.4”,	“his”: “8.3”}
-“Bernards township”: {	“white”: “83.5”,	“af”: “2.2”,	“ai”: “0.2”,	“a”: “15.1”,	“haw”: “0”,	“other”: “0.8”,	“his”: “4”}
-“Bernardsville borough”: {	“white”: “93.3”,	“af”: “1.2”,	“ai”: “0.4”,	“a”: “4”,	“haw”: “0.1”,	“other”: “3.2”,	“his”: “11.7”}
-“Bethlehem township”: {	“white”: “96.5”,	“af”: “1.1”,	“ai”: “0.4”,	“a”: “2.4”,	“haw”: “0.1”,	“other”: “0.6”,	“his”: “4”}
-“Beverly city”: {	“white”: “65.7”,	“af”: “33.1”,	“ai”: “1.4”,	“a”: “1.4”,	“haw”: “0”,	“other”: “3.7”,	“his”: “9.2”}
-“Blairstown township”: {	“white”: “97.1”,	“af”: “1.4”,	“ai”: “0.3”,	“a”: “1.4”,	“haw”: “0”,	“other”: “0.9”,	“his”: “3.8”}
-“Bloomfield township”: {	“white”: “62.3”,	“af”: “20.1”,	“ai”: “1”,	“a”: “9.3”,	“haw”: “0.2”,	“other”: “11.2”,	“his”: “24.5”}
-“Bloomingdale borough”: {	“white”: “93.1”,	“af”: “1.4”,	“ai”: “0.4”,	“a”: “2.8”,	“haw”: “0.1”,	“other”: “3.5”,	“his”: “9.3”}
-“Bloomsbury borough”: {	“white”: “96.7”,	“af”: “1.5”,	“ai”: “0.1”,	“a”: “2.5”,	“haw”: “0.1”,	“other”: “0.6”,	“his”: “4”}
-“Bogota borough”: {	“white”: “64”,	“af”: “11.1”,	“ai”: “1.2”,	“a”: “10.9”,	“haw”: “0.2”,	“other”: “17.1”,	“his”: “38.7”}
-“Boonton town”: {	“white”: “81.6”,	“af”: “5.8”,	“ai”: “0.9”,	“a”: “11.9”,	“haw”: “0.2”,	“other”: “3.3”,	“his”: “11”}
-“Boonton township”: {	“white”: “93.7”,	“af”: “1.9”,	“ai”: “0.2”,	“a”: “4.8”,	“haw”: “0.1”,	“other”: “0.7”,	“his”: “4.2”}
-“Bordentown city”: {	“white”: “85.4”,	“af”: “11.4”,	“ai”: “0.7”,	“a”: “3.1”,	“haw”: “0.1”,	“other”: “1.7”,	“his”: “5.8”}
-“Bordentown township”: {	“white”: “76.3”,	“af”: “11.7”,	“ai”: “0.6”,	“a”: “11.5”,	“haw”: “0.2”,	“other”: “2.3”,	“his”: “6”}
-“Bound Brook borough”: {	“white”: “73”,	“af”: “6.7”,	“ai”: “1”,	“a”: “3.2”,	“haw”: “0.1”,	“other”: “20.1”,	“his”: “48.7”}
-“Bradley Beach borough”: {	“white”: “87.3”,	“af”: “6.1”,	“ai”: “0.8”,	“a”: “2.3”,	“haw”: “0.1”,	“other”: “6.1”,	“his”: “19.5”}
-“Branchburg township”: {	“white”: “88.2”,	“af”: “2.8”,	“ai”: “0.5”,	“a”: “9.3”,	“haw”: “0.1”,	“other”: “1”,	“his”: “4.4”}
-“Branchville borough”: {	“white”: “97.7”,	“af”: “1”,	“ai”: “0.6”,	“a”: “1.1”,	“haw”: “0”,	“other”: “1”,	“his”: “3.9”}
-“Brick township”: {	“white”: “94.3”,	“af”: “2.6”,	“ai”: “0.5”,	“a”: “2”,	“haw”: “0.1”,	“other”: “2.2”,	“his”: “7.1”}
-“Bridgeton city”: {	“white”: “35.6”,	“af”: “37.6”,	“ai”: “2.5”,	“a”: “0.8”,	“haw”: “0.2”,	“other”: “27.9”,	“his”: “43.6”}
-“Bridgewater township”: {	“white”: “77.9”,	“af”: “2.8”,	“ai”: “0.3”,	“a”: “18.9”,	“haw”: “0”,	“other”: “2”,	“his”: “6.8”}
-“Brielle borough”: {	“white”: “95.6”,	“af”: “3.1”,	“ai”: “0.5”,	“a”: “1.5”,	“haw”: “0”,	“other”: “0.7”,	“his”: “3.2”}
-“Brigantine city”: {	“white”: “89”,	“af”: “3.8”,	“ai”: “0.8”,	“a”: “5.5”,	“haw”: “0.1”,	“other”: “3.2”,	“his”: “6.9”}
-“Brooklawn borough”: {	“white”: “90.1”,	“af”: “6.6”,	“ai”: “0.8”,	“a”: “2.5”,	“haw”: “0.1”,	“other”: “2.8”,	“his”: “6.3”}
-“Buena borough”: {	“white”: “75.8”,	“af”: “11”,	“ai”: “1.3”,	“a”: “2”,	“haw”: “0.3”,	“other”: “12.7”,	“his”: “29.4”}
-“Buena Vista township”: {	“white”: “80.3”,	“af”: “14.9”,	“ai”: “1.1”,	“a”: “1.5”,	“haw”: “0.2”,	“other”: “5”,	“his”: “11.5”}
-“Burlington city”: {	“white”: “61.5”,	“af”: “35.9”,	“ai”: “1.2”,	“a”: “2.4”,	“haw”: “0.1”,	“other”: “2.8”,	“his”: “6.5”}
-“Burlington township”: {	“white”: “61.3”,	“af”: “30.2”,	“ai”: “0.9”,	“a”: “8”,	“haw”: “0.2”,	“other”: “3.1”,	“his”: “7.1”}
-“Butler borough”: {	“white”: “90.6”,	“af”: “1.7”,	“ai”: “0.5”,	“a”: “3.5”,	“haw”: “0.1”,	“other”: “5.5”,	“his”: “11.4”}
-“Byram township”: {	“white”: “95.6”,	“af”: “1.8”,	“ai”: “0.4”,	“a”: “2.6”,	“haw”: “0”,	“other”: “0.9”,	“his”: “5”}
-“Caldwell borough”: {	“white”: “88.3”,	“af”: “3.9”,	“ai”: “0.4”,	“a”: “5.5”,	“haw”: “0.2”,	“other”: “3.7”,	“his”: “10”}
-“Califon borough”: {	“white”: “98.7”,	“af”: “1.8”,	“ai”: “0.9”,	“a”: “1.6”,	“haw”: “0”,	“other”: “0.1”,	“his”: “1.3”}
-“Camden city”: {	“white”: “19.8”,	“af”: “50.4”,	“ai”: “1.5”,	“a”: “2.5”,	“haw”: “0.2”,	“other”: “29.8”,	“his”: “47”}
-“Cape May city”: {	“white”: “91.6”,	“af”: “5.7”,	“ai”: “1.2”,	“a”: “1.3”,	“haw”: “0.3”,	“other”: “3”,	“his”: “8.6”}
-“Cape May Point borough”: {	“white”: “96.6”,	“af”: “3.4”,	“ai”: “0.7”,	“a”: “0.3”,	“haw”: “0.3”,	“other”: “1.4”,	“his”: “0.3”}
-“Carlstadt borough”: {	“white”: “83.5”,	“af”: “3.2”,	“ai”: “0.4”,	“a”: “8.7”,	“haw”: “0.2”,	“other”: “6.5”,	“his”: “18”}
-“Carneys Point township”: {	“white”: “76”,	“af”: “18.5”,	“ai”: “0.7”,	“a”: “1”,	“haw”: “0”,	“other”: “6.3”,	“his”: “11.2”}
-“Carteret borough”: {	“white”: “53”,	“af”: “16.4”,	“ai”: “1.1”,	“a”: “20.4”,	“haw”: “0.2”,	“other”: “13.2”,	“his”: “30.9”}
-“Cedar Grove township”: {	“white”: “89.9”,	“af”: “2.6”,	“ai”: “0.1”,	“a”: “7.1”,	“haw”: “0”,	“other”: “1.3”,	“his”: “5.9”}
-“Chatham borough”: {	“white”: “92.8”,	“af”: “1.4”,	“ai”: “0.3”,	“a”: “6.1”,	“haw”: “0”,	“other”: “1.3”,	“his”: “5.1”}
-“Chatham township”: {	“white”: “92.4”,	“af”: “0.9”,	“ai”: “0.2”,	“a”: “7.7”,	“haw”: “0.1”,	“other”: “0.4”,	“his”: “3.3”}
-“Cherry Hill township”: {	“white”: “79.8”,	“af”: “7”,	“ai”: “0.5”,	“a”: “12.7”,	“haw”: “0.1”,	“other”: “2.3”,	“his”: “5.6”}
-“Chesilhurst borough”: {	“white”: “44.6”,	“af”: “48.3”,	“ai”: “0.9”,	“a”: “1”,	“haw”: “0”,	“other”: “8.2”,	“his”: “11.6”}
-“Chester borough”: {	“white”: “92.9”,	“af”: “1.7”,	“ai”: “1.3”,	“a”: “2.5”,	“haw”: “0”,	“other”: “3.8”,	“his”: “13.5”}
-“Chester township”: {	“white”: “94.8”,	“af”: “1.4”,	“ai”: “0.3”,	“a”: “4.3”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “4.4”}
-“Chesterfield township”: {	“white”: “55.7”,	“af”: “31”,	“ai”: “1.6”,	“a”: “9.1”,	“haw”: “0.2”,	“other”: “5.9”,	“his”: “13.1”}
-“Cinnaminson township”: {	“white”: “90.8”,	“af”: “6.1”,	“ai”: “0.4”,	“a”: “2.9”,	“haw”: “0.1”,	“other”: “1.3”,	“his”: “3.1”}
-“City of Orange township”: {	“white”: “14.9”,	“af”: “73.7”,	“ai”: “1.2”,	“a”: “1.9”,	“haw”: “0.3”,	“other”: “11.7”,	“his”: “21.7”}
-“Clark township”: {	“white”: “94.1”,	“af”: “1”,	“ai”: “0.3”,	“a”: “4”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “7.5”}
-“Clayton borough”: {	“white”: “77.7”,	“af”: “20.3”,	“ai”: “1”,	“a”: “2.7”,	“haw”: “0”,	“other”: “1.9”,	“his”: “6”}
-“Clementon borough”: {	“white”: “73.8”,	“af”: “20.7”,	“ai”: “1.7”,	“a”: “2.6”,	“haw”: “0”,	“other”: “4.4”,	“his”: “10.3”}
-“Cliffside Park borough”: {	“white”: “73.3”,	“af”: “4.1”,	“ai”: “0.8”,	“a”: “15”,	“haw”: “0.2”,	“other”: “10.6”,	“his”: “28.4”}
-“Clifton city”: {	“white”: “72.4”,	“af”: “5.9”,	“ai”: “0.8”,	“a”: “10.1”,	“haw”: “0.2”,	“other”: “14.4”,	“his”: “31.9”}
-“Clinton town”: {	“white”: “90.8”,	“af”: “1.5”,	“ai”: “0.5”,	“a”: “7.5”,	“haw”: “0.1”,	“other”: “1.3”,	“his”: “6.2”}
-“Clinton township”: {	“white”: “87.8”,	“af”: “6.5”,	“ai”: “0.5”,	“a”: “4.7”,	“haw”: “0.1”,	“other”: “2.1”,	“his”: “5.6”}
-“Closter borough”: {	“white”: “65.2”,	“af”: “1.5”,	“ai”: “0.2”,	“a”: “32.6”,	“haw”: “0”,	“other”: “1.8”,	“his”: “6”}
-“Collingswood borough”: {	“white”: “84”,	“af”: “10.4”,	“ai”: “0.9”,	“a”: “2.9”,	“haw”: “0.1”,	“other”: “4.6”,	“his”: “9.7”}
-“Colts Neck township”: {	“white”: “93.2”,	“af”: “1.9”,	“ai”: “0.2”,	“a”: “5.4”,	“haw”: “0”,	“other”: “0.6”,	“his”: “3.5”}
-“Commercial township”: {	“white”: “86.9”,	“af”: “12.1”,	“ai”: “1.6”,	“a”: “0.9”,	“haw”: “0”,	“other”: “2.2”,	“his”: “6.1”}
-“Corbin City city”: {	“white”: “97.8”,	“af”: “0.4”,	“ai”: “0.2”,	“a”: “1.2”,	“haw”: “0”,	“other”: “0.6”,	“his”: “3.5”}
-“County subdivisions not defined”: {	“white”: “(X)”,	“af”: “(X)”,	“ai”: “(X)”,	“a”: “(X)”,	“haw”: “(X)”,	“other”: “(X)”,	“his”: “(X)”}
-“County subdivisions not defined”: {	“white”: “(X)”,	“af”: “(X)”,	“ai”: “(X)”,	“a”: “(X)”,	“haw”: “(X)”,	“other”: “(X)”,	“his”: “(X)”}
-“County subdivisions not defined”: {	“white”: “(X)”,	“af”: “(X)”,	“ai”: “(X)”,	“a”: “(X)”,	“haw”: “(X)”,	“other”: “(X)”,	“his”: “(X)”}
-“County subdivisions not defined”: {	“white”: “(X)”,	“af”: “(X)”,	“ai”: “(X)”,	“a”: “(X)”,	“haw”: “(X)”,	“other”: “(X)”,	“his”: “(X)”}
-“Cranbury township”: {	“white”: “82”,	“af”: “3.9”,	“ai”: “0.3”,	“a”: “14.9”,	“haw”: “0.1”,	“other”: “0.7”,	“his”: “2.6”}
-“Cranford township”: {	“white”: “93.2”,	“af”: “3.1”,	“ai”: “0.4”,	“a”: “3.6”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “6.5”}
-“Cresskill borough”: {	“white”: “70.3”,	“af”: “1”,	“ai”: “0.1”,	“a”: “28.8”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “6.3”}
-“Deal borough”: {	“white”: “92.7”,	“af”: “2.1”,	“ai”: “0.3”,	“a”: “3.9”,	“haw”: “0.1”,	“other”: “2.1”,	“his”: “7.3”}
-“Deerfield township”: {	“white”: “76.4”,	“af”: “14.3”,	“ai”: “3.4”,	“a”: “1.8”,	“haw”: “0”,	“other”: “8.4”,	“his”: “14.1”}
-“Delanco township”: {	“white”: “85.3”,	“af”: “12.5”,	“ai”: “0.9”,	“a”: “2.7”,	“haw”: “0.2”,	“other”: “1.4”,	“his”: “3.5”}
-“Delaware township”: {	“white”: “97.7”,	“af”: “1”,	“ai”: “0.7”,	“a”: “1.4”,	“haw”: “0”,	“other”: “0.7”,	“his”: “2.5”}
-“Delran township”: {	“white”: “83”,	“af”: “10.7”,	“ai”: “0.7”,	“a”: “4.7”,	“haw”: “0.1”,	“other”: “3.5”,	“his”: “4.6”}
-“Demarest borough”: {	“white”: “71.9”,	“af”: “0.9”,	“ai”: “0.2”,	“a”: “28”,	“haw”: “0.2”,	“other”: “1”,	“his”: “4.4”}
-“Dennis township”: {	“white”: “98.1”,	“af”: “1.4”,	“ai”: “0.5”,	“a”: “0.7”,	“haw”: “0”,	“other”: “0.6”,	“his”: “1.8”}
-“Denville township”: {	“white”: “91”,	“af”: “1.9”,	“ai”: “0.5”,	“a”: “7.4”,	“haw”: “0”,	“other”: “1”,	“his”: “5.3”}
-“Deptford township”: {	“white”: “80.7”,	“af”: “13.4”,	“ai”: “0.7”,	“a”: “4.9”,	“haw”: “0.1”,	“other”: “2.6”,	“his”: “6”}
-“Dover town”: {	“white”: “70”,	“af”: “7.5”,	“ai”: “1.1”,	“a”: “3”,	“haw”: “0.1”,	“other”: “22.7”,	“his”: “69.4”}
-“Downe township”: {	“white”: “95”,	“af”: “2.8”,	“ai”: “2”,	“a”: “0.3”,	“haw”: “0”,	“other”: “2.3”,	“his”: “3.8”}
-“Dumont borough”: {	“white”: “77.6”,	“af”: “3.2”,	“ai”: “0.4”,	“a”: “16.1”,	“haw”: “0.2”,	“other”: “5”,	“his”: “14.8”}
-“Dunellen borough”: {	“white”: “76.4”,	“af”: “9.5”,	“ai”: “0.7”,	“a”: “5.2”,	“haw”: “0.2”,	“other”: “11.5”,	“his”: “26.7”}
-“Eagleswood township”: {	“white”: “97.4”,	“af”: “1.1”,	“ai”: “0.6”,	“a”: “0.9”,	“haw”: “0”,	“other”: “1”,	“his”: “3.4”}
-“East Amwell township”: {	“white”: “96.5”,	“af”: “1.4”,	“ai”: “0.4”,	“a”: “1.7”,	“haw”: “0”,	“other”: “0.8”,	“his”: “2.8”}
-“East Brunswick township”: {	“white”: “70.9”,	“af”: “4.6”,	“ai”: “0.3”,	“a”: “23.9”,	“haw”: “0.1”,	“other”: “2.4”,	“his”: “6.7”}
-“East Greenwich township”: {	“white”: “89.5”,	“af”: “6.4”,	“ai”: “0.4”,	“a”: “4.2”,	“haw”: “0.1”,	“other”: “0.8”,	“his”: “3”}
-“East Hanover township”: {	“white”: “86”,	“af”: “1.1”,	“ai”: “0.2”,	“a”: “12.5”,	“haw”: “0.1”,	“other”: “1.3”,	“his”: “5.4”}
-“East Newark borough”: {	“white”: “66.4”,	“af”: “2.5”,	“ai”: “0.8”,	“a”: “8.1”,	“haw”: “0.1”,	“other”: “26.1”,	“his”: “61.4”}
-“East Orange city”: {	“white”: “5.1”,	“af”: “90.5”,	“ai”: “1.1”,	“a”: “1”,	“haw”: “0.3”,	“other”: “4.8”,	“his”: “7.9”}
-“East Rutherford borough”: {	“white”: “75”,	“af”: “5.3”,	“ai”: “0.6”,	“a”: “14.8”,	“haw”: “0.1”,	“other”: “6.9”,	“his”: “17.5”}
-“East Windsor township”: {	“white”: “64.2”,	“af”: “9.5”,	“ai”: “1”,	“a”: “18.6”,	“haw”: “0.2”,	“other”: “9.6”,	“his”: “19.6”}
-“Eastampton township”: {	“white”: “75.8”,	“af”: “19”,	“ai”: “1.1”,	“a”: “5.4”,	“haw”: “0.1”,	“other”: “2.2”,	“his”: “8.3”}
-“Eatontown borough”: {	“white”: “74.2”,	“af”: “14.4”,	“ai”: “1”,	“a”: “9.8”,	“haw”: “0.3”,	“other”: “4.3”,	“his”: “12.4”}
-“Edgewater borough”: {	“white”: “55.5”,	“af”: “5.8”,	“ai”: “0.5”,	“a”: “36.9”,	“haw”: “0.1”,	“other”: “4.2”,	“his”: “11.1”}
-“Edgewater Park township”: {	“white”: “61.6”,	“af”: “30”,	“ai”: “1.3”,	“a”: “4.4”,	“haw”: “0.2”,	“other”: “8.1”,	“his”: “10.9”}
-“Edison township”: {	“white”: “45.4”,	“af”: “7.7”,	“ai”: “0.7”,	“a”: “44.9”,	“haw”: “0.2”,	“other”: “3.9”,	“his”: “8.1”}
-“Egg Harbor City city”: {	“white”: “66.3”,	“af”: “20.6”,	“ai”: “1.2”,	“a”: “2.8”,	“haw”: “0.3”,	“other”: “13.4”,	“his”: “26.3”}
-“Egg Harbor township”: {	“white”: “72.4”,	“af”: “10.9”,	“ai”: “1”,	“a”: “12.9”,	“haw”: “0.1”,	“other”: “6.2”,	“his”: “13”}
-“Elizabeth city”: {	“white”: “58.2”,	“af”: “22.5”,	“ai”: “1.4”,	“a”: “2.5”,	“haw”: “0.2”,	“other”: “20”,	“his”: “59.5”}
-“Elk township”: {	“white”: “82”,	“af”: “16.4”,	“ai”: “1.3”,	“a”: “0.9”,	“haw”: “0”,	“other”: “2.3”,	“his”: “5.1”}
-“Elmer borough”: {	“white”: “95.1”,	“af”: “2.7”,	“ai”: “0.9”,	“a”: “1.1”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “3.2”}
-“Elmwood Park borough”: {	“white”: “77.5”,	“af”: “6.1”,	“ai”: “0.7”,	“a”: “11.8”,	“haw”: “0.1”,	“other”: “6.8”,	“his”: “21.2”}
-“Elsinboro township”: {	“white”: “94.9”,	“af”: “4.2”,	“ai”: “0.5”,	“a”: “0.7”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “2.2”}
-“Emerson borough”: {	“white”: “88.8”,	“af”: “1.4”,	“ai”: “0.2”,	“a”: “9.5”,	“haw”: “0.2”,	“other”: “1.5”,	“his”: “8.4”}
-“Englewood city”: {	“white”: “47.6”,	“af”: “34.7”,	“ai”: “1.3”,	“a”: “8.9”,	“haw”: “0.2”,	“other”: “11.4”,	“his”: “27.5”}
-“Englewood Cliffs borough”: {	“white”: “57.9”,	“af”: “2.3”,	“ai”: “0.3”,	“a”: “40.1”,	“haw”: “0.1”,	“other”: “1.5”,	“his”: “6”}
-“Englishtown borough”: {	“white”: “89.4”,	“af”: “2.7”,	“ai”: “0.1”,	“a”: “8”,	“haw”: “0.2”,	“other”: “1.1”,	“his”: “8”}
-“Essex Fells borough”: {	“white”: “96.5”,	“af”: “1.1”,	“ai”: “0.6”,	“a”: “3.3”,	“haw”: “0”,	“other”: “0.5”,	“his”: “2”}
-“Estell Manor city”: {	“white”: “97.2”,	“af”: “1.4”,	“ai”: “0.4”,	“a”: “1.6”,	“haw”: “0”,	“other”: “0.2”,	“his”: “1”}
-“Evesham township”: {	“white”: “88.4”,	“af”: “4.9”,	“ai”: “0.5”,	“a”: “6.9”,	“haw”: “0.1”,	“other”: “1.1”,	“his”: “3.4”}
-“Ewing township”: {	“white”: “64.9”,	“af”: “29.1”,	“ai”: “0.8”,	“a”: “4.9”,	“haw”: “0.2”,	“other”: “2.8”,	“his”: “7.6”}
-“Fair Haven borough”: {	“white”: “95.7”,	“af”: “3.2”,	“ai”: “0.3”,	“a”: “1.6”,	“haw”: “0.1”,	“other”: “0.5”,	“his”: “2.7”}
-“Fair Lawn borough”: {	“white”: “85.8”,	“af”: “2.3”,	“ai”: “0.4”,	“a”: “10.5”,	“haw”: “0”,	“other”: “3”,	“his”: “10.2”}
-“Fairfield township”: {	“white”: “40.7”,	“af”: “50.6”,	“ai”: “7.5”,	“a”: “0.7”,	“haw”: “0.1”,	“other”: “5.7”,	“his”: “12.8”}
-“Fairfield township”: {	“white”: “95.6”,	“af”: “0.9”,	“ai”: “0.5”,	“a”: “3”,	“haw”: “0.1”,	“other”: “1”,	“his”: “5.1”}
-“Fairview borough”: {	“white”: “71.2”,	“af”: “3.9”,	“ai”: “1.3”,	“a”: “5.6”,	“haw”: “0.1”,	“other”: “23.8”,	“his”: “54.6”}
-“Fanwood borough”: {	“white”: “86.6”,	“af”: “6”,	“ai”: “0.4”,	“a”: “7.9”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “6.3”}
-“Far Hills borough”: {	“white”: “96.8”,	“af”: “1”,	“ai”: “0”,	“a”: “2.5”,	“haw”: “0”,	“other”: “1.3”,	“his”: “9.6”}
-“Farmingdale borough”: {	“white”: “91.6”,	“af”: “4.1”,	“ai”: “1”,	“a”: “4”,	“haw”: “0”,	“other”: “2.3”,	“his”: “6.9”}
-“Fieldsboro borough”: {	“white”: “84.4”,	“af”: “14.4”,	“ai”: “0.9”,	“a”: “3.1”,	“haw”: “0”,	“other”: “0.9”,	“his”: “2.8”}
-“Flemington borough”: {	“white”: “80.5”,	“af”: “4.8”,	“ai”: “1.2”,	“a”: “6.7”,	“haw”: “0.2”,	“other”: “9.5”,	“his”: “26.2”}
-“Florence township”: {	“white”: “80.9”,	“af”: “13.7”,	“ai”: “0.8”,	“a”: “6.1”,	“haw”: “0.1”,	“other”: “1.6”,	“his”: “4.8”}
-“Florham Park borough”: {	“white”: “87.7”,	“af”: “5”,	“ai”: “0.3”,	“a”: “7.3”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “5.1”}
-“Folsom borough”: {	“white”: “92.4”,	“af”: “5”,	“ai”: “0.4”,	“a”: “1.4”,	“haw”: “0.6”,	“other”: “2.2”,	“his”: “6.7”}
-“Fort Lee borough”: {	“white”: “55.1”,	“af”: “3.3”,	“ai”: “0.3”,	“a”: “39.5”,	“haw”: “0.1”,	“other”: “3.8”,	“his”: “11”}
-“Frankford township”: {	“white”: “97.6”,	“af”: “1.4”,	“ai”: “0.5”,	“a”: “1.4”,	“haw”: “0.1”,	“other”: “0.5”,	“his”: “3.2”}
-“Franklin borough”: {	“white”: “94.3”,	“af”: “2.8”,	“ai”: “1.1”,	“a”: “2.5”,	“haw”: “0.1”,	“other”: “1.8”,	“his”: “7.8”}
-“Franklin Lakes borough”: {	“white”: “90.3”,	“af”: “1.7”,	“ai”: “0.1”,	“a”: “8.3”,	“haw”: “0”,	“other”: “1.1”,	“his”: “5”}
-“Franklin township”: {	“white”: “90”,	“af”: “8.1”,	“ai”: “0.9”,	“a”: “1.6”,	“haw”: “0.1”,	“other”: “1.3”,	“his”: “4.5”}
-“Franklin township”: {	“white”: “97.4”,	“af”: “0.8”,	“ai”: “0.3”,	“a”: “1.4”,	“haw”: “0.1”,	“other”: “0.7”,	“his”: “3.4”}
-“Franklin township”: {	“white”: “46.9”,	“af”: “28.1”,	“ai”: “0.9”,	“a”: “21.3”,	“haw”: “0.2”,	“other”: “6.3”,	“his”: “12.9”}
-“Franklin township”: {	“white”: “95.6”,	“af”: “1.8”,	“ai”: “0.5”,	“a”: “3”,	“haw”: “0”,	“other”: “0.6”,	“his”: “3.8”}
-“Fredon township”: {	“white”: “96.9”,	“af”: “0.7”,	“ai”: “0.3”,	“a”: “2.3”,	“haw”: “0.2”,	“other”: “0.7”,	“his”: “3.7”}
-“Freehold borough”: {	“white”: “68.1”,	“af”: “13.7”,	“ai”: “1”,	“a”: “3.4”,	“haw”: “0.2”,	“other”: “16.6”,	“his”: “42.9”}
-“Freehold township”: {	“white”: “85.8”,	“af”: “5.8”,	“ai”: “0.3”,	“a”: “7.9”,	“haw”: “0.1”,	“other”: “1.9”,	“his”: “7.8”}
-“Frelinghuysen township”: {	“white”: “98.3”,	“af”: “0.9”,	“ai”: “0.3”,	“a”: “0.7”,	“haw”: “0”,	“other”: “0.9”,	“his”: “2.6”}
-“Frenchtown borough”: {	“white”: “97.7”,	“af”: “1.6”,	“ai”: “0.8”,	“a”: “1”,	“haw”: “0.1”,	“other”: “0.2”,	“his”: “5.1”}
-“Galloway township”: {	“white”: “74.2”,	“af”: “12.7”,	“ai”: “0.9”,	“a”: “11.1”,	“haw”: “0.1”,	“other”: “4.2”,	“his”: “10”}
-“Garfield city”: {	“white”: “79.3”,	“af”: “7.7”,	“ai”: “0.9”,	“a”: “2.8”,	“haw”: “0.1”,	“other”: “12.7”,	“his”: “32.2”}
-“Garwood borough”: {	“white”: “94.7”,	“af”: “1.6”,	“ai”: “0.2”,	“a”: “2.7”,	“haw”: “0”,	“other”: “2.7”,	“his”: “8.8”}
-“Gibbsboro borough”: {	“white”: “94.4”,	“af”: “2.7”,	“ai”: “0.4”,	“a”: “3.2”,	“haw”: “0.3”,	“other”: “1.3”,	“his”: “4.1”}
-“Glassboro borough”: {	“white”: “74.6”,	“af”: “20.5”,	“ai”: “0.7”,	“a”: “3.5”,	“haw”: “0.1”,	“other”: “3.7”,	“his”: “7.4”}
-“Glen Gardner borough”: {	“white”: “96”,	“af”: “2.3”,	“ai”: “0.4”,	“a”: “2.3”,	“haw”: “0.1”,	“other”: “0.6”,	“his”: “5.3”}
-“Glen Ridge borough”: {	“white”: “88.6”,	“af”: “5.7”,	“ai”: “0.4”,	“a”: “6.3”,	“haw”: “0”,	“other”: “1.8”,	“his”: “5”}
-“Glen Rock borough”: {	“white”: “88.7”,	“af”: “1.7”,	“ai”: “0.2”,	“a”: “10.1”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “4.5”}
-“Gloucester City city”: {	“white”: “92.2”,	“af”: “3.9”,	“ai”: “0.5”,	“a”: “2.9”,	“haw”: “0”,	“other”: “2.3”,	“his”: “6.7”}
-“Gloucester township”: {	“white”: “77.6”,	“af”: “17.7”,	“ai”: “0.7”,	“a”: “4.2”,	“haw”: “0.1”,	“other”: “2.3”,	“his”: “5.6”}
-“Green Brook township”: {	“white”: “75”,	“af”: “4”,	“ai”: “0.3”,	“a”: “21.1”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “6.9”}
-“Green township”: {	“white”: “96.1”,	“af”: “1.4”,	“ai”: “0.5”,	“a”: “2.3”,	“haw”: “0”,	“other”: “1.2”,	“his”: “4.8”}
-“Greenwich township”: {	“white”: “93.7”,	“af”: “5.2”,	“ai”: “3”,	“a”: “1.7”,	“haw”: “0”,	“other”: “0.6”,	“his”: “2.6”}
-“Greenwich township”: {	“white”: “94.6”,	“af”: “4.8”,	“ai”: “0.7”,	“a”: “1”,	“haw”: “0”,	“other”: “0.5”,	“his”: “2.3”}
-“Greenwich township”: {	“white”: “86”,	“af”: “7.1”,	“ai”: “0.4”,	“a”: “6.9”,	“haw”: “0.2”,	“other”: “1.4”,	“his”: “6.4”}
-“Guttenberg town”: {	“white”: “71.9”,	“af”: “6.4”,	“ai”: “1.5”,	“a”: “8.1”,	“haw”: “0.2”,	“other”: “17.5”,	“his”: “64.8”}
-“Hackensack city”: {	“white”: “49.8”,	“af”: “26”,	“ai”: “1.3”,	“a”: “11.2”,	“haw”: “0.3”,	“other”: “16.2”,	“his”: “35.3”}
-“Hackettstown town”: {	“white”: “86.6”,	“af”: “3.1”,	“ai”: “0.6”,	“a”: “5.6”,	“haw”: “0.2”,	“other”: “6”,	“his”: “15.2”}
-“Haddon Heights borough”: {	“white”: “96.6”,	“af”: “1.6”,	“ai”: “0.5”,	“a”: “1.7”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “2.6”}
-“Haddon township”: {	“white”: “94.4”,	“af”: “1.9”,	“ai”: “0.4”,	“a”: “3.2”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “4”}
-“Haddonfield borough”: {	“white”: “96.5”,	“af”: “1.6”,	“ai”: “0.2”,	“a”: “2.6”,	“haw”: “0”,	“other”: “0.5”,	“his”: “2.1”}
-“Hainesport township”: {	“white”: “86.4”,	“af”: “8.6”,	“ai”: “0.4”,	“a”: “4.9”,	“haw”: “0”,	“other”: “1.9”,	“his”: “5.1”}
-“Haledon borough”: {	“white”: “65.8”,	“af”: “13”,	“ai”: “1”,	“a”: “7.3”,	“haw”: “0.2”,	“other”: “17.2”,	“his”: “41.6”}
-“Hamburg borough”: {	“white”: “93.5”,	“af”: “3.3”,	“ai”: “0.9”,	“a”: “2.8”,	“haw”: “0”,	“other”: “2.5”,	“his”: “6.9”}
-“Hamilton township”: {	“white”: “70.9”,	“af”: “20.5”,	“ai”: “1.3”,	“a”: “6.2”,	“haw”: “0.1”,	“other”: “5.1”,	“his”: “12.8”}
-“Hamilton township”: {	“white”: “79.9”,	“af”: “12.7”,	“ai”: “0.5”,	“a”: “3.8”,	“haw”: “0.2”,	“other”: “5”,	“his”: “10.9”}
-“Hammonton town”: {	“white”: “84.2”,	“af”: “3.8”,	“ai”: “0.8”,	“a”: “1.8”,	“haw”: “0.1”,	“other”: “12.3”,	“his”: “20.9”}
-“Hampton borough”: {	“white”: “93.6”,	“af”: “3.1”,	“ai”: “1.6”,	“a”: “1.9”,	“haw”: “0.1”,	“other”: “1.5”,	“his”: “5.4”}
-“Hampton township”: {	“white”: “97.3”,	“af”: “1.2”,	“ai”: “0.4”,	“a”: “1.5”,	“haw”: “0”,	“other”: “0.6”,	“his”: “3.8”}
-“Hanover township”: {	“white”: “86.6”,	“af”: “1.3”,	“ai”: “0.3”,	“a”: “11.4”,	“haw”: “0.1”,	“other”: “1.7”,	“his”: “4.6”}
-“Harding township”: {	“white”: “95.7”,	“af”: “1.3”,	“ai”: “0.6”,	“a”: “3.8”,	“haw”: “0.1”,	“other”: “0.4”,	“his”: “3.5”}
-“Hardwick township”: {	“white”: “97.7”,	“af”: “1.2”,	“ai”: “0.2”,	“a”: “0.8”,	“haw”: “0”,	“other”: “0.9”,	“his”: “4”}
-“Hardyston township”: {	“white”: “92.9”,	“af”: “3.1”,	“ai”: “0.6”,	“a”: “3.4”,	“haw”: “0”,	“other”: “1.5”,	“his”: “5.6”}
-“Harmony township”: {	“white”: “98.8”,	“af”: “0.8”,	“ai”: “0.6”,	“a”: “0.2”,	“haw”: “0”,	“other”: “0.1”,	“his”: “1.3”}
-“Harrington Park borough”: {	“white”: “81”,	“af”: “1”,	“ai”: “0.2”,	“a”: “18.2”,	“haw”: “0.2”,	“other”: “0.8”,	“his”: “3.5”}
-“Harrison town”: {	“white”: “61.7”,	“af”: “2.8”,	“ai”: “1.1”,	“a”: “17”,	“haw”: “0.1”,	“other”: “21.7”,	“his”: “44.2”}
-“Harrison township”: {	“white”: “92”,	“af”: “4.5”,	“ai”: “0.4”,	“a”: “4”,	“haw”: “0”,	“other”: “0.8”,	“his”: “3”}
-“Harvey Cedars borough”: {	“white”: “99.1”,	“af”: “0.6”,	“ai”: “0”,	“a”: “0.3”,	“haw”: “0”,	“other”: “0”,	“his”: “0.9”}
-“Hasbrouck Heights borough”: {	“white”: “83.1”,	“af”: “3.3”,	“ai”: “0.2”,	“a”: “11”,	“haw”: “0.1”,	“other”: “4.5”,	“his”: “14.9”}
-“Haworth borough”: {	“white”: “86.3”,	“af”: “1.3”,	“ai”: “0.3”,	“a”: “13.5”,	“haw”: “0”,	“other”: “0.7”,	“his”: “4.4”}
-“Hawthorne borough”: {	“white”: “90.2”,	“af”: “2.8”,	“ai”: “0.5”,	“a”: “3.3”,	“haw”: “0”,	“other”: “5.1”,	“his”: “15.4”}
-“Hazlet township”: {	“white”: “93.2”,	“af”: “1.9”,	“ai”: “0.3”,	“a”: “4”,	“haw”: “0”,	“other”: “2.1”,	“his”: “7.9”}
-“Helmetta borough”: {	“white”: “89.6”,	“af”: “4.7”,	“ai”: “0.7”,	“a”: “5.3”,	“haw”: “0”,	“other”: “1.2”,	“his”: “7.5”}
-“High Bridge borough”: {	“white”: “94.5”,	“af”: “1.7”,	“ai”: “0.5”,	“a”: “3.9”,	“haw”: “0”,	“other”: “0.9”,	“his”: “6”}
-“Highland Park borough”: {	“white”: “70.3”,	“af”: “9”,	“ai”: “0.6”,	“a”: “19”,	“haw”: “0.2”,	“other”: “3.8”,	“his”: “9”}
-“Highlands borough”: {	“white”: “94.8”,	“af”: “2.4”,	“ai”: “0.7”,	“a”: “1.8”,	“haw”: “0.1”,	“other”: “2.3”,	“his”: “6.5”}
-“Hightstown borough”: {	“white”: “72.4”,	“af”: “9.2”,	“ai”: “1.6”,	“a”: “5.1”,	“haw”: “0.5”,	“other”: “15.9”,	“his”: “30.3”}
-“Hillsborough township”: {	“white”: “80.3”,	“af”: “5.3”,	“ai”: “0.4”,	“a”: “13.4”,	“haw”: “0.1”,	“other”: “2.8”,	“his”: “7.6”}
-“Hillsdale borough”: {	“white”: “90.4”,	“af”: “1.4”,	“ai”: “0.3”,	“a”: “6.8”,	“haw”: “0.1”,	“other”: “2.4”,	“his”: “7.8”}
-“Hillside township”: {	“white”: “36.6”,	“af”: “54.6”,	“ai”: “0.7”,	“a”: “3.2”,	“haw”: “0.3”,	“other”: “7.7”,	“his”: “17.6”}
-“Hi-Nella borough”: {	“white”: “73.9”,	“af”: “16.8”,	“ai”: “1.5”,	“a”: “4.8”,	“haw”: “0”,	“other”: “6.3”,	“his”: “10.6”}
-“Hoboken city”: {	“white”: “84.5”,	“af”: “4.3”,	“ai”: “0.4”,	“a”: “8.4”,	“haw”: “0.2”,	“other”: “5.1”,	“his”: “15.2”}
-“Ho-Ho-Kus borough”: {	“white”: “93.3”,	“af”: “0.3”,	“ai”: “0.2”,	“a”: “7.1”,	“haw”: “0”,	“other”: “0.7”,	“his”: “4.1”}
-“Holland township”: {	“white”: “98.1”,	“af”: “0.9”,	“ai”: “0.2”,	“a”: “1”,	“haw”: “0.1”,	“other”: “0.4”,	“his”: “2.7”}
-“Holmdel township”: {	“white”: “79.1”,	“af”: “1.1”,	“ai”: “0.2”,	“a”: “20.6”,	“haw”: “0.2”,	“other”: “0.8”,	“his”: “3.7”}
-“Hopatcong borough”: {	“white”: “92.7”,	“af”: “3.5”,	“ai”: “0.5”,	“a”: “2.8”,	“haw”: “0.1”,	“other”: “2.4”,	“his”: “11.3”}
-“Hope township”: {	“white”: “96.8”,	“af”: “1.6”,	“ai”: “0.1”,	“a”: “1.7”,	“haw”: “0”,	“other”: “0.5”,	“his”: “4.1”}
-“Hopewell borough”: {	“white”: “96.1”,	“af”: “1.9”,	“ai”: “0.5”,	“a”: “1”,	“haw”: “0.1”,	“other”: “1.6”,	“his”: “3.7”}
-“Hopewell township”: {	“white”: “86.8”,	“af”: “7.9”,	“ai”: “3.4”,	“a”: “1.2”,	“haw”: “0”,	“other”: “3.9”,	“his”: “7.3”}
-“Hopewell township”: {	“white”: “88.3”,	“af”: “2.5”,	“ai”: “0.3”,	“a”: “10”,	“haw”: “0.1”,	“other”: “0.6”,	“his”: “3.3”}
-“Howell township”: {	“white”: “89.8”,	“af”: “4.3”,	“ai”: “0.4”,	“a”: “5.3”,	“haw”: “0.1”,	“other”: “2”,	“his”: “8.1”}
-“Independence township”: {	“white”: “94.6”,	“af”: “1.6”,	“ai”: “0.5”,	“a”: “2.6”,	“haw”: “0.1”,	“other”: “2”,	“his”: “5.4”}
-“Interlaken borough”: {	“white”: “99”,	“af”: “0.2”,	“ai”: “0”,	“a”: “1.1”,	“haw”: “0”,	“other”: “0.5”,	“his”: “1.7”}
-“Irvington township”: {	“white”: “6.6”,	“af”: “87”,	“ai”: “0.9”,	“a”: “1.1”,	“haw”: “0.4”,	“other”: “6.4”,	“his”: “10.6”}
-“Island Heights borough”: {	“white”: “97.9”,	“af”: “0.8”,	“ai”: “0.9”,	“a”: “1.9”,	“haw”: “0”,	“other”: “0.6”,	“his”: “2.4”}
-“Jackson township”: {	“white”: “90.5”,	“af”: “5.7”,	“ai”: “0.6”,	“a”: “3.5”,	“haw”: “0.1”,	“other”: “1.7”,	“his”: “7.8”}
-“Jamesburg borough”: {	“white”: “75.8”,	“af”: “10”,	“ai”: “1.1”,	“a”: “5.1”,	“haw”: “0.1”,	“other”: “10.5”,	“his”: “22.4”}
-“Jefferson township”: {	“white”: “92.1”,	“af”: “2”,	“ai”: “0.5”,	“a”: “5.1”,	“haw”: “0.1”,	“other”: “1.9”,	“his”: “6.5”}
-“Jersey City city”: {	“white”: “35.2”,	“af”: “27.7”,	“ai”: “1.2”,	“a”: “25.2”,	“haw”: “0.3”,	“other”: “15.1”,	“his”: “27.6”}
-“Keansburg borough”: {	“white”: “87”,	“af”: “8.2”,	“ai”: “0.9”,	“a”: “2.2”,	“haw”: “0.2”,	“other”: “4.9”,	“his”: “14.8”}
-“Kearny town”: {	“white”: “76.6”,	“af”: “6.2”,	“ai”: “0.8”,	“a”: “4.9”,	“haw”: “0.3”,	“other”: “15”,	“his”: “39.9”}
-“Kenilworth borough”: {	“white”: “89.4”,	“af”: “3.4”,	“ai”: “0.3”,	“a”: “4.6”,	“haw”: “0.1”,	“other”: “3.9”,	“his”: “15.5”}
-“Keyport borough”: {	“white”: “82”,	“af”: “8.2”,	“ai”: “0.9”,	“a”: “2.9”,	“haw”: “0.1”,	“other”: “8.5”,	“his”: “18.3”}
-“Kingwood township”: {	“white”: “97.6”,	“af”: “0.8”,	“ai”: “0.5”,	“a”: “1.6”,	“haw”: “0.1”,	“other”: “0.5”,	“his”: “2.4”}
-“Kinnelon borough”: {	“white”: “94.2”,	“af”: “1.2”,	“ai”: “0.3”,	“a”: “4.9”,	“haw”: “0”,	“other”: “0.7”,	“his”: “4.1”}
-“Knowlton township”: {	“white”: “97”,	“af”: “1.1”,	“ai”: “0.6”,	“a”: “1.4”,	“haw”: “0”,	“other”: “0.9”,	“his”: “3.6”}
-“Lacey township”: {	“white”: “97.2”,	“af”: “0.9”,	“ai”: “0.5”,	“a”: “1.2”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “4.7”}
-“Lafayette township”: {	“white”: “97”,	“af”: “2.2”,	“ai”: “0.4”,	“a”: “1.3”,	“haw”: “0”,	“other”: “0.9”,	“his”: “5.1”}
-“Lake Como borough”: {	“white”: “84.7”,	“af”: “7.4”,	“ai”: “1”,	“a”: “1.5”,	“haw”: “0”,	“other”: “7.4”,	“his”: “18.3”}
-“Lakehurst borough”: {	“white”: “82.1”,	“af”: “14.2”,	“ai”: “1.4”,	“a”: “2.7”,	“haw”: “0.3”,	“other”: “5.1”,	“his”: “13.1”}
-“Lakewood township”: {	“white”: “85.6”,	“af”: “7”,	“ai”: “0.5”,	“a”: “1”,	“haw”: “0.1”,	“other”: “7.4”,	“his”: “17.3”}
-“Lambertville city”: {	“white”: “92.4”,	“af”: “2.5”,	“ai”: “0.5”,	“a”: “1.5”,	“haw”: “0”,	“other”: “4.4”,	“his”: “9.8”}
-“Laurel Springs borough”: {	“white”: “93.9”,	“af”: “4.1”,	“ai”: “0.6”,	“a”: “1.3”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “3.9”}
-“Lavallette borough”: {	“white”: “98.3”,	“af”: “0.2”,	“ai”: “0.1”,	“a”: “0.7”,	“haw”: “0”,	“other”: “1.1”,	“his”: “3”}
-“Lawnside borough”: {	“white”: “5.9”,	“af”: “91.9”,	“ai”: “2.1”,	“a”: “1.7”,	“haw”: “0”,	“other”: “2.4”,	“his”: “4.4”}
-“Lawrence township”: {	“white”: “83.3”,	“af”: “10.7”,	“ai”: “2.9”,	“a”: “0.5”,	“haw”: “0.2”,	“other”: “5.8”,	“his”: “11.4”}
-“Lawrence township”: {	“white”: “71.4”,	“af”: “11.7”,	“ai”: “0.6”,	“a”: “15.2”,	“haw”: “0.4”,	“other”: “3.4”,	“his”: “7.5”}
-“Lebanon borough”: {	“white”: “91.2”,	“af”: “2.1”,	“ai”: “0.1”,	“a”: “6.5”,	“haw”: “0.3”,	“other”: “1.6”,	“his”: “5”}
-“Lebanon township”: {	“white”: “95.9”,	“af”: “2”,	“ai”: “0.4”,	“a”: “1.9”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “3.1”}
-“Leonia borough”: {	“white”: “58.1”,	“af”: “3.3”,	“ai”: “0.7”,	“a”: “36.6”,	“haw”: “0.1”,	“other”: “4.8”,	“his”: “16.7”}
-“Liberty township”: {	“white”: “96.8”,	“af”: “1.4”,	“ai”: “0.5”,	“a”: “1.9”,	“haw”: “0”,	“other”: “0.6”,	“his”: “4.1”}
-“Lincoln Park borough”: {	“white”: “88.1”,	“af”: “2.5”,	“ai”: “0.5”,	“a”: “8.3”,	“haw”: “0.1”,	“other”: “2.9”,	“his”: “9.6”}
-“Linden city”: {	“white”: “61.7”,	“af”: “28.4”,	“ai”: “0.9”,	“a”: “3.2”,	“haw”: “0.2”,	“other”: “9.3”,	“his”: “24.9”}
-“Lindenwold borough”: {	“white”: “50.7”,	“af”: “37”,	“ai”: “1.4”,	“a”: “3.3”,	“haw”: “0.2”,	“other”: “11.5”,	“his”: “20.9”}
-“Linwood city”: {	“white”: “94.5”,	“af”: “1.2”,	“ai”: “0.4”,	“a”: “4.6”,	“haw”: “0”,	“other”: “0.8”,	“his”: “3”}
-“Little Egg Harbor township”: {	“white”: “95.7”,	“af”: “1.8”,	“ai”: “0.5”,	“a”: “1.6”,	“haw”: “0”,	“other”: “2”,	“his”: “5.2”}
-“Little Falls township”: {	“white”: “88.4”,	“af”: “4.6”,	“ai”: “0.4”,	“a”: “5.5”,	“haw”: “0.1”,	“other”: “3.1”,	“his”: “9.9”}
-“Little Ferry borough”: {	“white”: “63.5”,	“af”: “4.7”,	“ai”: “0.9”,	“a”: “25.7”,	“haw”: “0.1”,	“other”: “8.9”,	“his”: “23”}
-“Little Silver borough”: {	“white”: “97.5”,	“af”: “0.4”,	“ai”: “0.4”,	“a”: “2.5”,	“haw”: “0.3”,	“other”: “0.2”,	“his”: “3”}
-“Livingston township”: {	“white”: “77.3”,	“af”: “2.5”,	“ai”: “0.2”,	“a”: “20.1”,	“haw”: “0.1”,	“other”: “1.2”,	“his”: “4.1”}
-“Loch Arbour village”: {	“white”: “96.4”,	“af”: “2.1”,	“ai”: “0”,	“a”: “2.6”,	“haw”: “0”,	“other”: “0.5”,	“his”: “3.6”}
-“Lodi borough”: {	“white”: “71.2”,	“af”: “8.6”,	“ai”: “0.8”,	“a”: “9.8”,	“haw”: “0.2”,	“other”: “13.3”,	“his”: “30.5”}
-“Logan township”: {	“white”: “83.5”,	“af”: “13.9”,	“ai”: “0.6”,	“a”: “3”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “4”}
-“Long Beach township”: {	“white”: “97.5”,	“af”: “0.4”,	“ai”: “0.2”,	“a”: “0.8”,	“haw”: “0.1”,	“other”: “1.8”,	“his”: “4.1”}
-“Long Branch city”: {	“white”: “69.1”,	“af”: “15.9”,	“ai”: “1.4”,	“a”: “2.7”,	“haw”: “0.2”,	“other”: “15.6”,	“his”: “28.1”}
-“Long Hill township”: {	“white”: “92.1”,	“af”: “0.9”,	“ai”: “0.3”,	“a”: “7”,	“haw”: “0”,	“other”: “1.3”,	“his”: “7.1”}
-“Longport borough”: {	“white”: “99”,	“af”: “0.4”,	“ai”: “0.1”,	“a”: “0.4”,	“haw”: “0”,	“other”: “0.1”,	“his”: “1.1”}
-“Lopatcong township”: {	“white”: “88.4”,	“af”: “6.7”,	“ai”: “0.3”,	“a”: “4.8”,	“haw”: “0.1”,	“other”: “1.3”,	“his”: “6”}
-“Lower Alloways Creek township”: {	“white”: “97.8”,	“af”: “1.8”,	“ai”: “0.9”,	“a”: “0.3”,	“haw”: “0.1”,	“other”: “0.3”,	“his”: “1.5”}
-“Lower township”: {	“white”: “95.9”,	“af”: “2.9”,	“ai”: “0.5”,	“a”: “0.9”,	“haw”: “0.2”,	“other”: “1.5”,	“his”: “4.2”}
-“Lumberton township”: {	“white”: “73.6”,	“af”: “21.2”,	“ai”: “1”,	“a”: “5.9”,	“haw”: “0.2”,	“other”: “2.2”,	“his”: “5.9”}
-“Lyndhurst township”: {	“white”: “85.3”,	“af”: “2.5”,	“ai”: “0.5”,	“a”: “7.4”,	“haw”: “0.1”,	“other”: “7.1”,	“his”: “18.3”}
-“Madison borough”: {	“white”: “88.8”,	“af”: “3.8”,	“ai”: “0.4”,	“a”: “6.6”,	“haw”: “0”,	“other”: “2.9”,	“his”: “8.9”}
-“Magnolia borough”: {	“white”: “76.6”,	“af”: “20.1”,	“ai”: “1”,	“a”: “2.3”,	“haw”: “0.1”,	“other”: “2.7”,	“his”: “7.8”}
-“Mahwah township”: {	“white”: “86.8”,	“af”: “3”,	“ai”: “1”,	“a”: “9”,	“haw”: “0.5”,	“other”: “1.7”,	“his”: “6.3”}
-“Manalapan township”: {	“white”: “89.5”,	“af”: “2.7”,	“ai”: “0.2”,	“a”: “7.6”,	“haw”: “0.1”,	“other”: “1.2”,	“his”: “5.7”}
-“Manasquan borough”: {	“white”: “97.1”,	“af”: “0.5”,	“ai”: “0.1”,	“a”: “0.7”,	“haw”: “0.1”,	“other”: “2.6”,	“his”: “7”}
-“Manchester township”: {	“white”: “93”,	“af”: “4.3”,	“ai”: “0.4”,	“a”: “2.1”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “4.8”}
-“Mannington township”: {	“white”: “73.7”,	“af”: “22”,	“ai”: “0.8”,	“a”: “0.7”,	“haw”: “0”,	“other”: “4.2”,	“his”: “8.2”}
-“Mansfield township”: {	“white”: “80.5”,	“af”: “11.2”,	“ai”: “0.6”,	“a”: “8.5”,	“haw”: “0.2”,	“other”: “1.2”,	“his”: “5”}
-“Mansfield township”: {	“white”: “88.3”,	“af”: “5.7”,	“ai”: “0.5”,	“a”: “3.8”,	“haw”: “0”,	“other”: “3.6”,	“his”: “10.9”}
-“Mantoloking borough”: {	“white”: “94.9”,	“af”: “2”,	“ai”: “0.7”,	“a”: “0.3”,	“haw”: “0”,	“other”: “2.4”,	“his”: “2.4”}
-“Mantua township”: {	“white”: “95.4”,	“af”: “3”,	“ai”: “0.5”,	“a”: “1.5”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “3”}
-“Manville borough”: {	“white”: “88.5”,	“af”: “3.3”,	“ai”: “0.5”,	“a”: “2.5”,	“haw”: “0”,	“other”: “7.6”,	“his”: “19”}
-“Maple Shade township”: {	“white”: “80.9”,	“af”: “10.8”,	“ai”: “1.3”,	“a”: “6.3”,	“haw”: “0.1”,	“other”: “3.8”,	“his”: “8.3”}
-“Maplewood township”: {	“white”: “58.7”,	“af”: “37.3”,	“ai”: “0.8”,	“a”: “4.4”,	“haw”: “0.2”,	“other”: “2.3”,	“his”: “6.7”}
-“Margate City city”: {	“white”: “97.5”,	“af”: “1”,	“ai”: “0.3”,	“a”: “1.4”,	“haw”: “0.1”,	“other”: “1”,	“his”: “2.8”}
-“Marlboro township”: {	“white”: “79.6”,	“af”: “2.4”,	“ai”: “0.2”,	“a”: “18.1”,	“haw”: “0.1”,	“other”: “1.1”,	“his”: “4”}
-“Matawan borough”: {	“white”: “83”,	“af”: “8.3”,	“ai”: “0.7”,	“a”: “7.4”,	“haw”: “0.1”,	“other”: “3.5”,	“his”: “10.8”}
-“Maurice River township”: {	“white”: “59.2”,	“af”: “36.9”,	“ai”: “1”,	“a”: “0.7”,	“haw”: “0.1”,	“other”: “4”,	“his”: “11.5”}
-“Maywood borough”: {	“white”: “76.7”,	“af”: “6.4”,	“ai”: “0.5”,	“a”: “11.8”,	“haw”: “0.1”,	“other”: “7.2”,	“his”: “18.7”}
-“Medford Lakes borough”: {	“white”: “98”,	“af”: “0.6”,	“ai”: “0.5”,	“a”: “1.2”,	“haw”: “0”,	“other”: “0.5”,	“his”: “1.7”}
-“Medford township”: {	“white”: “95.6”,	“af”: “1.9”,	“ai”: “0.5”,	“a”: “2.7”,	“haw”: “0.1”,	“other”: “0.8”,	“his”: “2.6”}
-“Mendham borough”: {	“white”: “96.6”,	“af”: “1.3”,	“ai”: “0.1”,	“a”: “2.7”,	“haw”: “0.1”,	“other”: “0.2”,	“his”: “2.7”}
-“Mendham township”: {	“white”: “94.6”,	“af”: “1.7”,	“ai”: “0.3”,	“a”: “4.1”,	“haw”: “0”,	“other”: “0.6”,	“his”: “3.6”}
-“Merchantville borough”: {	“white”: “79.3”,	“af”: “14.9”,	“ai”: “0.9”,	“a”: “2.8”,	“haw”: “0.3”,	“other”: “5.2”,	“his”: “11.6”}
-“Metuchen borough”: {	“white”: “80.1”,	“af”: “5.9”,	“ai”: “0.5”,	“a”: “14.5”,	“haw”: “0.1”,	“other”: “2.1”,	“his”: “6.9”}
-“Middle township”: {	“white”: “85.2”,	“af”: “12”,	“ai”: “0.9”,	“a”: “2.2”,	“haw”: “0.1”,	“other”: “2.3”,	“his”: “5.1”}
-“Middlesex borough”: {	“white”: “82.9”,	“af”: “6”,	“ai”: “0.5”,	“a”: “6.5”,	“haw”: “0.1”,	“other”: “6.1”,	“his”: “16.5”}
-“Middletown township”: {	“white”: “95”,	“af”: “1.8”,	“ai”: “0.3”,	“a”: “3.1”,	“haw”: “0”,	“other”: “1.1”,	“his”: “5.4”}
-“Midland Park borough”: {	“white”: “94.3”,	“af”: “1.2”,	“ai”: “0.5”,	“a”: “3.5”,	“haw”: “0.1”,	“other”: “2.2”,	“his”: “6.6”}
-“Milford borough”: {	“white”: “98.3”,	“af”: “0.6”,	“ai”: “0.6”,	“a”: “1.5”,	“haw”: “0.1”,	“other”: “0.2”,	“his”: “2.2”}
-“Millburn township”: {	“white”: “81.9”,	“af”: “1.8”,	“ai”: “0.2”,	“a”: “17.3”,	“haw”: “0.1”,	“other”: “0.7”,	“his”: “3.5”}
-“Millstone borough”: {	“white”: “96.2”,	“af”: “1.2”,	“ai”: “0”,	“a”: “2.2”,	“haw”: “0”,	“other”: “1”,	“his”: “3.6”}
-“Millstone township”: {	“white”: “90.8”,	“af”: “4”,	“ai”: “0.6”,	“a”: “5.2”,	“haw”: “0”,	“other”: “1”,	“his”: “5.5”}
-“Milltown borough”: {	“white”: “93.6”,	“af”: “1.6”,	“ai”: “0.3”,	“a”: “3.7”,	“haw”: “0”,	“other”: “2”,	“his”: “6.5”}
-“Millville city”: {	“white”: “71.8”,	“af”: “22.2”,	“ai”: “2”,	“a”: “1.6”,	“haw”: “0.2”,	“other”: “6.3”,	“his”: “14.9”}
-“Mine Hill township”: {	“white”: “83.7”,	“af”: “5.7”,	“ai”: “0.9”,	“a”: “5.5”,	“haw”: “0.1”,	“other”: “7.7”,	“his”: “23”}
-“Monmouth Beach borough”: {	“white”: “98.5”,	“af”: “0.4”,	“ai”: “0.3”,	“a”: “1.4”,	“haw”: “0”,	“other”: “0.4”,	“his”: “1.9”}
-“Monroe township”: {	“white”: “81.3”,	“af”: “15.5”,	“ai”: “0.8”,	“a”: “2.9”,	“haw”: “0.1”,	“other”: “2”,	“his”: “5”}
-“Monroe township”: {	“white”: “82.5”,	“af”: “4.3”,	“ai”: “0.3”,	“a”: “13.3”,	“haw”: “0”,	“other”: “0.9”,	“his”: “4.3”}
-“Montague township”: {	“white”: “94.6”,	“af”: “3.6”,	“ai”: “1”,	“a”: “1.6”,	“haw”: “0”,	“other”: “1.6”,	“his”: “6.4”}
-“Montclair township”: {	“white”: “65.5”,	“af”: “29.8”,	“ai”: “1”,	“a”: “5.4”,	“haw”: “0.2”,	“other”: “3”,	“his”: “7.5”}
-“Montgomery township”: {	“white”: “69.6”,	“af”: “3.4”,	“ai”: “0.4”,	“a”: “27.3”,	“haw”: “0.1”,	“other”: “1.9”,	“his”: “4.6”}
-“Montvale borough”: {	“white”: “86”,	“af”: “1.3”,	“ai”: “0.3”,	“a”: “11.8”,	“haw”: “0”,	“other”: “2”,	“his”: “5.3”}
-“Montville township”: {	“white”: “79.4”,	“af”: “1.6”,	“ai”: “0.2”,	“a”: “19.2”,	“haw”: “0.1”,	“other”: “1.2”,	“his”: “4.2”}
-“Moonachie borough”: {	“white”: “79.1”,	“af”: “1.9”,	“ai”: “1”,	“a”: “11.3”,	“haw”: “0.3”,	“other”: “10.2”,	“his”: “24.4”}
-“Moorestown township”: {	“white”: “86.3”,	“af”: “7.4”,	“ai”: “0.6”,	“a”: “6.9”,	“haw”: “0.1”,	“other”: “1”,	“his”: “3.5”}
-“Morris Plains borough”: {	“white”: “91”,	“af”: “3”,	“ai”: “0.3”,	“a”: “6”,	“haw”: “0.2”,	“other”: “1.3”,	“his”: “5.7”}
-“Morris township”: {	“white”: “86.9”,	“af”: “6.3”,	“ai”: “0.4”,	“a”: “5.9”,	“haw”: “0.1”,	“other”: “2.4”,	“his”: “7.5”}
-“Morristown town”: {	“white”: “65.5”,	“af”: “15”,	“ai”: “1.3”,	“a”: “5.1”,	“haw”: “0.2”,	“other”: “17”,	“his”: “34.1”}
-“Mount Arlington borough”: {	“white”: “92.1”,	“af”: “3.2”,	“ai”: “0.3”,	“a”: “4.3”,	“haw”: “0.1”,	“other”: “2.1”,	“his”: “8.2”}
-“Mount Ephraim borough”: {	“white”: “94.8”,	“af”: “2.4”,	“ai”: “0.4”,	“a”: “1”,	“haw”: “0”,	“other”: “2.7”,	“his”: “5.3”}
-“Mount Holly township”: {	“white”: “69.7”,	“af”: “26.7”,	“ai”: “1.6”,	“a”: “2.4”,	“haw”: “0.3”,	“other”: “5.2”,	“his”: “12.7”}
-“Mount Laurel township”: {	“white”: “81.2”,	“af”: “11”,	“ai”: “0.6”,	“a”: “8.3”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “4.6”}
-“Mount Olive township”: {	“white”: “82.5”,	“af”: “6.5”,	“ai”: “0.5”,	“a”: “9.1”,	“haw”: “0.2”,	“other”: “3.6”,	“his”: “11.5”}
-“Mountain Lakes borough”: {	“white”: “91.5”,	“af”: “0.6”,	“ai”: “0.2”,	“a”: “9.2”,	“haw”: “0”,	“other”: “0.5”,	“his”: “2.5”}
-“Mountainside borough”: {	“white”: “92.5”,	“af”: “2.3”,	“ai”: “0.1”,	“a”: “5.7”,	“haw”: “0”,	“other”: “0.7”,	“his”: “6.1”}
-“Mullica township”: {	“white”: “85.9”,	“af”: “7.1”,	“ai”: “0.8”,	“a”: “1.1”,	“haw”: “0”,	“other”: “8.1”,	“his”: “17”}
-“National Park borough”: {	“white”: “97.8”,	“af”: “1.6”,	“ai”: “0.8”,	“a”: “0.8”,	“haw”: “0”,	“other”: “0.6”,	“his”: “2”}
-“Neptune City borough”: {	“white”: “80.3”,	“af”: “12.3”,	“ai”: “0.6”,	“a”: “5”,	“haw”: “0.1”,	“other”: “4.6”,	“his”: “10.1”}
-“Neptune township”: {	“white”: “55.3”,	“af”: “40.9”,	“ai”: “1.2”,	“a”: “2.8”,	“haw”: “0.1”,	“other”: “3.2”,	“his”: “9.3”}
-“Netcong borough”: {	“white”: “86.1”,	“af”: “4.5”,	“ai”: “0.8”,	“a”: “3.3”,	“haw”: “0”,	“other”: “7.5”,	“his”: “17.7”}
-“New Brunswick city”: {	“white”: “48.8”,	“af”: “17.6”,	“ai”: “1.8”,	“a”: “8.4”,	“haw”: “0.2”,	“other”: “28”,	“his”: “49.9”}
-“New Hanover township”: {	“white”: “56.4”,	“af”: “35”,	“ai”: “1.3”,	“a”: “2.9”,	“haw”: “0.2”,	“other”: “7.8”,	“his”: “21”}
-“New Milford borough”: {	“white”: “72.4”,	“af”: “4.6”,	“ai”: “0.4”,	“a”: “20.5”,	“haw”: “0.1”,	“other”: “4.8”,	“his”: “13.6”}
-“New Providence borough”: {	“white”: “87.4”,	“af”: “1.6”,	“ai”: “0.3”,	“a”: “10.9”,	“haw”: “0.1”,	“other”: “1.5”,	“his”: “6.4”}
-“Newark city”: {	“white”: “29”,	“af”: “53.9”,	“ai”: “1.2”,	“a”: “1.9”,	“haw”: “0.2”,	“other”: “17.8”,	“his”: “33.8”}
-“Newfield borough”: {	“white”: “96.2”,	“af”: “3.1”,	“ai”: “0.6”,	“a”: “0.5”,	“haw”: “0”,	“other”: “1.4”,	“his”: “6.6”}
-“Newton town”: {	“white”: “87.1”,	“af”: “6”,	“ai”: “0.8”,	“a”: “3.4”,	“haw”: “0.1”,	“other”: “4.9”,	“his”: “12.3”}
-“North Arlington borough”: {	“white”: “84.2”,	“af”: “1.8”,	“ai”: “0.4”,	“a”: “8.5”,	“haw”: “0.1”,	“other”: “7”,	“his”: “20.9”}
-“North Bergen township”: {	“white”: “70.8”,	“af”: “5.2”,	“ai”: “1.5”,	“a”: “7.4”,	“haw”: “0.3”,	“other”: “19.9”,	“his”: “68.4”}
-“North Brunswick township”: {	“white”: “48.5”,	“af”: “18.7”,	“ai”: “0.9”,	“a”: “25.6”,	“haw”: “0.2”,	“other”: “9.4”,	“his”: “17.7”}
-“North Caldwell borough”: {	“white”: “93”,	“af”: “1”,	“ai”: “0.1”,	“a”: “6.4”,	“haw”: “0”,	“other”: “0.9”,	“his”: “4.2”}
-“North Haledon borough”: {	“white”: “93”,	“af”: “2.3”,	“ai”: “0.2”,	“a”: “4.4”,	“haw”: “0”,	“other”: “1.8”,	“his”: “7.5”}
-“North Hanover township”: {	“white”: “84.3”,	“af”: “11.7”,	“ai”: “1.2”,	“a”: “3.3”,	“haw”: “0.8”,	“other”: “4”,	“his”: “10.4”}
-“North Plainfield borough”: {	“white”: “58.3”,	“af”: “20.1”,	“ai”: “0.8”,	“a”: “6.4”,	“haw”: “0.1”,	“other”: “18.4”,	“his”: “44.2”}
-“North Wildwood city”: {	“white”: “96.8”,	“af”: “1.9”,	“ai”: “0.7”,	“a”: “0.8”,	“haw”: “0.1”,	“other”: “1.7”,	“his”: “4”}
-“Northfield city”: {	“white”: “88.8”,	“af”: “3.9”,	“ai”: “0.5”,	“a”: “5.3”,	“haw”: “0.1”,	“other”: “3.6”,	“his”: “8”}
-“Northvale borough”: {	“white”: “73.4”,	“af”: “1.4”,	“ai”: “0.3”,	“a”: “24.7”,	“haw”: “0.3”,	“other”: “1.6”,	“his”: “8.1”}
-“Norwood borough”: {	“white”: “70.3”,	“af”: “1.7”,	“ai”: “0.2”,	“a”: “27.8”,	“haw”: “0”,	“other”: “1.2”,	“his”: “4.6”}
-“Nutley township”: {	“white”: “84.3”,	“af”: “2.8”,	“ai”: “0.3”,	“a”: “11”,	“haw”: “0.1”,	“other”: “3.9”,	“his”: “11.8”}
-“Oakland borough”: {	“white”: “94.1”,	“af”: “1.2”,	“ai”: “0.6”,	“a”: “4.9”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “5.3”}
-“Oaklyn borough”: {	“white”: “93.9”,	“af”: “3.3”,	“ai”: “0.5”,	“a”: “2.2”,	“haw”: “0.1”,	“other”: “1.7”,	“his”: “5.4”}
-“Ocean City city”: {	“white”: “93.5”,	“af”: “4.5”,	“ai”: “0.5”,	“a”: “1”,	“haw”: “0.1”,	“other”: “2.3”,	“his”: “5.5”}
-“Ocean Gate borough”: {	“white”: “96.1”,	“af”: “1.9”,	“ai”: “0.6”,	“a”: “0.2”,	“haw”: “0”,	“other”: “2.6”,	“his”: “6.4”}
-“Ocean township”: {	“white”: “82.6”,	“af”: “9”,	“ai”: “0.6”,	“a”: “7.4”,	“haw”: “0.2”,	“other”: “2.9”,	“his”: “9”}
-“Ocean township”: {	“white”: “97.7”,	“af”: “1”,	“ai”: “0.5”,	“a”: “1.3”,	“haw”: “0.1”,	“other”: “0.6”,	“his”: “2.8”}
-“Oceanport borough”: {	“white”: “94.5”,	“af”: “3.4”,	“ai”: “0.4”,	“a”: “2.1”,	“haw”: “0”,	“other”: “0.9”,	“his”: “4”}
-“Ogdensburg borough”: {	“white”: “96.4”,	“af”: “0.9”,	“ai”: “0.5”,	“a”: “2.1”,	“haw”: “0.2”,	“other”: “1.5”,	“his”: “6.3”}
-“Old Bridge township”: {	“white”: “75.8”,	“af”: “6.9”,	“ai”: “0.5”,	“a”: “15.6”,	“haw”: “0.1”,	“other”: “3.7”,	“his”: “10.8”}
-“Old Tappan borough”: {	“white”: “76.1”,	“af”: “1”,	“ai”: “0.3”,	“a”: “23.4”,	“haw”: “0”,	“other”: “0.9”,	“his”: “5”}
-“Oldmans township”: {	“white”: “88.6”,	“af”: “8.3”,	“ai”: “0.6”,	“a”: “1.3”,	“haw”: “0”,	“other”: “2.7”,	“his”: “7”}
-“Oradell borough”: {	“white”: “87”,	“af”: “1.1”,	“ai”: “0.2”,	“a”: “12”,	“haw”: “0”,	“other”: “1.2”,	“his”: “5”}
-“Oxford township”: {	“white”: “96.2”,	“af”: “1.9”,	“ai”: “0.3”,	“a”: “1.8”,	“haw”: “0”,	“other”: “1”,	“his”: “3.8”}
-“Palisades Park borough”: {	“white”: “30.5”,	“af”: “2.3”,	“ai”: “0.5”,	“a”: “58.6”,	“haw”: “0.1”,	“other”: “10.1”,	“his”: “18.2”}
-“Palmyra borough”: {	“white”: “80.9”,	“af”: “16.3”,	“ai”: “0.9”,	“a”: “2.2”,	“haw”: “0.1”,	“other”: “2.2”,	“his”: “5.4”}
-“Paramus borough”: {	“white”: “73.8”,	“af”: “1.8”,	“ai”: “0.3”,	“a”: “24.1”,	“haw”: “0.5”,	“other”: “2.1”,	“his”: “7.3”}
-“Park Ridge borough”: {	“white”: “90”,	“af”: “1.2”,	“ai”: “0.3”,	“a”: “6.7”,	“haw”: “0”,	“other”: “2.7”,	“his”: “7.7”}
-“Parsippany-Troy Hills township”: {	“white”: “64.4”,	“af”: “4.1”,	“ai”: “0.5”,	“a”: “31”,	“haw”: “0.1”,	“other”: “2.9”,	“his”: “8.3”}
-“Passaic city”: {	“white”: “48.8”,	“af”: “12.3”,	“ai”: “1.8”,	“a”: “5”,	“haw”: “0.3”,	“other”: “37.5”,	“his”: “71”}
-“Paterson city”: {	“white”: “38.6”,	“af”: “33.7”,	“ai”: “1.9”,	“a”: “4”,	“haw”: “0.3”,	“other”: “27”,	“his”: “57.6”}
-“Paulsboro borough”: {	“white”: “58.7”,	“af”: “41”,	“ai”: “1.4”,	“a”: “1.1”,	“haw”: “0.3”,	“other”: “3.2”,	“his”: “8.9”}
-“Peapack and Gladstone borough”: {	“white”: “92.1”,	“af”: “4.3”,	“ai”: “0.2”,	“a”: “2.4”,	“haw”: “0”,	“other”: “3”,	“his”: “10.9”}
-“Pemberton borough”: {	“white”: “77.5”,	“af”: “17.7”,	“ai”: “1.1”,	“a”: “4.3”,	“haw”: “0.4”,	“other”: “3.4”,	“his”: “12.7”}
-“Pemberton township”: {	“white”: “72.1”,	“af”: “24”,	“ai”: “1.5”,	“a”: “4.6”,	“haw”: “0.3”,	“other”: “4”,	“his”: “11.9”}
-“Pennington borough”: {	“white”: “96.2”,	“af”: “2”,	“ai”: “0.1”,	“a”: “2.3”,	“haw”: “0.2”,	“other”: “0.2”,	“his”: “1.4”}
-“Penns Grove borough”: {	“white”: “45.7”,	“af”: “43.5”,	“ai”: “1.5”,	“a”: “0.8”,	“haw”: “0”,	“other”: “13.7”,	“his”: “28.3”}
-“Pennsauken township”: {	“white”: “50.1”,	“af”: “29”,	“ai”: “1.3”,	“a”: “8.4”,	“haw”: “0.2”,	“other”: “15.1”,	“his”: “26.9”}
-“Pennsville township”: {	“white”: “95.8”,	“af”: “2”,	“ai”: “0.5”,	“a”: “1.7”,	“haw”: “0.1”,	“other”: “1.1”,	“his”: “3.1”}
-“Pequannock township”: {	“white”: “96.6”,	“af”: “0.7”,	“ai”: “0.3”,	“a”: “2.2”,	“haw”: “0”,	“other”: “1.1”,	“his”: “4.5”}
-“Perth Amboy city”: {	“white”: “54.4”,	“af”: “12.4”,	“ai”: “1.7”,	“a”: “2.1”,	“haw”: “0.3”,	“other”: “35”,	“his”: “78.1”}
-“Phillipsburg town”: {	“white”: “86.4”,	“af”: “9.5”,	“ai”: “0.9”,	“a”: “1.9”,	“haw”: “0.2”,	“other”: “4.8”,	“his”: “11.8”}
-“Pilesgrove township”: {	“white”: “92.1”,	“af”: “6.6”,	“ai”: “0.6”,	“a”: “1.1”,	“haw”: “0.2”,	“other”: “0.8”,	“his”: “2.6”}
-“Pine Beach borough”: {	“white”: “97.3”,	“af”: “0.8”,	“ai”: “0.2”,	“a”: “1.6”,	“haw”: “0”,	“other”: “0.9”,	“his”: “3.7”}
-“Pine Hill borough”: {	“white”: “70.4”,	“af”: “26.4”,	“ai”: “1.1”,	“a”: “2.7”,	“haw”: “0.3”,	“other”: “3.2”,	“his”: “6.7”}
-“Pine Valley borough”: {	“white”: “83.3”,	“af”: “0”,	“ai”: “0”,	“a”: “0”,	“haw”: “0”,	“other”: “16.7”,	“his”: “16.7”}
-“Piscataway township”: {	“white”: “40.5”,	“af”: “22”,	“ai”: “0.9”,	“a”: “35.2”,	“haw”: “0.2”,	“other”: “5”,	“his”: “11.2”}
-“Pitman borough”: {	“white”: “97.4”,	“af”: “1.6”,	“ai”: “0.4”,	“a”: “1.1”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “2.5”}
-“Pittsgrove township”: {	“white”: “90”,	“af”: “7.8”,	“ai”: “1.2”,	“a”: “1.3”,	“haw”: “0.1”,	“other”: “1.8”,	“his”: “4.8”}
-“Plainfield city”: {	“white”: “26.5”,	“af”: “52.1”,	“ai”: “1.9”,	“a”: “1.4”,	“haw”: “0.2”,	“other”: “22.6”,	“his”: “40.4”}
-“Plainsboro township”: {	“white”: “42.6”,	“af”: “8.8”,	“ai”: “0.6”,	“a”: “47.8”,	“haw”: “0.1”,	“other”: “2.7”,	“his”: “6.2”}
-“Pleasantville city”: {	“white”: “27.2”,	“af”: “48.7”,	“ai”: “1.6”,	“a”: “3.1”,	“haw”: “0.2”,	“other”: “24”,	“his”: “41.1”}
-“Plumsted township”: {	“white”: “95.7”,	“af”: “2.1”,	“ai”: “1”,	“a”: “1.3”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “5.9”}
-“Pohatcong township”: {	“white”: “96.6”,	“af”: “2”,	“ai”: “0.4”,	“a”: “1.4”,	“haw”: “0.1”,	“other”: “1.2”,	“his”: “3.5”}
-“Point Pleasant Beach borough”: {	“white”: “93.5”,	“af”: “1.1”,	“ai”: “0.5”,	“a”: “1.2”,	“haw”: “0”,	“other”: “5”,	“his”: “9”}
-“Point Pleasant borough”: {	“white”: “97”,	“af”: “0.6”,	“ai”: “0.4”,	“a”: “1”,	“haw”: “0”,	“other”: “2”,	“his”: “5.1”}
-“Pompton Lakes borough”: {	“white”: “89.4”,	“af”: “2.1”,	“ai”: “0.5”,	“a”: “5.9”,	“haw”: “0”,	“other”: “3.9”,	“his”: “10.9”}
-“Port Republic city”: {	“white”: “97.2”,	“af”: “0.7”,	“ai”: “0.6”,	“a”: “1.3”,	“haw”: “0”,	“other”: “1.6”,	“his”: “3”}
-“Princeton borough”: {	“white”: “75.2”,	“af”: “7.5”,	“ai”: “0.6”,	“a”: “15.5”,	“haw”: “0.3”,	“other”: “4.7”,	“his”: “10.3”}
-“Princeton township”: {	“white”: “78.1”,	“af”: “5.7”,	“ai”: “0.6”,	“a”: “15.9”,	“haw”: “0.1”,	“other”: “2.7”,	“his”: “6.9”}
-“Prospect Park borough”: {	“white”: “55.8”,	“af”: “22.3”,	“ai”: “2”,	“a”: “4.5”,	“haw”: “0.4”,	“other”: “21.5”,	“his”: “52.1”}
-“Quinton township”: {	“white”: “84.3”,	“af”: “14.8”,	“ai”: “2.1”,	“a”: “0.8”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “4”}
-“Rahway city”: {	“white”: “54.8”,	“af”: “32.9”,	“ai”: “1.3”,	“a”: “4.9”,	“haw”: “0.2”,	“other”: “9.9”,	“his”: “23.5”}
-“Ramsey borough”: {	“white”: “90.6”,	“af”: “0.9”,	“ai”: “0.3”,	“a”: “7.3”,	“haw”: “0.1”,	“other”: “2.2”,	“his”: “6”}
-“Randolph township”: {	“white”: “84.1”,	“af”: “3.5”,	“ai”: “0.3”,	“a”: “11.4”,	“haw”: “0.1”,	“other”: “2.8”,	“his”: “10.2”}
-“Raritan borough”: {	“white”: “78.4”,	“af”: “2.6”,	“ai”: “0.7”,	“a”: “15.2”,	“haw”: “0.1”,	“other”: “5.6”,	“his”: “16.4”}
-“Raritan township”: {	“white”: “90.9”,	“af”: “2.5”,	“ai”: “0.4”,	“a”: “6.7”,	“haw”: “0”,	“other”: “1.1”,	“his”: “5.1”}
-“Readington township”: {	“white”: “94.1”,	“af”: “1.6”,	“ai”: “0.3”,	“a”: “4.2”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “3.9”}
-“Red Bank borough”: {	“white”: “65.4”,	“af”: “13.7”,	“ai”: “2.1”,	“a”: “2.2”,	“haw”: “0.2”,	“other”: “19.5”,	“his”: “34.4”}
-“Ridgefield borough”: {	“white”: “64.5”,	“af”: “1.8”,	“ai”: “0.4”,	“a”: “30”,	“haw”: “0.1”,	“other”: “5.8”,	“his”: “21.4”}
-“Ridgefield Park village”: {	“white”: “69.1”,	“af”: “7.9”,	“ai”: “0.9”,	“a”: “12.4”,	“haw”: “0.2”,	“other”: “13.8”,	“his”: “36.2”}
-“Ridgewood village”: {	“white”: “84.1”,	“af”: “2”,	“ai”: “0.3”,	“a”: “14.4”,	“haw”: “0”,	“other”: “1.4”,	“his”: “5.3”}
-“Ringwood borough”: {	“white”: “94”,	“af”: “2.2”,	“ai”: “2.2”,	“a”: “2.2”,	“haw”: “0”,	“other”: “1.4”,	“his”: “5.8”}
-“River Edge borough”: {	“white”: “74.7”,	“af”: “1.8”,	“ai”: “0.2”,	“a”: “23.1”,	“haw”: “0.1”,	“other”: “1.6”,	“his”: “7.7”}
-“River Vale township”: {	“white”: “90.2”,	“af”: “1.1”,	“ai”: “0.2”,	“a”: “9.2”,	“haw”: “0.1”,	“other”: “0.8”,	“his”: “5”}
-“Riverdale borough”: {	“white”: “91.6”,	“af”: “1.8”,	“ai”: “0.5”,	“a”: “6.2”,	“haw”: “0.1”,	“other”: “2.1”,	“his”: “7.2”}
-“Riverside township”: {	“white”: “84.3”,	“af”: “8.6”,	“ai”: “2.1”,	“a”: “1.6”,	“haw”: “0.1”,	“other”: “8.8”,	“his”: “11.3”}
-“Riverton borough”: {	“white”: “95”,	“af”: “4.3”,	“ai”: “0.6”,	“a”: “1.2”,	“haw”: “0.1”,	“other”: “0.7”,	“his”: “2”}
-“Robbinsville township”: {	“white”: “83.1”,	“af”: “3.7”,	“ai”: “0.3”,	“a”: “13.8”,	“haw”: “0”,	“other”: “1.1”,	“his”: “4.1”}
-“Rochelle Park township”: {	“white”: “83.7”,	“af”: “3.3”,	“ai”: “0.6”,	“a”: “9.7”,	“haw”: “0”,	“other”: “4.9”,	“his”: “16.3”}
-“Rockaway borough”: {	“white”: “84.5”,	“af”: “3.9”,	“ai”: “0.5”,	“a”: “8.3”,	“haw”: “0.1”,	“other”: “4.9”,	“his”: “15.1”}
-“Rockaway township”: {	“white”: “88.1”,	“af”: “3.3”,	“ai”: “0.4”,	“a”: “7.4”,	“haw”: “0.1”,	“other”: “2.8”,	“his”: “11.2”}
-“Rockleigh borough”: {	“white”: “95.7”,	“af”: “2.3”,	“ai”: “0.2”,	“a”: “2.3”,	“haw”: “0.4”,	“other”: “0.2”,	“his”: “3.8”}
-“Rocky Hill borough”: {	“white”: “94.6”,	“af”: “2.8”,	“ai”: “1.3”,	“a”: “3.4”,	“haw”: “0.3”,	“other”: “1.5”,	“his”: “4.8”}
-“Roosevelt borough”: {	“white”: “93.7”,	“af”: “1.8”,	“ai”: “0.3”,	“a”: “3.9”,	“haw”: “0.1”,	“other”: “1.9”,	“his”: “5.9”}
-“Roseland borough”: {	“white”: “91.7”,	“af”: “2.1”,	“ai”: “0.3”,	“a”: “6.3”,	“haw”: “0”,	“other”: “0.8”,	“his”: “4.5”}
-“Roselle borough”: {	“white”: “31.7”,	“af”: “56.8”,	“ai”: “1”,	“a”: “2.7”,	“haw”: “0.2”,	“other”: “11.1”,	“his”: “26.8”}
-“Roselle Park borough”: {	“white”: “75.7”,	“af”: “6.7”,	“ai”: “0.4”,	“a”: “10.9”,	“haw”: “0.1”,	“other”: “8.7”,	“his”: “28.6”}
-“Roxbury township”: {	“white”: “90”,	“af”: “3”,	“ai”: “0.4”,	“a”: “6.5”,	“haw”: “0.1”,	“other”: “2.1”,	“his”: “8.9”}
-“Rumson borough”: {	“white”: “98.2”,	“af”: “0.4”,	“ai”: “0.3”,	“a”: “1.9”,	“haw”: “0.1”,	“other”: “0.3”,	“his”: “2.4”}
-“Runnemede borough”: {	“white”: “89.9”,	“af”: “5.4”,	“ai”: “0.7”,	“a”: “3.1”,	“haw”: “0”,	“other”: “2.6”,	“his”: “6.1”}
-“Rutherford borough”: {	“white”: “79.8”,	“af”: “3.7”,	“ai”: “0.3”,	“a”: “14.4”,	“haw”: “0”,	“other”: “4.5”,	“his”: “14.1”}
-“Saddle Brook township”: {	“white”: “85.8”,	“af”: “2.6”,	“ai”: “0.4”,	“a”: “9.1”,	“haw”: “0.1”,	“other”: “3.8”,	“his”: “12.2”}
-“Saddle River borough”: {	“white”: “86.9”,	“af”: “2.8”,	“ai”: “0.5”,	“a”: “10.5”,	“haw”: “0.3”,	“other”: “1.8”,	“his”: “5.1”}
-“Salem city”: {	“white”: “33.8”,	“af”: “65.7”,	“ai”: “1.3”,	“a”: “0.5”,	“haw”: “0”,	“other”: “2.7”,	“his”: “6.7”}
-“Sandyston township”: {	“white”: “98.6”,	“af”: “0.7”,	“ai”: “0.9”,	“a”: “0.6”,	“haw”: “0.1”,	“other”: “0.4”,	“his”: “3.4”}
-“Sayreville borough”: {	“white”: “68.6”,	“af”: “11.6”,	“ai”: “0.5”,	“a”: “17.1”,	“haw”: “0.2”,	“other”: “4.6”,	“his”: “12.3”}
-“Scotch Plains township”: {	“white”: “79.2”,	“af”: “12.2”,	“ai”: “0.5”,	“a”: “8.6”,	“haw”: “0.1”,	“other”: “2”,	“his”: “6.7”}
-“Sea Bright borough”: {	“white”: “95.5”,	“af”: “0.8”,	“ai”: “0.1”,	“a”: “2.5”,	“haw”: “0.1”,	“other”: “1.9”,	“his”: “5.5”}
-“Sea Girt borough”: {	“white”: “99.6”,	“af”: “0.2”,	“ai”: “0.2”,	“a”: “0.3”,	“haw”: “0”,	“other”: “0.3”,	“his”: “1.6”}
-“Sea Isle City city”: {	“white”: “99”,	“af”: “0.2”,	“ai”: “0.5”,	“a”: “0.2”,	“haw”: “0”,	“other”: “0.5”,	“his”: “2.4”}
-“Seaside Heights borough”: {	“white”: “84.1”,	“af”: “8.7”,	“ai”: “1.3”,	“a”: “1.6”,	“haw”: “0”,	“other”: “7.9”,	“his”: “17.9”}
-“Seaside Park borough”: {	“white”: “97.8”,	“af”: “1.5”,	“ai”: “0.1”,	“a”: “0.4”,	“haw”: “0”,	“other”: “0.9”,	“his”: “3.4”}
-“Secaucus town”: {	“white”: “70.1”,	“af”: “4.7”,	“ai”: “0.5”,	“a”: “21.6”,	“haw”: “0.1”,	“other”: “5.5”,	“his”: “18.6”}
-“Shamong township”: {	“white”: “97.9”,	“af”: “1.4”,	“ai”: “0.4”,	“a”: “1”,	“haw”: “0”,	“other”: “0.4”,	“his”: “2.3”}
-“Shiloh borough”: {	“white”: “95.2”,	“af”: “2.1”,	“ai”: “2.9”,	“a”: “0.8”,	“haw”: “0”,	“other”: “0.6”,	“his”: “4.1”}
-“Ship Bottom borough”: {	“white”: “94”,	“af”: “1.5”,	“ai”: “0.7”,	“a”: “0.5”,	“haw”: “0”,	“other”: “4.5”,	“his”: “9.2”}
-“Shrewsbury borough”: {	“white”: “96.5”,	“af”: “0.8”,	“ai”: “0.1”,	“a”: “2.6”,	“haw”: “0.1”,	“other”: “0.8”,	“his”: “2.5”}
-“Shrewsbury township”: {	“white”: “75.1”,	“af”: “16.3”,	“ai”: “0.8”,	“a”: “7.5”,	“haw”: “0”,	“other”: “4.2”,	“his”: “14.1”}
-“Somerdale borough”: {	“white”: “71.2”,	“af”: “21.4”,	“ai”: “0.9”,	“a”: “6.7”,	“haw”: “0.3”,	“other”: “3.9”,	“his”: “8.2”}
-“Somers Point city”: {	“white”: “81.3”,	“af”: “12.5”,	“ai”: “0.9”,	“a”: “3.5”,	“haw”: “0.1”,	“other”: “4.9”,	“his”: “9.5”}
-“Somerville borough”: {	“white”: “69.1”,	“af”: “14.1”,	“ai”: “0.9”,	“a”: “12.3”,	“haw”: “0.1”,	“other”: “7.9”,	“his”: “23.7”}
-“South Amboy city”: {	“white”: “88.2”,	“af”: “5.2”,	“ai”: “0.5”,	“a”: “4.6”,	“haw”: “0.1”,	“other”: “3.5”,	“his”: “13.4”}
-“South Bound Brook borough”: {	“white”: “70.9”,	“af”: “11.8”,	“ai”: “0.5”,	“a”: “7.4”,	“haw”: “0.2”,	“other”: “14”,	“his”: “27.3”}
-“South Brunswick township”: {	“white”: “53.7”,	“af”: “8.6”,	“ai”: “0.6”,	“a”: “37.3”,	“haw”: “0.1”,	“other”: “2.4”,	“his”: “6”}
-“South Hackensack township”: {	“white”: “74.4”,	“af”: “5.7”,	“ai”: “0.7”,	“a”: “6.2”,	“haw”: “0.3”,	“other”: “15.6”,	“his”: “33.3”}
-“South Harrison township”: {	“white”: “92.6”,	“af”: “5.6”,	“ai”: “0.2”,	“a”: “1.6”,	“haw”: “0”,	“other”: “1.2”,	“his”: “3.1”}
-“South Orange Village township”: {	“white”: “63.3”,	“af”: “31”,	“ai”: “1”,	“a”: “6.8”,	“haw”: “0.1”,	“other”: “2.4”,	“his”: “6.1”}
-“South Plainfield borough”: {	“white”: “68.9”,	“af”: “11.3”,	“ai”: “0.9”,	“a”: “16”,	“haw”: “0.2”,	“other”: “6.3”,	“his”: “13.2”}
-“South River borough”: {	“white”: “79.1”,	“af”: “8.1”,	“ai”: “0.6”,	“a”: “5.4”,	“haw”: “0.2”,	“other”: “10.1”,	“his”: “18.2”}
-“South Toms River borough”: {	“white”: “71.6”,	“af”: “22.7”,	“ai”: “1.3”,	“a”: “1”,	“haw”: “0.1”,	“other”: “8.7”,	“his”: “19.5”}
-“Southampton township”: {	“white”: “95.7”,	“af”: “2.7”,	“ai”: “0.4”,	“a”: “1.7”,	“haw”: “0.1”,	“other”: “0.8”,	“his”: “2.2”}
-“Sparta township”: {	“white”: “95.5”,	“af”: “1.4”,	“ai”: “0.4”,	“a”: “3.3”,	“haw”: “0.1”,	“other”: “1”,	“his”: “5.3”}
-“Spotswood borough”: {	“white”: “90.3”,	“af”: “3.8”,	“ai”: “0.6”,	“a”: “5.7”,	“haw”: “0.1”,	“other”: “1.6”,	“his”: “8.3”}
-“Spring Lake borough”: {	“white”: “98”,	“af”: “0.3”,	“ai”: “0.1”,	“a”: “1.4”,	“haw”: “0”,	“other”: “0.7”,	“his”: “1.9”}
-“Spring Lake Heights borough”: {	“white”: “97.5”,	“af”: “0.9”,	“ai”: “0.5”,	“a”: “1.3”,	“haw”: “0.2”,	“other”: “0.7”,	“his”: “3.3”}
-“Springfield township”: {	“white”: “92”,	“af”: “4.8”,	“ai”: “0.8”,	“a”: “3”,	“haw”: “0”,	“other”: “1.3”,	“his”: “3.7”}
-“Springfield township”: {	“white”: “84”,	“af”: “6.7”,	“ai”: “0.3”,	“a”: “8.4”,	“haw”: “0.1”,	“other”: “2.3”,	“his”: “9.5”}
-“Stafford township”: {	“white”: “95.5”,	“af”: “1.3”,	“ai”: “0.4”,	“a”: “1.9”,	“haw”: “0.1”,	“other”: “1.9”,	“his”: “5.3”}
-“Stanhope borough”: {	“white”: “93.2”,	“af”: “2.2”,	“ai”: “0.3”,	“a”: “3.1”,	“haw”: “0”,	“other”: “3.1”,	“his”: “8.5”}
-“Stillwater township”: {	“white”: “98.4”,	“af”: “0.9”,	“ai”: “0.8”,	“a”: “1”,	“haw”: “0.1”,	“other”: “0.3”,	“his”: “2.2”}
-“Stockton borough”: {	“white”: “99.1”,	“af”: “0.2”,	“ai”: “0.2”,	“a”: “1.3”,	“haw”: “0.2”,	“other”: “0.2”,	“his”: “0.6”}
-“Stone Harbor borough”: {	“white”: “97.6”,	“af”: “1.8”,	“ai”: “0.1”,	“a”: “0.2”,	“haw”: “0”,	“other”: “0.7”,	“his”: “3.3”}
-“Stow Creek township”: {	“white”: “92.7”,	“af”: “5.2”,	“ai”: “2.1”,	“a”: “0.6”,	“haw”: “0.1”,	“other”: “1”,	“his”: “4.4”}
-“Stratford borough”: {	“white”: “84.1”,	“af”: “9.4”,	“ai”: “0.8”,	“a”: “4.9”,	“haw”: “0.1”,	“other”: “3”,	“his”: “6.5”}
-“Summit city”: {	“white”: “85.8”,	“af”: “5.1”,	“ai”: “0.4”,	“a”: “7.6”,	“haw”: “0.1”,	“other”: “3.6”,	“his”: “13.3”}
-“Surf City borough”: {	“white”: “96.3”,	“af”: “1.3”,	“ai”: “0.4”,	“a”: “0.7”,	“haw”: “0.3”,	“other”: “1.7”,	“his”: “5.1”}
-“Sussex borough”: {	“white”: “93.3”,	“af”: “3.2”,	“ai”: “1.2”,	“a”: “2.4”,	“haw”: “0.4”,	“other”: “2.2”,	“his”: “7.9”}
-“Swedesboro borough”: {	“white”: “72.9”,	“af”: “17.9”,	“ai”: “1.4”,	“a”: “1.7”,	“haw”: “0.1”,	“other”: “9.9”,	“his”: “17.1”}
-“Tabernacle township”: {	“white”: “96.8”,	“af”: “1.9”,	“ai”: “0.3”,	“a”: “1”,	“haw”: “0.1”,	“other”: “1.1”,	“his”: “2.8”}
-“Tavistock borough”: {	“white”: “100”,	“af”: “0”,	“ai”: “0”,	“a”: “0”,	“haw”: “0”,	“other”: “0”,	“his”: “0”}
-“Teaneck township”: {	“white”: “55.7”,	“af”: “29.7”,	“ai”: “0.9”,	“a”: “10.2”,	“haw”: “0.2”,	“other”: “7.3”,	“his”: “16.5”}
-“Tenafly borough”: {	“white”: “71.2”,	“af”: “1.3”,	“ai”: “0.2”,	“a”: “27.9”,	“haw”: “0.1”,	“other”: “1.7”,	“his”: “5.4”}
-“Teterboro borough”: {	“white”: “79.1”,	“af”: “4.5”,	“ai”: “3”,	“a”: “7.5”,	“haw”: “0”,	“other”: “19.4”,	“his”: “35.8”}
-“Tewksbury township”: {	“white”: “95.3”,	“af”: “1.1”,	“ai”: “0.3”,	“a”: “3.7”,	“haw”: “0”,	“other”: “1”,	“his”: “3.5”}
-“Tinton Falls borough”: {	“white”: “84.1”,	“af”: “10.4”,	“ai”: “0.6”,	“a”: “5.5”,	“haw”: “0.1”,	“other”: “1.6”,	“his”: “6.2”}
-“Toms River township”: {	“white”: “91.4”,	“af”: “3.3”,	“ai”: “0.6”,	“a”: “4.1”,	“haw”: “0.1”,	“other”: “2.4”,	“his”: “7.9”}
-“Totowa borough”: {	“white”: “87.2”,	“af”: “2.7”,	“ai”: “0.3”,	“a”: “6.7”,	“haw”: “0”,	“other”: “5.2”,	“his”: “14.3”}
-“Trenton city”: {	“white”: “29.4”,	“af”: “54”,	“ai”: “1.5”,	“a”: “1.6”,	“haw”: “0.4”,	“other”: “17.6”,	“his”: “33.7”}
-“Tuckerton borough”: {	“white”: “96.1”,	“af”: “1”,	“ai”: “0.6”,	“a”: “1.3”,	“haw”: “0”,	“other”: “3.4”,	“his”: “6.1”}
-“Union Beach borough”: {	“white”: “93”,	“af”: “2.2”,	“ai”: “0.7”,	“a”: “2.7”,	“haw”: “0.1”,	“other”: “3.8”,	“his”: “11”}
-“Union City city”: {	“white”: “62.5”,	“af”: “6.7”,	“ai”: “1.9”,	“a”: “2.9”,	“haw”: “0.3”,	“other”: “31.8”,	“his”: “84.7”}
-“Union township”: {	“white”: “84.6”,	“af”: “9.6”,	“ai”: “0.4”,	“a”: “5.1”,	“haw”: “0.3”,	“other”: “2”,	“his”: “6.1”}
-“Union township”: {	“white”: “55.4”,	“af”: “30”,	“ai”: “0.5”,	“a”: “11.4”,	“haw”: “0.2”,	“other”: “5.1”,	“his”: “14.9”}
-“Upper Deerfield township”: {	“white”: “76.7”,	“af”: “14.9”,	“ai”: “2.3”,	“a”: “3.2”,	“haw”: “0.1”,	“other”: “6.1”,	“his”: “9.4”}
-“Upper Freehold township”: {	“white”: “92.6”,	“af”: “2.4”,	“ai”: “0.5”,	“a”: “5”,	“haw”: “0”,	“other”: “0.9”,	“his”: “3.7”}
-“Upper Pittsgrove township”: {	“white”: “96.1”,	“af”: “2.8”,	“ai”: “1.1”,	“a”: “0.4”,	“haw”: “0”,	“other”: “0.9”,	“his”: “3”}
-“Upper Saddle River borough”: {	“white”: “87.6”,	“af”: “1.7”,	“ai”: “0.2”,	“a”: “11”,	“haw”: “0”,	“other”: “0.7”,	“his”: “4.3”}
-“Upper township”: {	“white”: “97.8”,	“af”: “1.1”,	“ai”: “0.5”,	“a”: “1”,	“haw”: “0.1”,	“other”: “0.8”,	“his”: “2.4”}
-“Ventnor City city”: {	“white”: “77.8”,	“af”: “5.4”,	“ai”: “1”,	“a”: “9.4”,	“haw”: “0.2”,	“other”: “9.2”,	“his”: “18”}
-“Vernon township”: {	“white”: “96.4”,	“af”: “1.8”,	“ai”: “0.6”,	“a”: “1.2”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “6.4”}
-“Verona township”: {	“white”: “92.6”,	“af”: “2.3”,	“ai”: “0.3”,	“a”: “4.9”,	“haw”: “0.1”,	“other”: “1.5”,	“his”: “6”}
-“Victory Gardens borough”: {	“white”: “62.4”,	“af”: “18.5”,	“ai”: “1.4”,	“a”: “2.6”,	“haw”: “0.1”,	“other”: “20.1”,	“his”: “63”}
-“Vineland city”: {	“white”: “69.6”,	“af”: “15.9”,	“ai”: “1.4”,	“a”: “2.1”,	“haw”: “0.2”,	“other”: “14.5”,	“his”: “38”}
-“Voorhees township”: {	“white”: “73.4”,	“af”: “9.7”,	“ai”: “0.6”,	“a”: “17.3”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “3.4”}
-“Waldwick borough”: {	“white”: “91.9”,	“af”: “1.5”,	“ai”: “0.3”,	“a”: “5.7”,	“haw”: “0”,	“other”: “2.1”,	“his”: “8.6”}
-“Wall township”: {	“white”: “94.7”,	“af”: “2.8”,	“ai”: “0.4”,	“a”: “2.1”,	“haw”: “0.1”,	“other”: “1.1”,	“his”: “3.5”}
-“Wallington borough”: {	“white”: “86.8”,	“af”: “3.7”,	“ai”: “0.4”,	“a”: “6.1”,	“haw”: “0.1”,	“other”: “4.6”,	“his”: “10.8”}
-“Walpack township”: {	“white”: “100”,	“af”: “0”,	“ai”: “0”,	“a”: “6.3”,	“haw”: “0”,	“other”: “0”,	“his”: “0”}
-“Wanaque borough”: {	“white”: “89.3”,	“af”: “3.8”,	“ai”: “1.1”,	“a”: “5.2”,	“haw”: “0.1”,	“other”: “2.9”,	“his”: “9.7”}
-“Wantage township”: {	“white”: “96.7”,	“af”: “1.6”,	“ai”: “0.6”,	“a”: “1.6”,	“haw”: “0”,	“other”: “1.3”,	“his”: “5.2”}
-“Warren township”: {	“white”: “82.5”,	“af”: “1.7”,	“ai”: “0.2”,	“a”: “16.3”,	“haw”: “0.1”,	“other”: “1”,	“his”: “5.4”}
-“Washington borough”: {	“white”: “87.7”,	“af”: “7.1”,	“ai”: “0.8”,	“a”: “4”,	“haw”: “0.2”,	“other”: “2.8”,	“his”: “8.5”}
-“Washington township”: {	“white”: “91.7”,	“af”: “1.4”,	“ai”: “0.2”,	“a”: “7”,	“haw”: “0.1”,	“other”: “1”,	“his”: “5.4”}
-“Washington township”: {	“white”: “94.3”,	“af”: “1.9”,	“ai”: “0.3”,	“a”: “0.1”,	“haw”: “0”,	“other”: “3.8”,	“his”: “9”}
-“Washington township”: {	“white”: “89.2”,	“af”: “6.6”,	“ai”: “0.5”,	“a”: “4.4”,	“haw”: “0.1”,	“other”: “1.1”,	“his”: “3.7”}
-“Washington township”: {	“white”: “94.5”,	“af”: “2”,	“ai”: “0.3”,	“a”: “3.9”,	“haw”: “0”,	“other”: “0.9”,	“his”: “4.6”}
-“Washington township”: {	“white”: “94.6”,	“af”: “2.9”,	“ai”: “0.3”,	“a”: “2.4”,	“haw”: “0”,	“other”: “1”,	“his”: “4.4”}
-“Watchung borough”: {	“white”: “82.5”,	“af”: “4”,	“ai”: “0.2”,	“a”: “14.2”,	“haw”: “0”,	“other”: “1.4”,	“his”: “5.3”}
-“Waterford township”: {	“white”: “92.1”,	“af”: “5.6”,	“ai”: “0.5”,	“a”: “1.6”,	“haw”: “0.1”,	“other”: “2”,	“his”: “4.4”}
-“Wayne township”: {	“white”: “87.4”,	“af”: “2.6”,	“ai”: “0.3”,	“a”: “9”,	“haw”: “0.1”,	“other”: “2.2”,	“his”: “7.9”}
-“Weehawken township”: {	“white”: “75.2”,	“af”: “6”,	“ai”: “1”,	“a”: “9.1”,	“haw”: “0.1”,	“other”: “12.8”,	“his”: “40.3”}
-“Wenonah borough”: {	“white”: “97.5”,	“af”: “1.3”,	“ai”: “0.4”,	“a”: “1.6”,	“haw”: “0.2”,	“other”: “0.4”,	“his”: “1.4”}
-“West Amwell township”: {	“white”: “83.7”,	“af”: “14.1”,	“ai”: “0.3”,	“a”: “1.8”,	“haw”: “0.1”,	“other”: “1.4”,	“his”: “4.8”}
-“West Caldwell township”: {	“white”: “93.9”,	“af”: “1.5”,	“ai”: “0.1”,	“a”: “4.5”,	“haw”: “0.1”,	“other”: “1”,	“his”: “4.9”}
-“West Cape May borough”: {	“white”: “87.2”,	“af”: “9.2”,	“ai”: “1.1”,	“a”: “0.7”,	“haw”: “0”,	“other”: “3.2”,	“his”: “5”}
-“West Deptford township”: {	“white”: “90.3”,	“af”: “7.4”,	“ai”: “0.5”,	“a”: “2.3”,	“haw”: “0.1”,	“other”: “1.1”,	“his”: “3.4”}
-“West Long Branch borough”: {	“white”: “95.4”,	“af”: “2.5”,	“ai”: “0.3”,	“a”: “1.6”,	“haw”: “0.1”,	“other”: “1.3”,	“his”: “5”}
-“West Milford township”: {	“white”: “95.5”,	“af”: “2”,	“ai”: “1.1”,	“a”: “1.8”,	“haw”: “0”,	“other”: “1.4”,	“his”: “5.8”}
-“West New York town”: {	“white”: “66.6”,	“af”: “6.1”,	“ai”: “2.2”,	“a”: “6.7”,	“haw”: “0.2”,	“other”: “24.2”,	“his”: “78.1”}
-“West Orange township”: {	“white”: “59.4”,	“af”: “28.1”,	“ai”: “0.8”,	“a”: “8.9”,	“haw”: “0.2”,	“other”: “5.9”,	“his”: “16.2”}
-“West Wildwood borough”: {	“white”: “97”,	“af”: “3”,	“ai”: “0.8”,	“a”: “0”,	“haw”: “0”,	“other”: “1.7”,	“his”: “2.7”}
-“West Windsor township”: {	“white”: “57”,	“af”: “4.3”,	“ai”: “0.3”,	“a”: “39.5”,	“haw”: “0.1”,	“other”: “1.6”,	“his”: “4.5”}
-“Westampton township”: {	“white”: “64.2”,	“af”: “28.1”,	“ai”: “1.1”,	“a”: “8.1”,	“haw”: “0.1”,	“other”: “3.1”,	“his”: “8.8”}
-“Westfield town”: {	“white”: “90”,	“af”: “3.7”,	“ai”: “0.3”,	“a”: “6.8”,	“haw”: “0.1”,	“other”: “1.1”,	“his”: “4.9”}
-“Westville borough”: {	“white”: “90.9”,	“af”: “5.7”,	“ai”: “0.6”,	“a”: “1.7”,	“haw”: “0.1”,	“other”: “2.6”,	“his”: “6”}
-“Westwood borough”: {	“white”: “84.7”,	“af”: “5.1”,	“ai”: “0.6”,	“a”: “8.2”,	“haw”: “0.1”,	“other”: “3.5”,	“his”: “11.6”}
-“Weymouth township”: {	“white”: “93.3”,	“af”: “5.6”,	“ai”: “0.9”,	“a”: “1.1”,	“haw”: “0.1”,	“other”: “0.8”,	“his”: “4.6”}
-“Wharton borough”: {	“white”: “79.2”,	“af”: “5.5”,	“ai”: “0.9”,	“a”: “6.5”,	“haw”: “0.1”,	“other”: “12.1”,	“his”: “40.3”}
-“White township”: {	“white”: “96.3”,	“af”: “2.3”,	“ai”: “0.7”,	“a”: “0.8”,	“haw”: “0”,	“other”: “0.9”,	“his”: “2.7”}
-“Wildwood city”: {	“white”: “70.6”,	“af”: “12.4”,	“ai”: “1.1”,	“a”: “1.1”,	“haw”: “0.2”,	“other”: “18”,	“his”: “31.2”}
-“Wildwood Crest borough”: {	“white”: “95.2”,	“af”: “3”,	“ai”: “0.5”,	“a”: “1.3”,	“haw”: “0”,	“other”: “2.3”,	“his”: “5.6”}
-“Willingboro township”: {	“white”: “19.9”,	“af”: “76.6”,	“ai”: “1.7”,	“a”: “2.7”,	“haw”: “0.1”,	“other”: “4”,	“his”: “8.7”}
-“Winfield township”: {	“white”: “97.6”,	“af”: “1.3”,	“ai”: “0.2”,	“a”: “0.6”,	“haw”: “0.1”,	“other”: “1.5”,	“his”: “6.4”}
-“Winslow township”: {	“white”: “56.5”,	“af”: “38.3”,	“ai”: “1.1”,	“a”: “3.7”,	“haw”: “0.1”,	“other”: “3.7”,	“his”: “8.1”}
-“Woodbine borough”: {	“white”: “60.8”,	“af”: “27.1”,	“ai”: “1”,	“a”: “1.1”,	“haw”: “0”,	“other”: “13.8”,	“his”: “23.2”}
-“Woodbridge township”: {	“white”: “61”,	“af”: “10.8”,	“ai”: “0.8”,	“a”: “23.7”,	“haw”: “0.1”,	“other”: “6.7”,	“his”: “15.6”}
-“Woodbury city”: {	“white”: “69.4”,	“af”: “28”,	“ai”: “1.2”,	“a”: “1.7”,	“haw”: “0.4”,	“other”: “4.1”,	“his”: “10.7”}
-“Woodbury Heights borough”: {	“white”: “94.2”,	“af”: “3.8”,	“ai”: “0.4”,	“a”: “2.1”,	“haw”: “0.1”,	“other”: “0.9”,	“his”: “2.4”}
-“Woodcliff Lake borough”: {	“white”: “91.3”,	“af”: “1”,	“ai”: “0.1”,	“a”: “7.3”,	“haw”: “0”,	“other”: “1.6”,	“his”: “5.4”}
-“Woodland Park borough”: {	“white”: “84.8”,	“af”: “5.1”,	“ai”: “0.5”,	“a”: “5.4”,	“haw”: “0.2”,	“other”: “7”,	“his”: “20.7”}
-“Woodland township”: {	“white”: “90.4”,	“af”: “8.3”,	“ai”: “0.1”,	“a”: “1.2”,	“haw”: “0”,	“other”: “1”,	“his”: “4.8”}
-“Woodlynne borough”: {	“white”: “31.5”,	“af”: “36.6”,	“ai”: “1.7”,	“a”: “10.3”,	“haw”: “0.2”,	“other”: “24.9”,	“his”: “38.3”}
-“Wood-Ridge borough”: {	“white”: “88.5”,	“af”: “1.7”,	“ai”: “0.5”,	“a”: “7.7”,	“haw”: “0.1”,	“other”: “3.2”,	“his”: “13.1”}
-“Woodstown borough”: {	“white”: “85.1”,	“af”: “13.8”,	“ai”: “1.4”,	“a”: “1.5”,	“haw”: “0.2”,	“other”: “1.7”,	“his”: “5.6”}
-“Woolwich township”: {	“white”: “82.8”,	“af”: “11”,	“ai”: “0.7”,	“a”: “6.7”,	“haw”: “0”,	“other”: “1”,	“his”: “3.6”}
-“Wrightstown borough”: {	“white”: “51.1”,	“af”: “24.7”,	“ai”: “1.9”,	“a”: “7.7”,	“haw”: “0.7”,	“other”: “20.1”,	“his”: “28.1”}
-“Wyckoff township”: {	“white”: “94.6”,	“af”: “0.8”,	“ai”: “0.1”,	“a”: “5”,	“haw”: “0”,	“other”: “0.7”,	“his”: “4.4”}
-}
-
+"Aberdeen township": {	"white": "78.2",	"af": "13",	"ai": "0.4",	"a": "7",	"haw": "0.1",	"other": "3.3",	"his": "10.4"},
+"Absecon city": {	"white": "78",	"af": "10.9",	"ai": "0.8",	"a": "8.9",	"haw": "0.1",	"other": "3.9",	"his": "7.5"},
+"Alexandria township": {	"white": "95.4",	"af": "2.2",	"ai": "0.2",	"a": "2.2",	"haw": "0",	"other": "0.6",	"his": "3.2"},
+"Allamuchy township": {	"white": "94.7",	"af": "2.1",	"ai": "0.4",	"a": "3.4",	"haw": "0",	"other": "0.8",	"his": "4.5"},
+"Allendale borough": {	"white": "88.9",	"af": "0.7",	"ai": "0.2",	"a": "10.7",	"haw": "0",	"other": "1",	"his": "4.7"},
+"Allenhurst borough": {	"white": "96.6",	"af": "1",	"ai": "0.6",	"a": "1",	"haw": "0",	"other": "2.6",	"his": "4.4"},
+"Allentown borough": {	"white": "92.7",	"af": "5.3",	"ai": "1.1",	"a": "1.8",	"haw": "0",	"other": "1.2",	"his": "3.6"},
+"Alloway township": {	"white": "92.7",	"af": "5.8",	"ai": "1",	"a": "1.4",	"haw": "0",	"other": "0.8",	"his": "2"}
+"Alpha borough": {	"white": "94.6",	"af": "2.8",	"ai": "0.3",	"a": "2.4",	"haw": "0",	"other": "1.7",	"his": "5.3"}
+"Alpine borough": {	"white": "70.1",	"af": "2.4",	"ai": "0.2",	"a": "27.7",	"haw": "0",	"other": "1.6",	"his": "4.8"}
+"Andover borough": {	"white": "93.7",	"af": "1.5",	"ai": "0.3",	"a": "3.3",	"haw": "0",	"other": "3.1",	"his": "7.6"}
+"Andover township": {	"white": "93",	"af": "3.9",	"ai": "0.5",	"a": "3.1",	"haw": "0.1",	"other": "1",	"his": "5.1"}
+"Asbury Park city": {	"white": "38.7",	"af": "53.9",	"ai": "1.4",	"a": "0.9",	"haw": "0.4",	"other": "8.6",	"his": "25.5"}
+"Atlantic City city": {	"white": "29.8",	"af": "40.2",	"ai": "1.5",	"a": "16.6",	"haw": "0.2",	"other": "16.8",	"his": "30.4"}
+"Atlantic Highlands borough": {	"white": "94.7",	"af": "2",	"ai": "0.8",	"a": "2.7",	"haw": "0.1",	"other": "1.5",	"his": "5.1"}
+"Audubon borough": {	"white": "96.3",	"af": "1.9",	"ai": "0.5",	"a": "1.6",	"haw": "0.1",	"other": "1",	"his": "3.3"}
+"Audubon Park borough": {	"white": "99",	"af": "0.9",	"ai": "0.5",	"a": "0.6",	"haw": "0.1",	"other": "0.4",	"his": "2.1"}
+"Avalon borough": {	"white": "99",	"af": "0.6",	"ai": "0.6",	"a": "0.4",	"haw": "0",	"other": "0.4",	"his": "2.2"}
+"Avon-by-the-Sea borough": {	"white": "97.8",	"af": "0.7",	"ai": "0.3",	"a": "0.8",	"haw": "0",	"other": "1.3",	"his": "3.7"}
+"Barnegat Light borough": {	"white": "97.7",	"af": "1.2",	"ai": "0.2",	"a": "0",	"haw": "0",	"other": "1",	"his": "1.9"}
+"Barnegat township": {	"white": "93.4",	"af": "4.1",	"ai": "0.5",	"a": "2.2",	"haw": "0.1",	"other": "1.8",	"his": "6.8"}
+"Barrington borough": {	"white": "91.4",	"af": "6.1",	"ai": "0.7",	"a": "1.9",	"haw": "0.1",	"other": "2",	"his": "5.4"}
+"Bass River township": {	"white": "98.5",	"af": "0.6",	"ai": "0.7",	"a": "0.8",	"haw": "0",	"other": "0.6",	"his": "3.1"}
+"Bay Head borough": {	"white": "98.8",	"af": "0.6",	"ai": "0",	"a": "0.8",	"haw": "0",	"other": "0",	"his": "1"}
+"Bayonne city": {	"white": "72.2",	"af": "10.5",	"ai": "0.9",	"a": "8.5",	"haw": "0.2",	"other": "12",	"his": "25.8"}
+"Beach Haven borough": {	"white": "93",	"af": "0.3",	"ai": "0.2",	"a": "0.9",	"haw": "0",	"other": "6",	"his": "9.9"}
+"Beachwood borough": {	"white": "94.1",	"af": "2.3",	"ai": "0.3",	"a": "1.9",	"haw": "0",	"other": "2.8",	"his": "8.1"}
+"Bedminster township": {	"white": "88.1",	"af": "2.6",	"ai": "0.3",	"a": "9.6",	"haw": "0",	"other": "1.3",	"his": "6.4"}
+"Belleville township": {	"white": "63.4",	"af": "10.6",	"ai": "0.8",	"a": "12.9",	"haw": "0.2",	"other": "16.4",	"his": "39.3"}
+"Bellmawr borough": {	"white": "87.8",	"af": "2.9",	"ai": "0.5",	"a": "6.5",	"haw": "0.1",	"other": "3.9",	"his": "7.7"}
+"Belmar borough": {	"white": "89.3",	"af": "3.8",	"ai": "0.6",	"a": "1.4",	"haw": "0.3",	"other": "7.1",	"his": "16.8"}
+"Belvidere town": {	"white": "97.1",	"af": "2.1",	"ai": "0.9",	"a": "1",	"haw": "0",	"other": "0.3",	"his": "3.6"}
+"Bergenfield borough": {	"white": "54.8",	"af": "9.1",	"ai": "0.8",	"a": "27.1",	"haw": "0.2",	"other": "12",	"his": "26.5"}
+"Berkeley Heights township": {	"white": "87",	"af": "1.8",	"ai": "0.2",	"a": "11.5",	"haw": "0",	"other": "1.2",	"his": "5.1"}
+"Berkeley township": {	"white": "95.7",	"af": "2.1",	"ai": "0.4",	"a": "1.4",	"haw": "0.1",	"other": "1.4",	"his": "4.9"}
+"Berlin borough": {	"white": "91.9",	"af": "4.7",	"ai": "0.6",	"a": "3.4",	"haw": "0.1",	"other": "1",	"his": "3.1"}
+"Berlin township": {	"white": "78.8",	"af": "12.7",	"ai": "0.8",	"a": "5.6",	"haw": "0.1",	"other": "4.4",	"his": "8.3"}
+"Bernards township": {	"white": "83.5",	"af": "2.2",	"ai": "0.2",	"a": "15.1",	"haw": "0",	"other": "0.8",	"his": "4"}
+"Bernardsville borough": {	"white": "93.3",	"af": "1.2",	"ai": "0.4",	"a": "4",	"haw": "0.1",	"other": "3.2",	"his": "11.7"}
+"Bethlehem township": {	"white": "96.5",	"af": "1.1",	"ai": "0.4",	"a": "2.4",	"haw": "0.1",	"other": "0.6",	"his": "4"}
+"Beverly city": {	"white": "65.7",	"af": "33.1",	"ai": "1.4",	"a": "1.4",	"haw": "0",	"other": "3.7",	"his": "9.2"}
+"Blairstown township": {	"white": "97.1",	"af": "1.4",	"ai": "0.3",	"a": "1.4",	"haw": "0",	"other": "0.9",	"his": "3.8"}
+"Bloomfield township": {	"white": "62.3",	"af": "20.1",	"ai": "1",	"a": "9.3",	"haw": "0.2",	"other": "11.2",	"his": "24.5"}
+"Bloomingdale borough": {	"white": "93.1",	"af": "1.4",	"ai": "0.4",	"a": "2.8",	"haw": "0.1",	"other": "3.5",	"his": "9.3"}
+"Bloomsbury borough": {	"white": "96.7",	"af": "1.5",	"ai": "0.1",	"a": "2.5",	"haw": "0.1",	"other": "0.6",	"his": "4"}
+"Bogota borough": {	"white": "64",	"af": "11.1",	"ai": "1.2",	"a": "10.9",	"haw": "0.2",	"other": "17.1",	"his": "38.7"}
+"Boonton town": {	"white": "81.6",	"af": "5.8",	"ai": "0.9",	"a": "11.9",	"haw": "0.2",	"other": "3.3",	"his": "11"}
+"Boonton township": {	"white": "93.7",	"af": "1.9",	"ai": "0.2",	"a": "4.8",	"haw": "0.1",	"other": "0.7",	"his": "4.2"}
+"Bordentown city": {	"white": "85.4",	"af": "11.4",	"ai": "0.7",	"a": "3.1",	"haw": "0.1",	"other": "1.7",	"his": "5.8"}
+"Bordentown township": {	"white": "76.3",	"af": "11.7",	"ai": "0.6",	"a": "11.5",	"haw": "0.2",	"other": "2.3",	"his": "6"}
+"Bound Brook borough": {	"white": "73",	"af": "6.7",	"ai": "1",	"a": "3.2",	"haw": "0.1",	"other": "20.1",	"his": "48.7"}
+"Bradley Beach borough": {	"white": "87.3",	"af": "6.1",	"ai": "0.8",	"a": "2.3",	"haw": "0.1",	"other": "6.1",	"his": "19.5"}
+"Branchburg township": {	"white": "88.2",	"af": "2.8",	"ai": "0.5",	"a": "9.3",	"haw": "0.1",	"other": "1",	"his": "4.4"}
+"Branchville borough": {	"white": "97.7",	"af": "1",	"ai": "0.6",	"a": "1.1",	"haw": "0",	"other": "1",	"his": "3.9"}
+"Brick township": {	"white": "94.3",	"af": "2.6",	"ai": "0.5",	"a": "2",	"haw": "0.1",	"other": "2.2",	"his": "7.1"}
+"Bridgeton city": {	"white": "35.6",	"af": "37.6",	"ai": "2.5",	"a": "0.8",	"haw": "0.2",	"other": "27.9",	"his": "43.6"}
+"Bridgewater township": {	"white": "77.9",	"af": "2.8",	"ai": "0.3",	"a": "18.9",	"haw": "0",	"other": "2",	"his": "6.8"}
+"Brielle borough": {	"white": "95.6",	"af": "3.1",	"ai": "0.5",	"a": "1.5",	"haw": "0",	"other": "0.7",	"his": "3.2"}
+"Brigantine city": {	"white": "89",	"af": "3.8",	"ai": "0.8",	"a": "5.5",	"haw": "0.1",	"other": "3.2",	"his": "6.9"}
+"Brooklawn borough": {	"white": "90.1",	"af": "6.6",	"ai": "0.8",	"a": "2.5",	"haw": "0.1",	"other": "2.8",	"his": "6.3"}
+"Buena borough": {	"white": "75.8",	"af": "11",	"ai": "1.3",	"a": "2",	"haw": "0.3",	"other": "12.7",	"his": "29.4"}
+"Buena Vista township": {	"white": "80.3",	"af": "14.9",	"ai": "1.1",	"a": "1.5",	"haw": "0.2",	"other": "5",	"his": "11.5"}
+"Burlington city": {	"white": "61.5",	"af": "35.9",	"ai": "1.2",	"a": "2.4",	"haw": "0.1",	"other": "2.8",	"his": "6.5"}
+"Burlington township": {	"white": "61.3",	"af": "30.2",	"ai": "0.9",	"a": "8",	"haw": "0.2",	"other": "3.1",	"his": "7.1"}
+"Butler borough": {	"white": "90.6",	"af": "1.7",	"ai": "0.5",	"a": "3.5",	"haw": "0.1",	"other": "5.5",	"his": "11.4"}
+"Byram township": {	"white": "95.6",	"af": "1.8",	"ai": "0.4",	"a": "2.6",	"haw": "0",	"other": "0.9",	"his": "5"}
+"Caldwell borough": {	"white": "88.3",	"af": "3.9",	"ai": "0.4",	"a": "5.5",	"haw": "0.2",	"other": "3.7",	"his": "10"}
+"Califon borough": {	"white": "98.7",	"af": "1.8",	"ai": "0.9",	"a": "1.6",	"haw": "0",	"other": "0.1",	"his": "1.3"}
+"Camden city": {	"white": "19.8",	"af": "50.4",	"ai": "1.5",	"a": "2.5",	"haw": "0.2",	"other": "29.8",	"his": "47"}
+"Cape May city": {	"white": "91.6",	"af": "5.7",	"ai": "1.2",	"a": "1.3",	"haw": "0.3",	"other": "3",	"his": "8.6"}
+"Cape May Point borough": {	"white": "96.6",	"af": "3.4",	"ai": "0.7",	"a": "0.3",	"haw": "0.3",	"other": "1.4",	"his": "0.3"}
+"Carlstadt borough": {	"white": "83.5",	"af": "3.2",	"ai": "0.4",	"a": "8.7",	"haw": "0.2",	"other": "6.5",	"his": "18"}
+"Carneys Point township": {	"white": "76",	"af": "18.5",	"ai": "0.7",	"a": "1",	"haw": "0",	"other": "6.3",	"his": "11.2"}
+"Carteret borough": {	"white": "53",	"af": "16.4",	"ai": "1.1",	"a": "20.4",	"haw": "0.2",	"other": "13.2",	"his": "30.9"}
+"Cedar Grove township": {	"white": "89.9",	"af": "2.6",	"ai": "0.1",	"a": "7.1",	"haw": "0",	"other": "1.3",	"his": "5.9"}
+"Chatham borough": {	"white": "92.8",	"af": "1.4",	"ai": "0.3",	"a": "6.1",	"haw": "0",	"other": "1.3",	"his": "5.1"}
+"Chatham township": {	"white": "92.4",	"af": "0.9",	"ai": "0.2",	"a": "7.7",	"haw": "0.1",	"other": "0.4",	"his": "3.3"}
+"Cherry Hill township": {	"white": "79.8",	"af": "7",	"ai": "0.5",	"a": "12.7",	"haw": "0.1",	"other": "2.3",	"his": "5.6"}
+"Chesilhurst borough": {	"white": "44.6",	"af": "48.3",	"ai": "0.9",	"a": "1",	"haw": "0",	"other": "8.2",	"his": "11.6"}
+"Chester borough": {	"white": "92.9",	"af": "1.7",	"ai": "1.3",	"a": "2.5",	"haw": "0",	"other": "3.8",	"his": "13.5"}
+"Chester township": {	"white": "94.8",	"af": "1.4",	"ai": "0.3",	"a": "4.3",	"haw": "0.1",	"other": "0.9",	"his": "4.4"}
+"Chesterfield township": {	"white": "55.7",	"af": "31",	"ai": "1.6",	"a": "9.1",	"haw": "0.2",	"other": "5.9",	"his": "13.1"}
+"Cinnaminson township": {	"white": "90.8",	"af": "6.1",	"ai": "0.4",	"a": "2.9",	"haw": "0.1",	"other": "1.3",	"his": "3.1"}
+"City of Orange township": {	"white": "14.9",	"af": "73.7",	"ai": "1.2",	"a": "1.9",	"haw": "0.3",	"other": "11.7",	"his": "21.7"}
+"Clark township": {	"white": "94.1",	"af": "1",	"ai": "0.3",	"a": "4",	"haw": "0.1",	"other": "1.4",	"his": "7.5"}
+"Clayton borough": {	"white": "77.7",	"af": "20.3",	"ai": "1",	"a": "2.7",	"haw": "0",	"other": "1.9",	"his": "6"}
+"Clementon borough": {	"white": "73.8",	"af": "20.7",	"ai": "1.7",	"a": "2.6",	"haw": "0",	"other": "4.4",	"his": "10.3"}
+"Cliffside Park borough": {	"white": "73.3",	"af": "4.1",	"ai": "0.8",	"a": "15",	"haw": "0.2",	"other": "10.6",	"his": "28.4"}
+"Clifton city": {	"white": "72.4",	"af": "5.9",	"ai": "0.8",	"a": "10.1",	"haw": "0.2",	"other": "14.4",	"his": "31.9"}
+"Clinton town": {	"white": "90.8",	"af": "1.5",	"ai": "0.5",	"a": "7.5",	"haw": "0.1",	"other": "1.3",	"his": "6.2"}
+"Clinton township": {	"white": "87.8",	"af": "6.5",	"ai": "0.5",	"a": "4.7",	"haw": "0.1",	"other": "2.1",	"his": "5.6"}
+"Closter borough": {	"white": "65.2",	"af": "1.5",	"ai": "0.2",	"a": "32.6",	"haw": "0",	"other": "1.8",	"his": "6"}
+"Collingswood borough": {	"white": "84",	"af": "10.4",	"ai": "0.9",	"a": "2.9",	"haw": "0.1",	"other": "4.6",	"his": "9.7"}
+"Colts Neck township": {	"white": "93.2",	"af": "1.9",	"ai": "0.2",	"a": "5.4",	"haw": "0",	"other": "0.6",	"his": "3.5"}
+"Commercial township": {	"white": "86.9",	"af": "12.1",	"ai": "1.6",	"a": "0.9",	"haw": "0",	"other": "2.2",	"his": "6.1"}
+"Corbin City city": {	"white": "97.8",	"af": "0.4",	"ai": "0.2",	"a": "1.2",	"haw": "0",	"other": "0.6",	"his": "3.5"}
+"County subdivisions not defined": {	"white": "(X)",	"af": "(X)",	"ai": "(X)",	"a": "(X)",	"haw": "(X)",	"other": "(X)",	"his": "(X)"}
+"County subdivisions not defined": {	"white": "(X)",	"af": "(X)",	"ai": "(X)",	"a": "(X)",	"haw": "(X)",	"other": "(X)",	"his": "(X)"}
+"County subdivisions not defined": {	"white": "(X)",	"af": "(X)",	"ai": "(X)",	"a": "(X)",	"haw": "(X)",	"other": "(X)",	"his": "(X)"}
+"County subdivisions not defined": {	"white": "(X)",	"af": "(X)",	"ai": "(X)",	"a": "(X)",	"haw": "(X)",	"other": "(X)",	"his": "(X)"}
+"Cranbury township": {	"white": "82",	"af": "3.9",	"ai": "0.3",	"a": "14.9",	"haw": "0.1",	"other": "0.7",	"his": "2.6"}
+"Cranford township": {	"white": "93.2",	"af": "3.1",	"ai": "0.4",	"a": "3.6",	"haw": "0.1",	"other": "1.4",	"his": "6.5"}
+"Cresskill borough": {	"white": "70.3",	"af": "1",	"ai": "0.1",	"a": "28.8",	"haw": "0.1",	"other": "1.4",	"his": "6.3"}
+"Deal borough": {	"white": "92.7",	"af": "2.1",	"ai": "0.3",	"a": "3.9",	"haw": "0.1",	"other": "2.1",	"his": "7.3"}
+"Deerfield township": {	"white": "76.4",	"af": "14.3",	"ai": "3.4",	"a": "1.8",	"haw": "0",	"other": "8.4",	"his": "14.1"}
+"Delanco township": {	"white": "85.3",	"af": "12.5",	"ai": "0.9",	"a": "2.7",	"haw": "0.2",	"other": "1.4",	"his": "3.5"}
+"Delaware township": {	"white": "97.7",	"af": "1",	"ai": "0.7",	"a": "1.4",	"haw": "0",	"other": "0.7",	"his": "2.5"}
+"Delran township": {	"white": "83",	"af": "10.7",	"ai": "0.7",	"a": "4.7",	"haw": "0.1",	"other": "3.5",	"his": "4.6"}
+"Demarest borough": {	"white": "71.9",	"af": "0.9",	"ai": "0.2",	"a": "28",	"haw": "0.2",	"other": "1",	"his": "4.4"}
+"Dennis township": {	"white": "98.1",	"af": "1.4",	"ai": "0.5",	"a": "0.7",	"haw": "0",	"other": "0.6",	"his": "1.8"}
+"Denville township": {	"white": "91",	"af": "1.9",	"ai": "0.5",	"a": "7.4",	"haw": "0",	"other": "1",	"his": "5.3"}
+"Deptford township": {	"white": "80.7",	"af": "13.4",	"ai": "0.7",	"a": "4.9",	"haw": "0.1",	"other": "2.6",	"his": "6"}
+"Dover town": {	"white": "70",	"af": "7.5",	"ai": "1.1",	"a": "3",	"haw": "0.1",	"other": "22.7",	"his": "69.4"}
+"Downe township": {	"white": "95",	"af": "2.8",	"ai": "2",	"a": "0.3",	"haw": "0",	"other": "2.3",	"his": "3.8"}
+"Dumont borough": {	"white": "77.6",	"af": "3.2",	"ai": "0.4",	"a": "16.1",	"haw": "0.2",	"other": "5",	"his": "14.8"}
+"Dunellen borough": {	"white": "76.4",	"af": "9.5",	"ai": "0.7",	"a": "5.2",	"haw": "0.2",	"other": "11.5",	"his": "26.7"}
+"Eagleswood township": {	"white": "97.4",	"af": "1.1",	"ai": "0.6",	"a": "0.9",	"haw": "0",	"other": "1",	"his": "3.4"}
+"East Amwell township": {	"white": "96.5",	"af": "1.4",	"ai": "0.4",	"a": "1.7",	"haw": "0",	"other": "0.8",	"his": "2.8"}
+"East Brunswick township": {	"white": "70.9",	"af": "4.6",	"ai": "0.3",	"a": "23.9",	"haw": "0.1",	"other": "2.4",	"his": "6.7"}
+"East Greenwich township": {	"white": "89.5",	"af": "6.4",	"ai": "0.4",	"a": "4.2",	"haw": "0.1",	"other": "0.8",	"his": "3"}
+"East Hanover township": {	"white": "86",	"af": "1.1",	"ai": "0.2",	"a": "12.5",	"haw": "0.1",	"other": "1.3",	"his": "5.4"}
+"East Newark borough": {	"white": "66.4",	"af": "2.5",	"ai": "0.8",	"a": "8.1",	"haw": "0.1",	"other": "26.1",	"his": "61.4"}
+"East Orange city": {	"white": "5.1",	"af": "90.5",	"ai": "1.1",	"a": "1",	"haw": "0.3",	"other": "4.8",	"his": "7.9"}
+"East Rutherford borough": {	"white": "75",	"af": "5.3",	"ai": "0.6",	"a": "14.8",	"haw": "0.1",	"other": "6.9",	"his": "17.5"}
+"East Windsor township": {	"white": "64.2",	"af": "9.5",	"ai": "1",	"a": "18.6",	"haw": "0.2",	"other": "9.6",	"his": "19.6"}
+"Eastampton township": {	"white": "75.8",	"af": "19",	"ai": "1.1",	"a": "5.4",	"haw": "0.1",	"other": "2.2",	"his": "8.3"}
+"Eatontown borough": {	"white": "74.2",	"af": "14.4",	"ai": "1",	"a": "9.8",	"haw": "0.3",	"other": "4.3",	"his": "12.4"}
+"Edgewater borough": {	"white": "55.5",	"af": "5.8",	"ai": "0.5",	"a": "36.9",	"haw": "0.1",	"other": "4.2",	"his": "11.1"}
+"Edgewater Park township": {	"white": "61.6",	"af": "30",	"ai": "1.3",	"a": "4.4",	"haw": "0.2",	"other": "8.1",	"his": "10.9"}
+"Edison township": {	"white": "45.4",	"af": "7.7",	"ai": "0.7",	"a": "44.9",	"haw": "0.2",	"other": "3.9",	"his": "8.1"}
+"Egg Harbor City city": {	"white": "66.3",	"af": "20.6",	"ai": "1.2",	"a": "2.8",	"haw": "0.3",	"other": "13.4",	"his": "26.3"}
+"Egg Harbor township": {	"white": "72.4",	"af": "10.9",	"ai": "1",	"a": "12.9",	"haw": "0.1",	"other": "6.2",	"his": "13"}
+"Elizabeth city": {	"white": "58.2",	"af": "22.5",	"ai": "1.4",	"a": "2.5",	"haw": "0.2",	"other": "20",	"his": "59.5"}
+"Elk township": {	"white": "82",	"af": "16.4",	"ai": "1.3",	"a": "0.9",	"haw": "0",	"other": "2.3",	"his": "5.1"}
+"Elmer borough": {	"white": "95.1",	"af": "2.7",	"ai": "0.9",	"a": "1.1",	"haw": "0.1",	"other": "1.4",	"his": "3.2"}
+"Elmwood Park borough": {	"white": "77.5",	"af": "6.1",	"ai": "0.7",	"a": "11.8",	"haw": "0.1",	"other": "6.8",	"his": "21.2"}
+"Elsinboro township": {	"white": "94.9",	"af": "4.2",	"ai": "0.5",	"a": "0.7",	"haw": "0.1",	"other": "1.4",	"his": "2.2"}
+"Emerson borough": {	"white": "88.8",	"af": "1.4",	"ai": "0.2",	"a": "9.5",	"haw": "0.2",	"other": "1.5",	"his": "8.4"}
+"Englewood city": {	"white": "47.6",	"af": "34.7",	"ai": "1.3",	"a": "8.9",	"haw": "0.2",	"other": "11.4",	"his": "27.5"}
+"Englewood Cliffs borough": {	"white": "57.9",	"af": "2.3",	"ai": "0.3",	"a": "40.1",	"haw": "0.1",	"other": "1.5",	"his": "6"}
+"Englishtown borough": {	"white": "89.4",	"af": "2.7",	"ai": "0.1",	"a": "8",	"haw": "0.2",	"other": "1.1",	"his": "8"}
+"Essex Fells borough": {	"white": "96.5",	"af": "1.1",	"ai": "0.6",	"a": "3.3",	"haw": "0",	"other": "0.5",	"his": "2"}
+"Estell Manor city": {	"white": "97.2",	"af": "1.4",	"ai": "0.4",	"a": "1.6",	"haw": "0",	"other": "0.2",	"his": "1"}
+"Evesham township": {	"white": "88.4",	"af": "4.9",	"ai": "0.5",	"a": "6.9",	"haw": "0.1",	"other": "1.1",	"his": "3.4"}
+"Ewing township": {	"white": "64.9",	"af": "29.1",	"ai": "0.8",	"a": "4.9",	"haw": "0.2",	"other": "2.8",	"his": "7.6"}
+"Fair Haven borough": {	"white": "95.7",	"af": "3.2",	"ai": "0.3",	"a": "1.6",	"haw": "0.1",	"other": "0.5",	"his": "2.7"}
+"Fair Lawn borough": {	"white": "85.8",	"af": "2.3",	"ai": "0.4",	"a": "10.5",	"haw": "0",	"other": "3",	"his": "10.2"}
+"Fairfield township": {	"white": "40.7",	"af": "50.6",	"ai": "7.5",	"a": "0.7",	"haw": "0.1",	"other": "5.7",	"his": "12.8"}
+"Fairfield township": {	"white": "95.6",	"af": "0.9",	"ai": "0.5",	"a": "3",	"haw": "0.1",	"other": "1",	"his": "5.1"}
+"Fairview borough": {	"white": "71.2",	"af": "3.9",	"ai": "1.3",	"a": "5.6",	"haw": "0.1",	"other": "23.8",	"his": "54.6"}
+"Fanwood borough": {	"white": "86.6",	"af": "6",	"ai": "0.4",	"a": "7.9",	"haw": "0.1",	"other": "1.4",	"his": "6.3"}
+"Far Hills borough": {	"white": "96.8",	"af": "1",	"ai": "0",	"a": "2.5",	"haw": "0",	"other": "1.3",	"his": "9.6"}
+"Farmingdale borough": {	"white": "91.6",	"af": "4.1",	"ai": "1",	"a": "4",	"haw": "0",	"other": "2.3",	"his": "6.9"}
+"Fieldsboro borough": {	"white": "84.4",	"af": "14.4",	"ai": "0.9",	"a": "3.1",	"haw": "0",	"other": "0.9",	"his": "2.8"}
+"Flemington borough": {	"white": "80.5",	"af": "4.8",	"ai": "1.2",	"a": "6.7",	"haw": "0.2",	"other": "9.5",	"his": "26.2"}
+"Florence township": {	"white": "80.9",	"af": "13.7",	"ai": "0.8",	"a": "6.1",	"haw": "0.1",	"other": "1.6",	"his": "4.8"}
+"Florham Park borough": {	"white": "87.7",	"af": "5",	"ai": "0.3",	"a": "7.3",	"haw": "0.1",	"other": "1.4",	"his": "5.1"}
+"Folsom borough": {	"white": "92.4",	"af": "5",	"ai": "0.4",	"a": "1.4",	"haw": "0.6",	"other": "2.2",	"his": "6.7"}
+"Fort Lee borough": {	"white": "55.1",	"af": "3.3",	"ai": "0.3",	"a": "39.5",	"haw": "0.1",	"other": "3.8",	"his": "11"}
+"Frankford township": {	"white": "97.6",	"af": "1.4",	"ai": "0.5",	"a": "1.4",	"haw": "0.1",	"other": "0.5",	"his": "3.2"}
+"Franklin borough": {	"white": "94.3",	"af": "2.8",	"ai": "1.1",	"a": "2.5",	"haw": "0.1",	"other": "1.8",	"his": "7.8"}
+"Franklin Lakes borough": {	"white": "90.3",	"af": "1.7",	"ai": "0.1",	"a": "8.3",	"haw": "0",	"other": "1.1",	"his": "5"}
+"Franklin township": {	"white": "90",	"af": "8.1",	"ai": "0.9",	"a": "1.6",	"haw": "0.1",	"other": "1.3",	"his": "4.5"}
+"Franklin township": {	"white": "97.4",	"af": "0.8",	"ai": "0.3",	"a": "1.4",	"haw": "0.1",	"other": "0.7",	"his": "3.4"}
+"Franklin township": {	"white": "46.9",	"af": "28.1",	"ai": "0.9",	"a": "21.3",	"haw": "0.2",	"other": "6.3",	"his": "12.9"}
+"Franklin township": {	"white": "95.6",	"af": "1.8",	"ai": "0.5",	"a": "3",	"haw": "0",	"other": "0.6",	"his": "3.8"}
+"Fredon township": {	"white": "96.9",	"af": "0.7",	"ai": "0.3",	"a": "2.3",	"haw": "0.2",	"other": "0.7",	"his": "3.7"}
+"Freehold borough": {	"white": "68.1",	"af": "13.7",	"ai": "1",	"a": "3.4",	"haw": "0.2",	"other": "16.6",	"his": "42.9"}
+"Freehold township": {	"white": "85.8",	"af": "5.8",	"ai": "0.3",	"a": "7.9",	"haw": "0.1",	"other": "1.9",	"his": "7.8"}
+"Frelinghuysen township": {	"white": "98.3",	"af": "0.9",	"ai": "0.3",	"a": "0.7",	"haw": "0",	"other": "0.9",	"his": "2.6"}
+"Frenchtown borough": {	"white": "97.7",	"af": "1.6",	"ai": "0.8",	"a": "1",	"haw": "0.1",	"other": "0.2",	"his": "5.1"}
+"Galloway township": {	"white": "74.2",	"af": "12.7",	"ai": "0.9",	"a": "11.1",	"haw": "0.1",	"other": "4.2",	"his": "10"}
+"Garfield city": {	"white": "79.3",	"af": "7.7",	"ai": "0.9",	"a": "2.8",	"haw": "0.1",	"other": "12.7",	"his": "32.2"}
+"Garwood borough": {	"white": "94.7",	"af": "1.6",	"ai": "0.2",	"a": "2.7",	"haw": "0",	"other": "2.7",	"his": "8.8"}
+"Gibbsboro borough": {	"white": "94.4",	"af": "2.7",	"ai": "0.4",	"a": "3.2",	"haw": "0.3",	"other": "1.3",	"his": "4.1"}
+"Glassboro borough": {	"white": "74.6",	"af": "20.5",	"ai": "0.7",	"a": "3.5",	"haw": "0.1",	"other": "3.7",	"his": "7.4"}
+"Glen Gardner borough": {	"white": "96",	"af": "2.3",	"ai": "0.4",	"a": "2.3",	"haw": "0.1",	"other": "0.6",	"his": "5.3"}
+"Glen Ridge borough": {	"white": "88.6",	"af": "5.7",	"ai": "0.4",	"a": "6.3",	"haw": "0",	"other": "1.8",	"his": "5"}
+"Glen Rock borough": {	"white": "88.7",	"af": "1.7",	"ai": "0.2",	"a": "10.1",	"haw": "0.1",	"other": "0.9",	"his": "4.5"}
+"Gloucester City city": {	"white": "92.2",	"af": "3.9",	"ai": "0.5",	"a": "2.9",	"haw": "0",	"other": "2.3",	"his": "6.7"}
+"Gloucester township": {	"white": "77.6",	"af": "17.7",	"ai": "0.7",	"a": "4.2",	"haw": "0.1",	"other": "2.3",	"his": "5.6"}
+"Green Brook township": {	"white": "75",	"af": "4",	"ai": "0.3",	"a": "21.1",	"haw": "0.1",	"other": "1.4",	"his": "6.9"}
+"Green township": {	"white": "96.1",	"af": "1.4",	"ai": "0.5",	"a": "2.3",	"haw": "0",	"other": "1.2",	"his": "4.8"}
+"Greenwich township": {	"white": "93.7",	"af": "5.2",	"ai": "3",	"a": "1.7",	"haw": "0",	"other": "0.6",	"his": "2.6"}
+"Greenwich township": {	"white": "94.6",	"af": "4.8",	"ai": "0.7",	"a": "1",	"haw": "0",	"other": "0.5",	"his": "2.3"}
+"Greenwich township": {	"white": "86",	"af": "7.1",	"ai": "0.4",	"a": "6.9",	"haw": "0.2",	"other": "1.4",	"his": "6.4"}
+"Guttenberg town": {	"white": "71.9",	"af": "6.4",	"ai": "1.5",	"a": "8.1",	"haw": "0.2",	"other": "17.5",	"his": "64.8"}
+"Hackensack city": {	"white": "49.8",	"af": "26",	"ai": "1.3",	"a": "11.2",	"haw": "0.3",	"other": "16.2",	"his": "35.3"}
+"Hackettstown town": {	"white": "86.6",	"af": "3.1",	"ai": "0.6",	"a": "5.6",	"haw": "0.2",	"other": "6",	"his": "15.2"}
+"Haddon Heights borough": {	"white": "96.6",	"af": "1.6",	"ai": "0.5",	"a": "1.7",	"haw": "0.1",	"other": "0.9",	"his": "2.6"}
+"Haddon township": {	"white": "94.4",	"af": "1.9",	"ai": "0.4",	"a": "3.2",	"haw": "0.1",	"other": "1.4",	"his": "4"}
+"Haddonfield borough": {	"white": "96.5",	"af": "1.6",	"ai": "0.2",	"a": "2.6",	"haw": "0",	"other": "0.5",	"his": "2.1"}
+"Hainesport township": {	"white": "86.4",	"af": "8.6",	"ai": "0.4",	"a": "4.9",	"haw": "0",	"other": "1.9",	"his": "5.1"}
+"Haledon borough": {	"white": "65.8",	"af": "13",	"ai": "1",	"a": "7.3",	"haw": "0.2",	"other": "17.2",	"his": "41.6"}
+"Hamburg borough": {	"white": "93.5",	"af": "3.3",	"ai": "0.9",	"a": "2.8",	"haw": "0",	"other": "2.5",	"his": "6.9"}
+"Hamilton township": {	"white": "70.9",	"af": "20.5",	"ai": "1.3",	"a": "6.2",	"haw": "0.1",	"other": "5.1",	"his": "12.8"}
+"Hamilton township": {	"white": "79.9",	"af": "12.7",	"ai": "0.5",	"a": "3.8",	"haw": "0.2",	"other": "5",	"his": "10.9"}
+"Hammonton town": {	"white": "84.2",	"af": "3.8",	"ai": "0.8",	"a": "1.8",	"haw": "0.1",	"other": "12.3",	"his": "20.9"}
+"Hampton borough": {	"white": "93.6",	"af": "3.1",	"ai": "1.6",	"a": "1.9",	"haw": "0.1",	"other": "1.5",	"his": "5.4"}
+"Hampton township": {	"white": "97.3",	"af": "1.2",	"ai": "0.4",	"a": "1.5",	"haw": "0",	"other": "0.6",	"his": "3.8"}
+"Hanover township": {	"white": "86.6",	"af": "1.3",	"ai": "0.3",	"a": "11.4",	"haw": "0.1",	"other": "1.7",	"his": "4.6"}
+"Harding township": {	"white": "95.7",	"af": "1.3",	"ai": "0.6",	"a": "3.8",	"haw": "0.1",	"other": "0.4",	"his": "3.5"}
+"Hardwick township": {	"white": "97.7",	"af": "1.2",	"ai": "0.2",	"a": "0.8",	"haw": "0",	"other": "0.9",	"his": "4"}
+"Hardyston township": {	"white": "92.9",	"af": "3.1",	"ai": "0.6",	"a": "3.4",	"haw": "0",	"other": "1.5",	"his": "5.6"}
+"Harmony township": {	"white": "98.8",	"af": "0.8",	"ai": "0.6",	"a": "0.2",	"haw": "0",	"other": "0.1",	"his": "1.3"}
+"Harrington Park borough": {	"white": "81",	"af": "1",	"ai": "0.2",	"a": "18.2",	"haw": "0.2",	"other": "0.8",	"his": "3.5"}
+"Harrison town": {	"white": "61.7",	"af": "2.8",	"ai": "1.1",	"a": "17",	"haw": "0.1",	"other": "21.7",	"his": "44.2"}
+"Harrison township": {	"white": "92",	"af": "4.5",	"ai": "0.4",	"a": "4",	"haw": "0",	"other": "0.8",	"his": "3"}
+"Harvey Cedars borough": {	"white": "99.1",	"af": "0.6",	"ai": "0",	"a": "0.3",	"haw": "0",	"other": "0",	"his": "0.9"}
+"Hasbrouck Heights borough": {	"white": "83.1",	"af": "3.3",	"ai": "0.2",	"a": "11",	"haw": "0.1",	"other": "4.5",	"his": "14.9"}
+"Haworth borough": {	"white": "86.3",	"af": "1.3",	"ai": "0.3",	"a": "13.5",	"haw": "0",	"other": "0.7",	"his": "4.4"}
+"Hawthorne borough": {	"white": "90.2",	"af": "2.8",	"ai": "0.5",	"a": "3.3",	"haw": "0",	"other": "5.1",	"his": "15.4"}
+"Hazlet township": {	"white": "93.2",	"af": "1.9",	"ai": "0.3",	"a": "4",	"haw": "0",	"other": "2.1",	"his": "7.9"}
+"Helmetta borough": {	"white": "89.6",	"af": "4.7",	"ai": "0.7",	"a": "5.3",	"haw": "0",	"other": "1.2",	"his": "7.5"}
+"High Bridge borough": {	"white": "94.5",	"af": "1.7",	"ai": "0.5",	"a": "3.9",	"haw": "0",	"other": "0.9",	"his": "6"}
+"Highland Park borough": {	"white": "70.3",	"af": "9",	"ai": "0.6",	"a": "19",	"haw": "0.2",	"other": "3.8",	"his": "9"}
+"Highlands borough": {	"white": "94.8",	"af": "2.4",	"ai": "0.7",	"a": "1.8",	"haw": "0.1",	"other": "2.3",	"his": "6.5"}
+"Hightstown borough": {	"white": "72.4",	"af": "9.2",	"ai": "1.6",	"a": "5.1",	"haw": "0.5",	"other": "15.9",	"his": "30.3"}
+"Hillsborough township": {	"white": "80.3",	"af": "5.3",	"ai": "0.4",	"a": "13.4",	"haw": "0.1",	"other": "2.8",	"his": "7.6"}
+"Hillsdale borough": {	"white": "90.4",	"af": "1.4",	"ai": "0.3",	"a": "6.8",	"haw": "0.1",	"other": "2.4",	"his": "7.8"}
+"Hillside township": {	"white": "36.6",	"af": "54.6",	"ai": "0.7",	"a": "3.2",	"haw": "0.3",	"other": "7.7",	"his": "17.6"}
+"Hi-Nella borough": {	"white": "73.9",	"af": "16.8",	"ai": "1.5",	"a": "4.8",	"haw": "0",	"other": "6.3",	"his": "10.6"}
+"Hoboken city": {	"white": "84.5",	"af": "4.3",	"ai": "0.4",	"a": "8.4",	"haw": "0.2",	"other": "5.1",	"his": "15.2"}
+"Ho-Ho-Kus borough": {	"white": "93.3",	"af": "0.3",	"ai": "0.2",	"a": "7.1",	"haw": "0",	"other": "0.7",	"his": "4.1"}
+"Holland township": {	"white": "98.1",	"af": "0.9",	"ai": "0.2",	"a": "1",	"haw": "0.1",	"other": "0.4",	"his": "2.7"}
+"Holmdel township": {	"white": "79.1",	"af": "1.1",	"ai": "0.2",	"a": "20.6",	"haw": "0.2",	"other": "0.8",	"his": "3.7"}
+"Hopatcong borough": {	"white": "92.7",	"af": "3.5",	"ai": "0.5",	"a": "2.8",	"haw": "0.1",	"other": "2.4",	"his": "11.3"}
+"Hope township": {	"white": "96.8",	"af": "1.6",	"ai": "0.1",	"a": "1.7",	"haw": "0",	"other": "0.5",	"his": "4.1"}
+"Hopewell borough": {	"white": "96.1",	"af": "1.9",	"ai": "0.5",	"a": "1",	"haw": "0.1",	"other": "1.6",	"his": "3.7"}
+"Hopewell township": {	"white": "86.8",	"af": "7.9",	"ai": "3.4",	"a": "1.2",	"haw": "0",	"other": "3.9",	"his": "7.3"}
+"Hopewell township": {	"white": "88.3",	"af": "2.5",	"ai": "0.3",	"a": "10",	"haw": "0.1",	"other": "0.6",	"his": "3.3"}
+"Howell township": {	"white": "89.8",	"af": "4.3",	"ai": "0.4",	"a": "5.3",	"haw": "0.1",	"other": "2",	"his": "8.1"}
+"Independence township": {	"white": "94.6",	"af": "1.6",	"ai": "0.5",	"a": "2.6",	"haw": "0.1",	"other": "2",	"his": "5.4"}
+"Interlaken borough": {	"white": "99",	"af": "0.2",	"ai": "0",	"a": "1.1",	"haw": "0",	"other": "0.5",	"his": "1.7"}
+"Irvington township": {	"white": "6.6",	"af": "87",	"ai": "0.9",	"a": "1.1",	"haw": "0.4",	"other": "6.4",	"his": "10.6"}
+"Island Heights borough": {	"white": "97.9",	"af": "0.8",	"ai": "0.9",	"a": "1.9",	"haw": "0",	"other": "0.6",	"his": "2.4"}
+"Jackson township": {	"white": "90.5",	"af": "5.7",	"ai": "0.6",	"a": "3.5",	"haw": "0.1",	"other": "1.7",	"his": "7.8"}
+"Jamesburg borough": {	"white": "75.8",	"af": "10",	"ai": "1.1",	"a": "5.1",	"haw": "0.1",	"other": "10.5",	"his": "22.4"}
+"Jefferson township": {	"white": "92.1",	"af": "2",	"ai": "0.5",	"a": "5.1",	"haw": "0.1",	"other": "1.9",	"his": "6.5"}
+"Jersey City city": {	"white": "35.2",	"af": "27.7",	"ai": "1.2",	"a": "25.2",	"haw": "0.3",	"other": "15.1",	"his": "27.6"}
+"Keansburg borough": {	"white": "87",	"af": "8.2",	"ai": "0.9",	"a": "2.2",	"haw": "0.2",	"other": "4.9",	"his": "14.8"}
+"Kearny town": {	"white": "76.6",	"af": "6.2",	"ai": "0.8",	"a": "4.9",	"haw": "0.3",	"other": "15",	"his": "39.9"}
+"Kenilworth borough": {	"white": "89.4",	"af": "3.4",	"ai": "0.3",	"a": "4.6",	"haw": "0.1",	"other": "3.9",	"his": "15.5"}
+"Keyport borough": {	"white": "82",	"af": "8.2",	"ai": "0.9",	"a": "2.9",	"haw": "0.1",	"other": "8.5",	"his": "18.3"}
+"Kingwood township": {	"white": "97.6",	"af": "0.8",	"ai": "0.5",	"a": "1.6",	"haw": "0.1",	"other": "0.5",	"his": "2.4"}
+"Kinnelon borough": {	"white": "94.2",	"af": "1.2",	"ai": "0.3",	"a": "4.9",	"haw": "0",	"other": "0.7",	"his": "4.1"}
+"Knowlton township": {	"white": "97",	"af": "1.1",	"ai": "0.6",	"a": "1.4",	"haw": "0",	"other": "0.9",	"his": "3.6"}
+"Lacey township": {	"white": "97.2",	"af": "0.9",	"ai": "0.5",	"a": "1.2",	"haw": "0.1",	"other": "1.4",	"his": "4.7"}
+"Lafayette township": {	"white": "97",	"af": "2.2",	"ai": "0.4",	"a": "1.3",	"haw": "0",	"other": "0.9",	"his": "5.1"}
+"Lake Como borough": {	"white": "84.7",	"af": "7.4",	"ai": "1",	"a": "1.5",	"haw": "0",	"other": "7.4",	"his": "18.3"}
+"Lakehurst borough": {	"white": "82.1",	"af": "14.2",	"ai": "1.4",	"a": "2.7",	"haw": "0.3",	"other": "5.1",	"his": "13.1"}
+"Lakewood township": {	"white": "85.6",	"af": "7",	"ai": "0.5",	"a": "1",	"haw": "0.1",	"other": "7.4",	"his": "17.3"}
+"Lambertville city": {	"white": "92.4",	"af": "2.5",	"ai": "0.5",	"a": "1.5",	"haw": "0",	"other": "4.4",	"his": "9.8"}
+"Laurel Springs borough": {	"white": "93.9",	"af": "4.1",	"ai": "0.6",	"a": "1.3",	"haw": "0.1",	"other": "1.4",	"his": "3.9"}
+"Lavallette borough": {	"white": "98.3",	"af": "0.2",	"ai": "0.1",	"a": "0.7",	"haw": "0",	"other": "1.1",	"his": "3"}
+"Lawnside borough": {	"white": "5.9",	"af": "91.9",	"ai": "2.1",	"a": "1.7",	"haw": "0",	"other": "2.4",	"his": "4.4"}
+"Lawrence township": {	"white": "83.3",	"af": "10.7",	"ai": "2.9",	"a": "0.5",	"haw": "0.2",	"other": "5.8",	"his": "11.4"}
+"Lawrence township": {	"white": "71.4",	"af": "11.7",	"ai": "0.6",	"a": "15.2",	"haw": "0.4",	"other": "3.4",	"his": "7.5"}
+"Lebanon borough": {	"white": "91.2",	"af": "2.1",	"ai": "0.1",	"a": "6.5",	"haw": "0.3",	"other": "1.6",	"his": "5"}
+"Lebanon township": {	"white": "95.9",	"af": "2",	"ai": "0.4",	"a": "1.9",	"haw": "0.1",	"other": "0.9",	"his": "3.1"}
+"Leonia borough": {	"white": "58.1",	"af": "3.3",	"ai": "0.7",	"a": "36.6",	"haw": "0.1",	"other": "4.8",	"his": "16.7"}
+"Liberty township": {	"white": "96.8",	"af": "1.4",	"ai": "0.5",	"a": "1.9",	"haw": "0",	"other": "0.6",	"his": "4.1"}
+"Lincoln Park borough": {	"white": "88.1",	"af": "2.5",	"ai": "0.5",	"a": "8.3",	"haw": "0.1",	"other": "2.9",	"his": "9.6"}
+"Linden city": {	"white": "61.7",	"af": "28.4",	"ai": "0.9",	"a": "3.2",	"haw": "0.2",	"other": "9.3",	"his": "24.9"}
+"Lindenwold borough": {	"white": "50.7",	"af": "37",	"ai": "1.4",	"a": "3.3",	"haw": "0.2",	"other": "11.5",	"his": "20.9"}
+"Linwood city": {	"white": "94.5",	"af": "1.2",	"ai": "0.4",	"a": "4.6",	"haw": "0",	"other": "0.8",	"his": "3"}
+"Little Egg Harbor township": {	"white": "95.7",	"af": "1.8",	"ai": "0.5",	"a": "1.6",	"haw": "0",	"other": "2",	"his": "5.2"}
+"Little Falls township": {	"white": "88.4",	"af": "4.6",	"ai": "0.4",	"a": "5.5",	"haw": "0.1",	"other": "3.1",	"his": "9.9"}
+"Little Ferry borough": {	"white": "63.5",	"af": "4.7",	"ai": "0.9",	"a": "25.7",	"haw": "0.1",	"other": "8.9",	"his": "23"}
+"Little Silver borough": {	"white": "97.5",	"af": "0.4",	"ai": "0.4",	"a": "2.5",	"haw": "0.3",	"other": "0.2",	"his": "3"}
+"Livingston township": {	"white": "77.3",	"af": "2.5",	"ai": "0.2",	"a": "20.1",	"haw": "0.1",	"other": "1.2",	"his": "4.1"}
+"Loch Arbour village": {	"white": "96.4",	"af": "2.1",	"ai": "0",	"a": "2.6",	"haw": "0",	"other": "0.5",	"his": "3.6"}
+"Lodi borough": {	"white": "71.2",	"af": "8.6",	"ai": "0.8",	"a": "9.8",	"haw": "0.2",	"other": "13.3",	"his": "30.5"}
+"Logan township": {	"white": "83.5",	"af": "13.9",	"ai": "0.6",	"a": "3",	"haw": "0.1",	"other": "1.4",	"his": "4"}
+"Long Beach township": {	"white": "97.5",	"af": "0.4",	"ai": "0.2",	"a": "0.8",	"haw": "0.1",	"other": "1.8",	"his": "4.1"}
+"Long Branch city": {	"white": "69.1",	"af": "15.9",	"ai": "1.4",	"a": "2.7",	"haw": "0.2",	"other": "15.6",	"his": "28.1"}
+"Long Hill township": {	"white": "92.1",	"af": "0.9",	"ai": "0.3",	"a": "7",	"haw": "0",	"other": "1.3",	"his": "7.1"}
+"Longport borough": {	"white": "99",	"af": "0.4",	"ai": "0.1",	"a": "0.4",	"haw": "0",	"other": "0.1",	"his": "1.1"}
+"Lopatcong township": {	"white": "88.4",	"af": "6.7",	"ai": "0.3",	"a": "4.8",	"haw": "0.1",	"other": "1.3",	"his": "6"}
+"Lower Alloways Creek township": {	"white": "97.8",	"af": "1.8",	"ai": "0.9",	"a": "0.3",	"haw": "0.1",	"other": "0.3",	"his": "1.5"}
+"Lower township": {	"white": "95.9",	"af": "2.9",	"ai": "0.5",	"a": "0.9",	"haw": "0.2",	"other": "1.5",	"his": "4.2"}
+"Lumberton township": {	"white": "73.6",	"af": "21.2",	"ai": "1",	"a": "5.9",	"haw": "0.2",	"other": "2.2",	"his": "5.9"}
+"Lyndhurst township": {	"white": "85.3",	"af": "2.5",	"ai": "0.5",	"a": "7.4",	"haw": "0.1",	"other": "7.1",	"his": "18.3"}
+"Madison borough": {	"white": "88.8",	"af": "3.8",	"ai": "0.4",	"a": "6.6",	"haw": "0",	"other": "2.9",	"his": "8.9"}
+"Magnolia borough": {	"white": "76.6",	"af": "20.1",	"ai": "1",	"a": "2.3",	"haw": "0.1",	"other": "2.7",	"his": "7.8"}
+"Mahwah township": {	"white": "86.8",	"af": "3",	"ai": "1",	"a": "9",	"haw": "0.5",	"other": "1.7",	"his": "6.3"}
+"Manalapan township": {	"white": "89.5",	"af": "2.7",	"ai": "0.2",	"a": "7.6",	"haw": "0.1",	"other": "1.2",	"his": "5.7"}
+"Manasquan borough": {	"white": "97.1",	"af": "0.5",	"ai": "0.1",	"a": "0.7",	"haw": "0.1",	"other": "2.6",	"his": "7"}
+"Manchester township": {	"white": "93",	"af": "4.3",	"ai": "0.4",	"a": "2.1",	"haw": "0.1",	"other": "1.4",	"his": "4.8"}
+"Mannington township": {	"white": "73.7",	"af": "22",	"ai": "0.8",	"a": "0.7",	"haw": "0",	"other": "4.2",	"his": "8.2"}
+"Mansfield township": {	"white": "80.5",	"af": "11.2",	"ai": "0.6",	"a": "8.5",	"haw": "0.2",	"other": "1.2",	"his": "5"}
+"Mansfield township": {	"white": "88.3",	"af": "5.7",	"ai": "0.5",	"a": "3.8",	"haw": "0",	"other": "3.6",	"his": "10.9"}
+"Mantoloking borough": {	"white": "94.9",	"af": "2",	"ai": "0.7",	"a": "0.3",	"haw": "0",	"other": "2.4",	"his": "2.4"}
+"Mantua township": {	"white": "95.4",	"af": "3",	"ai": "0.5",	"a": "1.5",	"haw": "0.1",	"other": "0.9",	"his": "3"}
+"Manville borough": {	"white": "88.5",	"af": "3.3",	"ai": "0.5",	"a": "2.5",	"haw": "0",	"other": "7.6",	"his": "19"}
+"Maple Shade township": {	"white": "80.9",	"af": "10.8",	"ai": "1.3",	"a": "6.3",	"haw": "0.1",	"other": "3.8",	"his": "8.3"}
+"Maplewood township": {	"white": "58.7",	"af": "37.3",	"ai": "0.8",	"a": "4.4",	"haw": "0.2",	"other": "2.3",	"his": "6.7"}
+"Margate City city": {	"white": "97.5",	"af": "1",	"ai": "0.3",	"a": "1.4",	"haw": "0.1",	"other": "1",	"his": "2.8"}
+"Marlboro township": {	"white": "79.6",	"af": "2.4",	"ai": "0.2",	"a": "18.1",	"haw": "0.1",	"other": "1.1",	"his": "4"}
+"Matawan borough": {	"white": "83",	"af": "8.3",	"ai": "0.7",	"a": "7.4",	"haw": "0.1",	"other": "3.5",	"his": "10.8"}
+"Maurice River township": {	"white": "59.2",	"af": "36.9",	"ai": "1",	"a": "0.7",	"haw": "0.1",	"other": "4",	"his": "11.5"}
+"Maywood borough": {	"white": "76.7",	"af": "6.4",	"ai": "0.5",	"a": "11.8",	"haw": "0.1",	"other": "7.2",	"his": "18.7"}
+"Medford Lakes borough": {	"white": "98",	"af": "0.6",	"ai": "0.5",	"a": "1.2",	"haw": "0",	"other": "0.5",	"his": "1.7"}
+"Medford township": {	"white": "95.6",	"af": "1.9",	"ai": "0.5",	"a": "2.7",	"haw": "0.1",	"other": "0.8",	"his": "2.6"}
+"Mendham borough": {	"white": "96.6",	"af": "1.3",	"ai": "0.1",	"a": "2.7",	"haw": "0.1",	"other": "0.2",	"his": "2.7"}
+"Mendham township": {	"white": "94.6",	"af": "1.7",	"ai": "0.3",	"a": "4.1",	"haw": "0",	"other": "0.6",	"his": "3.6"}
+"Merchantville borough": {	"white": "79.3",	"af": "14.9",	"ai": "0.9",	"a": "2.8",	"haw": "0.3",	"other": "5.2",	"his": "11.6"}
+"Metuchen borough": {	"white": "80.1",	"af": "5.9",	"ai": "0.5",	"a": "14.5",	"haw": "0.1",	"other": "2.1",	"his": "6.9"}
+"Middle township": {	"white": "85.2",	"af": "12",	"ai": "0.9",	"a": "2.2",	"haw": "0.1",	"other": "2.3",	"his": "5.1"}
+"Middlesex borough": {	"white": "82.9",	"af": "6",	"ai": "0.5",	"a": "6.5",	"haw": "0.1",	"other": "6.1",	"his": "16.5"}
+"Middletown township": {	"white": "95",	"af": "1.8",	"ai": "0.3",	"a": "3.1",	"haw": "0",	"other": "1.1",	"his": "5.4"}
+"Midland Park borough": {	"white": "94.3",	"af": "1.2",	"ai": "0.5",	"a": "3.5",	"haw": "0.1",	"other": "2.2",	"his": "6.6"}
+"Milford borough": {	"white": "98.3",	"af": "0.6",	"ai": "0.6",	"a": "1.5",	"haw": "0.1",	"other": "0.2",	"his": "2.2"}
+"Millburn township": {	"white": "81.9",	"af": "1.8",	"ai": "0.2",	"a": "17.3",	"haw": "0.1",	"other": "0.7",	"his": "3.5"}
+"Millstone borough": {	"white": "96.2",	"af": "1.2",	"ai": "0",	"a": "2.2",	"haw": "0",	"other": "1",	"his": "3.6"}
+"Millstone township": {	"white": "90.8",	"af": "4",	"ai": "0.6",	"a": "5.2",	"haw": "0",	"other": "1",	"his": "5.5"}
+"Milltown borough": {	"white": "93.6",	"af": "1.6",	"ai": "0.3",	"a": "3.7",	"haw": "0",	"other": "2",	"his": "6.5"}
+"Millville city": {	"white": "71.8",	"af": "22.2",	"ai": "2",	"a": "1.6",	"haw": "0.2",	"other": "6.3",	"his": "14.9"}
+"Mine Hill township": {	"white": "83.7",	"af": "5.7",	"ai": "0.9",	"a": "5.5",	"haw": "0.1",	"other": "7.7",	"his": "23"}
+"Monmouth Beach borough": {	"white": "98.5",	"af": "0.4",	"ai": "0.3",	"a": "1.4",	"haw": "0",	"other": "0.4",	"his": "1.9"}
+"Monroe township": {	"white": "81.3",	"af": "15.5",	"ai": "0.8",	"a": "2.9",	"haw": "0.1",	"other": "2",	"his": "5"}
+"Monroe township": {	"white": "82.5",	"af": "4.3",	"ai": "0.3",	"a": "13.3",	"haw": "0",	"other": "0.9",	"his": "4.3"}
+"Montague township": {	"white": "94.6",	"af": "3.6",	"ai": "1",	"a": "1.6",	"haw": "0",	"other": "1.6",	"his": "6.4"}
+"Montclair township": {	"white": "65.5",	"af": "29.8",	"ai": "1",	"a": "5.4",	"haw": "0.2",	"other": "3",	"his": "7.5"}
+"Montgomery township": {	"white": "69.6",	"af": "3.4",	"ai": "0.4",	"a": "27.3",	"haw": "0.1",	"other": "1.9",	"his": "4.6"}
+"Montvale borough": {	"white": "86",	"af": "1.3",	"ai": "0.3",	"a": "11.8",	"haw": "0",	"other": "2",	"his": "5.3"}
+"Montville township": {	"white": "79.4",	"af": "1.6",	"ai": "0.2",	"a": "19.2",	"haw": "0.1",	"other": "1.2",	"his": "4.2"}
+"Moonachie borough": {	"white": "79.1",	"af": "1.9",	"ai": "1",	"a": "11.3",	"haw": "0.3",	"other": "10.2",	"his": "24.4"}
+"Moorestown township": {	"white": "86.3",	"af": "7.4",	"ai": "0.6",	"a": "6.9",	"haw": "0.1",	"other": "1",	"his": "3.5"}
+"Morris Plains borough": {	"white": "91",	"af": "3",	"ai": "0.3",	"a": "6",	"haw": "0.2",	"other": "1.3",	"his": "5.7"}
+"Morris township": {	"white": "86.9",	"af": "6.3",	"ai": "0.4",	"a": "5.9",	"haw": "0.1",	"other": "2.4",	"his": "7.5"}
+"Morristown town": {	"white": "65.5",	"af": "15",	"ai": "1.3",	"a": "5.1",	"haw": "0.2",	"other": "17",	"his": "34.1"}
+"Mount Arlington borough": {	"white": "92.1",	"af": "3.2",	"ai": "0.3",	"a": "4.3",	"haw": "0.1",	"other": "2.1",	"his": "8.2"}
+"Mount Ephraim borough": {	"white": "94.8",	"af": "2.4",	"ai": "0.4",	"a": "1",	"haw": "0",	"other": "2.7",	"his": "5.3"}
+"Mount Holly township": {	"white": "69.7",	"af": "26.7",	"ai": "1.6",	"a": "2.4",	"haw": "0.3",	"other": "5.2",	"his": "12.7"}
+"Mount Laurel township": {	"white": "81.2",	"af": "11",	"ai": "0.6",	"a": "8.3",	"haw": "0.1",	"other": "1.4",	"his": "4.6"}
+"Mount Olive township": {	"white": "82.5",	"af": "6.5",	"ai": "0.5",	"a": "9.1",	"haw": "0.2",	"other": "3.6",	"his": "11.5"}
+"Mountain Lakes borough": {	"white": "91.5",	"af": "0.6",	"ai": "0.2",	"a": "9.2",	"haw": "0",	"other": "0.5",	"his": "2.5"}
+"Mountainside borough": {	"white": "92.5",	"af": "2.3",	"ai": "0.1",	"a": "5.7",	"haw": "0",	"other": "0.7",	"his": "6.1"}
+"Mullica township": {	"white": "85.9",	"af": "7.1",	"ai": "0.8",	"a": "1.1",	"haw": "0",	"other": "8.1",	"his": "17"}
+"National Park borough": {	"white": "97.8",	"af": "1.6",	"ai": "0.8",	"a": "0.8",	"haw": "0",	"other": "0.6",	"his": "2"}
+"Neptune City borough": {	"white": "80.3",	"af": "12.3",	"ai": "0.6",	"a": "5",	"haw": "0.1",	"other": "4.6",	"his": "10.1"}
+"Neptune township": {	"white": "55.3",	"af": "40.9",	"ai": "1.2",	"a": "2.8",	"haw": "0.1",	"other": "3.2",	"his": "9.3"}
+"Netcong borough": {	"white": "86.1",	"af": "4.5",	"ai": "0.8",	"a": "3.3",	"haw": "0",	"other": "7.5",	"his": "17.7"}
+"New Brunswick city": {	"white": "48.8",	"af": "17.6",	"ai": "1.8",	"a": "8.4",	"haw": "0.2",	"other": "28",	"his": "49.9"}
+"New Hanover township": {	"white": "56.4",	"af": "35",	"ai": "1.3",	"a": "2.9",	"haw": "0.2",	"other": "7.8",	"his": "21"}
+"New Milford borough": {	"white": "72.4",	"af": "4.6",	"ai": "0.4",	"a": "20.5",	"haw": "0.1",	"other": "4.8",	"his": "13.6"}
+"New Providence borough": {	"white": "87.4",	"af": "1.6",	"ai": "0.3",	"a": "10.9",	"haw": "0.1",	"other": "1.5",	"his": "6.4"}
+"Newark city": {	"white": "29",	"af": "53.9",	"ai": "1.2",	"a": "1.9",	"haw": "0.2",	"other": "17.8",	"his": "33.8"}
+"Newfield borough": {	"white": "96.2",	"af": "3.1",	"ai": "0.6",	"a": "0.5",	"haw": "0",	"other": "1.4",	"his": "6.6"}
+"Newton town": {	"white": "87.1",	"af": "6",	"ai": "0.8",	"a": "3.4",	"haw": "0.1",	"other": "4.9",	"his": "12.3"}
+"North Arlington borough": {	"white": "84.2",	"af": "1.8",	"ai": "0.4",	"a": "8.5",	"haw": "0.1",	"other": "7",	"his": "20.9"}
+"North Bergen township": {	"white": "70.8",	"af": "5.2",	"ai": "1.5",	"a": "7.4",	"haw": "0.3",	"other": "19.9",	"his": "68.4"}
+"North Brunswick township": {	"white": "48.5",	"af": "18.7",	"ai": "0.9",	"a": "25.6",	"haw": "0.2",	"other": "9.4",	"his": "17.7"}
+"North Caldwell borough": {	"white": "93",	"af": "1",	"ai": "0.1",	"a": "6.4",	"haw": "0",	"other": "0.9",	"his": "4.2"}
+"North Haledon borough": {	"white": "93",	"af": "2.3",	"ai": "0.2",	"a": "4.4",	"haw": "0",	"other": "1.8",	"his": "7.5"}
+"North Hanover township": {	"white": "84.3",	"af": "11.7",	"ai": "1.2",	"a": "3.3",	"haw": "0.8",	"other": "4",	"his": "10.4"}
+"North Plainfield borough": {	"white": "58.3",	"af": "20.1",	"ai": "0.8",	"a": "6.4",	"haw": "0.1",	"other": "18.4",	"his": "44.2"}
+"North Wildwood city": {	"white": "96.8",	"af": "1.9",	"ai": "0.7",	"a": "0.8",	"haw": "0.1",	"other": "1.7",	"his": "4"}
+"Northfield city": {	"white": "88.8",	"af": "3.9",	"ai": "0.5",	"a": "5.3",	"haw": "0.1",	"other": "3.6",	"his": "8"}
+"Northvale borough": {	"white": "73.4",	"af": "1.4",	"ai": "0.3",	"a": "24.7",	"haw": "0.3",	"other": "1.6",	"his": "8.1"}
+"Norwood borough": {	"white": "70.3",	"af": "1.7",	"ai": "0.2",	"a": "27.8",	"haw": "0",	"other": "1.2",	"his": "4.6"}
+"Nutley township": {	"white": "84.3",	"af": "2.8",	"ai": "0.3",	"a": "11",	"haw": "0.1",	"other": "3.9",	"his": "11.8"}
+"Oakland borough": {	"white": "94.1",	"af": "1.2",	"ai": "0.6",	"a": "4.9",	"haw": "0.1",	"other": "0.9",	"his": "5.3"}
+"Oaklyn borough": {	"white": "93.9",	"af": "3.3",	"ai": "0.5",	"a": "2.2",	"haw": "0.1",	"other": "1.7",	"his": "5.4"}
+"Ocean City city": {	"white": "93.5",	"af": "4.5",	"ai": "0.5",	"a": "1",	"haw": "0.1",	"other": "2.3",	"his": "5.5"}
+"Ocean Gate borough": {	"white": "96.1",	"af": "1.9",	"ai": "0.6",	"a": "0.2",	"haw": "0",	"other": "2.6",	"his": "6.4"}
+"Ocean township": {	"white": "82.6",	"af": "9",	"ai": "0.6",	"a": "7.4",	"haw": "0.2",	"other": "2.9",	"his": "9"}
+"Ocean township": {	"white": "97.7",	"af": "1",	"ai": "0.5",	"a": "1.3",	"haw": "0.1",	"other": "0.6",	"his": "2.8"}
+"Oceanport borough": {	"white": "94.5",	"af": "3.4",	"ai": "0.4",	"a": "2.1",	"haw": "0",	"other": "0.9",	"his": "4"}
+"Ogdensburg borough": {	"white": "96.4",	"af": "0.9",	"ai": "0.5",	"a": "2.1",	"haw": "0.2",	"other": "1.5",	"his": "6.3"}
+"Old Bridge township": {	"white": "75.8",	"af": "6.9",	"ai": "0.5",	"a": "15.6",	"haw": "0.1",	"other": "3.7",	"his": "10.8"}
+"Old Tappan borough": {	"white": "76.1",	"af": "1",	"ai": "0.3",	"a": "23.4",	"haw": "0",	"other": "0.9",	"his": "5"}
+"Oldmans township": {	"white": "88.6",	"af": "8.3",	"ai": "0.6",	"a": "1.3",	"haw": "0",	"other": "2.7",	"his": "7"}
+"Oradell borough": {	"white": "87",	"af": "1.1",	"ai": "0.2",	"a": "12",	"haw": "0",	"other": "1.2",	"his": "5"}
+"Oxford township": {	"white": "96.2",	"af": "1.9",	"ai": "0.3",	"a": "1.8",	"haw": "0",	"other": "1",	"his": "3.8"}
+"Palisades Park borough": {	"white": "30.5",	"af": "2.3",	"ai": "0.5",	"a": "58.6",	"haw": "0.1",	"other": "10.1",	"his": "18.2"}
+"Palmyra borough": {	"white": "80.9",	"af": "16.3",	"ai": "0.9",	"a": "2.2",	"haw": "0.1",	"other": "2.2",	"his": "5.4"}
+"Paramus borough": {	"white": "73.8",	"af": "1.8",	"ai": "0.3",	"a": "24.1",	"haw": "0.5",	"other": "2.1",	"his": "7.3"}
+"Park Ridge borough": {	"white": "90",	"af": "1.2",	"ai": "0.3",	"a": "6.7",	"haw": "0",	"other": "2.7",	"his": "7.7"}
+"Parsippany-Troy Hills township": {	"white": "64.4",	"af": "4.1",	"ai": "0.5",	"a": "31",	"haw": "0.1",	"other": "2.9",	"his": "8.3"}
+"Passaic city": {	"white": "48.8",	"af": "12.3",	"ai": "1.8",	"a": "5",	"haw": "0.3",	"other": "37.5",	"his": "71"}
+"Paterson city": {	"white": "38.6",	"af": "33.7",	"ai": "1.9",	"a": "4",	"haw": "0.3",	"other": "27",	"his": "57.6"}
+"Paulsboro borough": {	"white": "58.7",	"af": "41",	"ai": "1.4",	"a": "1.1",	"haw": "0.3",	"other": "3.2",	"his": "8.9"}
+"Peapack and Gladstone borough": {	"white": "92.1",	"af": "4.3",	"ai": "0.2",	"a": "2.4",	"haw": "0",	"other": "3",	"his": "10.9"}
+"Pemberton borough": {	"white": "77.5",	"af": "17.7",	"ai": "1.1",	"a": "4.3",	"haw": "0.4",	"other": "3.4",	"his": "12.7"}
+"Pemberton township": {	"white": "72.1",	"af": "24",	"ai": "1.5",	"a": "4.6",	"haw": "0.3",	"other": "4",	"his": "11.9"}
+"Pennington borough": {	"white": "96.2",	"af": "2",	"ai": "0.1",	"a": "2.3",	"haw": "0.2",	"other": "0.2",	"his": "1.4"}
+"Penns Grove borough": {	"white": "45.7",	"af": "43.5",	"ai": "1.5",	"a": "0.8",	"haw": "0",	"other": "13.7",	"his": "28.3"}
+"Pennsauken township": {	"white": "50.1",	"af": "29",	"ai": "1.3",	"a": "8.4",	"haw": "0.2",	"other": "15.1",	"his": "26.9"}
+"Pennsville township": {	"white": "95.8",	"af": "2",	"ai": "0.5",	"a": "1.7",	"haw": "0.1",	"other": "1.1",	"his": "3.1"}
+"Pequannock township": {	"white": "96.6",	"af": "0.7",	"ai": "0.3",	"a": "2.2",	"haw": "0",	"other": "1.1",	"his": "4.5"}
+"Perth Amboy city": {	"white": "54.4",	"af": "12.4",	"ai": "1.7",	"a": "2.1",	"haw": "0.3",	"other": "35",	"his": "78.1"}
+"Phillipsburg town": {	"white": "86.4",	"af": "9.5",	"ai": "0.9",	"a": "1.9",	"haw": "0.2",	"other": "4.8",	"his": "11.8"}
+"Pilesgrove township": {	"white": "92.1",	"af": "6.6",	"ai": "0.6",	"a": "1.1",	"haw": "0.2",	"other": "0.8",	"his": "2.6"}
+"Pine Beach borough": {	"white": "97.3",	"af": "0.8",	"ai": "0.2",	"a": "1.6",	"haw": "0",	"other": "0.9",	"his": "3.7"}
+"Pine Hill borough": {	"white": "70.4",	"af": "26.4",	"ai": "1.1",	"a": "2.7",	"haw": "0.3",	"other": "3.2",	"his": "6.7"}
+"Pine Valley borough": {	"white": "83.3",	"af": "0",	"ai": "0",	"a": "0",	"haw": "0",	"other": "16.7",	"his": "16.7"}
+"Piscataway township": {	"white": "40.5",	"af": "22",	"ai": "0.9",	"a": "35.2",	"haw": "0.2",	"other": "5",	"his": "11.2"}
+"Pitman borough": {	"white": "97.4",	"af": "1.6",	"ai": "0.4",	"a": "1.1",	"haw": "0.1",	"other": "0.9",	"his": "2.5"}
+"Pittsgrove township": {	"white": "90",	"af": "7.8",	"ai": "1.2",	"a": "1.3",	"haw": "0.1",	"other": "1.8",	"his": "4.8"}
+"Plainfield city": {	"white": "26.5",	"af": "52.1",	"ai": "1.9",	"a": "1.4",	"haw": "0.2",	"other": "22.6",	"his": "40.4"}
+"Plainsboro township": {	"white": "42.6",	"af": "8.8",	"ai": "0.6",	"a": "47.8",	"haw": "0.1",	"other": "2.7",	"his": "6.2"}
+"Pleasantville city": {	"white": "27.2",	"af": "48.7",	"ai": "1.6",	"a": "3.1",	"haw": "0.2",	"other": "24",	"his": "41.1"}
+"Plumsted township": {	"white": "95.7",	"af": "2.1",	"ai": "1",	"a": "1.3",	"haw": "0.1",	"other": "1.4",	"his": "5.9"}
+"Pohatcong township": {	"white": "96.6",	"af": "2",	"ai": "0.4",	"a": "1.4",	"haw": "0.1",	"other": "1.2",	"his": "3.5"}
+"Point Pleasant Beach borough": {	"white": "93.5",	"af": "1.1",	"ai": "0.5",	"a": "1.2",	"haw": "0",	"other": "5",	"his": "9"}
+"Point Pleasant borough": {	"white": "97",	"af": "0.6",	"ai": "0.4",	"a": "1",	"haw": "0",	"other": "2",	"his": "5.1"}
+"Pompton Lakes borough": {	"white": "89.4",	"af": "2.1",	"ai": "0.5",	"a": "5.9",	"haw": "0",	"other": "3.9",	"his": "10.9"}
+"Port Republic city": {	"white": "97.2",	"af": "0.7",	"ai": "0.6",	"a": "1.3",	"haw": "0",	"other": "1.6",	"his": "3"}
+"Princeton borough": {	"white": "75.2",	"af": "7.5",	"ai": "0.6",	"a": "15.5",	"haw": "0.3",	"other": "4.7",	"his": "10.3"}
+"Princeton township": {	"white": "78.1",	"af": "5.7",	"ai": "0.6",	"a": "15.9",	"haw": "0.1",	"other": "2.7",	"his": "6.9"}
+"Prospect Park borough": {	"white": "55.8",	"af": "22.3",	"ai": "2",	"a": "4.5",	"haw": "0.4",	"other": "21.5",	"his": "52.1"}
+"Quinton township": {	"white": "84.3",	"af": "14.8",	"ai": "2.1",	"a": "0.8",	"haw": "0.1",	"other": "1.4",	"his": "4"}
+"Rahway city": {	"white": "54.8",	"af": "32.9",	"ai": "1.3",	"a": "4.9",	"haw": "0.2",	"other": "9.9",	"his": "23.5"}
+"Ramsey borough": {	"white": "90.6",	"af": "0.9",	"ai": "0.3",	"a": "7.3",	"haw": "0.1",	"other": "2.2",	"his": "6"}
+"Randolph township": {	"white": "84.1",	"af": "3.5",	"ai": "0.3",	"a": "11.4",	"haw": "0.1",	"other": "2.8",	"his": "10.2"}
+"Raritan borough": {	"white": "78.4",	"af": "2.6",	"ai": "0.7",	"a": "15.2",	"haw": "0.1",	"other": "5.6",	"his": "16.4"}
+"Raritan township": {	"white": "90.9",	"af": "2.5",	"ai": "0.4",	"a": "6.7",	"haw": "0",	"other": "1.1",	"his": "5.1"}
+"Readington township": {	"white": "94.1",	"af": "1.6",	"ai": "0.3",	"a": "4.2",	"haw": "0.1",	"other": "0.9",	"his": "3.9"}
+"Red Bank borough": {	"white": "65.4",	"af": "13.7",	"ai": "2.1",	"a": "2.2",	"haw": "0.2",	"other": "19.5",	"his": "34.4"}
+"Ridgefield borough": {	"white": "64.5",	"af": "1.8",	"ai": "0.4",	"a": "30",	"haw": "0.1",	"other": "5.8",	"his": "21.4"}
+"Ridgefield Park village": {	"white": "69.1",	"af": "7.9",	"ai": "0.9",	"a": "12.4",	"haw": "0.2",	"other": "13.8",	"his": "36.2"}
+"Ridgewood village": {	"white": "84.1",	"af": "2",	"ai": "0.3",	"a": "14.4",	"haw": "0",	"other": "1.4",	"his": "5.3"}
+"Ringwood borough": {	"white": "94",	"af": "2.2",	"ai": "2.2",	"a": "2.2",	"haw": "0",	"other": "1.4",	"his": "5.8"}
+"River Edge borough": {	"white": "74.7",	"af": "1.8",	"ai": "0.2",	"a": "23.1",	"haw": "0.1",	"other": "1.6",	"his": "7.7"}
+"River Vale township": {	"white": "90.2",	"af": "1.1",	"ai": "0.2",	"a": "9.2",	"haw": "0.1",	"other": "0.8",	"his": "5"}
+"Riverdale borough": {	"white": "91.6",	"af": "1.8",	"ai": "0.5",	"a": "6.2",	"haw": "0.1",	"other": "2.1",	"his": "7.2"}
+"Riverside township": {	"white": "84.3",	"af": "8.6",	"ai": "2.1",	"a": "1.6",	"haw": "0.1",	"other": "8.8",	"his": "11.3"}
+"Riverton borough": {	"white": "95",	"af": "4.3",	"ai": "0.6",	"a": "1.2",	"haw": "0.1",	"other": "0.7",	"his": "2"}
+"Robbinsville township": {	"white": "83.1",	"af": "3.7",	"ai": "0.3",	"a": "13.8",	"haw": "0",	"other": "1.1",	"his": "4.1"}
+"Rochelle Park township": {	"white": "83.7",	"af": "3.3",	"ai": "0.6",	"a": "9.7",	"haw": "0",	"other": "4.9",	"his": "16.3"}
+"Rockaway borough": {	"white": "84.5",	"af": "3.9",	"ai": "0.5",	"a": "8.3",	"haw": "0.1",	"other": "4.9",	"his": "15.1"}
+"Rockaway township": {	"white": "88.1",	"af": "3.3",	"ai": "0.4",	"a": "7.4",	"haw": "0.1",	"other": "2.8",	"his": "11.2"}
+"Rockleigh borough": {	"white": "95.7",	"af": "2.3",	"ai": "0.2",	"a": "2.3",	"haw": "0.4",	"other": "0.2",	"his": "3.8"}
+"Rocky Hill borough": {	"white": "94.6",	"af": "2.8",	"ai": "1.3",	"a": "3.4",	"haw": "0.3",	"other": "1.5",	"his": "4.8"}
+"Roosevelt borough": {	"white": "93.7",	"af": "1.8",	"ai": "0.3",	"a": "3.9",	"haw": "0.1",	"other": "1.9",	"his": "5.9"}
+"Roseland borough": {	"white": "91.7",	"af": "2.1",	"ai": "0.3",	"a": "6.3",	"haw": "0",	"other": "0.8",	"his": "4.5"}
+"Roselle borough": {	"white": "31.7",	"af": "56.8",	"ai": "1",	"a": "2.7",	"haw": "0.2",	"other": "11.1",	"his": "26.8"}
+"Roselle Park borough": {	"white": "75.7",	"af": "6.7",	"ai": "0.4",	"a": "10.9",	"haw": "0.1",	"other": "8.7",	"his": "28.6"}
+"Roxbury township": {	"white": "90",	"af": "3",	"ai": "0.4",	"a": "6.5",	"haw": "0.1",	"other": "2.1",	"his": "8.9"}
+"Rumson borough": {	"white": "98.2",	"af": "0.4",	"ai": "0.3",	"a": "1.9",	"haw": "0.1",	"other": "0.3",	"his": "2.4"}
+"Runnemede borough": {	"white": "89.9",	"af": "5.4",	"ai": "0.7",	"a": "3.1",	"haw": "0",	"other": "2.6",	"his": "6.1"}
+"Rutherford borough": {	"white": "79.8",	"af": "3.7",	"ai": "0.3",	"a": "14.4",	"haw": "0",	"other": "4.5",	"his": "14.1"}
+"Saddle Brook township": {	"white": "85.8",	"af": "2.6",	"ai": "0.4",	"a": "9.1",	"haw": "0.1",	"other": "3.8",	"his": "12.2"}
+"Saddle River borough": {	"white": "86.9",	"af": "2.8",	"ai": "0.5",	"a": "10.5",	"haw": "0.3",	"other": "1.8",	"his": "5.1"}
+"Salem city": {	"white": "33.8",	"af": "65.7",	"ai": "1.3",	"a": "0.5",	"haw": "0",	"other": "2.7",	"his": "6.7"}
+"Sandyston township": {	"white": "98.6",	"af": "0.7",	"ai": "0.9",	"a": "0.6",	"haw": "0.1",	"other": "0.4",	"his": "3.4"}
+"Sayreville borough": {	"white": "68.6",	"af": "11.6",	"ai": "0.5",	"a": "17.1",	"haw": "0.2",	"other": "4.6",	"his": "12.3"}
+"Scotch Plains township": {	"white": "79.2",	"af": "12.2",	"ai": "0.5",	"a": "8.6",	"haw": "0.1",	"other": "2",	"his": "6.7"}
+"Sea Bright borough": {	"white": "95.5",	"af": "0.8",	"ai": "0.1",	"a": "2.5",	"haw": "0.1",	"other": "1.9",	"his": "5.5"}
+"Sea Girt borough": {	"white": "99.6",	"af": "0.2",	"ai": "0.2",	"a": "0.3",	"haw": "0",	"other": "0.3",	"his": "1.6"}
+"Sea Isle City city": {	"white": "99",	"af": "0.2",	"ai": "0.5",	"a": "0.2",	"haw": "0",	"other": "0.5",	"his": "2.4"}
+"Seaside Heights borough": {	"white": "84.1",	"af": "8.7",	"ai": "1.3",	"a": "1.6",	"haw": "0",	"other": "7.9",	"his": "17.9"}
+"Seaside Park borough": {	"white": "97.8",	"af": "1.5",	"ai": "0.1",	"a": "0.4",	"haw": "0",	"other": "0.9",	"his": "3.4"}
+"Secaucus town": {	"white": "70.1",	"af": "4.7",	"ai": "0.5",	"a": "21.6",	"haw": "0.1",	"other": "5.5",	"his": "18.6"}
+"Shamong township": {	"white": "97.9",	"af": "1.4",	"ai": "0.4",	"a": "1",	"haw": "0",	"other": "0.4",	"his": "2.3"}
+"Shiloh borough": {	"white": "95.2",	"af": "2.1",	"ai": "2.9",	"a": "0.8",	"haw": "0",	"other": "0.6",	"his": "4.1"}
+"Ship Bottom borough": {	"white": "94",	"af": "1.5",	"ai": "0.7",	"a": "0.5",	"haw": "0",	"other": "4.5",	"his": "9.2"}
+"Shrewsbury borough": {	"white": "96.5",	"af": "0.8",	"ai": "0.1",	"a": "2.6",	"haw": "0.1",	"other": "0.8",	"his": "2.5"}
+"Shrewsbury township": {	"white": "75.1",	"af": "16.3",	"ai": "0.8",	"a": "7.5",	"haw": "0",	"other": "4.2",	"his": "14.1"}
+"Somerdale borough": {	"white": "71.2",	"af": "21.4",	"ai": "0.9",	"a": "6.7",	"haw": "0.3",	"other": "3.9",	"his": "8.2"}
+"Somers Point city": {	"white": "81.3",	"af": "12.5",	"ai": "0.9",	"a": "3.5",	"haw": "0.1",	"other": "4.9",	"his": "9.5"}
+"Somerville borough": {	"white": "69.1",	"af": "14.1",	"ai": "0.9",	"a": "12.3",	"haw": "0.1",	"other": "7.9",	"his": "23.7"}
+"South Amboy city": {	"white": "88.2",	"af": "5.2",	"ai": "0.5",	"a": "4.6",	"haw": "0.1",	"other": "3.5",	"his": "13.4"}
+"South Bound Brook borough": {	"white": "70.9",	"af": "11.8",	"ai": "0.5",	"a": "7.4",	"haw": "0.2",	"other": "14",	"his": "27.3"}
+"South Brunswick township": {	"white": "53.7",	"af": "8.6",	"ai": "0.6",	"a": "37.3",	"haw": "0.1",	"other": "2.4",	"his": "6"}
+"South Hackensack township": {	"white": "74.4",	"af": "5.7",	"ai": "0.7",	"a": "6.2",	"haw": "0.3",	"other": "15.6",	"his": "33.3"}
+"South Harrison township": {	"white": "92.6",	"af": "5.6",	"ai": "0.2",	"a": "1.6",	"haw": "0",	"other": "1.2",	"his": "3.1"}
+"South Orange Village township": {	"white": "63.3",	"af": "31",	"ai": "1",	"a": "6.8",	"haw": "0.1",	"other": "2.4",	"his": "6.1"}
+"South Plainfield borough": {	"white": "68.9",	"af": "11.3",	"ai": "0.9",	"a": "16",	"haw": "0.2",	"other": "6.3",	"his": "13.2"}
+"South River borough": {	"white": "79.1",	"af": "8.1",	"ai": "0.6",	"a": "5.4",	"haw": "0.2",	"other": "10.1",	"his": "18.2"}
+"South Toms River borough": {	"white": "71.6",	"af": "22.7",	"ai": "1.3",	"a": "1",	"haw": "0.1",	"other": "8.7",	"his": "19.5"}
+"Southampton township": {	"white": "95.7",	"af": "2.7",	"ai": "0.4",	"a": "1.7",	"haw": "0.1",	"other": "0.8",	"his": "2.2"}
+"Sparta township": {	"white": "95.5",	"af": "1.4",	"ai": "0.4",	"a": "3.3",	"haw": "0.1",	"other": "1",	"his": "5.3"}
+"Spotswood borough": {	"white": "90.3",	"af": "3.8",	"ai": "0.6",	"a": "5.7",	"haw": "0.1",	"other": "1.6",	"his": "8.3"}
+"Spring Lake borough": {	"white": "98",	"af": "0.3",	"ai": "0.1",	"a": "1.4",	"haw": "0",	"other": "0.7",	"his": "1.9"}
+"Spring Lake Heights borough": {	"white": "97.5",	"af": "0.9",	"ai": "0.5",	"a": "1.3",	"haw": "0.2",	"other": "0.7",	"his": "3.3"}
+"Springfield township": {	"white": "92",	"af": "4.8",	"ai": "0.8",	"a": "3",	"haw": "0",	"other": "1.3",	"his": "3.7"}
+"Springfield township": {	"white": "84",	"af": "6.7",	"ai": "0.3",	"a": "8.4",	"haw": "0.1",	"other": "2.3",	"his": "9.5"}
+"Stafford township": {	"white": "95.5",	"af": "1.3",	"ai": "0.4",	"a": "1.9",	"haw": "0.1",	"other": "1.9",	"his": "5.3"}
+"Stanhope borough": {	"white": "93.2",	"af": "2.2",	"ai": "0.3",	"a": "3.1",	"haw": "0",	"other": "3.1",	"his": "8.5"}
+"Stillwater township": {	"white": "98.4",	"af": "0.9",	"ai": "0.8",	"a": "1",	"haw": "0.1",	"other": "0.3",	"his": "2.2"}
+"Stockton borough": {	"white": "99.1",	"af": "0.2",	"ai": "0.2",	"a": "1.3",	"haw": "0.2",	"other": "0.2",	"his": "0.6"}
+"Stone Harbor borough": {	"white": "97.6",	"af": "1.8",	"ai": "0.1",	"a": "0.2",	"haw": "0",	"other": "0.7",	"his": "3.3"}
+"Stow Creek township": {	"white": "92.7",	"af": "5.2",	"ai": "2.1",	"a": "0.6",	"haw": "0.1",	"other": "1",	"his": "4.4"}
+"Stratford borough": {	"white": "84.1",	"af": "9.4",	"ai": "0.8",	"a": "4.9",	"haw": "0.1",	"other": "3",	"his": "6.5"}
+"Summit city": {	"white": "85.8",	"af": "5.1",	"ai": "0.4",	"a": "7.6",	"haw": "0.1",	"other": "3.6",	"his": "13.3"}
+"Surf City borough": {	"white": "96.3",	"af": "1.3",	"ai": "0.4",	"a": "0.7",	"haw": "0.3",	"other": "1.7",	"his": "5.1"}
+"Sussex borough": {	"white": "93.3",	"af": "3.2",	"ai": "1.2",	"a": "2.4",	"haw": "0.4",	"other": "2.2",	"his": "7.9"}
+"Swedesboro borough": {	"white": "72.9",	"af": "17.9",	"ai": "1.4",	"a": "1.7",	"haw": "0.1",	"other": "9.9",	"his": "17.1"}
+"Tabernacle township": {	"white": "96.8",	"af": "1.9",	"ai": "0.3",	"a": "1",	"haw": "0.1",	"other": "1.1",	"his": "2.8"}
+"Tavistock borough": {	"white": "100",	"af": "0",	"ai": "0",	"a": "0",	"haw": "0",	"other": "0",	"his": "0"}
+"Teaneck township": {	"white": "55.7",	"af": "29.7",	"ai": "0.9",	"a": "10.2",	"haw": "0.2",	"other": "7.3",	"his": "16.5"}
+"Tenafly borough": {	"white": "71.2",	"af": "1.3",	"ai": "0.2",	"a": "27.9",	"haw": "0.1",	"other": "1.7",	"his": "5.4"}
+"Teterboro borough": {	"white": "79.1",	"af": "4.5",	"ai": "3",	"a": "7.5",	"haw": "0",	"other": "19.4",	"his": "35.8"}
+"Tewksbury township": {	"white": "95.3",	"af": "1.1",	"ai": "0.3",	"a": "3.7",	"haw": "0",	"other": "1",	"his": "3.5"}
+"Tinton Falls borough": {	"white": "84.1",	"af": "10.4",	"ai": "0.6",	"a": "5.5",	"haw": "0.1",	"other": "1.6",	"his": "6.2"}
+"Toms River township": {	"white": "91.4",	"af": "3.3",	"ai": "0.6",	"a": "4.1",	"haw": "0.1",	"other": "2.4",	"his": "7.9"}
+"Totowa borough": {	"white": "87.2",	"af": "2.7",	"ai": "0.3",	"a": "6.7",	"haw": "0",	"other": "5.2",	"his": "14.3"}
+"Trenton city": {	"white": "29.4",	"af": "54",	"ai": "1.5",	"a": "1.6",	"haw": "0.4",	"other": "17.6",	"his": "33.7"}
+"Tuckerton borough": {	"white": "96.1",	"af": "1",	"ai": "0.6",	"a": "1.3",	"haw": "0",	"other": "3.4",	"his": "6.1"}
+"Union Beach borough": {	"white": "93",	"af": "2.2",	"ai": "0.7",	"a": "2.7",	"haw": "0.1",	"other": "3.8",	"his": "11"}
+"Union City city": {	"white": "62.5",	"af": "6.7",	"ai": "1.9",	"a": "2.9",	"haw": "0.3",	"other": "31.8",	"his": "84.7"}
+"Union township": {	"white": "84.6",	"af": "9.6",	"ai": "0.4",	"a": "5.1",	"haw": "0.3",	"other": "2",	"his": "6.1"}
+"Union township": {	"white": "55.4",	"af": "30",	"ai": "0.5",	"a": "11.4",	"haw": "0.2",	"other": "5.1",	"his": "14.9"}
+"Upper Deerfield township": {	"white": "76.7",	"af": "14.9",	"ai": "2.3",	"a": "3.2",	"haw": "0.1",	"other": "6.1",	"his": "9.4"}
+"Upper Freehold township": {	"white": "92.6",	"af": "2.4",	"ai": "0.5",	"a": "5",	"haw": "0",	"other": "0.9",	"his": "3.7"}
+"Upper Pittsgrove township": {	"white": "96.1",	"af": "2.8",	"ai": "1.1",	"a": "0.4",	"haw": "0",	"other": "0.9",	"his": "3"}
+"Upper Saddle River borough": {	"white": "87.6",	"af": "1.7",	"ai": "0.2",	"a": "11",	"haw": "0",	"other": "0.7",	"his": "4.3"}
+"Upper township": {	"white": "97.8",	"af": "1.1",	"ai": "0.5",	"a": "1",	"haw": "0.1",	"other": "0.8",	"his": "2.4"}
+"Ventnor City city": {	"white": "77.8",	"af": "5.4",	"ai": "1",	"a": "9.4",	"haw": "0.2",	"other": "9.2",	"his": "18"}
+"Vernon township": {	"white": "96.4",	"af": "1.8",	"ai": "0.6",	"a": "1.2",	"haw": "0.1",	"other": "1.4",	"his": "6.4"}
+"Verona township": {	"white": "92.6",	"af": "2.3",	"ai": "0.3",	"a": "4.9",	"haw": "0.1",	"other": "1.5",	"his": "6"}
+"Victory Gardens borough": {	"white": "62.4",	"af": "18.5",	"ai": "1.4",	"a": "2.6",	"haw": "0.1",	"other": "20.1",	"his": "63"}
+"Vineland city": {	"white": "69.6",	"af": "15.9",	"ai": "1.4",	"a": "2.1",	"haw": "0.2",	"other": "14.5",	"his": "38"}
+"Voorhees township": {	"white": "73.4",	"af": "9.7",	"ai": "0.6",	"a": "17.3",	"haw": "0.1",	"other": "1.4",	"his": "3.4"}
+"Waldwick borough": {	"white": "91.9",	"af": "1.5",	"ai": "0.3",	"a": "5.7",	"haw": "0",	"other": "2.1",	"his": "8.6"}
+"Wall township": {	"white": "94.7",	"af": "2.8",	"ai": "0.4",	"a": "2.1",	"haw": "0.1",	"other": "1.1",	"his": "3.5"}
+"Wallington borough": {	"white": "86.8",	"af": "3.7",	"ai": "0.4",	"a": "6.1",	"haw": "0.1",	"other": "4.6",	"his": "10.8"}
+"Walpack township": {	"white": "100",	"af": "0",	"ai": "0",	"a": "6.3",	"haw": "0",	"other": "0",	"his": "0"}
+"Wanaque borough": {	"white": "89.3",	"af": "3.8",	"ai": "1.1",	"a": "5.2",	"haw": "0.1",	"other": "2.9",	"his": "9.7"}
+"Wantage township": {	"white": "96.7",	"af": "1.6",	"ai": "0.6",	"a": "1.6",	"haw": "0",	"other": "1.3",	"his": "5.2"}
+"Warren township": {	"white": "82.5",	"af": "1.7",	"ai": "0.2",	"a": "16.3",	"haw": "0.1",	"other": "1",	"his": "5.4"}
+"Washington borough": {	"white": "87.7",	"af": "7.1",	"ai": "0.8",	"a": "4",	"haw": "0.2",	"other": "2.8",	"his": "8.5"}
+"Washington township": {	"white": "91.7",	"af": "1.4",	"ai": "0.2",	"a": "7",	"haw": "0.1",	"other": "1",	"his": "5.4"}
+"Washington township": {	"white": "94.3",	"af": "1.9",	"ai": "0.3",	"a": "0.1",	"haw": "0",	"other": "3.8",	"his": "9"}
+"Washington township": {	"white": "89.2",	"af": "6.6",	"ai": "0.5",	"a": "4.4",	"haw": "0.1",	"other": "1.1",	"his": "3.7"}
+"Washington township": {	"white": "94.5",	"af": "2",	"ai": "0.3",	"a": "3.9",	"haw": "0",	"other": "0.9",	"his": "4.6"}
+"Washington township": {	"white": "94.6",	"af": "2.9",	"ai": "0.3",	"a": "2.4",	"haw": "0",	"other": "1",	"his": "4.4"}
+"Watchung borough": {	"white": "82.5",	"af": "4",	"ai": "0.2",	"a": "14.2",	"haw": "0",	"other": "1.4",	"his": "5.3"}
+"Waterford township": {	"white": "92.1",	"af": "5.6",	"ai": "0.5",	"a": "1.6",	"haw": "0.1",	"other": "2",	"his": "4.4"}
+"Wayne township": {	"white": "87.4",	"af": "2.6",	"ai": "0.3",	"a": "9",	"haw": "0.1",	"other": "2.2",	"his": "7.9"}
+"Weehawken township": {	"white": "75.2",	"af": "6",	"ai": "1",	"a": "9.1",	"haw": "0.1",	"other": "12.8",	"his": "40.3"}
+"Wenonah borough": {	"white": "97.5",	"af": "1.3",	"ai": "0.4",	"a": "1.6",	"haw": "0.2",	"other": "0.4",	"his": "1.4"}
+"West Amwell township": {	"white": "83.7",	"af": "14.1",	"ai": "0.3",	"a": "1.8",	"haw": "0.1",	"other": "1.4",	"his": "4.8"}
+"West Caldwell township": {	"white": "93.9",	"af": "1.5",	"ai": "0.1",	"a": "4.5",	"haw": "0.1",	"other": "1",	"his": "4.9"}
+"West Cape May borough": {	"white": "87.2",	"af": "9.2",	"ai": "1.1",	"a": "0.7",	"haw": "0",	"other": "3.2",	"his": "5"}
+"West Deptford township": {	"white": "90.3",	"af": "7.4",	"ai": "0.5",	"a": "2.3",	"haw": "0.1",	"other": "1.1",	"his": "3.4"}
+"West Long Branch borough": {	"white": "95.4",	"af": "2.5",	"ai": "0.3",	"a": "1.6",	"haw": "0.1",	"other": "1.3",	"his": "5"}
+"West Milford township": {	"white": "95.5",	"af": "2",	"ai": "1.1",	"a": "1.8",	"haw": "0",	"other": "1.4",	"his": "5.8"}
+"West New York town": {	"white": "66.6",	"af": "6.1",	"ai": "2.2",	"a": "6.7",	"haw": "0.2",	"other": "24.2",	"his": "78.1"}
+"West Orange township": {	"white": "59.4",	"af": "28.1",	"ai": "0.8",	"a": "8.9",	"haw": "0.2",	"other": "5.9",	"his": "16.2"}
+"West Wildwood borough": {	"white": "97",	"af": "3",	"ai": "0.8",	"a": "0",	"haw": "0",	"other": "1.7",	"his": "2.7"}
+"West Windsor township": {	"white": "57",	"af": "4.3",	"ai": "0.3",	"a": "39.5",	"haw": "0.1",	"other": "1.6",	"his": "4.5"}
+"Westampton township": {	"white": "64.2",	"af": "28.1",	"ai": "1.1",	"a": "8.1",	"haw": "0.1",	"other": "3.1",	"his": "8.8"}
+"Westfield town": {	"white": "90",	"af": "3.7",	"ai": "0.3",	"a": "6.8",	"haw": "0.1",	"other": "1.1",	"his": "4.9"}
+"Westville borough": {	"white": "90.9",	"af": "5.7",	"ai": "0.6",	"a": "1.7",	"haw": "0.1",	"other": "2.6",	"his": "6"}
+"Westwood borough": {	"white": "84.7",	"af": "5.1",	"ai": "0.6",	"a": "8.2",	"haw": "0.1",	"other": "3.5",	"his": "11.6"}
+"Weymouth township": {	"white": "93.3",	"af": "5.6",	"ai": "0.9",	"a": "1.1",	"haw": "0.1",	"other": "0.8",	"his": "4.6"}
+"Wharton borough": {	"white": "79.2",	"af": "5.5",	"ai": "0.9",	"a": "6.5",	"haw": "0.1",	"other": "12.1",	"his": "40.3"}
+"White township": {	"white": "96.3",	"af": "2.3",	"ai": "0.7",	"a": "0.8",	"haw": "0",	"other": "0.9",	"his": "2.7"}
+"Wildwood city": {	"white": "70.6",	"af": "12.4",	"ai": "1.1",	"a": "1.1",	"haw": "0.2",	"other": "18",	"his": "31.2"}
+"Wildwood Crest borough": {	"white": "95.2",	"af": "3",	"ai": "0.5",	"a": "1.3",	"haw": "0",	"other": "2.3",	"his": "5.6"}
+"Willingboro township": {	"white": "19.9",	"af": "76.6",	"ai": "1.7",	"a": "2.7",	"haw": "0.1",	"other": "4",	"his": "8.7"}
+"Winfield township": {	"white": "97.6",	"af": "1.3",	"ai": "0.2",	"a": "0.6",	"haw": "0.1",	"other": "1.5",	"his": "6.4"}
+"Winslow township": {	"white": "56.5",	"af": "38.3",	"ai": "1.1",	"a": "3.7",	"haw": "0.1",	"other": "3.7",	"his": "8.1"}
+"Woodbine borough": {	"white": "60.8",	"af": "27.1",	"ai": "1",	"a": "1.1",	"haw": "0",	"other": "13.8",	"his": "23.2"}
+"Woodbridge township": {	"white": "61",	"af": "10.8",	"ai": "0.8",	"a": "23.7",	"haw": "0.1",	"other": "6.7",	"his": "15.6"}
+"Woodbury city": {	"white": "69.4",	"af": "28",	"ai": "1.2",	"a": "1.7",	"haw": "0.4",	"other": "4.1",	"his": "10.7"}
+"Woodbury Heights borough": {	"white": "94.2",	"af": "3.8",	"ai": "0.4",	"a": "2.1",	"haw": "0.1",	"other": "0.9",	"his": "2.4"}
+"Woodcliff Lake borough": {	"white": "91.3",	"af": "1",	"ai": "0.1",	"a": "7.3",	"haw": "0",	"other": "1.6",	"his": "5.4"}
+"Woodland Park borough": {	"white": "84.8",	"af": "5.1",	"ai": "0.5",	"a": "5.4",	"haw": "0.2",	"other": "7",	"his": "20.7"}
+"Woodland township": {	"white": "90.4",	"af": "8.3",	"ai": "0.1",	"a": "1.2",	"haw": "0",	"other": "1",	"his": "4.8"}
+"Woodlynne borough": {	"white": "31.5",	"af": "36.6",	"ai": "1.7",	"a": "10.3",	"haw": "0.2",	"other": "24.9",	"his": "38.3"}
+"Wood-Ridge borough": {	"white": "88.5",	"af": "1.7",	"ai": "0.5",	"a": "7.7",	"haw": "0.1",	"other": "3.2",	"his": "13.1"}
+"Woodstown borough": {	"white": "85.1",	"af": "13.8",	"ai": "1.4",	"a": "1.5",	"haw": "0.2",	"other": "1.7",	"his": "5.6"}
+"Woolwich township": {	"white": "82.8",	"af": "11",	"ai": "0.7",	"a": "6.7",	"haw": "0",	"other": "1",	"his": "3.6"}
+"Wrightstown borough": {	"white": "51.1",	"af": "24.7",	"ai": "1.9",	"a": "7.7",	"haw": "0.7",	"other": "20.1",	"his": "28.1"}
+"Wyckoff township": {	"white": "94.6",	"af": "0.8",	"ai": "0.1",	"a": "5",	"haw": "0",	"other": "0.7",	"his": "4.4"}
 

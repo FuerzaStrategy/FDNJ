@@ -276,8 +276,8 @@
            </div>
            <br>
           <div id='table_white'><!--NEW-->
-              <p id='population_prev_num'>District Demographics:</p>
-	      <P id='deviation_curr_num' style="margin-top:0px">Deviation:</P>
+              <p id='population_prev_num' style="margin-bottom:0px">District Demographics:</p>
+	      <P id='deviation_old' style="margin-top:0px">Deviation:</P>
               <center>
               <table style='border: 1px solid black;border-collapse: collapse;table-layout: auto;width:100%; text-align:center;'>
 		       <!--<colgroup>
@@ -987,6 +987,7 @@
 			      //$('#asian_curr_num').text((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#hispanic_curr_num').text((((hispanic_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#deviation_curr_num').text("Deviation: " + new_district_data[file_name]['Deviation'])	
+			      $('#deviation_old').text("Deviation: " + new_district_data[file_name]['Deviation'])	
 			      $('#white_curr_num').text(new_district_data[file_name]['white'] + "%")
 			      $('#african_curr_num').text(new_district_data[file_name]['african'] + "%")
 			      $('#asian_curr_num').text(new_district_data[file_name]['asian'] + "%")

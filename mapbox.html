@@ -642,6 +642,10 @@
 			var district_african_old = [];
 			var district_asian_old = [];
 			var district_hispanic_old = [];
+			var district_white_old = [];
+			var district_ai_old = [];
+			var district_haw_old = [];
+			var district_other_old = [];
 			var old_african_num;
 			var old_asian_num;
 			var old_hispanic_num;
@@ -761,6 +765,10 @@
 			    var african_ratio_old =[]
 			    var asian_ratio_old = []
 			    var hispanic_ratio_old = []
+			    var white_ratio_old = []
+			    var ai_ratio_old = []
+			    var haw_ratio_old = []
+			    var other_ratio_old = []
 			    //var show_array = []
 			    
 			    make_old_array.forEach(function(a, ind){
@@ -782,9 +790,13 @@
 					     
 							     
 				final_old_array.forEach(function(a,ind){
-				district_african_old.push(Number(data_2000[a]['african']))
-				district_asian_old.push(Number(data_2000[a]['asian']))
-				district_hispanic_old.push(Number(data_2000[a]['hispanic']))
+				district_african_old.push(Number(racedata2000[a]['af']))
+				district_asian_old.push(Number(racedata2000[a]['a']))
+				district_hispanic_old.push(Number(racedata2000[a]['his']))
+				district_ai_old.push(Number(racedata2000[a]['ai']))
+				district_white_old.push(Number(racedata2000[a]['white']))
+				district_haw_old.push(Number(racedata2000[a]['haw']))
+				district_other_old.push(Number(racedata2000[a]['other']))
 			        district_dem_num.push(Number(data_2000[a]['democratic']))
 				district_rep_num.push(Number(data_2000[a]['republican']))
 				district_old_people.push(Number(parseFloat((data_2000[a]['population']).replace(/,/g, ''))))
@@ -795,8 +807,12 @@
 			    	    for(var i=0; i<district_old_people.length; i++){
 				    rep_ratio_old.push(district_old_people[i]*(district_rep_num[i]/100))
 				    dem_ratio_old.push(district_old_people[i]*(district_dem_num[i]/100))
+			            white_ratio_old.push(district_old_people[i]*(district_white_old[i]/100))
 				    african_ratio_old.push(district_old_people[i]*(district_african_old[i]/100))
+			            ai_ratio_old.push(district_old_people[i]*(district_ai_old[i]/100))
 				    asian_ratio_old.push(district_old_people[i]*(district_asian_old[i]/100))
+				    haw_ratio_old.push(district_old_people[i]*(district_haw_old[i]/100))
+			            other_ratio_old.push(district_old_people[i]*(district_other_old[i]/100))
 				    hispanic_ratio_old.push(district_old_people[i]*(district_hispanic_old[i]/100))
 			   	    }
 			    

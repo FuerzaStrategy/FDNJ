@@ -870,9 +870,12 @@
 	                    $('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    $('#republican_prev').text(data_from_2000['republican'] + "%")
 	                    $('#population_prev').text("Town Demographics: " + data_from_2000['population'] + " Total Population")
-	                    $('#african_prev').text(data_from_2000['african'] + "%")
-	                    $('#asian_prev').text(data_from_2000['asian'] + "%")
-	                    $('#hispanic_prev').text(data_from_2000['hispanic'] + "%")
+	                    $('#african_prev').text(racedata2000[townName]['af'] + "%")
+	                    $('#asian_prev').text(racedata2000[townName]['a'] + "%")
+			    $('#ai_prev').text(racedata2000[townName]['ai'] + "%")
+			    $('#haw_prev').text(racedata2000[townName]['haw'] + "%")
+			    $('#other_prev').text(racedata2000[townName]['other'] + "%")
+	                    $('#hispanic_prev').text(racedata2000[townName]['his'] + "%")
 	                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])
 	                }
 	

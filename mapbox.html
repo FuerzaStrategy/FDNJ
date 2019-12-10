@@ -864,7 +864,8 @@
 			      $('#population_prev_num').html("District Demographics: " +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      //}, 10000);
-
+		            
+			    $('#white_prev').text(racedata200[townName]['white'] + "%")
 	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters")
 	                    $('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    $('#republican_prev').text(data_from_2000['republican'] + "%")

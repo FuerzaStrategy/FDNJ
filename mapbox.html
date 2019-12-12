@@ -588,7 +588,7 @@
 	        var url='https://maps.googleapis.com/maps/api/geocode/json?address=' + replaced_zip + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
 	        Http.open("GET", url);
 	        Http.send();
-	
+		console.log(url);
 	        //Http.onreadystatechange = (e) => {
 	            Http.onreadystatechange = function(){ 
 			  if (this.readyState == 4 && this.status == 200) {

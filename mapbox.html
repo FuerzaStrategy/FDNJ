@@ -300,7 +300,7 @@
            <br>
           <div id='table_white'><!--NEW-->
               <p id='population_prev_num' style="margin-bottom:0px">District Demographics:</p>
-	      <p style="margin-top:0px; margin-bottom:0px">Target Population: 212,200</p>
+	      <p id='old_target' style="margin-top:0px; margin-bottom:0px">Target Population: 212,200</p>
 	      <P id='deviation_old' style="margin-top:0px">Deviation:</P>
               <center>
               <table style='border: 1px solid black;border-collapse: collapse;table-layout: auto;width:100%; text-align:center;'>
@@ -427,7 +427,7 @@
               <br>
               <div id='table_white'><!--NEW-->
 	            <p id='population_curr_num' style="margin-bottom:0px">District Demographics:</p>
-		    <p style="margin-top:0px; margin-bottom:0px">Target Population: 220,700</p>
+		    <p id='new_target' style="margin-top:0px; margin-bottom:0px">Target Population: 220,700</p>
 		    <P id='deviation_curr_num' style="margin-top:0px">Deviation:</P>
               <center>
               <table style='border: 1px solid black;border-collapse: collapse; text-align:center;table-layout: auto;width: 100%;'>
@@ -1017,7 +1017,9 @@
 			      $('#haw_curr_num').text((((haw_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#white_curr_num').text((((white_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#deviation_curr_num').text("Deviation: " + new_district_data[file_name]['Deviation'])	
-			      $('#deviation_old').text("Deviation: " + new_district_data[file_name]['Deviation'])	
+			      $('#deviation_old').text("Deviation: " + new_district_data[file_name]['Deviation'])
+			      $('#old_target').text("212,000")
+			      $('#new_target').text("220,700")
 			      //$('#white_curr_num').text(new_district_data[file_name]['white'] + "%")
 			      //$('#african_curr_num').text(new_district_data[file_name]['african'] + "%")
 			      //$('#asian_curr_num').text(new_district_data[file_name]['asian'] + "%")

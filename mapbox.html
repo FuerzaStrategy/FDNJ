@@ -603,6 +603,9 @@
 	            else {
 	                var lat = parseFloat(data.results[0].geometry.location.lat)
 	                var lon = parseFloat(data.results[0].geometry.location.lng)
+			var Countystr3 =data.results[0].address_components[3].long_name;
+			var Countystr4 =data.results[0].address_components[4].long_name;
+			console.log(Countystr3)
 	
 	                var townName;
 	                var data_from_2000;

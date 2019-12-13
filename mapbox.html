@@ -606,9 +606,12 @@
 			var Countystr3 =data.results[0].address_components[3].long_name;
 			var Countystr4 =data.results[0].address_components[4].long_name;
 			if(Countystr3.match(/County/)=='County'){
-				console.log("goog")
+				var County = Countystr3
 			}
-			console.log(Countystr3)
+			if(Countystr4.match(/County/)=='County'){
+				var County = Countystr4
+			} 
+			console.log(County)
 	
 	                var townName;
 	                var data_from_2000;

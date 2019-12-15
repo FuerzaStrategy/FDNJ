@@ -1,0 +1,17 @@
+{
+  "Bridgeton": {	"white": "35.6",	"af": "37.6",	"ai": "2.5",	"a": "0.8",	"haw": "0.2",	"other": "27.9",	"his": "43.6"},
+  "Commercial Township": {	"white": "86.9",	"af": "12.1",	"ai": "1.6",	"a": "0.9",	"haw": "0",	"other": "2.2",	"his": "6.1"},
+  "Deerfield": {	"white": "76.4",	"af": "14.3",	"ai": "3.4",	"a": "1.8",	"haw": "0",	"other": "8.4",	"his": "14.1"},
+  "Downe": {	"white": "95",	"af": "2.8",	"ai": "2",	"a": "0.3",	"haw": "0",	"other": "2.3",	"his": "3.8"},
+  "Fairfield Township": {	"white": "40.7",	"af": "50.6",	"ai": "7.5",	"a": "0.7",	"haw": "0.1",	"other": "5.7",	"his": "12.8"},
+  "Greenwich": {	"white": "93.7",	"af": "5.2",	"ai": "3",	"a": "1.7",	"haw": "0",	"other": "0.6",	"his": "2.6"},
+  "Hopewell": {	"white": "86.8",	"af": "7.9",	"ai": "3.4",	"a": "1.2",	"haw": "0",	"other": "3.9",	"his": "7.3"},
+  "Lawrence Township": {	"white": "83.3",	"af": "10.7",	"ai": "2.9",	"a": "0.5",	"haw": "0.2",	"other": "5.8",	"his": "11.4"},
+  "Maurice River": {	"white": "59.2",	"af": "36.9",	"ai": "1",	"a": "0.7",	"haw": "0.1",	"other": "4",	"his": "11.5"},
+  "Millville": {	"white": "71.8",	"af": "22.2",	"ai": "2",	"a": "1.6",	"haw": "0.2",	"other": "6.3",	"his": "14.9"},
+  "Shiloh": {	"white": "95.2",	"af": "2.1",	"ai": "2.9",	"a": "0.8",	"haw": "0",	"other": "0.6",	"his": "4.1"},
+  "Stow Creek": {	"white": "92.7",	"af": "5.2",	"ai": "2.1",	"a": "0.6",	"haw": "0.1",	"other": "1",	"his": "4.4"},
+  "Upper Deerfield Township": {	"white": "76.7",	"af": "14.9",	"ai": "2.3",	"a": "3.2",	"haw": "0.1",	"other": "6.1",	"his": "9.4"},
+  "Vineland": {	"white": "69.6",	"af": "15.9",	"ai": "1.4",	"a": "2.1",	"haw": "0.2",	"other": "14.5",	"his": "38"}
+}
+  

@@ -603,20 +603,27 @@
 	            else {
 	                var lat = parseFloat(data.results[0].geometry.location.lat)
 	                var lon = parseFloat(data.results[0].geometry.location.lng)
-			var Countystr3 =data.results[0].address_components[3].long_name;
+			var address_components = data.results[0].address_components
+			for(var i = 0; i < address_components.length; i ++) {
+		             var Countystr1 = address_components[i].long_name
+			     if(Countystr1.match(/County/)=='County'){
+				var County = Countystr1
+				}
+			}
+			/*var Countystr3 =data.results[0].address_components[3].long_name;
 			var Countystr4 =data.results[0].address_components[4].long_name;
 			if(Countystr3.match(/County/)=='County'){
 				var County = Countystr3
 			}
 			if(Countystr4.match(/County/)=='County'){
 				var County = Countystr4
-			} 
+			}*/
 			console.log(County)
 	
 	                var townName;
 	                var data_from_2000;
 	                var data_from_2010;
-	                var address_components = data.results[0].address_components
+	                //var address_components = data.results[0].address_components
 	                for(var i = 0; i < address_components.length; i ++) {
 	                    var townName_temp = address_components[i].long_name
 	                    if(data_2000[townName_temp] !== undefined) {

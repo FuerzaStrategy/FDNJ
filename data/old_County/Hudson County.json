@@ -1,14 +1,14 @@
 {
-"Bayonne city": {	"white": "82",	"af": "6.3",	"ai": "0.5",	"a": "4.8",	"haw": "0.2",	"other": "10.4",	"his": "17.8"},
-"East Newark borough": {	"white": "73.5",	"af": "2.4",	"ai": "0.8",	"a": "2.8",	"haw": "0",	"other": "27.8",	"his": "47.5"},
-"Guttenberg town": {	"white": "71",	"af": "4.7",	"ai": "0.8",	"a": "8.2",	"haw": "0.1",	"other": "22.5",	"his": "54.3"},
-"Harrison town": {	"white": "70.4",	"af": "1.3",	"ai": "0.7",	"a": "12.4",	"haw": "0.2",	"other": "19.9",	"his": "37"},
-"Hoboken city": {	"white": "83.1",	"af": "5.1",	"ai": "0.5",	"a": "4.9",	"haw": "0.1",	"other": "9.3",	"his": "20.2"},
-"Jersey City city": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3"},
-"Kearny town": {	"white": "79.5",	"af": "4.6",	"ai": "0.6",	"a": "6",	"haw": "0.2",	"other": "13.5",	"his": "27.3"},
-"North Bergen township": {	"white": "74",	"af": "3.6",	"ai": "0.8",	"a": "7.3",	"haw": "0.1",	"other": "21.8",	"his": "57.3"},
-"Secaucus town": {	"white": "80.5",	"af": "4.7",	"ai": "0.2",	"a": "12.5",	"haw": "0",	"other": "4.4",	"his": "12.3"},
-"Union City city": {	"white": "64.2",	"af": "5.3",	"ai": "1.2",	"a": "2.6",	"haw": "0.2",	"other": "33.7",	"his": "82.3"},
-"Weehawken township": {	"white": "76.9",	"af": "4.7",	"ai": "0.6",	"a": "5.2",	"haw": "0.1",	"other": "17.2",	"his": "40.6"},
-"West New York town": {	"white": "66.7",	"af": "4.8",	"ai": "1.1",	"a": "3.4",	"haw": "0.1",	"other": "31.8",	"his": "78.7"}
+"Bayonne": {	"white": "82",	"af": "6.3",	"ai": "0.5",	"a": "4.8",	"haw": "0.2",	"other": "10.4",	"his": "17.8"},
+"East Newark": {	"white": "73.5",	"af": "2.4",	"ai": "0.8",	"a": "2.8",	"haw": "0",	"other": "27.8",	"his": "47.5"},
+"Guttenberg": {	"white": "71",	"af": "4.7",	"ai": "0.8",	"a": "8.2",	"haw": "0.1",	"other": "22.5",	"his": "54.3"},
+"Harrison": {	"white": "70.4",	"af": "1.3",	"ai": "0.7",	"a": "12.4",	"haw": "0.2",	"other": "19.9",	"his": "37"},
+"Hoboken": {	"white": "83.1",	"af": "5.1",	"ai": "0.5",	"a": "4.9",	"haw": "0.1",	"other": "9.3",	"his": "20.2"},
+"Jersey City": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3"},
+"Kearny": {	"white": "79.5",	"af": "4.6",	"ai": "0.6",	"a": "6",	"haw": "0.2",	"other": "13.5",	"his": "27.3"},
+"North Bergen": {	"white": "74",	"af": "3.6",	"ai": "0.8",	"a": "7.3",	"haw": "0.1",	"other": "21.8",	"his": "57.3"},
+"Secaucus": {	"white": "80.5",	"af": "4.7",	"ai": "0.2",	"a": "12.5",	"haw": "0",	"other": "4.4",	"his": "12.3"},
+"Union City": {	"white": "64.2",	"af": "5.3",	"ai": "1.2",	"a": "2.6",	"haw": "0.2",	"other": "33.7",	"his": "82.3"},
+"Weehawken": {	"white": "76.9",	"af": "4.7",	"ai": "0.6",	"a": "5.2",	"haw": "0.1",	"other": "17.2",	"his": "40.6"},
+"West New York": {	"white": "66.7",	"af": "4.8",	"ai": "1.1",	"a": "3.4",	"haw": "0.1",	"other": "31.8",	"his": "78.7"}
 }

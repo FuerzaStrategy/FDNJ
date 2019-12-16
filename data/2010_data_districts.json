@@ -60,7 +60,7 @@
 
       
 
-"District 9": { "Name": "Barnegat Township,Barnegat Light,Bass River,Beach Haven,Beachwood,Berkeley,Eagleswood,Galloway,Harvey Cedars,Lacey,Little Egg Harbor,Long Beach,Ocean Gate,Ocean Twp,Pine Beach,Port Republic,Seaside Park,Ship Bottom,South Toms River,Stafford,Surf City,Tabernacle,Tuckerton,Washington",
+"District 9": { "Name": "Barnegat Township,Barnegat Light,Bass River,Beach Haven,Beachwood,Berkeley Township,Eagleswood,Galloway,Harvey Cedars,Lacey,Little Egg Harbor,Long Beach,Ocean Gate,Ocean Township,Pine Beach,Port Republic,Seaside Park,Ship Bottom,South Toms River,Stafford,Surf City,Tabernacle,Tuckerton,Washington",
                  "Deviation": "5,402",
                  "white": "90.4",
                 "african": "3.4",
@@ -76,7 +76,7 @@
                 "hispanic": "7.1"},
       
 
-"District 11": { "Name": "Allenhurst,Asbury Park,Colts Neck,Deal,Eatontown,Freehold,Freehold Twp,Interlaken,Loch Arbour,Long Branch,Neptune,Neptune Twp,Ocean Twp,Red Bank,Shrewsbury,Shrewsbury Twp,Tinton Falls,West Long Branch",
+"District 11": { "Name": "Allenhurst,Asbury Park,Colts Neck,Deal,Eatontown,Freehold,Freehold Township,Interlaken,Loch Arbour,Long Branch,Neptune City,Neptune Township,Ocean Township,Red Bank,Shrewsbury,Shrewsbury Township,Tinton Falls,West Long Branch",
                  "Deviation": "3,625",
                 "white": "71.7",
                 "african": "15.6",
@@ -84,7 +84,7 @@
                 "hispanic": "15.3"},
       
 
-"District 12": { "Name": "Allentown,Chesterfield,Englishtown,Jackson,Manalapan,Matawan,Millstone ,New Hanover,North Hanover,Old Bridge,Plumsted,Roosevelt,Upper Freehold,Wrightstown",
+"District 12": { "Name": "Allentown,Chesterfield Township,Englishtown,Jackson,Manalapan,Matawan,Millstone Township,New Hanover,North Hanover,Old Bridge,Plumsted,Roosevelt,Upper Freehold,Wrightstown",
                   "Deviation": "2,126",
                 "white": "81.7",
                 "african": "6.6",

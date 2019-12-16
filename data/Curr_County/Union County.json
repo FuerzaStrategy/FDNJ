@@ -1,0 +1,23 @@
+{
+  "Berkeley Heights": {	"white": "87",	"af": "1.8",	"ai": "0.2",	"a": "11.5",	"haw": "0",	"other": "1.2",	"his": "5.1"},
+  "Clark": {	"white": "94.1",	"af": "1",	"ai": "0.3",	"a": "4",	"haw": "0.1",	"other": "1.4",	"his": "7.5"},
+  "Cranford": {	"white": "93.2",	"af": "3.1",	"ai": "0.4",	"a": "3.6",	"haw": "0.1",	"other": "1.4",	"his": "6.5"},
+  "Elizabeth": {	"white": "58.2",	"af": "22.5",	"ai": "1.4",	"a": "2.5",	"haw": "0.2",	"other": "20",	"his": "59.5"},
+  "Fanwood": {	"white": "86.6",	"af": "6",	"ai": "0.4",	"a": "7.9",	"haw": "0.1",	"other": "1.4",	"his": "6.3"},
+  "Garwood": {	"white": "94.7",	"af": "1.6",	"ai": "0.2",	"a": "2.7",	"haw": "0",	"other": "2.7",	"his": "8.8"},
+  "Hillside": {	"white": "36.6",	"af": "54.6",	"ai": "0.7",	"a": "3.2",	"haw": "0.3",	"other": "7.7",	"his": "17.6"},
+  "Kenilworth": {	"white": "89.4",	"af": "3.4",	"ai": "0.3",	"a": "4.6",	"haw": "0.1",	"other": "3.9",	"his": "15.5"},
+  "Linden": {	"white": "61.7",	"af": "28.4",	"ai": "0.9",	"a": "3.2",	"haw": "0.2",	"other": "9.3",	"his": "24.9"},
+  "Mountainside": {	"white": "92.5",	"af": "2.3",	"ai": "0.1",	"a": "5.7",	"haw": "0",	"other": "0.7",	"his": "6.1"},
+  "New Providence": {	"white": "87.4",	"af": "1.6",	"ai": "0.3",	"a": "10.9",	"haw": "0.1",	"other": "1.5",	"his": "6.4"},
+  "Plainfield": {	"white": "26.5",	"af": "52.1",	"ai": "1.9",	"a": "1.4",	"haw": "0.2",	"other": "22.6",	"his": "40.4"},
+  "Rahway": {	"white": "54.8",	"af": "32.9",	"ai": "1.3",	"a": "4.9",	"haw": "0.2",	"other": "9.9",	"his": "23.5"},
+  "Roselle": {	"white": "31.7",	"af": "56.8",	"ai": "1",	"a": "2.7",	"haw": "0.2",	"other": "11.1",	"his": "26.8"},
+  "Roselle Park": {	"white": "75.7",	"af": "6.7",	"ai": "0.4",	"a": "10.9",	"haw": "0.1",	"other": "8.7",	"his": "28.6"},
+  "Scotch Plains": {	"white": "79.2",	"af": "12.2",	"ai": "0.5",	"a": "8.6",	"haw": "0.1",	"other": "2",	"his": "6.7"},
+  "Springfield township": {	"white": "84",	"af": "6.7",	"ai": "0.3",	"a": "8.4",	"haw": "0.1",	"other": "2.3",	"his": "9.5"},
+  "Summit": {	"white": "85.8",	"af": "5.1",	"ai": "0.4",	"a": "7.6",	"haw": "0.1",	"other": "3.6",	"his": "13.3"},
+  "Union township": {	"white": "55.4",	"af": "30",	"ai": "0.5",	"a": "11.4",	"haw": "0.2",	"other": "5.1",	"his": "14.9"},
+  "Westfield": {	"white": "90",	"af": "3.7",	"ai": "0.3",	"a": "6.8",	"haw": "0.1",	"other": "1.1",	"his": "4.9"},
+  "Winfield": {	"white": "97.6",	"af": "1.3",	"ai": "0.2",	"a": "0.6",	"haw": "0.1",	"other": "1.5",	"his": "6.4"}
+  }

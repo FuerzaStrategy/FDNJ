@@ -1,0 +1,18 @@
+{
+  "Bloomingdale": {	"white": "93.1",	"af": "1.4",	"ai": "0.4",	"a": "2.8",	"haw": "0.1",	"other": "3.5",	"his": "9.3"},
+  "Clifton": {	"white": "72.4",	"af": "5.9",	"ai": "0.8",	"a": "10.1",	"haw": "0.2",	"other": "14.4",	"his": "31.9"},
+  "Haledon": {	"white": "65.8",	"af": "13",	"ai": "1",	"a": "7.3",	"haw": "0.2",	"other": "17.2",	"his": "41.6"},
+  "Hawthorne": {	"white": "90.2",	"af": "2.8",	"ai": "0.5",	"a": "3.3",	"haw": "0",	"other": "5.1",	"his": "15.4"},
+  "Little Falls": {	"white": "88.4",	"af": "4.6",	"ai": "0.4",	"a": "5.5",	"haw": "0.1",	"other": "3.1",	"his": "9.9"},
+  "North Haledon": {	"white": "93",	"af": "2.3",	"ai": "0.2",	"a": "4.4",	"haw": "0",	"other": "1.8",	"his": "7.5"},
+  "Passaic": {	"white": "48.8",	"af": "12.3",	"ai": "1.8",	"a": "5",	"haw": "0.3",	"other": "37.5",	"his": "71"},
+  "Paterson": {	"white": "38.6",	"af": "33.7",	"ai": "1.9",	"a": "4",	"haw": "0.3",	"other": "27",	"his": "57.6"},
+  "Pompton Lakes": {	"white": "89.4",	"af": "2.1",	"ai": "0.5",	"a": "5.9",	"haw": "0",	"other": "3.9",	"his": "10.9"},
+  "Prospect Park": {	"white": "55.8",	"af": "22.3",	"ai": "2",	"a": "4.5",	"haw": "0.4",	"other": "21.5",	"his": "52.1"},
+  "Ringwood": {	"white": "94",	"af": "2.2",	"ai": "2.2",	"a": "2.2",	"haw": "0",	"other": "1.4",	"his": "5.8"},
+  "Totowa": {	"white": "87.2",	"af": "2.7",	"ai": "0.3",	"a": "6.7",	"haw": "0",	"other": "5.2",	"his": "14.3"},
+  "Wanaque": {	"white": "89.3",	"af": "3.8",	"ai": "1.1",	"a": "5.2",	"haw": "0.1",	"other": "2.9",	"his": "9.7"},
+  "Wayne": {	"white": "87.4",	"af": "2.6",	"ai": "0.3",	"a": "9",	"haw": "0.1",	"other": "2.2",	"his": "7.9"},
+  "West Milford": {	"white": "95.5",	"af": "2",	"ai": "1.1",	"a": "1.8",	"haw": "0",	"other": "1.4",	"his": "5.8"},
+  "Woodland Park": {	"white": "84.8",	"af": "5.1",	"ai": "0.5",	"a": "5.4",	"haw": "0.2",	"other": "7",	"his": "20.7"}
+  }

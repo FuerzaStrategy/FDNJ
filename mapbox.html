@@ -579,11 +579,11 @@
 	   $.getJSON("data/2010_race_data.json", function(data) {
 	        racedata2010 = data
 	    })
-	   $.getJSON("data/Curr_County.json", function(data) {
+	   $.getJSON("data/Curr_County/"+ County.toString() + ".json", function(data) {
 	        curr_county_data = data
 	    })
 		
-	    
+	    //$.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson"
 	    function handleIt(zip) {
 	
 	        const Http = new XMLHttpRequest();
@@ -695,7 +695,7 @@
 			 //console.log(make_old_array)
 			 console.log(Current_Legislators[currentHighlight_new.toString()])
 			 
-			 console.log(curr_county_data[County][townName])
+			 console.log(curr_county_data[townName])
 			    
 			var list_towns = []
 			var uniqueNames = [];

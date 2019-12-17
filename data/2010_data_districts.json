@@ -5,7 +5,7 @@
                 "african": "11.7",
                 "asian": "1.1",
                 "hispanic": "16.4"},
-"District 2": { "Name": "Absecon,Atlantic City,Brigantine,Buena,Buena Vista Township,Egg Harbor City,Egg Harbor Township,Folsom,Hamilton Township,Linwood,Longport,Margate City,Mullica,Northfield,Pleasantville,Somers Point,Ventnor City",
+"District 2": { "Name": "Absecon,Atlantic City,Brigantine,Buena,Buena Vista Township,Egg Harbor City,Egg Harbor Township,Folsom,Hamilton Township of Atlantic County,Linwood,Longport,Margate City,Mullica,Northfield,Pleasantville,Somers Point,Ventnor City",
                  "Deviation": "-3,445",
                  "white": "62.4",
                 "african": "18.2",
@@ -100,7 +100,7 @@
                 "hispanic": "6.3"},
       
 
-"District 14": { "Name": "Cranbury,East Windsor,Hamilton Township,Hightstown,Jamesburg,Monroe Township,Plainsboro,Robbinsville,Spotswood",
+"District 14": { "Name": "Cranbury,East Windsor,Hamilton Township of Mercer County,Hightstown,Jamesburg,Monroe Township,Plainsboro,Robbinsville,Spotswood",
                   "Deviation": "-4,847",
                  "white": "73.2",
                 "african": "8.3",

@@ -541,7 +541,7 @@
 	    var racedata2000 = {}
 	    var racedata2010 = {}
 	    var currCountyData = {}
-	    
+	    var AllData = {}
 	    var new_district_data = {}
 	
 	    $.getJSON("data/zip_to_coordinate.json", function(data) {
@@ -583,6 +583,10 @@
 	   /*$.getJSON("data/Curr_County/Hudson County.json", function(data) {
 	        currCountyData = data
 	    })*/
+	    
+	 $.getJSON("data.json", function(data) {
+	        AllData = data
+	    })
 			    
 		
 	    function handleIt(zip) {
@@ -624,7 +628,7 @@
 			}*/
 		    
 			console.log(County)
-			    
+			console.log(AllData)
 
 			    
 	                var townName;

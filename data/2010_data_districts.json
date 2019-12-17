@@ -11,7 +11,7 @@
                 "african": "18.2",
                 "asian": "7.7",
                 "hispanic": "18.1"},
-"District 3": { "Name": "Alloway,Bridgeton,Carneys Point,Clayton,Deerfield,East Greenwich Township,Elk,Elmer,Elsinboro,Franklin of Gloucester County,Glassboro,Greenwich Township,Logan Township,Lower Alloways Creek,Mannington,National Park,Newfield,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,South Harrison,Swedesboro,Upper Deerfield Township,Upper Pittsgrove,West Deptford,Woodbury Heights,Woodstown,Woolwich",
+"District 3": { "Name": "Alloway,Bridgeton,Carneys Point,Clayton,Deerfield,East Greenwich Township,Elk,Elmer,Elsinboro,Franklin of Gloucester County,Glassboro of Gloucester County,Greenwich Township,Logan Township,Lower Alloways Creek,Mannington,National Park,Newfield,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,South Harrison,Swedesboro,Upper Deerfield Township,Upper Pittsgrove,West Deptford,Woodbury Heights,Woodstown,Woolwich",
                  "Deviation": "2,068",
                  "white": "75.5",
                 "african": "15.0",
@@ -35,7 +35,7 @@
                 "hispanic": "20.2"},
       
 
-"District 6": { "Name": "Berlin Township,Cherry Hill,Collingswood,Gibbsboro,Haddon Township,Haddonfield,Hi-Nella,Maple Shade,Merchantville,Oaklyn,Pennsauken Township,Somerdale,Stratford,Tavistock,Voorhees Township",
+"District 6": { "Name": "Berlin Township,Cherry Hill,Collingswood,Gibbsboro of Camden County,Haddon Township,Haddonfield,Hi-Nella,Maple Shade,Merchantville,Oaklyn,Pennsauken Township,Somerdale,Stratford,Tavistock,Voorhees Township",
                 "Deviation": "4,177",
                 "white": "74.8",
                 "african": "10.2",

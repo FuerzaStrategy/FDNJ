@@ -29,22 +29,22 @@
 "District 11": { "Name": "Allenhurst,Asbury Park,Atlantic Highlands,Avon by the Sea,Belmar,Bradley Beach,Brielle,Deal,Eatontown,Highlands,Interlaken,Lake Como,Loch Arbour,Long Branch,Monmouth Beach,Neptune City,Neptune Township,Ocean Township,Rumson,Sea Bright,Sea Girt,Spring Lake,Spring Lake Heights,Wall,West Long Branch"},
       
 
-"District 12": { "Name": "Colts Neck,East Windsor,Englishtown,Fair Haven,Freehold,Freehold Twp,Hightstown,Little Silver,Manalapan,Millstone Twp,Oceanport,Red Bank,Shrewsbury,Shrewsbury Twp,Tinton Falls"},
+"District 12": { "Name": "Colts Neck,East Windsor,Englishtown,Fair Haven,Freehold,Freehold Township,Hightstown,Little Silver,Manalapan,Millstone Township,Oceanport,Red Bank,Shrewsbury,Shrewsbury Township,Tinton Falls"},
       
 
 "District 13": { "Name": "Aberdeen,Hazlet,Holmdel,Keansburg,Keyport,Marlboro,Matawan,Middletown,Old Bridge,Union Beach"},
       
 
-"District 14": { "Name": "Cranbury,Cranbury,Hamilton,Jamesburg,Monroe,Plainsboro,South Brunswick,West Windsor"},
+"District 14": { "Name": "Cranbury,Hamilton Township,Jamesburg,Monroe Township,Plainsboro,South Brunswick,West Windsor"},
       
 
-"District 15": { "Name": "Ewing,Hopewell,Hopewell Twp,Lawrence,Pennington,Princeton,Princeton Twp,Trenton"},
+"District 15": { "Name": "Ewing,Hopewell,Hopewell Township,Lawrence Township,Pennington,Princeton,Trenton"},
       
 
-"District 16": { "Name": "Bedminster,Bernards Twp,Bernardsville,Bound Brook,Branchburg,Bridgewater,Far Hills,Hillsborough,Manville,Mendham,Millstone,Montgomery,Peapack Gladstone,Raritan,Rocky Hill,Somerville,South Bound Brook"},
+"District 16": { "Name": "Bedminster,Bernards,Bernardsville,Bound Brook,Branchburg,Bridgewater,Far Hills,Hillsborough,Manville,Mendham,Millstone,Montgomery,Peapack Gladstone,Raritan,Rocky Hill,Somerville,South Bound Brook"},
       
 
-"District 17": { "Name": "Franklin Twp,Highland Park,Milltown,New Brunswick,Piscataway"},
+"District 17": { "Name": "Franklin Township,Highland Park,Milltown,New Brunswick,Piscataway"},
       
 
 "District 18": { "Name": "East Brunswick,Edison,Helmetta,Metuchen,South Plainfield,South River,Spotswood"},
@@ -53,21 +53,21 @@
 "District 19": { "Name": "Carteret,Perth Amboy,Sayreville,South Amboy,Woodbridge"},
       
 
-"District 20": { "Name": "Elizabeth,Kenilworth,Roselle,Union Twp"},
+"District 20": { "Name": "Elizabeth,Kenilworth,Roselle,Union Township"},
       
 
-"District 21": { "Name": "Berkeley Heights,Chatham,Cranford,Garwood,Harding,Long Hill,Madison,Millburn,Mountainside,New Providence,Roselle Park,Springfield,Summit,Warren,Watchung,Westfield"},
+"District 21": { "Name": "Berkeley Heights,Chatham,Cranford,Garwood,Harding,Long Hill,Madison,Millburn,Mountainside,New Providence,Roselle Park,Springfield Township,Summit,Warren,Watchung,Westfield"},
       
 
 "District 22": { "Name": "Clark,Dunellen,Fanwood,Green Brook,Linden,Middlesex,North Plainfield,Plainfield,Rahway,Scotch Plains,Winfield"},
       
 
-"District 23": { "Name": "Alexandria,Allamuchy,Alpha,Belvidere,Bethlehem,Blairstown,Bloomsbury,Clinton,Clinton Twp,Delaware,East Amwell,Flemington,Franklin Twp,Franklin,Frelinghuysen,Frenchtown,Glen Gardner,Greenwich,Hackettstown,Hampton,Hardwick,Harmony,High Bridge,Holland,Hope,Independence,Kingwood,Knowlton,Lambertville,Lebanon,Lebanon Twp,Liberty,Lopatcong,Mansfield,Milford,Oxford,Phillipsburg,Pohatcong,Raritan Twp,Readington,Stockton,Union Twp,Washington,Washington Twp,West Amwell,White"},
+"District 23": { "Name": "Alexandria,Allamuchy,Alpha,Belvidere,Bethlehem,Blairstown,Bloomsbury,Clinton,Clinton Township,Delaware,East Amwell,Flemington,Franklin Township,Franklin,Frelinghuysen,Frenchtown,Glen Gardner,Greenwich Township,Hackettstown,Hampton,Hardwick,Harmony,High Bridge,Holland,Hope,Independence,Kingwood,Knowlton,Lambertville,Lebanon,Lebanon Township,Liberty,Lopatcong,Mansfield Township,Milford,Oxford,Phillipsburg,Pohatcong,Raritan Township,Readington,Stockton,Union Township,Washington,Washington Township,West Amwell,White"},
       
 
-"District 24": { "Name": "Andover,Andover Twp,Branchville,Byram,Califon,Chester,Chester Twp,Frankford,Franklin,Fredon,Green,Hamburg,Hampton Twp,Hardyston,Hopatcong,Lafayette,Montague,Mount Olive,Netcong,Newton,Ogdensburg,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Tewksbury,Vernon,Walpack,Wantage,Washington Twp"},
+"District 24": { "Name": "Andover,Andover Township,Branchville,Byram,Califon,Chester,Chester Township,Frankford,Franklin,Fredon,Green,Hamburg,Hampton Township,Hardyston,Hopatcong,Lafayette,Montague,Mount Olive,Netcong,Newton,Ogdensburg,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Tewksbury,Vernon,Walpack,Wantage,Washington Township"},
 
-"District 25": { "Name": "Boonton,Boonton Twp,Denville,Dover,Jefferson,Mendham Twp,Mine Hill,Morris Twp,Morristown,Mount Arlington,Mountain Lakes,Randolph,Rockaway,Rockaway Twp,Roxbury,Victory Gardens,Wharton"},
+"District 25": { "Name": "Boonton,Boonton Township,Denville,Dover,Jefferson,Mendham Twp,Mine Hill,Morris Twp,Morristown,Mount Arlington,Mountain Lakes,Randolph,Rockaway,Rockaway Twp,Roxbury,Victory Gardens,Wharton"},
       
 
 "District 26": { "Name": "Bloomingdale,Butler,Chatham,East Hanover,Florham Park,Hanover,Kinnelon,Lincoln Park,Montville,Morris Plains,Parsippany-Troy Hills,Pequannock,Pompton Lakes,Riverdale,West Milford"},

@@ -148,7 +148,7 @@
                 "hispanic": "30.6"},
       
 
-"District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Township",
+"District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Township of Union County",
                   "Deviation": "4,303",
                  "white": "50.2",
                 "african": "29.3",
@@ -172,7 +172,7 @@
                 "hispanic": "25.3"},
       
 
-"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin of Hunterdon County,Franklin Township of Warren County,Frenchtown,Glen Gardner,Greenwich Township of Warren County,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township of Warren County,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township,Washington Township,Washington",
+"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin of Hunterdon County,Franklin Township of Warren County,Frenchtown,Glen Gardner,Greenwich Township of Warren County,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township of Warren County,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township of Hunterdon County,Washington Township,Washington",
                   "Deviation": "-3,355",
                  "white": "85.1",
                 "african": "3.6",

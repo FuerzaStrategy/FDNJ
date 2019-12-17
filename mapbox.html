@@ -580,9 +580,9 @@
 	   $.getJSON("data/2010_race_data.json", function(data) {
 	        racedata2010 = data
 	    })
-	   /*$.getJSON("data/Curr_County/Hudson County.json", function(data) {
+	   $.getJSON("data/Curr_County/Hudson County.json", function(data) {
 	        currCountyData = data
-	    })*/
+	    })
 
 
 		
@@ -699,9 +699,7 @@
 			 var make_array = (new_district_data[file_name]['Name']).split(",")
 			 //console.log(make_old_array)
 			 console.log(Current_Legislators[currentHighlight_new.toString()])
-			    $.getJSON("data/Curr_County/Hudson County.json", function(data) {
-	        currCountyData = data
-	    })
+
 			 console.log(currCountyData[townName])
 			    
 			var list_towns = []

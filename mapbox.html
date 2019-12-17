@@ -540,7 +540,7 @@
 	    var polygons_new = Array(new_n).fill(0)
 	    var racedata2000 = {}
 	    var racedata2010 = {}
-	    var curr_county_data = {}
+	    var currCountyData = {}
 	    
 	    var new_district_data = {}
 	
@@ -579,6 +579,9 @@
 	    })
 	   $.getJSON("data/2010_race_data.json", function(data) {
 	        racedata2010 = data
+	    })
+	   $.getJSON("data/Curr_County/test.json", function(data) {
+	        currCountyData = data
 	    })
 
 		
@@ -622,9 +625,7 @@
 			}*/
 			console.log(County)
 			    
-	    $.getJSON("data/Curr_County/test.json", function(data) {
-	        curr_county_data = data
-	    })
+
 			    
 	                var townName;
 	                var data_from_2000;
@@ -698,7 +699,7 @@
 			 //console.log(make_old_array)
 			 console.log(Current_Legislators[currentHighlight_new.toString()])
 			 
-			 console.log(curr_county_data[0])
+			 console.log(currCountyData[townName])
 			    
 			var list_towns = []
 			var uniqueNames = [];

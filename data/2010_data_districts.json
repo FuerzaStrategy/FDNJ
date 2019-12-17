@@ -19,7 +19,7 @@
                 "hispanic": "10.2"},
       
 
-"District 4": { "Name": "Chesilhurst,Clementon,Gloucester Township,Laurel Springs,Lindenwold,Monroe Township of Gloucester County,Pitman,Washington Township,Winslow Township",
+"District 4": { "Name": "Chesilhurst,Clementon,Gloucester Township,Laurel Springs,Lindenwold,Monroe Township of Gloucester County,Pitman,Washington Township of Gloucester County,Winslow Township",
                  "Deviation": "4,190",
                   "white": "73.6",
                 "african": "18.1",
@@ -60,7 +60,7 @@
 
       
 
-"District 9": { "Name": "Barnegat Township,Barnegat Light,Bass River,Beach Haven,Beachwood,Berkeley Township,Eagleswood,Galloway,Harvey Cedars,Lacey,Little Egg Harbor,Long Beach,Ocean Gate,Ocean Township of Ocean County,Pine Beach,Port Republic,Seaside Park,Ship Bottom,South Toms River,Stafford,Surf City,Tabernacle,Tuckerton,Washington",
+"District 9": { "Name": "Barnegat Township,Barnegat Light,Bass River,Beach Haven,Beachwood,Berkeley Township,Eagleswood,Galloway,Harvey Cedars,Lacey,Little Egg Harbor,Long Beach,Ocean Gate,Ocean Township of Ocean County,Pine Beach,Port Republic,Seaside Park,Ship Bottom,South Toms River,Stafford,Surf City,Tabernacle,Tuckerton,Washington of Burlington County",
                  "Deviation": "5,402",
                  "white": "90.4",
                 "african": "3.4",
@@ -172,7 +172,7 @@
                 "hispanic": "25.3"},
       
 
-"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin of Hunterdon County,Franklin Township of Warren County,Frenchtown,Glen Gardner,Greenwich Township of Warren County,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township of Warren County,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township of Hunterdon County,Washington Township,Washington",
+"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin of Hunterdon County,Franklin Township of Warren County,Frenchtown,Glen Gardner,Greenwich Township of Warren County,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township of Warren County,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township of Hunterdon County,Washington Township of Warren County,Washington of Warren County",
                   "Deviation": "-3,355",
                  "white": "85.1",
                 "african": "3.6",
@@ -187,7 +187,7 @@
                 "asian": "2.6",
                 "hispanic": "6.7"},
 
-"District 25": { "Name": "Bernardsville,Boonton,Boonton Township,Chester ,Chester Township,Denville,Dover,Mendham,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Netcong,Randolph,Rockaway,Roxbury,Victory Gardens,Washington Township,Wharton",
+"District 25": { "Name": "Bernardsville,Boonton,Boonton Township,Chester ,Chester Township,Denville,Dover,Mendham,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Netcong,Randolph,Rockaway,Roxbury,Victory Gardens,Washington Township of Morris County,Wharton",
                   "Deviation": "-5,470",
                  "white": "83.2",
                 "african": "4.0",

@@ -67,13 +67,13 @@
 
 "District 24": { "Name": "Andover,Andover Township,Branchville,Byram,Califon,Chester,Chester Township,Frankford,Franklin,Fredon,Green,Hamburg,Hampton Township,Hardyston,Hopatcong,Lafayette,Montague,Mount Olive,Netcong,Newton,Ogdensburg,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Tewksbury,Vernon,Walpack,Wantage,Washington Township"},
 
-"District 25": { "Name": "Boonton,Boonton Township,Denville,Dover,Jefferson,Mendham Twp,Mine Hill,Morris Twp,Morristown,Mount Arlington,Mountain Lakes,Randolph,Rockaway,Rockaway Twp,Roxbury,Victory Gardens,Wharton"},
+"District 25": { "Name": "Boonton,Boonton Township,Denville,Dover,Jefferson,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Randolph,Rockaway,Rockaway Township,Roxbury,Victory Gardens,Wharton"},
       
 
-"District 26": { "Name": "Bloomingdale,Butler,Chatham,East Hanover,Florham Park,Hanover,Kinnelon,Lincoln Park,Montville,Morris Plains,Parsippany-Troy Hills,Pequannock,Pompton Lakes,Riverdale,West Milford"},
+"District 26": { "Name": "Bloomingdale,Butler,Chatham Township,East Hanover,Florham Park,Hanover,Kinnelon,Lincoln Park,Montville,Morris Plains,Parsippany-Troy Hills,Pequannock,Pompton Lakes,Riverdale,West Milford"},
       
 
-"District 27": { "Name": "Caldwell,Essex Fells,Fairfield,Livingston,Maplewood,Newark City,North Caldwell,Orange,Roseland,South Orange,West Caldwell,West Orange"},
+"District 27": { "Name": "Caldwell,Essex Fells,Fairfield,Livingston,Maplewood,Newark,North Caldwell,City of Orange,Roseland,South Orange,West Caldwell,West Orange"},
       
 
 "District 28": { "Name": "Belleville,Bloomfield,Irvington,Newark"},
@@ -82,7 +82,7 @@
 "District 29": { "Name": "Hillside,Newark"},
       
 
-"District 30": { "Name": "Allentown,Bordentown,Bordentown Twp,Chesterfield,Farmingdale,Fieldsboro,Howell,Jackson,Lakewood,New Hanover,North Hanover,Plumsted,Roosevelt,Upper Freehold,Robbinsville"},
+"District 30": { "Name": "Allentown,Bordentown,Bordentown Township,Chesterfield Township,Farmingdale,Fieldsboro,Howell,Jackson,Lakewood,New Hanover,North Hanover,Plumsted,Roosevelt,Upper Freehold,Robbinsville"},
 
 "District 31": { "Name": "Bayonne,Jersey City"},
       
@@ -107,7 +107,7 @@
 "District 38": { "Name": "Cliffside Park,Edgewater,Elmwood Park,Fair Lawn,Fort Lee,Hasbrouck Heights,Little Ferry,Lodi,Paramus,Ridgefield,Saddle Brook,South Hackensack,Teterboro"},
       
 
-"District 39": { "Name": "Allendale,Alpine,Closter,Cresskill,Demarest,Dumont,Emerson,Harrington Park,Haworth,Hillsdale,Ho-Ho-Kus,Montvale,New Milford,Northvale,Norwood,Old Tappan,Oradell,Park Ridge,Ramsey,River Edge,River Vale,Rockleigh,Saddle River,Upper Saddle River,Waldwick,Washington,Westwood,Woodcliff Lake"},
+"District 39": { "Name": "Allendale,Alpine,Closter,Cresskill,Demarest,Dumont,Emerson,Harrington Park,Haworth,Hillsdale,Ho-Ho-Kus,Montvale,New Milford,Northvale,Norwood,Old Tappan,Oradell,Park Ridge,Ramsey,River Edge,River Vale,Rockleigh,Saddle River,Upper Saddle River,Waldwick,Township of Washington,Westwood,Woodcliff Lake"},
       
 "District 40": { "Name": "Cedar Grove,Franklin Lakes,Little Falls,Mahwah,Midland Park,Oakland,Pequannock,Ridgewood,Ringwood,Totowa,Verona,Wanaque,Wayne,Woodland Park,Wyckoff"}
 }

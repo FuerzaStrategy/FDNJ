@@ -580,9 +580,9 @@
 	   $.getJSON("data/2010_race_data.json", function(data) {
 	        racedata2010 = data
 	    })
-	   $.getJSON("data/Curr_County/Hudson County.json", function(data) {
+	   /*$.getJSON("data/Curr_County/Hudson County.json", function(data) {
 	        currCountyData = data
-	    })
+	    })*/
 
 
 		
@@ -700,7 +700,7 @@
 			 //console.log(make_old_array)
 			 console.log(Current_Legislators[currentHighlight_new.toString()])
 
-			 console.log(currCountyData[townName])
+			 //console.log(currCountyData[townName])
 			    
 			var list_towns = []
 			var uniqueNames = [];
@@ -720,6 +720,11 @@
 			var district_old_people = [];
 			var district_old_voters = [];
 			var final_old_array_show = [];
+			    
+	 $.getJSON("data/Curr_County/Hudson County.json", function(data) {
+	        currCountyData = data
+	    })
+			    console.log(currCountyData[townName])
 			var looking_names = JSON.stringify(data_2000);
 			//$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			//for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){

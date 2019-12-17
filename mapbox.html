@@ -1038,7 +1038,7 @@
 			      $('#haw_curr_num').text((((haw_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#white_curr_num').text((((white_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#deviation_curr_num').text("Deviation: " + new_district_data[file_name]['Deviation'])	
-			      $('#deviation_old').text("Deviation: " + new_district_data[file_name]['Deviation'])
+			      $('#deviation_old').text("Deviation: " + dev.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
 			      $('#old_target').text("Target Population: 212,000")
 			      $('#new_target').text("Target Population: 220,700")
 			      //$('#white_curr_num').text(new_district_data[file_name]['white'] + "%")

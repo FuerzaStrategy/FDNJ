@@ -580,9 +580,7 @@
 	   $.getJSON("data/2010_race_data.json", function(data) {
 	        racedata2010 = data
 	    })
-	   $.getJSON("data/Curr_County/"+ County.toString() + ".json", function(data) {
-	        curr_county_data = data
-	    })
+
 		
 	    //$.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson"
 	    function handleIt(zip) {
@@ -623,7 +621,10 @@
 				var County = Countystr4
 			}*/
 			console.log(County)
-	                
+			    
+	    $.getJSON("data/Curr_County/"+ County.toString() + ".json", function(data) {
+	        curr_county_data = data
+	    })
 	                var townName;
 	                var data_from_2000;
 	                var data_from_2010;

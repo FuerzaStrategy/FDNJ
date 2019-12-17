@@ -100,7 +100,7 @@
                 "hispanic": "6.3"},
       
 
-"District 14": { "Name": "Cranbury,East Windsor,Hamilton,Hightstown,Jamesburg,Monroe,Plainsboro,Robbinsville,Spotswood",
+"District 14": { "Name": "Cranbury,East Windsor,Hamilton Township,Hightstown,Jamesburg,Monroe Township,Plainsboro,Robbinsville,Spotswood",
                   "Deviation": "-4,847",
                  "white": "73.2",
                 "african": "8.3",
@@ -108,7 +108,7 @@
                 "hispanic": "10.4"},
       
 
-"District 15": { "Name": "East Amwell,Ewing,Hopewell,Hopewell Twp,Lambertville,Lawrence,Pennington,Trenton,West Amwell,West Windsor",
+"District 15": { "Name": "East Amwell,Ewing,Hopewell,Hopewell Township,Lambertville,Lawrence Township,Pennington,Trenton,West Amwell,West Windsor",
                   "Deviation": "-4,887",
                   "white": "52.7",
                 "african": "27.8",
@@ -116,7 +116,7 @@
                 "hispanic": "16.9"},
       
 
-"District 16": { "Name": "Branchburg,Delaware,Flemington,Hillsborough,Manville,Millstone,Montgomery,Princeton,Raritan,Readington,Rocky Hill,Somerville,South Brunswick,Stockton",
+"District 16": { "Name": "Branchburg,Delaware,Flemington,Hillsborough,Manville,Millstone,Montgomery,Princeton,Raritan Township,Readington,Rocky Hill,Somerville,South Brunswick,Stockton",
                   "Deviation": "-1,257",
                  "white": "74.5",
                 "african": "4.7",
@@ -124,7 +124,7 @@
                 "hispanic": "8.0"},
       
 
-"District 17": { "Name": "Franklin,Milltown,New Brunswick,North Brunswick,Piscataway",
+"District 17": { "Name": "Franklin Township,Milltown,New Brunswick,North Brunswick,Piscataway",
                "Deviation": "1,363",
                 "white": "45.2",
                 "african": "20.0",

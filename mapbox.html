@@ -1039,8 +1039,6 @@
 			      $('#other_curr_num').text((((hispanic_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#haw_curr_num').text((((haw_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#white_curr_num').text((((white_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#deviation_curr_num').text("Deviation: " + dev_curr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))	
-			      $('#deviation_old').text("Deviation: " + dev.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      $('#old_target').text("Target Population: 212,000")
 			      $('#new_target').text("Target Population: 220,700")
 			      //$('#white_curr_num').text(new_district_data[file_name]['white'] + "%")
@@ -1053,6 +1051,8 @@
 			      $('#voters_curr_num').text((district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      $('#added').html("<br>" + (array_added).join(', '))
 			      $('#removed').html("<br>" + (array_removed).join(', '))
+			      $('#deviation_curr_num').text("Deviation: " + dev_curr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))	
+			      $('#deviation_old').text("Deviation: " + dev.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      //}, 20000);
 				  
 	                    $('#voters_curr').text(data_from_2010['voters'] + " Registered Voters")

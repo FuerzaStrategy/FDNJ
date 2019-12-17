@@ -583,9 +583,7 @@
 	   /*$.getJSON("data/Curr_County/Hudson County.json", function(data) {
 	        currCountyData = data
 	    })*/
-	   $.getJSON("data/Curr_County/"+County.toString()+".json", function(data) {
-	        currCountyData = data
-	    })
+
 
 		
 	    //$.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson"
@@ -701,6 +699,9 @@
 			 var make_array = (new_district_data[file_name]['Name']).split(",")
 			 //console.log(make_old_array)
 			 console.log(Current_Legislators[currentHighlight_new.toString()])
+			    $.getJSON("data/Curr_County/Hudson County.json", function(data) {
+	        currCountyData = data
+	    })
 			 console.log(currCountyData[townName])
 			    
 			var list_towns = []

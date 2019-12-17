@@ -945,9 +945,9 @@
 			         //console.log(uniqueNames)
 			         
 				
-				//var dev = target_pop_old - (district_old_people.reduce((a, b) => a + b, 0))
-				console.log(target_pop_old)
-				//console.log(dev)
+				var dev = target_pop_old - (district_old_people.reduce((a, b) => a + b, 0))
+				//console.log(target_pop_old)
+				console.log(dev)
 			      $('#other_city_prev').html("Other Towns in your District: <br><br>" + show_array)
 			      $('#white_num').text((((white_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#african_num').text((((african_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")

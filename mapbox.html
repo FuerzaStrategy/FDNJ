@@ -541,7 +541,6 @@
 	    var racedata2000 = {}
 	    var racedata2010 = {}
 	    var currCountyData = {}
-	    var County 
 	    
 	    var new_district_data = {}
 	
@@ -584,10 +583,6 @@
 	   /*$.getJSON("data/Curr_County/Hudson County.json", function(data) {
 	        currCountyData = data
 	    })*/
-
-	 $.getJSON("data/Curr_County/"+County+".json", function(data) {
-	        currCountyData = data
-	    })
 			    
 		
 	    function handleIt(zip) {
@@ -627,7 +622,7 @@
 			if(Countystr4.match(/County/)=='County'){
 				var County = Countystr4
 			}*/
-		    }
+		    
 			console.log(County)
 			    
 
@@ -698,6 +693,12 @@
 			 //console.log(currentHighlight_new)
 			 //console.log(file_name)
 			  
+			
+	 $.getJSON("data/Curr_County/Hudson County".json", function(data) {
+	        currCountyData = data
+	    })
+			
+			
 			// console.log(old_district_data[file_name]['Name'])
 			 var make_old_array = (old_district_data[file_name]['Name']).split(",")
 			 var make_array = (new_district_data[file_name]['Name']).split(",")
@@ -1094,7 +1095,7 @@
 	                map_curr.setPaintProperty('route-fills-' + new_index.toString(), 'fill-opacity', 0.5);
 	            }
 	        }
-	    //}
+	    }
 	
 	
 	    $.getJSON("data/NJ_Legislative.geojson", function(json) {

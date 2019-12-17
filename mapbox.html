@@ -622,9 +622,10 @@
 			}*/
 			console.log(County)
 			    
-	    $.getJSON("data/Curr_County/test.json", function(data) {
+	    $.getJSON("data/Curr_County.json", function(data) {
 	        curr_county_data = data
 	    })
+			    
 	                var townName;
 	                var data_from_2000;
 	                var data_from_2010;
@@ -697,7 +698,7 @@
 			 //console.log(make_old_array)
 			 console.log(Current_Legislators[currentHighlight_new.toString()])
 			 
-			 console.log((curr_county_data["Jersey City"]))
+			 console.log((curr_county_data["Hudson County"]["Jersey City"]))
 			    
 			var list_towns = []
 			var uniqueNames = [];

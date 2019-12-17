@@ -11,7 +11,7 @@
                 "african": "18.2",
                 "asian": "7.7",
                 "hispanic": "18.1"},
-"District 3": { "Name": "Alloway,Bridgeton,Carneys Point,Clayton,Deerfield,East Greenwich Township,Elk,Elmer,Elsinboro,Franklin,Glassboro,Greenwich Township,Logan Township,Lower Alloways Creek,Mannington,National Park,Newfield,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,South Harrison,Swedesboro,Upper Deerfield Township,Upper Pittsgrove,West Deptford,Woodbury Heights,Woodstown,Woolwich",
+"District 3": { "Name": "Alloway,Bridgeton,Carneys Point,Clayton,Deerfield,East Greenwich Township,Elk,Elmer,Elsinboro,Franklin of Gloucester County,Glassboro,Greenwich Township,Logan Township,Lower Alloways Creek,Mannington,National Park,Newfield,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,South Harrison,Swedesboro,Upper Deerfield Township,Upper Pittsgrove,West Deptford,Woodbury Heights,Woodstown,Woolwich",
                  "Deviation": "2,068",
                  "white": "75.5",
                 "african": "15.0",
@@ -172,7 +172,7 @@
                 "hispanic": "25.3"},
       
 
-"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin,Franklin Township,Frenchtown,Glen Gardner,Greenwich Township,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township,Washington Township,Washington",
+"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin of Hunterdon County,Franklin Township,Frenchtown,Glen Gardner,Greenwich Township,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township,Washington Township,Washington",
                   "Deviation": "-3,355",
                  "white": "85.1",
                 "african": "3.6",
@@ -180,7 +180,7 @@
                 "hispanic": "9.4"},
       
 
-"District 24": { "Name": "Allamuchy,Andover,Andover Township,Belvidere,Blairstown,Branchville,Byram,Frankford,Franklin,Fredon,Frelinghuysen,Green,Hamburg,Hampton Township,Hardwick,Hardyston,Hopatcong,Hope,Independence,Knowlton,Lafayette,Liberty,Montague,Mount Olive,Newton,Ogdensburg,Oxford,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Vernon,Walpack,Wantage,White",
+"District 24": { "Name": "Allamuchy,Andover,Andover Township,Belvidere,Blairstown,Branchville,Byram,Frankford,Franklin of Sussex County,Fredon,Frelinghuysen,Green,Hamburg,Hampton Township,Hardwick,Hardyston,Hopatcong,Hope,Independence,Knowlton,Lafayette,Liberty,Montague,Mount Olive,Newton,Ogdensburg,Oxford,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Vernon,Walpack,Wantage,White",
                   "Deviation": "-4,511",
                  "white": "92.1",
                 "african": "2.2",

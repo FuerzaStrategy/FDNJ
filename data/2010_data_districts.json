@@ -148,7 +148,7 @@
                 "hispanic": "30.6"},
       
 
-"District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Twp",
+"District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Township",
                   "Deviation": "4,303",
                  "white": "50.2",
                 "african": "29.3",
@@ -156,7 +156,7 @@
                 "hispanic": "41.2"},
       
 
-"District 21": { "Name": "Berkeley Heights,Bernards,Chatham,Cranford,Far Hills,Garwood,Kenilworth,Long Hill,Mountainside,New Providence,Roselle Park,Springfield,Summit,Warren,Watchung,Westfield",
+"District 21": { "Name": "Berkeley Heights,Bernards,Chatham,Cranford,Far Hills,Garwood,Kenilworth,Long Hill,Mountainside,New Providence,Roselle Park,Springfield Township,Summit,Warren,Watchung,Westfield",
                  "Deviation": "-5,759",
                  "white": "85.4",
                 "african": "2.9",
@@ -172,7 +172,7 @@
                 "hispanic": "25.3"},
       
 
-"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Twp,Franklin,Franklin Twp,Frenchtown,Glen Gardner,Greenwich,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Twp,Lopatcong,Mansfield,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan Twp,South Bound Brook,Tewksbury,Union Twp,Washington Twp,Washington",
+"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin,Franklin Township,Frenchtown,Glen Gardner,Greenwich Township,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township,Washington Township,Washington",
                   "Deviation": "-3,355",
                  "white": "85.1",
                 "african": "3.6",
@@ -180,14 +180,14 @@
                 "hispanic": "9.4"},
       
 
-"District 24": { "Name": "Allamuchy,Andover,Andover Twp,Belvidere,Blairstown,Branchville,Byram,Frankford,Franklin,Fredon,Frelinghuysen,Green,Hamburg,Hampton,Hardwick,Hardyston,Hopatcong,Hope,Independence,Knowlton,Lafayette,Liberty,Montague,Mount Olive,Newton,Ogdensburg,Oxford,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Vernon,Walpack,Wantage,White",
+"District 24": { "Name": "Allamuchy,Andover,Andover Township,Belvidere,Blairstown,Branchville,Byram,Frankford,Franklin,Fredon,Frelinghuysen,Green,Hamburg,Hampton Township,Hardwick,Hardyston,Hopatcong,Hope,Independence,Knowlton,Lafayette,Liberty,Montague,Mount Olive,Newton,Ogdensburg,Oxford,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Vernon,Walpack,Wantage,White",
                   "Deviation": "-4,511",
                  "white": "92.1",
                 "african": "2.2",
                 "asian": "2.6",
                 "hispanic": "6.7"},
 
-"District 25": { "Name": "Bernardsville,Boonton,Boonton Twp,Chester ,Chester Twp,Denville,Dover,Mendham,Mendham Twp,Mine Hill,Morris Twp,Morristown,Mount Arlington,Mountain Lakes,Netcong,Randolph,Rockaway,Roxbury,Victory Gardens,Washington,Wharton",
+"District 25": { "Name": "Bernardsville,Boonton,Boonton Township,Chester ,Chester Township,Denville,Dover,Mendham,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Netcong,Randolph,Rockaway,Roxbury,Victory Gardens,Washington Township,Wharton",
                   "Deviation": "-5,470",
                  "white": "83.2",
                 "african": "4.0",
@@ -195,7 +195,7 @@
                 "hispanic": "17.0"},
       
 
-"District 26": { "Name": "Butler,Fairfield,Jefferson,Kinnelon,Lincoln Park,Montville,Morris Plains,North Caldwell,Parsippany-Troy Hills,Rockaway Twp,Verona,West Caldwell,West Milford",
+"District 26": { "Name": "Butler,Fairfield,Jefferson,Kinnelon,Lincoln Park,Montville,Morris Plains,North Caldwell,Parsippany-Troy Hills,Rockaway Township,Verona,West Caldwell,West Milford",
                   "Deviation": "-2,131",
                  "white": "82.6",
                 "african": "2.1",
@@ -203,7 +203,7 @@
                 "hispanic": "7.1"},
       
 
-"District 27": { "Name": "Caldwell,Chatham Twp,East Hanover,Essex Fells,Florham Park,Hanover,Harding,Livingston,Madison,Maplewood,Millburn,Roseland,South Orange,West Orange",
+"District 27": { "Name": "Caldwell,Chatham Township,East Hanover,Essex Fells,Florham Park,Hanover,Harding,Livingston,Madison,Maplewood,Millburn,Roseland,South Orange,West Orange",
                   "Deviation": "-1,556",
                  "white": "73.5",
                 "african": "12.9",

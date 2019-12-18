@@ -587,6 +587,69 @@
 	 $.getJSON("data.json", function(data) {
 	        AllData = data
 	    })
+	$.getJSON("data/Curr_County/Atlantic County.json", function(data) {
+	        currAtlanticData = data
+	    })
+	$.getJSON("data/Curr_County/Bergen County.json", function(data) {
+	        currBergenData = data
+	    })
+	$.getJSON("data/Curr_County/Burlington County.json", function(data) {
+	        currBurlingtonData = data
+	    })
+	$.getJSON("data/Curr_County/Camden County.json", function(data) {
+	        currCamdenData = data
+	    })
+	$.getJSON("data/Curr_County/Cape May County.json", function(data) {
+	        currCapeMayData = data
+	    })
+	$.getJSON("data/Curr_County/Cumberland County.json", function(data) {
+	        currCumberlandData = data
+	    })
+	$.getJSON("data/Curr_County/Essex County.json", function(data) {
+	        currEssexData = data
+	    })
+	$.getJSON("data/Curr_County/Gloucester County.json", function(data) {
+	        currGloucesterData = data
+	    })
+	$.getJSON("data/Curr_County/Hudson County.json", function(data) {
+	        currHudsonData = data
+	    })
+	$.getJSON("data/Curr_County/Hunterdon County.json", function(data) {
+	        currHunterdonData = data
+	    })
+	$.getJSON("data/Curr_County/Mercer County.json", function(data) {
+	        currMercerData = data
+	    })
+	$.getJSON("data/Curr_County/Middlesex County.json", function(data) {
+	        currMiddlesexData = data
+	    })
+	$.getJSON("data/Curr_County/Monmouth County.json", function(data) {
+	        currMonmouthData = data
+	    })
+	$.getJSON("data/Curr_County/Morris County.json", function(data) {
+	        currMorrisData = data
+	    })
+	$.getJSON("data/Curr_County/Ocean County.json", function(data) {
+	        currOceanData = data
+	    })
+	$.getJSON("data/Curr_County/Passaic County.json", function(data) {
+	        currPassaicData = data
+	    })
+	$.getJSON("data/Curr_County/Salem County.json", function(data) {
+	        currSalemData = data
+	    })
+	$.getJSON("data/Curr_County/Somerset County.json", function(data) {
+	        currSomersetData = data
+	    })
+	$.getJSON("data/Curr_County/Sussex County.json", function(data) {
+	        currSussexData = data
+	    })
+	$.getJSON("data/Curr_County/Union County.json", function(data) {
+	        currUnionData = data
+	    })
+	$.getJSON("data/Curr_County/Warren County.json", function(data) {
+	        currWarrenData = data
+	    })
 			    
 		
 	    function handleIt(zip) {
@@ -628,8 +691,8 @@
 			}*/
 		    
 			console.log(County)
-			console.log(AllData[County])
-
+			
+			
 			    
 	                var townName;
 	                var data_from_2000;
@@ -643,7 +706,7 @@
 	                        data_from_2010 = data_2010[townName]
 	                    }
 	                }
-	                
+	                console.log(currHudsonData[townName])
 			
 			    
 	                map_origin = [lon, lat]

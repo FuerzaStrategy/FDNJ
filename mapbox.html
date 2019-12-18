@@ -1006,7 +1006,7 @@
 			//var looking_names_old = JSON.stringify(data_2000);
 			    
 			var looking_names = JSON.stringify(new_district_data[file_name]['Name']);
-			var looking_names_old = JSON.stringify(old_district_data[file_name_old]['Name']);
+			var looking_names_old = JSON.stringify(old_district_data[file_name]['Name']);
 			//$.getJSON("data/NJ_Legislative/District_" + currentHighlight_new.toString() + ".geojson", function(json_coor_current){
 			//	for(var i=0; i<json_coor_current["features"][0]["geometry"]["coordinates"][0].length; i++){
 			//var lons_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][0]
@@ -1093,8 +1093,8 @@
 				district_white_old.push(Number(racedata2000[a]['white']))
 				district_haw_old.push(Number(racedata2000[a]['haw']))
 				district_other_old.push(Number(racedata2000[a]['other']))
-			        district_dem_num.push(Number(data_2000[a]['democratic']))
-				district_rep_num.push(Number(data_2000[a]['republican']))
+			        //district_dem_num.push(Number(data_2000[a]['democratic']))
+				//district_rep_num.push(Number(data_2000[a]['republican']))
 				district_old_people.push(Number(parseFloat((data_2000[a]['population']).replace(/,/g, ''))))
 				district_old_voters.push(Number(parseFloat((data_2000[a]['voters']).replace(/,/g, ''))))
 				});

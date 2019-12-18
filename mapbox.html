@@ -706,12 +706,71 @@
 	                        data_from_2010 = data_2010[townName]
 	                    }
 	                }
+			
 			    
 			    
-			    
+			if(County == "Atlantic County"){
+	                console.log(currAtlanticnData[townName])
+		    	}    
+			if(County == "Bergen County"){
+	                console.log(currBergenData[townName])
+		    	}
+			if(County == "Burlington County"){
+	                console.log(currBurlingtonData[townName])
+		    	}
+			if(County == "Caden County"){
+	                console.log(currCamdenData[townName])
+		    	}
+			if(County == "Cape May County"){
+	                console.log(currCapeMayData[townName])
+		    	}
+			if(County == "Cumberland County"){
+	                console.log(currCumebrlandData[townName])
+		    	}
+			if(County == "Essex County"){
+	                console.log(currEssexData[townName])
+		    	}
+			if(County == "Gloucester County"){
+	                console.log(currGloucesterData[townName])
+		    	}
 			if(County == "Hudson County"){
 	                console.log(currHudsonData[townName])
 		    	}
+			if(County == "Hunterdon County"){
+	                console.log(currHunterdonData[townName])
+		    	}
+			if(County == "Mercer County"){
+	                console.log(currMercerData[townName])
+		    	}
+			if(County == "Middlesex County"){
+	                console.log(currMiddlesexData[townName])
+		    	}
+			if(County == "Monmouth County"){
+	                console.log(currMonmouthData[townName])
+		    	}
+			if(County == "Morris County"){
+	                console.log(currMorrisData[townName])
+		    	}
+			if(County == "Ocean County"){
+	                console.log(currOceanData[townName])
+		    	}
+			if(County == "Passaic County"){
+	                console.log(currPassaicData[townName])
+		    	}
+			if(County == "Salem County"){
+	                console.log(currSalemData[townName])
+		    	}
+			if(County == "Sussex County"){
+	                console.log(currSussexData[townName])
+		    	}
+			if(County == "Union County"){
+	                console.log(currUnionData[townName])
+		    	}
+			if(County == "Warren County"){
+	                console.log(currWarrenData[townName])
+		    	}
+			    
+			    
 			    
 	                map_origin = [lon, lat]
 	
@@ -764,19 +823,13 @@
 			 //console.log(currentHighlight_new)
 			 //console.log(file_name)
 			  
-			
-	 $.getJSON("data/Curr_County/Hudson County.json", function(data) {
-	        currCountyData = data
-	    })
-			
-			
+
 			// console.log(old_district_data[file_name]['Name'])
 			 var make_old_array = (old_district_data[file_name]['Name']).split(",")
 			 var make_array = (new_district_data[file_name]['Name']).split(",")
 			 //console.log(make_old_array)
 			 console.log(Current_Legislators[currentHighlight_new.toString()])
 
-			 console.log(currCountyData[townName])
 			    
 			var list_towns = []
 			var uniqueNames = [];

@@ -904,13 +904,13 @@
 	                currentHighlight_old = old_index
 	                currentHighlight_new = new_index
 			var file_name = "District " + currentHighlight_new.toString()
-			    
+			var file_name_old = "District " + currentHighlight_old.toString()
 			 //console.log(currentHighlight_new)
 			 //console.log(file_name)
 			  
 
 			// console.log(old_district_data[file_name]['Name'])
-			 var make_old_array = (old_district_data[file_name]['Name']).split(",")
+			 var make_old_array = (old_district_data[file_name_old]['Name']).split(",")
 			 var make_array = (new_district_data[file_name]['Name']).split(",")
 			 //console.log(make_old_array)
 			 console.log(Current_Legislators[currentHighlight_new.toString()])
@@ -1005,8 +1005,8 @@
 			//var looking_names = JSON.stringify(data_2010);
 			//var looking_names_old = JSON.stringify(data_2000);
 			    
-			var looking_names = JSON.stringify(new_district_data['Name']);
-			var looking_names_old = JSON.stringify(old_district_data['Name']);
+			var looking_names = JSON.stringify(new_district_data[file_name]['Name']);
+			var looking_names_old = JSON.stringify(old_district_data[file_name_old]['Name']);
 			//$.getJSON("data/NJ_Legislative/District_" + currentHighlight_new.toString() + ".geojson", function(json_coor_current){
 			//	for(var i=0; i<json_coor_current["features"][0]["geometry"]["coordinates"][0].length; i++){
 			//var lons_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][0]

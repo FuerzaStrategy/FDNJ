@@ -1998,7 +1998,8 @@
         "voters": "4,737"
     },
     "Fairfield": {
-        "population": "5,902"
+        "population": "5,902",
+        "voters": "0"
     },
     "Fairview": {
         "african": "1.71",
@@ -2111,10 +2112,12 @@
         "voters": "3,234"
     },
     "Franklin of Gloucester County": {
-        "population": "16,390"
+        "population": "16,390",
+        "voters": "0"
     },
    "Franklin of Hunterdon County": {
-        "population": "3,515"
+        "population": "3,515",
+        "voters": "0"
     },
     "Franklin of Sussex County": {
         "african": "0.62",
@@ -2147,7 +2150,8 @@
         "voters": "9,118"
     },
     "Franklin Township of Warren County": {
-        "population": "3,046"
+        "population": "3,046",
+        "voters": "0"
     },
     "Fredon": {
         "african": "0.52",
@@ -2330,10 +2334,12 @@
         "voters": "2,676"
     },
     "Greenwich Township of Gloucester County": {
-        "population": "4,812"
+        "population": "4,812",
+        "voters": "0"
     },
     "Greenwich Township of Warren County": {
-        "population": "5,474"
+        "population": "5,474",
+        "voters": "0"
     },
     "Guttenberg": {
         "african": "3.81",
@@ -2436,7 +2442,8 @@
         "voters": "53,471"
     },
     "Hamilton Township of Mercer County": {
-        "population": "87,552"
+        "population": "87,552",
+        "voters": "0"
     },
     "Hammonton": {
         "african": "1.74",
@@ -2759,7 +2766,8 @@
         "voters": "1,385"
     },
     "Hopewell of Mercer County": {
-        "population": "1,916"
+        "population": "1,916",
+        "voters": "0"
     },
     "Hopewell Township": {
         "african": "5.83",
@@ -3022,7 +3030,8 @@
         "voters": "1,844"
     },
     "Lawrence Township of Mercer County": {
-        "population": "32,668"
+        "population": "32,668",
+        "voters": "0"
     },
     "Lawrence Township of Cumberland County": {
         "african": "10.4",
@@ -3355,7 +3364,8 @@
         "voters": "899"
     },
     "Mansfield Township of Burlington County": {
-        "population": "8,527"
+        "population": "8,527",
+        "voters": "0"
     },
     "Mansfield Township of Warren County": {
         "african": "4.51",
@@ -3658,7 +3668,8 @@
         "voters": "22,046"
     },
     "Monroe Township of Middlesex County": {
-        "population": "44,818"
+        "population": "44,818",
+        "voters": "0"
     },
     "Montague": {
         "african": "1.79",
@@ -4121,7 +4132,8 @@
         "voters": "3,867"
     },
     "Ocean Township of Ocean County": {
-        "population": "9,062"
+        "population": "9,062",
+        "voters": "0"
     },
     "Oceanport": {
         "african": "1.96",
@@ -5224,7 +5236,8 @@
         "voters": "9,271"
     },
     "Springfield Township": {
-        "population": "17,517"
+        "population": "17,517",
+        "voters": "0"
     },
     "Stafford": {
         "african": "0.74",
@@ -5477,7 +5490,8 @@
         "voters": "29,333"
     },
     "Union Township of Union County": {
-        "population": "58,757"
+        "population": "58,757",
+        "voters": "0"
     },
     "Upper Deerfield Township": {
         "african": "16.41",
@@ -5680,13 +5694,16 @@
         "voters": "11,997"
     },
     "Washington Township of Gloucester County": {
-        "population": "47,517"
+        "population": "47,517",
+        "voters": "0"
     },
     "Washington Township of Morris County": {
-        "population": "18,401"
+        "population": "18,401",
+        "voters": "0"
     },
     "Washington Township of Warren County": {
-        "population": "6,421"
+        "population": "6,421",
+        "voters": "0"
     },
     "Watchung": {
         "african": "3.37",

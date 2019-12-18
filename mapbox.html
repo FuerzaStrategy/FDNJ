@@ -1101,8 +1101,8 @@
 			    
 			         
 			    	    for(var i=0; i<district_old_people.length; i++){
-				    rep_ratio_old.push(district_old_people[i]*(district_rep_num[i]/100))
-				    dem_ratio_old.push(district_old_people[i]*(district_dem_num[i]/100))
+				    //rep_ratio_old.push(district_old_people[i]*(district_rep_num[i]/100))
+				    //dem_ratio_old.push(district_old_people[i]*(district_dem_num[i]/100))
 			            white_ratio_old.push(district_old_people[i]*(district_white_old[i]/100))
 				    african_ratio_old.push(district_old_people[i]*(district_african_old[i]/100))
 			            ai_ratio_old.push(district_old_people[i]*(district_ai_old[i]/100))
@@ -1133,16 +1133,16 @@
 				        district_ai_current.push(Number(racedata2010[a]['ai']))
 				        district_haw_current.push(Number(racedata2010[a]['haw']))
 				        district_other_current.push(Number(racedata2010[a]['other']))
-					district_dem_num_current.push(Number(data_2010[a]['democratic']))
-					district_rep_num_current.push(Number(data_2010[a]['republican']))
+					//district_dem_num_current.push(Number(data_2010[a]['democratic']))
+					//district_rep_num_current.push(Number(data_2010[a]['republican']))
 					district_people_current.push(Number(parseFloat((data_2010[a]['population']).replace(/,/g, ''))))
 					district_voters_current.push(Number(parseFloat((data_2010[a]['voters']).replace(/,/g, ''))))
 					});
 				
 			    console.log(white_ratio_current)
 			    for(var i=0; i<district_people_current.length; i++){
-				    rep_ratio_current.push(district_people_current[i]*(district_rep_num_current[i]/100))
-				    dem_ratio_current.push(district_people_current[i]*(district_dem_num_current[i]/100))
+				    //rep_ratio_current.push(district_people_current[i]*(district_rep_num_current[i]/100))
+				    //dem_ratio_current.push(district_people_current[i]*(district_dem_num_current[i]/100))
 				    white_ratio_current.push(district_people_current[i]*(district_white_current[i]/100))
 				    african_ratio_current.push(district_people_current[i]*(district_african_current[i]/100))
 				    ai_ratio_current.push(district_people_current[i]*(district_ai_current[i]/100))
@@ -1186,16 +1186,16 @@
 			      $('#haw_num').text((((haw_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#other_num').text((((other_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#hispanic_num').text((((hispanic_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#democratic_num').text((((dem_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#republican_num').text((((rep_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			      //$('#democratic_num').text((((dem_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			      //$('#republican_num').text((((rep_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#population_prev_num').html("District Demographics: " +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      //}, 10000);
 		            
 			    $('#white_prev').text(countyDataOld['white'] + "%")
 	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters")
-	                    $('#democratic_prev').text(data_from_2000['democratic'] + "%")
-	                    $('#republican_prev').text(data_from_2000['republican'] + "%")
+	                    //$('#democratic_prev').text(data_from_2000['democratic'] + "%")
+	                    //$('#republican_prev').text(data_from_2000['republican'] + "%")
 	                    $('#population_prev').text("Town Demographics: " + data_from_2000['population'] + " Total Population")
 	                    $('#african_prev').text(countyDataOld['af'] + "%")
 	                    $('#asian_prev').text(countyDataOld['a'] + "%")
@@ -1273,8 +1273,8 @@
 			      //$('#african_curr_num').text(new_district_data[file_name]['african'] + "%")
 			      //$('#asian_curr_num').text(new_district_data[file_name]['asian'] + "%")
 			      //$('#hispanic_curr_num').text(new_district_data[file_name]['hispanic'] + "%")
-			      $('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			      //$('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			      //$('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#population_curr_num').html("District Demographics: " + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#voters_curr_num').text((district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      $('#added').html("<br>" + (array_added).join(', '))
@@ -1284,8 +1284,8 @@
 			      //}, 20000);
 				  
 	                    $('#voters_curr').text(data_from_2010['voters'] + " Registered Voters")
-	                    $('#democratic_curr').text(data_from_2010['democratic'] + "%")
-	                    $('#republican_curr').text(data_from_2010['republican'] + "%")
+	                    //$('#democratic_curr').text(data_from_2010['democratic'] + "%")
+	                    //$('#republican_curr').text(data_from_2010['republican'] + "%")
 	                    $('#population_curr').text("Town Demographics: " + data_from_2010['population'] + " Total Population")
 	                    $('#african_curr').text(countyDataCurr['af'] + "%")
 	                    $('#asian_curr').text(countyDataCurr['a'] + "%")

@@ -1,7 +1,7 @@
 {
-"Berkeley Heights township": {	"white": "90.3",	"af": "1.2",	"ai": "0.2",	"a": "8.2",	"haw": "0",	"other": "0.8",	"his": "3.7"},
-"Clark township": {	"white": "96.3",	"af": "0.4",	"ai": "0.2",	"a": "2.9",	"haw": "0",	"other": "0.9",	"his": "3.7"},
-"Cranford township": {	"white": "94.4",	"af": "2.8",	"ai": "0.2",	"a": "2.5",	"haw": "0.1",	"other": "1",	"his": "3.9"},
+"Berkeley Heights": {	"white": "90.3",	"af": "1.2",	"ai": "0.2",	"a": "8.2",	"haw": "0",	"other": "0.8",	"his": "3.7"},
+"Clark": {	"white": "96.3",	"af": "0.4",	"ai": "0.2",	"a": "2.9",	"haw": "0",	"other": "0.9",	"his": "3.7"},
+"Cranford": {	"white": "94.4",	"af": "2.8",	"ai": "0.2",	"a": "2.5",	"haw": "0.1",	"other": "1",	"his": "3.9"},
 "Elizabeth city": {	"white": "60.2",	"af": "21.6",	"ai": "0.8",	"a": "2.8",	"haw": "0.2",	"other": "20.5",	"his": "49.5"},
 "Fanwood borough": {	"white": "89.4",	"af": "5.4",	"ai": "0.2",	"a": "5.1",	"haw": "0.1",	"other": "1.2",	"his": "3.7"},
 "Garwood borough": {	"white": "96.7",	"af": "0.5",	"ai": "0",	"a": "1.7",	"haw": "0.1",	"other": "1.9",	"his": "5"},

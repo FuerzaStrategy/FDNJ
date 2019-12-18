@@ -1189,17 +1189,17 @@
 			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      //}, 10000);
 		            
-			    $('#white_prev').text(racedata2000[townName]['white'] + "%")
+			    $('#white_prev').text(countyDataOld['white'] + "%")
 	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters")
 	                    $('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    $('#republican_prev').text(data_from_2000['republican'] + "%")
 	                    $('#population_prev').text("Town Demographics: " + data_from_2000['population'] + " Total Population")
-	                    $('#african_prev').text(racedata2000[townName]['af'] + "%")
-	                    $('#asian_prev').text(racedata2000[townName]['a'] + "%")
-			    $('#ai_prev').text(racedata2000[townName]['ai'] + "%")
-			    $('#haw_prev').text(racedata2000[townName]['haw'] + "%")
-			    $('#other_prev').text(racedata2000[townName]['other'] + "%")
-	                    $('#hispanic_prev').text(racedata2000[townName]['his'] + "%")
+	                    $('#african_prev').text(countyDataOld['af'] + "%")
+	                    $('#asian_prev').text(countyDataOld['a'] + "%")
+			    $('#ai_prev').text(countyDataOld['ai'] + "%")
+			    $('#haw_prev').text(countyDataOld['haw'] + "%")
+			    $('#other_prev').text(countyDataOld['other'] + "%")
+	                    $('#hispanic_prev').text(countyDataOld['his'] + "%")
 	                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])
 	                }
 	
@@ -1290,7 +1290,7 @@
 			    $('#ai_curr').text(countyDataCurr['ai'] + "%")
 			    $('#white_curr').text(countyDataCurr['white'] + "%")
 			    $('#haw_curr').text(countyDataCurr['haw'] + "%")
-			    $('#other_curr').text(racedata2010[townName]['other'] + "%")
+			    $('#other_curr').text(countyDataCurr['other'] + "%")
 	                    $('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
 			    $('#senator_curr').html(Current_Legislators[currentHighlight_new.toString()]['Senator'])
 		            $('#member1_curr').html("&emsp;&emsp;&emsp;" + (Current_Legislators[currentHighlight_new.toString()]['Member1']))

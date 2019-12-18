@@ -109,7 +109,7 @@
         "taxable": "125,886",
         "voters": "399"
     },
-    "Andover Twp": {
+    "Andover Township": {
         "african": "3.37",
         "asian": "2.6",
         "democratic": "15.28",
@@ -179,7 +179,7 @@
         "taxable": "6,104,784",
         "voters": "1,353"
     },
-    "Avon By The Sea": {
+    "Avon by the Sea": {
         "african": "0.32",
         "asian": "0.63",
         "democratic": "25.37",
@@ -199,7 +199,7 @@
         "taxable": "1,909,442",
         "voters": "658"
     },
-    "Barnegat Twp": {
+    "Barnegat Township": {
         "african": "3.25",
         "asian": "1.73",
         "democratic": "21.45",
@@ -339,7 +339,7 @@
         "taxable": "266,966",
         "voters": "9,270"
     },
-    "Berkeley Twp": {
+    "Berkeley Township": {
         "african": "1.75",
         "asian": "1.13",
         "democratic": "27.67",
@@ -359,7 +359,7 @@
         "taxable": "103,223",
         "voters": "5,234"
     },
-    "Berlin Twp": {
+    "Berlin Township": {
         "african": "11.57",
         "asian": "5.13",
         "democratic": "44.39",
@@ -369,7 +369,7 @@
         "taxable": "109,937",
         "voters": "3,510"
     },
-    "Bernards Twp": {
+    "Bernards": {
         "african": "1.89",
         "asian": "13.8",
         "democratic": "19.32",
@@ -469,7 +469,7 @@
         "taxable": "146,947",
         "voters": "5,253"
     },
-    "Boonton Twp": {
+    "Boonton Township": {
         "african": "1.55",
         "asian": "3.99",
         "democratic": "18.26",
@@ -489,7 +489,7 @@
         "taxable": "98,975",
         "voters": "2,620"
     },
-    "Bordentown Twp": {
+    "Bordentown Township": {
         "african": "10.7",
         "asian": "10.57",
         "democratic": "28.08",
@@ -609,7 +609,7 @@
         "taxable": "64,403",
         "voters": "2,841"
     },
-    "Buena Vista": {
+    "Buena Vista Township": {
         "african": "13.45",
         "asian": "1.06",
         "democratic": "28.97",
@@ -629,7 +629,7 @@
         "taxable": "76,841",
         "voters": "6,150"
     },
-    "Burlington Twp": {
+    "Burlington Township": {
         "african": "27.98",
         "asian": "7.04",
         "democratic": "40.22",
@@ -759,7 +759,7 @@
         "taxable": "253,680",
         "voters": "5,982"
     },
-    "Chatham Twp": {
+    "Chatham Township": {
         "african": "0.75",
         "asian": "6.36",
         "democratic": "20.03",
@@ -799,7 +799,7 @@
         "taxable": "266,313",
         "voters": "1,092"
     },
-    "Chester Twp": {
+    "Chester Township": {
         "african": "1.05",
         "asian": "3.5",
         "democratic": "14.74",
@@ -809,7 +809,7 @@
         "taxable": "263,714",
         "voters": "5,630"
     },
-    "Chesterfield": {
+    "Chesterfield Township": {
         "african": "29.12",
         "asian": "8.35",
         "democratic": "24.03",
@@ -889,7 +889,7 @@
         "taxable": "148,532",
         "voters": "1,727"
     },
-    "Clinton Twp": {
+    "Clinton Township": {
         "african": "6.01",
         "asian": "3.9",
         "democratic": "15.95",
@@ -929,7 +929,7 @@
         "taxable": "315,890",
         "voters": "7,458"
     },
-    "Commercial": {
+    "Commercial Township": {
         "african": "10.24",
         "asian": "0.52",
         "democratic": "32.13",
@@ -1059,7 +1059,7 @@
         "taxable": "204,222",
         "voters": "12,141"
     },
-    "Deptford": {
+    "Deptford Township": {
         "african": "12.16",
         "asian": "4.45",
         "democratic": "41.73",
@@ -1139,7 +1139,7 @@
         "taxable": "168,431",
         "voters": "31,364"
     },
-    "East Greenwich": {
+    "East Greenwich Township": {
         "african": "5.86",
         "asian": "3.61",
         "democratic": "32.81",
@@ -1199,7 +1199,7 @@
         "taxable": "114,268",
         "voters": "15,189"
     },
-    "Eastampton": {
+    "Eastampton Township": {
         "african": "16.97",
         "asian": "4.48",
         "democratic": "31.94",
@@ -1249,7 +1249,7 @@
         "taxable": "157,358",
         "voters": "53,332"
     },
-    "Egg Harbor": {
+    "Egg Harbor City": {
         "african": "17.94",
         "asian": "2.22",
         "democratic": "32.98",
@@ -1259,7 +1259,7 @@
         "taxable": "70,451",
         "voters": "2,668"
     },
-    "Egg Harbor Twp": {
+    "Egg Harbor Township": {
         "african": "9.58",
         "asian": "11.76",
         "democratic": "23.24",
@@ -1379,7 +1379,7 @@
         "taxable": "110,002",
         "voters": "1,248"
     },
-    "Evesham": {
+    "Evesham Township": {
         "african": "4.19",
         "asian": "6.16",
         "democratic": "28.75",
@@ -1428,6 +1428,9 @@
         "republican": "38.79",
         "taxable": "401,021",
         "voters": "5,393"
+    },
+    "Fairfield Township": {
+        "population": "5,902"
     },
     "Fairview": {
         "african": "2.94",
@@ -1489,7 +1492,7 @@
         "taxable": "113,926",
         "voters": "2,069"
     },
-    "Florence": {
+    "Florence Township": {
         "african": "12.23",
         "asian": "5.04",
         "democratic": "29.7",
@@ -1539,7 +1542,16 @@
         "taxable": "158,803",
         "voters": "4,040"
     },
-    "Franklin": {
+    "Franklin of Gloucester County": {
+        "population": "16,390"
+    }
+    "Franklin Township of Hunterdon County": {
+        "population": "3,515"
+    }
+    "Franklin Township of Warren County": {
+        "population": "3,046"
+    }
+    "Franklin of Sussex County": {
         "african": "2.18",
         "asian": "1.74",
         "democratic": "15.78",
@@ -1559,7 +1571,7 @@
         "taxable": "433,495",
         "voters": "7,225"
     },
-    "Franklin Twp": {
+    "Franklin Township of Somerset County": {
         "african": "26.55",
         "asian": "19.98",
         "democratic": "26.82",
@@ -1589,7 +1601,7 @@
         "taxable": "99,994",
         "voters": "5,209"
     },
-    "Freehold Twp": {
+    "Freehold Township": {
         "african": "5.34",
         "asian": "7.03",
         "democratic": "21.57",
@@ -1649,7 +1661,7 @@
         "taxable": "159,904",
         "voters": "2,751"
     },
-    "Gibbsboro": {
+    "Gibbsboro of Camden County": {
         "african": "2.15",
         "asian": "2.33",
         "democratic": "38.52",
@@ -1659,7 +1671,7 @@
         "taxable": "118,595",
         "voters": "1,701"
     },
-    "Glassboro": {
+    "Glassboro of Gloucester County": {
         "african": "18.67",
         "asian": "2.87",
         "democratic": "37.46",
@@ -1709,7 +1721,7 @@
         "taxable": "59,517",
         "voters": "6,813"
     },
-    "Gloucester Twp": {
+    "Gloucester Township": {
         "african": "16.19",
         "asian": "3.67",
         "democratic": "39.36",
@@ -1748,6 +1760,12 @@
         "republican": "42.46",
         "taxable": "132,786",
         "voters": "3,490"
+    },
+    "Greenwich Township of Gloucester County": {
+        "population": "4,812"
+    },
+    "Greenwich Township of Warren County": {
+        "population": "5,474"
     },
     "Guttenberg": {
         "african": "4.8",
@@ -1789,7 +1807,7 @@
         "taxable": "107,138",
         "voters": "5,744"
     },
-    "Haddon Twp": {
+    "Haddon Township": {
         "african": "1.5",
         "asian": "2.71",
         "democratic": "40.33",
@@ -1839,7 +1857,7 @@
         "taxable": "103,167",
         "voters": "2,024"
     },
-    "Hamilton": {
+    "Hamilton Township of Atlantic County": {
         "african": "18.55",
         "asian": "5.41",
         "democratic": "32.65",
@@ -1849,6 +1867,9 @@
         "taxable": "111,032",
         "voters": "57,616"
     },
+    "Hamilton Township of Mercer County": {
+        "population": "87,552"
+    }
     "Hammonton": {
         "african": "3",
         "asian": "1.37",
@@ -1859,7 +1880,7 @@
         "taxable": "103,190",
         "voters": "8,743"
     },
-    "Hampton Boro": {
+    "Hampton": {
         "african": "2.5",
         "asian": "1.86",
         "democratic": "21.24",
@@ -1869,7 +1890,7 @@
         "taxable": "97,621",
         "voters": "890"
     },
-    "Hampton Twp": {
+    "Hampton Township": {
         "african": "0.83",
         "asian": "1.19",
         "democratic": "17.27",
@@ -1949,7 +1970,7 @@
         "taxable": "86,923",
         "voters": "5,415"
     },
-    "Harrison Twp": {
+    "Harrison Township": {
         "african": "3.83",
         "asian": "3.38",
         "democratic": "23.97",
@@ -2159,7 +2180,7 @@
         "taxable": "139,607",
         "voters": "1,334"
     },
-    "Hopewell": {
+    "Hopewell of Cumberland County": {
         "african": "6.58",
         "asian": "0.57",
         "democratic": "45.52",
@@ -2169,7 +2190,10 @@
         "taxable": "168,107",
         "voters": "1,498"
     },
-    "Hopewell Twp": {
+    "Hopewell of Mercer County": {
+        "population": "1,916"
+    },
+    "Hopewell Township": {
         "african": "2.1",
         "asian": "8.89",
         "democratic": "32.51",
@@ -2429,7 +2453,7 @@
         "taxable": "91,073",
         "voters": "2,310"
     },
-    "Lawrence": {
+    "Lawrence Township of Cumberland County": {
         "african": "9.24",
         "asian": "0.4",
         "democratic": "40.38",
@@ -2438,6 +2462,9 @@
         "republican": "16.5",
         "taxable": "153,104",
         "voters": "19,838"
+    },
+    "Lawrence Township of Mercer County": {
+        "population": "32,668"
     },
     "Lebanon": {
         "african": "1.77",
@@ -2449,7 +2476,7 @@
         "taxable": "225,421",
         "voters": "934"
     },
-    "Lebanon Twp": {
+    "Lebanon Township": {
         "african": "1.68",
         "asian": "1.47",
         "democratic": "16.31",
@@ -2589,7 +2616,7 @@
         "taxable": "91,081",
         "voters": "10,565"
     },
-    "Logan": {
+    "Logan Township": {
         "african": "12.5",
         "asian": "2.55",
         "democratic": "40.18",
@@ -2759,7 +2786,10 @@
         "taxable": "122,132",
         "voters": "973"
     },
-    "Mansfield": {
+    "Mansfield Township of Burlington County": {
+        "population": "8,527"
+    },
+    "Mansfield Township of Warren County": {
         "african": "4.89",
         "asian": "3.21",
         "democratic": "29.58",
@@ -2819,7 +2849,7 @@
         "taxable": "153,957",
         "voters": "16,369"
     },
-    "Margate": {
+    "Margate City": {
         "african": "0.71",
         "asian": "0.98",
         "democratic": "23.26",
@@ -2899,7 +2929,7 @@
         "taxable": "283,641",
         "voters": "3,828"
     },
-    "Mendham Twp": {
+    "Mendham Township": {
         "african": "1.29",
         "asian": "3.41",
         "democratic": "16.83",
@@ -2939,7 +2969,7 @@
         "taxable": "160,739",
         "voters": "12,625"
     },
-    "Middlesex Borough": {
+    "Middlesex": {
         "african": "5.13",
         "asian": "6",
         "democratic": "25.04",
@@ -2999,7 +3029,7 @@
         "taxable": "132,574",
         "voters": "313"
     },
-    "Millstone Twp": {
+    "Millstone Township": {
         "african": "3.59",
         "asian": "4.51",
         "democratic": "16.83",
@@ -3049,7 +3079,7 @@
         "taxable": "417,393",
         "voters": "2,631"
     },
-    "Monroe": {
+    "Monroe Township of Gloucester County": {
         "african": "14.01",
         "asian": "2.42",
         "democratic": "39.15",
@@ -3058,6 +3088,9 @@
         "republican": "18.28",
         "taxable": "180,978",
         "voters": "29,888"
+    },
+    "Monroe Township of Middlesex County": {
+        "population": "44,818"
     },
     "Montague": {
         "african": "2.63",
@@ -3139,7 +3172,7 @@
         "taxable": "284,729",
         "voters": "4,034"
     },
-    "Morris Twp": {
+    "Morris Township": {
         "african": "5.65",
         "asian": "5.12",
         "democratic": "27.74",
@@ -3259,7 +3292,7 @@
         "taxable": "110,803",
         "voters": "3,024"
     },
-    "Neptune Twp": {
+    "Neptune Township": {
         "african": "38.56",
         "asian": "2.26",
         "democratic": "35.91",
@@ -3509,7 +3542,7 @@
         "taxable": "140,380",
         "voters": "1,311"
     },
-    "Ocean Twp": {
+    "Ocean Township of Monmouth County": {
         "african": "7.96",
         "asian": "6.56",
         "democratic": "16.47",
@@ -3518,6 +3551,9 @@
         "republican": "33.12",
         "taxable": "172,899",
         "voters": "6,340"
+    },
+    "Ocean Township of Ocean County": {
+        "population": "9,062"
     },
     "Oceanport": {
         "african": "3",
@@ -3579,7 +3615,7 @@
         "taxable": "220,022",
         "voters": "5,483"
     },
-    "Orange": {
+    "City of Orange": {
         "african": "71.83",
         "asian": "1.51",
         "democratic": "57.37",
@@ -3699,7 +3735,7 @@
         "taxable": "85,593",
         "voters": "936"
     },
-    "Pemberton Twp": {
+    "Pemberton Township": {
         "african": "20.49",
         "asian": "2.89",
         "democratic": "32.69",
@@ -3729,7 +3765,7 @@
         "taxable": "35,346",
         "voters": "2,552"
     },
-    "Pennsauken": {
+    "Pennsauken Township": {
         "african": "26.87",
         "asian": "7.72",
         "democratic": "43.56",
@@ -3939,17 +3975,7 @@
         "taxable": "128,797",
         "voters": "861"
     },
-    "Princeton": {
-        "african": "6.44",
-        "asian": "13.51",
-        "democratic": "",
-        "hispanic": "10.3",
-        "population": "-",
-        "republican": "",
-        "taxable": "-",
-        "voters": ""
-    },
-    "Princeton Twp (prior to 2013)": {
+    "Princeton: {
         "african": "4.98",
         "asian": "14.17",
         "democratic": "49.77",
@@ -4019,7 +4045,7 @@
         "taxable": "186,274",
         "voters": "3,967"
     },
-    "Raritan Twp": {
+    "Raritan Township": {
         "african": "2.07",
         "asian": "5.95",
         "democratic": "19.75",
@@ -4169,7 +4195,7 @@
         "taxable": "142,480",
         "voters": "4,028"
     },
-    "Rockaway Twp": {
+    "Rockaway Township": {
         "african": "2.55",
         "asian": "6.67",
         "democratic": "24.11",
@@ -4439,7 +4465,7 @@
         "taxable": "299,215",
         "voters": "2,897"
     },
-    "Shrewsbury Twp": {
+    "Shrewsbury Township": {
         "african": "14.29",
         "asian": "6.57",
         "democratic": "35.73",
@@ -4569,7 +4595,7 @@
         "taxable": "75,857",
         "voters": "2,144"
     },
-    "Southampton": {
+    "Southampton Township": {
         "african": "2.21",
         "asian": "1.33",
         "democratic": "24.7",
@@ -4628,6 +4654,9 @@
         "republican": "17.9",
         "taxable": "184,110",
         "voters": "10,343"
+    },
+    "Springfield Township": {
+        "population": "17,517"
     },
     "Stafford": {
         "african": "1.05",
@@ -4869,7 +4898,10 @@
         "taxable": "52,123",
         "voters": "28,515"
     },
-    "Union Twp": {
+    "Union Township of Hunterdon County": {
+        "population": "5,525"
+    },
+    "Union Township of Union County": {
         "african": "9.06",
         "asian": "4.13",
         "democratic": "38.46",
@@ -4879,7 +4911,7 @@
         "taxable": "1,199,686",
         "voters": "32,097"
     },
-    "Upper Deerfield": {
+    "Upper Deerfield Township": {
         "african": "12.96",
         "asian": "2.65",
         "democratic": "25.32",
@@ -4929,7 +4961,7 @@
         "taxable": "176,533",
         "voters": "9,419"
     },
-    "Ventnor": {
+    "Ventnor City": {
         "african": "4.25",
         "asian": "8.68",
         "democratic": "25.53",
@@ -4979,7 +5011,7 @@
         "taxable": "63,861",
         "voters": "37,442"
     },
-    "Voorhees": {
+    "Voorhees Township": {
         "african": "8.7",
         "asian": "16.13",
         "democratic": "37.47",
@@ -5059,7 +5091,7 @@
         "taxable": "284,071",
         "voters": "10,502"
     },
-    "Washington": {
+    "Washington of Warren County": {
         "african": "6.01",
         "asian": "3.42",
         "democratic": "19.92",
@@ -5069,7 +5101,7 @@
         "taxable": "89,156",
         "voters": "3,735"
     },
-    "Washington Twp": {
+    "Washington of Burlington County": {
         "african": "1.89",
         "asian": "0.15",
         "democratic": "15.43",
@@ -5078,6 +5110,15 @@
         "republican": "41.24",
         "taxable": "169,541",
         "voters": "13,223"
+    },
+    "Washington Township of Gloucester County": {
+        "population": "47,517"
+    },
+    "Washington Township of Morris County": {
+        "population": "18,401"
+    },
+    "Washington Township of Warren County": {
+        "population": "6,421"
     },
     "Watchung": {
         "african": "3.45",
@@ -5339,7 +5380,7 @@
         "taxable": "11,242",
         "voters": "1,059"
     },
-    "Winslow": {
+    "Winslow Township": {
         "african": "36.17",
         "asian": "3.1",
         "democratic": "43.88",

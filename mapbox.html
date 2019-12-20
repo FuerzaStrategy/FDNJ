@@ -1167,30 +1167,22 @@
 			       }
 			      });
 			    
-			    
-			      final_new_array.forEach(function(t,ind){
-			                district_african_current.push(Number(racedata2010['Barnegat Light']['af']))
-				      district_african_current.push(Number(racedata2010['Barnegat Township']['af']))
-				      district_african_current.push(Number(racedata2010['Bass River']['af']))
-				      district_african_current.push(Number(racedata2010['Beach Haven']['af']))
-				      district_african_current.push(Number(racedata2010['Beachwood']['af']))
-				      district_african_current.push(Number(racedata2010['Berkeley Township']['af']))
-				      district_african_current.push(Number(racedata2010['Eagleswood']['af']))
-				      district_african_current.push(Number(racedata2010['Folsom']['af']))
-				      district_african_current.push(Number(racedata2010['Hammonton']['af']))
-				      district_african_current.push(Number(racedata2010['Lacey']['af']))
-				      district_african_current.push(Number(racedata2010['Lakehurst']['af']))
-				      district_african_current.push(Number(racedata2010['Little Egg Harbor']['af']))
-				      district_african_current.push(Number(racedata2010['Long Beach']['af']))
-				      district_african_current.push(Number(racedata2010['Manchester']['af']))
-				      district_african_current.push(Number(racedata2010['Ocean Gate']['af']))
-				      district_african_current.push(Number(racedata2010['Ocean Township of Ocean County']['af']))
-				      district_african_current.push(Number(racedata2010['Pine Beach']['af']))
-				      district_african_current.push(Number(racedata2010['Ship Bottom']['af']))
-				      district_african_current.push(Number(racedata2010['Stafford']['af']))
-				      district_african_current.push(Number(racedata2010['Tuckerton']['af']))
-				      district_african_current.push(Number(racedata2010['Washington Township of Burlington County']['af']))
-				      
+			    var q;
+			    for(q=0; q<final_new_array.length; q++){
+			    		district_african_current.push(Number(racedata2010[q]['af']))			      
+					district_asian_current.push.bind(Number(racedata2010[q]['a']))
+					district_hispanic_current.push(Number(racedata2010[q]['his']))
+				        district_white_current.push(Number(racedata2010[q]['white']))
+				        district_ai_current.push(Number(racedata2010[q]['ai']))
+				        district_haw_current.push(Number(racedata2010[q]['haw']))
+				        district_other_current.push(Number(racedata2010[q]['other']))
+					//district_dem_num_current.push(Number(data_2010[a]['democratic']))
+					//district_rep_num_current.push(Number(data_2010[a]['republican']))
+					district_people_current.push(Number(parseFloat((data_2010[q]['population']).replace(/,/g, ''))))
+					district_voters_current.push(Number(parseFloat((data_2010[q]['voters']).replace(/,/g, ''))))
+			    }
+			      /*final_new_array.forEach(function(t,ind){
+			                district_african_current.push(Number(racedata2010[t]['af']))			      
 					district_asian_current.push.bind(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))
 				        district_white_current.push(Number(racedata2010[t]['white']))
@@ -1201,7 +1193,7 @@
 					//district_rep_num_current.push(Number(data_2010[a]['republican']))
 					district_people_current.push(Number(parseFloat((data_2010[t]['population']).replace(/,/g, ''))))
 					district_voters_current.push(Number(parseFloat((data_2010[t]['voters']).replace(/,/g, ''))))
-					});
+					});*/
 				
 			    console.log(white_ratio_current)
 			    for(var i=0; i<district_people_current.length; i++){

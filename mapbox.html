@@ -1191,7 +1191,7 @@
 				      district_african_current.push(Number(racedata2010['Tuckerton']['af']))
 				      district_african_current.push(Number(racedata2010['Washington Township of Burlington County']['af']))
 				      
-					district_asian_current.push(Number(racedata2010[t]['a']))
+					district_asian_current.push.bind(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))
 				        district_white_current.push(Number(racedata2010[t]['white']))
 				        district_ai_current.push(Number(racedata2010[t]['ai']))

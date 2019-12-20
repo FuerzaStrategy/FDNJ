@@ -540,8 +540,6 @@
 	    var polygons_new = Array(new_n).fill(0)
 	    var racedata2000 = {}
 	    var racedata2010 = {}
-	    var racedata2000[a] = {}
-	    var racedata2010[a] = {}
 	    var currCountyData = {}
 	    var AllData = {}
 	    var new_district_data = {}
@@ -1128,7 +1126,7 @@
 			    final_old_array_show = final_old_array_show.filter(e => e !== townName)
 			    var show_array= final_old_array_show.join(', ')
 					     console.log(final_old_array)
-			    
+			        
 				final_old_array.forEach(function(a,ind){
 				district_african_old.push(Number(racedata2000[a]['af']))
 				district_asian_old.push(Number(racedata2000[a]['a']))

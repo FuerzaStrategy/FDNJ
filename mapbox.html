@@ -1085,13 +1085,6 @@
 			    var show_array= final_old_array_show.join(', ')
 					     console.log(final_old_array)
 			    
-			    $.getJSON("data/2000_race_data.json", function(data) {
-	        racedata2000 = data
-	    })
-	   $.getJSON("data/2010_race_data.json", function(data) {
-	        racedata2010 = data
-	    })
-							     
 				final_old_array.forEach(function(a,ind){
 				district_african_old.push(Number(racedata2000[a]['af']))
 				district_asian_old.push(Number(racedata2000[a]['a']))

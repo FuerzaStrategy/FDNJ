@@ -23,6 +23,7 @@
 "Interlaken": {	"white": "99.4",	"af": "0.6",	"ai": "0.3",	"a": "1.2",	"haw": "0.1",	"other": "0",	"his": "1.1"},
 "Keansburg": {	"white": "94.5",	"af": "2.6",	"ai": "0.4",	"a": "1.6",	"haw": "0.1",	"other": "2.3",	"his": "7.9"},
 "Keyport": {	"white": "87.1",	"af": "7.8",	"ai": "0.5",	"a": "2.8",	"haw": "0.1",	"other": "4.2",	"his": "11.1"},
+"Lake Como": {	"white": "84.7",	"af": "7.4",	"ai": "1",	"a": "1.5",	"haw": "0",	"other": "7.4",	"his": "18.3"},
 "Little Silver": {	"white": "97.8",	"af": "0.4",	"ai": "0.2",	"a": "1.9",	"haw": "0.1",	"other": "0.3",	"his": "1.3"},
 "Loch Arbour": {	"white": "96.1",	"af": "3.9",	"ai": "0",	"a": "0.7",	"haw": "0",	"other": "1.1",	"his": "0.7"},
 "Long Branch": {	"white": "71.5",	"af": "20",	"ai": "0.8",	"a": "2.1",	"haw": "0.2",	"other": "9.9",	"his": "20.7"},

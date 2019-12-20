@@ -1128,7 +1128,7 @@
 					     console.log(final_old_array)
 			    
 				final_old_array.forEach(function(a,ind){
-				district_african_old.push.bind(Number(racedata2000[a]['af']))
+				district_african_old.push(Number(racedata2000[a]['af']))
 				district_asian_old.push(Number(racedata2000[a]['a']))
 				district_hispanic_old.push(Number(racedata2000[a]['his']))
 				district_ai_old.push(Number(racedata2000[a]['ai']))
@@ -1168,7 +1168,7 @@
 			      });
 			    
 			      final_new_array.forEach(function(a,ind){
-			                district_african_current.push.bind(Number(racedata2010[a]['af']))
+			                district_african_current.push(Number(racedata2010[a]['af']))
 					district_asian_current.push(Number(racedata2010[a]['a']))
 					district_hispanic_current.push(Number(racedata2010[a]['his']))
 				        district_white_current.push(Number(racedata2010[a]['white']))

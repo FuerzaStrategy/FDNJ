@@ -1135,7 +1135,7 @@
 			      });
 			    
 			      final_new_array.forEach(function(a,ind){
-			                district_african_current.push(Number(racedata2010[a]['af']))
+			                district_african_current.push.bind(Number(racedata2010[a]['af']))
 					district_asian_current.push(Number(racedata2010[a]['a']))
 					district_hispanic_current.push(Number(racedata2010[a]['his']))
 				        district_white_current.push(Number(racedata2010[a]['white']))

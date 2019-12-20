@@ -609,7 +609,7 @@
 	        currEssexData = data
 	    })
 	$.getJSON("data/Curr_County/GCounty.json", function(data) {
-	        GloucesterData = data
+	        currGGata = data
 	    })
 	$.getJSON("data/Curr_County/Hudson County.json", function(data) {
 	        currHudsonData = data
@@ -803,8 +803,8 @@
 			countyDataOld = (oldEssexData[townName])
 		    	}
 			if(County == "Gloucester County"){
-	                countyDataCurr = (currHudsonData['JerseyCity'])
-			//countyDataCurr = (GloucesterData[townName])
+	                //countyDataCurr = (currHudsonData['JerseyCity'])
+			countyDataCurr = currGData[townName]
 			countyDataOld = (oldGloucesterData[townName])
 		    	}
 			if(County == "Hudson County"){

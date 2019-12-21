@@ -1170,10 +1170,10 @@
 			       }
 			      });
 			    
-			    /*var q;
+			    var q;
 			    for(q=0; q<final_new_array.length; q++){
 			    		district_african_current.push(Number(racedata2010[q]['af']))			      
-					district_asian_current.push.bind(Number(racedata2010[q]['a']))
+					district_asian_current.push(Number(racedata2010[q]['a']))
 					district_hispanic_current.push(Number(racedata2010[q]['his']))
 				        district_white_current.push(Number(racedata2010[q]['white']))
 				        district_ai_current.push(Number(racedata2010[q]['ai']))
@@ -1183,10 +1183,10 @@
 					//district_rep_num_current.push(Number(data_2010[a]['republican']))
 					district_people_current.push(Number(parseFloat((data_2010[q]['population']).replace(/,/g, ''))))
 					district_voters_current.push(Number(parseFloat((data_2010[q]['voters']).replace(/,/g, ''))))
-			    }*/
+			    }
 
 			    		
-			      final_new_array.forEach(function(t,ind){
+			      /*final_new_array.forEach(function(t,ind){
 			                district_african_current.push(Number(racedata2010[t]['af']))			      
 					district_asian_current.push(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))
@@ -1198,7 +1198,7 @@
 					//district_rep_num_current.push(Number(data_2010[a]['republican']))
 					district_people_current.push(Number(parseFloat((data_2010[t]['population']).replace(/,/g, ''))))
 					district_voters_current.push(Number(parseFloat((data_2010[t]['voters']).replace(/,/g, ''))))
-					});
+					});*/
 				
 			    console.log(white_ratio_current)
 			    for(var i=0; i<district_people_current.length; i++){

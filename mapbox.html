@@ -1185,14 +1185,13 @@
 					district_voters_current.push(Number(parseFloat((data_2010[q]['voters']).replace(/,/g, ''))))
 			    }*/
 
-			    		
-			      final_new_array.forEach(function(t,ind){
-				      	if (racedata2000[t]=="undefined"){
+			 		if (racedata2010=="undefined"){
 						alert("Bad");
 					}
 			    		else{
 						alert("good");
 					}
+			      final_new_array.forEach(function(t,ind){
 			                district_african_current.push(Number(racedata2010[t]['af']))			      
 					district_asian_current.push(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))

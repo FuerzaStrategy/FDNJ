@@ -1170,8 +1170,8 @@
 			       }
 			      });
 			    
-			    var q;
-			    /*for(q=0; q<final_new_array.length; q++){
+			    /*var q;
+			    for(q=0; q<final_new_array.length; q++){
 			    		district_african_current.push(Number(racedata2010[q]['af']))			      
 					district_asian_current.push.bind(Number(racedata2010[q]['a']))
 					district_hispanic_current.push(Number(racedata2010[q]['his']))
@@ -1187,7 +1187,10 @@
 
 			    		
 			      final_new_array.forEach(function(t,ind){
-				      		alert(Number(racedata2010['Folsom']['af']))
+				        var racedata2010 = {}
+					$.getJSON("data/2010_race_data.json", function(data) {
+					racedata2010 = data
+				   	 })
 			                district_african_current.push(Number(racedata2010[t]['af']))			      
 					district_asian_current.push(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))

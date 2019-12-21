@@ -616,7 +616,7 @@
   	   $.getJSON("data/Current_Legislators.json", function(data) {
 	        Current_Legislators = data
 	    })
-	   $.getJSON("data/2000_race_data.json", function(data) {
+	   $.getJSON("data/race_data_2000.json", function(data) {
 	        racedata2000 = data
 	    })
 	   $.getJSON("data/2010_race_data.json", function(data) {
@@ -1131,7 +1131,7 @@
 			    	
 				
 				final_old_array.forEach(function(a,ind){
-				district_african_old.push(Number(data_2000[a]['african']))
+				district_african_old.push(Number(racedata2000[a]['af']))
 				district_asian_old.push(Number(racedata2000[a]['a']))
 				district_hispanic_old.push(Number(racedata2000[a]['his']))
 				district_ai_old.push(Number(racedata2000[a]['ai']))
@@ -1187,10 +1187,6 @@
 
 			    		
 			      final_new_array.forEach(function(t,ind){
-				        var racedata2010 = {}
-					$.getJSON("data/2010_race_data.json", function(data) {
-					racedata2010 = data
-				   	 })
 			                district_african_current.push(Number(racedata2010[t]['af']))			      
 					district_asian_current.push(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))

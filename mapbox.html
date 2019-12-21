@@ -1185,8 +1185,9 @@
 					district_voters_current.push(Number(parseFloat((data_2010[q]['voters']).replace(/,/g, ''))))
 			    }*/
 
-			    		var racedata2010_t = this.racedata2010;
+			    		
 			      final_new_array.forEach(function(t,ind){
+				        var racedata2010_t = this.racedata2010;
 			                district_african_current.push(Number(racedata2010_t[t]['af']))			      
 					district_asian_current.push(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))

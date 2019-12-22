@@ -1131,7 +1131,7 @@
 			    	
 				
 				final_old_array.forEach(function(a,ind){
-				alert(racedata2000[a]);
+				//alert(racedata2000[a]);
 				district_african_old.push(Number(racedata2000[a]['af']))
 				district_asian_old.push(Number(racedata2000[a]['a']))
 				district_hispanic_old.push(Number(racedata2000[a]['his']))
@@ -1260,6 +1260,7 @@
 	                    //$('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    //$('#republican_prev').text(data_from_2000['republican'] + "%")
 	                    $('#population_prev').text("Town Demographics: " + data_from_2000['population'] + " Total Population")
+				alert(countyDataOld);
 	                    $('#african_prev').text(countyDataOld['af'] + "%")
 	                    $('#asian_prev').text(countyDataOld['a'] + "%")
 			    $('#ai_prev').text(countyDataOld['ai'] + "%")

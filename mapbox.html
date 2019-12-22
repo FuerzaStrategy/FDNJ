@@ -813,6 +813,8 @@
 	                        data_from_2010 = data_2010[townName]
 	                    }
 	                }
+			console.log(data_2010['Hi-Nella'])
+			console.log(data_2010['Magnolia'])
 			
 			    
 			console.log(townName)
@@ -1190,8 +1192,8 @@
 			      final_new_array.forEach(function(t,ind){
 					//alert(racedata2010[t]);
 				        //console.log(t);
-			                district_african_current.push(Number(racedata2010['Hi-Nella']['af']))			      
-					district_asian_current.push(Number(racedata2010['Magnolia']['a']))
+			                district_african_current.push(Number(racedata2010[t]['af']))			      
+					district_asian_current.push(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))
 				        district_white_current.push(Number(racedata2010[t]['white']))
 				        district_ai_current.push(Number(racedata2010[t]['ai']))

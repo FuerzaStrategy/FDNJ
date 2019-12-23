@@ -980,6 +980,8 @@
 			    
 			var looking_names = JSON.stringify(data_2000);
 			    
+			console.log(countyDataCurr)
+			    
 			//$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			//for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
 			//var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
@@ -1207,7 +1209,6 @@
 					district_voters_current.push(Number(parseFloat((data_2010[t]['voters']).replace(/,/g, ''))))
 					});
 				
-			    		console.log(countyDataCurr)
 			    console.log(white_ratio_current)
 			    for(var i=0; i<district_people_current.length; i++){
 				    //rep_ratio_current.push(district_people_current[i]*(district_rep_num_current[i]/100))

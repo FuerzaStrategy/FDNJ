@@ -980,7 +980,6 @@
 			    
 			var looking_names = JSON.stringify(data_2000);
 			    
-			console.log(countyDataCurr)
 			    
 			//$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
 			//for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
@@ -1192,10 +1191,10 @@
 			 		
 			      final_new_array.forEach(function(t,ind){
 					//alert(racedata2010[t]);
-				        console.log(t);
-				      	if(t == "Lawnside"){
-						t = "Haddon Heights"
-					}
+				        //console.log(t);
+				      	//if(t == "Lawnside"){
+					//	t = "Haddon Heights"
+					//}
 			                district_african_current.push(Number(racedata2010[t]['af']))			      
 					district_asian_current.push(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))

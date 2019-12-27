@@ -807,11 +807,11 @@
 	                //var address_components = data.results[0].address_components
 	                for(var i = 0; i < address_components.length; i ++) {
 	                    var townName_temp = address_components[i].long_name
-	                    if(data_2000[townName_temp] !== undefined) {
+	                    //if(data_2000[townName_temp] !== undefined) {
 	                        townName = townName_temp
 	                        data_from_2000 = data_2000[townName]
 	                        data_from_2010 = data_2010[townName]
-	                    }
+	                   // }
 	                }
 
 			

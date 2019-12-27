@@ -959,6 +959,16 @@
         "taxable": "445,376",
         "voters": "2,767"
     },
+    "Cranbury": {
+        "african": "3.45",
+        "asian": "13.74",
+        "democratic": "30.25",
+        "hispanic": "2.57",
+        "population": "3,857",
+        "republican": "25.19",
+        "taxable": "445,376",
+        "voters": "2,767"
+    },
     "Cranford": {
         "african": "2.62",
         "asian": "2.84",

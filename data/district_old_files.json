@@ -21,7 +21,7 @@
   "West Wildwood": { "white": "97.5",	"af": "0.4",	"ai": "1.3",	"a": "0.2",	"haw": "0",	"other": "2.2",	"his": "3.8" },
   "Wildwood": { "white": "72.4",	"af": "18.5",	"ai": "0.9",	"a": "0.8",	"haw": "0.3",	"other": "10.3",	"his": "17.6" },
   "Wildwood Crest": { "white": "95.9",	"af": "1.5",	"ai": "0.3",	"a": "0.9",	"haw": "0",	"other": "2.6",	"his": "4.2" },
-  Woodbine":{ "white": "55.5",	"af": "33.8",	"ai": "0.7",	"a": "0.1",	"haw": "0",	"other": "12.8",	"his": "21.2" }
+  "Woodbine":{ "white": "55.5",	"af": "33.8",	"ai": "0.7",	"a": "0.1",	"haw": "0",	"other": "12.8",	"his": "21.2" }
   },
 
 "District 2": { 

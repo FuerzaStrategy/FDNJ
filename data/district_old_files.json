@@ -228,7 +228,33 @@
 },
       
 
-"District 11": { "Name": "Allenhurst,Asbury Park,Atlantic Highlands,Avon by the Sea,Belmar,Bradley Beach,Brielle,Deal,Eatontown,Highlands,Interlaken,Lake Como,Loch Arbour,Long Branch,Monmouth Beach,Neptune City,Neptune Township,Ocean Township of Monmouth County,Rumson,Sea Bright,Sea Girt,Spring Lake,Spring Lake Heights,Wall,West Long Branch"},
+"District 11": { 
+  "Allenhurst": { "white": "98.3",	"af": "1.1",	"ai": "0.6",	"a": "0.6",	"haw": "0",	"other": "0.6",	"his": "2.5" },
+  "Asbury Park": { "white": "26.7",	"af": "66.4",	"ai": "1.2",	"a": "1",	"haw": "0.4",	"other": "10.2",	"his": "15.6" },
+  "Atlantic Highlands": { "white": "95.2",	"af": "2.6",	"ai": "0.2",	"a": "1.5",	"haw": "0",	"other": "1.4",	"his": "3.5" },
+  "Avon by the Sea": { "white": "97.5",	"af": "0.8",	"ai": "0.4",	"a": "0.9",	"haw": "0",	"other": "0.8",	"his": "2.4" },
+  "Belmar": { "white": "93.1",	"af": "4.2",	"ai": "0.7",	"a": "1.2",	"haw": "0",	"other": "2.7",	"his": "6.8" },
+  "Bradley Beach": { "white": "90.1",	"af": "4.7",	"ai": "0.8",	"a": "1.9",	"haw": "0",	"other": "4.9",	"his": "12.8" },
+  "Brielle": { "white": "93.9",	"af": "4.1",	"ai": "0.5",	"a": "1",	"haw": "0",	"other": "1.8",	"his": "3.3" },
+  "Deal": { "white": "95.7",	"af": "1.2",	"ai": "0.5",	"a": "0.3",	"haw": "0",	"other": "3.6",	"his": "5" },
+  "Eatontown": { "white": "75.8",	"af": "12.9",	"ai": "1",	"a": "10.3",	"haw": "0.1",	"other": "3.3",	"his": "6.6" },
+  "Highlands": { "white": "96.4",	"af": "1.8",	"ai": "0.6",	"a": "1.4",	"haw": "0",	"other": "1.1",	"his": "4.1" },
+  "Interlaken": { "white": "99.4",	"af": "0.6",	"ai": "0.3",	"a": "1.2",	"haw": "0.1",	"other": "0",	"his": "1.1" },
+  "Lake Como": { "white": "84.7",	"af": "7.4",	"ai": "1",	"a": "1.5",	"haw": "0",	"other": "7.4",	"his": "18.3"},
+  "Loch Arbour": { "white": "96.1",	"af": "3.9",	"ai": "0",	"a": "0.7",	"haw": "0",	"other": "1.1",	"his": "0.7" },
+  "Long Branch": { "white": "71.5",	"af": "20",	"ai": "0.8",	"a": "2.1",	"haw": "0.2",	"other": "9.9",	"his": "20.7" },
+  "Monmouth Beach": { "white": "98.3",	"af": "0.6",	"ai": "0.1",	"a": "1.1",	"haw": "0",	"other": "0.6",	"his": "1.9" },
+  "Neptune City": { "white": "84.7",	"af": "10.5",	"ai": "0.8",	"a": "3.2",	"haw": "0.1",	"other": "2.9",	"his": "5.3" },
+  "Neptune Township": {	"white": "57.3",	"af": "39.9",	"ai": "0.9",	"a": "1.5",	"haw": "0.2",	"other": "2.9",	"his": "5.6" },
+  "Ocean Township": { "white": "85.6",	"af": "6.4",	"ai": "0.4",	"a": "6.8",	"haw": "0.2",	"other": "2.6",	"his": "4.5" },
+  "Rumson": { "white": "98.2",	"af": "0.4",	"ai": "0.2",	"a": "1.3",	"haw": "0",	"other": "0.4",	"his": "1.4" },
+  "Sea Bright": {	"white": "95",	"af": "1.9",	"ai": "0.1",	"a": "2.6",	"haw": "0.1",	"other": "1",	"his": "4.5" },
+  "Sea Girt": {	"white": "99.5",	"af": "0.2",	"ai": "0.1",	"a": "0.5",	"haw": "0",	"other": "0.1",	"his": "1.4" },
+  "Spring Lake": {	"white": "99.2",	"af": "0.4",	"ai": "0.2",	"a": "0.4",	"haw": "0",	"other": "0.3",	"his": "0.7" },
+  "Spring Lake Heights": {	"white": "97.8",	"af": "1.3",	"ai": "0.1",	"a": "0.4",	"haw": "0.1",	"other": "1",	"his": "2.1" },
+  "Wall": { "white": "97.6",	"af": "0.8",	"ai": "0.3",	"a": "1.4",	"haw": "0",	"other": "0.4",	"his": "1.5" },
+  "West Long Branch": { "white": "95.8",	"af": "2.4",	"ai": "0.3",	"a": "1.7",	"haw": "0.3",	"other": "1.4",	"his": "2.9" }
+},
       
 
 "District 12": { "Name": "Colts Neck,East Windsor,Englishtown,Fair Haven,Freehold,Freehold Township,Hightstown,Little Silver,Manalapan Township,Millstone Township,Oceanport,Red Bank,Shrewsbury,Shrewsbury Township,Tinton Falls"},

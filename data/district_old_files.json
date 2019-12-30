@@ -349,7 +349,7 @@
   "Metuchen": { "white": "85.8",	"af": "6",	"ai": "0.3",	"a": "7.9",	"haw": "0.1",	"other": "1.8",	"his": "4" },
   "South Plainfield": { "white": "79.5",	"af": "9.3",	"ai": "0.7",	"a": "8.3",	"haw": "0.1",	"other": "4.8",	"his": "8.7" },
   "South River": { "white": "86",	"af": "6.7",	"ai": "0.4",	"a": "4.1",	"haw": "0.1",	"other": "5.7",	"his": "9.7" },
-  "Spotswood": { "white": "94.6",	"af": "1.7",	"ai": "0.2",	"a": "3.1",	"haw": "0",	"other": "1.3",	"his": "4.4" },
+  "Spotswood": { "white": "94.6",	"af": "1.7",	"ai": "0.2",	"a": "3.1",	"haw": "0",	"other": "1.3",	"his": "4.4" }
   },
       
 
@@ -687,8 +687,36 @@
   "New Milford": { "white": "80.2",	"af": "3",	"ai": "0.3",	"a": "15.7",	"haw": "0.2",	"other": "2.9",	"his": "8.1" },
   "Northvale": { "white": "83.9",	"af": "0.9",	"ai": "0.2",	"a": "14.4",	"haw": "0",	"other": "1.6",	"his": "4.7" },
   "Norwood": {	"white": "78.8",	"af": "1.3",	"ai": "0.3",	"a": "19.5",	"haw": "0.1",	"other": "1.5",	"his": "3" },
-  "Old Tappan": {
-    ,Oradell,Park Ridge,Ramsey,River Edge,River Vale,Rockleigh,Saddle River,Upper Saddle River,Waldwick,Township of Washington,Westwood,Woodcliff Lake"},
+  "Old Tappan": { "white": "83.1",	"af": "0.7",	"ai": "0.3",	"a": "16",	"haw": "0",	"other": "0.5",	"his": "2.8" },
+  "Oradell": { "white": "91",	"af": "0.6",	"ai": "0.1",	"a": "8.6",	"haw": "0",	"other": "0.7",	"his": "3.1" },
+  "Park Ridge": { "white": "94.3",	"af": "1.1",	"ai": "0.2",	"a": "4.2",	"haw": "0",	"other": "1",	"his": "5.3" },
+  "Ramsey": { "white": "92.5",	"af": "1.1",	"ai": "0.4",	"a": "6.3",	"haw": "0",	"other": "0.9",	"his": "2.9" },
+  "River Edge": {	"white": "85.2",	"af": "1.3",	"ai": "0.2",	"a": "13.2",	"haw": "0",	"other": "1.4",	"his": "5.3" },
+  "River Vale": {"white": "93",	"af": "0.7",	"ai": "0.2",	"a": "6.2",	"haw": "0.1",	"other": "0.6",	"his": "3.2" },
+  "Rockleigh": { "white": "91.6",	"af": "4.9",	"ai": "1.8",	"a": "5.4",	"haw": "1.5",	"other": "2.8",	"his": "4.9" },
+  "Saddle River": { "white": "91.1",	"af": "0.9",	"ai": "0.2",	"a": "7.9",	"haw": "0",	"other": "1.5",	"his": "2.6" },
+  "Upper Saddle River": { "white": "92",	"af": "1.2",	"ai": "0.2",	"a": "6.9",	"haw": "0",	"other": "0.8",	"his": "2.2" },
+  "Waldwick": { "white": "93.4",	"af": "0.7",	"ai": "0.1",	"a": "4.9",	"haw": "0",	"other": "1.7",	"his": "5.3" },
+  "Township of Washington": { "white": "92.8",	"af": "1.3",	"ai": "0.3",	"a": "5.9",	"haw": "0",	"other": "0.7",	"his": "3.3" },
+  "Westwood": { "white": "87.7",	"af": "6.1",	"ai": "0.5",	"a": "4.8",	"haw": "0",	"other": "2.5",	"his": "6" },
+  "Woodcliff Lake": { "white": "94.4",	"af": "0.9",	"ai": "0.2",	"a": "4.6",	"haw": "0",	"other": "0.4",	"his": "2.3" }
+  },
       
-"District 40": { "Name": "Cedar Grove,Franklin Lakes,Little Falls,Mahwah,Midland Park,Oakland,Pequannock,Ridgewood,Ringwood,Totowa,Verona,Wanaque,Wayne,Woodland Park,Wyckoff"}
+"District 40": { 
+  "Cedar Grove": { "white": "91",	"af": "3.1",	"ai": "0.1",	"a": "5.8",	"haw": "0",	"other": "0.9",	"his": "3.2" },
+  "Franklin Lakes": { "white": "92",	"af": "1.1",	"ai": "0.2",	"a": "6.7",	"haw": "0",	"other": "0.9",	"his": "2.7" },
+  "Little Falls": { "white": "93.7",	"af": "0.7",	"ai": "0.2",	"a": "4.7",	"haw": "0",	"other": "2.3",	"his": "5.3" },
+  "Mahwah": { "white": "89",	"af": "2.4",	"ai": "1",	"a": "6.8",	"haw": "0.1",	"other": "2.1",	"his": "4.3" },
+  "Midland Park": { "white": "96.5",	"af": "0.6",	"ai": "0.2",	"a": "2.5",	"haw": "0",	"other": "1.1",	"his": "3.7" },
+  "Oakland": { "white": "95.6",	"af": "1",	"ai": "0.2",	"a": "3.2",	"haw": "0",	"other": "1.1",	"his": "3.9" },
+  "Pequannock": { "white": "97.1",	"af": "0.4",	"ai": "0.2",	"a": "2.1",	"haw": "0",	"other": "0.7",	"his": "2.9" },
+  "Ridgewood": { "white": "88.8",	"af": "2",	"ai": "0.1",	"a": "9.2",	"haw": "0",	"other": "1",	"his": "3.8" },
+  "Ringwood": { "white": "94.8",	"af": "2.2",	"ai": "1.9",	"a": "1.5",	"haw": "0",	"other": "1.1",	"his": "4.3" },
+  "Totowa": { "white": "94.4",	"af": "1.3",	"ai": "0.1",	"a": "2.6",	"haw": "0",	"other": "2.7",	"his": "6.4" },
+  "Verona": { "white": "93.9",	"af": "1.7",	"ai": "0.2",	"a": "4.1",	"haw": "0.1",	"other": "1.3",	"his": "3.5" },
+  "Wanaque": { "white": "92",	"af": "2.1",	"ai": "0.8",	"a": "4.1",	"haw": "0",	"other": "2.8",	"his": "5.4" },
+  "Wayne": { "white": "91.2",	"af": "1.9",	"ai": "0.3",	"a": "6.1",	"haw": "0",	"other": "1.9",	"his": "5.1" },
+  "Woodland Park": { "white": "84.8",	"af": "5.1",	"ai": "0.5",	"a": "5.4",	"haw": "0.2",	"other": "7",	"his": "20.7"},
+  "Wyckoff": { "white": "95.2",	"af": "0.6",	"ai": "0.2",	"a": "4",	"haw": "0",	"other": "0.7",	"his": "2.3" }
+  }
 }

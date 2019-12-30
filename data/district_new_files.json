@@ -1,0 +1,414 @@
+{
+"District 1": { 
+  "Downe": {"white": "95",	"af": "2.8",	"ai": "2",	"a": "0.3",	"haw": "0",	"other": "2.3",	"his": "3.8"},
+  "Cape May": {"white": "91.6",	"af": "5.7",	"ai": "1.2",	"a": "1.3",	"haw": "0.3",	"other": "3",	"his": "8.6"},
+  "Estell Manor": {"white": "97.2",	"af": "1.4",	"ai": "0.4",	"a": "1.6",	"haw": "0",	"other": "0.2",	"his": "1"},
+  "Weymouth": {"white": "93.3",	"af": "5.6",	"ai": "0.9",	"a": "1.1",	"haw": "0.1",	"other": "0.8",	"his": "4.6"},
+  "Corbin City": {"white": "97.8",	"af": "0.4",	"ai": "0.2",	"a": "1.2",	"haw": "0",	"other": "0.6",	"his": "3.5"},
+  "Avalon": {"white": "99",	"af": "0.6",	"ai": "0.6",	"a": "0.4",	"haw": "0",	"other": "0.4",	"his": "2.2"},
+  "Cape May Point": { "white": "96.6",	"af": "3.4",	"ai": "0.7",	"a": "0.3",	"haw": "0.3",	"other": "1.4",	"his": "0.3"},
+  "Stone Harbor": { "white": "97.6",	"af": "1.8",	"ai": "0.1",	"a": "0.2",	"haw": "0",	"other": "0.7",	"his": "3.3"},
+  "Lower Township": { "white": "95.9",	"af": "2.9",	"ai": "0.5",	"a": "0.9",	"haw": "0.2",	"other": "1.5",	"his": "4.2"},
+  "Ocean City": { "white": "93.5",	"af": "4.5",	"ai": "0.5",	"a": "1",	"haw": "0.1",	"other": "2.3",	"his": "5.5"},
+  "Wildwood Crest": { "white": "95.2",	"af": "3",	"ai": "0.5",	"a": "1.3",	"haw": "0",	"other": "2.3",	"his": "5.6"},
+  "West Cape May": { "white": "87.2",	"af": "9.2",	"ai": "1.1",	"a": "0.7",	"haw": "0",	"other": "3.2",	"his": "5"},
+  "Woodbine": { "white": "60.8",	"af": "27.1",	"ai": "1",	"a": "1.1",	"haw": "0",	"other": "13.8",	"his": "23.2"},
+  "Dennis": {"white": "98.1",	"af": "1.4",	"ai": "0.5",	"a": "0.7",	"haw": "0",	"other": "0.6",	"his": "1.8"},
+  "Middle Township": {"white": "85.2",	"af": "12",	"ai": "0.9",	"a": "2.2",	"haw": "0.1",	"other": "2.3",	"his": "5.1"},
+  "Wildwood": {"white": "70.6",	"af": "12.4",	"ai": "1.1",	"a": "1.1",	"haw": "0.2",	"other": "18",	"his": "31.2"},
+  "West Wildwood": {"white": "97",	"af": "3",	"ai": "0.8",	"a": "0",	"haw": "0",	"other": "1.7",	"his": "2.7"},
+  "Upper Township": {"white": "97.8",	"af": "1.1",	"ai": "0.5",	"a": "1",	"haw": "0.1",	"other": "0.8",	"his": "2.4"},
+  "Sea Isle City": { "white": "99",	"af": "0.2",	"ai": "0.5",	"a": "0.2",	"haw": "0",	"other": "0.5",	"his": "2.4"},
+  "North Wildwood": { "white": "96.8",	"af": "1.9",	"ai": "0.7",	"a": "0.8",	"haw": "0.1",	"other": "1.7",	"his": "4"},
+  "Hopewell": {"white": "86.8",	"af": "7.9",	"ai": "3.4",	"a": "1.2",	"haw": "0",	"other": "3.9",	"his": "7.3"},
+  "Commercial Township": {"white": "86.9",	"af": "12.1",	"ai": "1.6",	"a": "0.9",	"haw": "0",	"other": "2.2",	"his": "6.1"},
+  "Millville"; {"white": "71.8",	"af": "22.2",	"ai": "2",	"a": "1.6",	"haw": "0.2",	"other": "6.3",	"his": "14.9"},
+  "Fairfield Township": {"white": "40.7",	"af": "50.6",	"ai": "7.5",	"a": "0.7",	"haw": "0.1",	"other": "5.7",	"his": "12.8"},
+  "Lawrence Township": { "white": "83.3",	"af": "10.7",	"ai": "2.9",	"a": "0.5",	"haw": "0.2",	"other": "5.8",	"his": "11.4"},
+  "Greenwich Township": {"white": "93.7",	"af": "5.2",	"ai": "3",	"a": "1.7",	"haw": "0",	"other": "0.6",	"his": "2.6"},
+  "Maurice River": {"white": "59.2",	"af": "36.9",	"ai": "1",	"a": "0.7",	"haw": "0.1",	"other": "4",	"his": "11.5"},
+  "Shiloh": {"white": "95.2",	"af": "2.1",	"ai": "2.9",	"a": "0.8",	"haw": "0",	"other": "0.6",	"his": "4.1"},
+  "Stow Creek": {"white": "92.7",	"af": "5.2",	"ai": "2.1",	"a": "0.6",	"haw": "0.1",	"other": "1",	"his": "4.4"},
+  "Vineland": {"white": "69.6",	"af": "15.9",	"ai": "1.4",	"a": "2.1",	"haw": "0.2",	"other": "14.5",	"his": "38"}
+                },
+"District 2": { 
+  "Absecon": {"white": "78",	"af": "10.9",	"ai": "0.8",	"a": "8.9",	"haw": "0.1",	"other": "3.9",	"his": "7.5"},
+  "Atlantic City": {"white": "29.8",	"af": "40.2",	"ai": "1.5",	"a": "16.6",	"haw": "0.2",	"other": "16.8",	"his": "30.4"},
+  "Brigantine": {"white": "89",	"af": "3.8",	"ai": "0.8",	"a": "5.5",	"haw": "0.1",	"other": "3.2",	"his": "6.9"},
+  "Buena": {"white": "75.8",	"af": "11",	"ai": "1.3",	"a": "2",	"haw": "0.3",	"other": "12.7",	"his": "29.4"},
+  "Buena Vista Township": {	"white": "80.3",	"af": "14.9",	"ai": "1.1",	"a": "1.5",	"haw": "0.2",	"other": "5",	"his": "11.5"},
+  "Egg Harbor City": {"white": "66.3",	"af": "20.6",	"ai": "1.2",	"a": "2.8",	"haw": "0.3",	"other": "13.4",	"his": "26.3"},
+  "Egg Harbor Township": {	"white": "72.4",	"af": "10.9",	"ai": "1",	"a": "12.9",	"haw": "0.1",	"other": "6.2",	"his": "13"},
+  "Folsom": {"white": "92.4",	"af": "5",	"ai": "0.4",	"a": "1.4",	"haw": "0.6",	"other": "2.2",	"his": "6.7"},
+  "Hamilton Township": {"white": "70.9",	"af": "20.5",	"ai": "1.3",	"a": "6.2",	"haw": "0.1",	"other": "5.1",	"his": "12.8"},
+  "Linwood": {"white": "94.5",	"af": "1.2",	"ai": "0.4",	"a": "4.6",	"haw": "0",	"other": "0.8",	"his": "3"},
+  "Longport": {"white": "99",	"af": "0.4",	"ai": "0.1",	"a": "0.4",	"haw": "0",	"other": "0.1",	"his": "1.1"},
+  "Margate City": {"white": "97.5",	"af": "1",	"ai": "0.3",	"a": "1.4",	"haw": "0.1",	"other": "1",	"his": "2.8"},
+  "Mullica": {"white": "85.9",	"af": "7.1",	"ai": "0.8",	"a": "1.1",	"haw": "0",	"other": "8.1",	"his": "17"},
+  "Northfield": {	"white": "88.8",	"af": "3.9",	"ai": "0.5",	"a": "5.3",	"haw": "0.1",	"other": "3.6",	"his": "8"},
+  "Pleasantville": {"white": "27.2",	"af": "48.7",	"ai": "1.6",	"a": "3.1",	"haw": "0.2",	"other": "24",	"his": "41.1"},
+  "Somers Point": {"white": "81.3",	"af": "12.5",	"ai": "0.9",	"a": "3.5",	"haw": "0.1",	"other": "4.9",	"his": "9.5"},
+  "Ventnor City": {"white": "77.8",	"af": "5.4",	"ai": "1",	"a": "9.4",	"haw": "0.2",	"other": "9.2",	"his": "18"}
+                 },
+"District 3": { 
+  "Alloway Township": { "white": "92.7",	"af": "5.8",	"ai": "1",	"a": "1.4",	"haw": "0",	"other": "0.8",	"his": "2"},
+  "Bridgeton": {"white": "35.6",	"af": "37.6",	"ai": "2.5",	"a": "0.8",	"haw": "0.2",	"other": "27.9",	"his": "43.6"},
+  "Carneys Point": {"white": "76",	"af": "18.5",	"ai": "0.7",	"a": "1",	"haw": "0",	"other": "6.3",	"his": "11.2"},
+  "Clayton": {"white": "77.7",	"af": "20.3",	"ai": "1",	"a": "2.7",	"haw": "0",	"other": "1.9",	"his": "6"},
+  "Deerfield": {"white": "76.4",	"af": "14.3",	"ai": "3.4",	"a": "1.8",	"haw": "0",	"other": "8.4",	"his": "14.1"},
+  "East Greenwich Township": {"white": "89.5",	"af": "6.4",	"ai": "0.4",	"a": "4.2",	"haw": "0.1",	"other": "0.8",	"his": "3"},
+  "Elk": {"white": "82",	"af": "16.4",	"ai": "1.3",	"a": "0.9",	"haw": "0",	"other": "2.3",	"his": "5.1"},
+  "Elmer": {	"white": "95.1",	"af": "2.7",	"ai": "0.9",	"a": "1.1",	"haw": "0.1",	"other": "1.4",	"his": "3.2"},
+  "Elsinboro": {"white": "94.9",	"af": "4.2",	"ai": "0.5",	"a": "0.7",	"haw": "0.1",	"other": "1.4",	"his": "2.2"},
+  "Franklin": {"white": "90",	"af": "8.1",	"ai": "0.9",	"a": "1.6",	"haw": "0.1",	"other": "1.3",	"his": "4.5"},
+  "Glassboro": {"white": "74.6",	"af": "20.5",	"ai": "0.7",	"a": "3.5",	"haw": "0.1",	"other": "3.7",	"his": "7.4"},
+  "Greenwich Township": {"white": "94.6",	"af": "4.8",	"ai": "0.7",	"a": "1",	"haw": "0",	"other": "0.5",	"his": "2.3"},
+  "Logan Township": {"white": "83.5",	"af": "13.9",	"ai": "0.6",	"a": "3",	"haw": "0.1",	"other": "1.4",	"his": "4"},
+  "Lower Alloways Creek": {"white": "97.8",	"af": "1.8",	"ai": "0.9",	"a": "0.3",	"haw": "0.1",	"other": "0.3",	"his": "1.5"},
+  "Mannington": {"white": "73.7",	"af": "22",	"ai": "0.8",	"a": "0.7",	"haw": "0",	"other": "4.2",	"his": "8.2"},
+  "National Park": {"white": "97.8",	"af": "1.6",	"ai": "0.8",	"a": "0.8",	"haw": "0",	"other": "0.6",	"his": "2"},
+  "Newfield": {"white": "96.2",	"af": "3.1",	"ai": "0.6",	"a": "0.5",	"haw": "0",	"other": "1.4",	"his": "6.6"},
+  "Oldmans": {"white": "88.6",	"af": "8.3",	"ai": "0.6",	"a": "1.3",	"haw": "0",	"other": "2.7",	"his": "7"},
+  "Paulsboro": {"white": "58.7",	"af": "41",	"ai": "1.4",	"a": "1.1",	"haw": "0.3",	"other": "3.2",	"his": "8.9"},
+  "Penns Grove": {"white": "45.7",	"af": "43.5",	"ai": "1.5",	"a": "0.8",	"haw": "0",	"other": "13.7",	"his": "28.3"},
+  "Pennsville": {	"white": "95.8",	"af": "2",	"ai": "0.5",	"a": "1.7",	"haw": "0.1",	"other": "1.1",	"his": "3.1"},
+  "Pilesgrove": {"white": "92.1",	"af": "6.6",	"ai": "0.6",	"a": "1.1",	"haw": "0.2",	"other": "0.8",	"his": "2.6"},
+  "Pittsgrove": {"white": "90",	"af": "7.8",	"ai": "1.2",	"a": "1.3",	"haw": "0.1",	"other": "1.8",	"his": "4.8"},
+  "Quinton": {"white": "84.3",	"af": "14.8",	"ai": "2.1",	"a": "0.8",	"haw": "0.1",	"other": "1.4",	"his": "4"},
+  "Salem": {"white": "33.8",	"af": "65.7",	"ai": "1.3",	"a": "0.5",	"haw": "0",	"other": "2.7",	"his": "6.7"},
+  "South Harrison": {"white": "92.6",	"af": "5.6",	"ai": "0.2",	"a": "1.6",	"haw": "0",	"other": "1.2",	"his": "3.1"},
+  "Swedesboro": {"white": "72.9",	"af": "17.9",	"ai": "1.4",	"a": "1.7",	"haw": "0.1",	"other": "9.9",	"his": "17.1"},
+  "Upper Deerfield Township": {"white": "76.7",	"af": "14.9",	"ai": "2.3",	"a": "3.2",	"haw": "0.1",	"other": "6.1",	"his": "9.4"},
+  "Upper Pittsgrove": {"white": "96.1",	"af": "2.8",	"ai": "1.1",	"a": "0.4",	"haw": "0",	"other": "0.9",	"his": "3"},
+  "West Deptford": {"white": "90.3",	"af": "7.4",	"ai": "0.5",	"a": "2.3",	"haw": "0.1",	"other": "1.1",	"his": "3.4"},
+  "Woodbury Heights": {"white": "94.2",	"af": "3.8",	"ai": "0.4",	"a": "2.1",	"haw": "0.1",	"other": "0.9",	"his": "2.4"},
+  "Woodstown": {"white": "85.1",	"af": "13.8",	"ai": "1.4",	"a": "1.5",	"haw": "0.2",	"other": "1.7",	"his": "5.6"},
+  "Woolwich": {"white": "82.8",	"af": "11",	"ai": "0.7",	"a": "6.7",	"haw": "0",	"other": "1",	"his": "3.6"}
+                 },
+      
+
+"District 4": { 
+  "Chesilhurst": {"white": "44.6",	"af": "48.3",	"ai": "0.9",	"a": "1",	"haw": "0",	"other": "8.2",	"his": "11.6"},
+  "Clementon": {"white": "73.8",	"af": "20.7",	"ai": "1.7",	"a": "2.6",	"haw": "0",	"other": "4.4",	"his": "10.3"},
+  "Gloucester Township": {"white": "77.6",	"af": "17.7",	"ai": "0.7",	"a": "4.2",	"haw": "0.1",	"other": "2.3",	"his": "5.6"},
+  "Laurel Springs": {"white": "93.9",	"af": "4.1",	"ai": "0.6",	"a": "1.3",	"haw": "0.1",	"other": "1.4",	"his": "3.9"},
+  "Lindenwold": {"white": "50.7",	"af": "37",	"ai": "1.4",	"a": "3.3",	"haw": "0.2",	"other": "11.5",	"his": "20.9"},
+  "Monroe Township": {"white": "81.3",	"af": "15.5",	"ai": "0.8",	"a": "2.9",	"haw": "0.1",	"other": "2",	"his": "5"},
+  "Pitman": {"white": "97.4",	"af": "1.6",	"ai": "0.4",	"a": "1.1",	"haw": "0.1",	"other": "0.9",	"his": "2.5"},
+  "Washington Township": {"white": "89.2",	"af": "6.6",	"ai": "0.5",	"a": "4.4",	"haw": "0.1",	"other": "1.1",	"his": "3.7"},
+  "Winslow Township": {"white": "56.5",	"af": "38.3","ai": "1.1",	"a": "3.7",	"haw": "0.1",	"other": "3.7",	"his": "8.1"}
+                 },
+      
+
+"District 5": { 
+  "Audubon": {"white": "96.3",	"af": "1.9",	"ai": "0.5",	"a": "1.6",	"haw": "0.1",	"other": "1",	"his": "3.3"},
+  "Audubon Park": {	"white": "99",	"af": "0.9",	"ai": "0.5",	"a": "0.6",	"haw": "0.1",	"other": "0.4",	"his": "2.1"},
+  "Barrington": {"white": "91.4",	"af": "6.1",	"ai": "0.7",	"a": "1.9",	"haw": "0.1",	"other": "2",	"his": "5.4"},
+  "Bellmawr": {"white": "87.8",	"af": "2.9",	"ai": "0.5",	"a": "6.5",	"haw": "0.1",	"other": "3.9",	"his": "7.7"},
+  "Brooklawn": {"white": "90.1",	"af": "6.6",	"ai": "0.8",	"a": "2.5",	"haw": "0.1",	"other": "2.8",	"his": "6.3"},
+  "Camden": {"white": "19.8",	"af": "50.4",	"ai": "1.5",	"a": "2.5",	"haw": "0.2",	"other": "29.8",	"his": "47"},
+  "Deptford Township": {"white": "80.7",	"af": "13.4",	"ai": "0.7",	"a": "4.9",	"haw": "0.1",	"other": "2.6",	"his": "6"},
+  "Gloucester City": {"white": "92.2",	"af": "3.9",	"ai": "0.5",	"a": "2.9",	"haw": "0",	"other": "2.3",	"his": "6.7"},
+  "Haddon Heights": {"white": "96.6",	"af": "1.6",	"ai": "0.5",	"a": "1.7",	"haw": "0.1",	"other": "0.9",	"his": "2.6"},
+  "Harrison Township": {"white": "92",	"af": "4.5",	"ai": "0.4",	"a": "4",	"haw": "0",	"other": "0.8",	"his": "3"},
+  "Lawnside": {"white": "5.9",	"af": "91.9",	"ai": "2.1",	"a": "1.7",	"haw": "0",	"other": "2.4",	"his": "4.4"},
+  "Magnolia": {"white": "76.6",	"af": "20.1",	"ai": "1",	"a": "2.3",	"haw": "0.1",	"other": "2.7",	"his": "7.8"},
+  "Mantua": {"white": "95.4",	"af": "3",	"ai": "0.5",	"a": "1.5",	"haw": "0.1",	"other": "0.9",	"his": "3"},
+  "Mount Ephraim": {"white": "94.8",	"af": "2.4",	"ai": "0.4",	"a": "1",	"haw": "0",	"other": "2.7",	"his": "5.3"},
+  "Runnemede": {"white": "89.9",	"af": "5.4",	"ai": "0.7",	"a": "3.1",	"haw": "0",	"other": "2.6",	"his": "6.1"},
+  "Wenonah": {"white": "97.5",	"af": "1.3",	"ai": "0.4",	"a": "1.6",	"haw": "0.2",	"other": "0.4",	"his": "1.4"},
+  "Westville": {"white": "90.9",	"af": "5.7",	"ai": "0.6",	"a": "1.7",	"haw": "0.1",	"other": "2.6",	"his": "6"},
+  "Woodbury": {"white": "69.4",	"af": "28",	"ai": "1.2",	"a": "1.7",	"haw": "0.4",	"other": "4.1",	"his": "10.7"},
+  "Woodlynne": {"white": "31.5",	"af": "36.6",	"ai": "1.7",	"a": "10.3",	"haw": "0.2",	"other": "24.9",	"his": "38.3"}
+                 },
+      
+
+"District 6": { 
+  "Berlin Township": {"white": "78.8",	"af": "12.7",	"ai": "0.8",	"a": "5.6",	"haw": "0.1",	"other": "4.4",	"his": "8.3"},
+  "Cherry Hill": {"white": "79.8",	"af": "7",	"ai": "0.5",	"a": "12.7",	"haw": "0.1",	"other": "2.3",	"his": "5.6"},
+  "Collingswood": {"white": "84",	"af": "10.4",	"ai": "0.9",	"a": "2.9",	"haw": "0.1",	"other": "4.6",	"his": "9.7"},
+  "Gibbsboro": {"white": "94.4",	"af": "2.7",	"ai": "0.4",	"a": "3.2",	"haw": "0.3",	"other": "1.3",	"his": "4.1"},
+  "Haddon Township": {"white": "94.4",	"af": "1.9",	"ai": "0.4",	"a": "3.2",	"haw": "0.1",	"other": "1.4",	"his": "4"},
+  "Haddonfield": {"white": "96.5",	"af": "1.6",	"ai": "0.2",	"a": "2.6",	"haw": "0",	"other": "0.5",	"his": "2.1"},
+  "Hi-Nella": {"white": "73.9",	"af": "16.8",	"ai": "1.5",	"a": "4.8",	"haw": "0",	"other": "6.3",	"his": "10.6"},
+  "Maple Shade": {"white": "80.9",	"af": "10.8",	"ai": "1.3",	"a": "6.3",	"haw": "0.1",	"other": "3.8",	"his": "8.3"},
+  "Merchantville": {"white": "79.3",	"af": "14.9",	"ai": "0.9",	"a": "2.8",	"haw": "0.3",	"other": "5.2",	"his": "11.6"},
+  "Oaklyn": {"white": "93.9",	"af": "3.3",	"ai": "0.5",	"a": "2.2",	"haw": "0.1",	"other": "1.7",	"his": "5.4"},
+  "Pennsauken Township": {"white": "50.1",	"af": "29",	"ai": "1.3",	"a": "8.4",	"haw": "0.2",	"other": "15.1",	"his": "26.9"},
+  "Somerdale": {"white": "71.2",	"af": "21.4",	"ai": "0.9",	"a": "6.7",	"haw": "0.3",	"other": "3.9",	"his": "8.2"},
+  "Stratford": {"white": "84.1",	"af": "9.4",	"ai": "0.8",	"a": "4.9",	"haw": "0.1",	"other": "3",	"his": "6.5"},
+  "Tavistock": {"white": "100",	"af": "0",	"ai": "0",	"a": "0",	"haw": "0",	"other": "0",	"his": "0"},
+  "Voorhees Township": {"white": "73.4",	"af": "9.7",	"ai": "0.6",	"a": "17.3",	"haw": "0.1",	"other": "1.4",	"his": "3.4"}
+                },
+      
+
+"District 7": { 
+  "Beverly": {
+  ,Bordentown,Bordentown Township,Burlington,Burlington Township,Cinnaminson,Delanco,Delran,Edgewater Park,Fieldsboro,Florence Township,Moorestown,Mount Laurel,Palmyra,Riverside,Riverton,Willingboro",
+                 "Deviation": "1,338",
+                 "white": "67.8",
+                "african": "22.1",
+                "asian": "4.7",
+                "hispanic": "5.9"},
+      
+
+"District 8": { "Name": "Berlin,Eastampton Township,Evesham Township,Hainesport,Hammonton,Lumberton,Mansfield Township of Burlington County,Medford,Medford Lakes,Mount Holly,Pemberton,Pemberton Township,Pine Hill,Pine Valley,Shamong,Southampton Township,Springfield,Waterford,Westampton,Woodland",
+                 "Deviation": "-699",
+                "white": "81.5",
+                "african": "9.9",
+                "asian": "3.5",
+                "hispanic": "6.7"},
+
+      
+
+"District 9": { "Name": "Barnegat Township,Barnegat Light,Bass River,Beach Haven,Beachwood,Berkeley Township,Eagleswood,Galloway,Harvey Cedars,Lacey,Little Egg Harbor,Long Beach,Ocean Gate,Ocean Township of Ocean County,Pine Beach,Port Republic,Seaside Park,Ship Bottom,South Toms River,Stafford,Surf City,Tabernacle,Tuckerton,Washington Township of Burlington County",
+                 "Deviation": "5,402",
+                 "white": "90.4",
+                "african": "3.4",
+                "asian": "2.6",
+                "hispanic": "6.3"},
+      
+
+"District 10": {"Name": "Bay Head,Brick,Island Heights,Lakehurst,Lavallette,Manchester,Mantoloking,Point Pleasant Beach,Seaside Heights,Toms River",
+                 "Deviation": "4,602",
+                "white": "91.3",
+                "african": "2.7",
+                "asian": "2.4",
+                "hispanic": "7.1"},
+      
+
+"District 11": { "Name": "Allenhurst,Asbury Park,Colts Neck,Deal,Eatontown,Freehold,Freehold Township,Interlaken,Loch Arbour,Long Branch,Neptune City,Neptune Township,Ocean Township of Monmouth County,Red Bank,Shrewsbury,Shrewsbury Township,Tinton Falls,West Long Branch",
+                 "Deviation": "3,625",
+                "white": "71.7",
+                "african": "15.6",
+                "asian": "4.1",
+                "hispanic": "15.3"},
+      
+
+"District 12": { "Name": "Allentown,Chesterfield Township,Englishtown,Jackson,Manalapan Township,Matawan,Millstone Township,New Hanover,North Hanover,Old Bridge,Plumsted,Roosevelt,Upper Freehold,Wrightstown",
+                  "Deviation": "2,126",
+                "white": "81.7",
+                "african": "6.6",
+                "asian": "7.3",
+                "hispanic": "8.9"},
+      
+
+"District 13": { "Name": "Aberdeen Township,Atlantic Highlands,Fair Haven,Hazlet,Highlands,Holmdel,Keansburg,Keyport,Little Silver,Marlboro,Middletown,Monmouth Beach,Oceanport,Rumson,Sea Bright,Union Beach",
+                  "Deviation": "4,929",
+                 "white": "87.6",
+                "african": "2.7",
+                "asian": "6.6",
+                "hispanic": "6.3"},
+      
+
+"District 14": { "Name": "Cranbury Township,East Windsor,Hamilton Township of Mercer County,Hightstown,Jamesburg,Monroe Township of Middlesex County,Plainsboro,Robbinsville,Spotswood",
+                  "Deviation": "-4,847",
+                 "white": "73.2",
+                "african": "8.3",
+                "asian": "12.3",
+                "hispanic": "10.4"},
+      
+
+"District 15": { "Name": "East Amwell,Ewing,Hopewell of Mercer County,Hopewell Township,Lambertville,Lawrence Township of Mercer County,Pennington,Trenton,West Amwell,West Windsor",
+                  "Deviation": "-4,887",
+                  "white": "52.7",
+                "african": "27.8",
+                "asian": "9.0",
+                "hispanic": "16.9"},
+      
+
+"District 16": { "Name": "Branchburg,Delaware,Flemington,Hillsborough,Manville,Millstone,Montgomery,Princeton,Raritan Township,Readington,Rocky Hill,Somerville,South Brunswick,Stockton",
+                  "Deviation": "-1,257",
+                 "white": "74.5",
+                "african": "4.7",
+                "asian": "16.0",
+                "hispanic": "8.0"},
+      
+
+"District 17": { "Name": "Franklin Township of Somerset County,Milltown,New Brunswick,North Brunswick,Piscataway",
+               "Deviation": "1,363",
+                "white": "45.2",
+                "african": "20.0",
+                "asian": "20.6",
+                "hispanic": "22.4"},
+      
+
+"District 18": { "Name": "East Brunswick,Edison,Helmetta,Highland Park,Metuchen,South Plainfield,South River",
+                  "Deviation": "-3,191",
+                 "white": "58.6",
+                "african": "6.6",
+                "asian": "28.9",
+                "hispanic": "9.1"},
+      
+
+"District 19": { "Name": "Carteret,Perth Amboy,Sayreville,South Amboy,Woodbridge Township",
+                  "Deviation": "4,781",
+                 "white": "58.8",
+                "african": "10.5",
+                "asian": "15.5",
+                "hispanic": "30.6"},
+      
+
+"District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Township of Union County",
+                  "Deviation": "4,303",
+                 "white": "50.2",
+                "african": "29.3",
+                "asian": "4.3",
+                "hispanic": "41.2"},
+      
+
+"District 21": { "Name": "Berkeley Heights,Bernards,Chatham,Cranford,Far Hills,Garwood,Kenilworth,Long Hill,Mountainside,New Providence,Roselle Park,Springfield Township,Summit,Warren,Watchung,Westfield",
+                 "Deviation": "-5,759",
+                 "white": "85.4",
+                "african": "2.9",
+                "asian": "8.1",
+                "hispanic": "8.4"},
+      
+
+"District 22": { "Name": "Clark,Dunellen,Fanwood,Green Brook Township,Linden,Middlesex,North Plainfield,Plainfield,Rahway,Scotch Plains,Winfield",
+                  "Deviation": "-5,088",
+                 "white": "57.4",
+                "african": "24.8",
+                "asian": "4.4",
+                "hispanic": "25.3"},
+      
+
+"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin of Hunterdon County,Franklin Township of Warren County,Frenchtown,Glen Gardner,Greenwich Township of Warren County,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township of Warren County,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township of Hunterdon County,Washington Township of Warren County,Washington of Warren County",
+                  "Deviation": "-3,355",
+                 "white": "85.1",
+                "african": "3.6",
+                "asian": "6.5",
+                "hispanic": "9.4"},
+      
+
+"District 24": { "Name": "Allamuchy Township,Andover,Andover Township,Belvidere,Blairstown,Branchville,Byram,Frankford,Franklin of Sussex County,Fredon,Frelinghuysen,Green,Hamburg,Hampton Township,Hardwick,Hardyston,Hopatcong,Hope,Independence,Knowlton,Lafayette,Liberty,Montague,Mount Olive,Newton,Ogdensburg,Oxford,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Vernon,Walpack,Wantage,White",
+                  "Deviation": "-4,511",
+                 "white": "92.1",
+                "african": "2.2",
+                "asian": "2.6",
+                "hispanic": "6.7"},
+
+"District 25": { "Name": "Bernardsville,Boonton,Boonton Township,Chester,Chester Township,Denville,Dover,Mendham,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Netcong,Randolph,Rockaway,Roxbury,Victory Gardens,Washington Township of Morris County,Wharton",
+                  "Deviation": "-5,470",
+                 "white": "83.2",
+                "african": "4.0",
+                "asian": "5.4",
+                "hispanic": "17.0"},
+      
+
+"District 26": { "Name": "Butler,Fairfield,Jefferson,Kinnelon,Lincoln Park,Montville,Morris Plains,North Caldwell,Parsippany-Troy Hills,Rockaway Township,Verona,West Caldwell,West Milford",
+                  "Deviation": "-2,131",
+                 "white": "82.6",
+                "african": "2.1",
+                "asian": "11.7",
+                "hispanic": "7.1"},
+      
+
+"District 27": { "Name": "Caldwell,Chatham Township,East Hanover,Essex Fells,Florham Park,Hanover,Harding,Livingston,Madison,Maplewood,Millburn,Roseland,South Orange,West Orange",
+                  "Deviation": "-1,556",
+                 "white": "73.5",
+                "african": "12.9",
+                "asian": "9.2",
+                "hispanic": "7.7"},
+      
+
+"District 28": { "Name": "Bloomfield,Glen Ridge,Irvington,Newark,Nutley",
+                  "Deviation": "5,590",
+                 "white": "30.8",
+                "african": "55.3",
+                "asian": "4.0",
+                "hispanic": "16.1"},
+      
+
+"District 29": { "Name": "Belleville,Newark",
+                  "Deviation": "5,020",
+                 "white": "38.5",
+                "african": "35.4",
+                "asian": "3.2",
+                "hispanic": "41.2"},
+      
+
+"District 30": { "Name": "Avon by the Sea,Belmar,Bradley Beach,Brielle,Farmingdale,Howell,Lake Como,Lakewood,Manasquan,Point Pleasant,Sea Girt,Spring Lake,Spring Lake Heights,Wall",
+                  "Deviation": "3,963",
+                  "white": "88.6",
+                "african": "4.1",
+                "asian": "1.8",
+                "hispanic": "11.2"},
+
+"District 31": { "Name": "Bayonne,Jersey City",
+                  "Deviation": "837",
+                 "white": "38.5",
+                "african": "27.3",
+                "asian": "19.0",
+                "hispanic": "23.5"},
+      
+
+"District 32": { "Name": "East Newark,Edgewater,Fairview,Guttenberg,Harrison,Kearny,North Bergen,Secaucus,West New York",
+                  "Deviation": "182",
+                 "white": "65.9",
+                "african": "4.3",
+                "asian": "9.1",
+                "hispanic": "56.0"},
+      
+
+"District 33": { "Name": "Hoboken,Jersey City,Union City,Weehawken",
+                  "Deviation": "-796",
+                  "white": "58.5",
+                "african": "6.9",
+                "asian": "12.6",
+                "hispanic": "46.4"},
+
+"District 34": { "Name": "Clifton,East Orange,Montclair,City of Orange",
+                 "Deviation": "-3,588",
+                 "white": "40.9",
+                "african": "43.0",
+                "asian": "4.6",
+                "hispanic": "19.1"},
+      
+
+"District 35": { "Name": "Elmwood Park,Garfield,Haledon,North Haledon,Paterson,Prospect Park",
+                  "Deviation": "-1,108",
+                 "white": "47.8",
+                "african": "23.6",
+                "asian": "4.0",
+                "hispanic": "48.2"},
+      
+
+"District 36": { "Name": "Carlstadt,Cliffside Park,East Rutherford,Little Ferry,Lyndhurst,Moonachie,North Arlington,Passaic,Ridgefield,Ridgefield Park,Rutherford,South Hackensack,Teterboro,Wallington,Wood-Ridge",
+                  "Deviation": "1,126",
+                 "white": "65.7",
+                "african": "5.4",
+                "asian": "9.9",
+                "hispanic": "36.9"},
+      
+
+"District 37": { "Name": "Alpine,Bogota,Cresskill,Englewood,Englewood Cliffs,Fort Lee,Hackensack,Leonia,Northvale,Palisades Park,Rockleigh,Teaneck,Tenafly",
+                  "Deviation": "-2,411",
+                  "white": "51.6",
+                "african": "15.2",
+                "asian": "22.5",
+                "hispanic": "20.0"},
+      
+
+"District 38": { "Name": "Bergenfield,Fair Lawn,Glen Rock,Hasbrouck Heights,Hawthorne,Lodi,Maywood,New Milford,Oradell,Paramus,River Edge,Rochelle Park,Saddle Brook",
+                  "Deviation": "-3,461",
+                 "white": "75.4",
+                "african": "3.5",
+                "asian": "13.8",
+                "hispanic": "15.1"},
+      
+
+"District 39": { "Name": "Bloomingdale,Closter,Demarest,Dumont,Emerson,Harrington Park,Haworth,Hillsdale,Mahwah,Montvale,Norwood,Oakland,Old Tappan,Park Ridge,Ramsey,Ringwood,River Vale,Saddle River,Upper Saddle River,Wanaque,Township of Washington,Westwood,Woodcliff Lake",
+                  "Deviation": "-4,572",
+                  "white": "84.9",
+                "african": "1.6",
+                "asian": "9.9",
+                "hispanic": "7.1"},
+      
+"District 40": { "Name": "Allendale,Cedar Grove,Franklin Lakes,Ho-Ho-Kus,Little Falls,Midland Park,Pequannock,Pompton Lakes,Ridgewood,Riverdale,Totowa,Waldwick,Wayne,Woodland Park,Wyckoff",
+                  "Deviation": "-5,838",
+                 "white": "87.8",
+                "african": "1.9",
+                "asian": "6.7",
+                "hispanic": "7.9"}
+}

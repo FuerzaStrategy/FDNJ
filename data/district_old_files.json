@@ -489,47 +489,206 @@
   "Washington Township of Morris County": { "white": "96.7",	"af": "1",	"ai": "0.3",	"a": "2.1",	"haw": "0.1",	"other": "0.5",	"his": "2.2" }
   },
 
-"District 25": { "Name": "Boonton,Boonton Township,Denville,Dover,Jefferson,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Randolph,Rockaway,Rockaway Township,Roxbury,Victory Gardens,Wharton"},
+"District 25": {
+  "Boonton": { "white": "84.9",	"af": "4.5",	"ai": "0.6",	"a": "9",	"haw": "0",	"other": "3.8",	"his": "6.9" },
+  "Boonton Township": {	"white": "93.9",	"af": "1.4",	"ai": "0.2",	"a": "4.5",	"haw": "0",	"other": "1.1",	"his": "2.1" },
+  "Denville": { "white": "93.6",	"af": "1.3",	"ai": "0.4",	"a": "5.1",	"haw": "0.1",	"other": "0.7",	"his": "2.6" },
+  "Dover": { "white": "73.7",	"af": "7.6",	"ai": "0.8",	"a": "2.8",	"haw": "0.1",	"other": "20",	"his": "57.9" },
+  "Jefferson": { "white": "97.2",	"af": "1.1",	"ai": "0.5",	"a": "1.4",	"haw": "0.1",	"other": "1",	"his": "3.4" },
+  "Mendham Township": { "white": "96.4",	"af": "1.1",	"ai": "0.3",	"a": "2.5",	"haw": "0",	"other": "0.5",	"his": "1.5" },
+  "Mine Hill": { "white": "92",	"af": "4.3",	"ai": "0.4",	"a": "2.8",	"haw": "0.1",	"other": "2.3",	"his": "8.7" },
+  "Morris Township": { "white": "89.4",	"af": "5.8",	"ai": "0.3",	"a": "4.3",	"haw": "0.1",	"other": "1.1",	"his": "3.8" },
+  "Morristown": {	"white": "69.8",	"af": "17.9",	"ai": "0.7",	"a": "4.3",	"haw": "0.1",	"other": "10.7",	"his": "27.1" },
+  "Mount Arlington": { "white": "92.6",	"af": "2.1",	"ai": "0.5",	"a": "4.2",	"haw": "0.1",	"other": "2",	"his": "4.5" },
+  "Mountain Lakes": { "white": "93.8",	"af": "0.5",	"ai": "0",	"a": "5.7",	"haw": "0.1",	"other": "0.8",	"his": "1.7" },
+  "Randolph": { "white": "86.9",	"af": "2.6",	"ai": "0.2",	"a": "9.8",	"haw": "0.1",	"other": "1.8",	"his": "4.9" },
+  "Rockaway": { "white": "88.8",	"af": "1.7",	"ai": "0.4",	"a": "6.6",	"haw": "0.1",	"other": "3.7",	"his": "9.4" },
+  "Rockaway Township": {	"white": "89.9",	"af": "2.9",	"ai": "0.3",	"a": "6.2",	"haw": "0.1",	"other": "2.1",	"his": "6.3" },
+  "Roxbury": { "white": "93.5",	"af": "2.2",	"ai": "0.3",	"a": "4",	"haw": "0.1",	"other": "1",	"his": "4.8" },
+  "Victory Gardens": { "white": "57.1",	"af": "22.4",	"ai": "0.8",	"a": "6",	"haw": "0",	"other": "20.4",	"his": "50.6" },
+  "Wharton": { "white": "84.3",	"af": "5",	"ai": "1.1",	"a": "3.5",	"haw": "0",	"other": "8.7",	"his": "23.2" }
+  },
       
 
-"District 26": { "Name": "Bloomingdale,Butler,Chatham Township,East Hanover,Florham Park,Hanover,Kinnelon,Lincoln Park,Montville,Morris Plains,Parsippany-Troy Hills,Pequannock,Pompton Lakes,Riverdale,West Milford"},
+"District 26": { 
+  "Bloomingdale": { "white": "96.5",	"af": "0.7",	"ai": "0.5",	"a": "2.3",	"haw": "0.1",	"other": "1.1",	"his": "4.4" },
+  "Butler": { "white": "95.7",	"af": "0.9",	"ai": "0.4",	"a": "2.1",	"haw": "0",	"other": "1.8",	"his": "5.1" },
+  "Chatham Township": { "white": "94.4",	"af": "0.5",	"ai": "0.2",	"a": "5.4",	"haw": "0",	"other": "0.3",	"his": "2" },
+  "East Hanover": { "white": "87.8",	"af": "0.6",	"ai": "0.2",	"a": "11.6",	"haw": "0",	"other": "0.8",	"his": "2.7" },
+  "Florham Park": { "white": "94.6",	"af": "1.2",	"ai": "0.2",	"a": "4.1",	"haw": "0.1",	"other": "0.6",	"his": "2.1" },
+  "Hanover": { "white": "89.4",	"af": "1.1",	"ai": "0.1",	"a": "9.1",	"haw": "0",	"other": "1",	"his": "3.5" },
+  "Kinnelon": { "white": "96.2",	"af": "0.7",	"ai": "0.1",	"a": "3.2",	"haw": "0.1",	"other": "0.4",	"his": "2.3" },
+  "Lincoln Park": { "white": "91.4",	"af": "1.9",	"ai": "0.3",	"a": "5.9",	"haw": "0",	"other": "1.9",	"his": "5.8" },
+  "Montville": { "white": "85.9",	"af": "1.1",	"ai": "0.2",	"a": "13.2",	"haw": "0.1",	"other": "0.7",	"his": "2.5" },
+  "Morris Plains": { "white": "93.7",	"af": "1.4",	"ai": "0.1",	"a": "4.9",	"haw": "0.1",	"other": "0.6",	"his": "2.7" },
+  "Parsippany-Troy Hills": { "white": "76.1",	"af": "3.6",	"ai": "0.4",	"a": "19.2",	"haw": "0.1",	"other": "3.1",	"his": "7" },
+  "Pequannock": { "white": "97.1",	"af": "0.4",	"ai": "0.2",	"a": "2.1",	"haw": "0",	"other": "0.7",	"his": "2.9" },
+  "Pompton Lakes": { "white": "93.9",	"af": "1.4",	"ai": "0.3",	"a": "3.3",	"haw": "0",	"other": "2.1",	"his": "5.7" },
+  "Riverdale": { "white": "94.4",	"af": "1.8",	"ai": "0.2",	"a": "2.8",	"haw": "0",	"other": "2",	"his": "4.4" },
+  "West Milford": { "white": "96.2",	"af": "1.7",	"ai": "1.2",	"a": "1.3",	"haw": "0",	"other": "1",	"his": "3.4" }
+  },
       
 
-"District 27": { "Name": "Caldwell,Essex Fells,Fairfield,Livingston,Maplewood,Newark,North Caldwell,City of Orange,Roseland,South Orange,West Caldwell,West Orange"},
+"District 27": { 
+  "Caldwell": { "white": "92.1",	"af": "2.6",	"ai": "0.3",	"a": "4.4",	"haw": "0.1",	"other": "1.7",	"his": "4.6" },
+  "Essex Fells": { "white": "98.1",	"af": "0.8",	"ai": "0.4",	"a": "1.7",	"haw": "0",	"other": "0.3",	"his": "1.2" },
+  "Fairfield": { "white": "96.1",	"af": "0.6",	"ai": "0.3",	"a": "3.1",	"haw": "0",	"other": "0.6",	"his": "3.5" },
+  "Livingston": { "white": "83.3",	"af": "1.4",	"ai": "0.2",	"a": "15",	"haw": "0.1",	"other": "1",	"his": "2.5" },
+  "Maplewood": { "white": "60.7",	"af": "35.3",	"ai": "0.6",	"a": "3.6",	"haw": "0.1",	"other": "3.9",	"his": "5.2" },
+  "Newark": { "white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5" },
+  "North Caldwell": { "white": "80.2",	"af": "14.8",	"ai": "0.2",	"a": "5.1",	"haw": "0",	"other": "0.6",	"his": "2.2" },
+  "City of Orange": { "white": "14.6",	"af": "78.7",	"ai": "0.9",	"a": "1.6",	"haw": "0.3",	"other": "8.9",	"his": "12.5" },
+  "Roseland": { "white": "93.9",	"af": "0.9",	"ai": "0.1",	"a": "5",	"haw": "0",	"other": "0.7",	"his": "2.3" },
+  "South Orange": { "white": "62",	"af": "33.1",	"ai": "0.6",	"a": "4.6",	"haw": "0.2",	"other": "2.5",	"his": "4.9" },
+  "West Caldwell": { "white": "94.4",	"af": "1",	"ai": "0.1",	"a": "4.2",	"haw": "0.1",	"other": "0.9",	"his": "2.8" },
+  "West Orange": { "white": "69.5",	"af": "18.9",	"ai": "0.5",	"a": "8.8",	"haw": "0.1",	"other": "5.6",	"his": "10" }
+  },
       
 
-"District 28": { "Name": "Belleville,Bloomfield,Irvington,Newark"},
+"District 28": { 
+  "Belleville": { "white": "72.6",	"af": "5.9",	"ai": "0.5",	"a": "12",	"haw": "0.2",	"other": "12.8",	"his": "23.7" },
+  "Bloomfield": {	"white": "72.3",	"af": "12.7",	"ai": "0.6",	"a": "9.1",	"haw": "0.2",	"other": "8.5",	"his": "14.5" },
+  "Irvington": { "white": "9.8",	"af": "85.2",	"ai": "0.6",	"a": "1.4",	"haw": "0.3",	"other": "7.1",	"his": "8.4" },
+  "Newark": { "white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5" }
+  },
       
 
-"District 29": { "Name": "Hillside,Newark"},
+"District 29": { 
+  "Hillside": { "white": "42.9",	"af": "48.3",	"ai": "0.7",	"a": "4",	"haw": "0.2",	"other": "8.5",	"his": "14.5" },
+  "Newark": { "white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5" }
+  },
       
 
-"District 30": { "Name": "Allentown,Bordentown,Bordentown Township,Chesterfield Township,Farmingdale,Fieldsboro,Howell,Jackson,Lakewood,New Hanover,North Hanover,Plumsted,Roosevelt,Upper Freehold,Robbinsville"},
+"District 30": { 
+  "Allentown": { "white": "91.3",	"af": "6.7",	"ai": "1.1",	"a": "0.9",	"haw": "0",	"other": "1.1",	"his": "1.9" },
+  "Bordentown": { "white": "83.7",	"af": "14.3",	"ai": "0.6",	"a": "2.5",	"haw": "0.1",	"other": "1.9",	"his": "2.8" },
+  "Bordentown Township": {	"white": "90.5",	"af": "5.5",	"ai": "0.5",	"a": "4",	"haw": "0",	"other": "1.1",	"his": "3" },
+  "Chesterfield Township": { "white": "51.2",	"af": "39.1",	"ai": "1.8",	"a": "1.2",	"haw": "0.6",	"other": "9.5",	"his": "12.3" },
+  "Farmingdale": { "white": "94.2",	"af": "1.5",	"ai": "0.3",	"a": "2.6",	"haw": "0.1",	"other": "2.3",	"his": "3.8" },
+  "Fieldsboro": {	"white": "83.5",	"af": "17",	"ai": "0.6",	"a": "0",	"haw": "0",	"other": "1",	"his": "2.5" },
+  "Howell": { "white": "91.2",	"af": "4",	"ai": "0.4",	"a": "4.1",	"haw": "0.1",	"other": "1.8",	"his": "5.3" },
+  "Jackson": { "white": "92.7",	"af": "4.3",	"ai": "0.5",	"a": "2.4",	"haw": "0.1",	"other": "1.7",	"his": "5.8" },
+  "Lakewood": { "white": "81.2",	"af": "12.9",	"ai": "0.5",	"a": "1.7",	"haw": "0.1",	"other": "6.7",	"his": "14.8" },
+  "New Hanover": { "white": "65.8",	"af": "30",	"ai": "0.9",	"a": "2.2",	"haw": "0.2",	"other": "3.5",	"his": "19.4" },
+  "North Hanover": { "white": "83.4",	"af": "12.6",	"ai": "1.2",	"a": "3.4",	"haw": "0.4",	"other": "3",	"his": "5.8" },
+  "Plumsted": { "white": "95.4",	"af": "2.6",	"ai": "0.7",	"a": "1",	"haw": "0",	"other": "1.9",	"his": "3.8" },
+  "Roosevelt": { "white": "92.1",	"af": "3.6",	"ai": "0.8",	"a": "2.6",	"haw": "0.3",	"other": "5.3",	"his": "4.5" },
+  "Upper Freehold": { "white": "96.5",	"af": "1.2",	"ai": "0.6",	"a": "1.6",	"haw": "0.1",	"other": "2.1",	"his": "3.5" },
+  "Robbinsville": {	"white": "83.1",	"af": "3.7",	"ai": "0.3",	"a": "13.8",	"haw": "0",	"other": "1.1",	"his": "4.1"}
+},
 
-"District 31": { "Name": "Bayonne,Jersey City"},
+"District 31": { 
+  "Bayonne":{ "white": "82",	"af": "6.3",	"ai": "0.5",	"a": "4.8",	"haw": "0.2",	"other": "10.4",	"his": "17.8" },
+  "Jersey City": { "white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3" }
+  },
       
 
-"District 32": { "Name": "East Newark,Fairview,Harrison,Jersey City,Kearny,North Bergen,Secaucus"},
+"District 32": {
+  "East Newark": { "white": "73.5",	"af": "2.4",	"ai": "0.8",	"a": "2.8",	"haw": "0",	"other": "27.8",	"his": "47.5" },
+  "Fairview": { "white": "79.4",	"af": "2.3",	"ai": "0.6",	"a": "5.8",	"haw": "0.2",	"other": "19.3",	"his": "37.1" },
+  "Harrison": { "white": "70.4",	"af": "1.3",	"ai": "0.7",	"a": "12.4",	"haw": "0.2",	"other": "19.9",	"his": "37" },
+  "Jersey City": { "white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3" },
+  "Kearny": { "white": "79.5",	"af": "4.6",	"ai": "0.6",	"a": "6",	"haw": "0.2",	"other": "13.5",	"his": "27.3" },
+  "North Bergen": { "white": "74",	"af": "3.6",	"ai": "0.8",	"a": "7.3",	"haw": "0.1",	"other": "21.8",	"his": "57.3" },
+  "Secaucus": { "white": "80.5",	"af": "4.7",	"ai": "0.2",	"a": "12.5",	"haw": "0",	"other": "4.4",	"his": "12.3" }
+},
       
 
-"District 33": { "Name": "Guttenberg,Hoboken,Jersey City,Union City,Weehawken,West New York"},
+"District 33": { 
+  "Guttenberg": { "white": "71",	"af": "4.7",	"ai": "0.8",	"a": "8.2",	"haw": "0.1",	"other": "22.5",	"his": "54.3" },
+   "Hoboken": { "white": "83.1",	"af": "5.1",	"ai": "0.5",	"a": "4.9",	"haw": "0.1",	"other": "9.3",	"his": "20.2" },
+   "Jersey City": { "white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3" },
+   "Union City": { "white": "64.2",	"af": "5.3",	"ai": "1.2",	"a": "2.6",	"haw": "0.2",	"other": "33.7",	"his": "82.3" },
+   "Weehawken": { "white": "76.9",	"af": "4.7",	"ai": "0.6",	"a": "5.2",	"haw": "0.1",	"other": "17.2",	"his": "40.6" },
+   "West New York": { "white": "66.7",	"af": "4.8",	"ai": "1.1",	"a": "3.4",	"haw": "0.1",	"other": "31.8",	"his": "78.7" }
+},
 
-"District 34": { "Name": "Clifton,East Orange,Glen Ridge,Montclair,Woodland Park"},
+"District 34": { 
+  "Clifton": { "white": "80.3",	"af": "3.3",	"ai": "0.5",	"a": "7.2",	"haw": "0.1",	"other": "13.4",	"his": "19.8" },
+  "East Orange": { "white": "4.5",	"af": "92.8",	"ai": "0.9",	"a": "0.7",	"haw": "0.3",	"other": "4.9",	"his": "4.7" },
+  "Glen Ridge": { "white": "90.3",	"af": "5.4",	"ai": "0.3",	"a": "4.1",	"haw": "0",	"other": "1.4",	"his": "3.5" },
+  "Montclair": { "white": "61.8",	"af": "34.1",	"ai": "0.9",	"a": "3.8",	"haw": "0.1",	"other": "2.7",	"his": "5.1" },
+  "Woodland Park": { "white": "84.8",	"af": "5.1",	"ai": "0.5",	"a": "5.4",	"haw": "0.2",	"other": "7",	"his": "20.7"}
+  },
       
 
-"District 35": { "Name": "Glen Rock,Haledon,Hawthorne,North Haledon,Paterson,Prospect Park,Totowa"},
+"District 35": { 
+  "Glen Rock": { "white": "90.9",	"af": "2",	"ai": "0.2",	"a": "6.9",	"haw": "0",	"other": "0.9",	"his": "2.7" },
+  "Haledon": { "white": "77.4",	"af": "7.8",	"ai": "0.4",	"a": "5.4",	"haw": "0.1",	"other": "13.6",	"his": "22.6" },
+  "Hawthorne": { "white": "95.3",	"af": "1",	"ai": "0.4",	"a": "2.3",	"haw": "0.2",	"other": "2.8",	"his": "7.4" },
+  "North Haledon": { "white": "96.4",	"af": "1.8",	"ai": "0.2",	"a": "1.4",	"haw": "0",	"other": "1.7",	"his": "3.9" },
+  "Paterson": { "white": "35",	"af": "34.6",	"ai": "1",	"a": "2.5",	"haw": "0.3",	"other": "32.9",	"his": "50.1" },
+  "Prospect Park": { "white": "67.5",	"af": "15.4",	"ai": "0.7",	"a": "4.1",	"haw": "0.4",	"other": "20",	"his": "38.3" },
+  "Totowa": { "white": "94.4",	"af": "1.3",	"ai": "0.1",	"a": "2.6",	"haw": "0",	"other": "2.7",	"his": "6.4" }
+  },
       
 
-"District 36": { "Name": "Carlstadt,East Rutherford,Garfield,Lyndhurst,Moonachie,North Arlington,Nutley,Passaic,Rutherford,Wallington,Wood-Ridge"},
+"District 36": { 
+  "Carlstadt": { "white": "90.1",	"af": "1.7",	"ai": "0.2",	"a": "6.4",	"haw": "0",	"other": "2.9",	"his": "8" },
+  "East Rutherford": { "white": "81.7",	"af": "4.3",	"ai": "0.3",	"a": "11.7",	"haw": "0.2",	"other": "4.6",	"his": "10.6" },
+  "Garfield": { "white": "85.4",	"af": "4",	"ai": "0.6",	"a": "3.1",	"haw": "0.1",	"other": "10.7",	"his": "20.1" },
+  "Lyndhurst": { "white": "91.6",	"af": "0.9",	"ai": "0.2",	"a": "5.8",	"haw": "0",	"other": "3.5",	"his": "9" },
+  "Moonachie": { "white": "89.1",	"af": "1.4",	"ai": "0.2",	"a": "7.4",	"haw": "0",	"other": "5.6",	"his": "12.7" },
+  "North Arlington": { "white": "91.3",	"af": "0.6",	"ai": "0.3",	"a": "6.1",	"haw": "0.1",	"other": "3.6",	"his": "10.6" },
+  "Nutley": { "white": "89",	"af": "2",	"ai": "0.2",	"a": "7.5",	"haw": "0.1",	"other": "2.4",	"his": "6.7" },
+  "Passaic": { "white": "39",	"af": "15.2",	"ai": "1.2",	"a": "6.1",	"haw": "0.2",	"other": "43.5",	"his": "62.5" },
+  "Rutherford": { "white": "83.7",	"af": "3.2",	"ai": "0.4",	"a": "12",	"haw": "0",	"other": "2.8",	"his": "8.6" },
+  "Wallington": { 	"white": "89.5",	"af": "3.1",	"ai": "0.3",	"a": "5.4",	"haw": "0",	"other": "4",	"his": "6.7" },
+  "Wood-Ridge": {	"white": "92.2",	"af": "1",	"ai": "0.2",	"a": "5.5",	"haw": "0",	"other": "2.5",	"his": "7.3" }
+  },
       
 
-"District 37": { "Name": "Bergenfield,Bogota,Englewood,Englewood Cliffs,Hackensack,Leonia,Maywood,Palisades Park,Ridgefield Park,Rochelle Park,Teaneck,Tenafly"},
+"District 37": {  
+  "Bergenfield": { "white": "64.9",	"af": "7.8",	"ai": "0.7",	"a": "21.4",	"haw": "0.1",	"other": "8.3",	"his": "17" },
+  "Bogota": { "white": "78.5",	"af": "7",	"ai": "0.6",	"a": "8.8",	"haw": "0.1",	"other": "9.1",	"his": "21.3" },
+  "Englewood": { "white": "44.8",	"af": "41.5",	"ai": "1",	"a": "5.9",	"haw": "0.2",	"other": "11.5",	"his": "21.8" },
+  "Englewood Cliffs": { "white": "68.1",	"af": "1.5",	"ai": "0.1",	"a": "30.1",	"haw": "0",	"other": "1.5",	"his": "4.9" },
+  "Hackensack": { "white": "56.3",	"af": "26.5",	"ai": "1.1",	"a": "8.1",	"haw": "0.1",	"other": "13.3",	"his": "25.9" },
+  "Leonia": { "white": "67.9",	"af": "2.9",	"ai": "0.4",	"a": "27.1",	"haw": "0.1",	"other": "4.5",	"his": "12.7" },
+  "Maywood": { "white": "86.4",	"af": "3.1",	"ai": "0.3",	"a": "7.7",	"haw": "0",	"other": "4.7",	"his": "11.7" },
+  "Palisades Park": { "white": "50.8",	"af": "1.7",	"ai": "0.5",	"a": "42.3",	"haw": "0.1",	"other": "8",	"his": "16.5" },
+  "Ridgefield Park": { "white": "80.7",	"af": "4.7",	"ai": "0.6",	"a": "8.4",	"haw": "0.1",	"other": "8.8",	"his": "22.2" },
+  "Rochelle Park": { "white": "91.2",	"af": "0.7",	"ai": "0.3",	"a": "6.6",	"haw": "0.1",	"other": "2.5",	"his": "8.6" },
+  "Teaneck": { "white": "58.5",	"af": "30.5",	"ai": "0.8",	"a": "8",	"haw": "0.1",	"other": "6",	"his": "10.5" },
+  "Tenafly": { "white": "78.1",	"af": "1.2",	"ai": "0.2",	"a": "20",	"haw": "0",	"other": "2.3",	"his": "4.7" }
+  },
       
 
-"District 38": { "Name": "Cliffside Park,Edgewater,Elmwood Park,Fair Lawn,Fort Lee,Hasbrouck Heights,Little Ferry,Lodi,Paramus,Ridgefield,Saddle Brook,South Hackensack,Teterboro"},
+"District 38": { 
+  "Cliffside Park": { "white": "80.4",	"af": "2.2",	"ai": "0.5",	"a": "12.8",	"haw": "0.1",	"other": "7.1",	"his": "18.2" },
+  "Edgewater": { "white": "69.7",	"af": "4.1",	"ai": "0.6",	"a": "24.3",	"haw": "0.1",	"other": "4.5",	"his": "10.4" },
+  "Elmwood Park": { "white": "84.9",	"af": "2.4",	"ai": "0.3",	"a": "8.7",	"haw": "0",	"other": "6.8",	"his": "13.4" },
+  "Fair Lawn": { "white": "92.7",	"af": "1",	"ai": "0.2",	"a": "5.4",	"haw": "0.1",	"other": "2.1",	"his": "5.5" },
+  "Fort Lee": { "white": "64.6",	"af": "2.1",	"ai": "0.2",	"a": "32.3",	"haw": "0.1",	"other": "2.9",	"his": "7.9" },
+  "Hasbrouck Heights": { "white": "89.2",	"af": "2.1",	"ai": "0.2",	"a": "7.1",	"haw": "0",	"other": "2.9",	"his": "8.3" },
+  "Little Ferry": { "white": "71.4",	"af": "5.2",	"ai": "0.5",	"a": "18.5",	"haw": "0.1",	"other": "7.8",	"his": "15.2" },
+  "Lodi": { "white": "80.5",	"af": "4.2",	"ai": "0.4",	"a": "9.5",	"haw": "0.1",	"other": "8.3",	"his": "18" },
+  "Paramus": { "white": "80.4",	"af": "1.3",	"ai": "0.2",	"a": "18",	"haw": "0",	"other": "1.6",	"his": "4.9" },
+  "Ridgefield": { "white": "77.8",	"af": "1.1",	"ai": "0.3",	"a": "18.1",	"haw": "0.2",	"other": "4.9",	"his": "13.8" },
+  "Saddle Brook": { "white": "92",	"af": "1.6",	"ai": "0.1",	"a": "5.2",	"haw": "0",	"other": "2.6",	"his": "6.3" },
+  "South Hackensack": { "white": "85",	"af": "2.7",	"ai": "0.3",	"a": "6.1",	"haw": "0.3",	"other": "8",	"his": "15.1" },
+  "Teterboro": { "white": "83.3",	"af": "16.7",	"ai": "0",	"a": "0",	"haw": "0",	"other": "16.7",	"his": "0" }
+  },
       
 
-"District 39": { "Name": "Allendale,Alpine,Closter,Cresskill,Demarest,Dumont,Emerson,Harrington Park,Haworth,Hillsdale,Ho-Ho-Kus,Montvale,New Milford,Northvale,Norwood,Old Tappan,Oradell,Park Ridge,Ramsey,River Edge,River Vale,Rockleigh,Saddle River,Upper Saddle River,Waldwick,Township of Washington,Westwood,Woodcliff Lake"},
+"District 39": { 
+  "Allendale": { "white": "92.9",	"af": "0.4",	"ai": "0.1",	"a": "6.5",	"haw": "0",	"other": "0.6",	"his": "2.5" },
+  "Alpine": { "white": "78.7",	"af": "1.7",	"ai": "0.3",	"a": "20.1",	"haw": "0",	"other": "0.7",	"his": "2.5" },
+  "Closter": { "white": "76.4",	"af": "1.1",	"ai": "0.2",	"a": "22.4",	"haw": "0",	"other": "1.2",	"his": "4.1" },
+  "Cresskill": { "white": "79.4",	"af": "1.1",	"ai": "0.2",	"a": "19.6",	"haw": "0.3",	"other": "1.3",	"his": "4" },
+  "Demarest": { "white": "78.5",	"af": "0.8",	"ai": "0.3",	"a": "21",	"haw": "0",	"other": "1.1",	"his": "3.4" },
+  "Dumont": { "white": "85.1",	"af": "1.8",	"ai": "0.3",	"a": "11.6",	"haw": "0.1",	"other": "2.9",	"his": "8.4" },
+  "Emerson": { "white": "90.3",	"af": "0.9",	"ai": "0.2",	"a": "8.2",	"haw": "0",	"other": "1.2",	"his": "4.6" },
+  "Harrington Park": { "white": "83.9",	"af": "0.8",	"ai": "0.1",	"a": "14.9",	"haw": "0",	"other": "0.8",	"his": "2.6" },
+  "Haworth": { "white": "88.7",	"af": "1.3",	"ai": "0",	"a": "9.8",	"haw": "0",	"other": "1.1",	"his": "2.7" },
+  "Hillsdale": { "white": "93",	"af": "1.1",	"ai": "0.2",	"a": "5.5",	"haw": "0",	"other": "1",	"his": "4.3" },
+  "Ho-Ho-Kus": { "white": "93.4",	"af": "0.7",	"ai": "0.2",	"a": "5.9",	"haw": "0.2",	"other": "0.4",	"his": "2" },
+  "Montvale": { "white": "93.4",	"af": "0.6",	"ai": "0.3",	"a": "5.6",	"haw": "0",	"other": "0.9",	"his": "3.1" },
+  "New Milford": { "white": "80.2",	"af": "3",	"ai": "0.3",	"a": "15.7",	"haw": "0.2",	"other": "2.9",	"his": "8.1" },
+  "Northvale": { "white": "83.9",	"af": "0.9",	"ai": "0.2",	"a": "14.4",	"haw": "0",	"other": "1.6",	"his": "4.7" },
+  "Norwood": {	"white": "78.8",	"af": "1.3",	"ai": "0.3",	"a": "19.5",	"haw": "0.1",	"other": "1.5",	"his": "3" },
+  "Old Tappan": {
+    ,Oradell,Park Ridge,Ramsey,River Edge,River Vale,Rockleigh,Saddle River,Upper Saddle River,Waldwick,Township of Washington,Westwood,Woodcliff Lake"},
       
 "District 40": { "Name": "Cedar Grove,Franklin Lakes,Little Falls,Mahwah,Midland Park,Oakland,Pequannock,Ridgewood,Ringwood,Totowa,Verona,Wanaque,Wayne,Woodland Park,Wyckoff"}
 }

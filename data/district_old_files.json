@@ -257,25 +257,100 @@
 },
       
 
-"District 12": { "Name": "Colts Neck,East Windsor,Englishtown,Fair Haven,Freehold,Freehold Township,Hightstown,Little Silver,Manalapan Township,Millstone Township,Oceanport,Red Bank,Shrewsbury,Shrewsbury Township,Tinton Falls"},
+"District 12": { 
+  "Colts Neck": { "white": "86.6",	"af": "8.3",	"ai": "0.6",	"a": "4.1",	"haw": "0",	"other": "1.9",	"his": "4.2" },
+  "East Windsor": { "white": "76.1",	"af": "9.6",	"ai": "0.5",	"a": "10.1",	"haw": "0.2",	"other": "5.9",	"his": "14.3" },
+  "Englishtown": { "white": "89.5",	"af": "4.6",	"ai": "0.3",	"a": "4.6",	"haw": "0.1",	"other": "2.2",	"his": "6.2" },
+  "Fair Haven": { "white": "94.5",	"af": "4.6",	"ai": "0.2",	"a": "1.2",	"haw": "0.1",	"other": "0.3",	"his": "1.3" },
+  "Freehold": { "white": "73.9",	"af": "16.6",	"ai": "1.2",	"a": "2.9",	"haw": "0.1",	"other": "9",	"his": "28.1" },
+  "Freehold Township": {	"white": "88.2",	"af": "5.5",	"ai": "0.4",	"a": "5.6",	"haw": "0",	"other": "1.8",	"his": "5.2" },
+  "Hightstown": { "white": "78.8",	"af": "9.5",	"ai": "1",	"a": "2.6",	"haw": "0.2",	"other": "10.9",	"his": "20.1" },
+  "Little Silver": { "white": "97.8",	"af": "0.4",	"ai": "0.2",	"a": "1.9",	"haw": "0.1",	"other": "0.3",	"his": "1.3" },
+  "Manalapan Township": { "white": "92.8",	"af": "2.3",	"ai": "0.2",	"a": "4.9",	"haw": "0.1",	"other": "1",	"his": "3.5" },
+  "Millstone Township": { "white": "92.8",	"af": "2.3",	"ai": "0.2",	"a": "4.9",	"haw": "0.1",	"other": "1",	"his": "3.5" },
+  "Oceanport": { "white": "96.5",	"af": "2.3",	"ai": "0.3",	"a": "1.3",	"haw": "0.1",	"other": "0.6",	"his": "2.1" },
+  "Red Bank": { "white": "69.9",	"af": "21.2",	"ai": "0.9",	"a": "2.6",	"haw": "0.2",	"other": "7.8",	"his": "17.1" },
+  "Shrewsbury": { "white": "97.3",	"af": "0.6",	"ai": "0.2",	"a": "2.1",	"haw": "0",	"other": "0.6",	"his": "1.9" },
+  "Shrewsbury Township": {	"white": "69.8",	"af": "18.6",	"ai": "1.4",	"a": "11.1",	"haw": "0",	"other": "3.6",	"his": "6.6" },
+  "Tinton Falls": { "white": "80.2",	"af": "14",	"ai": "0.6",	"a": "5.6",	"haw": "0",	"other": "1.6",	"his": "4.7" }
+  },
       
 
-"District 13": { "Name": "Aberdeen Township,Hazlet,Holmdel,Keansburg,Keyport,Marlboro,Matawan,Middletown,Old Bridge,Union Beach"},
+"District 13": { 
+  "Aberdeen Township": { "white": "80.1",	"af": "12.7",	"ai": "0.4",	"a": "6.1",	"haw": "0.1",	"other": "2.5",	"his": "7" },
+  "Hazlet": { "white": "94.2",	"af": "1.4",	"ai": "0.2",	"a": "3.7",	"haw": "0",	"other": "1.7",	"his": "5.9" },
+  "Holmdel": { "white": "81.1",	"af": "0.8",	"ai": "0.2",	"a": "18.2",	"haw": "0.1",	"other": "0.8",	"his": "2.5" },
+  "Keansburg": { "white": "94.5",	"af": "2.6",	"ai": "0.4",	"a": "1.6",	"haw": "0.1",	"other": "2.3",	"his": "7.9" },
+  "Keyport": { "white": "87.1",	"af": "7.8",	"ai": "0.5",	"a": "2.8",	"haw": "0.1",	"other": "4.2",	"his": "11.1" },
+  "Marlboro": { "white": "84.6",	"af": "2.2",	"ai": "0.2",	"a": "13.2",	"haw": "0.1",	"other": "0.8",	"his": "2.9" },
+  "Matawan": { "white": "83.8",	"af": "7.1",	"ai": "0.4",	"a": "8.8",	"haw": "0.1",	"other": "1.9",	"his": "6.5" },
+  "Middletown": { "white": "95.5",	"af": "1.4",	"ai": "0.2",	"a": "2.9",	"haw": "0.1",	"other": "0.9",	"his": "3.4" },
+  "Old Bridge": { "white": "81.1",	"af": "5.8",	"ai": "0.5",	"a": "11.7",	"haw": "0.1",	"other": "3.2",	"his": "7.6" },
+  "Union Beach": { "white": "96.2",	"af": "1.2",	"ai": "0.8",	"a": "1.9",	"haw": "0",	"other": "2",	"his": "8.1" }
+  },
       
 
-"District 14": { "Name": "Cranbury Township,Hamilton Township of Mercer County,Jamesburg,Monroe Township of Middlesex County,Plainsboro,South Brunswick,West Windsor"},
+"District 14": { 
+  "Cranbury Township": { "white": "89.8",	"af": "2.5",	"ai": "0.2",	"a": "8.2",	"haw": "0",	"other": "0.6",	"his": "1.7" },
+  "Hamilton Township": { "white": "86.3",	"af": "8.9",	"ai": "0.4",	"a": "2.9",	"haw": "0.1",	"other": "3.2",	"his": "5.1" },
+  "Jamesburg": { "white": "84.3",	"af": "9.5",	"ai": "0.5",	"a": "2.7",	"haw": "0.1",	"other": "5",	"his": "10.1" },
+  "Monroe Township of Middlesex County": { "white": "93.8",	"af": "3.1",	"ai": "0.2",	"a": "2.5",	"haw": "0.1",	"other": "0.9",	"his": "2.4" },
+  "Plainsboro": { "white": "59.6",	"af": "8.3",	"ai": "0.4",	"a": "31.7",	"haw": "0.2",	"other": "2.2",	"his": "4.6" },
+  "South Brunswick": { "white": "72",	"af": "8.6",	"ai": "0.5",	"a": "18.8",	"haw": "0.1",	"other": "2.1",	"his": "5.1" },
+  "West Windsor": { "white": "73",	"af": "3.2",	"ai": "0.3",	"a": "23.8",	"haw": "0.1",	"other": "1.6",	"his": "4.1" }
+  },
       
 
-"District 15": { "Name": "Ewing,Hopewell of Mercer County,Hopewell Township,Lawrence Township of Mercer County,Pennington,Princeton,Trenton"},
+"District 15": { 
+  "Ewing": { "white": "70.2",	"af": "25.8",	"ai": "0.7",	"a": "2.6",	"haw": "0.1",	"other": "2.6",	"his": "4.4" },
+  "Hopewell": { "white": "96.1",	"af": "1.3",	"ai": "1",	"a": "1.1",	"haw": "0",	"other": "1.4",	"his": "2.3" },
+  "Hopewell Township": { "white": "89.3",	"af": "6.1",	"ai": "0.4",	"a": "4.4",	"haw": "0.1",	"other": "1",	"his": "2.5" },
+  "Lawrence Township": { "white": "80.5",	"af": "9.8",	"ai": "0.4",	"a": "8.4",	"haw": "0.2",	"other": "2.5",	"his": "4.6" },
+  "Pennington": { "white": "96",	"af": "2.9",	"ai": "0.2",	"a": "1.2",	"haw": "0",	"other": "0.7",	"his": "1.2" },
+  "Princeton": { "white": "82.8",	"af": "6.8",	"ai": "0.6",	"a": "9.1",	"haw": "0.2",	"other": "3.5",	"his": "7.1" },
+  "Trenton": { "white": "34.5",	"af": "53.6",	"ai": "0.8",	"a": "1.2",	"haw": "0.4",	"other": "12.9",	"his": "21.5" }
+  },
       
 
-"District 16": { "Name": "Bedminster,Bernards,Bernardsville,Bound Brook,Branchburg,Bridgewater,Far Hills,Hillsborough,Manville,Mendham,Millstone,Montgomery,Peapack Gladstone,Raritan,Rocky Hill,Somerville,South Bound Brook"},
+"District 16": { 
+  "Bedminster": { "white": "90.8",	"af": "1.9",	"ai": "0.2",	"a": "6.7",	"haw": "0",	"other": "1.1",	"his": "3.8" },
+  "Bernards": { "white": "90.1",	"af": "1.6",	"ai": "0.2",	"a": "8.5",	"haw": "0",	"other": "0.7",	"his": "2.6" },
+  "Bernardsville": {	"white": "95.2",	"af": "0.5",	"ai": "0.5",	"a": "3.3",	"haw": "0",	"other": "2.2",	"his": "6" },
+  "Bound Brook": { "white": "85.1",	"af": "3",	"ai": "0.6",	"a": "3.3",	"haw": "0.1",	"other": "11.1",	"his": "34.9" },
+  "Branchburg": { "white": "91.3",	"af": "2.1",	"ai": "0.3",	"a": "6.6",	"haw": "0",	"other": "0.6",	"his": "2.7" },
+  "Bridgewater": { "white": "86.1",	"af": "2.4",	"ai": "0.3",	"a": "11.1",	"haw": "0",	"other": "1.4",	"his": "4.8" },
+  "Far Hills": { "white": "97",	"af": "1",	"ai": "0.5",	"a": "2.7",	"haw": "0",	"other": "0",	"his": "3.6" },
+  "Hillsborough": { "white": "87.1",	"af": "4.1",	"ai": "0.3",	"a": "8",	"haw": "0.1",	"other": "2",	"his": "4.7" },
+  "Manville": { "white": "96.9",	"af": "0.6",	"ai": "0.3",	"a": "1.5",	"haw": "0.1",	"other": "1.7",	"his": "5.4" },
+  "Mendham": { "white": "97.7",	"af": "0.6",	"ai": "0.1",	"a": "1.7",	"haw": "0.2",	"other": "0.3",	"his": "2.5" },
+  "Millstone": { "white": "98",	"af": "1.2",	"ai": "0",	"a": "1.2",	"haw": "0",	"other": "0",	"his": "3.2" },
+  "Montgomery": { "white": "85.6",	"af": "2.4",	"ai": "0.3",	"a": "12.3",	"haw": "0.1",	"other": "0.8",	"his": "2.2" },
+  "Peapack Gladstone": { "white": "94.8",	"af": "3.2",	"ai": "0.1",	"a": "1.5",	"haw": "0",	"other": "0.8",	"his": "3.8" },
+  "Raritan": { "white": "88.9",	"af": "1.3",	"ai": "0.4",	"a": "8.5",	"haw": "0.2",	"other": "2.1",	"his": "8.4" },
+  "Rocky Hill": { "white": "96.7",	"af": "2",	"ai": "0.2",	"a": "0.9",	"haw": "0.8",	"other": "1.4",	"his": "3.9" },
+  "Somerville": { "white": "73.8",	"af": "14.1",	"ai": "0.6",	"a": "8.2",	"haw": "0.1",	"other": "6.6",	"his": "17" },
+  "South Bound Brook": { "white": "81",	"af": "8.6",	"ai": "0.6",	"a": "4.5",	"haw": "0.1",	"other": "8.6",	"his": "22.9" }
+  },
       
 
-"District 17": { "Name": "Franklin Township of Somerset County,Highland Park,Milltown,New Brunswick,Piscataway"},
+"District 17": { 
+  "Franklin Township": { "white": "56.6",	"af": "27.1",	"ai": "0.6",	"a": "13.4",	"haw": "0.1",	"other": "4.8",	"his": "8.1" },
+  "Highland Park" : { "white": "73.9",	"af": "8.9",	"ai": "0.5",	"a": "14.5",	"haw": "0.2",	"other": "4.8",	"his": "8.2" },
+  "Milltown": { "white": "94.8",	"af": "0.8",	"ai": "0.3",	"a": "3.2",	"haw": "0",	"other": "1.8",	"his": "3.7" },
+  "New Brunswick": { "white": "51.7",	"af": "24.5",	"ai": "1.2",	"a": "5.9",	"haw": "0.2",	"other": "21",	"his": "39" },
+  "Piscataway": { "white": "50.7",	"af": "21.3",	"ai": "0.7",	"a": "25.9",	"haw": "0.1",	"other": "4.2",	"his": "7.9" }
+  },
       
 
-"District 18": { "Name": "East Brunswick,Edison,Helmetta,Metuchen,South Plainfield,South River,Spotswood"},
+"District 18": { 
+  "East Brunswick": { "white": "79.4",	"af": "3.2",	"ai": "0.3",	"a": "16.9",	"haw": "0.1",	"other": "2.4",	"his": "4.2" },
+  "Edison": { "white": "60.9",	"af": "7.4",	"ai": "0.5",	"a": "30.2",	"haw": "0.1",	"other": "3.2",	"his": "6.4" },
+  "Helmetta": { "white": "93.9",	"af": "2.7",	"ai": "0.5",	"a": "2.6",	"haw": "0.1",	"other": "1.2",	"his": "5.3" },
+  "Metuchen": { "white": "85.8",	"af": "6",	"ai": "0.3",	"a": "7.9",	"haw": "0.1",	"other": "1.8",	"his": "4" },
+  "South Plainfield": { "white": "79.5",	"af": "9.3",	"ai": "0.7",	"a": "8.3",	"haw": "0.1",	"other": "4.8",	"his": "8.7" },
+  "South River": { "white": "86",	"af": "6.7",	"ai": "0.4",	"a": "4.1",	"haw": "0.1",	"other": "5.7",	"his": "9.7" },
+  "Spotswood": { "white": "94.6",	"af": "1.7",	"ai": "0.2",	"a": "3.1",	"haw": "0",	"other": "1.3",	"his": "4.4" },
+  },
       
 
 "District 19": { "Name": "Carteret,Perth Amboy,Sayreville,South Amboy,Woodbridge Township"},

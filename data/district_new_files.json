@@ -252,76 +252,124 @@
                  },
       
 
-"District 12": { "Name": "Allentown,Chesterfield Township,Englishtown,Jackson,Manalapan Township,Matawan,Millstone Township,New Hanover,North Hanover,Old Bridge,Plumsted,Roosevelt,Upper Freehold,Wrightstown",
-                  "Deviation": "2,126",
-                "white": "81.7",
-                "african": "6.6",
-                "asian": "7.3",
-                "hispanic": "8.9"},
+"District 12": { 
+  "Allentown": { "white": "92.7",	"af": "5.3",	"ai": "1.1",	"a": "1.8",	"haw": "0",	"other": "1.2",	"his": "3.6"},
+  "Chesterfield Township": {"white": "55.7",	"af": "31",	"ai": "1.6",	"a": "9.1",	"haw": "0.2",	"other": "5.9",	"his": "13.1"},
+  "Englishtown": {"white": "89.4",	"af": "2.7",	"ai": "0.1",	"a": "8",	"haw": "0.2",	"other": "1.1",	"his": "8"},
+  "Jackson": {"white": "90.5",	"af": "5.7",	"ai": "0.6",	"a": "3.5",	"haw": "0.1",	"other": "1.7",	"his": "7.8"},
+  "Manalapan Township": {"white": "89.5",	"af": "2.7",	"ai": "0.2",	"a": "7.6",	"haw": "0.1",	"other": "1.2",	"his": "5.7"},
+  "Matawan": {"white": "83",	"af": "8.3",	"ai": "0.7",	"a": "7.4",	"haw": "0.1",	"other": "3.5",	"his": "10.8"},
+  "Millstone Township": {"white": "90.8",	"af": "4",	"ai": "0.6",	"a": "5.2",	"haw": "0",	"other": "1",	"his": "5.5"},
+  "New Hanover": {"white": "56.4",	"af": "35",	"ai": "1.3",	"a": "2.9",	"haw": "0.2",	"other": "7.8",	"his": "21"},
+  "North Hanover": {"white": "84.3",	"af": "11.7",	"ai": "1.2",	"a": "3.3",	"haw": "0.8",	"other": "4",	"his": "10.4"},
+  "Old Bridge": {"white": "75.8",	"af": "6.9",	"ai": "0.5",	"a": "15.6",	"haw": "0.1",	"other": "3.7",	"his": "10.8"},
+  "Plumsted": {"white": "95.7",	"af": "2.1",	"ai": "1",	"a": "1.3",	"haw": "0.1",	"other": "1.4",	"his": "5.9"},
+  "Roosevelt": {"white": "93.7",	"af": "1.8",	"ai": "0.3",	"a": "3.9",	"haw": "0.1",	"other": "1.9",	"his": "5.9"},
+  "Upper Freehold":{"white": "92.6",	"af": "2.4",	"ai": "0.5",	"a": "5",	"haw": "0",	"other": "0.9",	"his": "3.7"},
+  "Wrightstown": {"white": "51.1",	"af": "24.7",	"ai": "1.9",	"a": "7.7",	"haw": "0.7",	"other": "20.1",	"his": "28.1"}
+                  },
       
 
-"District 13": { "Name": "Aberdeen Township,Atlantic Highlands,Fair Haven,Hazlet,Highlands,Holmdel,Keansburg,Keyport,Little Silver,Marlboro,Middletown,Monmouth Beach,Oceanport,Rumson,Sea Bright,Union Beach",
-                  "Deviation": "4,929",
-                 "white": "87.6",
-                "african": "2.7",
-                "asian": "6.6",
-                "hispanic": "6.3"},
+"District 13": { 
+  "Aberdeen Township": {"white": "78.2",	"af": "13",	"ai": "0.4",	"a": "7",	"haw": "0.1",	"other": "3.3",	"his": "10.4"},
+  "Atlantic Highlands": {	"white": "94.7",	"af": "2",	"ai": "0.8",	"a": "2.7",	"haw": "0.1",	"other": "1.5",	"his": "5.1"},
+  "Fair Haven": {"white": "95.7",	"af": "3.2",	"ai": "0.3",	"a": "1.6",	"haw": "0.1",	"other": "0.5",	"his": "2.7"},
+  "Hazlet": {"white": "93.2",	"af": "1.9",	"ai": "0.3",	"a": "4",	"haw": "0",	"other": "2.1",	"his": "7.9"},
+  "Highlands": {"white": "94.8",	"af": "2.4",	"ai": "0.7",	"a": "1.8",	"haw": "0.1",	"other": "2.3",	"his": "6.5"},
+  "Holmdel": {"white": "79.1",	"af": "1.1",	"ai": "0.2",	"a": "20.6",	"haw": "0.2",	"other": "0.8",	"his": "3.7"},
+  "Keansburg": {"white": "87",	"af": "8.2",	"ai": "0.9",	"a": "2.2",	"haw": "0.2",	"other": "4.9",	"his": "14.8"},
+  "Keyport": {"white": "82",	"af": "8.2",	"ai": "0.9",	"a": "2.9",	"haw": "0.1",	"other": "8.5",	"his": "18.3"},
+  "Little Silver": {"white": "97.5",	"af": "0.4",	"ai": "0.4",	"a": "2.5",	"haw": "0.3",	"other": "0.2",	"his": "3"},
+  "Marlboro": {"white": "79.6",	"af": "2.4",	"ai": "0.2",	"a": "18.1",	"haw": "0.1",	"other": "1.1",	"his": "4"},
+  "Middletown": {	"white": "95",	"af": "1.8",	"ai": "0.3",	"a": "3.1",	"haw": "0",	"other": "1.1",	"his": "5.4"},
+  "Monmouth Beach": {"white": "98.5",	"af": "0.4",	"ai": "0.3",	"a": "1.4",	"haw": "0",	"other": "0.4",	"his": "1.9"},
+  "Oceanport": {"white": "94.5",	"af": "3.4",	"ai": "0.4",	"a": "2.1",	"haw": "0",	"other": "0.9",	"his": "4"},
+  "Rumson": {"white": "98.2",	"af": "0.4",	"ai": "0.3",	"a": "1.9",	"haw": "0.1",	"other": "0.3",	"his": "2.4"},
+  "Sea Bright": {	"white": "95.5",	"af": "0.8",	"ai": "0.1",	"a": "2.5",	"haw": "0.1",	"other": "1.9",	"his": "5.5"},
+  "Union Beach": {"white": "93",	"af": "2.2",	"ai": "0.7",	"a": "2.7",	"haw": "0.1",	"other": "3.8",	"his": "11"}
+                  },
       
 
-"District 14": { "Name": "Cranbury Township,East Windsor,Hamilton Township of Mercer County,Hightstown,Jamesburg,Monroe Township of Middlesex County,Plainsboro,Robbinsville,Spotswood",
-                  "Deviation": "-4,847",
-                 "white": "73.2",
-                "african": "8.3",
-                "asian": "12.3",
-                "hispanic": "10.4"},
+"District 14": { 
+  "Cranbury Township": {"white": "82",	"af": "3.9",	"ai": "0.3",	"a": "14.9",	"haw": "0.1",	"other": "0.7",	"his": "2.6"},
+  "East Windsor": {"white": "64.2",	"af": "9.5",	"ai": "1",	"a": "18.6",	"haw": "0.2",	"other": "9.6",	"his": "19.6"},
+  "Hamilton Township": {"white": "79.9",	"af": "12.7",	"ai": "0.5",	"a": "3.8",	"haw": "0.2",	"other": "5",	"his": "10.9"},
+  "Hightstown": {"white": "72.4",	"af": "9.2",	"ai": "1.6",	"a": "5.1",	"haw": "0.5",	"other": "15.9",	"his": "30.3"},
+  "Jamesburg": {"white": "75.8",	"af": "10",	"ai": "1.1",	"a": "5.1",	"haw": "0.1",	"other": "10.5",	"his": "22.4"},
+  "Monroe Township": {"white": "82.5",	"af": "4.3",	"ai": "0.3",	"a": "13.3",	"haw": "0",	"other": "0.9",	"his": "4.3"},
+  "Plainsboro": {"white": "42.6",	"af": "8.8",	"ai": "0.6",	"a": "47.8",	"haw": "0.1",	"other": "2.7",	"his": "6.2"},
+  "Robbinsville": {"white": "83.1",	"af": "3.7",	"ai": "0.3",	"a": "13.8",	"haw": "0",	"other": "1.1",	"his": "4.1"},
+  "Spotswood": {"white": "90.3",	"af": "3.8",	"ai": "0.6",	"a": "5.7",	"haw": "0.1",	"other": "1.6",	"his": "8.3"}
+                  },
       
 
-"District 15": { "Name": "East Amwell,Ewing,Hopewell of Mercer County,Hopewell Township,Lambertville,Lawrence Township of Mercer County,Pennington,Trenton,West Amwell,West Windsor",
-                  "Deviation": "-4,887",
-                  "white": "52.7",
-                "african": "27.8",
-                "asian": "9.0",
-                "hispanic": "16.9"},
+"District 15": { 
+  "East Amwell": {"white": "96.5",	"af": "1.4",	"ai": "0.4",	"a": "1.7",	"haw": "0",	"other": "0.8",	"his": "2.8"},
+, "Ewing": {"white": "64.9",	"af": "29.1",	"ai": "0.8",	"a": "4.9",	"haw": "0.2",	"other": "2.8",	"his": "7.6"},
+  "Hopewell": {"white": "96.1",	"af": "1.9",	"ai": "0.5",	"a": "1",	"haw": "0.1",	"other": "1.6",	"his": "3.7"},
+  "Hopewell Township": {"white": "88.3",	"af": "2.5",	"ai": "0.3",	"a": "10",	"haw": "0.1",	"other": "0.6",	"his": "3.3"},
+  "Lambertville": {"white": "92.4",	"af": "2.5",	"ai": "0.5",	"a": "1.5",	"haw": "0",	"other": "4.4",	"his": "9.8"},
+  "Lawrence Township of Mercer County": {"white": "71.4",	"af": "11.7",	"ai": "0.6",	"a": "15.2",	"haw": "0.4",	"other": "3.4",	"his": "7.5"},
+  "Pennington": {"white": "96.2",	"af": "2",	"ai": "0.1",	"a": "2.3",	"haw": "0.2",	"other": "0.2",	"his": "1.4"},
+  "Trenton": {"white": "29.4",	"af": "54",	"ai": "1.5",	"a": "1.6",	"haw": "0.4",	"other": "17.6",	"his": "33.7"},
+  "West Amwell": {"white": "83.7",	"af": "14.1",	"ai": "0.3",	"a": "1.8",	"haw": "0.1",	"other": "1.4",	"his": "4.8"},
+  "West Windsor": {"white": "57",	"af": "4.3",	"ai": "0.3",	"a": "39.5",	"haw": "0.1",	"other": "1.6",	"his": "4.5"},
+                  },
       
 
-"District 16": { "Name": "Branchburg,Delaware,Flemington,Hillsborough,Manville,Millstone,Montgomery,Princeton,Raritan Township,Readington,Rocky Hill,Somerville,South Brunswick,Stockton",
-                  "Deviation": "-1,257",
-                 "white": "74.5",
-                "african": "4.7",
-                "asian": "16.0",
-                "hispanic": "8.0"},
+"District 16": { 
+  "Branchburg": {"white": "88.2",	"af": "2.8",	"ai": "0.5",	"a": "9.3",	"haw": "0.1",	"other": "1",	"his": "4.4"},
+  "Delaware": {"white": "97.7",	"af": "1",	"ai": "0.7",	"a": "1.4",	"haw": "0",	"other": "0.7",	"his": "2.5"},
+  "Flemington": {"white": "80.5",	"af": "4.8",	"ai": "1.2",	"a": "6.7",	"haw": "0.2",	"other": "9.5",	"his": "26.2"},
+  "Hillsborough": {"white": "80.3",	"af": "5.3",	"ai": "0.4",	"a": "13.4",	"haw": "0.1",	"other": "2.8",	"his": "7.6"},
+  "Manville": {"white": "88.5",	"af": "3.3",	"ai": "0.5",	"a": "2.5",	"haw": "0",	"other": "7.6",	"his": "19"},
+  "Millstone": {"white": "96.2",	"af": "1.2",	"ai": "0",	"a": "2.2",	"haw": "0",	"other": "1",	"his": "3.6"},
+  "Montgomery": {"white": "69.6",	"af": "3.4",	"ai": "0.4",	"a": "27.3",	"haw": "0.1",	"other": "1.9",	"his": "4.6"},
+  "Princeton": {"white": "75.2",	"af": "7.5",	"ai": "0.6",	"a": "15.5",	"haw": "0.3",	"other": "4.7",	"his": "10.3"},
+  "Raritan Township": {"white": "90.9",	"af": "2.5",	"ai": "0.4",	"a": "6.7",	"haw": "0",	"other": "1.1",	"his": "5.1"},
+  "Readington": {"white": "94.1",	"af": "1.6",	"ai": "0.3",	"a": "4.2",	"haw": "0.1",	"other": "0.9",	"his": "3.9"},
+  "Rocky Hill": {"white": "94.6",	"af": "2.8",	"ai": "1.3",	"a": "3.4",	"haw": "0.3",	"other": "1.5",	"his": "4.8"},
+  "Somerville": {"white": "69.1",	"af": "14.1",	"ai": "0.9",	"a": "12.3",	"haw": "0.1",	"other": "7.9",	"his": "23.7"},
+  "South Brunswick": {"white": "53.7",	"af": "8.6",	"ai": "0.6",	"a": "37.3",	"haw": "0.1",	"other": "2.4",	"his": "6"},
+  "Stockton": {"white": "99.1",	"af": "0.2",	"ai": "0.2",	"a": "1.3",	"haw": "0.2",	"other": "0.2",	"his": "0.6"}
+                  },
       
 
-"District 17": { "Name": "Franklin Township of Somerset County,Milltown,New Brunswick,North Brunswick,Piscataway",
-               "Deviation": "1,363",
-                "white": "45.2",
-                "african": "20.0",
-                "asian": "20.6",
-                "hispanic": "22.4"},
+"District 17": { 
+  "Franklin Township": {"white": "46.9",	"af": "28.1",	"ai": "0.9",	"a": "21.3",	"haw": "0.2",	"other": "6.3",	"his": "12.9"},
+  "Milltown": {"white": "93.6",	"af": "1.6",	"ai": "0.3",	"a": "3.7",	"haw": "0",	"other": "2",	"his": "6.5"},
+  "New Brunswick": {"white": "48.8",	"af": "17.6",	"ai": "1.8",	"a": "8.4",	"haw": "0.2",	"other": "28",	"his": "49.9"},
+  "North Brunswick": {"white": "48.5",	"af": "18.7",	"ai": "0.9",	"a": "25.6",	"haw": "0.2",	"other": "9.4",	"his": "17.7"},
+  "Piscataway": {"white": "40.5",	"af": "22",	"ai": "0.9",	"a": "35.2",	"haw": "0.2",	"other": "5",	"his": "11.2"}
+               },
       
 
-"District 18": { "Name": "East Brunswick,Edison,Helmetta,Highland Park,Metuchen,South Plainfield,South River",
-                  "Deviation": "-3,191",
-                 "white": "58.6",
-                "african": "6.6",
-                "asian": "28.9",
-                "hispanic": "9.1"},
+"District 18": { 
+  "East Brunswick": {"white": "70.9",	"af": "4.6",	"ai": "0.3",	"a": "23.9",	"haw": "0.1",	"other": "2.4",	"his": "6.7"},
+  "Edison": {"white": "45.4",	"af": "7.7",	"ai": "0.7",	"a": "44.9",	"haw": "0.2",	"other": "3.9",	"his": "8.1"},
+  "Helmetta": {"white": "89.6",	"af": "4.7",	"ai": "0.7",	"a": "5.3",	"haw": "0",	"other": "1.2",	"his": "7.5"},
+  "Highland Park": {"white": "70.3",	"af": "9",	"ai": "0.6",	"a": "19",	"haw": "0.2",	"other": "3.8",	"his": "9"},
+  "Metuchen": {"white": "80.1",	"af": "5.9",	"ai": "0.5",	"a": "14.5",	"haw": "0.1",	"other": "2.1",	"his": "6.9"},
+  "South Plainfield": {"white": "68.9",	"af": "11.3",	"ai": "0.9",	"a": "16",	"haw": "0.2",	"other": "6.3",	"his": "13.2"},
+  "South River": {"white": "79.1",	"af": "8.1",	"ai": "0.6",	"a": "5.4",	"haw": "0.2",	"other": "10.1",	"his": "18.2"}
+                  },
       
 
-"District 19": { "Name": "Carteret,Perth Amboy,Sayreville,South Amboy,Woodbridge Township",
-                  "Deviation": "4,781",
-                 "white": "58.8",
-                "african": "10.5",
-                "asian": "15.5",
-                "hispanic": "30.6"},
+"District 19": { 
+  "Carteret": {"white": "53",	"af": "16.4",	"ai": "1.1",	"a": "20.4",	"haw": "0.2",	"other": "13.2",	"his": "30.9"},
+  "Perth Amboy": {"white": "54.4",	"af": "12.4",	"ai": "1.7",	"a": "2.1",	"haw": "0.3",	"other": "35",	"his": "78.1"},
+  "Sayreville": {"white": "68.6",	"af": "11.6",	"ai": "0.5",	"a": "17.1",	"haw": "0.2",	"other": "4.6",	"his": "12.3"},
+  "South Amboy": {"white": "88.2",	"af": "5.2",	"ai": "0.5",	"a": "4.6",	"haw": "0.1",	"other": "3.5",	"his": "13.4"},
+  "Woodbridge Township": {"white": "61",	"af": "10.8",	"ai": "0.8",	"a": "23.7",	"haw": "0.1",	"other": "6.7",	"his": "15.6"}
+                  },
       
 
-"District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Township of Union County",
-                  "Deviation": "4,303",
-                 "white": "50.2",
-                "african": "29.3",
-                "asian": "4.3",
-                "hispanic": "41.2"},
+"District 20": { 
+  "Elizabeth": {"white": "58.2",	"af": "22.5",	"ai": "1.4",	"a": "2.5",	"haw": "0.2",	"other": "20",	"his": "59.5"},
+  "Hillside": {"white": "36.6",	"af": "54.6",	"ai": "0.7",	"a": "3.2",	"haw": "0.3",	"other": "7.7",	"his": "17.6"},
+  "Roselle": {"white": "31.7",	"af": "56.8",	"ai": "1",	"a": "2.7",	"haw": "0.2",	"other": "11.1",	"his": "26.8"},
+  "Union Township": {"white": "55.4",	"af": "30",	"ai": "0.5",	"a": "11.4",	"haw": "0.2",	"other": "5.1",	"his": "14.9"}
+                  },
       
 
 "District 21": { "Name": "Berkeley Heights,Bernards,Chatham,Cranford,Far Hills,Garwood,Kenilworth,Long Hill,Mountainside,New Providence,Roselle Park,Springfield Township,Summit,Warren,Watchung,Westfield",

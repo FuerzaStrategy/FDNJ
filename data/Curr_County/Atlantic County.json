@@ -6,7 +6,8 @@
     "a": "8.9",	
     "haw": "0.1",	
     "other": "3.9",	
-    "his": "7.5"
+    "his": "7.5",
+    "population": "8,411"
   },
   "Atlantic City": {	
     "white": "29.8",	
@@ -15,7 +16,8 @@
     "a": "16.6",	
     "haw": "0.2",	
     "other": "16.8",	
-    "his": "30.4"
+    "his": "30.4", 
+    "population": "39,558"
   },
   "Brigantine": {	
     "white": "89",	
@@ -24,7 +26,8 @@
     "a": "5.5",	
     "haw": "0.1",	
     "other": "3.2",	
-    "his": "6.9"
+    "his": "6.9", 
+    "population": "9,450"
   },
   "Buena": {	
     "white": "75.8",	
@@ -33,7 +36,8 @@
     "a": "2",	
     "haw": "0.3",	
     "other": "12.7",	
-    "his": "29.4"
+    "his": "29.4",
+    "population": "4,603"
   },
   "Buena Vista Township": {	
     "white": "80.3",	
@@ -42,7 +46,8 @@
     "a": "1.5",	
     "haw": "0.2",	
     "other": "5",	
-    "his": "11.5"
+    "his": "11.5",
+    "population": "7,570"
   },
   "Corbin City": {	
     "white": "97.8",	
@@ -51,7 +56,8 @@
     "a": "1.2",	
     "haw": "0",	
     "other": "0.6",	
-    "his": "3.5"
+    "his": "3.5",
+    "population": "492"
   },
   "Egg Harbor City": {	
     "white": "66.3",	
@@ -60,7 +66,8 @@
     "a": "2.8",	
     "haw": "0.3",	
     "other": "13.4",	
-    "his": "26.3"
+    "his": "26.3", 
+    "population": "4,243"
   },
   "Egg Harbor Township": {	
     "white": "72.4",	
@@ -69,7 +76,8 @@
     "a": "12.9",	
     "haw": "0.1",	
     "other": "6.2",	
-    "his": "13"
+    "his": "13",
+    "population": "43,323"
   },
   "Estell Manor": {	
     "white": "97.2",	
@@ -78,7 +86,8 @@
     "a": "1.6",	
     "haw": "0",	
     "other": "0.2",	
-    "his": "1"
+    "his": "1",
+    "population": "1,735"
   },
   "Folsom": {	
     "white": "92.4",	
@@ -87,7 +96,8 @@
     "a": "1.4",	
     "haw": "0.6",	
     "other": "2.2",	
-    "his": "6.7"
+    "his": "6.7",
+    "population": "1,885"
   },
   "Galloway": {	
     "white": "74.2",	
@@ -96,7 +106,8 @@
     "a": "11.1",	
     "haw": "0.1",	
     "other": "4.2",	
-    "his": "10"
+    "his": "10", 
+    "population": "37,349"
   },
   "Hamilton Township": {	
     "white": "70.9",	
@@ -105,7 +116,8 @@
     "a": "6.2",	
     "haw": "0.1",	
     "other": "5.1",	
-    "his": "12.8"
+    "his": "12.8",
+    "population": "26,503"
   },
   "Hammonton": {	
     "white": "84.2",	
@@ -114,7 +126,8 @@
     "a": "1.8",	
     "haw": "0.1",	
     "other": "12.3",	
-    "his": "20.9"
+    "his": "20.9",
+    "population": "14,791"
   },
   "Linwood": {	
     "white": "94.5",	
@@ -123,7 +136,8 @@
     "a": "4.6",	
     "haw": "0",	
     "other": "0.8",	
-    "his": "3"
+    "his": "3", 
+    "population": "7,092"
   },
   "Longport": {	
     "white": "99",	
@@ -132,7 +146,8 @@
     "a": "0.4",	
     "haw": "0",	
     "other": "0.1",	
-    "his": "1.1"
+    "his": "1.1", 
+    "population": "895"
   },
   "Margate City": {	
     "white": "97.5",	
@@ -141,7 +156,8 @@
     "a": "1.4",	
     "haw": "0.1",	
     "other": "1",	
-    "his": "2.8"
+    "his": "2.8", 
+    "population": "6,354"
   },
   "Mullica": {	
     "white": "85.9",	
@@ -150,7 +166,8 @@
     "a": "1.1",	
     "haw": "0",	
     "other": "8.1",	
-    "his": "17"
+    "his": "17",
+    "population": "6,147"
   },
   "Northfield": {	
     "white": "88.8",	
@@ -159,7 +176,8 @@
     "a": "5.3",	
     "haw": "0.1",	
     "other": "3.6",	
-    "his": "8"
+    "his": "8", 
+    "population": "8,624"
   },
   "Pleasantville": {	
     "white": "27.2",	
@@ -168,7 +186,8 @@
     "a": "3.1",	
     "haw": "0.2",	
     "other": "24",	
-    "his": "41.1"
+    "his": "41.1", 
+    "population": "20,249"
   },
   "Port Republic": {	
     "white": "97.2",	
@@ -177,7 +196,8 @@
     "a": "1.3",	
     "haw": "0",	
     "other": "1.6",	
-    "his": "3"
+    "his": "3",
+    "population": "1,115"
   },
   "Somers Point": {	
     "white": "81.3",	
@@ -186,7 +206,8 @@
     "a": "3.5",	
     "haw": "0.1",	
     "other": "4.9",	
-    "his": "9.5"
+    "his": "9.5", 
+    "population": "10,795"
   },
   "Ventnor City": {	
     "white": "77.8",	
@@ -195,7 +216,8 @@
     "a": "9.4",	
     "haw": "0.2",	
     "other": "9.2",	
-    "his": "18"
+    "his": "18", 
+    "population": "10,650"
   },
   "Weymouth": {	
     "white": "93.3",	
@@ -204,6 +226,7 @@
     "a": "1.1",	
     "haw": "0.1",	
     "other": "0.8",	
-    "his": "4.6"
+    "his": "4.6",
+    "population": "2,715"
   }
 }

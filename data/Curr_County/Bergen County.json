@@ -6,7 +6,8 @@
     "a": "10.7",	
     "haw": "0",	
     "other": "1",	
-    "his": "4.7"
+    "his": "4.7",
+    "population": "6,505"
   },
   "Alpine": {	
     "white": "70.1",	
@@ -15,7 +16,8 @@
     "a": "27.7",	
     "haw": "0",	
     "other": "1.6",	
-    "his": "4.8"
+    "his": "4.8",
+    "population": "1,849"
   },
   "Bergenfield": {	
     "white": "54.8",	
@@ -24,7 +26,8 @@
     "a": "27.1",	
     "haw": "0.2",	
     "other": "12",	
-    "his": "26.5"
+    "his": "26.5",
+    "population": "26,764"
   },
   "Bogota": {	
     "white": "64",	
@@ -33,7 +36,8 @@
     "a": "10.9",	
     "haw": "0.2",	
     "other": "17.1",	
-    "his": "38.7"
+    "his": "38.7",
+    "population": "8,187"
   },
   "Carlstadt": {	
     "white": "83.5",	
@@ -42,7 +46,8 @@
     "a": "8.7",	
     "haw": "0.2",	
     "other": "6.5",	
-    "his": "18"
+    "his": "18",
+    "population": "6,127"
   },
   "Cliffside Park": {	
     "white": "73.3",	
@@ -51,7 +56,8 @@
     "a": "15",	
     "haw": "0.2",	
     "other": "10.6",	
-    "his": "28.4"
+    "his": "28.4",
+    "population": "23,594"
   },
   "Closter": {	
     "white": "65.2",	
@@ -60,7 +66,8 @@
     "a": "32.6",	
     "haw": "0",	
     "other": "1.8",	
-    "his": "6"
+    "his": "6",
+    "population": "8,373"
   },
   "Cresskill": {	
     "white": "70.3",	
@@ -69,7 +76,8 @@
     "a": "28.8",	
     "haw": "0.1",	
     "other": "1.4",	
-    "his": "6.3"
+    "his": "6.3",
+    "population": "8,573"
   },
   "Demarest": {	
     "white": "71.9",	
@@ -78,7 +86,8 @@
     "a": "28",	
     "haw": "0.2",	
     "other": "1",	
-    "his": "4.4"
+    "his": "4.4",
+    "population": "4,881"
   },
   "Dumont": {	
     "white": "77.6",	
@@ -87,7 +96,8 @@
     "a": "16.1",	
     "haw": "0.2",	
     "other": "5",	
-    "his": "14.8"
+    "his": "14.8",
+    "population": "17,479"
   },
   "East Rutherford": {	
     "white": "75",	
@@ -96,7 +106,8 @@
     "a": "14.8",	
     "haw": "0.1",	
     "other": "6.9",	
-    "his": "17.5"
+    "his": "17.5",
+    "population": "8,913"
   },
   "Edgewater": {	
     "white": "55.5",	
@@ -105,7 +116,8 @@
     "a": "36.9",	
     "haw": "0.1",	
     "other": "4.2",	
-    "his": "11.1"
+    "his": "11.1",
+    "population": "11,513"
   },
   "Elmwood Park": {	
     "white": "77.5",	
@@ -114,7 +126,8 @@
     "a": "11.8",	
     "haw": "0.1",	
     "other": "6.8",	
-    "his": "21.2"
+    "his": "21.2",
+    "population": "19,403"
   },
   "Emerson": {	
     "white": "88.8",	
@@ -123,7 +136,8 @@
     "a": "9.5",	
     "haw": "0.2",	
     "other": "1.5",	
-    "his": "8.4"
+    "his": "8.4",
+    "population": "7,401"
   },
   "Englewood": {	
     "white": "47.6",	
@@ -132,7 +146,8 @@
     "a": "8.9",	
     "haw": "0.2",	
     "other": "11.4",	
-    "his": "27.5"
+    "his": "27.5",
+    "population": "27,147"
   },
   "Englewood Cliffs": {	
     "white": "57.9",	
@@ -141,7 +156,8 @@
     "a": "40.1",	
     "haw": "0.1",	
     "other": "1.5",	
-    "his": "6"
+    "his": "6",
+    "population": "5,281"
   },
   "Fair Lawn": {	
     "white": "85.8",	
@@ -150,7 +166,8 @@
     "a": "10.5",	
     "haw": "0",	
     "other": "3",	
-    "his": "10.2"
+    "his": "10.2",
+    "population": "32,457"
   },
   "Fairview": {	
     "white": "71.2",	
@@ -159,7 +176,8 @@
     "a": "5.6",	
     "haw": "0.1",	
     "other": "23.8",	
-    "his": "54.6"
+    "his": "54.6",
+    "population": "13,835"
   },
   "Fort Lee": {	
     "white": "55.1",	
@@ -168,7 +186,8 @@
     "a": "39.5",	
     "haw": "0.1",	
     "other": "3.8",	
-    "his": "11"
+    "his": "11",
+    "population": "35,345"
   },
   "Franklin Lakes": {	
     "white": "90.3",	
@@ -177,7 +196,8 @@
     "a": "8.3",	
     "haw": "0",	
     "other": "1.1",	
-    "his": "5"
+    "his": "5",
+    "population": "10,590"
   },
   "Garfield": {	
     "white": "79.3",	
@@ -186,7 +206,8 @@
     "a": "2.8",
     "haw": "0.1",	
     "other": "12.7",	
-    "his": "32.2"
+    "his": "32.2",
+    "population": "30,487"
   },
   "Glen Rock": {	
     "white": "88.7",	
@@ -195,7 +216,8 @@
     "a": "10.1",	
     "haw": "0.1",	
     "other": "0.9",	
-    "his": "4.5"
+    "his": "4.5",
+    "population": "11,601"
   },
   "Hackensack": {	
     "white": "49.8",	
@@ -204,7 +226,8 @@
     "a": "11.2",	
     "haw": "0.3",	
     "other": "16.2",	
-    "his": "35.3"
+    "his": "35.3",
+    "population": "43,010"
   },
   "Harrington Park": {	
     "white": "81",	
@@ -213,7 +236,8 @@
     "a": "18.2",	
     "haw": "0.2",	
     "other": "0.8",
-    "his": "3.5"
+    "his": "3.5",
+    "population": "4,664"
   },
   "Hasbrouck Heights": {	
     "white": "83.1",	
@@ -222,7 +246,8 @@
     "a": "11",	
     "haw": "0.1",	
     "other": "4.5",	
-    "his": "14.9"
+    "his": "14.9",
+    "population": "11,842"
   },
   "Haworth": {	
     "white": "86.3",	
@@ -231,7 +256,8 @@
     "a": "13.5",	
     "haw": "0",	
     "other": "0.7",	
-    "his": "4.4"
+    "his": "4.4",
+    "population": "3,382"
   },
   "Hillsdale": {	
     "white": "90.4",	
@@ -240,7 +266,8 @@
     "a": "6.8",	
     "haw": "0.1",	
     "other": "2.4",	
-    "his": "7.8"
+    "his": "7.8",
+    "population": "10,219"
   },
   "Ho-Ho-Kus": {	"white": "93.3",	"af": "0.3",	"ai": "0.2",	"a": "7.1",	"haw": "0",	"other": "0.7",	"his": "4.1"},
   "Leonia": {	"white": "58.1",	"af": "3.3",	"ai": "0.7",	"a": "36.6",	"haw": "0.1",	"other": "4.8",	"his": "16.7"},

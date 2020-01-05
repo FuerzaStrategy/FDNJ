@@ -1,14 +1,14 @@
 {
-"Bayonne": {	"white": "82",	"af": "6.3",	"ai": "0.5",	"a": "4.8",	"haw": "0.2",	"other": "10.4",	"his": "17.8", "population": "65,083", "voters": "31,542"},
-"East Newark": {	"white": "73.5",	"af": "2.4",	"ai": "0.8",	"a": "2.8",	"haw": "0",	"other": "27.8",	"his": "47.5", "population": "2,647", "voters": "808"},
-"Guttenberg": {	"white": "71",	"af": "4.7",	"ai": "0.8",	"a": "8.2",	"haw": "0.1",	"other": "22.5",	"his": "54.3", "population": "11,326", "voters": "4,664"},
-"Harrison": {	"white": "70.4",	"af": "1.3",	"ai": "0.7",	"a": "12.4",	"haw": "0.2",	"other": "19.9",	"his": "37", "population": "17,836", "voters": "5,413"},
-"Hoboken": {	"white": "83.1",	"af": "5.1",	"ai": "0.5",	"a": "4.9",	"haw": "0.1",	"other": "9.3",	"his": "20.2", "population": "53,455", "voters": "24,344"},
-"Jersey City": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3", "population": "265,549", "voters": "103,607"},
-"Kearny": {	"white": "79.5",	"af": "4.6",	"ai": "0.6",	"a": "6",	"haw": "0.2",	"other": "13.5",	"his": "27.3", "population": "41,422", "voters": "16,200"},
-"North Bergen": {	"white": "74",	"af": "3.6",	"ai": "0.8",	"a": "7.3",	"haw": "0.1",	"other": "21.8",	"his": "57.3", "population": "61,627", "voters": "28,913"},
-"Secaucus": {	"white": "80.5",	"af": "4.7",	"ai": "0.2",	"a": "12.5",	"haw": "0",	"other": "4.4",	"his": "12.3", "population": "20,742", "voters": "9,978"},
-"Union City": {	"white": "64.2",	"af": "5.3",	"ai": "1.2",	"a": "2.6",	"haw": "0.2",	"other": "33.7",	"his": "82.3", "population": "68,520", "voters": "27,777"},
-"Weehawken": {	"white": "76.9",	"af": "4.7",	"ai": "0.6",	"a": "5.2",	"haw": "0.1",	"other": "17.2",	"his": "40.6", "population": "14,864", "voters": "6,584"},
-"West New York": {	"white": "66.7",	"af": "4.8",	"ai": "1.1",	"a": "3.4",	"haw": "0.1",	"other": "31.8",	"his": "78.7", "population": "52,990", "voters": "17,218"}
+"Bayonne": {	"voters": "31542",	"population": "61842",	"white": "82",	"af": "6.3",	"ai": "0.5",	"a": "4.8",	"haw": "0.2",	"other": "10.4",	"his": "17.8"},
+"East Newark": {	"voters": "808",	"population": "2377",	"white": "73.5",	"af": "2.4",	"ai": "0.8",	"a": "2.8",	"haw": "0",	"other": "27.8",	"his": "47.5"},
+"Guttenberg": {	"voters": "4664",	"population": "10807",	"white": "71",	"af": "4.7",	"ai": "0.8",	"a": "8.2",	"haw": "0.1",	"other": "22.5",	"his": "54.3"},
+"Harrison": {	"voters": "5413",	"population": "14424",	"white": "70.4",	"af": "1.3",	"ai": "0.7",	"a": "12.4",	"haw": "0.2",	"other": "19.9",	"his": "37"},
+"Hoboken": {	"voters": "24344",	"population": "38577",	"white": "83.1",	"af": "5.1",	"ai": "0.5",	"a": "4.9",	"haw": "0.1",	"other": "9.3",	"his": "20.2"},
+"Jersey City": {	"voters": "103607",	"population": "240055",	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3"},
+"Kearny": {	"voters": "16200",	"population": "40513",	"white": "79.5",	"af": "4.6",	"ai": "0.6",	"a": "6",	"haw": "0.2",	"other": "13.5",	"his": "27.3"},
+"North Bergen": {	"voters": "28913",	"population": "58092",	"white": "74",	"af": "3.6",	"ai": "0.8",	"a": "7.3",	"haw": "0.1",	"other": "21.8",	"his": "57.3"},
+"Secaucus": {	"voters": "9978",	"population": "15931",	"white": "80.5",	"af": "4.7",	"ai": "0.2",	"a": "12.5",	"haw": "0",	"other": "4.4",	"his": "12.3"},
+"Union City": {	"voters": "27777",	"population": "67088",	"white": "64.2",	"af": "5.3",	"ai": "1.2",	"a": "2.6",	"haw": "0.2",	"other": "33.7",	"his": "82.3"},
+"Weehawken": {	"voters": "6584",	"population": "13501",	"white": "76.9",	"af": "4.7",	"ai": "0.6",	"a": "5.2",	"haw": "0.1",	"other": "17.2",	"his": "40.6"},
+"West New York": {	"voters": "17218",	"population": "45768",	"white": "66.7",	"af": "4.8",	"ai": "1.1",	"a": "3.4",	"haw": "0.1",	"other": "31.8",	"his": "78.7"}
 }

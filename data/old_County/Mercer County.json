@@ -1,14 +1,15 @@
 {
-"East Windsor": {	"white": "76.1",	"af": "9.6",	"ai": "0.5",	"a": "10.1",	"haw": "0.2",	"other": "5.9",	"his": "14.3", "population": "27,442", "voters": "13,369"},
-"Ewing": {	"white": "70.2",	"af": "25.8",	"ai": "0.7",	"a": "2.6",	"haw": "0.1",	"other": "2.6",	"his": "4.4", "population": "36,421", "voters": "21,560"},
-"Hamilton Township": {	"white": "86.3",	"af": "8.9",	"ai": "0.4",	"a": "2.9",	"haw": "0.1",	"other": "3.2",	"his": "5.1", "population": "87,552", "voters": "0"},
-"Hightstown": {	"white": "78.8",	"af": "9.5",	"ai": "1",	"a": "2.6",	"haw": "0.2",	"other": "10.9",	"his": "20.1", "population": "5,315", "voters": "2,672"},
-"Hopewell": {	"white": "96.1",	"af": "1.3",	"ai": "1",	"a": "1.1",	"haw": "0",	"other": "1.4",	"his": "2.3", "population": "1,916", "voters": "0"},
-"Hopewell Township": {	"white": "89.3",	"af": "6.1",	"ai": "0.4",	"a": "4.4",	"haw": "0.1",	"other": "1",	"his": "2.5", "population": "17,978", "voters": "10,754"},
-"Lawrence Township": {	"white": "80.5",	"af": "9.8",	"ai": "0.4",	"a": "8.4",	"haw": "0.2",	"other": "2.5",	"his": "4.6", "population": "32,668", "voters": "0"},
-"Pennington": {	"white": "96",	"af": "2.9",	"ai": "0.2",	"a": "1.2",	"haw": "0",	"other": "0.7",	"his": "1.2", "population": "2,531", "voters": "1,904"},
-"Princeton": {	"white": "82.8",	"af": "6.8",	"ai": "0.6",	"a": "9.1",	"haw": "0.2",	"other": "3.5",	"his": "7.1", "population": "31,386", "voters": "6,385"},
-"Robbinsville": {	"white": "83.1",	"af": "3.7",	"ai": "0.3",	"a": "13.8",	"haw": "0",	"other": "1.1",	"his": "4.1", "population": "14,583", "voters": "6,323"},
-"Trenton": {	"white": "34.5",	"af": "53.6",	"ai": "0.8",	"a": "1.2",	"haw": "0.4",	"other": "12.9",	"his": "21.5", "population": "83,974", "voters": "39,810"},
-"West Windsor": {	"white": "73",	"af": "3.2",	"ai": "0.3",	"a": "23.8",	"haw": "0.1",	"other": "1.6",	"his": "4.1", "population": "28,045", "voters": "13,090"}
+"East Windsor": {	"voters": "13369",	"population": "24919",	"white": "76.1",	"af": "9.6",	"ai": "0.5",	"a": "10.1",	"haw": "0.2",	"other": "5.9",	"his": "14.3"},
+"Ewing": {	"voters": "21560",	"population": "35707",	"white": "70.2",	"af": "25.8",	"ai": "0.7",	"a": "2.6",	"haw": "0.1",	"other": "2.6",	"his": "4.4"},
+"Hamilton Township": {	"voters": "53471",	"population": "87109",	"white": "73.3",	"af": "20.3",	"ai": "0.8",	"a": "3.7",	"haw": "0.2",	"other": "4.2",	"his": "7.9"},
+"Hightstown": {	"voters": "2672",	"population": "5216",	"white": "78.8",	"af": "9.5",	"ai": "1",	"a": "2.6",	"haw": "0.2",	"other": "10.9",	"his": "20.1"},
+"Hopewell": {	"voters": "1385",	"population": "2035",	"white": "89.3",	"af": "6.1",	"ai": "0.4",	"a": "4.4",	"haw": "0.1",	"other": "1",	"his": "2.5"},
+"Hopewell Township": {	"voters": "10754",	"population": "16105",	"white": "88.2",	"af": "7.6",	"ai": "3.2",	"a": "0.9",	"haw": "0",	"other": "1.8",	"his": "3.6"},
+"Lawrence Township": {	"voters": "17033",	"population": "29159",	"white": "83.8",	"af": "11.7",	"ai": "2.6",	"a": "0.4",	"haw": "0.3",	"other": "4.2",	"his": "7"},
+"Pennington": {	"voters": "1904",	"population": "2696",	"white": "96",	"af": "2.9",	"ai": "0.2",	"a": "1.2",	"haw": "0",	"other": "0.7",	"his": "1.2"},
+"Princeton": {	"voters": "6385",	"population": "14203",	"white": "82.8",	"af": "6.8",	"ai": "0.6",	"a": "9.1",	"haw": "0.2",	"other": "3.5",	"his": "7.1"},
+"Princeton Township": {	"voters": "10233",	"population": "16027",	"white": "82",	"af": "6.2",	"ai": "0.4",	"a": "10.9",	"haw": "0.1",	"other": "3.1",	"his": "5.3"},
+"Robbinsville": {	"voters": "6323",	"population": "10275",	"white": "91.9",	"af": "3.1",	"ai": "0.4",	"a": "4.8",	"haw": "0.1",	"other": "0.9",	"his": "2.7"},
+"Trenton": {	"voters": "39810",	"population": "85403",	"white": "34.5",	"af": "53.6",	"ai": "0.8",	"a": "1.2",	"haw": "0.4",	"other": "12.9",	"his": "21.5"},
+"West Windsor": {	"voters": "13090",	"population": "21907",	"white": "73",	"af": "3.2",	"ai": "0.3",	"a": "23.8",	"haw": "0.1",	"other": "1.6",	"his": "4.1"}
 }

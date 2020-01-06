@@ -1,232 +1,25 @@
 {
-  "Absecon": {	
-    "white": "78",	
-    "af": "10.9",	
-    "ai": "0.8",	
-    "a": "8.9",	
-    "haw": "0.1",	
-    "other": "3.9",	
-    "his": "7.5",
-    "population": "8,411"
-  },
-  "Atlantic City": {	
-    "white": "29.8",	
-    "af": "40.2",	
-    "ai": "1.5",	
-    "a": "16.6",	
-    "haw": "0.2",	
-    "other": "16.8",	
-    "his": "30.4", 
-    "population": "39,558"
-  },
-  "Brigantine": {	
-    "white": "89",	
-    "af": "3.8",	
-    "ai": "0.8",	
-    "a": "5.5",	
-    "haw": "0.1",	
-    "other": "3.2",	
-    "his": "6.9", 
-    "population": "9,450"
-  },
-  "Buena": {	
-    "white": "75.8",	
-    "af": "11",	
-    "ai": "1.3",	
-    "a": "2",	
-    "haw": "0.3",	
-    "other": "12.7",	
-    "his": "29.4",
-    "population": "4,603"
-  },
-  "Buena Vista Township": {	
-    "white": "80.3",	
-    "af": "14.9",	
-    "ai": "1.1",	
-    "a": "1.5",	
-    "haw": "0.2",	
-    "other": "5",	
-    "his": "11.5",
-    "population": "7,570"
-  },
-  "Corbin City": {	
-    "white": "97.8",	
-    "af": "0.4",	
-    "ai": "0.2",	
-    "a": "1.2",	
-    "haw": "0",	
-    "other": "0.6",	
-    "his": "3.5",
-    "population": "492"
-  },
-  "Egg Harbor City": {	
-    "white": "66.3",	
-    "af": "20.6",	
-    "ai": "1.2",	
-    "a": "2.8",	
-    "haw": "0.3",	
-    "other": "13.4",	
-    "his": "26.3", 
-    "population": "4,243"
-  },
-  "Egg Harbor Township": {	
-    "white": "72.4",	
-    "af": "10.9",	
-    "ai": "1",	
-    "a": "12.9",	
-    "haw": "0.1",	
-    "other": "6.2",	
-    "his": "13",
-    "population": "43,323"
-  },
-  "Estell Manor": {	
-    "white": "97.2",	
-    "af": "1.4",	
-    "ai": "0.4",	
-    "a": "1.6",	
-    "haw": "0",	
-    "other": "0.2",	
-    "his": "1",
-    "population": "1,735"
-  },
-  "Folsom": {	
-    "white": "92.4",	
-    "af": "5",	
-    "ai": "0.4",	
-    "a": "1.4",	
-    "haw": "0.6",	
-    "other": "2.2",	
-    "his": "6.7",
-    "population": "1,885"
-  },
-  "Galloway": {	
-    "white": "74.2",	
-    "af": "12.7",	
-    "ai": "0.9",	
-    "a": "11.1",	
-    "haw": "0.1",	
-    "other": "4.2",	
-    "his": "10", 
-    "population": "37,349"
-  },
-  "Hamilton Township": {	
-    "white": "70.9",	
-    "af": "20.5",	
-    "ai": "1.3",	
-    "a": "6.2",	
-    "haw": "0.1",	
-    "other": "5.1",	
-    "his": "12.8",
-    "population": "26,503"
-  },
-  "Hammonton": {	
-    "white": "84.2",	
-    "af": "3.8",	
-    "ai": "0.8",	
-    "a": "1.8",	
-    "haw": "0.1",	
-    "other": "12.3",	
-    "his": "20.9",
-    "population": "14,791"
-  },
-  "Linwood": {	
-    "white": "94.5",	
-    "af": "1.2",	
-    "ai": "0.4",	
-    "a": "4.6",	
-    "haw": "0",	
-    "other": "0.8",	
-    "his": "3", 
-    "population": "7,092"
-  },
-  "Longport": {	
-    "white": "99",	
-    "af": "0.4",	
-    "ai": "0.1",	
-    "a": "0.4",	
-    "haw": "0",	
-    "other": "0.1",	
-    "his": "1.1", 
-    "population": "895"
-  },
-  "Margate City": {	
-    "white": "97.5",	
-    "af": "1",	
-    "ai": "0.3",	
-    "a": "1.4",	
-    "haw": "0.1",	
-    "other": "1",	
-    "his": "2.8", 
-    "population": "6,354"
-  },
-  "Mullica": {	
-    "white": "85.9",	
-    "af": "7.1",	
-    "ai": "0.8",	
-    "a": "1.1",	
-    "haw": "0",	
-    "other": "8.1",	
-    "his": "17",
-    "population": "6,147"
-  },
-  "Northfield": {	
-    "white": "88.8",	
-    "af": "3.9",	
-    "ai": "0.5",	
-    "a": "5.3",	
-    "haw": "0.1",	
-    "other": "3.6",	
-    "his": "8", 
-    "population": "8,624"
-  },
-  "Pleasantville": {	
-    "white": "27.2",	
-    "af": "48.7",	
-    "ai": "1.6",	
-    "a": "3.1",	
-    "haw": "0.2",	
-    "other": "24",	
-    "his": "41.1", 
-    "population": "20,249"
-  },
-  "Port Republic": {	
-    "white": "97.2",	
-    "af": "0.7",	
-    "ai": "0.6",	
-    "a": "1.3",	
-    "haw": "0",	
-    "other": "1.6",	
-    "his": "3",
-    "population": "1,115"
-  },
-  "Somers Point": {	
-    "white": "81.3",	
-    "af": "12.5",	
-    "ai": "0.9",	
-    "a": "3.5",	
-    "haw": "0.1",	
-    "other": "4.9",	
-    "his": "9.5", 
-    "population": "10,795"
-  },
-  "Ventnor City": {	
-    "white": "77.8",	
-    "af": "5.4",	
-    "ai": "1",	
-    "a": "9.4",	
-    "haw": "0.2",	
-    "other": "9.2",	
-    "his": "18", 
-    "population": "10,650"
-  },
-  "Weymouth": {	
-    "white": "93.3",	
-    "af": "5.6",	
-    "ai": "0.9",	
-    "a": "1.1",	
-    "haw": "0.1",	
-    "other": "0.8",	
-    "his": "4.6",
-    "population": "2,715"
-  }
+"Absecon": {	"white": "78",	"af": "10.9",	"ai": "0.8",	"a": "8.9",	"haw": "0.1",	"other": "3.9",	"his": "7.5",	"population": "8411",	"voters": "5757",	"pop_est": "8442"},
+"Atlantic City": {	"white": "29.8",	"af": "40.2",	"ai": "1.5",	"a": "16.6",	"haw": "0.2",	"other": "16.8",	"his": "30.4",	"population": "39558",	"voters": "22159",	"pop_est": "37804"},
+"Brigantine": {	"white": "89",	"af": "3.8",	"ai": "0.8",	"a": "5.5",	"haw": "0.1",	"other": "3.2",	"his": "6.9",	"population": "9450",	"voters": "6737",	"pop_est": "8765"},
+"Buena": {	"white": "75.8",	"af": "11",	"ai": "1.3",	"a": "2",	"haw": "0.3",	"other": "12.7",	"his": "29.4",	"population": "4603",	"voters": "2841",	"pop_est": "4347"},
+"Buena Vista Township": {	"white": "80.3",	"af": "14.9",	"ai": "1.1",	"a": "1.5",	"haw": "0.2",	"other": "5",	"his": "11.5",	"population": "7570",	"voters": "4954",	"pop_est": "7299"},
+"Corbin City": {	"white": "97.8",	"af": "0.4",	"ai": "0.2",	"a": "1.2",	"haw": "0",	"other": "0.6",	"his": "3.5",	"population": "492",	"voters": "306",	"pop_est": "493"},
+"Egg Harbor City": {	"white": "66.3",	"af": "20.6",	"ai": "1.2",	"a": "2.8",	"haw": "0.3",	"other": "13.4",	"his": "26.3",	"population": "4243",	"voters": "2668",	"pop_est": "4104"},
+"Egg Harbor Towbship": {	"white": "72.4",	"af": "10.9",	"ai": "1",	"a": "12.9",	"haw": "0.1",	"other": "6.2",	"his": "13",	"population": "43323",	"voters": "25244",	"pop_est": "42578"},
+"Estell Manor": {	"white": "97.2",	"af": "1.4",	"ai": "0.4",	"a": "1.6",	"haw": "0",	"other": "0.2",	"his": "1",	"population": "1735",	"voters": "1248",	"pop_est": "1720"},
+"Folsom": {	"white": "92.4",	"af": "5",	"ai": "0.4",	"a": "1.4",	"haw": "0.6",	"other": "2.2",	"his": "6.7",	"population": "1885",	"voters": "1245",	"pop_est": "1792"},
+"Galloway": {	"white": "74.2",	"af": "12.7",	"ai": "0.9",	"a": "11.1",	"haw": "0.1",	"other": "4.2",	"his": "10",	"population": "37349",	"voters": "22558",	"pop_est": "35967"},
+"Hamilton Township": {	"white": "70.9",	"af": "20.5",	"ai": "1.3",	"a": "6.2",	"haw": "0.1",	"other": "5.1",	"his": "12.8",	"population": "26503",	"voters": "15963",	"pop_est": "25768"},
+"Hammonton": {	"white": "84.2",	"af": "3.8",	"ai": "0.8",	"a": "1.8",	"haw": "0.1",	"other": "12.3",	"his": "20.9",	"population": "14791",	"voters": "8743",	"pop_est": "14085"},
+"Linwood": {	"white": "94.5",	"af": "1.2",	"ai": "0.4",	"a": "4.6",	"haw": "0",	"other": "0.8",	"his": "3",	"population": "7092",	"voters": "5309",	"pop_est": "6740"},
+"Longport": {	"white": "99",	"af": "0.4",	"ai": "0.1",	"a": "0.4",	"haw": "0",	"other": "0.1",	"his": "1.1",	"population": "895",	"voters": "813",	"pop_est": "858"},
+"Margate City": {	"white": "97.5",	"af": "1",	"ai": "0.3",	"a": "1.4",	"haw": "0.1",	"other": "1",	"his": "2.8",	"population": "6354",	"voters": "5167",	"pop_est": "5959"},
+"Mullica": {	"white": "85.9",	"af": "7.1",	"ai": "0.8",	"a": "1.1",	"haw": "0",	"other": "8.1",	"his": "17",	"population": "6147",	"voters": "4122",	"pop_est": "5924"},
+"Northfield": {	"white": "88.8",	"af": "3.9",	"ai": "0.5",	"a": "5.3",	"haw": "0.1",	"other": "3.6",	"his": "8",	"population": "8624",	"voters": "5739",	"pop_est": "8212"},
+"Pleasantville": {	"white": "27.2",	"af": "48.7",	"ai": "1.6",	"a": "3.1",	"haw": "0.2",	"other": "24",	"his": "41.1",	"population": "20249",	"voters": "9778",	"pop_est": "20376"},
+"Port Republic": {	"white": "97.2",	"af": "0.7",	"ai": "0.6",	"a": "1.3",	"haw": "0",	"other": "1.6",	"his": "3",	"population": "1115",	"voters": "861",	"pop_est": "1058"},
+"Somers Point": {	"white": "81.3",	"af": "12.5",	"ai": "0.9",	"a": "3.5",	"haw": "0.1",	"other": "4.9",	"his": "9.5",	"population": "10795",	"voters": "6863",	"pop_est": "10285"},
+"Ventnor City": {	"white": "77.8",	"af": "5.4",	"ai": "1",	"a": "9.4",	"haw": "0.2",	"other": "9.2",	"his": "18",	"population": "10650",	"voters": "6503",	"pop_est": "10039"},
+"Weymouth": {	"white": "93.3",	"af": "5.6",	"ai": "0.9",	"a": "1.1",	"haw": "0.1",	"other": "0.8",	"his": "4.6",	"population": "2715",	"voters": "1821",	"pop_est": "2814"}
 }

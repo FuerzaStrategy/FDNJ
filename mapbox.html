@@ -543,6 +543,9 @@
 	    var currCountyData = {}
 	    var AllData = {}
 	    var new_district_data = {}
+	    var distict_new_files = {}
+	    var distict_old_files = {}
+	    var District_Population_2010 = {}
 	    
 	    var currGloucesterData = {}
 	    var currAtlanticData = {}
@@ -622,9 +625,15 @@
 	   $.getJSON("data/2010_race_data.json", function(data) {
 	        racedata2010 = data
 	    })
-	   /*$.getJSON("data/Curr_County/Hudson County.json", function(data) {
-	        currCountyData = data
-	    })*/
+	   $.getJSON("data/district_new_files.json", function(data) {
+	        district_new_files = data
+	    })
+	   $.getJSON("data/district_old_files.json", function(data) {
+	        district_old_files = data
+	    })
+           $.getJSON("data/2010_District_Population.json", function(data) {
+	        District_Population_2010 = data
+	    })
 	    
 	 $.getJSON("data.json", function(data) {
 	        AllData = data
@@ -807,11 +816,11 @@
 	                //var address_components = data.results[0].address_components
 	                for(var i = 0; i < address_components.length; i ++) {
 	                    var townName_temp = address_components[i].long_name
-	                    if(data_2000[townName_temp] !== undefined) {
+	                    /*if(data_2000[townName_temp] !== undefined) {
 	                        townName = townName_temp
 	                        data_from_2000 = data_2000[townName]
 	                        data_from_2010 = data_2010[townName]
-	                    }
+	                    }*/
 	                }
 
 			

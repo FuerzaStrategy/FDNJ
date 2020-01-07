@@ -1393,7 +1393,7 @@
 			      //$('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#population_curr_num').html("District Demographics: " + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
-			      $('#population_curr_num').html("District Demographics: " + District_Population_2010[file_name]['Population'] + " Population"
+			      $('#population_curr_num').html("District Demographics: " + District_Population_2010[file_name]['Population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#voters_curr_num').text((district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      $('#added').html("<br>" + (array_added).join(', '))
 			      $('#removed').html("<br>" + (array_removed).join(', '))

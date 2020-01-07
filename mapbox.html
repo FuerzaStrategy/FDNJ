@@ -821,6 +821,7 @@
 	                        data_from_2000 = data_2000[townName]
 	                        data_from_2010 = data_2010[townName]
 	                    }*/
+			    townName = townName_temp
 	                }
 
 			
@@ -1154,7 +1155,20 @@
 				
 				final_old_array.forEach(function(a,ind){
 				console.log(a)
-				district_african_old.push(Number(racedata2000[a]['af']))
+			        district_african_old.push(Number(countyDataOld[a]['af']))
+				district_asian_old.push(Number(countyDataOld[a]['a']))
+				district_hispanic_old.push(Number(countyDataOld[a]['his']))
+				district_ai_old.push(Number(countyDataOld[a]['ai']))
+				district_white_old.push(Number(countyDataOld[a]['white']))
+				district_haw_old.push(Number(countyDataOld[a]['haw']))
+				district_other_old.push(Number(countyDataOld[a]['other']))
+			        //district_dem_num.push(Number(data_2000[a]['democratic']))
+				//district_rep_num.push(Number(data_2000[a]['republican']))
+				district_old_people.push(Number(parseFloat((countyDataOld[a]['population']).replace(/,/g, ''))))
+				district_old_voters.push(Number(parseFloat((countyDataOld[a]['voters']).replace(/,/g, ''))))
+				});
+			        
+				/*district_african_old.push(Number(racedata2000[a]['af']))
 				district_asian_old.push(Number(racedata2000[a]['a']))
 				district_hispanic_old.push(Number(racedata2000[a]['his']))
 				district_ai_old.push(Number(racedata2000[a]['ai']))
@@ -1165,7 +1179,7 @@
 				//district_rep_num.push(Number(data_2000[a]['republican']))
 				district_old_people.push(Number(parseFloat((data_2000[a]['population']).replace(/,/g, ''))))
 				district_old_voters.push(Number(parseFloat((data_2000[a]['voters']).replace(/,/g, ''))))
-				});
+				});*/
 			    
 			         
 			    	    for(var i=0; i<district_old_people.length; i++){
@@ -1197,7 +1211,19 @@
 			      final_new_array.forEach(function(t,ind){
 					//alert(racedata2010[t]);
 				        //console.log(t);
-			                district_african_current.push(Number(racedata2010[t]['af']))			      
+				        district_african_current.push(Number(countyDataCurr[t]['af']))			      
+					district_asian_current.push(Number(countyDataCurr[t]['a']))
+					district_hispanic_current.push(Number(countyDataCurr[t]['his']))
+				        district_white_current.push(Number(countyDataCurr[t]['white']))
+				        district_ai_current.push(Number(countyDataCurr[t]['ai']))
+				        district_haw_current.push(Number(countyDataCurr[t]['haw']))
+				        district_other_current.push(Number(countyDataCurr[t]['other']))
+					//district_dem_num_current.push(Number(data_2010[a]['democratic']))
+					//district_rep_num_current.push(Number(data_2010[a]['republican']))
+					district_people_current.push(Number(parseFloat((countyDataCurr[t]['population']).replace(/,/g, ''))))
+					district_voters_current.push(Number(parseFloat((countyDataCurr[t]['voters']).replace(/,/g, ''))))
+					});
+			                /*district_african_current.push(Number(racedata2010[t]['af']))			      
 					district_asian_current.push(Number(racedata2010[t]['a']))
 					district_hispanic_current.push(Number(racedata2010[t]['his']))
 				        district_white_current.push(Number(racedata2010[t]['white']))
@@ -1208,7 +1234,7 @@
 					//district_rep_num_current.push(Number(data_2010[a]['republican']))
 					district_people_current.push(Number(parseFloat((data_2010[t]['population']).replace(/,/g, ''))))
 					district_voters_current.push(Number(parseFloat((data_2010[t]['voters']).replace(/,/g, ''))))
-					});
+					});*/
 				
 			    console.log(white_ratio_current)
 			    for(var i=0; i<district_people_current.length; i++){
@@ -1263,7 +1289,7 @@
 			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
 			      //}, 10000);
 		            
-			    $('#white_prev').text(racedata2000[townName]['white'] + "%")
+			    $('#white_prev').text(countyDataOld['white'] + "%")
 	                    $('#voters_prev').text(data_from_2000['voters'] + " Registered Voters")
 	                    //$('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    //$('#republican_prev').text(data_from_2000['republican'] + "%")
@@ -1354,7 +1380,7 @@
 			      $('#deviation_old').text("Deviation: " + dev.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      //}, 20000);
 				  
-	                    $('#voters_curr').text(data_from_2010['voters'] + " Registered Voters")
+	                    $('#voters_curr').text(countyDataCurr['voters'] + " Registered Voters")
 	                    //$('#democratic_curr').text(data_from_2010['democratic'] + "%")
 	                    //$('#republican_curr').text(data_from_2010['republican'] + "%")
 	                    $('#population_curr').text("Town Demographics: " + data_from_2010['population'] + " Total Population")

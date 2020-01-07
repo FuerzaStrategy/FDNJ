@@ -1336,7 +1336,8 @@
 			    console.log(asian_ratio_old.reduce((a, b) => a + b, 0))
 				console.log(district_old_people.reduce((a, b) => a + b, 0))
 				console.log((asian_ratio_old.reduce((a, b) => a + b, 0))/(district_old_people.reduce((a, b) => a + b, 0)))
-				console.log((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+			    console.log((((asian_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+				//console.log((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 	
 	                if(data_from_2010 == undefined) {
 	                    $('#city_curr').text("Your Town: " + townName)

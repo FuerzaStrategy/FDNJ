@@ -549,12 +549,14 @@
 "Bloomfield": {	"white": "62.3",	"af": "20.1",	"ai": "1",	"a": "9.3",	"haw": "0.2",	"other": "11.2",	"his": "24.5",	"population": "47315",	"voters": "28289",	"pop_est": "25939"},
 "Glen Ridge": {	"white": "88.6",	"af": "5.7",	"ai": "0.4",	"a": "6.3",	"haw": "0",	"other": "1.8",	"his": "5",	"population": "7527",	"voters": "5155",	"pop_est": "7598"},
 "Irvington": {	"white": "6.6",	"af": "87",	"ai": "0.9",	"a": "1.1",	"haw": "0.4",	"other": "6.4",	"his": "10.6",	"population": "53926",	"voters": "28356",	"pop_est": "54233"},
-"Nutley": {	"white": "84.3",	"af": "2.8",	"ai": "0.3",	"a": "11",	"haw": "0.1",	"other": "3.9",	"his": "11.8",	"population": "28370",	"voters": "18862",	"pop_est": "28500"}
+"Nutley": {	"white": "84.3",	"af": "2.8",	"ai": "0.3",	"a": "11",	"haw": "0.1",	"other": "3.9",	"his": "11.8",	"population": "28370",	"voters": "18862",	"pop_est": "28500"},
+"Newark": {	"white": "29",	"af": "53.9",	"ai": "1.2",	"a": "1.9",	"haw": "0.2",	"other": "17.8",	"his": "33.8",	"population": "277140",	"voters": "136359",	"pop_est": "155996"}
                   },
       
 
 "District 29": { 
-"Belleville": {	"white": "63.4",	"af": "10.6",	"ai": "0.8",	"a": "12.9",	"haw": "0.2",	"other": "16.4",	"his": "39.3",	"population": "35926",	"voters": "19492",	"pop_est": "36602"}
+"Belleville": {	"white": "63.4",	"af": "10.6",	"ai": "0.8",	"a": "12.9",	"haw": "0.2",	"other": "16.4",	"his": "39.3",	"population": "35926",	"voters": "19492",	"pop_est": "36602"},
+"Newark": {	"white": "29",	"af": "53.9",	"ai": "1.2",	"a": "1.9",	"haw": "0.2",	"other": "17.8",	"his": "33.8",	"population": "277140",	"voters": "136359",	"pop_est": "155996"}
                   },
       
 
@@ -576,7 +578,8 @@
                   },
 
 "District 31": { 
-"Bayonne": {	"white": "72.2",	"af": "10.5",	"ai": "0.9",	"a": "8.5",	"haw": "0.2",	"other": "12",	"his": "25.8",	"population": "63024",	"voters": "32721",	"pop_est": "34299"}
+"Bayonne": {	"white": "72.2",	"af": "10.5",	"ai": "0.9",	"a": "8.5",	"haw": "0.2",	"other": "12",	"his": "25.8",	"population": "63024",	"voters": "32721",	"pop_est": "34299"},
+"Jersey City": {	"white": "35.2",	"af": "27.7",	"ai": "1.2",	"a": "25.2",	"haw": "0.3",	"other": "15.1",	"his": "27.6",	"population": "247597",	"voters": "120834",	"pop_est": "145786"}
                   },
       
 
@@ -596,7 +599,8 @@
 "District 33": { 
 "Hoboken": {	"white": "84.5",	"af": "4.3",	"ai": "0.4",	"a": "8.4",	"haw": "0.2",	"other": "5.1",	"his": "15.2",	"population": "50005",	"voters": "35270",	"pop_est": "53455"},
 "Union City": {	"white": "62.5",	"af": "6.7",	"ai": "1.9",	"a": "2.9",	"haw": "0.3",	"other": "31.8",	"his": "84.7",	"population": "66455",	"voters": "28515",	"pop_est": "68520"},
-"Weehawken": {	"white": "75.2",	"af": "6",	"ai": "1",	"a": "9.1",	"haw": "0.1",	"other": "12.8",	"his": "40.3",	"population": "12554",	"voters": "7277",	"pop_est": "14864"}
+"Weehawken": {	"white": "75.2",	"af": "6",	"ai": "1",	"a": "9.1",	"haw": "0.1",	"other": "12.8",	"his": "40.3",	"population": "12554",	"voters": "7277",	"pop_est": "14864"},
+"Jersey City": {	"white": "35.2",	"af": "27.7",	"ai": "1.2",	"a": "25.2",	"haw": "0.3",	"other": "15.1",	"his": "27.6",	"population": "247597",	"voters": "120834",	"pop_est": "145786"}
                   },
 
 "District 34": { 

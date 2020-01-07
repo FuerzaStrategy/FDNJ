@@ -1,17 +1,17 @@
 {
-"District 1": { "Name": "Downe,Cape May,Estell Manor,Weymouth,Corbin City,Avalon,Cape May Point,Stone Harbor,Lower Township,Ocean City,Wildwood Crest,West Cape May,Woodbine,Dennis,Middle Township,Wildwood,West Wildwood,Upper Township,Sea Isle City,North Wildwood,Hopewell of Cumberland County,Commercial Township,Millville,Fairfield Township,Lawrence Township of Cumberland County,Greenwich Township,Maurice River,Shiloh,Stow Creek,Vineland",
+"District 1": { "Name": "Downe,Cape May,Estell Manor,Weymouth,Corbin City,Avalon,Cape May Point,Stone Harbor,Lower Township,Ocean City,Wildwood Crest,West Cape May,Woodbine,Dennis,Middle Township,Wildwood,West Wildwood,Upper Township,Sea Isle City,North Wildwood,Hopewell,Commercial Township,Millville,Fairfield Township,Lawrence Township,Greenwich Township,Maurice River,Shiloh,Stow Creek,Vineland",
                 "Deviation": "3,180",
                 "white": "78.1",
                 "african": "11.7",
                 "asian": "1.1",
                 "hispanic": "16.4"},
-"District 2": { "Name": "Absecon,Atlantic City,Brigantine,Buena,Buena Vista Township,Egg Harbor City,Egg Harbor Township,Folsom,Hamilton Township of Atlantic County,Linwood,Longport,Margate City,Mullica,Northfield,Pleasantville,Somers Point,Ventnor City",
+"District 2": { "Name": "Absecon,Atlantic City,Brigantine,Buena,Buena Vista Township,Egg Harbor City,Egg Harbor Township,Folsom,Hamilton Township,Linwood,Longport,Margate City,Mullica,Northfield,Pleasantville,Somers Point,Ventnor City",
                  "Deviation": "-3,445",
                  "white": "62.4",
                 "african": "18.2",
                 "asian": "7.7",
                 "hispanic": "18.1"},
-"District 3": { "Name": "Alloway Township,Bridgeton,Carneys Point,Clayton,Deerfield,East Greenwich Township,Elk,Elmer,Elsinboro,Franklin of Gloucester County,Glassboro of Gloucester County,Greenwich Township of Gloucester County,Logan Township,Lower Alloways Creek,Mannington,National Park,Newfield,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,South Harrison,Swedesboro,Upper Deerfield Township,Upper Pittsgrove,West Deptford,Woodbury Heights,Woodstown,Woolwich",
+"District 3": { "Name": "Alloway Township,Bridgeton,Carneys Point,Clayton,Deerfield,East Greenwich Township,Elk,Elmer,Elsinboro,Franklin,Glassboro,Greenwich Township,Logan Township,Lower Alloways Creek,Mannington,National Park,Newfield,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,South Harrison,Swedesboro,Upper Deerfield Township,Upper Pittsgrove,West Deptford,Woodbury Heights,Woodstown,Woolwich",
                  "Deviation": "2,068",
                  "white": "75.5",
                 "african": "15.0",
@@ -19,7 +19,7 @@
                 "hispanic": "10.2"},
       
 
-"District 4": { "Name": "Chesilhurst,Clementon,Gloucester Township,Laurel Springs,Lindenwold,Monroe Township of Gloucester County,Pitman,Washington Township of Gloucester County,Winslow Township",
+"District 4": { "Name": "Chesilhurst,Clementon,Gloucester Township,Laurel Springs,Lindenwold,Monroe Township,Pitman,Washington Township,Winslow Township",
                  "Deviation": "4,190",
                   "white": "73.6",
                 "african": "18.1",
@@ -35,7 +35,7 @@
                 "hispanic": "20.2"},
       
 
-"District 6": { "Name": "Berlin Township,Cherry Hill,Collingswood,Gibbsboro of Camden County,Haddon Township,Haddonfield,Hi-Nella,Maple Shade,Merchantville,Oaklyn,Pennsauken Township,Somerdale,Stratford,Tavistock,Voorhees Township",
+"District 6": { "Name": "Berlin Township,Cherry Hill,Collingswood,Gibbsboro,Haddon Township,Haddonfield,Hi-Nella,Maple Shade,Merchantville,Oaklyn,Pennsauken Township,Somerdale,Stratford,Tavistock,Voorhees Township",
                 "Deviation": "4,177",
                 "white": "74.8",
                 "african": "10.2",
@@ -51,7 +51,7 @@
                 "hispanic": "5.9"},
       
 
-"District 8": { "Name": "Berlin,Eastampton Township,Evesham Township,Hainesport,Hammonton,Lumberton,Mansfield Township of Burlington County,Medford,Medford Lakes,Mount Holly,Pemberton,Pemberton Township,Pine Hill,Pine Valley,Shamong,Southampton Township,Springfield,Waterford,Westampton,Woodland",
+"District 8": { "Name": "Berlin,Eastampton Township,Evesham Township,Hainesport,Hammonton,Lumberton,Mansfield Township,Medford,Medford Lakes,Mount Holly,Pemberton,Pemberton Township,Pine Hill,Pine Valley,Shamong,Southampton Township,Springfield,Waterford,Westampton,Woodland",
                  "Deviation": "-699",
                 "white": "81.5",
                 "african": "9.9",
@@ -60,7 +60,7 @@
 
       
 
-"District 9": { "Name": "Barnegat Township,Barnegat Light,Bass River,Beach Haven,Beachwood,Berkeley Township,Eagleswood,Galloway,Harvey Cedars,Lacey,Little Egg Harbor,Long Beach,Ocean Gate,Ocean Township of Ocean County,Pine Beach,Port Republic,Seaside Park,Ship Bottom,South Toms River,Stafford,Surf City,Tabernacle,Tuckerton,Washington Township of Burlington County",
+"District 9": { "Name": "Barnegat Township,Barnegat Light,Bass River,Beach Haven,Beachwood,Berkeley Township,Eagleswood,Galloway,Harvey Cedars,Lacey,Little Egg Harbor,Long Beach,Ocean Gate,Ocean Township,Pine Beach,Port Republic,Seaside Park,Ship Bottom,South Toms River,Stafford,Surf City,Tabernacle,Tuckerton,Washington Township",
                  "Deviation": "5,402",
                  "white": "90.4",
                 "african": "3.4",
@@ -76,7 +76,7 @@
                 "hispanic": "7.1"},
       
 
-"District 11": { "Name": "Allenhurst,Asbury Park,Colts Neck,Deal,Eatontown,Freehold,Freehold Township,Interlaken,Loch Arbour,Long Branch,Neptune City,Neptune Township,Ocean Township of Monmouth County,Red Bank,Shrewsbury,Shrewsbury Township,Tinton Falls,West Long Branch",
+"District 11": { "Name": "Allenhurst,Asbury Park,Colts Neck,Deal,Eatontown,Freehold,Freehold Township,Interlaken,Loch Arbour,Long Branch,Neptune City,Neptune Township,Ocean Township,Red Bank,Shrewsbury,Shrewsbury Township,Tinton Falls,West Long Branch",
                  "Deviation": "3,625",
                 "white": "71.7",
                 "african": "15.6",
@@ -100,7 +100,7 @@
                 "hispanic": "6.3"},
       
 
-"District 14": { "Name": "Cranbury Township,East Windsor,Hamilton Township of Mercer County,Hightstown,Jamesburg,Monroe Township of Middlesex County,Plainsboro,Robbinsville,Spotswood",
+"District 14": { "Name": "Cranbury Township,East Windsor,Hamilton Township,Hightstown,Jamesburg,Monroe Township,Plainsboro,Robbinsville,Spotswood",
                   "Deviation": "-4,847",
                  "white": "73.2",
                 "african": "8.3",
@@ -108,7 +108,7 @@
                 "hispanic": "10.4"},
       
 
-"District 15": { "Name": "East Amwell,Ewing,Hopewell of Mercer County,Hopewell Township,Lambertville,Lawrence Township of Mercer County,Pennington,Trenton,West Amwell,West Windsor",
+"District 15": { "Name": "East Amwell,Ewing,Hopewell,Hopewell Township,Lambertville,Lawrence Township,Pennington,Trenton,West Amwell,West Windsor",
                   "Deviation": "-4,887",
                   "white": "52.7",
                 "african": "27.8",
@@ -124,7 +124,7 @@
                 "hispanic": "8.0"},
       
 
-"District 17": { "Name": "Franklin Township of Somerset County,Milltown,New Brunswick,North Brunswick,Piscataway",
+"District 17": { "Name": "Franklin Township,Milltown,New Brunswick,North Brunswick,Piscataway",
                "Deviation": "1,363",
                 "white": "45.2",
                 "african": "20.0",
@@ -148,7 +148,7 @@
                 "hispanic": "30.6"},
       
 
-"District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Township of Union County",
+"District 20": { "Name": "Elizabeth,Hillside,Roselle,Union Township",
                   "Deviation": "4,303",
                  "white": "50.2",
                 "african": "29.3",
@@ -172,7 +172,7 @@
                 "hispanic": "25.3"},
       
 
-"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin of Hunterdon County,Franklin Township of Warren County,Frenchtown,Glen Gardner,Greenwich Township of Warren County,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township of Warren County,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township of Hunterdon County,Washington Township of Warren County,Washington of Warren County",
+"District 23": { "Name": "Alexandria,Alpha,Bedminster,Bethlehem,Bloomsbury,Bound Brook,Bridgewater,Califon,Clinton,Clinton Township,Franklin,Franklin Township,Frenchtown,Glen Gardner,Greenwich Township,Hackettstown,Hampton,Harmony,High Bridge,Holland,Kingwood,Lebanon,Lebanon Township,Lopatcong,Mansfield Township,Milford,Peapack Gladstone,Phillipsburg,Pohatcong,Raritan,South Bound Brook,Tewksbury,Union Township,Washington Township,Washington",
                   "Deviation": "-3,355",
                  "white": "85.1",
                 "african": "3.6",
@@ -180,14 +180,14 @@
                 "hispanic": "9.4"},
       
 
-"District 24": { "Name": "Allamuchy Township,Andover,Andover Township,Belvidere,Blairstown,Branchville,Byram,Frankford,Franklin of Sussex County,Fredon,Frelinghuysen,Green,Hamburg,Hampton Township,Hardwick,Hardyston,Hopatcong,Hope,Independence,Knowlton,Lafayette,Liberty,Montague,Mount Olive,Newton,Ogdensburg,Oxford,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Vernon,Walpack,Wantage,White",
+"District 24": { "Name": "Allamuchy Township,Andover,Andover Township,Belvidere,Blairstown,Branchville,Byram,Frankford,Franklin,Fredon,Frelinghuysen,Green,Hamburg,Hampton Township,Hardwick,Hardyston,Hopatcong,Hope,Independence,Knowlton,Lafayette,Liberty,Montague,Mount Olive,Newton,Ogdensburg,Oxford,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Vernon,Walpack,Wantage,White",
                   "Deviation": "-4,511",
                  "white": "92.1",
                 "african": "2.2",
                 "asian": "2.6",
                 "hispanic": "6.7"},
 
-"District 25": { "Name": "Bernardsville,Boonton,Boonton Township,Chester,Chester Township,Denville,Dover,Mendham,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Netcong,Randolph,Rockaway,Roxbury,Victory Gardens,Washington Township of Morris County,Wharton",
+"District 25": { "Name": "Bernardsville,Boonton,Boonton Township,Chester,Chester Township,Denville,Dover,Mendham,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Netcong,Randolph,Rockaway,Roxbury,Victory Gardens,Washington Township,Wharton",
                   "Deviation": "-5,470",
                  "white": "83.2",
                 "african": "4.0",
@@ -297,7 +297,7 @@
                 "hispanic": "15.1"},
       
 
-"District 39": { "Name": "Bloomingdale,Closter,Demarest,Dumont,Emerson,Harrington Park,Haworth,Hillsdale,Mahwah,Montvale,Norwood,Oakland,Old Tappan,Park Ridge,Ramsey,Ringwood,River Vale,Saddle River,Upper Saddle River,Wanaque,Township of Washington,Westwood,Woodcliff Lake",
+"District 39": { "Name": "Bloomingdale,Closter,Demarest,Dumont,Emerson,Harrington Park,Haworth,Hillsdale,Mahwah,Montvale,Norwood,Oakland,Old Tappan,Park Ridge,Ramsey,Ringwood,River Vale,Saddle River,Upper Saddle River,Wanaque,Township,Westwood,Woodcliff Lake",
                   "Deviation": "-4,572",
                   "white": "84.9",
                 "african": "1.6",

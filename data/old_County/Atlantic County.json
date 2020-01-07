@@ -5,6 +5,7 @@
 "Buena": {	"voters": "2476",	"population": "3873",	"white": "80.4",	"af": "8.5",	"ai": "1.1",	"a": "0.6",	"haw": "0.1",	"other": "13.2",	"his": "23.7"},
 "Buena Vista Township": {	"voters": "4573",	"population": "7436",	"white": "79.3",	"af": "16.5",	"ai": "0.8",	"a": "0.5",	"haw": "0",	"other": "5.4",	"his": "9.3"},
 "Corbin City": {	"voters": "228",	"population": "468",	"white": "94.4",	"af": "2.8",	"ai": "1.1",	"a": "1.3",	"haw": "0",	"other": "0.9",	"his": "3"},
+"Upper Township": { "voters": "228",	"population": "468",	"white": "94.4",	"af": "2.8",	"ai": "1.1",	"a": "1.3",	"haw": "0",	"other": "0.9",	"his": "3"},
 "Egg Harbor City": {	"voters": "2420",	"population": "4545",	"white": "69.4",	"af": "16",	"ai": "1.7",	"a": "1.6",	"haw": "0.1",	"other": "15.3",	"his": "24.6"},
 "Egg Harbor Township": {	"voters": "15140",	"population": "30726",	"white": "81",	"af": "11.1",	"ai": "0.6",	"a": "5.6",	"haw": "0.1",	"other": "3.7",	"his": "6.8"},
 "Estell Manor": {	"voters": "1059",	"population": "1585",	"white": "95.2",	"af": "3.9",	"ai": "0.8",	"a": "0.5",	"haw": "0.1",	"other": "0.9",	"his": "0.9"},

@@ -971,6 +971,8 @@
 			var file_name_old = "District " + currentHighlight_old.toString()
 			 //console.log(currentHighlight_new)
 			 console.log(file_name)
+			 
+			 
 			  
 
 			// console.log(old_district_data[file_name]['Name'])
@@ -1001,39 +1003,7 @@
 			    
 			var looking_names = JSON.stringify(data_2000);
 			    
-			    
-			//$.getJSON("data/NJ_Legislative_Old/District_" + currentHighlight_old.toString() + ".geojson", function(json_coor){
-			//for(var i=0; i<json_coor["features"][0]["geometry"]["coordinates"][0].length; i++){
-			//var lons = json_coor["features"][0]["geometry"]["coordinates"][0][i][0]
-			//var lats = json_coor["features"][0]["geometry"]["coordinates"][0][i][1]
-			//var urls='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats + ',' + lons + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
-			//const Http = new XMLHttpRequest();
-				
-				
-	        	//Http.onreadystatechange = function() {
-			 // if (this.readyState == 4 && this.status == 200) {
-			  //   var data_need = JSON.parse(this.responseText);
-			  //   var address_name =data_need.results[0].formatted_address.split(",")[1] 
-			//	var correct_address_name = address_name.slice(1,address_name.length)
-			//     var other_townName_temp = correct_address_name
 			
-			 //    list_towns.push(other_townName_temp);
-			 //    $.each(list_towns, function(i, el){
-			 //   if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
-			//	});
-						
-			//  }
-				
-			//}
-			//Http.open("GET", urls) 
-	      		//Http.send()
-
-
-				
-			//   		 }
-
-				
-			//	});
 				 
 			       	 		       
 			       
@@ -1073,37 +1043,7 @@
 			    
 			var looking_names = JSON.stringify(new_district_data[file_name]['Name']);
 			var looking_names_old = JSON.stringify(old_district_data[file_name]['Name']);
-			//$.getJSON("data/NJ_Legislative/District_" + currentHighlight_new.toString() + ".geojson", function(json_coor_current){
-			//	for(var i=0; i<json_coor_current["features"][0]["geometry"]["coordinates"][0].length; i++){
-			//var lons_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][0]
-			//var lats_current = json_coor_current["features"][0]["geometry"]["coordinates"][0][i][1]
-			//console.log(lats_current)
-			//var urls_current='https://maps.googleapis.com/maps/api/geocode/json?address=' + lats_current + ',' + lons_current + '&key=AIzaSyB-OrotjsC4Vwn-WVfJD7JeeVbMS1eyKOE';
-			//console.log(urls_current)
-			//const Http_current = new XMLHttpRequest();
-		
-				
-	        	//Http_current.onreadystatechange = function() {
-			//  if (this.readyState == 4 && this.status == 200) {
-			//     var data_need_current = JSON.parse(this.responseText);
-			 //    var address_name_current =data_need_current.results[0].formatted_address.split(",")[1] 
-			//	var correct_address_name_current = address_name_current.slice(1,address_name_current.length)
-			//     var other_townName_current = correct_address_name_current
-			
-			//     list_towns_current.push(other_townName_current);
-			  //  $.each(list_towns_current, function(i, el){
-			  // if($.inArray(el, uniqueNames_current) === -1) uniqueNames_current.push(el);
-			//	});
-						
-			//  }
-				
-			//}
-			//Http_current.open("GET", urls_current) 
-	      		//Http_current.send()
-				
-			   		 }
-				    //console.log(list_towns_current)
-			//	});
+	
 			    
 			    var array_removed = []
 			    var array_added = []
@@ -1153,7 +1093,24 @@
 			        
 			    	
 				
-				final_old_array.forEach(function(a,ind){
+			    	district_old_files[file_name_old].foreach(function(a,ind){
+			    	district_african_old.push(Number(district_old_files[file_name_old][ind]['af']))
+				district_asian_old.push(Number(district_old_files[file_name_old][ind]['a']))
+				district_hispanic_old.push(Number(district_old_files[file_name_old][ind]['his']))
+				district_ai_old.push(Number(district_old_files[file_name_old][ind]['ai']))
+				district_white_old.push(Number(district_old_files[file_name_old][ind]['white']))
+				district_haw_old.push(Number(district_old_files[file_name_old][ind]['haw']))
+				district_other_old.push(Number(district_old_files[file_name_old][ind]['other']))
+			        //district_dem_num.push(Number(data_2000[a]['democratic']))
+				//district_rep_num.push(Number(data_2000[a]['republican']))
+				district_old_people.push(Number(parseFloat((district_old_files[file_name_old][ind]['population']).replace(/,/g, ''))))
+				district_old_voters.push(Number(parseFloat((district_old_files[file_name_old][ind]['voters']).replace(/,/g, ''))))
+				});
+			    	
+			    	console.log(district_old_voters)
+			    
+			    
+				/*final_old_array.forEach(function(a,ind){
 				console.log(a)
 			        district_african_old.push(Number(countyDataOld[a]['af']))
 				district_asian_old.push(Number(countyDataOld[a]['a']))
@@ -1166,7 +1123,7 @@
 				//district_rep_num.push(Number(data_2000[a]['republican']))
 				district_old_people.push(Number(parseFloat((countyDataOld[a]['population']).replace(/,/g, ''))))
 				district_old_voters.push(Number(parseFloat((countyDataOld[a]['voters']).replace(/,/g, ''))))
-				});
+				});*/
 			        
 				/*district_african_old.push(Number(racedata2000[a]['af']))
 				district_asian_old.push(Number(racedata2000[a]['a']))

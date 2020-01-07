@@ -1219,7 +1219,7 @@
 				    hispanic_ratio_old.push(district_old_people[i]*(district_hispanic_old[i]/100))
 			   	    }
 			    
-			    		console.log(asian_ratio_old)
+			    		
 			    
 				 //if(final_old_array.includes(townName)){
 				  //  var final_old_array_show = final_old_array.remove(townName);
@@ -1265,7 +1265,7 @@
 					district_voters_current.push(Number(parseFloat((data_2010[t]['voters']).replace(/,/g, ''))))
 					});*/
 				
-			    console.log(white_ratio_current)
+			    
 			    for(var i=0; i<district_people_current.length; i++){
 				    //rep_ratio_current.push(district_people_current[i]*(district_rep_num_current[i]/100))
 				    //dem_ratio_current.push(district_people_current[i]*(district_dem_num_current[i]/100))
@@ -1385,6 +1385,10 @@
 				    console.log(make_array)
 				console.log(final_old_array)
 				console.log(array_removed)
+				
+				console.log(asian_ratio_current.reduce((a, b) => a + b, 0))
+				console.log(district_people_current.reduce((a, b) => a + b, 0))
+				console.log((asian_ratio_current.reduce((a, b) => a + b, 0))/(district_people_current.reduce((a, b) => a + b, 0)))		
 				  
 			      $('#estimate_pop_curr').html("Estimated Town Population: " + countyDataCurr['pop_est'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#african_curr_num').text((((african_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")

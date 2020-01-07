@@ -1,31 +1,31 @@
 {
 "District 1": { "Name": "Avalon,Buena,Buena Vista Township,Cape May,Cape May Point,Dennis,Lower Township,Maurice River,Middle Township,Millville,North Wildwood,Ocean City,Sea Isle City,Somers Point,Stone Harbor,Upper Township,Vineland,West Cape May,West Wildwood,Wildwood,Wildwood Crest,Woodbine"},
-"District 2": { "Name": "Absecon,Atlantic City,Brigantine,Corbin City,Egg Harbor City,Egg Harbor Township,Estell Manor,Galloway,Hamilton Township of Atlantic County,Linwood,Longport,Margate City,Mullica,Northfield,Pleasantville,Port Republic,Ventnor City,Weymouth"},
-"District 3": { "Name": "Alloway Township,Bridgeton,Carneys Point,Clayton,Commercial Township,Deerfield,Downe,East Greenwich Township,Elk,Elmer,Elsinboro,Fairfield Township,Greenwich Township,Harrison Township,Hopewell of Cumberland County,Lawrence Township of Cumberland County,Logan Township,Lower Alloways Creek,Mannington,Mantua,National Park,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,Shiloh,South Harrison,Stow Creek,Swedesboro,Upper Deerfield Township,Upper Pittsgrove,Wenonah,West Deptford,Woodstown,Woolwich"},
+"District 2": { "Name": "Absecon,Atlantic City,Brigantine,Corbin City,Egg Harbor City,Egg Harbor Township,Estell Manor,Galloway,Hamilton Township,Linwood,Longport,Margate City,Mullica,Northfield,Pleasantville,Port Republic,Ventnor City,Weymouth"},
+"District 3": { "Name": "Alloway Township,Bridgeton,Carneys Point,Clayton,Commercial Township,Deerfield,Downe,East Greenwich Township,Elk,Elmer,Elsinboro,Fairfield Township,Greenwich Township,Harrison Township,Hopewell,Lawrence Township,Logan Township,Lower Alloways Creek,Mannington,Mantua,National Park,Oldmans,Paulsboro,Penns Grove,Pennsville,Pilesgrove,Pittsgrove,Quinton,Salem,Shiloh,South Harrison,Stow Creek,Swedesboro,Upper Deerfield Township,Upper Pittsgrove,Wenonah,West Deptford,Woodstown,Woolwich"},
       
 
-"District 4": { "Name": "Clementon,Franklin of Gloucester County,Glassboro of Gloucester County,Gloucester Township,Laurel Springs,Lindenwold,Monroe Township of Gloucester County,Newfield,Pitman,Washington Township of Gloucester County"},
+"District 4": { "Name": "Clementon,Franklin,Glassboro,Gloucester Township,Laurel Springs,Lindenwold,Monroe Township,Newfield,Pitman,Washington"},
       
 
 "District 5": { "Name": "Audubon,Barrington,Bellmawr,Brooklawn,Camden,Deptford Township,Gloucester City,Haddon Heights,Hi-Nella,Lawnside,Magnolia,Mount Ephraim,Runnemede,Somerdale,Stratford,Westville,Woodbury,Woodbury Heights,Woodlynne"},
       
 
-"District 6": { "Name": "Audubon Park,Berlin,Berlin Township,Cherry Hill,Chesilhurst,Collingswood,Gibbsboro of Camden County,Haddon Township,Haddonfield,Oaklyn,Pine Hill,Pine Valley,Tavistock,Voorhees Township,Waterford,Winslow Township"},
+"District 6": { "Name": "Audubon Park,Berlin,Berlin Township,Cherry Hill,Chesilhurst,Collingswood,Gibbsboro,Haddon Township,Haddonfield,Oaklyn,Pine Hill,Pine Valley,Tavistock,Voorhees Township,Waterford,Winslow Township"},
       
 
 "District 7": { "Name": "Beverly,Burlington,Burlington Township,Cinnaminson,Delanco,Delran,Edgewater Park,Florence Township,Maple Shade,Merchantville,Mount Holly,Palmyra,Pennsauken Township,Riverside,Riverton,Westampton,Willingboro"},
       
 
-"District 8": { "Name": "Eastampton Township,Evesham Township,Hainesport,Lumberton,Mansfield Township of Burlington County,Medford Lakes,Medford,Moorestown,Mount Laurel,Pemberton,Pemberton Township,Shamong,Southampton Township,Springfield,Tabernacle,Woodland,Wrightstown"},
+"District 8": { "Name": "Eastampton Township,Evesham Township,Hainesport,Lumberton,Mansfield Township,Medford Lakes,Medford,Moorestown,Mount Laurel,Pemberton,Pemberton Township,Shamong,Southampton Township,Springfield,Tabernacle,Woodland,Wrightstown"},
 
 
-"District 9": { "Name": "Barnegat Light,Barnegat Township,Bass River,Beach Haven,Beachwood,Berkeley Township,Eagleswood,Folsom,Hammonton,Harvey Cedars,Lacey,Lakehurst,Little Egg Harbor,Long Beach,Manchester,Ocean Gate,Ocean Township of Ocean County,Pine Beach,Ship Bottom,Stafford,Surf City,Tuckerton,Washington Township of Burlington County"},
+"District 9": { "Name": "Barnegat Light,Barnegat Township,Bass River,Beach Haven,Beachwood,Berkeley Township,Eagleswood,Folsom,Hammonton,Harvey Cedars,Lacey,Lakehurst,Little Egg Harbor,Long Beach,Manchester,Ocean Gate,Ocean Township,Pine Beach,Ship Bottom,Stafford,Surf City,Tuckerton,Washington"},
       
 
 "District 10": {"Name": "Bay Head,Brick,Island Heights,Lavallette,Manasquan,Mantoloking,Point Pleasant Beach,Point Pleasant,Seaside Heights,Seaside Park,South Toms River,Toms River"},
       
 
-"District 11": { "Name": "Allenhurst,Asbury Park,Atlantic Highlands,Avon by the Sea,Belmar,Bradley Beach,Brielle,Deal,Eatontown,Highlands,Interlaken,Lake Como,Loch Arbour,Long Branch,Monmouth Beach,Neptune City,Neptune Township,Ocean Township of Monmouth County,Rumson,Sea Bright,Sea Girt,Spring Lake,Spring Lake Heights,Wall,West Long Branch"},
+"District 11": { "Name": "Allenhurst,Asbury Park,Atlantic Highlands,Avon by the Sea,Belmar,Bradley Beach,Brielle,Deal,Eatontown,Highlands,Interlaken,Lake Como,Loch Arbour,Long Branch,Monmouth Beach,Neptune City,Neptune Township,Ocean Township,Rumson,Sea Bright,Sea Girt,Spring Lake,Spring Lake Heights,Wall,West Long Branch"},
       
 
 "District 12": { "Name": "Colts Neck,East Windsor,Englishtown,Fair Haven,Freehold,Freehold Township,Hightstown,Little Silver,Manalapan Township,Millstone Township,Oceanport,Red Bank,Shrewsbury,Shrewsbury Township,Tinton Falls"},
@@ -34,16 +34,16 @@
 "District 13": { "Name": "Aberdeen Township,Hazlet,Holmdel,Keansburg,Keyport,Marlboro,Matawan,Middletown,Old Bridge,Union Beach"},
       
 
-"District 14": { "Name": "Cranbury Township,Hamilton Township of Mercer County,Jamesburg,Monroe Township of Middlesex County,Plainsboro,South Brunswick,West Windsor"},
+"District 14": { "Name": "Cranbury Township,Hamilton Township,Jamesburg,Monroe Township,Plainsboro,South Brunswick,West Windsor"},
       
 
-"District 15": { "Name": "Ewing,Hopewell of Mercer County,Hopewell Township,Lawrence Township of Mercer County,Pennington,Princeton,Trenton"},
+"District 15": { "Name": "Ewing,Hopewell,Hopewell Township,Lawrence Township,Pennington,Princeton,Trenton"},
       
 
 "District 16": { "Name": "Bedminster,Bernards,Bernardsville,Bound Brook,Branchburg,Bridgewater,Far Hills,Hillsborough,Manville,Mendham,Millstone,Montgomery,Peapack Gladstone,Raritan,Rocky Hill,Somerville,South Bound Brook"},
       
 
-"District 17": { "Name": "Franklin Township of Somerset County,Highland Park,Milltown,New Brunswick,Piscataway"},
+"District 17": { "Name": "Franklin Township,Highland Park,Milltown,New Brunswick,Piscataway"},
       
 
 "District 18": { "Name": "East Brunswick,Edison,Helmetta,Metuchen,South Plainfield,South River,Spotswood"},
@@ -52,7 +52,7 @@
 "District 19": { "Name": "Carteret,Perth Amboy,Sayreville,South Amboy,Woodbridge Township"},
       
 
-"District 20": { "Name": "Elizabeth,Kenilworth,Roselle,Union Township of Union County"},
+"District 20": { "Name": "Elizabeth,Kenilworth,Roselle,Union Township"},
       
 
 "District 21": { "Name": "Berkeley Heights,Chatham,Cranford,Garwood,Harding,Long Hill,Madison,Millburn,Mountainside,New Providence,Roselle Park,Springfield Township,Summit,Warren,Watchung,Westfield"},
@@ -61,10 +61,10 @@
 "District 22": { "Name": "Clark,Dunellen,Fanwood,Green Brook Township,Linden,Middlesex,North Plainfield,Plainfield,Rahway,Scotch Plains,Winfield"},
       
 
-"District 23": { "Name": "Alexandria,Allamuchy Township,Alpha,Belvidere,Bethlehem,Blairstown,Bloomsbury,Clinton,Clinton Township,Delaware,East Amwell,Flemington,Franklin Township of Warren County,Franklin of Hunterdon County,Frelinghuysen,Frenchtown,Glen Gardner,Greenwich Township of Warren County,Hackettstown,Hampton,Hardwick,Harmony,High Bridge,Holland,Hope,Independence,Kingwood,Knowlton,Lambertville,Lebanon,Lebanon Township,Liberty,Lopatcong,Mansfield Township of Warren County,Milford,Oxford,Phillipsburg,Pohatcong,Raritan Township,Readington,Stockton,Union Township of Hunterdon County,Washington of Warren County,Washington Township of Warren County,West Amwell,White"},
+"District 23": { "Name": "Alexandria,Allamuchy Township,Alpha,Belvidere,Bethlehem,Blairstown,Bloomsbury,Clinton,Clinton Township,Delaware,East Amwell,Flemington,Franklin Township,Franklin,Frelinghuysen,Frenchtown,Glen Gardner,Greenwich Township,Hackettstown,Hampton,Hardwick,Harmony,High Bridge,Holland,Hope,Independence,Kingwood,Knowlton,Lambertville,Lebanon,Lebanon Township,Liberty,Lopatcong,Mansfield Township,Milford,Oxford,Phillipsburg,Pohatcong,Raritan Township,Readington,Stockton,Union Township,Washington,Washington Township,West Amwell,White"},
       
 
-"District 24": { "Name": "Andover,Andover Township,Branchville,Byram,Califon,Chester,Chester Township,Frankford,Franklin of Sussex County,Fredon,Green,Hamburg,Hampton Township,Hardyston,Hopatcong,Lafayette,Montague,Mount Olive,Netcong,Newton,Ogdensburg,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Tewksbury,Vernon,Walpack,Wantage,Washington Township of Morris County"},
+"District 24": { "Name": "Andover,Andover Township,Branchville,Byram,Califon,Chester,Chester Township,Frankford,Franklin,Fredon,Green,Hamburg,Hampton Township,Hardyston,Hopatcong,Lafayette,Montague,Mount Olive,Netcong,Newton,Ogdensburg,Sandyston,Sparta,Stanhope,Stillwater,Sussex,Tewksbury,Vernon,Walpack,Wantage,Washington Township"},
 
 "District 25": { "Name": "Boonton,Boonton Township,Denville,Dover,Jefferson,Mendham Township,Mine Hill,Morris Township,Morristown,Mount Arlington,Mountain Lakes,Randolph,Rockaway,Rockaway Township,Roxbury,Victory Gardens,Wharton"},
       

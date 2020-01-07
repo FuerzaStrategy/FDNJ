@@ -1332,6 +1332,11 @@
 	                    $('#hispanic_prev').text(countyDataOld['his'] + "%")
 	                    $('#taxable_prev').text("Per Capital Taxable Property Value: $" + data_from_2000['taxable'])
 	                }
+			    
+			    console.log(asian_ratio_old.reduce((a, b) => a + b, 0))
+				console.log(district_old_people.reduce((a, b) => a + b, 0))
+				console.log((asian_ratio_old.reduce((a, b) => a + b, 0))/(district_old_people.reduce((a, b) => a + b, 0)))
+				console.log((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 	
 	                if(data_from_2010 == undefined) {
 	                    $('#city_curr').text("Your Town: " + townName)
@@ -1386,10 +1391,7 @@
 				console.log(final_old_array)
 				console.log(array_removed)
 				
-				console.log(asian_ratio_current.reduce((a, b) => a + b, 0))
-				console.log(district_people_current.reduce((a, b) => a + b, 0))
-				console.log((asian_ratio_current.reduce((a, b) => a + b, 0))/(district_people_current.reduce((a, b) => a + b, 0)))
-				console.log((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
+				
 				  
 			      $('#estimate_pop_curr').html("Estimated Town Population: " + countyDataCurr['pop_est'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#african_curr_num').text((((african_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")

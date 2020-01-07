@@ -1192,6 +1192,7 @@
 				district_old_voters.push(Number(parseFloat((district_old_files[file_name_old][a]['voters']).replace(/,/g, ''))))
 				});
 			        
+			    	
 				/*district_african_old.push(Number(racedata2000[a]['af']))
 				district_asian_old.push(Number(racedata2000[a]['a']))
 				district_hispanic_old.push(Number(racedata2000[a]['his']))
@@ -1217,6 +1218,8 @@
 			            other_ratio_old.push(district_old_people[i]*(district_other_old[i]/100))
 				    hispanic_ratio_old.push(district_old_people[i]*(district_hispanic_old[i]/100))
 			   	    }
+			    
+			    		console.log(asian_ratio_old)
 			    
 				 //if(final_old_array.includes(townName)){
 				  //  var final_old_array_show = final_old_array.remove(townName);

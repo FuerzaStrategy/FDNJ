@@ -1388,7 +1388,8 @@
 				
 				console.log(asian_ratio_current.reduce((a, b) => a + b, 0))
 				console.log(district_people_current.reduce((a, b) => a + b, 0))
-				console.log((asian_ratio_current.reduce((a, b) => a + b, 0))/(district_people_current.reduce((a, b) => a + b, 0)))		
+				console.log((asian_ratio_current.reduce((a, b) => a + b, 0))/(district_people_current.reduce((a, b) => a + b, 0)))
+				console.log((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 				  
 			      $('#estimate_pop_curr').html("Estimated Town Population: " + countyDataCurr['pop_est'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#african_curr_num').text((((african_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")

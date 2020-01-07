@@ -394,6 +394,7 @@
 	            <!--<p class='info_title'>Census</p>-->
              <div id='table_black'>
 	            <p id='population_curr'>Town Demographics:</p>
+		    <p id='estimate_pop_curr'>Estimated Town Population:</P>
               <center>
               <table style='border: 1px solid white;border-collapse: collapse;width:100%; text-align:center;'>
 		      <!--<colgroup>
@@ -1376,8 +1377,8 @@
 				    console.log(make_array)
 				console.log(final_old_array)
 				console.log(array_removed)
-				    
-			       
+				  
+			      $('#estimate_pop_curr').html("Estimated Town Population: " + countyDataCurr['pop_est'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#african_curr_num').text((((african_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#asian_curr_num').text((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#hispanic_curr_num').text((((hispanic_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")

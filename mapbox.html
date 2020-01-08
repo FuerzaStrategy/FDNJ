@@ -242,7 +242,7 @@
             <br>
             <br>
             <div id='table_black_Legislator'>
-	      <p id='current_district_number_top'><h2><i>Your Current District: ##</i></h2></p>
+	      <p id='current_district_number_top'><h2>Your Current District: ##</h2></p>
 	      <p style="font-size: 20px"><i>Your Current Legislators</i></p>
               <center>
               <table style='border: 1px solid white;border-collapse: collapse;width:100%; text-align:center;'>
@@ -269,7 +269,7 @@
 	    </div>
 	    <div>
 	        <div class='map_prev_info'>
-	            <p id='city_prev' style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'>Your Town: </p>
+	            <p id='city_prev' style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'><i>Your Town: </i></p>
       <p id='other_city_prev' style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:200px; padding:10px;'>Other Towns in your District:</p><!--NEW-->
 	            <!--<p class='info_title'>Voters</p>-->
            <div id='table_black'>
@@ -1290,7 +1290,7 @@
 			 
 			    
 	                if(data_from_2000 == undefined) {
-	                    $('#city_prev').text("Your Town: " + townName)
+	                    $('#city_prev').html("<i>Your Town: </i><h2>" + townName + "</h2>")
 	                    $('#voters_prev').text("N/A Registered Voters")
 	                    $('#democratic_prev').text("N/A %")
 	                    $('#republican_prev').text("N/A %")
@@ -1302,7 +1302,7 @@
 	                }
 	
 	                else {
-	                    $('#city_prev').html("Your Town: " + townName)
+	                    $('#city_prev').html("<i>Your Town: </i><h2>" + townName + "</h2>")
 			    // setTimeout(function(){
 			         //console.log(uniqueNames)
 			         
@@ -1312,7 +1312,7 @@
 				var dev_curr = (district_people_current.reduce((a, b) => a + b, 0)) - target_pop_curr
 				//console.log(target_pop_old)
 				console.log(dev)
-			      $('#other_city_prev').html("Other Towns in your District: <br><br>" + show_array)
+			      $('#other_city_prev').html("Other Towns in Your District <br><br>" + show_array)
 			      $('#white_num').text((((white_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#african_num').text((((african_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#ai_num').text((((ai_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
@@ -1439,7 +1439,7 @@
 			    $('#haw_curr').text(countyDataCurr['haw'] + "%")
 			    $('#other_curr').text(countyDataCurr['other'] + "%")
 	                    //$('#taxable_curr').text("Per Capital Taxable Property Value: $" + data_from_2010['taxable'])
-			    $('#current_district_number_top').html("<h2><i>Your Current District: " + new_index.toString() + "</h2></i>")
+			    $('#current_district_number_top').html("<h2>Your Current District: " + new_index.toString() + "</h2>")
 			    $('#senator_curr').html(Current_Legislators[currentHighlight_new.toString()]['Senator'])
 		            $('#member1_curr').html("&emsp;&emsp;&emsp;" + (Current_Legislators[currentHighlight_new.toString()]['Member1']))
 			    $('#member2_curr').html((Current_Legislators[currentHighlight_new.toString()]['Member2']) + "&emsp;&emsp;&emsp;")

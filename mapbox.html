@@ -385,7 +385,9 @@
 	      <div class='map_curr_info'>
 	      <p id='city_curr'style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'><i>Your Town:</i></p>
               <div id='table_gray'><!--NEW-->
-              <!--<center>-->          
+              <!--<center>--> 
+	      <p id='other_city_curr'><u><b>Other Towns in Your District</b></u></p>
+		      
               <table style='border-right: 1px solid black;border: 1px solid #c3c3c1;border-collapse: collapse;width:100%; text-align:center;'>
               <tr>
 	      <td style='width:50%'><i>Towns Added:</i></td>
@@ -1015,6 +1017,7 @@
 			var district_old_people = [];
 			var district_old_voters = [];
 			var final_old_array_show = [];
+			var final_new_array_show = [];
 			    
 			var looking_names = JSON.stringify(data_2000);
 			    
@@ -1167,6 +1170,8 @@
 			    //final_old_array_show = final_old_array_show.filter(e => e !== townName)
 			    final_old_array_show = make_old_array.filter(e => e !== townName)
 			    var show_array= final_old_array_show.join(', ')
+			    final_new_array_show = make_array.filter(e => e !== townName)
+			    var show_new_array = final_new_array_show.join(', ')
 					     console.log(final_old_array)
 			        
 			        
@@ -1316,6 +1321,7 @@
 				var dev_curr = (district_people_current.reduce((a, b) => a + b, 0)) - target_pop_curr
 				//console.log(target_pop_old)
 				console.log(dev)
+			      $('#other_city_curr').html("<u><b>Other Towns in Your District</b></u><br><br>" + show_new_array)
 			      $('#other_city_prev').html("<u><b>Other Towns in Your District</b></u><br><br>" + show_array)
 			      $('#white_num').text((((white_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#african_num').text((((african_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")

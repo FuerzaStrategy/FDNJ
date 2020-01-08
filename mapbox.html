@@ -308,9 +308,11 @@
            </div>
            <br>
           <div id='table_white'><!--NEW-->
-              <p id='population_prev_num' style="margin-bottom:0px">District Demographics:</p>
-	      <p id='old_target' style="margin-top:0px; margin-bottom:0px">Target Population:</p>
-	      <P id='deviation_old' style="margin-top:0px; margin-bottom:0px">Deviation:</P>
+              <p><u><b>District Demographics</b></u></p>
+              <p id='population_prev_num' style="margin-bottom:0px">Total Population: ##,###</p>
+	      <p id='voters_prev_num' style="margin-top:0px">Registered Voters: ##,###</p>
+	      <p id='old_target' style="margin-bottom:0px">Target Population: ##,###</p>
+	      <P id='deviation_old' style="margin-top:0px; margin-bottom:0px">Deviation: ##,###</P>
 	      <p style="margin-top:0px"> </p>
               <center>
               <table style='border: 1px solid black;border-collapse: collapse;table-layout: auto;width:100%; text-align:center;'>
@@ -338,7 +340,6 @@
 	            <td width="14.285714285714285714285714285714%" style='border: 1px solid black;'><p id='hispanic_num'>##%</p></td>
               </tr>
               </table>
-	      <p id='voters_prev_num'>###,### Registered Voters</p>
               </center>
 	      <p align="center";><font size="1.5">*Percentages do not add up to 100% since voters may identify in multiple groups.</font size></p>
            </div>
@@ -1323,8 +1324,8 @@
 			      $('#hispanic_num').text((((hispanic_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#democratic_num').text((((dem_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#republican_num').text((((rep_ratio_old.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#population_prev_num').html("Population: " +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
-			      $('#voters_prev_num').text((district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
+			      $('#population_prev_num').html("Total Population: " +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+			      $('#voters_prev_num').text("Registered Voters: " + (district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      //}, 10000);
 		            
 			    $('#white_prev').text(countyDataOld['white'] + "%")
@@ -1348,7 +1349,7 @@
 				//console.log((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 	
 	                if(data_from_2010 == undefined) {
-	                    $('#city_curr').text("<i>Your Town:</i> <b style='font-size: 22px'>" + townName + "</b>")
+	                    $('#city_curr').html("<i>Your Town:</i> <b style='font-size: 22px'>" + townName + "</b>")
 	                    $('#voters_curr').text("N/A Registered Voters")
 	                    $('#democratic_curr').text("N/A %")
 	                    $('#republican_curr').text("N/A %")
@@ -1364,7 +1365,7 @@
 			    
 	
 	                else {
-	                    $('#city_curr').text("<i>Your Town:</i> <b style='font-size: 22px'>" + townName + "</b>")
+	                    $('#city_curr').html("<i>Your Town:</i> <b style='font-size: 22px'>" + townName + "</b>")
 			    //setTimeout(function(){
 				  
 				    
@@ -1418,7 +1419,7 @@
 			      //$('#hispanic_curr_num').text(new_district_data[file_name]['hispanic'] + "%")
 			      //$('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#population_curr_num').html("District Demographics: " + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
+			      $('#population_curr_num').html("Population: " + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      $('#district_estimate_pop_curr').html("Estimated District Population: " + (district_people_estimate_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      //$('#population_curr_num').html("District Demographics: " + District_Population_2010[file_name]['Population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
 			      $('#voters_curr_num').text((district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")

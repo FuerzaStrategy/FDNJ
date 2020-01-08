@@ -270,7 +270,7 @@
 	    </div>
 	    <div>
 	        <div class='map_prev_info'>
-	            <p style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'><i>Your Town:</i></p><p id='city_prev' style="display: inline-block"> </p>
+	            <p style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'><i><span>Your Town:</span></i></p><p id='city_prev'"> </p>
       <p id='other_city_prev' style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:200px; padding:10px;'>Other Towns in your District:</p><!--NEW-->
 	            <!--<p class='info_title'>Voters</p>-->
            <div id='table_black'>
@@ -1291,7 +1291,7 @@
 			 
 			    
 	                if(data_from_2000 == undefined) {
-	                    $('#city_prev').html("<h2>" + townName + "</h2>")
+	                    $('#city_prev').html("<h2><span>" + townName + "</span></h2>")
 	                    $('#voters_prev').text("N/A Registered Voters")
 	                    $('#democratic_prev').text("N/A %")
 	                    $('#republican_prev').text("N/A %")
@@ -1303,7 +1303,7 @@
 	                }
 	
 	                else {
-	                    $('#city_prev').html("<h2>" + townName + "</h2>")
+	                    $('#city_prev').html("<h2><span>" + townName + "</span></h2>")
 			    // setTimeout(function(){
 			         //console.log(uniqueNames)
 			         

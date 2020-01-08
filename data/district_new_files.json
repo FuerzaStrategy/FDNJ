@@ -312,7 +312,7 @@
 "Hopewell Township": {	"white": "88.3",	"af": "2.5",	"ai": "0.3",	"a": "10",	"haw": "0.1",	"other": "0.6",	"his": "3.3",	"population": "17304",	"voters": "12568",	"pop_est": "17978"},
 "Lawrence Township": {	"white": "71.4",	"af": "11.7",	"ai": "0.6",	"a": "15.2",	"haw": "0.4",	"other": "3.4",	"his": "7.5",	"population": "33472",	"voters": "19838",	"pop_est": "32668"},
 "Pennington": {	"white": "96.2",	"af": "2",	"ai": "0.1",	"a": "2.3",	"haw": "0.2",	"other": "0.2",	"his": "1.4",	"population": "2585",	"voters": "2092",	"pop_est": "2531"},
-"Princeton ": {	"white": "75.2",	"af": "7.5",	"ai": "0.6",	"a": "15.5",	"haw": "0.3",	"other": "4.7",	"his": "10.3",	"population": "12307",	"voters": "7154",	"pop_est": "15693"},
+"Princeton": {	"white": "75.2",	"af": "7.5",	"ai": "0.6",	"a": "15.5",	"haw": "0.3",	"other": "4.7",	"his": "10.3",	"population": "12307",	"voters": "7154",	"pop_est": "15693"},
 "Trenton": {	"white": "29.4",	"af": "54",	"ai": "1.5",	"a": "1.6",	"haw": "0.4",	"other": "17.6",	"his": "33.7",	"population": "84913",	"voters": "39506",	"pop_est": "83974"},
 "West Windsor": {	"white": "57",	"af": "4.3",	"ai": "0.3",	"a": "39.5",	"haw": "0.1",	"other": "1.6",	"his": "4.5",	"population": "27165",	"voters": "16497",	"pop_est": "28045"}
                   },

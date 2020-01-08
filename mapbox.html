@@ -404,8 +404,10 @@
 	            <!--<p class='info_title'>Voters</p>-->
 	            <!--<p class='info_title'>Census</p>-->
              <div id='table_black'>
-	            <p id='population_curr' style="margin-bottom:0px">Town Demographics:</p>
-		    <p id='estimate_pop_curr' style="margin-top:0px">Estimated Town Population:</P>
+		    <p><u><b>Town Demographics</b></u></p>
+	            <p id='population_curr' style="margin-bottom:0px">Population: ##,###</p>
+		    <p id='voters_curr' style="margin-top:0px;margin-bottom:0px">Registered Voters: ##,###</p>
+		    <p id='estimate_pop_curr' style="margin-top:0px">Estimated Population (2018): ##,###</P>
               <center>
               <table style='border: 1px solid white;border-collapse: collapse;width:100%; text-align:center;'>
 		      <!--<colgroup>
@@ -432,14 +434,15 @@
 	            <td width="14.285714285714285714285714285714%" style='border: 1px solid white;'><p id='hispanic_curr'>##%</p></td>
 	            </tr>
               </table>
-	      <p id='voters_curr'>###,### Registered Voters</p>
               </center>
 	      <p align="center";><font size="1.5">*Percentages do not add up to 100% since voters may identify in multiple groups.</font size></p>
               </div>
               <br>
               <div id='table_white'><!--NEW-->
-	            <p id='population_curr_num' style="margin-bottom:0px">District Demographics:</p>
-		    <p id='district_estimate_pop_curr' style="margin-top:0px; margin-bottom:0px">Estimated District Population:</p>
+		    <p><u><b>District Demographics</b></u></p>
+	            <p id='population_curr_num' style="margin-bottom:0px">Total Population:</p>
+		    <p id='voters_curr_num' style="margin-top:0px;margin-bottom:0px">Registered Voters: ##,###</p>  
+		    <p id='district_estimate_pop_curr' style="margin-top:0px;">Estimated Total Population (2018):</p>
 		    <p id='new_target' style="margin-top:0px; margin-bottom:0px">Target Population:</p>
 		    <P id='deviation_curr_num' style="margin-top:0px">Deviation:</P>
               <center>
@@ -470,7 +473,6 @@
 	            <td width="14.285714285714285714285714285714%" style='border: 1px solid black;'><p id='hispanic_curr_num'>##%</p></td>
 	            </tr>
               </table>
-	      <p id='voters_curr_num'>###,### Registered Voters</p>
               </center>
 	      <p align="center";><font size="1.5">*Percentages do not add up to 100% since voters may identify in multiple groups.</font size></p>
               </div>
@@ -1403,7 +1405,7 @@
 				
 				
 				  
-			      $('#estimate_pop_curr').html("Estimated Town Population: " + countyDataCurr['pop_est'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
+			      $('#estimate_pop_curr').html("Estimated Population (2018): " + countyDataCurr['pop_est'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      $('#african_curr_num').text((((african_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#asian_curr_num').text((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      $('#hispanic_curr_num').text((((hispanic_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
@@ -1419,20 +1421,20 @@
 			      //$('#hispanic_curr_num').text(new_district_data[file_name]['hispanic'] + "%")
 			      //$('#democratic_curr_num').text((((dem_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 			      //$('#republican_curr_num').text((((rep_ratio_current.reduce((a, b) => a + b, 0)/ district_people_current.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
-			      $('#population_curr_num').html("Population: " + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
-			      $('#district_estimate_pop_curr').html("Estimated District Population: " + (district_people_estimate_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
+			      $('#population_curr_num').html("Total Population: " + (district_people_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+			      $('#district_estimate_pop_curr').html("Estimated Total Population: " + (district_people_estimate_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      //$('#population_curr_num').html("District Demographics: " + District_Population_2010[file_name]['Population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Population")
-			      $('#voters_curr_num').text((district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  + " Registered Voters")
+			      $('#voters_curr_num').text("Registered Voters: " + (district_voters_current.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      $('#added').html("<br>" + (array_added).join(', '))
 			      $('#removed').html("<br>" + (array_removed).join(', '))
 			      $('#deviation_curr_num').text("Deviation: " + dev_curr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))	
 			      $('#deviation_old').text("Deviation: " + dev.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      //}, 20000);
 				  
-	                    $('#voters_curr').text(countyDataCurr['voters'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Registered Voters")
+	                    $('#voters_curr').text("Registered Voters: " + countyDataCurr['voters'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    //$('#democratic_curr').text(data_from_2010['democratic'] + "%")
 	                    //$('#republican_curr').text(data_from_2010['republican'] + "%")
-	                    $('#population_curr').text("Town Demographics: " + countyDataCurr['population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Total Population")
+	                    $('#population_curr').text("Population: " + countyDataCurr['population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    $('#african_curr').text(countyDataCurr['af'] + "%")
 	                    $('#asian_curr').text(countyDataCurr['a'] + "%")
 	                    $('#hispanic_curr').text(countyDataCurr['his'] + "%")

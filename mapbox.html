@@ -274,9 +274,9 @@
       <p id='other_city_prev' style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:200px; padding:10px;'><u><b>Other Towns in Your District</b></u></p><!--NEW-->
 	            <!--<p class='info_title'>Voters</p>-->
            <div id='table_black'>
-              <p style="margin-bottom:0px"><u><b>Town Demographics</b></u></p>
-	      <p id='population_prev' style="margin-top:0px;margin-bottom:0px">Population: ###,###</p>
-	      <p id='voters_prev' style="margin-top:0px">Registered Voters: ###,###</p>
+              <p><u><b>Town Demographics</b></u></p>
+	      <p id='population_prev' style="margin-top:0px;margin-bottom:0px">Population: ##,###</p>
+	      <p id='voters_prev' style="margin-top:0px">Registered Voters: ##,###</p>
               <center>
               <table style='border: 1px solid white;border-collapse: collapse;width:100%; text-align:center;'>
 		       <!--<colgroup>
@@ -1331,7 +1331,7 @@
 	                    $('#voters_prev').text("Registered Voters:" + countyDataOld['voters'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    //$('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    //$('#republican_prev').text(data_from_2000['republican'] + "%")
-	                    $('#population_prev').text("Town Demographics: " + countyDataOld['population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Total Population")
+	                    $('#population_prev').text("Population: " + countyDataOld['population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    $('#african_prev').text(countyDataOld['af'] + "%")
 	                    $('#asian_prev').text(countyDataOld['a'] + "%")
 			    $('#ai_prev').text(countyDataOld['ai'] + "%")

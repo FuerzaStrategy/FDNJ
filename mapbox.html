@@ -382,7 +382,7 @@
 	            <p id='taxable_prev'>Per Capital Taxable Property Value:</p>-->
 	      </div>
 	      <div class='map_curr_info'>
-	      <p id='city_curr'style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'>Your Town:</p>
+	      <p id='city_curr'style='border-style:solid #c3c3c1; background:#c3c3c1; margin-left:5%; margin-right:5%; border-radius:15px; height:20px; padding:10px;'><i>Your Town:</i></p>
               <div id='table_gray'><!--NEW-->
               <!--<center>-->          
               <table style='border-right: 1px solid black;border: 1px solid #c3c3c1;border-collapse: collapse;width:100%; text-align:center;'>
@@ -1348,7 +1348,7 @@
 				//console.log((((asian_ratio_current.reduce((a, b) => a + b, 0)/ district_old_people.reduce((a, b) => a + b, 0)))*100).toFixed(2) + "%")
 	
 	                if(data_from_2010 == undefined) {
-	                    $('#city_curr').text("Your Town: " + townName)
+	                    $('#city_curr').text("<i>Your Town:</i> <b style='font-size: 22px'>" + townName + "</b>")
 	                    $('#voters_curr').text("N/A Registered Voters")
 	                    $('#democratic_curr').text("N/A %")
 	                    $('#republican_curr').text("N/A %")
@@ -1364,7 +1364,7 @@
 			    
 	
 	                else {
-	                    $('#city_curr').text("Your Town: " + townName)
+	                    $('#city_curr').text("<i>Your Town:</i> <b style='font-size: 22px'>" + townName + "</b>")
 			    //setTimeout(function(){
 				  
 				    

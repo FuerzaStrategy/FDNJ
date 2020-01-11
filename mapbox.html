@@ -1236,6 +1236,7 @@
 				    hispanic_ratio_old.push(district_old_people[i]*(district_hispanic_old[i]/100))
 			   	    }
 			    
+			    	var Town_pop = countyDataOld['population'];
 			    		
 			    	if(file_name_old == "District 27") {
 					console.log("hi 27")
@@ -1245,7 +1246,7 @@
 					console.log("hi 28")
 				}
 			    	if(file_name_old == "District 29") {
-					console.log("hi 29")
+					var Town_pop = 169143;
 				}
 			    	if(file_name_old == "District 31") {
 					console.log("hi 31")
@@ -1349,12 +1350,13 @@
 			      $('#population_prev_num').html("Total Population: " +(district_old_people.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      $('#voters_prev_num').text("Registered Voters: " + (district_old_voters.reduce((a, b) => a + b, 0)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 			      //}, 10000);
-		            
+		            	
+				
 			    $('#white_prev').text(countyDataOld['white'] + "%")
 	                    $('#voters_prev').text("Registered Voters: " + countyDataOld['voters'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    //$('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    //$('#republican_prev').text(data_from_2000['republican'] + "%")
-	                    $('#population_prev').text("Population: " + countyDataOld['population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+	                    $('#population_prev').text("Population: " + Town_pop.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    $('#african_prev').text(countyDataOld['af'] + "%")
 	                    $('#asian_prev').text(countyDataOld['a'] + "%")
 			    $('#ai_prev').text(countyDataOld['ai'] + "%")

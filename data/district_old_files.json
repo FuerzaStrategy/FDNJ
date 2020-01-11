@@ -543,7 +543,7 @@
 "South Orange": {	"white": "62",	"af": "33.1",	"ai": "0.6",	"a": "4.6",	"haw": "0.2",	"other": "2.5",	"his": "4.9",	 "population": "16964", 	 "voters": "9754"}, 
 "West Caldwell": {	"white": "94.4",	"af": "1",	"ai": "0.1",	"a": "4.2",	"haw": "0.1",	"other": "0.9",	"his": "2.8",	 "population": "11233", 	 "voters": "7374"}, 
 "West Orange": {	"white": "69.5",	"af": "18.9",	"ai": "0.5",	"a": "8.8",	"haw": "0.1",	"other": "5.6",	"his": "10",	 "population": "44943", 	 "voters": "27826"},
-"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "273546", 	 "voters": "4340"}
+"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "11992", 	 "voters": "4340"}
   },
       
 
@@ -551,13 +551,13 @@
 "Belleville": {	"white": "72.6",	"af": "5.9",	"ai": "0.5",	"a": "12",	"haw": "0.2",	"other": "12.8",	"his": "23.7",	 "population": "35928", 	 "voters": "17856"}, 
 "Bloomfield": {	"white": "72.3",	"af": "12.7",	"ai": "0.6",	"a": "9.1",	"haw": "0.2",	"other": "8.5",	"his": "14.5",	 "population": "47683", 	 "voters": "27863"}, 
 "Irvington": {	"white": "9.8",	"af": "85.2",	"ai": "0.6",	"a": "1.4",	"haw": "0.3",	"other": "7.1",	"his": "8.4",	 "population": "60695", 	 "voters": "18793"},
-"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "273546", 	 "voters": "4340"}
+"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "49495", 	 "voters": "4340"}
   },
       
 
 "District 29": { 
 "Hillside": {	"white": "42.9",	"af": "48.3",	"ai": "0.7",	"a": "4",	"haw": "0.2",	"other": "8.5",	"his": "14.5",	 "population": "21747", 	 "voters": "11215"},
-"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "273546", 	 "voters": "4340"}
+"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "169143", 	 "voters": "4340"}
   },
       
 
@@ -581,7 +581,7 @@
 
 "District 31": { 
 "Bayonne": {	"white": "82",	"af": "6.3",	"ai": "0.5",	"a": "4.8",	"haw": "0.2",	"other": "10.4",	"his": "17.8",	 "population": "61842", 	 "voters": "31542"},
-"Jersey City": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3",	 "population": "240055", 	 "voters": "103607"}
+"Jersey City": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3",	 "population": "129074", 	 "voters": "103607"}
   },
       
 
@@ -592,7 +592,7 @@
 "Kearny": {	"white": "79.5",	"af": "4.6",	"ai": "0.6",	"a": "6",	"haw": "0.2",	"other": "13.5",	"his": "27.3",	 "population": "40513", 	 "voters": "16200"}, 
 "North Bergen": {	"white": "74",	"af": "3.6",	"ai": "0.8",	"a": "7.3",	"haw": "0.1",	"other": "21.8",	"his": "57.3",	 "population": "58092", 	 "voters": "28913"}, 
 "Secaucus": {	"white": "80.5",	"af": "4.7",	"ai": "0.2",	"a": "12.5",	"haw": "0",	"other": "4.4",	"his": "12.3",	 "population": "15931", 	 "voters": "9978"},
-"Jersey City": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3",	 "population": "240055", 	 "voters": "103607"}
+"Jersey City": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3",	 "population": "72669", 	 "voters": "103607"}
 },
       
 
@@ -602,7 +602,7 @@
 "Union City": {	"white": "64.2",	"af": "5.3",	"ai": "1.2",	"a": "2.6",	"haw": "0.2",	"other": "33.7",	"his": "82.3",	 "population": "67088", 	 "voters": "27777"}, 
 "Weehawken": {	"white": "76.9",	"af": "4.7",	"ai": "0.6",	"a": "5.2",	"haw": "0.1",	"other": "17.2",	"his": "40.6",	 "population": "13501", 	 "voters": "6584"}, 
 "West New York": {	"white": "66.7",	"af": "4.8",	"ai": "1.1",	"a": "3.4",	"haw": "0.1",	"other": "31.8",	"his": "78.7",	 "population": "45768", 	 "voters": "17218"},
-"Jersey City": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3",	 "population": "240055", 	 "voters": "103607"}
+"Jersey City": {	"white": "37.7",	"af": "30",	"ai": "1",	"a": "17.6",	"haw": "0.3",	"other": "19.6",	"his": "28.3",	 "population": "45989", 	 "voters": "103607"}
 },
 
 "District 34": { 

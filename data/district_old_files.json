@@ -374,7 +374,7 @@
       
 
 "District 21": { 
-"Millburn": {	"white": "89.9",	"af": "1.2",	"ai": "0.1",	"a": "9.1",	"haw": "0.1",	"other": "0.8",	"his": "2",	 "population": "19765", 	 "voters": "25386"}, 
+"Millburn": {	"white": "89.9",	"af": "1.2",	"ai": "0.1",	"a": "9.1",	"haw": "0.1",	"other": "0.8",	"his": "2",	 "population": "19765", 	 "voters": "13405"}, 
 "Chatham Township": {	"white": "94.4",	"af": "0.5",	"ai": "0.2",	"a": "5.4",	"haw": "0",	"other": "0.3",	"his": "2",	 "population": "10086", 	 "voters": "7474"}, 
 "Harding": {	"white": "98.2",	"af": "0.5",	"ai": "0.3",	"a": "1.3",	"haw": "0",	"other": "0.8",	"his": "1.8",	 "population": "3180", 	 "voters": "3034"}, 
 "Long Hill": {	"white": "93.9",	"af": "0.5",	"ai": "0.3",	"a": "5.4",	"haw": "0.1",	"other": "1.1",	"his": "3.5",	 "population": "8777", 	 "voters": "5743"}, 
@@ -533,31 +533,31 @@
 
 "District 27": { 
 "Caldwell": {	"white": "92.1",	"af": "2.6",	"ai": "0.3",	"a": "4.4",	"haw": "0.1",	"other": "1.7",	"his": "4.6",	 "population": "7584", 	 "voters": "4887"}, 
-"City of Orange": {	"white": "14.6",	"af": "78.7",	"ai": "0.9",	"a": "1.6",	"haw": "0.3",	"other": "8.9",	"his": "12.5",	 "population": "32868", 	 "voters": "34495"}, 
-"Essex Fells": {	"white": "98.1",	"af": "0.8",	"ai": "0.4",	"a": "1.7",	"haw": "0",	"other": "0.3",	"his": "1.2",	 "population": "2162", 	 "voters": "4737"}, 
+"City of Orange": {	"white": "14.6",	"af": "78.7",	"ai": "0.9",	"a": "1.6",	"haw": "0.3",	"other": "8.9",	"his": "12.5",	 "population": "32868", 	 "voters": "14754"}, 
+"Essex Fells": {	"white": "98.1",	"af": "0.8",	"ai": "0.4",	"a": "1.7",	"haw": "0",	"other": "0.3",	"his": "1.2",	 "population": "2162", 	 "voters": "1695"}, 
 "Fairfield": {	"white": "96.1",	"af": "0.6",	"ai": "0.3",	"a": "3.1",	"haw": "0",	"other": "0.6",	"his": "3.5",	 "population": "7063", 	 "voters": "4950"}, 
-"Livingston": {	"white": "83.3",	"af": "1.4",	"ai": "0.2",	"a": "15",	"haw": "0.1",	"other": "1",	"his": "2.5",	 "population": "27391", 	 "voters": "14573"}, 
-"Maplewood": {	"white": "60.7",	"af": "35.3",	"ai": "0.6",	"a": "3.6",	"haw": "0.1",	"other": "3.9",	"his": "5.2",	 "population": "23868", 	 "voters": "13405"}, 
-"North Caldwell": {	"white": "80.2",	"af": "14.8",	"ai": "0.2",	"a": "5.1",	"haw": "0",	"other": "0.6",	"his": "2.2",	 "population": "7375", 	 "voters": "17229"}, 
+"Livingston": {	"white": "83.3",	"af": "1.4",	"ai": "0.2",	"a": "15",	"haw": "0.1",	"other": "1",	"his": "2.5",	 "population": "27391", 	 "voters": "18793"}, 
+"Maplewood": {	"white": "60.7",	"af": "35.3",	"ai": "0.6",	"a": "3.6",	"haw": "0.1",	"other": "3.9",	"his": "5.2",	 "population": "23868", 	 "voters": "4737"}, 
+"North Caldwell": {	"white": "80.2",	"af": "14.8",	"ai": "0.2",	"a": "5.1",	"haw": "0",	"other": "0.6",	"his": "2.2",	 "population": "7375", 	 "voters": "4340"}, 
 "Roseland": {	"white": "93.9",	"af": "0.9",	"ai": "0.1",	"a": "5",	"haw": "0",	"other": "0.7",	"his": "2.3",	 "population": "5298", 	 "voters": "4215"}, 
 "South Orange": {	"white": "62",	"af": "33.1",	"ai": "0.6",	"a": "4.6",	"haw": "0.2",	"other": "2.5",	"his": "4.9",	 "population": "16964", 	 "voters": "9754"}, 
 "West Caldwell": {	"white": "94.4",	"af": "1",	"ai": "0.1",	"a": "4.2",	"haw": "0.1",	"other": "0.9",	"his": "2.8",	 "population": "11233", 	 "voters": "7374"}, 
 "West Orange": {	"white": "69.5",	"af": "18.9",	"ai": "0.5",	"a": "8.8",	"haw": "0.1",	"other": "5.6",	"his": "10",	 "population": "44943", 	 "voters": "27826"},
-"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "11992", 	 "voters": "4340"}
+"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "11992", 	 "voters": "130460"}
   },
       
 
 "District 28": { 
 "Belleville": {	"white": "72.6",	"af": "5.9",	"ai": "0.5",	"a": "12",	"haw": "0.2",	"other": "12.8",	"his": "23.7",	 "population": "35928", 	 "voters": "17856"}, 
 "Bloomfield": {	"white": "72.3",	"af": "12.7",	"ai": "0.6",	"a": "9.1",	"haw": "0.2",	"other": "8.5",	"his": "14.5",	 "population": "47683", 	 "voters": "27863"}, 
-"Irvington": {	"white": "9.8",	"af": "85.2",	"ai": "0.6",	"a": "1.4",	"haw": "0.3",	"other": "7.1",	"his": "8.4",	 "population": "60695", 	 "voters": "18793"},
-"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "49495", 	 "voters": "4340"}
+"Irvington": {	"white": "9.8",	"af": "85.2",	"ai": "0.6",	"a": "1.4",	"haw": "0.3",	"other": "7.1",	"his": "8.4",	 "population": "60695", 	 "voters": "27204"},
+"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "49495", 	 "voters": "130460"}
   },
       
 
 "District 29": { 
 "Hillside": {	"white": "42.9",	"af": "48.3",	"ai": "0.7",	"a": "4",	"haw": "0.2",	"other": "8.5",	"his": "14.5",	 "population": "21747", 	 "voters": "11215"},
-"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "169143", 	 "voters": "4340"}
+"Newark": {	"white": "29.4",	"af": "55",	"ai": "0.8",	"a": "1.6",	"haw": "0.2",	"other": "17.6",	"his": "29.5",	 "population": "169143", 	 "voters": "130460"}
   },
       
 
@@ -606,9 +606,9 @@
 },
 
 "District 34": { 
-"East Orange": {	"white": "4.5",	"af": "92.8",	"ai": "0.9",	"a": "0.7",	"haw": "0.3",	"other": "4.9",	"his": "4.7",	 "population": "69824", 	 "voters": "1695"}, 
-"Glen Ridge": {	"white": "90.3",	"af": "5.4",	"ai": "0.3",	"a": "4.1",	"haw": "0",	"other": "1.4",	"his": "3.5",	 "population": "7271", 	 "voters": "27204"}, 
-"Montclair": {	"white": "61.8",	"af": "34.1",	"ai": "0.9",	"a": "3.8",	"haw": "0.1",	"other": "2.7",	"his": "5.1",	 "population": "38977", 	 "voters": "130460"}, 
+"East Orange": {	"white": "4.5",	"af": "92.8",	"ai": "0.9",	"a": "0.7",	"haw": "0.3",	"other": "4.9",	"his": "4.7",	 "population": "69824", 	 "voters": "34495"}, 
+"Glen Ridge": {	"white": "90.3",	"af": "5.4",	"ai": "0.3",	"a": "4.1",	"haw": "0",	"other": "1.4",	"his": "3.5",	 "population": "7271", 	 "voters": "4950"}, 
+"Montclair": {	"white": "61.8",	"af": "34.1",	"ai": "0.9",	"a": "3.8",	"haw": "0.1",	"other": "2.7",	"his": "5.1",	 "population": "38977", 	 "voters": "25386"}, 
 "Clifton": {	"white": "80.3",	"af": "3.3",	"ai": "0.5",	"a": "7.2",	"haw": "0.1",	"other": "13.4",	"his": "19.8",	 "population": "78672", 	 "voters": "38413"}, 
 "Woodland Park": {	"white": "89.5",	"af": "3.4",	"ai": "0.3",	"a": "5.1",	"haw": "0.1",	"other": "5",	"his": "10.1",	 "population": "10987", 	 "voters": "6825"}
   },
@@ -635,7 +635,7 @@
 "Rutherford": {	"white": "83.7",	"af": "3.2",	"ai": "0.4",	"a": "12",	"haw": "0",	"other": "2.8",	"his": "8.6",	 "population": "18110", 	 "voters": "10448"}, 
 "Wallington": {	"white": "89.5",	"af": "3.1",	"ai": "0.3",	"a": "5.4",	"haw": "0",	"other": "4",	"his": "6.7",	 "population": "11583", 	 "voters": "6137"}, 
 "Wood-Ridge": {	"white": "92.2",	"af": "1",	"ai": "0.2",	"a": "5.5",	"haw": "0",	"other": "2.5",	"his": "7.3",	 "population": "7644", 	 "voters": "3888"}, 
-"Nutley": {	"white": "89",	"af": "2",	"ai": "0.2",	"a": "7.5",	"haw": "0.1",	"other": "2.4",	"his": "6.7",	 "population": "27362", 	 "voters": "14754"}, 
+"Nutley": {	"white": "89",	"af": "2",	"ai": "0.2",	"a": "7.5",	"haw": "0.1",	"other": "2.4",	"his": "6.7",	 "population": "27362", 	 "voters": "17229"}, 
 "Passaic": {	"white": "39",	"af": "15.2",	"ai": "1.2",	"a": "6.1",	"haw": "0.2",	"other": "43.5",	"his": "62.5",	 "population": "67861", 	 "voters": "23156"}
   },
       

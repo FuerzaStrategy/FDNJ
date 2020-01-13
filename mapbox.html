@@ -1236,7 +1236,7 @@
 				    hispanic_ratio_old.push(district_old_people[i]*(district_hispanic_old[i]/100))
 			   	    }
 			    
-			    	var Town_pop = countyDataOld['population'];
+			    	/*var Town_pop = countyDataOld['population'];
 			    		
 			    	if(file_name_old == "District 27") {
 					var Town_pop = 11992;
@@ -1274,7 +1274,7 @@
 				}
 			    	if(file_name_old == "District 33") {
 					var Town_pop_curr = 89987;
-				}
+				}*/
 			    
 			    make_array.forEach(function(a, ind){
 				if(looking_names.includes(make_array[ind])){
@@ -1373,7 +1373,7 @@
 	                    $('#voters_prev').text("Registered Voters: " + countyDataOld['voters'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    //$('#democratic_prev').text(data_from_2000['democratic'] + "%")
 	                    //$('#republican_prev').text(data_from_2000['republican'] + "%")
-	                    $('#population_prev').text("Population: " + Town_pop.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+	                    $('#population_prev').text("Population: " + countyDataOld['population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    $('#african_prev').text(countyDataOld['af'] + "%")
 	                    $('#asian_prev').text(countyDataOld['a'] + "%")
 			    $('#ai_prev').text(countyDataOld['ai'] + "%")
@@ -1476,7 +1476,7 @@
 	                    $('#voters_curr').text("Registered Voters: " + countyDataCurr['voters'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    //$('#democratic_curr').text(data_from_2010['democratic'] + "%")
 	                    //$('#republican_curr').text(data_from_2010['republican'] + "%")
-	                    $('#population_curr').text("Population: " + Town_pop_curr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+	                    $('#population_curr').text("Population: " + countyDataCurr['population'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 	                    $('#african_curr').text(countyDataCurr['af'] + "%")
 	                    $('#asian_curr').text(countyDataCurr['a'] + "%")
 	                    $('#hispanic_curr').text(countyDataCurr['his'] + "%")

@@ -1355,10 +1355,11 @@
 			         
 				
 				var dev = (district_old_people.reduce((a, b) => a + b, 0)) - target_pop_old 
+				
 				if ( dev > 0) { dev = "+"+dev }
 				//var dev_curr = target_pop_curr - (district_people_current.reduce((a, b) => a + b, 0))
 				var dev_curr = (district_people_current.reduce((a, b) => a + b, 0)) - target_pop_curr
-				if ( dev_curr > 0) { dev = "+"+dev }
+				if ( dev_curr > 0) { dev_curr = "+"+dev_curr }
 				//console.log(target_pop_old)
 				console.log(dev)
 			      $('#other_city_curr').html("<u><b>Other Towns in Your District</b></u><br><br>" + show_new_array)

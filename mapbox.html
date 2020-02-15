@@ -563,7 +563,7 @@
 
 	<script>
 
-		
+	    var municipality_file = {}
 	    var ZtC = {}
 	    var ZtName = {}
 	    var data_2000 = {}
@@ -630,6 +630,10 @@
 	    var oldSussexData = {}
 	    var oldUnionData = {}
 	    var oldWarrenData = {}
+	    
+	    $.getJSON("data/NJ_Municipalities.geojson", function(data) {
+	        municipality_file = data
+	    })
 	
 	    $.getJSON("data/zip_to_coordinate.json", function(data) {
 	        ZtC = data

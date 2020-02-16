@@ -564,6 +564,9 @@
 	<script>
 
 	    var municipality_file = {}
+	    //var numberOfTowns = 565;
+	    //var polygons_old = Array(numberOfTowns).fill(0)
+	    //var polygons_new = Array(numberOfTowns).fill(0)
 	    var ZtC = {}
 	    var ZtName = {}
 	    var data_2000 = {}
@@ -1005,7 +1008,10 @@
 			 	new_index=25;
 			 }
 			    
-	
+			////////////////////////////////////////////////
+			    
+			    console.log(municipality_file[0][0])
+			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)
 	                    map_prev.setPaintProperty('route-fills-' + currentHighlight_old.toString(), 'fill-opacity', 0.15);

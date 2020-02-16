@@ -1013,8 +1013,11 @@
 			    var features = [];
 			    features = geoObject.features;
 			    console.log(features)*/
+			    var features = []; 
+			    features = municipality_file.features; 
+			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
-			    console.log(municipality_file.features)
+			    console.log(jproperties)
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

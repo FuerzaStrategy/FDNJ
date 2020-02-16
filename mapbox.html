@@ -1018,14 +1018,14 @@
 			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
 			    new_indexx = 0;
-			    for(var ix = 1; ix < 565; ix++) {
-	                    if(TRY_polygons_new[ix] != 0) {
-	                        for(var lx = 0; lx < TRY_polygons_new[ix].length; lx++) {
-	                            var testx = turf.inside(point, TRY_polygons_new[ix][lx]);
+			    for(var ix = 0; ix < 565; ix++) {
+	                    //if(TRY_polygons_new[ix] != 0) {
+	                        for(var lx = 0; lx < municipality_file["features"][ix]["geometry"]["coordinates"].length; lx++) {
+	                            var testx = turf.inside(point, municipality_file["features"][ix]["geometry"]["coordinates"][lx]);
 	                            if(testx)
 	                                new_indexx = ix
 	                        }
-	                    }
+	                    //}
 	                }
 			    /*for(var zy=0; zy < 564; zy++){
 			    	for(var zx=0; zx < municipality_file["features"][zy]["geometry"]["coordinates"].length; zx++){

@@ -1013,16 +1013,16 @@
 			    var features = [];
 			    features = geoObject.features;
 			    console.log(features)*/
-			    var features_json = []; 
+			    /*var features_json = []; 
 			    features_json = municipality_file.features; 
-			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
+			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });*/
 			    
-			    /*var geometry = []; 
-			    geometry = municipality_file.features[0].geometry; 
-			    var jgeometry = municipality_file.geometry.map(function (el) { return el.coordinates; });*/
+			    var geometry = []; 
+			    geometry = municipality_file.features.geometry; 
+			    var jgeometry = municipality_file.geometry.map(function (el) { return el.coordinates; });
 			    
 			    //console.log(jproperties[564]["MUN"])
-			    console.log(jproperties)
+			    console.log(jgeometry)
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

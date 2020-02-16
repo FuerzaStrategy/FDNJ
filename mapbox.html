@@ -564,9 +564,9 @@
 	<script>
 
 	    var municipality_file = {}
-	    //var numberOfTowns = 565;
-	    //var polygons_old = Array(numberOfTowns).fill(0)
-	    //var polygons_new = Array(numberOfTowns).fill(0)
+	    var numberOfTowns = 565;
+	    var TRY_polygons_old = Array(numberOfTowns).fill(0)
+	    var TYR_polygons_new = Array(numberOfTowns).fill(0)
 	    var ZtC = {}
 	    var ZtName = {}
 	    var data_2000 = {}
@@ -1018,6 +1018,16 @@
 			    features_json = municipality_file.features; 
 			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
+			    new_indexx = 0;
+			    for(var ix = 1; ix < 365; ix++) {
+	                    if(TRY_polygons_new[ix] != 0) {
+	                        for(var lx = 0; lx < TRY_polygons_new[ix].length; lx++) {
+	                            var testx = turf.inside(point, TRY_polygons_new[ix][lx]);
+	                            if(testx)
+	                                new_indexx = ix
+	                        }
+	                    }
+	                }
 			    /*for(var zy=0; zy < 564; zy++){
 			    	for(var zx=0; zx < municipality_file["features"][zy]["geometry"]["coordinates"].length; zx++){
 					if 
@@ -1027,7 +1037,7 @@
 			    //console.log(jproperties[564]["MUN"])
 			    console.log(jproperties)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
-			    console.log(point)
+			    console.log(ix)
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

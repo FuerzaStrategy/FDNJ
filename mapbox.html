@@ -1009,8 +1009,12 @@
 			 }
 			    
 			////////////////////////////////////////////////
+			    var geoObject = JSON.parse(municipality_file);
+			    var features = [];
+			    features = geoObject.features;
+			    console.log(features)
 			    
-			    console.log(municipality_file["features"][0])
+			    //console.log(municipality_file["features"][0])
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

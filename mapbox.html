@@ -1008,7 +1008,7 @@
 			    var new_indexx = 0;
 	                for(var ix = 1; ix <= numberOfTowns; ix++) {
 	                    if(TRY_polygons_new[ix] != 0) {
-	                        for(var lx = 0; lx < municipality_file["features"][ix]["geometry"]["coordinates"].length; lx++) {
+	                        for(var lx = 0; lx < municipality_file["features"][ix].length; lx++) {
 	                            var testx = turf.inside(point, TRY_polygons_new[ix][lx]);
 	                            if(testx)
 	                                new_indexx = ix

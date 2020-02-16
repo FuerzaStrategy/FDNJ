@@ -1017,13 +1017,16 @@
 			    features_json = municipality_file.features; 
 			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
-			    /*var geometry = []; 
-			    geometry = municipality_file.geometry; 
-			    var jgeometry = municipality_file.geometry.map(function (el) { return el.coordinates; });*/
+			    /*for(var zy=0; zy < 564; zy++){
+			    	for(var zx=0; zx < municipality_file["features"][zy]["geometry"]["coordinates"].length; zx++){
+					if 
+				}
+			    }*/
 			    
 			    //console.log(jproperties[564]["MUN"])
 			    console.log(jproperties)
-			    console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
+			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
+			    console.log(point)
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

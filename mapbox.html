@@ -1004,6 +1004,18 @@
 	                    }
 	                }
 			    
+						    //console.log(TRY_polygons_new[1])
+			    var new_indexx = 0;
+	                for(var ix = 1; ix <= numberOfTowns; ix++) {
+	                    if(TRY_polygons_new[ix] != 0) {
+	                        for(var lx = 0; lx < TRY_polygons_new[ix].length; lx++) {
+	                            var testx = turf.inside(point, TRY_polygons_new[ix][lx]);
+	                            if(testx)
+	                                new_indexx = ix
+	                        }
+	                    }
+	                }
+			    
 			 if(County == "Morris County" && new_index==0){
 			 	new_index=25;
 			 }
@@ -1018,17 +1030,7 @@
 			    features_json = municipality_file.features; 
 			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
-			    console.log(TRY_polygons_new[1])
-			    var new_indexx = 0;
-	                for(var ix = 1; ix <= numberOfTowns; ix++) {
-	                    if(TRY_polygons_new[ix] != 0) {
-	                        for(var lx = 0; lx < TRY_polygons_new[ix].length; lx++) {
-	                            var testx = turf.inside(point, TRY_polygons_new[ix][lx]);
-	                            if(testx)
-	                                new_indexx = ix
-	                        }
-	                    }
-	                }
+
 			    /*for(var zy=0; zy < 564; zy++){
 			    	for(var zx=0; zx < municipality_file["features"][zy]["geometry"]["coordinates"].length; zx++){
 					if 

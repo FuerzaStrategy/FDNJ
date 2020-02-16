@@ -1018,7 +1018,7 @@
 			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
 			    var geometry = []; 
-			    geometry = municipality_file.geometry; 
+			    geometry = municipality_file.features.geometry; 
 			    var jgeometry = municipality_file.geometry.map(function (el) { return el.coordinates; });
 			    
 			    //console.log(jproperties[564]["MUN"])

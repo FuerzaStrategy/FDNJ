@@ -1027,7 +1027,7 @@
 			 for(var nx=0; nx < 565 ; nx++){
 		  	 	if(jproperties[nx]["COUNTY"] == County){
 					console.log("found county")
-					if (turf.inside(point, jproperties[nx]["geometry"]["coordinates"][0])){
+					if (turf.inside(point, municipality_file["features"][0]["geometry"]["coordinates"][0])){
 						console.log("found coor!")
 					}
 				}

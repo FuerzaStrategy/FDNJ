@@ -1011,7 +1011,7 @@
 			 }
 			    
 			////////////////////////////////////////////////
-			    var point2 = [lon, lat]
+			    //var point2 = [lon, lat]
 			    console.log(new_index)
 			    var features_json = []; 
 			    features_json = municipality_file.features; 
@@ -1020,14 +1020,14 @@
 			    County= County.replace(' County','').toUpperCase();
 			    console.log(County)
 			    console.log(jproperties[0]["COUNTY"])
-			    console.log(point2)
-			    console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
+			    //console.log(point2)
+			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 			    //console.log(TRY_polygons_new)
 			    
 			 for(var nx=0; nx < 565 ; nx++){
 		  	 	if(jproperties[nx]["COUNTY"] == County){
 					console.log("found county")
-					/*if (point2 == municipality_file["features"][nx]["geometry"]["coordinates"][0]){
+					/*if (point == municipality_file["features"][nx]["geometry"]["coordinates"][0]){
 						console.log("found coor!")
 						//console.log(jproperties[nx]["MUN"])
 					}*/
@@ -1066,7 +1066,12 @@
 			    //console.log(jproperties)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 			    //console.log("hi")
-			    console.log(polygons_groupx)
+			    for(var tx=0; tx < polygons_groupx.length; tx++){
+				    if(turf.inside(point, polygons_groupx[tx])){
+					   console.log("found coor!")
+			}
+			    }
+			    console.log(polygons_groupx[0])
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

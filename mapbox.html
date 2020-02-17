@@ -1056,6 +1056,13 @@
 			}*/
 					  // }
 					  // }
+					for(var tx=0; tx < polygons_groupx.length; tx++){
+				    if(turf.inside(point, polygons_groupx[tx])){
+					   console.log("found coor!")
+			}
+			    }
+					
+					
 				}
 			 }
 			
@@ -1066,12 +1073,12 @@
 			    //console.log(jproperties)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 			    //console.log("hi")
-			    for(var tx=0; tx < polygons_groupx.length; tx++){
+			    /*for(var tx=0; tx < polygons_groupx.length; tx++){
 				    if(turf.inside(point, polygons_groupx[tx])){
 					   console.log("found coor!")
 			}
-			    }
-			    console.log(polygons_groupx[0])
+			    }*/
+			    //console.log(polygons_groupx)
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

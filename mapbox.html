@@ -1081,11 +1081,10 @@
 			}
 			    }*/
 			    //console.log(polygons_groupx)
-			    function capitalizeFirstLetter(string) 
-{
-  return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
-}
-			    console.log(capitalizeFirstLetter(townName))
+			    function titleCase(str){
+			   return str.split(' ').map(s => s.charAt(0).toUpperCase() + s.slice(1).toLowerCase()).join(' ');
+			}
+			    console.log(titleCase(townName))
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

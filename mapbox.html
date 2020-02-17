@@ -1004,17 +1004,14 @@
 	                    }
 	                }
 			    
-						    console.log(municipality_file["features"][0]["geometry"]["coordinates"].length)
-			    var new_indexx = 0;
-	                for(var ix = 1; ix <= numberOfTowns; ix++) {
-	                    if(TRY_polygons_new[ix] != 0) {
-	                        for(var lx = 0; lx < municipality_file["features"][ix]["geometry"]["coordinates"].length; lx++) {
-	                            var testx = turf.inside(point, TRY_polygons_new[ix][lx]);
-	                            if(testx)
-	                                new_indexx = ix
-	                        }
-	                    }
-	                }
+						    //console.log(municipality_file["features"][county]["geometry"]["coordinates"])
+			 for(var nx=0; nx < 565 ; nx++){
+		  	 	if(municipality_file["features"][nx]["COUNTY"] == county){
+					if (turf.inside(point, municipality_file["features"][nx]["geometry"]["coordinates"])){
+						console.log("found")
+					}
+				}
+			 }
 			    
 			 if(County == "Morris County" && new_index==0){
 			 	new_index=25;

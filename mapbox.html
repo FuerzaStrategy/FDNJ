@@ -1031,21 +1031,38 @@
 						console.log("found coor!")
 						//console.log(jproperties[nx]["MUN"])
 					}*/
-					for(var lxx = 0; lxx < TRY_polygons_new[nx].length; lxx++) {
+					/*for(var lxx = 0; lxx < TRY_polygons_new[nx].length; lxx++) {
 						//console.log(TRY_polygons_new[nx][lxx])
 					if(turf.inside(point, TRY_polygons_new[nx][lxx])){
-					   console.log("found coor!")
-					   }
-					   }
+					   console.log("found coor!")*/
+		    var coordinatesNewx = municipality_file["features"][nx]["geometry"]["coordinates"]
+	            var polygons_groupx = []
+	            
+	            if(coordinatesNewx.length == 1) {
+	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
+	                
+	            }
+	            else {
+	
+	                for(var l = 0; l < coordinatesNewx.length; l++) {
+	                    polygons_groupx.push( turf.polygon( coordinatesNewx[l], { name: 'poly1'} ) )
+	                }
+	              
+	                
+	            }
+					
+					
+					  // }
+					  // }
 				}
 			 }
 
-			    
+
 			    //console.log(jproperties[564]["MUN"])
 			    //console.log(jproperties)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 			    //console.log("hi")
-			    //console.log(ix)
+			    console.log(polygons_groupx)
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

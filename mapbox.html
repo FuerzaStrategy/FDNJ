@@ -1012,10 +1012,6 @@
 			////////////////////////////////////////////////
 			    var point2 = [lon, lat]
 			    console.log(new_index)
-			    /*var geoObject = JSON.parse(municipality_file);
-			    var features = [];
-			    features = geoObject.features;
-			    console.log(features)*/
 			    var features_json = []; 
 			    features_json = municipality_file.features; 
 			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
@@ -1029,23 +1025,24 @@
 			 for(var nx=0; nx < 565 ; nx++){
 		  	 	if(jproperties[nx]["COUNTY"] == County){
 					console.log("found county")
-					if (point2 == municipality_file["features"][nx]["geometry"]["coordinates"][0]){
+					/*if (point2 == municipality_file["features"][nx]["geometry"]["coordinates"][0]){
 						console.log("found coor!")
 						//console.log(jproperties[nx]["MUN"])
-					}
+					}*/
+					for(var lxx = 0; lxx < TRY_polygons_new[nx].length; l++) {
+					if(turf.inside(point, TRY_polygons_new[nx][lxx]){
+					   console.log("found coor!")
+					   }
+					   }
 				}
 			 }
-			    /*for(var zy=0; zy < 564; zy++){
-			    	for(var zx=0; zx < municipality_file["features"][zy]["geometry"]["coordinates"].length; zx++){
-					if 
-				}
-			    }*/
+
 			    
 			    //console.log(jproperties[564]["MUN"])
 			    //console.log(jproperties)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
-			    console.log("hi")
-			    console.log(ix)
+			    //console.log("hi")
+			    //console.log(ix)
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

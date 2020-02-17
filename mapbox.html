@@ -1006,7 +1006,7 @@
 			    
 						    //console.log(municipality_file["features"][county]["geometry"]["coordinates"])
 			 for(var nx=0; nx < 565 ; nx++){
-		  	 	if(municipality_file["features"][nx]["COUNTY"] == county){
+		  	 	if(municipality_file["features"][nx]["COUNTY"] == County){
 					if (turf.inside(point, municipality_file["features"][nx]["geometry"]["coordinates"])){
 						console.log("found")
 					}

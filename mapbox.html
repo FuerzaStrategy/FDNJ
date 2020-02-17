@@ -1022,7 +1022,7 @@
 			    console.log(jproperties[0]["COUNTY"])
 			    console.log(point2)
 			    console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
-			    console.log(TRY_polygons_new)
+			    //console.log(TRY_polygons_new)
 			    
 			 for(var nx=0; nx < 565 ; nx++){
 		  	 	if(jproperties[nx]["COUNTY"] == County){
@@ -1048,15 +1048,19 @@
 	                    polygons_groupx.push( turf.polygon( coordinatesNewx[l], { name: 'poly1'} ) )
 	                }
 	              
-	                
+	  
 	            }
 					
-					
+					if(turf.inside(point, polygons_groupx)){
+					   console.log("found coor!")
+			}
 					  // }
 					  // }
 				}
 			 }
-
+			
+			    
+			    
 
 			    //console.log(jproperties[564]["MUN"])
 			    //console.log(jproperties)

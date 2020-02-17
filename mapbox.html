@@ -1081,10 +1081,12 @@
 			}
 			    }*/
 			    //console.log(polygons_groupx)
-			    function titleCase(str){
-			   return str.split(' ').map(s => s.charAt(0).toUpperCase() + s.slice(1).toLowerCase()).join(' ');
+			    function titleCase(str) {
+			     return str.replace(/\w\S*/g, function(txt){
+			       return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+			     });
 			}
-			    console.log(titleCase(townName))
+			    townName=(titleCase(townName))
 			///////////////////////////////////////////////
 	
 	                if(currentHighlight_old > 0)

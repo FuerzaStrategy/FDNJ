@@ -1010,6 +1010,7 @@
 			 }
 			    
 			////////////////////////////////////////////////
+			    var point2 = [lon, lat]
 			    console.log(new_index)
 			    /*var geoObject = JSON.parse(municipality_file);
 			    var features = [];
@@ -1022,13 +1023,13 @@
 			    County= County.replace(' County','').toUpperCase();
 			    console.log(County)
 			    console.log(jproperties[0]["COUNTY"])
-			    console.log(point)
+			    console.log(point2)
 			    console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 						    
 			 for(var nx=0; nx < 565 ; nx++){
 		  	 	if(jproperties[nx]["COUNTY"] == County){
 					console.log("found county")
-					if (point == municipality_file["features"][nx]["geometry"]["coordinates"][0]){
+					if (point2 == municipality_file["features"][nx]["geometry"]["coordinates"][0]){
 						console.log("found coor!")
 						//console.log(jproperties[nx]["MUN"])
 					}

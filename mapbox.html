@@ -997,7 +997,6 @@
 	                for(var i = 1; i <= new_n; i++) {
 	                    if(polygons_new[i] != 0) {
 	                        for(var l = 0; l < polygons_new[i].length; l++) {
-					console.log(polygons_new[i][l])
 	                            var test = turf.inside(point, polygons_new[i][l]);
 	                            if(test)
 	                                new_index = i
@@ -1031,6 +1030,7 @@
 						//console.log(jproperties[nx]["MUN"])
 					}*/
 					for(var lxx = 0; lxx < TRY_polygons_new[nx].length; lxx++) {
+						console.log(TRY_polygons_new[nx][lxx])
 					if(turf.inside(point, TRY_polygons_new[nx][lxx])){
 					   console.log("found coor!")
 					   }

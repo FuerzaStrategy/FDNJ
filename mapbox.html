@@ -1022,12 +1022,13 @@
 			    County= County.replace(' County','').toUpperCase();
 			    console.log(County)
 			    console.log(jproperties[0]["COUNTY"])
+			    console.log(jproperties[0]["geometry"]["coordinates"][0])
 						    //console.log(municipality_file["features"][county]["geometry"]["coordinates"])
 			 for(var nx=0; nx < 565 ; nx++){
 		  	 	if(jproperties[nx]["COUNTY"] == County){
-					console.log("hi")
+					console.log("found county")
 					if (turf.inside(point, jproperties[nx]["geometry"]["coordinates"])){
-						console.log("found")
+						console.log("found coor!")
 					}
 				}
 			 }

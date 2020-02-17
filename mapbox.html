@@ -1003,18 +1003,7 @@
 	                        }
 	                    }
 	                }
-			    County= County.replace(' County','').toUpperCase();
-			    console.log(County)
-			    console.log(municipality_file["features"][0]["COUNTY"])
-						    //console.log(municipality_file["features"][county]["geometry"]["coordinates"])
-			 for(var nx=0; nx < 565 ; nx++){
-		  	 	if(municipality_file["features"][nx]["COUNTY"] == County){
-					console.log("hi")
-					if (turf.inside(point, /*municipality_file["features"][nx]["geometry"]["coordinates"]*/TRY_polygons_new[i][1])){
-						console.log("found")
-					}
-				}
-			 }
+
 			    
 			 if(County == "Morris County" && new_index==0){
 			 	new_index=25;
@@ -1030,7 +1019,18 @@
 			    features_json = municipality_file.features; 
 			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
-
+			    County= County.replace(' County','').toUpperCase();
+			    console.log(County)
+			    console.log(jproperties[0]["COUNTY"])
+						    //console.log(municipality_file["features"][county]["geometry"]["coordinates"])
+			 for(var nx=0; nx < 565 ; nx++){
+		  	 	if(jproperties[nx]["COUNTY"] == County){
+					console.log("hi")
+					if (turf.inside(point, jproperties[nx]["geometry"]["coordinates"])){
+						console.log("found")
+					}
+				}
+			 }
 			    /*for(var zy=0; zy < 564; zy++){
 			    	for(var zx=0; zx < municipality_file["features"][zy]["geometry"]["coordinates"].length; zx++){
 					if 

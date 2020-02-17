@@ -993,6 +993,7 @@
 	                        }
 	                    }
 	                }
+			    console.log(polygons_new)
 	                var new_index = 0;
 	                for(var i = 1; i <= new_n; i++) {
 	                    if(polygons_new[i] != 0) {
@@ -1021,7 +1022,8 @@
 			    console.log(jproperties[0]["COUNTY"])
 			    console.log(point2)
 			    console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
-						    
+			    console.log(TRY_polygons_new)
+			    
 			 for(var nx=0; nx < 565 ; nx++){
 		  	 	if(jproperties[nx]["COUNTY"] == County){
 					console.log("found county")
@@ -1030,7 +1032,7 @@
 						//console.log(jproperties[nx]["MUN"])
 					}*/
 					for(var lxx = 0; lxx < TRY_polygons_new[nx].length; lxx++) {
-						console.log(TRY_polygons_new[nx][lxx])
+						//console.log(TRY_polygons_new[nx][lxx])
 					if(turf.inside(point, TRY_polygons_new[nx][lxx])){
 					   console.log("found coor!")
 					   }

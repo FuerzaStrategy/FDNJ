@@ -1020,7 +1020,7 @@
 			    County= County.replace(' County','').toUpperCase();
 			    console.log(County)
 			    //console.log(jproperties[0]["COUNTY"])
-			    //console.log(point2)
+			    console.log(point)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 			    //console.log(TRY_polygons_new)
 			    
@@ -1048,8 +1048,8 @@
 	                }
 	              
 	  
-	            //}
-					
+	            }
+				console.log(polygons_groupx)	
 	
 					for(var tx=0; tx < polygons_groupx.length; tx++){
 				    if(turf.inside(point, polygons_groupx[tx])){

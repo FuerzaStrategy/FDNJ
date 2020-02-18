@@ -1043,9 +1043,9 @@
 	                
 	            }
 	            else {*/
-	
+			if( coordinatesNewx.length == 1 || coordinatesNewx.length != 1){
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
-	                    polygons_groupx.push( turf.polygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
+	                    polygons_groupx.push( turf.polygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )}
 	                }
 	              
 	  

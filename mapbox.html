@@ -1038,24 +1038,20 @@
 		    var coordinatesNewx = municipality_file["features"][nx]["geometry"]["coordinates"]
 	            var polygons_groupx = []
 	            
-	            if(coordinatesNewx.length == 1) {
+	            /*if(coordinatesNewx.length == 1) {
 	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
 	                
 	            }
-	            else {
+	            else {*/
 	
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
 	                    polygons_groupx.push( turf.polygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
 	                }
 	              
 	  
-	            }
+	            //}
 					
-					/*if(turf.inside(point, polygons_groupx)){
-					   console.log("found coor!")
-			}*/
-					  // }
-					  // }
+	
 					for(var tx=0; tx < polygons_groupx.length; tx++){
 				    if(turf.inside(point, polygons_groupx[tx])){
 					   console.log("found coor!")

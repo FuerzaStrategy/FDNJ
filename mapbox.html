@@ -1012,7 +1012,7 @@
 			 }
 			    
 			////////////////////////////////////////////////
-			    var townName1;
+			    /*var townName1;
 			    //var point2 = [lon, lat]
 			    console.log(new_index)
 			    var features_json = []; 
@@ -1029,24 +1029,16 @@
 			 for(var nx=0; nx < 565 ; nx++){
 		  	 	if(jproperties[nx]["COUNTY"] == County_lookup){
 					console.log("found county")
-					/*if (point == municipality_file["features"][nx]["geometry"]["coordinates"][0]){
-						console.log("found coor!")
-						//console.log(jproperties[nx]["MUN"])
-					}*/
-					/*for(var lxx = 0; lxx < TRY_polygons_new[nx].length; lxx++) {
-						//console.log(TRY_polygons_new[nx][lxx])
-					if(turf.inside(point, TRY_polygons_new[nx][lxx])){
-					   console.log("found coor!")*/
 		    var coordinatesNewx = municipality_file["features"][nx]["geometry"]["coordinates"]
 	            var polygons_groupx = []
 	            
 	            if(coordinatesNewx.length == 1) {
-	                polygons_groupx.push( turf.multiPolygon( coordinatesNewx, { name: 'poly1'} ))
+	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
 	                //polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx)));
 	            }
 	            else {
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
-	                    polygons_groupx.push( turf.multiPolygon( coordinatesNewx[lxxx], { name: 'poly1'}) )
+	                    polygons_groupx.push( turf.polygon( coordinatesNewx[lxxx], { name: 'poly1'}) )
 				//polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx[lxxx])));
 	                }
 	              
@@ -1065,20 +1057,15 @@
 					
 					
 				}
-			 }
+			 }*/
 			
 			    
 			    
 
 			    //console.log(jproperties[564]["MUN"])
-			    console.log(townName1)
+			    //console.log(townName1)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 			    //console.log("hi")
-			    /*for(var tx=0; tx < polygons_groupx.length; tx++){
-				    if(turf.inside(point, polygons_groupx[tx])){
-					   console.log("found coor!")
-			}
-			    }*/
 			    //console.log(polygons_groupx)
 			    function titleCase(str) {
 			     return str.replace(/\w\S*/g, function(txt){

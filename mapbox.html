@@ -1011,6 +1011,7 @@
 			 }
 			    
 			////////////////////////////////////////////////
+			    var townName1;
 			    //var point2 = [lon, lat]
 			    console.log(new_index)
 			    var features_json = []; 
@@ -1056,7 +1057,7 @@
 				    if(turf.inside(point, polygons_groupx[tx])){
 					   console.log("found coor!")
 					    //console.log(jproperties[nx]["MUN"])
-					    townName=jproperties[nx]["MUN_LABEL"];
+					    townName1=jproperties[nx]["MUN_LABEL"];
 			}
 			    }
 					
@@ -1068,7 +1069,7 @@
 			    
 
 			    //console.log(jproperties[564]["MUN"])
-			    console.log(townName)
+			    console.log(townName1)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 			    //console.log("hi")
 			    /*for(var tx=0; tx < polygons_groupx.length; tx++){

@@ -1040,11 +1040,12 @@
 	            
 	            if(coordinatesNewx.length == 1) {
 	                polygons_groupx.push( turf.multiPolygon( coordinatesNewx, { name: 'poly1'} ))
-	                
+	                console.log(coordinatesNewx.length)
 	            }
 	            else {
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length-1; lxxx++) {
 	                    polygons_groupx.push( turf.multiPolygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
+				console.log(coordinatesNewx.length)
 	                }
 	              for(var tx=0; tx < polygons_groupx.length; tx++){
 				    if(turf.inside(point, polygons_groupx[tx])){

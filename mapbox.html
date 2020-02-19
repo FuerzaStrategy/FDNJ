@@ -1047,7 +1047,7 @@
 	                    polygons_groupx.push( turf.multiPolygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
 	                }
 	              for(var tx=0; tx < polygons_groupx.length; tx++){
-				    if(turf.inside(point, polygons_groupx[0])){
+				    if(turf.inside(point, polygons_groupx[tx])){
 					   console.log("found coor!")
 					    //console.log(jproperties[nx]["MUN"])
 					    townName=jproperties[nx]["MUN_LABEL"];

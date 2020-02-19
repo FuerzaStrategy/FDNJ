@@ -1039,12 +1039,12 @@
 	            var polygons_groupx = []
 	            
 	            if(coordinatesNewx.length == 1) {
-	                polygons_groupx.push( turf.multiPolygon( coordinatesNewx, { name: 'poly1'} ))
+	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
 	                
 	            }
 	            else {
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
-	                    polygons_groupx.push( turf.multiPolygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
+	                    polygons_groupx.push( turf.polygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
 	                }
 	              
 	  

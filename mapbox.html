@@ -1039,12 +1039,12 @@
 	            var polygons_groupx = []
 	            
 	            if(coordinatesNewx.length == 1) {
-	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
+	                polygons_groupx.push( turf.MultiPolygon( coordinatesNewx, { name: 'poly1'} ))
 	                
 	            }
 	            else {
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
-	                    polygons_groupx.push( turf.polygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
+	                    polygons_groupx.push( turf.MultiPolygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
 	                }
 	              for(var tx=0; tx < polygons_groupx.length; tx++){
 				    if(turf.inside(point, polygons_groupx[tx])){

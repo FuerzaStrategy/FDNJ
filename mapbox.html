@@ -1043,10 +1043,10 @@
 	                
 	            }
 	            else {
-	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
+	                for(var lxxx = 0; lxxx < (coordinatesNewx.length)-1; lxxx++) {
 	                    polygons_groupx.push( turf.multiPolygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
 	                }
-	              for(var tx=0; tx < polygons_groupx.length; tx++){
+	              for(var tx=0; tx < (polygons_groupx.length)-1; tx++){
 				    if(turf.inside(point, polygons_groupx[tx])){
 					   console.log("found coor!")
 					    //console.log(jproperties[nx]["MUN"])

@@ -1005,6 +1005,16 @@
 	                        }
 	                    }
 	                }
+			    
+			    for(var i = 1; i <= 564; i++) {
+	                    //if(polygons_new_TRY[i] != 0) {
+	                        for(var l = 0; l < polygons_new_TRY[i].length; l++) {
+	                            var test = turf.inside(point, polygons_new_TRY[i][l]);
+	                            if(test)
+	                                console.log("found coor!")
+	                        }
+	                   // }
+	                }
 
 			    
 			 if(County == "Morris County" && new_index==0){
@@ -1060,7 +1070,33 @@
 			 }*/
 			
 			    
-			    
+	  $.getJSON("data/NJ_Municipalities.geojson", function(json) {
+	        municipality_file = json
+	    });
+	var County_lookup= County.replace(' County','').toUpperCase();
+	    for(var nx = 0; nx <= 564; nx++) {
+		    if(jproperties[nx]["COUNTY"] == County_lookup){
+	        //$.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson", function(json_old) {
+	            //var id = json_old["features"][0]["properties"]["ID"]
+	            //LegislativeDataPast_Districts[id] = json_old
+	            //var coordinates = json_old["features"][0]["geometry"]["coordinates"]
+		    var coordinatesNewx = municipality_file["features"][nx]["geometry"]["coordinates"]
+	            var polygons_groupx = []
+	            if(coordinatesNewx.length == 1 ) {
+	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
+	                polygons_old_TRY[nx] = polygons_groupx
+	            }
+	            else {
+	
+	                for(var nk = 0; nk < coordinatesNewx.length; nk++) {
+	                    polygons_groupx.push( turf.polygon( coordinatesNewx[nk], { name: 'poly1'} ) )
+	                }
+	                polygons_old_TRY[nx] = polygons_groupx
+	                
+	            }
+	        //});
+	    }
+	    }
 
 			    //console.log(jproperties[564]["MUN"])
 			    //console.log(townName1)

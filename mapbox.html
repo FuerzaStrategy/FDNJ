@@ -1046,16 +1046,20 @@
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
 	                    polygons_groupx.push( turf.polygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
 	                }
-	              
-	  
-	            }
-					
-	
-					for(var tx=0; tx < polygons_groupx.length; tx++){
+	              for(var tx=0; tx < polygons_groupx.length; tx++){
 				    if(turf.inside(point, polygons_groupx[tx])){
 					   console.log("found coor!")
 					    //console.log(jproperties[nx]["MUN"])
 					    townName=jproperties[nx]["MUN_LABEL"];
+	  
+	            }
+					
+	
+					/*for(var tx=0; tx < polygons_groupx.length; tx++){
+				    if(turf.inside(point, polygons_groupx[tx])){
+					   console.log("found coor!")
+					    //console.log(jproperties[nx]["MUN"])
+					    townName=jproperties[nx]["MUN_LABEL"];*/
 			}
 			    }
 					

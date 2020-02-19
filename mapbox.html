@@ -1047,20 +1047,16 @@
 	                    polygons_groupx.push( turf.multiPolygon( coordinatesNewx[lxxx], { name: 'poly1'} ) )
 				//console.log(coordinatesNewx.length)
 	                }
-	              for(var tx=0; tx < polygons_groupx.length; tx++){
-				    if(turf.inside(point, polygons_groupx[tx])){
-					   console.log("found coor!")
-					    console.log(jproperties[nx]["MUN"])
-					    var townName1=jproperties[nx]["MUN_LABEL"];
+	              
 	  
 	            }
 					
 	
-					/*for(var tx=0; tx < polygons_groupx.length; tx++){
+					for(var tx=0; tx < polygons_groupx.length; tx++){
 				    if(turf.inside(point, polygons_groupx[tx])){
 					   console.log("found coor!")
 					    //console.log(jproperties[nx]["MUN"])
-					    townName=jproperties[nx]["MUN_LABEL"];*/
+					    townName=jproperties[nx]["MUN_LABEL"];
 			}
 			    }
 					
@@ -1072,7 +1068,7 @@
 			    
 
 			    //console.log(jproperties[564]["MUN"])
-			    console.log(townName1)
+			    console.log(townName)
 			    //console.log(municipality_file["features"][0]["geometry"]["coordinates"][0])
 			    //console.log("hi")
 			    /*for(var tx=0; tx < polygons_groupx.length; tx++){

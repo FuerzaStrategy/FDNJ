@@ -1041,12 +1041,12 @@
 	            var polygons_groupx = []
 	            
 	            if(coordinatesNewx.length == 1) {
-	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
+	                polygons_groupx.push( turf./*polygon*/lineString( coordinatesNewx, { name: 'poly1'} ))
 	                //polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx)));
 	            }
 	            else {
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
-	                    polygons_groupx.push( turf./*polygon*/lineString( coordinatesNewx[lxxx]/*, { name: 'poly1'}*/ ) )
+	                    polygons_groupx.push( turf./*polygon*/lineString( coordinatesNewx[lxxx], { name: 'poly1'}) )
 				//polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx[lxxx])));
 	                }
 	              

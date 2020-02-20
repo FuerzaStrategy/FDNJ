@@ -1048,15 +1048,17 @@
 	            }
 
 
-	
+				var txxx;
 				for(var tx=0; tx < polygons_groupx.length; tx++){
 				    //if(turf.inside(point, polygons_groupx[tx])){
 				    if(turf.pointsWithinPolygon(point, polygons_groupx[tx])){
 					   console.log("found coor!")
+					    var txxx = 1;
 					    //console.log(jproperties[nx]["MUN"])
 					    townName1=jproperties[nx]["MUN_LABEL"];
-					    break;
+					    
 			}
+					if(txxx===1){break;}
 			    }
 					
 					

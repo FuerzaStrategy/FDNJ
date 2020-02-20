@@ -1049,8 +1049,8 @@
 
 
 	
-					//for(var tx=0; tx < polygons_groupx.length; tx++){
-				    if(turf.inside(point, polygons_groupx/*[tx]*/)){
+				for(var tx=0; tx < polygons_groupx.length; tx++){
+				    if(turf.inside(point, polygons_groupx[tx])){
 				    //if(turf.pointsWithinPolygon(point, polygons_groupx)){
 					   console.log("found coor!")
 					    //console.log(jproperties[nx]["MUN"])

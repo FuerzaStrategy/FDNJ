@@ -1068,14 +1068,16 @@
 					
 				}
 			 }*/
-			
+			var features_json = []; 
+			    features_json = municipality_file.features; 
+			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
 	  $.getJSON("data/NJ_Municipalities.geojson", function(json) {
 	        municipality_file = json
 	    });
 	var County_lookup= County.replace(' County','').toUpperCase();
 	    for(var nx = 0; nx <= 564; nx++) {
-		    if(municipality_file["features"][nx]["COUNTY"] == County_lookup){
+		    if(jproperties[nx]["COUNTY"] == County_lookup == County_lookup){
 	        //$.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson", function(json_old) {
 	            //var id = json_old["features"][0]["properties"]["ID"]
 	            //LegislativeDataPast_Districts[id] = json_old

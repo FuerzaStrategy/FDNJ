@@ -1006,15 +1006,7 @@
 	                    }
 	                }
 			    
-			    for(var i = 1; i <= 564; i++) {
-	                    //if(polygons_new_TRY[i] != 0) {
-	                        for(var l = 0; l < polygons_new_TRY.length; l++) {
-	                            var test = turf.inside(point, polygons_new_TRY[l]);
-	                            if(test)
-	                                console.log("found coor! FIRST")
-	                        }
-	                   // }
-	                }
+
 
 			    
 			 if(County == "Morris County" && new_index==0){
@@ -1043,8 +1035,7 @@
 	            var polygons_groupx = []
 	            
 	            if(coordinatesNewx.length == 1) {
-	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
-	                polygons_old_TRY = polygons_groupx
+	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))    
 			//polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx)));
 	            }
 	            else {
@@ -1053,7 +1044,7 @@
 				//polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx[lxxx])));
 	                }
 	              
-	  		polygons_old_TRY = polygons_groupx
+	  		
 	            }
 
 

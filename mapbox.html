@@ -1075,7 +1075,7 @@
 	    });
 	var County_lookup= County.replace(' County','').toUpperCase();
 	    for(var nx = 0; nx <= 564; nx++) {
-		    if(jproperties[nx]["COUNTY"] == County_lookup){
+		    if(municipality_file["features"][nx]["COUNTY"] == County_lookup){
 	        //$.getJSON("data/NJ_Legislative_Old/District_" + i.toString() + ".geojson", function(json_old) {
 	            //var id = json_old["features"][0]["properties"]["ID"]
 	            //LegislativeDataPast_Districts[id] = json_old

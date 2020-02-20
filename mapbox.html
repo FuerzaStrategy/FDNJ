@@ -1008,10 +1008,10 @@
 			    
 			    for(var i = 1; i <= 564; i++) {
 	                    //if(polygons_new_TRY[i] != 0) {
-	                        for(var l = 0; l < polygons_new_TRY[i].length; l++) {
-	                            var test = turf.inside(point, polygons_new_TRY[i][l]);
+	                        for(var l = 0; l < polygons_new_TRY.length; l++) {
+	                            var test = turf.inside(point, polygons_new_TRY[l]);
 	                            if(test)
-	                                console.log("found coor!")
+	                                console.log("found coor! FIRST")
 	                        }
 	                   // }
 	                }
@@ -1022,7 +1022,7 @@
 			 }
 			    
 			////////////////////////////////////////////////
-			    /*var townName1;
+			    var townName1;
 			    //var point2 = [lon, lat]
 			    console.log(new_index)
 			    var features_json = []; 
@@ -1044,7 +1044,8 @@
 	            
 	            if(coordinatesNewx.length == 1) {
 	                polygons_groupx.push( turf.polygon( coordinatesNewx, { name: 'poly1'} ))
-	                //polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx)));
+	                polygons_old_TRY = polygons_groupx
+			//polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx)));
 	            }
 	            else {
 	                for(var lxxx = 0; lxxx < coordinatesNewx.length; lxxx++) {
@@ -1052,7 +1053,7 @@
 				//polygons_groupx.push(turf.lineToPolygon(turf.lineString(coordinatesNewx[lxxx])));
 	                }
 	              
-	  
+	  		polygons_old_TRY = polygons_groupx
 	            }
 
 
@@ -1067,8 +1068,8 @@
 					
 					
 				}
-			 }*/
-			var features_json = []; 
+			 }
+			/*var features_json = []; 
 			    features_json = municipality_file.features; 
 			    var jproperties = municipality_file.features.map(function (el) { return el.properties; });
 			    
@@ -1099,7 +1100,7 @@
 	            }
 	        //});
 	    }
-	   // }
+	   // }*/
 
 			    //console.log(jproperties[564]["MUN"])
 			    //console.log(townName1)
